@@ -8,15 +8,23 @@ public class CharacterView : MonoBehaviour {
 	float _x;
 	Vector3 lastPos ;
 
+	void Start()
+	{
+		Events.OnFloorClicked += OnFloorClicked;
+	}
+
+	void OnFloorClicked(Vector3 pos)
+	{
+		if (pos.x < transform.localPosition.x)
+			transform.localScale = new Vector3 (-1, 1, 1);
+		else
+			transform.localScale = new Vector3 (1, 1, 1);
+	}
+
 	void Update () {
 		Vector3 newPos = target.transform.localPosition;
 		if (lastPos == newPos)
 			return;
-
-		if (newPos.x < lastPos.x)
-			transform.localScale = new Vector3 (-1, 1, 1);
-		else
-			transform.localScale = new Vector3 (1, 1, 1);
 		lastPos = newPos;
 		transform.localPosition = newPos;
 	}

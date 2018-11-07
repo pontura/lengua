@@ -19,6 +19,7 @@ public class CharacterAnimations : MonoBehaviour {
 	{
 		GameObject go = Instantiate (characterAnim_to_instantiate);
 		go.transform.SetParent (container);
+		go.transform.localEulerAngles = Vector3.zero;
 		anim = go.GetComponent<Animator> ();
 		Idle ();
 	}
