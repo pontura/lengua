@@ -20,16 +20,20 @@ public class CharacterAnimations : MonoBehaviour {
 		GameObject go = Instantiate (characterAnim_to_instantiate);
 		go.transform.SetParent (container);
 		go.transform.localEulerAngles = Vector3.zero;
+		go.transform.localPosition = Vector3.zero;
 		anim = go.GetComponent<Animator> ();
 		Idle ();
 	}
 	public void Idle () {
-		PlayAnim ("pungaTemplate");
+		PlayAnim ("idle");
 		state = states.IDLE;
 	}
 	public void Walk () {
-		PlayAnim ("pungaRun");
+		PlayAnim ("walk");
 		state = states.WALK;
+	}
+	public void Use () {
+		PlayAnim ("use");
 	}
 	public void Enter () {
 		state = states.ENTER;

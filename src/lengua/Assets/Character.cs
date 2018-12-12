@@ -6,9 +6,7 @@ public class Character : MonoBehaviour {
 
 	public states state;
 	public enum states{
-		PLAYING,
-		OPENING_FRUIT_NINJA,
-		ENTERING_DOOR
+		PLAYING
 	}
 	public GameObject target;
 
@@ -58,19 +56,8 @@ public class Character : MonoBehaviour {
 //			state = states.ENTERING_DOOR;
 //		}
 	}
-	IEnumerator EnterMinigame()
-	{
-		anim.Enter ();
-		yield return new WaitForSeconds (1.25f);
-		Data.Instance.LoadScene (nextScene);
-	}
 	void OnFloorClicked (Vector3 pos) {
-		
-		if (state == states.ENTERING_DOOR)
-			return;
-		else if (state == states.OPENING_FRUIT_NINJA)
-			state = states.PLAYING;
-		
+		print ("OnFloorClicked");
 		target.transform.position = pos;
 		LookAtTarget (target);
 		Vector3 rot = transform.localEulerAngles;
@@ -87,18 +74,7 @@ public class Character : MonoBehaviour {
 	}
 	void OnCharacterStopWalking()
 	{
-		if (selectedInteractiveObject != null) {
-			if (state == states.OPENING_FRUIT_NINJA) {
-				LookAtTarget (selectedInteractiveObject.transform.gameObject);
-			}
-		}
-
-		selectedInteractiveObject = null;
-		if (state == states.ENTERING_DOOR) {
-			StartCoroutine (EnterMinigame ());
-			return;
-		}		
-
+		print ("OnCharacterStopWalking");
 		anim.Idle ();
 	}
 }
