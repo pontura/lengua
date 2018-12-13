@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class InventaryUI : MonoBehaviour {
 	
-	public GameObject panel;
+	public Button inventaryButton;
 	public Text qty;
 	public GameObject openedPanel;
 	public Transform container;
@@ -13,6 +13,7 @@ public class InventaryUI : MonoBehaviour {
 	bool isOpen;
 
 	void Start () {
+		inventaryButton.interactable = false;
 		Close ();
 		Loop();
 		Events.InventoryButtonClicked += InventoryButtonClicked;
@@ -34,9 +35,9 @@ public class InventaryUI : MonoBehaviour {
 	void Loop () {
 		int totalItems = Data.Instance.inventary.inventary.Count;
 		if (totalItems == 0)
-			panel.SetActive (false);
+			inventaryButton.interactable = false;
 		else {
-			panel.SetActive (true);
+			inventaryButton.interactable = true;
 			qty.text = totalItems.ToString ();
 		}
 		Invoke ("Loop", 1);
