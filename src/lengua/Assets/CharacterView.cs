@@ -15,7 +15,6 @@ public class CharacterView : MonoBehaviour {
 
 	void Start()
 	{
-		Events.OnFloorClicked += OnFloorClicked;
 		characterAnimations = Instantiate (characterAnim_to_instantiate);
 		characterAnimations.transform.SetParent (container);
 		characterAnimations.transform.localEulerAngles = Vector3.zero;
@@ -23,7 +22,7 @@ public class CharacterView : MonoBehaviour {
 		characterAnimations.Idle ();
 	}
 
-	void OnFloorClicked(Vector3 pos)
+	public void LookTo(Vector3 pos)
 	{
 		if (pos.x < transform.localPosition.x)
 			transform.localScale = new Vector3 (-1, 1, 1);

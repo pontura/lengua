@@ -5,20 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class Data : MonoBehaviour
 {
-
-    public bool isArcade;
-
-    const string PREFAB_PATH = "Data";
-    
+	
+    const string PREFAB_PATH = "Data";    
     static Data mInstance = null;
-
-
-	public enum minigamesScenes
-	{
-		Figuras,
-		Combinatorias,
-		Pociones
-	}
+	[HideInInspector]
+	public InteractiveObjectsTexts interactiveObjectsTexts;
+	[HideInInspector]
+	public GameProgress gameProgress;
 
 	public static Data Instance
     {
@@ -58,27 +51,15 @@ public class Data : MonoBehaviour
             Destroy(this.gameObject);
             return;
         }
-        if(isArcade)
-            Cursor.visible = false;
 
         DontDestroyOnLoad(this.gameObject);
-
 	
 		Scene actual = SceneManager.GetActiveScene ();
 		currentLevelIndex = actual.buildIndex;
 		currentLevel = actual.name;
 
-    }
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Alpha1))
-        {
-            //Application.Quit();
-			SceneManager.LoadScene(0);
-		}else if(Input.GetKeyDown(KeyCode.Alpha2))
-		{
-			//Application.Quit();
-			SceneManager.LoadScene(1);
-		}
+		interactiveObjectsTexts = GetComponent<InteractiveObjectsTexts> ();
+		gameProgress = GetComponent<GameProgress> ();
+
     }
 }

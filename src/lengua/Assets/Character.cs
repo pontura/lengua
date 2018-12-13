@@ -23,40 +23,27 @@ public class Character : MonoBehaviour {
 
 		Events.OnFloorClicked += OnFloorClicked;
 		Events.OnCharacterStopWalking += OnCharacterStopWalking;
-		Events.OnCharacterHitInteractiveObject += OnCharacterHitInteractiveObject;
+		Events.OnCharacterWalkToInteractiveObject += OnCharacterWalkToInteractiveObject;
 	}
 	void OnDestroy () {
 		Events.OnFloorClicked -= OnFloorClicked;
 		Events.OnCharacterStopWalking -= OnCharacterStopWalking;
-		Events.OnCharacterHitInteractiveObject -= OnCharacterHitInteractiveObject;
+		Events.OnCharacterWalkToInteractiveObject -= OnCharacterWalkToInteractiveObject;
 	}
-	void OnCharacterHitInteractiveObject(InteractiveObject io)
+	void OnCharacterWalkToInteractiveObject(InteractiveObject io, Vector3 offset)
 	{
 		if (state != states.PLAYING)
-			return;
-//		
-//		Door door = io.GetComponent<Door> ();
-//
-//		if (door == null || door.state == Door.states.UNAVAILABLE)
-//			return;
-//		
-//		if (door.state == Door.states.CLOSED) {			
-//			selectedInteractiveObject = io;
-//			Vector3 newPos = io.transform.localPosition;
-//			newPos.z -= 1.5f;
-//			OnFloorClicked (newPos);
-//			state = states.OPENING_FRUIT_NINJA;
-//		} else {			
-//			selectedInteractiveObject = io;
-//			Door d = selectedInteractiveObject as Door;
-//			nextScene = d.minigame.ToString ();
-//			Vector3 newPos = io.transform.localPosition;
-//			newPos.z -= 0.35f;
-//			OnFloorClicked (newPos);
-//			state = states.ENTERING_DOOR;
-//		}
+			return;		
+		
+		selectedInteractiveObject = io;
+		WaltoTo (io.transform.localPosition + offset);
 	}
 	void OnFloorClicked (Vector3 pos) {
+		selectedInteractiveObject = null;
+		WaltoTo (pos);
+	}
+	void WaltoTo(Vector3 pos)
+	{
 		target.transform.position = pos;
 		LookAtTarget (target);
 		Vector3 rot = transform.localEulerAngles;
@@ -70,10 +57,14 @@ public class Character : MonoBehaviour {
 		Vector3 pos = lookAtTarget.transform.localPosition;
 		pos.y = transform.localPosition.y;
 		transform.LookAt (pos);
+		view.LookTo (pos);
 	}
 	void OnCharacterStopWalking()
 	{
-		print ("OnCharacterStopWalking");
+		if (selectedInteractiveObject) {
+			LookAtTarget (selectedInteractiveObject.gameObject);
+			Events.OnCharacterReachInteractiveObject (selectedInteractiveObject);
+		}
 		view.characterAnimations.Idle ();
 	}
 }
