@@ -4,25 +4,14 @@ using UnityEngine;
 
 public class CharacterAnimations : MonoBehaviour {
 	
-	public GameObject characterAnim_to_instantiate;
-	Animator anim;
+	public Animator anim;
 	public states state;
-	public Transform container;
 
 	public enum states
 	{
 		IDLE,
 		WALK,
 		ENTER
-	}
-	void Start()
-	{
-		GameObject go = Instantiate (characterAnim_to_instantiate);
-		go.transform.SetParent (container);
-		go.transform.localEulerAngles = Vector3.zero;
-		go.transform.localPosition = Vector3.zero;
-		anim = go.GetComponent<Animator> ();
-		Idle ();
 	}
 	public void Idle () {
 		PlayAnim ("idle");

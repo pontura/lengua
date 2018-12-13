@@ -11,7 +11,7 @@ public class Character : MonoBehaviour {
 	public GameObject target;
 
 	MoveTo moveTo;
-	public CharacterAnimations anim;
+	public CharacterView view;
 
 	InteractiveObject selectedInteractiveObject;
 
@@ -57,14 +57,13 @@ public class Character : MonoBehaviour {
 //		}
 	}
 	void OnFloorClicked (Vector3 pos) {
-		print ("OnFloorClicked");
 		target.transform.position = pos;
 		LookAtTarget (target);
 		Vector3 rot = transform.localEulerAngles;
 		rot.x = rot.z = 0;
 		transform.localEulerAngles = rot;
 		moveTo.Init (pos);
-		anim.Walk ();
+		view.characterAnimations.Walk ();
 	}
 	void LookAtTarget(GameObject lookAtTarget)
 	{
@@ -75,6 +74,6 @@ public class Character : MonoBehaviour {
 	void OnCharacterStopWalking()
 	{
 		print ("OnCharacterStopWalking");
-		anim.Idle ();
+		view.characterAnimations.Idle ();
 	}
 }
