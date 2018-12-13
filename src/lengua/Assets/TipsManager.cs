@@ -10,10 +10,16 @@ public class TipsManager : MonoBehaviour {
 
 	void Start () {
 		Events.OnTip += OnTip;
+		Events.OnTexts += OnTexts;
 		Reset ();
 	}
 	void OnDestroy () {
 		Events.OnTip -= OnTip;
+		Events.OnTexts -= OnTexts;
+	}
+	void OnTexts(string value, System.Action readComplete)
+	{
+		Reset ();
 	}
 	void OnTip(string value)
 	{

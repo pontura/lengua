@@ -5,6 +5,8 @@ using System;
 
 public class GameProgress : MonoBehaviour {
 
+	public bool ResetProgress;
+
 	[Serializable]
 	public class Item
 	{
@@ -14,7 +16,15 @@ public class GameProgress : MonoBehaviour {
 	public Item[] items;
 
 	void Start () {
+		if (ResetProgress)
+			PlayerPrefs.DeleteAll ();
 		Events.OnSaveNewData += OnSaveNewData;
+		SetValues ();
+	}
+	void SetValues()
+	{
+		foreach(Item item in items)
+			item.value = PlayerPrefs.GetInt (item.name, 0);
 	}
 	void OnSaveNewData(string itemName, int value)
 	{
@@ -27,6 +37,8 @@ public class GameProgress : MonoBehaviour {
 
 		item.value = value;
 		PlayerPrefs.SetInt (item.name, value);
+
+		Events.OnRefreshInventary ();
 	}
 	public Item GetData(string name)
 	{

@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 114773183223413848}
   - component: {fileID: 114300212788950266}
   - component: {fileID: 114640231412475312}
+  - component: {fileID: 114434947018505516}
   m_Layer: 0
   m_Name: Data
   m_TagString: Untagged
@@ -53,9 +54,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b5519ce9a2bc034f8f8d9d38f594a7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ResetProgress: 1
   items:
   - name: picaporte
     value: 0
+  - name: libroIngreso
+    value: 0
+  - name: fichero_llave
+    value: 0
+  - name: cuaderno_ingreso
+    value: 0
+--- !u!114 &114434947018505516
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1640398861795566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3370d69858fe0e840800b676f7a612f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allItems:
+  - image: {fileID: 21300000, guid: 165f2e332bfac2f4eb3c3de292e12e68, type: 3}
+    gameProgressKey: libroIngreso
+  - image: {fileID: 21300000, guid: 1324a4bfab2948e4c8e6c052c0de56e6, type: 3}
+    gameProgressKey: fichero_llave
+  - image: {fileID: 21300000, guid: 9019909596de16f42ad0ae074b1a73b7, type: 3}
+    gameProgressKey: cuaderno_ingreso
+  inventary: []
 --- !u!114 &114640231412475312
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -68,8 +95,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   content:
-    picaporte_roto: 
-    picaporte_bien: 
+    picaporte_1: 
+    picaporte_2: 
+    escritorio: 
+    libroIngreso: 
+    escritorioDoor1: 
+    fichero_1: 
+    fichero_con_llave: 
+    fichero_done: 
 --- !u!114 &114773183223413848
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -83,5 +116,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactiveObjectsTexts: {fileID: 0}
   gameProgress: {fileID: 0}
+  inventary: {fileID: 0}
   currentLevel: 
   currentLevelIndex: 0

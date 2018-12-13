@@ -17,7 +17,7 @@ public class InteractiveObject : MonoBehaviour {
 	{
 		Events.OnCharacterHitInteractiveObject += OnCharacterHitInteractiveObject;
 		Events.OnCharacterReachInteractiveObject += OnCharacterReachInteractiveObject;
-		Events.OnSaveNewData += OnSaveNewData;
+		Events.OnRefreshInventary += OnRefreshInventary;
 		Events.OnInteractiveTextsLoaded += OnInteractiveTextsLoaded;
 		OnInteractiveTextsLoaded ();
 	}
@@ -25,7 +25,7 @@ public class InteractiveObject : MonoBehaviour {
 	{
 		Events.OnCharacterHitInteractiveObject -= OnCharacterHitInteractiveObject;
 		Events.OnCharacterReachInteractiveObject -= OnCharacterReachInteractiveObject;
-		Events.OnSaveNewData -= OnSaveNewData;
+		Events.OnRefreshInventary -= OnRefreshInventary;
 		Events.OnInteractiveTextsLoaded -= OnInteractiveTextsLoaded;
 	}
 	void OnInteractiveTextsLoaded()
@@ -36,12 +36,12 @@ public class InteractiveObject : MonoBehaviour {
 		gameProgress = Data.Instance.gameProgress;
 		GetProgress (gameProgressKey);
 	}
-	void OnSaveNewData(string itemName, int value)
+	void OnRefreshInventary()
 	{
-		GetProgress (itemName);
+		GetProgress (gameProgressKey);
 	}
 	void GetProgress(string itemName)
-	{
+	{		
 		GameProgress.Item item = gameProgress.GetData (itemName);
 		if (item == null)
 			return;
@@ -80,4 +80,8 @@ public class InteractiveObject : MonoBehaviour {
 		}
 	}
 	public virtual void OnSetProgress(int value) {	}
+	public void SetCollider(bool isOn)
+	{
+		GetComponent<Collider> ().enabled = isOn;
+	}
 }

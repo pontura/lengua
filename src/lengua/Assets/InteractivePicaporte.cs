@@ -13,17 +13,19 @@ public class InteractivePicaporte : InteractiveObject {
 	}
 	public override void OnCharacterReachMe() 
 	{ 
-		if(gameProgressValue== 0)
-			Events.OnTip (content.picaporte_roto);
+		if (gameProgressValue == 0) {
+			Events.OnTip (content.picaporte_1);
+			Events.OnSaveNewData ("picaporte", 1);
+		}
 		else if(gameProgressValue == 1)
-			Events.OnTip (content.picaporte_bien);
+			Events.OnTip (content.picaporte_2);
 	}
 	public override void OnSetProgress(int value) 
 	{
 		Reset ();
-		if(value == 0)
+		if(value == 0 || value == 1)
 			state0.SetActive (true);
-		else
+		else if(value == 2)
 			state1.SetActive (true);
 	}
 	void Reset()

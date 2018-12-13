@@ -14,14 +14,20 @@ public class InteractiveObjectsTexts : MonoBehaviour {
 			switch (key) {
 			case "escritorio":
 				return escritorio;
+			case "escritorioDoor1":
+				return escritorioDoor1;
 			}
 			return "ERROR: no hay un texto default en InteractiveObjectsTexts GetValue() para " + key;
 		}
 
-		public string picaporte_roto;
-		public string picaporte_bien;
+		public string picaporte_1;
+		public string picaporte_2;
 		public string escritorio;
-		public string libroEscritorio;
+		public string libroIngreso;
+		public string escritorioDoor1;
+		public string fichero_1;
+		public string fichero_con_llave;
+		public string fichero_done;
 	}
 	public Content content;
 

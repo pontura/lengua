@@ -12,6 +12,8 @@ public class Data : MonoBehaviour
 	public InteractiveObjectsTexts interactiveObjectsTexts;
 	[HideInInspector]
 	public GameProgress gameProgress;
+	[HideInInspector]
+	public Inventary inventary;
 
 	public static Data Instance
     {
@@ -60,6 +62,7 @@ public class Data : MonoBehaviour
 
 		interactiveObjectsTexts = GetComponent<InteractiveObjectsTexts> ();
 		gameProgress = GetComponent<GameProgress> ();
+		inventary = GetComponent<Inventary> ();
 
     }
 }

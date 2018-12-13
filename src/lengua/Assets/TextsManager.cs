@@ -10,6 +10,7 @@ public class TextsManager : MonoBehaviour {
 	int id = 0;
 	int total;
 	string[] all;
+	System.Action OnReady;
 		
 	void Start () {
 		Events.OnTexts += OnTexts;
@@ -18,8 +19,9 @@ public class TextsManager : MonoBehaviour {
 	void OnDestroy () {
 		Events.OnTexts -= OnTexts;
 	}
-	void OnTexts(string fullString)
+	void OnTexts(string fullString, System.Action OnReady)
 	{		
+		this.OnReady = OnReady;
 		this.all = fullString.Split ("/" [0]);
 		total = all.Length;
 		id = 0;
@@ -28,8 +30,11 @@ public class TextsManager : MonoBehaviour {
 	}
 	public void Next()
 	{
-		if (id >= total)
+		if (id >= total) {
 			Reset ();
+			if (OnReady != null)
+				OnReady ();
+		}
 		else {
 			field.text = all [id];
 			id++;

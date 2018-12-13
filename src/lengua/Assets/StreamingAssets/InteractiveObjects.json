@@ -1,7 +1,11 @@
 {
-	"picaporte_roto" : "Esta roto",
-	"picaporte_bien" : "ta",
+	"picaporte_1" : "Esto no se ve bien. Mejor le aviso a Marian",
+	"picaporte_2" : "Tengo que encontrar una forma de salir… Con dignidad",
 	"escritorio" : "El escritorio de la directora, o del director. Ya tocarlo me hace sentir importante",
-	"libroEscritorio" : "¡Encontraste un LIBRO del ingreso!/Lee y responde la trivia para avanzar en la historia./Es necesario leer todos los libros para avanzar."
+	"libroIngreso" : "¡Encontraste un LIBRO del ingreso!/Lee y responde la trivia para avanzar en la historia./Es necesario leer todos los libros para avanzar.",
+	"escritorioDoor1": "No huyas, cobarde. Esto no puede ser taaan difícil.",
+	"fichero_1": "¡Entrega tus secretos! Owww… Cerrado",
+	"fichero_con_llave": " ¡Encontraste un CUADERNO del ingreso! Lee y responde la trivia para avanzar en la historia.",
+	"fichero_done": "Ya no hay nada en este viejo fichero"
 
 }
