@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 777711f3a6d517a4593d89806e8a5b3c
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Burbank Big Wide
+  fontNames:
+  - Burbank Big Wide
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 50815e74ead343c4684d429d3c1e5633, type: 3}
+  - {fileID: 12800000, guid: 6a6aae6c4bb41764f918035bb61ab1e7, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
