@@ -27,6 +27,7 @@ public class InteractiveObjectsTexts : MonoBehaviour {
 		public string escritorioDoor1;
 		public string fichero_1;
 		public string fichero_con_llave;
+		public string fichero_con_llave2;
 		public string fichero_done;
 	}
 	public Content content;

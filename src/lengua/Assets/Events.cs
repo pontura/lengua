@@ -14,8 +14,9 @@ public static class Events {
 	public static System.Action OnInteractiveTextsLoaded = delegate {	};
 	public static System.Action<string, System.Action> OnTexts = delegate {	};
 	public static System.Action<string> OpenTrivia = delegate {	};
-	public static System.Action<string> AddToInventary = delegate {	};
+	public static System.Action<Inventary.Item> AddToInventary = delegate {	};
 	public static System.Action<string> RemoveFromInventary = delegate {	};
 	public static System.Action<string> InventoryButtonClicked = delegate {	};
 	public static System.Action OnRefreshInventary = delegate {	};
+	public static System.Action<string> UseItem = delegate {	};
 }

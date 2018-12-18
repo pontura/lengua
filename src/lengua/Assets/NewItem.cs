@@ -16,10 +16,11 @@ public class NewItem : MonoBehaviour {
 	void OnDestroy () {
 		Events.AddToInventary -= AddToInventary;
 	}
-	void AddToInventary (string gameProgressKey) {
+	void AddToInventary (Inventary.Item _item) {
 		panel.SetActive (true);
-		Inventary.Item item = Data.Instance.inventary.GetItem (gameProgressKey);
+		Inventary.Item item = Data.Instance.inventary.GetItem (_item.gameProgressKey);
 		image.sprite = item.image;
+		Invoke ("Close", 2);
 	}
 	public void Close()
 	{

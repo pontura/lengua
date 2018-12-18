@@ -64,6 +64,8 @@ MonoBehaviour:
     value: 0
   - name: cuaderno_ingreso
     value: 0
+  - name: destornillador
+    value: 0
 --- !u!114 &114434947018505516
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -78,10 +80,16 @@ MonoBehaviour:
   allItems:
   - image: {fileID: 21300000, guid: 165f2e332bfac2f4eb3c3de292e12e68, type: 3}
     gameProgressKey: libroIngreso
+    isLibro: 1
   - image: {fileID: 21300000, guid: 1324a4bfab2948e4c8e6c052c0de56e6, type: 3}
     gameProgressKey: fichero_llave
+    isLibro: 0
   - image: {fileID: 21300000, guid: 9019909596de16f42ad0ae074b1a73b7, type: 3}
     gameProgressKey: cuaderno_ingreso
+    isLibro: 1
+  - image: {fileID: 21300000, guid: 10f05ed102bb2d248bf24e7d4ee49d7a, type: 3}
+    gameProgressKey: destornillador
+    isLibro: 0
   inventary: []
 --- !u!114 &114640231412475312
 MonoBehaviour:

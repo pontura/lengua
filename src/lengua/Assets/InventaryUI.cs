@@ -9,18 +9,23 @@ public class InventaryUI : MonoBehaviour {
 	public Text qty;
 	public GameObject openedPanel;
 	public Transform container;
+	public Transform container_not_Libro;
 	public InventaryButton button;
+	public InventaryButton button_not_Libro;
 	bool isOpen;
 
 	void Start () {
 		inventaryButton.interactable = false;
 		Close ();
-		Loop();
 		Events.InventoryButtonClicked += InventoryButtonClicked;
+		Events.AddToInventary += AddToInventary;
+		Events.UseItem += UseItem;
 	}
 	void OnDestroy()
 	{
 		Events.InventoryButtonClicked -= InventoryButtonClicked;
+		Events.AddToInventary -= AddToInventary;
+		Events.UseItem -= UseItem;
 	}
 	void InventoryButtonClicked(string gameProgressKey)
 	{
@@ -32,15 +37,18 @@ public class InventaryUI : MonoBehaviour {
 		}
 		Close ();
 	}
-	void Loop () {
-		int totalItems = Data.Instance.inventary.inventary.Count;
-		if (totalItems == 0)
-			inventaryButton.interactable = false;
-		else {
-			inventaryButton.interactable = true;
-			qty.text = totalItems.ToString ();
+	void AddToInventary (Inventary.Item item) {
+		if (item.isLibro) {
+			int totalItems = Data.Instance.inventary.GetTotalLibros ();
+			if (totalItems == 0)
+				inventaryButton.interactable = false;
+			else {
+				inventaryButton.interactable = true;
+				qty.text = Data.Instance.inventary.GetTotalLibros ().ToString ();
+			}
+		} else {
+			AddNotLibro (item);
 		}
-		Invoke ("Loop", 1);
 	}
 	public void Toogle()
 	{		
@@ -60,10 +68,29 @@ public class InventaryUI : MonoBehaviour {
 		isOpen = true;
 		openedPanel.SetActive (true);
 		foreach (Inventary.Item item in Data.Instance.inventary.inventary) {
-			InventaryButton newBbutton = Instantiate(button);
-			newBbutton.transform.SetParent (container);
-			newBbutton.transform.localScale = Vector3.one;
-			newBbutton.Init (item);
+			if (item.isLibro) {
+				InventaryButton newBbutton = Instantiate (button);
+				newBbutton.transform.SetParent (container);
+				newBbutton.transform.localScale = Vector3.one;
+				newBbutton.Init (item);
+			}
+		}
+	}
+	void AddNotLibro(Inventary.Item item)
+	{
+		InventaryButton newBbutton = Instantiate (button_not_Libro);
+		newBbutton.transform.SetParent (container_not_Libro);
+		newBbutton.transform.localScale = Vector3.one;
+		newBbutton.Init (item);
+	}
+	void UseItem(string gameProgressKey)
+	{
+		InventaryButton toDelete = null;
+		foreach (InventaryButton ib in container_not_Libro.GetComponentsInChildren<InventaryButton>())
+			if (ib.item.gameProgressKey == gameProgressKey)
+				toDelete = ib;
+		if (toDelete != null) {
+			Destroy (toDelete.gameObject);
 		}
 	}
 }

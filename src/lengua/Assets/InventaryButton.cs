@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class InventaryButton : MonoBehaviour {
 
 	public Image image;
-	Inventary.Item item;
+	public Inventary.Item item;
 
 	public void Init(Inventary.Item item) {
 
