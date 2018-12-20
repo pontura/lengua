@@ -12,7 +12,7 @@ public static class Events {
 	public static System.Action<string, int> OnSaveNewData = delegate {	};
 	public static System.Action<string> OnTip = delegate {	};
 	public static System.Action OnInteractiveTextsLoaded = delegate {	};
-	public static System.Action<string, System.Action> OnTexts = delegate {	};
+	public static System.Action<string, string, System.Action> OnTexts = delegate {	};
 	public static System.Action<string> OpenTrivia = delegate {	};
 	public static System.Action<Inventary.Item> AddToInventary = delegate {	};
 	public static System.Action<string> RemoveFromInventary = delegate {	};

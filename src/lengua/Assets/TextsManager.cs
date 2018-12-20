@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class TextsManager : MonoBehaviour {
 
 	public GameObject panel;
+	public Image icon;
 	public Text field;
 	int id = 0;
 	int total;
@@ -19,8 +20,9 @@ public class TextsManager : MonoBehaviour {
 	void OnDestroy () {
 		Events.OnTexts -= OnTexts;
 	}
-	void OnTexts(string fullString, System.Action OnReady)
+	void OnTexts(string fullString, string iconName, System.Action OnReady)
 	{		
+		icon.sprite = Resources.Load<Sprite> (iconName);
 		this.OnReady = OnReady;
 		this.all = fullString.Split ("/" [0]);
 		total = all.Length;

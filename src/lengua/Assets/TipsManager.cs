@@ -17,7 +17,7 @@ public class TipsManager : MonoBehaviour {
 		Events.OnTip -= OnTip;
 		Events.OnTexts -= OnTexts;
 	}
-	void OnTexts(string value, System.Action readComplete)
+	void OnTexts(string value, string n, System.Action readComplete)
 	{
 		Reset ();
 	}

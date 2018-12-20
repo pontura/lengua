@@ -18,7 +18,7 @@ public class InteractiveFichero : InteractiveObject {
 			Events.OnTip(content.fichero_1);
 			//Events.OnSaveNewData (gameProgressKey, 1);
 		} else if (gameProgressValue == 1) {			
-			Events.OnTexts (content.fichero_con_llave,FicheroOpened);
+			Events.OnTexts (content.fichero_con_llave, "inventary/fichero_llave", FicheroOpened);
 		} else {
 			Events.OnTip (content.fichero_done);		
 		}
@@ -26,7 +26,7 @@ public class InteractiveFichero : InteractiveObject {
 	void FicheroOpened() 
 	{
 		Events.OnSaveNewData ("cuaderno_ingreso", 1);
-		Events.OnTexts (content.fichero_con_llave2,OpenLibro);
+		Events.OnTexts (content.fichero_con_llave2, "inventary/cuadernoIngreso", OpenLibro);
 		Events.UseItem (gameProgressKey);
 	}
 	void OpenLibro()
