@@ -22,6 +22,9 @@ public class InteractiveObjectsTexts : MonoBehaviour {
 
 		public string picaporte_1;
 		public string picaporte_2;
+		public string picaporte_3;
+		public string picaporte_4;
+
 		public string escritorio;
 		public string libroIngreso;
 		public string escritorioDoor1;
@@ -29,6 +32,9 @@ public class InteractiveObjectsTexts : MonoBehaviour {
 		public string fichero_con_llave;
 		public string fichero_con_llave2;
 		public string fichero_done;
+
+		public string cuadro1;
+		public string libroCuadro;
 	}
 	public Content content;
 

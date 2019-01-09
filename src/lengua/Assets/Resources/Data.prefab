@@ -66,6 +66,8 @@ MonoBehaviour:
     value: 0
   - name: destornillador
     value: 0
+  - name: libroCuadro
+    value: 0
 --- !u!114 &114434947018505516
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -90,6 +92,9 @@ MonoBehaviour:
   - image: {fileID: 21300000, guid: 10f05ed102bb2d248bf24e7d4ee49d7a, type: 3}
     gameProgressKey: destornillador
     isLibro: 0
+  - image: {fileID: 21300000, guid: bd08306e7c97bb245a91c80d5fbef002, type: 3}
+    gameProgressKey: libroCuadro
+    isLibro: 1
   inventary: []
 --- !u!114 &114640231412475312
 MonoBehaviour:
@@ -105,12 +110,17 @@ MonoBehaviour:
   content:
     picaporte_1: 
     picaporte_2: 
+    picaporte_3: 
+    picaporte_4: 
     escritorio: 
     libroIngreso: 
     escritorioDoor1: 
     fichero_1: 
     fichero_con_llave: 
+    fichero_con_llave2: 
     fichero_done: 
+    cuadro1: 
+    libroCuadro: 
 --- !u!114 &114773183223413848
 MonoBehaviour:
   m_ObjectHideFlags: 1
