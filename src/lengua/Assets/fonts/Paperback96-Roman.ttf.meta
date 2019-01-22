@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 5b272de31c5b30641aed6c004b75bd8f
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Paperback 96 TT
+  fontNames:
+  - Paperback 96 TT
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 3c0aa4ac2a98b4a4d8fcac4d858888df, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
