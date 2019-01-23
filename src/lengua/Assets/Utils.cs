@@ -88,4 +88,28 @@ public static class Utils {
 			return "#" + int2Hex(r) + int2Hex(g) + int2Hex(b);
 	}
 
+	public static string CSV2JSON(string csv, char delimiter){
+		string[] lines = csv.Split ('\n');
+		string[] keys = lines [0].Split (delimiter);
+		string json = "{ \"Items\":[";
+		//Debug.Log (csv);
+		for (int i = 1; i < lines.Length; i++) {
+			string[] vals = lines [i].Split (delimiter);
+			if (vals [0] != "") {
+				if (i > 1)
+					json += ",";
+				json += "{";
+				for (int j = 0; j < vals.Length; j++) {				
+					json += keys [j] + ":" + vals [j];
+					if (j < keys.Length - 1)
+						json += ",";
+				}
+				json += "}";	
+			}
+		}
+		json += "]}";
+		//Debug.Log (json);
+		return json;
+	}
+
 }
