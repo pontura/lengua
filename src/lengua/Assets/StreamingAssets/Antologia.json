@@ -2,6 +2,7 @@
 	"Items":[
 		{
 			"id":"0",
+			"gameprogress_name":"libroIngreso",
 			"title":"La plapla",
 			"author":"María Elena Walsh",
 			"texts":[
@@ -57,6 +58,7 @@
 		
 		{
 			"id":"1",
+			"gameprogress_name":"libroCuadro",
 			"title":"Amigos por el viento",
 			"author":"Liliana Bodoc",
 			"texts":[

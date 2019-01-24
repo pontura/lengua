@@ -19,7 +19,7 @@ public class Trivia : MonoBehaviour {
 	void OpenTrivia (string gameProgressKey) {
 		this.gameProgressKey = gameProgressKey;
 		panel.SetActive (true);
-		title.text = gameProgressKey;
+		//title.text = gameProgressKey;
 	}
 	public void Close()
 	{

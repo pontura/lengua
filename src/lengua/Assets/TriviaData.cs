@@ -13,7 +13,8 @@ public class TriviaData : MonoBehaviour {
 	[Serializable]
 	public class Antologia
 	{
-		public int id;
+		public string id;
+		public string gameprogress_name;
 		public string title;
 		public string author;
 		public Text[] texts;
@@ -76,5 +77,11 @@ public class TriviaData : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+	}
+
+	public Antologia GetAntologiaByGProgress(string gameprogress_name){
+		Antologia a = Array.Find (antologia, x => x.gameprogress_name == gameprogress_name);
+		Debug.Log (a);
+		return a;
 	}
 }
