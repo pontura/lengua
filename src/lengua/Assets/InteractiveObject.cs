@@ -82,6 +82,6 @@ public class InteractiveObject : MonoBehaviour {
 	public virtual void OnSetProgress(int value) {	}
 	public void SetCollider(bool isOn)
 	{
-		GetComponent<Collider> ().enabled = isOn;
+		GetComponentInChildren<Collider> ().enabled = isOn;
 	}
 }

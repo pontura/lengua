@@ -28,7 +28,7 @@ public class CharacterInputManager : MonoBehaviour {
 
 				for (int i = 0; i < hits.Length; i++) {
 					RaycastHit hit = hits [i];
-					InteractiveObject io = hit.transform.gameObject.GetComponent<InteractiveObject> ();
+					InteractiveObject io = hit.transform.gameObject.GetComponentInParent<InteractiveObject> ();
 					if (io != null) {
 						Events.OnCharacterHitInteractiveObject (io);
 						return;
