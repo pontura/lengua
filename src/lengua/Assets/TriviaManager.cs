@@ -8,12 +8,14 @@ public class TriviaManager : MonoBehaviour {
 	public bool test;
 	public Text title;
 
-
 	TriviaData.Antologia antologia;
+	TriviaData.TriviaProgress tProgress;
 
 	string gameProgressKey;
+	TriviaPaginator paginator;
 
 	void Start () {
+		paginator = GetComponent<TriviaPaginator> ();
 		Events.OpenTrivia += OpenTrivia;
 	}
 	void OnDestroy () {
@@ -22,7 +24,9 @@ public class TriviaManager : MonoBehaviour {
 	void OpenTrivia (string gameProgressKey) {
 		this.gameProgressKey = gameProgressKey;
 		antologia = Data.Instance.triviaData.GetAntologiaByGProgress (gameProgressKey);
+		tProgress = Data.Instance.triviaData.GetTProgressByGProgress(gameProgressKey);
 		title.text = antologia.title;
+		paginator.SetPages (antologia.texts [tProgress.triviasIndex].textlines);
 	}
 
 	void Update(){

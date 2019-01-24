@@ -11,6 +11,23 @@ Prefab:
   m_SourcePrefab: {fileID: 0}
   m_RootGameObject: {fileID: 1418016127079734}
   m_IsPrefabAsset: 1
+--- !u!1 &1008889356428718
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 224513463417416362}
+  - component: {fileID: 222458526237430410}
+  - component: {fileID: 114705227790094934}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1231675487292106
 GameObject:
   m_ObjectHideFlags: 1
@@ -22,7 +39,7 @@ GameObject:
   - component: {fileID: 222508575520164182}
   - component: {fileID: 114918062141959598}
   m_Layer: 5
-  m_Name: Image
+  m_Name: mascara
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -54,6 +71,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 224029457267649392}
+  - component: {fileID: 114428219363267896}
+  - component: {fileID: 114586457833002422}
   m_Layer: 5
   m_Name: Trivia_Cont
   m_TagString: Untagged
@@ -75,7 +94,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &1713855622833056
 GameObject:
   m_ObjectHideFlags: 1
@@ -87,7 +106,7 @@ GameObject:
   - component: {fileID: 222742962951072010}
   - component: {fileID: 114480374832661424}
   m_Layer: 5
-  m_Name: Text
+  m_Name: paginaPar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -104,7 +123,7 @@ GameObject:
   - component: {fileID: 222983520029311664}
   - component: {fileID: 114533509922268402}
   m_Layer: 5
-  m_Name: Image (1)
+  m_Name: libroBG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -140,6 +159,23 @@ GameObject:
   - component: {fileID: 114649122814960698}
   m_Layer: 5
   m_Name: Win
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1966655088347626
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 224747330872183262}
+  - component: {fileID: 222529458148238464}
+  - component: {fileID: 114710878128166754}
+  m_Layer: 5
+  m_Name: paginaImpar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -230,6 +266,19 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &114428219363267896
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1418016127079734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e09043a715437e24d9813576cb975e75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  test: 1
+  title: {fileID: 114705227790094934}
 --- !u!114 &114480374832661424
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -251,18 +300,40 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: a1f629c9f11acfc4da1895ad5ed29117, type: 3}
-    m_FontSize: 20
+    m_FontSize: 18
     m_FontStyle: 0
-    m_BestFit: 1
-    m_MinSize: 2
+    m_BestFit: 0
+    m_MinSize: 1
     m_MaxSize: 25
-    m_Alignment: 1
+    m_Alignment: 0
     m_AlignByGeometry: 0
-    m_RichText: 1
+    m_RichText: 0
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Demo de Trivia
+  m_Text: "A veces, la vida se comporta como un viento: desordena y arrasa. Algo susurra
+    pero no se le entiende. A su paso todo peligra; hasta lo que tiene ra\xEDces.
+    Los edificios, por ejemplo. O las costumbres cotidianas. \r\nCuando la vida se
+    comporta de ese modo, se nos ensucian los ojos con los que vemos. Es decir, los
+    verdaderos ojos. A nuestro lado, pasan papeles escritos con una letra que creemos
+    reconocer. El cielo se mueve m\xE1s r\xE1pido que las horas. Y lo peor es que
+    nadie sabe si, alguna vez, regresara la calma. \r\nAs\xED ocurri\xF3 el d\xEDa
+    que su pap\xE1 se fue de casa. La vida se nos transform\xF3 en viento casi sin
+    dar aviso. Yo recuerdo la puerta que se cerr\xF3 detr\xE1s de su sombra y sus
+    valijas. Tambi\xE9n puedo recordar la ropa reseca sacudi\xE9ndose al sol mientras
+    mam\xE1 cerraba las ventanas para que, adentro y adentro, algo quedara en su sitio.
+    \r\n- Le dije a Ricardo que viniera con su hijo. \xBFQu\xE9 te parece?\r\n- Me
+    parece bien - ment\xED. \r\nMam\xE1 dej\xF3 de pulir la bandeja, y me mir\xF3:
+    \r\n- No me lo est\xE1s diciendo muy convencida... \r\n- Yo no tengo que estar
+    convencida. \r\n- \xBFY eso que significa? - pregunt\xF3 la mujer que m\xE1s preguntas
+    me hizo en mi vida. \r\nMe vi obligada a levantar los ojos del libro: \r\n- Significa
+    que es tu cumplea\xF1os, y no el m\xED\xF3 - respond\xED. \r\nLa gata sali\xF3
+    de su canasto, y fue a enredarse entre las piernas de mam\xE1. \r\nQue mam\xE1
+    tuviera novio era casi insoportable. Pero que ese novio tuviera un hijo era una
+    verdadera amenaza. Otra vez, un peligro rondaba mi vida. Otra vez hab\xEDa viento
+    en el horizonte. \r\n- Se van a entender bien - dijo mam\xE1 -. Juanjo tiene tu
+    edad.\r\nLa gata, \xFAnico ser que entend\xEDa mi desolaci\xF3n, salto sobre mis
+    rodillas. Gracias, gatita buena. \r\n"
 --- !u!114 &114533509922268402
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -317,6 +388,24 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114586457833002422
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1418016127079734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7fa31a90a35c1745b1e50961c76376a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pagImpar: {fileID: 114710878128166754}
+  pagPar: {fileID: 114480374832661424}
+  charsPerLine: 37
+  linesPerPage: 24
+  pages: []
+  charCount: 0
+  lineCount: 0
 --- !u!114 &114649122814960698
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -369,6 +458,94 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &114705227790094934
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1008889356428718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: a1f629c9f11acfc4da1895ad5ed29117, type: 3}
+    m_FontSize: 20
+    m_FontStyle: 0
+    m_BestFit: 1
+    m_MinSize: 2
+    m_MaxSize: 25
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Demo de Trivia
+--- !u!114 &114710878128166754
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1966655088347626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: a1f629c9f11acfc4da1895ad5ed29117, type: 3}
+    m_FontSize: 18
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 25
+    m_Alignment: 0
+    m_AlignByGeometry: 1
+    m_RichText: 0
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "A veces, la vida se comporta como un viento: desordena y arrasa. Algo susurra
+    pero no se le entiende. A su paso todo peligra; hasta lo que tiene ra\xEDces.
+    Los edificios, por ejemplo. O las costumbres cotidianas. \r\nCuando la vida se
+    comporta de ese modo, se nos ensucian los ojos con los que vemos. Es decir, los
+    verdaderos ojos. A nuestro lado, pasan papeles escritos con una letra que creemos
+    reconocer. El cielo se mueve m\xE1s r\xE1pido que las horas. Y lo peor es que
+    nadie sabe si, alguna vez, regresara la calma. \r\nAs\xED ocurri\xF3 el d\xEDa
+    que su pap\xE1 se fue de casa. La vida se nos transform\xF3 en viento casi sin
+    dar aviso. Yo recuerdo la puerta que se cerr\xF3 detr\xE1s de su sombra y sus
+    valijas. Tambi\xE9n puedo recordar la ropa reseca sacudi\xE9ndose al sol mientras
+    mam\xE1 cerraba las ventanas para que, adentro y adentro, algo quedara en su sitio.
+    \r\n- Le dije a Ricardo que viniera con su hijo. \xBFQu\xE9 te parece?\r\n- Me
+    parece bien - ment\xED. \r\nMam\xE1 dej\xF3 de pulir la bandeja, y me mir\xF3:
+    \r\n- No me lo est\xE1s diciendo muy convencida... \r\n- Yo no tengo que estar
+    convencida. \r\n- \xBFY eso que significa? - pregunt\xF3 la mujer que m\xE1s preguntas
+    me hizo en mi vida. \r\nMe vi obligada a levantar los ojos del libro: \r\n- Significa
+    que es tu cumplea\xF1os, y no el m\xED\xF3 - respond\xED. \r\nLa gata sali\xF3
+    de su canasto, y fue a enredarse entre las piernas de mam\xE1. \r\nQue mam\xE1
+    tuviera novio era casi insoportable. Pero que ese novio tuviera un hijo era una
+    verdadera amenaza. Otra vez, un peligro rondaba mi vida. Otra vez hab\xEDa viento
+    en el horizonte. \r\n- Se van a entender bien - dijo mam\xE1 -. Juanjo tiene tu
+    edad.\r\nLa gata, \xFAnico ser que entend\xEDa mi desolaci\xF3n, salto sobre mis
+    rodillas. Gracias, gatita buena. \r\n"
 --- !u!114 &114918062141959598
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -430,12 +607,26 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1821396191685012}
   m_CullTransparentMesh: 0
+--- !u!222 &222458526237430410
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1008889356428718}
+  m_CullTransparentMesh: 0
 --- !u!222 &222508575520164182
 CanvasRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1231675487292106}
+  m_CullTransparentMesh: 0
+--- !u!222 &222529458148238464
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1966655088347626}
   m_CullTransparentMesh: 0
 --- !u!222 &222742962951072010
 CanvasRenderer:
@@ -520,6 +711,24 @@ RectTransform:
   m_AnchoredPosition: {x: 50, y: 50}
   m_SizeDelta: {x: 801, y: 541}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!224 &224513463417416362
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1008889356428718}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 224951065174339144}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -198, y: 29}
+  m_SizeDelta: {x: 370.9, y: 472}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224545642213735208
 RectTransform:
   m_ObjectHideFlags: 1
@@ -544,17 +753,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1713855622833056}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.0000055, y: 1.0000055, z: 1.0000055}
   m_Children: []
   m_Father: {fileID: 224951065174339144}
-  m_RootOrder: 3
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -198, y: 29}
-  m_SizeDelta: {x: 370.9, y: 472}
+  m_AnchoredPosition: {x: 130, y: 25.000015}
+  m_SizeDelta: {x: 300, y: 400}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224709731480160890
 RectTransform:
@@ -573,6 +782,24 @@ RectTransform:
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0.5}
   m_SizeDelta: {x: 170, y: 77}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!224 &224747330872183262
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1966655088347626}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.0000055, y: 1.0000055, z: 1.0000055}
+  m_Children: []
+  m_Father: {fileID: 224951065174339144}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -240, y: 25}
+  m_SizeDelta: {x: 300, y: 400}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224800051339525654
 RectTransform:
@@ -606,8 +833,10 @@ RectTransform:
   - {fileID: 224319256098381606}
   - {fileID: 224358160741627462}
   - {fileID: 224545642213735208}
-  - {fileID: 224579932191680498}
+  - {fileID: 224513463417416362}
   - {fileID: 224800051339525654}
+  - {fileID: 224747330872183262}
+  - {fileID: 224579932191680498}
   m_Father: {fileID: 224029457267649392}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

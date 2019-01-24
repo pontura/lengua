@@ -8,6 +8,7 @@ public class TriviaData : MonoBehaviour {
 
 	public string filename="Antologia.json";
 
+	public List<TriviaProgress> triviaProgress;
 	public Antologia[] antologia;
 
 	[Serializable]
@@ -32,6 +33,17 @@ public class TriviaData : MonoBehaviour {
 		public string[] answers;
 	}
 
+	[Serializable]
+	public class TriviaProgress
+	{
+		public string id;
+		public string gameprogress_name;
+		public int triviasIndex;
+		public bool[] trivias;
+		public bool completed;
+		public float lastBadAnswerTime;
+	}
+
 	void Start () {
 
 		/*string filePath = "";
@@ -43,16 +55,6 @@ public class TriviaData : MonoBehaviour {
 		#endif*/
 		string filePath = Path.Combine (Application.streamingAssetsPath + "/", filename);
 		StartCoroutine(LoadFile(filePath));
-
-		/*Debug.Log (filePath);
-		if (File.Exists (filePath)) {			
-			Debug.Log ("exists");
-			string dataAsJson = Utils.CSV2JSON (File.ReadAllText (filePath), '#');
-			Debug.Log (dataAsJson);
-			texts = JsonHelper.FromJson<ExternalText> (dataAsJson);
-		} else {
-			Debug.Log ("no exists");
-		}*/
 	}
 
 	IEnumerator LoadFile(string filePath) {
@@ -66,12 +68,16 @@ public class TriviaData : MonoBehaviour {
 		} else
 			text = System.IO.File.ReadAllText(filePath);
 
-		//string dataAsJson = Utils.CSV2JSON (text, '#');
 		Debug.Log (text);
-		//texts = JsonHelper.FromJson<ExternalText> (dataAsJson);
 		antologia = JsonHelper.FromJson<Antologia> (text);
 
-		Debug.Log (antologia);
+		for (int i = 0; i < antologia.Length; i++) {
+			TriviaProgress tp = new TriviaProgress ();
+			tp.id = antologia [i].id;
+			tp.gameprogress_name = antologia [i].gameprogress_name;
+			tp.trivias = new bool[antologia [i].trivias.Length];
+			triviaProgress.Add (tp);
+		}
 	}
 
 	// Update is called once per frame
@@ -81,7 +87,11 @@ public class TriviaData : MonoBehaviour {
 
 	public Antologia GetAntologiaByGProgress(string gameprogress_name){
 		Antologia a = Array.Find (antologia, x => x.gameprogress_name == gameprogress_name);
-		Debug.Log (a);
+		return a;
+	}
+
+	public TriviaProgress GetTProgressByGProgress(string gameprogress_name){
+		TriviaProgress a = triviaProgress.Find(x => x.gameprogress_name == gameprogress_name);
 		return a;
 	}
 }
