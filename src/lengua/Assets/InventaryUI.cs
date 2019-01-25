@@ -32,6 +32,7 @@ public class InventaryUI : MonoBehaviour {
 		switch (gameProgressKey) {
 		case "libroIngreso":
 		case "cuaderno_ingreso":
+		case "libroCuadro":
 			Events.OpenTrivia (gameProgressKey);
 			break;
 		}
