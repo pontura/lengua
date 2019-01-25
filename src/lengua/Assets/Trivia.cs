@@ -12,14 +12,21 @@ public class Trivia : MonoBehaviour {
 	void Start () {
 		Reset ();
 		Events.OpenTrivia += OpenTrivia;
+		Events.OnBookComplete += Win;
+		Events.OnTriviaWrong += Close;
 	}
 	void OnDestroy () {
 		Events.OpenTrivia -= OpenTrivia;
+		Events.OnBookComplete -= Win;
+		Events.OnTriviaWrong -= Close;
 	}
 	void OpenTrivia (string gameProgressKey) {
-		this.gameProgressKey = gameProgressKey;
-		panel.SetActive (true);
-		//title.text = gameProgressKey;
+		TriviaData.TriviaProgress tProgress = Data.Instance.triviaData.GetTProgressByGProgress(gameProgressKey);
+		if(!tProgress.completed){
+			this.gameProgressKey = gameProgressKey;
+			panel.SetActive (true);
+			//title.text = gameProgressKey;
+		}
 	}
 	public void Close()
 	{

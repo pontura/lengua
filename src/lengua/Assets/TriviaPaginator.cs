@@ -5,8 +5,9 @@ using UnityEngine.UI;
 
 public class TriviaPaginator : MonoBehaviour {
 
-	public Text pagImpar;
-	public Text pagPar;
+	public Text pageLeft;
+	public Text pageRight;
+	public GameObject triviaUI;
 
 	public int charsPerLine;
 	public int linesPerPage;
@@ -14,6 +15,10 @@ public class TriviaPaginator : MonoBehaviour {
 	public List<string> pages;
 
 	public int charCount,lineCount;
+
+	public GameObject backBtn,nextBtn;
+
+	int bookIndex;
 
 	// Use this for initialization
 	void Start () {
@@ -28,6 +33,8 @@ public class TriviaPaginator : MonoBehaviour {
 	public void SetPages(string[] textlines){
 		charCount = 0;
 		lineCount = 0;
+
+		pages.Clear ();
 
 		string page = "";
 		Debug.Log (textlines.Length);
@@ -50,10 +57,71 @@ public class TriviaPaginator : MonoBehaviour {
 		}
 		pages.Add (page);
 
-		pagImpar.text = pages [0];
+		bookIndex = 0;
+		backBtn.SetActive (false);
+		DrawPages ();
+
+		/*pageLeft.text = pages [0];
 		if(pages.Count>1)
-			pagPar.text = pages [1];
+			pageRight.text = pages [1];
 		else
-			pagPar.text = "";
+			pageRight.text = "";*/
+	}
+
+	void DrawPages(){
+		triviaUI.SetActive (false);
+		if (bookIndex > 0)
+			backBtn.SetActive (true);
+		else
+			backBtn.SetActive (false);
+		
+		int pageIndex = bookIndex * 2;
+		if (pageIndex < pages.Count) {
+			pageLeft.text = pages [pageIndex];
+			nextBtn.SetActive (true);
+		} else {
+			pageLeft.text = "";
+			pageRight.text = "";
+			SetTrivia (true);
+			nextBtn.SetActive (false);
+			return;
+		}
+
+		if (pageIndex + 1 < pages.Count) {
+			pageRight.text = pages [pageIndex+1];
+			nextBtn.SetActive (true);
+		}else {
+			pageRight.text = "";
+			SetTrivia (false);
+			nextBtn.SetActive (false);
+			return;
+		}
+
+
+		
+	}
+
+	void SetTrivia(bool left){
+		
+		if (left)
+			triviaUI.transform.SetParent (pageLeft.transform);
+		else
+			triviaUI.transform.SetParent (pageRight.transform);
+		
+		triviaUI.SetActive (true);
+		triviaUI.transform.localPosition = Vector3.zero;
+
+	}
+
+	public void ChangePage(int val){
+		if (val < 0) {			
+			if (bookIndex == 0)
+				return;
+			bookIndex--;
+			DrawPages ();
+		} else if (val > 0) {			
+			bookIndex++;
+			DrawPages ();
+		}
 	}
 }
