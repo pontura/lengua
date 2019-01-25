@@ -39,7 +39,7 @@ public class TriviaData : MonoBehaviour {
 		public string id;
 		public string gameprogress_name;
 		public int triviasIndex;
-		public bool[] trivias;
+		public bool[] triviasDone;
 		public bool completed;
 		public float lastBadAnswerTime;
 	}
@@ -75,7 +75,7 @@ public class TriviaData : MonoBehaviour {
 			TriviaProgress tp = new TriviaProgress ();
 			tp.id = antologia [i].id;
 			tp.gameprogress_name = antologia [i].gameprogress_name;
-			tp.trivias = new bool[antologia [i].trivias.Length];
+			tp.triviasDone = new bool[antologia [i].trivias.Length];
 			triviaProgress.Add (tp);
 		}
 	}

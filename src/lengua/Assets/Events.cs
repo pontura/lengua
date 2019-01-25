@@ -19,4 +19,7 @@ public static class Events {
 	public static System.Action<string> InventoryButtonClicked = delegate {	};
 	public static System.Action OnRefreshInventary = delegate {	};
 	public static System.Action<string> UseItem = delegate {	};
+
+	public static System.Action OnBookComplete = delegate {	};
+	public static System.Action OnTriviaWrong = delegate {	};
 }
