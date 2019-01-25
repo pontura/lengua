@@ -38,18 +38,27 @@ public class TriviaPaginator : MonoBehaviour {
 
 		string page = "";
 		Debug.Log (textlines.Length);
+
+		bool nextpage = false;
 		for (int i = 0; i < textlines.Length; i++) {
-			for (int j = 0; j < textlines [i].Length; j++) {
-				page += textlines [i] [j];
-				charCount++;
-				if (charCount >= charsPerLine) {
+			for (int j = 0; j < textlines [i].Length; j++) {				
+				if (nextpage && (textlines [i] [j] == '\n' || textlines [i] [j] == '.')) {
+					//page += '#';
+					nextpage = false;
+					pages.Add (page);
+					page = "";
+					lineCount = 0;
 					charCount = 0;
-					lineCount++;
-					if (lineCount >= linesPerPage) {
-						pages.Add (page);
-						page = "";
-						lineCount = 0;
+				} else {
+					page += textlines [i] [j];
+					charCount++;
+					if (charCount >= charsPerLine || textlines [i] [j]== '\n') {
+						//page += '$';
 						charCount = 0;
+						lineCount++;
+						if (lineCount >= linesPerPage) {						
+							nextpage = true;
+						}
 					}
 				}
 			}

@@ -1103,10 +1103,10 @@ MonoBehaviour:
     m_MinSize: 1
     m_MaxSize: 25
     m_Alignment: 0
-    m_AlignByGeometry: 0
+    m_AlignByGeometry: 1
     m_RichText: 0
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: "A veces, la vida se comporta como un viento: desordena y arrasa. Algo susurra
     pero no se le entiende. A su paso todo peligra; hasta lo que tiene ra\xEDces.
@@ -1259,8 +1259,8 @@ MonoBehaviour:
   pageLeft: {fileID: 114710878128166754}
   pageRight: {fileID: 114480374832661424}
   triviaUI: {fileID: 1966655088347626}
-  charsPerLine: 37
-  linesPerPage: 24
+  charsPerLine: 35
+  linesPerPage: 18
   pages: []
   charCount: 0
   lineCount: 0
@@ -1532,7 +1532,7 @@ MonoBehaviour:
     m_AlignByGeometry: 1
     m_RichText: 0
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: "A veces, la vida se comporta como un viento: desordena y arrasa. Algo susurra
     pero no se le entiende. A su paso todo peligra; hasta lo que tiene ra\xEDces.
