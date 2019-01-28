@@ -16,6 +16,8 @@ public class Data : MonoBehaviour
 	public Inventary inventary;
 	[HideInInspector]
 	public TriviaData triviaData;
+	[HideInInspector]
+	public DialoguesData dialoguesData;
 
 	public static Data Instance
     {
@@ -66,6 +68,7 @@ public class Data : MonoBehaviour
 		gameProgress = GetComponent<GameProgress> ();
 		inventary = GetComponent<Inventary> ();
 		triviaData = GetComponent<TriviaData> ();
+		dialoguesData = GetComponent<DialoguesData> ();
 
     }
 }

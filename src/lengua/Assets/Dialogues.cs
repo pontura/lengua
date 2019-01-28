@@ -6,39 +6,43 @@ using UnityEngine.UI;
 public class Dialogues : MonoBehaviour {
 
 	public GameObject panel;
-	public Image icon;
 	public Text field;
 	int id = 0;
-	int total;
-	string[] all;
+	List<DialoguesData.Dialogue> dialogue;
 	System.Action OnReady;
+	public DialoguesCamera dialoguesCamera;
 
 	void Start () {
-		Events.OnTexts += OnTexts;
+		Events.OnDialogue += OnDialogue;
 		Reset ();
+		Events.OnDialogue (Data.Instance.dialoguesData.content.intro, OnReadyAction);
 	}
 	void OnDestroy () {
-		Events.OnTexts -= OnTexts;
+		Events.OnDialogue -= OnDialogue;
 	}
-	void OnTexts(string fullString, string iconName, System.Action OnReady)
+	void OnReadyAction()
+	{
+		Reset ();
+	}
+	void OnDialogue(List<DialoguesData.Dialogue> _dialogue, System.Action OnReady)
 	{		
-		icon.sprite = Resources.Load<Sprite> (iconName);
 		this.OnReady = OnReady;
-		this.all = fullString.Split ("/" [0]);
-		total = all.Length;
+		this.dialogue = _dialogue;
 		id = 0;
 		panel.SetActive (true);
 		Next ();
 	}
 	public void Next()
 	{
-		if (id >= total) {
+		if (id >= dialogue.Count) {
 			Reset ();
 			if (OnReady != null)
 				OnReady ();
 		}
 		else {
-			field.text = all [id];
+			field.text = dialogue [id].text;
+			print(id + " " + dialogue [id].character + " " +  dialogue [id].state);
+			dialoguesCamera.SetOn (dialogue [id].character, dialogue [id].state);
 			id++;
 		}
 	}

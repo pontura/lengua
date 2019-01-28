@@ -27,12 +27,15 @@ public class CharacterExpressions : MonoBehaviour {
 		foreach (Type t in all) {
 			if (t.state == state) {
 				t.spriteRenderer.enabled = true;
+				t.spriteRenderer.gameObject.SetActive (true);
 			}
 		}
 	}
 	void Reset()
 	{
-		foreach (Type t in all)
+		foreach (Type t in all) {
 			t.spriteRenderer.enabled = false;
+			t.spriteRenderer.gameObject.SetActive (false);
+		}
 	}
 }
