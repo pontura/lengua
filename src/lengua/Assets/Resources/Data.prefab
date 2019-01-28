@@ -56,7 +56,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   filename: Antologia.json
+  triviaProgress: []
   antologia: []
+  blockedTime: 60
+  resetTime: 1800
 --- !u!114 &114300212788950266
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -149,5 +152,6 @@ MonoBehaviour:
   interactiveObjectsTexts: {fileID: 0}
   gameProgress: {fileID: 0}
   inventary: {fileID: 0}
+  triviaData: {fileID: 0}
   currentLevel: 
   currentLevelIndex: 0
