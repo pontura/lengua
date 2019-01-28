@@ -10,6 +10,8 @@ public class TriviaData : MonoBehaviour {
 
 	public List<TriviaProgress> triviaProgress;
 	public Antologia[] antologia;
+	public float blockedTime;
+	public float resetTime;
 
 	[Serializable]
 	public class Antologia
@@ -42,6 +44,20 @@ public class TriviaData : MonoBehaviour {
 		public bool[] triviasDone;
 		public bool completed;
 		public float lastBadAnswerTime;
+		public TriviaState state;
+
+		public void Reset(){
+			for (int i = 0; i < triviasDone.Length; i++)
+				triviasDone [i] = false;
+			triviasIndex = 0;
+			state = TriviaState.idle;
+		}
+	}
+
+	public enum TriviaState{
+		idle,
+		blocked,
+		complete
 	}
 
 	void Start () {
@@ -76,6 +92,7 @@ public class TriviaData : MonoBehaviour {
 			tp.id = antologia [i].id;
 			tp.gameprogress_name = antologia [i].gameprogress_name;
 			tp.triviasDone = new bool[antologia [i].trivias.Length];
+			tp.state = TriviaState.idle;
 			triviaProgress.Add (tp);
 		}
 	}
@@ -93,5 +110,30 @@ public class TriviaData : MonoBehaviour {
 	public TriviaProgress GetTProgressByGProgress(string gameprogress_name){
 		TriviaProgress a = triviaProgress.Find(x => x.gameprogress_name == gameprogress_name);
 		return a;
+	}
+
+	public TriviaState GetStateByGProgress(string gameprogress_name){
+		TriviaProgress a = triviaProgress.Find(x => x.gameprogress_name == gameprogress_name);
+
+		Debug.Log (Time.realtimeSinceStartup - a.lastBadAnswerTime);
+
+		if (a.state == TriviaState.complete)
+			return a.state;
+		else if (a.state == TriviaState.idle)
+			return a.state;
+		else if (a.state == TriviaState.blocked) {
+			if (Time.realtimeSinceStartup - a.lastBadAnswerTime < blockedTime)
+				return a.state;
+			else if (Time.realtimeSinceStartup - a.lastBadAnswerTime <= resetTime) {
+				a.state = TriviaState.idle;
+				return a.state;
+			} else {
+				a.Reset ();
+				return a.state;
+			}				
+		} else {
+			Debug.Log ("en caso de agregar nuevo estado CHEQUEAR AQUI");
+			return a.state;
+		}
 	}
 }

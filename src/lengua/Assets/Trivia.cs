@@ -21,11 +21,16 @@ public class Trivia : MonoBehaviour {
 		Events.OnTriviaWrong -= Close;
 	}
 	void OpenTrivia (string gameProgressKey) {
-		TriviaData.TriviaProgress tProgress = Data.Instance.triviaData.GetTProgressByGProgress(gameProgressKey);
-		if(!tProgress.completed){
-			this.gameProgressKey = gameProgressKey;
+		this.gameProgressKey = gameProgressKey;
+		TriviaData.TriviaState ts = Data.Instance.triviaData.GetStateByGProgress(gameProgressKey);
+		if (ts == TriviaData.TriviaState.idle) {
+			Events.SetTrivia (gameProgressKey);
 			panel.SetActive (true);
 			//title.text = gameProgressKey;
+		} else if (ts == TriviaData.TriviaState.blocked) {
+			Debug.Log ("La trivia está bloqueada, tiene que esperar un minuto");
+		} else if (ts == TriviaData.TriviaState.complete) {
+			Debug.Log ("La trivia ya está completa");
 		}
 	}
 	public void Close()
