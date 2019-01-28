@@ -6,7 +6,12 @@ public class CharacterAnimations : MonoBehaviour {
 	
 	public Animator anim;
 	public states state;
+	public CharacterExpressions expressions;
 
+	void Awake()
+	{
+		expressions = GetComponent<CharacterExpressions> ();
+	}
 	public enum states
 	{
 		IDLE,
