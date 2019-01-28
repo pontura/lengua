@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Data : MonoBehaviour
 {
-	
+	public bool reloadJson;
     const string PREFAB_PATH = "Data";    
     static Data mInstance = null;
 	[HideInInspector]

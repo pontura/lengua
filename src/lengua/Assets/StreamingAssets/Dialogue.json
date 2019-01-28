@@ -1,13 +1,66 @@
 {
-	"into":
+	"intro":
 	[
 		{
-			"icon":"ella",
-			"text": "hopaaklsd laskd laksdlaskd lkasdnl "
+			"character":"marian",
+			"state":"idle",
+			"text": "¡Ya estás acá, muy bien!"
 		},
 		{
-			"icon":"ella2",
-			"text": "asd asdd sasd hopaasdaaklsd laskd laksdlaskd lkasdnl "
+			"character":"avatar",
+			"state":"idle",
+			"text": "Sí. Geniaaaaal"
+		},
+		{
+			"character":"marian",
+			"state":"idle",
+			"text": "¿Detecto ironía? ¿Un falso entusiasmo?"
+		},
+		{
+			"character":"avatar",
+			"state":"idle",
+			"text": "¡Es sábado, Marian! ¿Me querés decir qué hacemos en este colegio?"
+		},
+		{
+			"character":"marian",
+			"state":"idle",
+			"text": "Punto uno: quería que lo conozcas. "
+		},
+		{
+			"character":"marian",
+			"state":"idle",
+			"text": "Punto dos: Puede que este sea tu próximo colegio…"
+		},
+		{
+			"character":"avatar",
+			"state":"idle",
+			"text": "Si es que paso el examen de ingreso…"
+		},
+		{
+			"character":"marian",
+			"state":"idle",
+			"text": "No hace falta hablar de eso ahora, tranqui. Mirá, tengo que salir un momento..."
+		},
+		{
+			"character":"avatar",
+			"state":"idle",
+			"text": "¡¿Hoy trabajás?!"
+		},
+		
+		{
+			"character":"marian",
+			"state":"idle",
+			"text": "Algo así..."
+		},
+		{
+			"character":"marian",
+			"state":"idle",
+			"text": "Buscá el material de ingreso por acá y encontrame en la biblioteca cuando termines. Cualquier cosa me mandás un mensaje, ¿sí?"
+		},
+		{
+			"character":"avatar",
+			"state":"idle",
+			"text": "¡Ooookey! Vaya, nomás"
 		}
 	]
 }
