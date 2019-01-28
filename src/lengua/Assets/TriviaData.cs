@@ -45,7 +45,8 @@ public class TriviaData : MonoBehaviour {
 	}
 
 	void Start () {
-
+		if (!Data.Instance.reloadJson)
+			return;
 		/*string filePath = "";
 		#if UNITY_EDITOR
 			filePath = Path.Combine (Application.streamingAssetsPath + "/", filename);

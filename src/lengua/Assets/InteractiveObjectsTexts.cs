@@ -6,6 +6,8 @@ using System;
 
 public class InteractiveObjectsTexts : MonoBehaviour {
 
+
+
 	[Serializable]
 	public class Content
 	{
@@ -39,6 +41,7 @@ public class InteractiveObjectsTexts : MonoBehaviour {
 	public Content content;
 
 	void Start () {
+		if(Data.Instance.reloadJson)
 		LoadJson ();
 	}
 	private void LoadJson()
