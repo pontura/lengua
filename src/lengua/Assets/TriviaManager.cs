@@ -24,12 +24,12 @@ public class TriviaManager : MonoBehaviour {
 
 	void Start () {
 		paginator = GetComponent<TriviaPaginator> ();
-		Events.OpenTrivia += OpenTrivia;
+		Events.SetTrivia += SetTrivia;
 	}
 	void OnDestroy () {
-		Events.OpenTrivia -= OpenTrivia;
+		Events.SetTrivia -= SetTrivia;
 	}
-	void OpenTrivia (string gameProgressKey) {
+	void SetTrivia (string gameProgressKey) {
 		this.gameProgressKey = gameProgressKey;
 		tProgress = Data.Instance.triviaData.GetTProgressByGProgress(gameProgressKey);
 		if (!tProgress.completed) {
@@ -76,11 +76,14 @@ public class TriviaManager : MonoBehaviour {
 			tProgress.triviasIndex++;
 			if (tProgress.triviasIndex >= tProgress.triviasDone.Length) {
 				tProgress.completed = true;
+				tProgress.state = TriviaData.TriviaState.complete;
 				Events.OnBookComplete ();
 				return;
 			}
 			correcto.SetActive (true);
 		} else {
+			tProgress.lastBadAnswerTime = Time.realtimeSinceStartup;
+			tProgress.state = TriviaData.TriviaState.blocked;
 			incorrecto.SetActive (true);
 			close = true;
 		}
@@ -94,7 +97,7 @@ public class TriviaManager : MonoBehaviour {
 			close = false;
 			Events.OnTriviaWrong ();
 		} else {
-			OpenTrivia (gameProgressKey);
+			SetTrivia (gameProgressKey);
 		}
 	}
 }

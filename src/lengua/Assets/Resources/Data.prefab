@@ -56,6 +56,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   filename: Antologia.json
+<<<<<<< HEAD
   triviaProgress:
   - id: 0
     gameprogress_name: libroIngreso
@@ -454,6 +455,12 @@ MonoBehaviour:
       - Juanjo resulta ser un chico parecido al viento como todo lo arrasa.
       - "Los chicos permanecen escuchando m\xFAsica en silencio y se muestran poco
         comunicativos."
+=======
+  triviaProgress: []
+  antologia: []
+  blockedTime: 60
+  resetTime: 1800
+>>>>>>> efa3dfba267562a2b2ecbf241be20962e7ba8d83
 --- !u!114 &114300212788950266
 MonoBehaviour:
   m_ObjectHideFlags: 1
