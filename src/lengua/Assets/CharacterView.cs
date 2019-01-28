@@ -6,6 +6,8 @@ public class CharacterView : MonoBehaviour {
 	
 	[HideInInspector]
 	public CharacterAnimations characterAnimations;
+	[HideInInspector]
+	public CharacterExpressions characterExpressions;
 
 	public CharacterAnimations characterAnim_to_instantiate;
 	public Transform container;
@@ -20,6 +22,7 @@ public class CharacterView : MonoBehaviour {
 		characterAnimations.transform.localEulerAngles = Vector3.zero;
 		characterAnimations.transform.localPosition = Vector3.zero;
 		characterAnimations.Idle ();
+		characterExpressions = characterAnimations.GetComponent<CharacterExpressions> ();
 	}
 
 	public void LookTo(Vector3 pos)

@@ -4,13 +4,23 @@ using UnityEngine;
 
 public class DialoguesCamera : MonoBehaviour {
 
-	// Use this for initialization
+	public Camera camera;
+	public CharacterAnimations julia;
+	public CharacterAnimations marian;
+
 	void Start () {
-		
+		camera.enabled = false;
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+
+	public void SetOn (CharacterAnimations character, CharacterExpressions.states state) {
+		Reset ();
+		character.gameObject.SetActive (true);
+		character.GetComponent<CharacterExpressions> ().SetOn (state);
+	}
+	void Reset()
+	{
+		julia.gameObject.SetActive (false);
+		marian.gameObject.SetActive (false);
+		camera.enabled = false;
 	}
 }

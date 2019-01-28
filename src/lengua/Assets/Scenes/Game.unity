@@ -155,7 +155,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterAnimations: {fileID: 0}
-  characterAnim_to_instantiate: {fileID: 114912061241373398, guid: 5482dc6d52deacc44bd6d5846c1cce3a,
+  characterExpressions: {fileID: 0}
+  characterAnim_to_instantiate: {fileID: 114912061241373398, guid: af796ff2521229a45b180347e04ba539,
     type: 2}
   container: {fileID: 688535937}
   target: {fileID: 1588145395}
@@ -189,7 +190,7 @@ RectTransform:
   m_Children:
   - {fileID: 1084830588}
   m_Father: {fileID: 1606874757}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
@@ -5688,6 +5689,80 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1879940503}
+    - target: {fileID: 224922125714555642, guid: ab7b9ff93e3943748bd623ca49142f4d,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224922125714555642, guid: ab7b9ff93e3943748bd623ca49142f4d,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224922125714555642, guid: ab7b9ff93e3943748bd623ca49142f4d,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224922125714555642, guid: ab7b9ff93e3943748bd623ca49142f4d,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224167767678625772, guid: ab7b9ff93e3943748bd623ca49142f4d,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224167767678625772, guid: ab7b9ff93e3943748bd623ca49142f4d,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224167767678625772, guid: ab7b9ff93e3943748bd623ca49142f4d,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224167767678625772, guid: ab7b9ff93e3943748bd623ca49142f4d,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224492302608487176, guid: ab7b9ff93e3943748bd623ca49142f4d,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224492302608487176, guid: ab7b9ff93e3943748bd623ca49142f4d,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224492302608487176, guid: ab7b9ff93e3943748bd623ca49142f4d,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224492302608487176, guid: ab7b9ff93e3943748bd623ca49142f4d,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224167767678625772, guid: ab7b9ff93e3943748bd623ca49142f4d,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224492302608487176, guid: ab7b9ff93e3943748bd623ca49142f4d,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1418016127079734, guid: ab7b9ff93e3943748bd623ca49142f4d, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab7b9ff93e3943748bd623ca49142f4d, type: 2}
   m_IsPrefabAsset: 0
@@ -6139,6 +6214,204 @@ Transform:
   m_Father: {fileID: 414852005}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &319679919
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 319679920}
+  - component: {fileID: 319679922}
+  - component: {fileID: 319679921}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &319679920
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 319679919}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 347041811}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &319679921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 319679919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 035482480b2eb98468155974d58fc626, type: 3}
+    m_FontSize: 22
+    m_FontStyle: 0
+    m_BestFit: 1
+    m_MinSize: 22
+    m_MaxSize: 59
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: '>'
+--- !u!222 &319679922
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 319679919}
+  m_CullTransparentMesh: 0
+--- !u!1 &347041810
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 347041811}
+  - component: {fileID: 347041814}
+  - component: {fileID: 347041813}
+  - component: {fileID: 347041812}
+  m_Layer: 5
+  m_Name: next
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &347041811
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 347041810}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 319679920}
+  m_Father: {fileID: 1413592122}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: 289, y: 122}
+  m_SizeDelta: {x: 75.2, y: 78.5}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &347041812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 347041810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 347041813}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1879940507}
+        m_MethodName: Next
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &347041813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 347041810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 8cba6768f88ea444fb4cad6c4cd3d95d, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &347041814
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 347041810}
+  m_CullTransparentMesh: 0
 --- !u!1 &347939044
 GameObject:
   m_ObjectHideFlags: 0
@@ -6345,7 +6618,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1654997556}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -7284,7 +7557,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -54, y: 0}
-  m_SizeDelta: {x: -345.45, y: 98.1}
+  m_SizeDelta: {x: 0, y: 98.1}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &590738164
 MonoBehaviour:
@@ -7422,14 +7695,78 @@ Prefab:
       propertyPath: m_RootOrder
       value: 5
       objectReference: {fileID: 0}
-    - target: {fileID: 114434947018505516, guid: aefa6525dcc3adc4b9a69e28e70b3130,
-        type: 2}
-      propertyPath: allItems.Array.data[4].gameProgressKey
-      value: libroCuadro
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aefa6525dcc3adc4b9a69e28e70b3130, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &672403126
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 672403127}
+  - component: {fileID: 672403129}
+  - component: {fileID: 672403128}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &672403127
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 672403126}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1413592122}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -33.69922, y: 281.59998}
+  m_SizeDelta: {x: 863.80005, y: 434.8}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &672403128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 672403126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &672403129
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 672403126}
+  m_CullTransparentMesh: 0
 --- !u!1 &675793492
 GameObject:
   m_ObjectHideFlags: 0
@@ -7485,7 +7822,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1483224025}
-  - {fileID: 1349837886}
   m_Father: {fileID: 29415122}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -12214,7 +12550,7 @@ RectTransform:
   m_Children:
   - {fileID: 1269376122}
   m_Father: {fileID: 1879940501}
-  m_RootOrder: 0
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -12381,6 +12717,75 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 755865805}
   m_CullTransparentMesh: 0
+--- !u!1 &789619720
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 789619723}
+  - component: {fileID: 789619721}
+  m_Layer: 0
+  m_Name: Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!20 &789619721
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 789619720}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 0}
+  m_projectionMatrixMode: 1
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 0.22
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 8400000, guid: a379cfb5266615947af445b0525f020f, type: 2}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &789619723
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 789619720}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.05, z: -0.45}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 938875512}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &822613399
 GameObject:
   m_ObjectHideFlags: 0
@@ -12409,7 +12814,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1606874757}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -12704,6 +13109,52 @@ Transform:
   m_Father: {fileID: 414852005}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &938875510
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 938875512}
+  - component: {fileID: 938875511}
+  m_Layer: 0
+  m_Name: DialoguesCamera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &938875511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 938875510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdfd0adad25992247a884fb3ea6d9362, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  camera: {fileID: 789619721}
+  julia: {fileID: 1981847140}
+  marian: {fileID: 1502096520}
+--- !u!4 &938875512
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 938875510}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 10000, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1981847141}
+  - {fileID: 1502096521}
+  - {fileID: 789619723}
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &970190556
 GameObject:
   m_ObjectHideFlags: 0
@@ -12842,7 +13293,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1580746754}
   m_Direction: 2
   m_Value: 0
-  m_Size: 1
+  m_Size: 0.92375034
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -12882,6 +13333,74 @@ CanvasRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 992624344}
+  m_CullTransparentMesh: 0
+--- !u!1 &1001013159
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1001013160}
+  - component: {fileID: 1001013162}
+  - component: {fileID: 1001013161}
+  m_Layer: 5
+  m_Name: icon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1001013160
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1001013159}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.66628, y: 0.66628, z: 0.66628}
+  m_Children: []
+  m_Father: {fileID: 1413592122}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -259, y: 152}
+  m_SizeDelta: {x: 300, y: 300}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1001013161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1001013159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -98529514, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Texture: {fileID: 8400000, guid: a379cfb5266615947af445b0525f020f, type: 2}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+--- !u!222 &1001013162
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1001013159}
   m_CullTransparentMesh: 0
 --- !u!1 &1011024102
 GameObject:
@@ -13033,6 +13552,81 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1052092011
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1052092012}
+  - component: {fileID: 1052092014}
+  - component: {fileID: 1052092013}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1052092012
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1052092011}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1413592122}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 47, y: 17}
+  m_SizeDelta: {x: 377.7, y: -98.8}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1052092013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1052092011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 035482480b2eb98468155974d58fc626, type: 3}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 1
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 
+--- !u!222 &1052092014
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1052092011}
+  m_CullTransparentMesh: 0
 --- !u!1001 &1058659357
 Prefab:
   m_ObjectHideFlags: 0
@@ -13625,13 +14219,82 @@ RectTransform:
   m_Children:
   - {fileID: 912318594}
   m_Father: {fileID: 1879940501}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -60, y: -73}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1196741702
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1196741703}
+  - component: {fileID: 1196741705}
+  - component: {fileID: 1196741704}
+  m_Layer: 5
+  m_Name: mask
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1196741703
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1196741702}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.8288878, y: 1.2625073, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1413592122}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 110.00006, y: 251.397}
+  m_SizeDelta: {x: 532.7999, y: 296.89996}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1196741704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1196741702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &1196741705
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1196741702}
+  m_CullTransparentMesh: 0
 --- !u!1 &1203478322
 GameObject:
   m_ObjectHideFlags: 0
@@ -13707,6 +14370,549 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1214432435
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1640398861795566, guid: aefa6525dcc3adc4b9a69e28e70b3130,
+    type: 2}
+  m_PrefabInternal: {fileID: 661372755}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1214432440}
+  - component: {fileID: 1214432439}
+  - component: {fileID: 2124039093}
+  - component: {fileID: 1214432438}
+  - component: {fileID: 1214432437}
+  - component: {fileID: 1214432436}
+  - component: {fileID: 1214432441}
+  m_Layer: 0
+  m_Name: Data
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1214432436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 114134459145049482, guid: aefa6525dcc3adc4b9a69e28e70b3130,
+    type: 2}
+  m_PrefabInternal: {fileID: 661372755}
+  m_GameObject: {fileID: 1214432435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e745d22d8b9309949a65cc47e8676243, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  filename: Antologia.json
+  triviaProgress:
+  - id: 0
+    gameprogress_name: libroIngreso
+    triviasIndex: 0
+    triviasDone: 000000
+    completed: 0
+    lastBadAnswerTime: 0
+    state: 0
+  - id: 1
+    gameprogress_name: libroCuadro
+    triviasIndex: 0
+    triviasDone: 000000
+    completed: 0
+    lastBadAnswerTime: 0
+    state: 0
+  - id: 2
+    gameprogress_name: cuaderno_ingreso
+    triviasIndex: 0
+    triviasDone: 000000
+    completed: 0
+    lastBadAnswerTime: 0
+    state: 0
+  antologia:
+  - id: 0
+    gameprogress_name: libroIngreso
+    title: La plapla
+    author: "Mar\xEDa Elena Walsh"
+    texts:
+    - textlines:
+      - "Felipito Tacat\xFAn estaba haciendo los deberes. Inclinado sobre el cuaderno
+        y sacando un poquito la lengua, escrib\xEDa enruladas emes, orejudas eles
+        y elegant\xEDsimas zetas."
+      - De pronto, vio algo muy raro sobre el papel.
+      - "\x96\xBFQu\xE9 es esto?\x96 se pregunt\xF3 Felipito, que era un poco miope,
+        y se puso un par de anteojos."
+      - "Una de las letras que hab\xEDa escrito se despatarraba toda y se pon\xEDa
+        a caminar muy oronda por el cuaderno."
+      - "Felipito no lo pod\xEDa creer, y sin embargo era cierto: la letra, como una
+        ara\xF1a de tinta, patinaba muy contenta por la p\xE1gina."
+    - textlines:
+      - Felipito se puso otro par de anteojos para mirarla mejor.
+      - "Cuando la hubo mirado bien, cerr\xF3 el cuaderno asustado y oy\xF3 una vocecita
+        que dec\xEDa:"
+      - "\x96\xA1Ay!"
+      - "Volvi\xF3 a abrir el cuaderno valientemente y se puso otro par de anteojos,
+        y ya van tres. Pegando la nariz al papel pregunt\xF3:"
+      - "\x96\xBFQui\xE9n es usted, se\xF1orita?"
+      - "Y la letra caminadora contest\xF3:"
+      - "\x96Soy una Plapla."
+      - "\x96\xBFUna Plapla? \x96 pregunt\xF3 Felipito asustad\xEDsimo \x96\xBFQu\xE9
+        es eso?"
+      - "\x96\xBFNo acabo de decirte? Una Plapla soy yo."
+      - "\x96Pero la maestra nunca me dijo que existiera una letra llamada Plapla,
+        y mucho menos que caminara por el cuaderno."
+      - "\x96Ahora ya lo sabes. Has escrito una Plapla."
+      - "\x96\xBFY qu\xE9 hago con la Plapla?"
+      - "\x96Mirarla."
+      - "\x96S\xED, la estoy mirando pero \xBFy despu\xE9s?"
+      - "\x96Despu\xE9s, nada."
+      - "Y la Plapla sigui\xF3 patinando sobre el cuaderno mientras cantaba un vals
+        con su voz chiquita y de tinta."
+      - "Al d\xEDa siguiente, Felipito corri\xF3 a mostrarle el cuaderno a su maestra,
+        gritando entusiasmado:"
+      - "\x96\xA1Se\xF1orita, mire la Plapla, mire la Plapla!"
+      - "La maestra crey\xF3 que Felipito se hab\xEDa vuelto loco. Pero no."
+      - "Abri\xF3 el cuaderno, y all\xED estaba la Plapla bailando y patinando por
+        la p\xE1gina y jugando a la rayuela con los renglones."
+    - textlines:
+      - "Como podr\xE1n imaginarse, la Plapla caus\xF3 mucho revuelo en el colegio."
+      - "Ese d\xEDa nadie estudi\xF3."
+      - Todo el mundo, por riguroso turno, desde el portero hasta los nenes de primero
+        inferior, se dedicaron a contemplar a la Plapla.
+      - "Tan grande fue el bochinche y la falta de estudio, que desde ese d\xEDa la
+        Plapla no figura en el Abecedario."
+      - Cada vez que un chico, por casualidad, igual que Felipito, escribe una Plapla
+        cantante y patinadora la maestra la guarda en una cajita y cuida muy bien
+        de que nadie se entere.
+      - "Qu\xE9 le vamos a hacer, as\xED es la vida."
+      - "Las letras no han sido hechas para bailar, sino para quedarse quietas una
+        al lado de la otra, \xBFno?"
+    trivias:
+    - quest: "\xBFQu\xE9 hac\xEDa la Plapla por las p\xE1ginas del libro?"
+      answers:
+      - La Plapla caminaba, bailaba y patinaba muy contenta.
+      - La Plapla manchaba de tinta todas las hojas del libro.
+      - "La Plapla se quedaba quieta en el \xFAltimo rengl\xF3n."
+    - quest: "\xBFQu\xE9 pens\xF3 la maestra sobre Felipito?"
+      answers:
+      - "La maestra pens\xF3 que Felipito se hab\xEDa vuelto loco."
+      - "La maestra pens\xF3 que Felipito se hab\xEDa equivocado."
+      - "La maestra pens\xF3 que Felipito estaba mintiendo."
+    - quest: "\xBFPor qu\xE9 la Plapla no figura en el abecedario?"
+      answers:
+      - "La Plapla no figura en el abecedario porque gener\xF3 mucho bochinche y falta
+        de estudio en el colegio."
+      - La Plapla no figura en el abecedario porque no se quedaba quieta en su lugar.
+      - "La Plapla no figura en el abecedario porque ya hab\xEDa letras suficientes."
+  - id: 1
+    gameprogress_name: libroCuadro
+    title: Amigos por el viento
+    author: Liliana Bodoc
+    texts:
+    - textlines:
+      - "A veces, la vida se comporta como un viento: desordena y arrasa. Algo susurra
+        pero no se le entiende. A su paso todo peligra; hasta lo que tiene ra\xEDces.
+        Los edificios, por ejemplo. O las costumbres cotidianas."
+      - "Cuando la vida se comporta de ese modo, se nos ensucian los ojos con los
+        que vemos. Es decir, los verdaderos ojos. A nuestro lado, pasan papeles escritos
+        con una letra que creemos reconocer. El cielo se mueve m\xE1s r\xE1pido que
+        las horas. Y lo peor es que nadie sabe si, alguna vez, regresara la calma."
+      - "As\xED ocurri\xF3 el d\xEDa que su pap\xE1 se fue de casa. La vida se nos
+        transform\xF3 en viento casi sin dar aviso. Yo recuerdo la puerta que se cerr\xF3
+        detr\xE1s de su sombra y sus valijas. Tambi\xE9n puedo recordar la ropa reseca
+        sacudi\xE9ndose al sol mientras mam\xE1 cerraba las ventanas para que, adentro
+        y adentro, algo quedara en su sitio."
+      - "- Le dije a Ricardo que viniera con su hijo. \xBFQu\xE9 te parece?"
+      - "- Me parece bien - ment\xED."
+      - "Mam\xE1 dej\xF3 de pulir la bandeja, y me mir\xF3:"
+      - "- No me lo est\xE1s diciendo muy convencida..."
+      - '- Yo no tengo que estar convencida.'
+      - "- \xBFY eso que significa? - pregunt\xF3 la mujer que m\xE1s preguntas me
+        hizo en mi vida."
+      - 'Me vi obligada a levantar los ojos del libro:'
+      - "- Significa que es tu cumplea\xF1os, y no el m\xED\xF3 - respond\xED."
+      - "La gata sali\xF3 de su canasto, y fue a enredarse entre las piernas de mam\xE1."
+      - "Que mam\xE1 tuviera novio era casi insoportable. Pero que ese novio tuviera
+        un hijo era una verdadera amenaza. Otra vez, un peligro rondaba mi vida. Otra
+        vez hab\xEDa viento en el horizonte."
+      - "- Se van a entender bien - dijo mam\xE1 -. Juanjo tiene tu edad."
+      - "La gata, \xFAnico ser que entend\xEDa mi desolaci\xF3n, salto sobre mis rodillas.
+        Gracias, gatita buena."
+    - textlines:
+      - "Hab\xEDan pasado varios a\xF1os desde aquel viento que se llev\xF3 a pap\xE1.
+        En casa ya estaban reparados los da\xF1os. Los huecos de la biblioteca fueron
+        ocupados con nuevos libros. Y hac\xEDa mucho que yo no encontraba gotas de
+        llanto escondidas en los jarrones, disimuladas como estalactitas en el congelador,
+        disfrazadas de pedacitos de cristal. \xA8Se me acaba de romper una copa\xA8,
+        inventaba mam\xE1, que, contal de ocultarme su tristeza, era capaz de esas
+        y otras asombrosas hechicer\xEDas."
+      - "Ya no hab\xEDa huellas de viento ni de llantos. Y justo cuando empez\xE1bamos
+        a re\xEDrnos con ganas y a pasear juntas en bicicleta, apareci\xF3 un tal
+        Ricardo y todo volv\xEDa a peligrar."
+      - "Mam\xE1 sac\xF3 las cocadas del horno. Antes del viento, ella las hac\xEDa
+        cada domingo. Despu\xE9s pareci\xF3 tomarle rencor a la receta, porque se
+        molestaba con la sola menci\xF3n del asunto. Ahora, el tal Ricardo y su Juanjo
+        hab\xEDan conseguido que volviera a hacerlas. Algo que yo no pude conseguir."
+      - "- Me voy a arreglar un poco - dijo mam\xE1 mir\xE1ndose las manos. - Lo \xFAnico
+        que falta es que lleguen y me encuentren hecha un desastre."
+      - "- \xBFQu\xE9 te vas a poner? - le pregunt\xE9 en un supremo esfuerzo de amor."
+      - '- El vestido azul.'
+      - "Mam\xE1 sali\xF3 de la cocina, la gata regres\xF3 a su canasto. Y yo me qued\xE9
+        sola para imaginar lo que me esperaba."
+      - "Seguramente, ese horrible Juanjo iba a devorar las cocadas. Y los pedacitos
+        de merengue quedar\xEDan pegados en los costados de su boca. Tambi\xE9n era
+        seguro que iba a dejar sucio el jab\xF3n cuando se lavara las manos. Iba a
+        hablar de su perro con tal de desmerecer a mi gata."
+      - "Pude verlo por mi casa transitando con los cordones de las zapatillas desatados,
+        tratando de anticipar la manera de quedarse con mi dormitorio. Pero, a\xFAn
+        m\xE1s que ninguna otra cosa, me aterr\xF3 la certeza de que ser\xEDa uno
+        de esos chicos que en vez de hablar, hacen ruidos: frenadas de autos, golpes
+        en el est\xF3mago, sirenas de bomberos, ametralladoras y explosiones."
+      - "- \xA1Mam\xE1! - grit\xE9 pegada a la puerta del ba\xF1o."
+      - "- \xBFQu\xE9 pasa? - me respondi\xF3 desde la ducha."
+      - "- \xBFC\xF3mo se llaman esas palabras que parecen ruidos?"
+      - "El agua ca\xEDa apenas tibia, mam\xE1 intentaba comprender mi pregunta, la
+        gata dorm\xEDa y yo esperaba."
+      - "- \xBFPalabras que parecen ruidos? - repiti\xF3."
+      - "- S\xED. - Y aclar\xE9 -: Plum, Plaf, Ugg... \xA1Ring!"
+      - "- Por favor - dijo mam\xE1 -, est\xE1n llamando."
+      - "No tuve m\xE1s remedio que abrir la puerta."
+      - "- \xA1Hola! - dijeron las rosas que tra\xEDa Ricardo."
+      - "- \xA1Hola! - dijo Ricardo asomado detr\xE1s de las rosas."
+      - "Yo mira a su hijo sin piedad. Como lo hab\xEDa imaginado, tra\xEDa puesta
+        una remera rid\xEDcula y un pantal\xF3n que le quedaba corto."
+      - "Enseguida, apareci\xF3 mam\xE1. Estaba tan linda como si no se hubiese arreglado.
+        As\xED le pasaba a ella. Y el azul les quedaba muy bien a sus cejas espesas. "
+      - "- Podr\xEDan ir a escuchar m\xFAsica a tu habitaci\xF3n - sugiri\xF3 la mujer
+        que cumpl\xEDa a\xF1os, desesperada por la falta de aire. Y es que yo me lo
+        hab\xEDa tragado todo para matar por asfixia a los invitados."
+      - "Cumpl\xED sin quejarme. El horrible chico me sigui\xF3 en silencio. Me sent\xE9
+        en una cama. \xC9l se sent\xF3 en la otra. Sin dudas, ya estar\xEDa decidiendo
+        que el dormitorio pronto ser\xEDa de su propiedad. Y yo dormir\xEDa en el
+        canasto, junto a la gata."
+    - textlines:
+      - "No puse m\xFAsica porque no ten\xEDa nada que festejar. Aquel era un d\xEDa
+        triste para m\xED. No me pareci\xF3 justo, y decid\xED que tambi\xE9n \xE9l
+        deb\xEDa sufrir. Entonces, busqu\xE9 una espina y la puse entre signos de
+        preguntas:"
+      - "- \xBFCu\xE1nto hace que se muri\xF3 tu mam\xE1?"
+      - "Juanjo abri\xF3 grandes los ojos para disimular algo. "
+      - "- Cuatro a\xF1os - contest\xF3."
+      - "Pero mi rabia no se conform\xF3 con eso:"
+      - "- \xBFY c\xF3mo fue? - volv\xED a preguntar."
+      - "Esta vez, entrecerr\xF3 los ojos."
+      - "Yo esperaba o\xEDr cualquier respuesta, menos la que lleg\xF3 desde su voz
+        cortada."
+      - '- Fue... fue como un viento - dijo.'
+      - "Agach\xE9 la cabeza, y dej\xE9 salir el aire que ten\xEDa guardado. Juanjo
+        estaba hablando del viento, \xBFser\xEDa el mismo que pas\xF3 por mi vida?"
+      - "- \xBFEs un viento que llega de repente y se mete en todos lados? - pregunt\xE9."
+      - "- S\xED, es ese."
+      - "- \xBFY tambi\xE9n susurra...?"
+      - "- Mi viento susurraba - dijo Juanjo -. Pero no entend\xED lo que dec\xEDa."
+      - "- Yo tampoco entend\xED. - Los dos vientos se mezclaron en mi cabeza."
+      - "Pas\xF3 un silencio."
+      - "- Un viento tan fuerte que movi\xF3 los edificios - dijo \xE9l -. Y eso que
+        los edificios tienen ra\xEDces..."
+      - "Pas\xF3 una respiraci\xF3n."
+      - "- A m\xED se me ensuciaron los ojos - dije."
+      - Pasaron dos.
+      - "- A m\xED tambi\xE9n."
+      - "- \xBFTu pap\xE1 cerr\xF3 las ventanas? - pregunt\xE9."
+      - "- S\xED."
+      - "- Mi mam\xE1 tambi\xE9n."
+      - "- \xBFPor qu\xE9 lo habr\xE1n hecho?"
+      - "Juanjo parec\xEDa asustado."
+      - '- Debe de haber sido para que algo quedara en su sitio.'
+      - "A veces, la vida se comporta como el viento: desordena y arrasa. Algo susurra,
+        pero no se le entiende. A su paso todo peligra; hasta aquello que tiene ra\xEDces.
+        Los edificios, por ejemplo. O las costumbres cotidianas."
+      - "- Si quer\xE9s vamos a comer cocadas - le dije."
+      - "Porque Juanjo y yo ten\xEDamos un viento en com\xFAn. Y quiz\xE1s ya era
+        tiempo de abrir las ventanas."
+    trivias:
+    - quest: "\xBFPor qu\xE9 dice la protagonista que la vida se transform\xF3 en
+        viento?"
+      answers:
+      - "La protagonista dice que la vida se transform\xF3 en viento porque la ausencia
+        de su padre moviliz\xF3 sus sentimientos y modific\xF3 su entorno."
+      - "La protagonista dice  que la vida se transform\xF3 en viento porque empezaron
+        a derrumbarse los edificios."
+      - "La protagonista dice que la vida se transform\xF3 en viento porque se le
+        ensucian los ojos."
+    - quest: "La protagonista imagina lo que le espera con la llegada de los invitados
+        \xBFqu\xE9 ocurrencias tiene acerca de este encuentro?"
+      answers:
+      - "La protagonista imagina que Juanjo es un chico desagradable, que hace ruido
+        al hablar y le quitar\xE1 sus espacios."
+      - La protagonista imagina y desea que el hijo de Ricardo sea como un hermano
+        para ella.
+      - "La protagonista imagina que finalmente llegar\xE1 a su vida alguien con quien
+        compartir su vida."
+    - quest: "\xBFQu\xE9 resulta del encuentro de la protagonista con Juanjo?"
+      answers:
+      - La protagonista y Juanjo comparten los mismos sentimientos sobre la ausencia
+        de sus padres y lo imaginan como un viento que todo lo arrasa.
+      - Juanjo resulta ser un chico parecido al viento como todo lo arrasa.
+      - "Los chicos permanecen escuchando m\xFAsica en silencio y se muestran poco
+        comunicativos."
+  - id: 2
+    gameprogress_name: cuaderno_ingreso
+    title: Amigos por el viento
+    author: Liliana Bodoc
+    texts:
+    - textlines:
+      - "A veces, la vida se comporta como un viento: desordena y arrasa. Algo susurra
+        pero no se le entiende. A su paso todo peligra; hasta lo que tiene ra\xEDces.
+        Los edificios, por ejemplo. O las costumbres cotidianas."
+      - "Cuando la vida se comporta de ese modo, se nos ensucian los ojos con los
+        que vemos. Es decir, los verdaderos ojos. A nuestro lado, pasan papeles escritos
+        con una letra que creemos reconocer. El cielo se mueve m\xE1s r\xE1pido que
+        las horas. Y lo peor es que nadie sabe si, alguna vez, regresara la calma."
+      - "As\xED ocurri\xF3 el d\xEDa que su pap\xE1 se fue de casa. La vida se nos
+        transform\xF3 en viento casi sin dar aviso. Yo recuerdo la puerta que se cerr\xF3
+        detr\xE1s de su sombra y sus valijas. Tambi\xE9n puedo recordar la ropa reseca
+        sacudi\xE9ndose al sol mientras mam\xE1 cerraba las ventanas para que, adentro
+        y adentro, algo quedara en su sitio."
+      - "- Le dije a Ricardo que viniera con su hijo. \xBFQu\xE9 te parece?"
+      - "- Me parece bien - ment\xED."
+      - "Mam\xE1 dej\xF3 de pulir la bandeja, y me mir\xF3:"
+      - "- No me lo est\xE1s diciendo muy convencida..."
+      - '- Yo no tengo que estar convencida.'
+      - "- \xBFY eso que significa? - pregunt\xF3 la mujer que m\xE1s preguntas me
+        hizo en mi vida."
+      - 'Me vi obligada a levantar los ojos del libro:'
+      - "- Significa que es tu cumplea\xF1os, y no el m\xED\xF3 - respond\xED."
+      - "La gata sali\xF3 de su canasto, y fue a enredarse entre las piernas de mam\xE1."
+      - "Que mam\xE1 tuviera novio era casi insoportable. Pero que ese novio tuviera
+        un hijo era una verdadera amenaza. Otra vez, un peligro rondaba mi vida. Otra
+        vez hab\xEDa viento en el horizonte."
+      - "- Se van a entender bien - dijo mam\xE1 -. Juanjo tiene tu edad."
+      - "La gata, \xFAnico ser que entend\xEDa mi desolaci\xF3n, salto sobre mis rodillas.
+        Gracias, gatita buena."
+    - textlines:
+      - "Hab\xEDan pasado varios a\xF1os desde aquel viento que se llev\xF3 a pap\xE1.
+        En casa ya estaban reparados los da\xF1os. Los huecos de la biblioteca fueron
+        ocupados con nuevos libros. Y hac\xEDa mucho que yo no encontraba gotas de
+        llanto escondidas en los jarrones, disimuladas como estalactitas en el congelador,
+        disfrazadas de pedacitos de cristal. \xA8Se me acaba de romper una copa\xA8,
+        inventaba mam\xE1, que, contal de ocultarme su tristeza, era capaz de esas
+        y otras asombrosas hechicer\xEDas."
+      - "Ya no hab\xEDa huellas de viento ni de llantos. Y justo cuando empez\xE1bamos
+        a re\xEDrnos con ganas y a pasear juntas en bicicleta, apareci\xF3 un tal
+        Ricardo y todo volv\xEDa a peligrar."
+      - "Mam\xE1 sac\xF3 las cocadas del horno. Antes del viento, ella las hac\xEDa
+        cada domingo. Despu\xE9s pareci\xF3 tomarle rencor a la receta, porque se
+        molestaba con la sola menci\xF3n del asunto. Ahora, el tal Ricardo y su Juanjo
+        hab\xEDan conseguido que volviera a hacerlas. Algo que yo no pude conseguir."
+      - "- Me voy a arreglar un poco - dijo mam\xE1 mir\xE1ndose las manos. - Lo \xFAnico
+        que falta es que lleguen y me encuentren hecha un desastre."
+      - "- \xBFQu\xE9 te vas a poner? - le pregunt\xE9 en un supremo esfuerzo de amor."
+      - '- El vestido azul.'
+      - "Mam\xE1 sali\xF3 de la cocina, la gata regres\xF3 a su canasto. Y yo me qued\xE9
+        sola para imaginar lo que me esperaba."
+      - "Seguramente, ese horrible Juanjo iba a devorar las cocadas. Y los pedacitos
+        de merengue quedar\xEDan pegados en los costados de su boca. Tambi\xE9n era
+        seguro que iba a dejar sucio el jab\xF3n cuando se lavara las manos. Iba a
+        hablar de su perro con tal de desmerecer a mi gata."
+      - "Pude verlo por mi casa transitando con los cordones de las zapatillas desatados,
+        tratando de anticipar la manera de quedarse con mi dormitorio. Pero, a\xFAn
+        m\xE1s que ninguna otra cosa, me aterr\xF3 la certeza de que ser\xEDa uno
+        de esos chicos que en vez de hablar, hacen ruidos: frenadas de autos, golpes
+        en el est\xF3mago, sirenas de bomberos, ametralladoras y explosiones."
+      - "- \xA1Mam\xE1! - grit\xE9 pegada a la puerta del ba\xF1o."
+      - "- \xBFQu\xE9 pasa? - me respondi\xF3 desde la ducha."
+      - "- \xBFC\xF3mo se llaman esas palabras que parecen ruidos?"
+      - "El agua ca\xEDa apenas tibia, mam\xE1 intentaba comprender mi pregunta, la
+        gata dorm\xEDa y yo esperaba."
+      - "- \xBFPalabras que parecen ruidos? - repiti\xF3."
+      - "- S\xED. - Y aclar\xE9 -: Plum, Plaf, Ugg... \xA1Ring!"
+      - "- Por favor - dijo mam\xE1 -, est\xE1n llamando."
+      - "No tuve m\xE1s remedio que abrir la puerta."
+      - "- \xA1Hola! - dijeron las rosas que tra\xEDa Ricardo."
+      - "- \xA1Hola! - dijo Ricardo asomado detr\xE1s de las rosas."
+      - "Yo mira a su hijo sin piedad. Como lo hab\xEDa imaginado, tra\xEDa puesta
+        una remera rid\xEDcula y un pantal\xF3n que le quedaba corto."
+      - "Enseguida, apareci\xF3 mam\xE1. Estaba tan linda como si no se hubiese arreglado.
+        As\xED le pasaba a ella. Y el azul les quedaba muy bien a sus cejas espesas. "
+      - "- Podr\xEDan ir a escuchar m\xFAsica a tu habitaci\xF3n - sugiri\xF3 la mujer
+        que cumpl\xEDa a\xF1os, desesperada por la falta de aire. Y es que yo me lo
+        hab\xEDa tragado todo para matar por asfixia a los invitados."
+      - "Cumpl\xED sin quejarme. El horrible chico me sigui\xF3 en silencio. Me sent\xE9
+        en una cama. \xC9l se sent\xF3 en la otra. Sin dudas, ya estar\xEDa decidiendo
+        que el dormitorio pronto ser\xEDa de su propiedad. Y yo dormir\xEDa en el
+        canasto, junto a la gata."
+    - textlines:
+      - "No puse m\xFAsica porque no ten\xEDa nada que festejar. Aquel era un d\xEDa
+        triste para m\xED. No me pareci\xF3 justo, y decid\xED que tambi\xE9n \xE9l
+        deb\xEDa sufrir. Entonces, busqu\xE9 una espina y la puse entre signos de
+        preguntas:"
+      - "- \xBFCu\xE1nto hace que se muri\xF3 tu mam\xE1?"
+      - "Juanjo abri\xF3 grandes los ojos para disimular algo. "
+      - "- Cuatro a\xF1os - contest\xF3."
+      - "Pero mi rabia no se conform\xF3 con eso:"
+      - "- \xBFY c\xF3mo fue? - volv\xED a preguntar."
+      - "Esta vez, entrecerr\xF3 los ojos."
+      - "Yo esperaba o\xEDr cualquier respuesta, menos la que lleg\xF3 desde su voz
+        cortada."
+      - '- Fue... fue como un viento - dijo.'
+      - "Agach\xE9 la cabeza, y dej\xE9 salir el aire que ten\xEDa guardado. Juanjo
+        estaba hablando del viento, \xBFser\xEDa el mismo que pas\xF3 por mi vida?"
+      - "- \xBFEs un viento que llega de repente y se mete en todos lados? - pregunt\xE9."
+      - "- S\xED, es ese."
+      - "- \xBFY tambi\xE9n susurra...?"
+      - "- Mi viento susurraba - dijo Juanjo -. Pero no entend\xED lo que dec\xEDa."
+      - "- Yo tampoco entend\xED. - Los dos vientos se mezclaron en mi cabeza."
+      - "Pas\xF3 un silencio."
+      - "- Un viento tan fuerte que movi\xF3 los edificios - dijo \xE9l -. Y eso que
+        los edificios tienen ra\xEDces..."
+      - "Pas\xF3 una respiraci\xF3n."
+      - "- A m\xED se me ensuciaron los ojos - dije."
+      - Pasaron dos.
+      - "- A m\xED tambi\xE9n."
+      - "- \xBFTu pap\xE1 cerr\xF3 las ventanas? - pregunt\xE9."
+      - "- S\xED."
+      - "- Mi mam\xE1 tambi\xE9n."
+      - "- \xBFPor qu\xE9 lo habr\xE1n hecho?"
+      - "Juanjo parec\xEDa asustado."
+      - '- Debe de haber sido para que algo quedara en su sitio.'
+      - "A veces, la vida se comporta como el viento: desordena y arrasa. Algo susurra,
+        pero no se le entiende. A su paso todo peligra; hasta aquello que tiene ra\xEDces.
+        Los edificios, por ejemplo. O las costumbres cotidianas."
+      - "- Si quer\xE9s vamos a comer cocadas - le dije."
+      - "Porque Juanjo y yo ten\xEDamos un viento en com\xFAn. Y quiz\xE1s ya era
+        tiempo de abrir las ventanas."
+    trivias:
+    - quest: "\xBFPor qu\xE9 dice la protagonista que la vida se transform\xF3 en
+        viento?"
+      answers:
+      - "La protagonista dice que la vida se transform\xF3 en viento porque la ausencia
+        de su padre moviliz\xF3 sus sentimientos y modific\xF3 su entorno."
+      - "La protagonista dice  que la vida se transform\xF3 en viento porque empezaron
+        a derrumbarse los edificios."
+      - "La protagonista dice que la vida se transform\xF3 en viento porque se le
+        ensucian los ojos."
+    - quest: "La protagonista imagina lo que le espera con la llegada de los invitados
+        \xBFqu\xE9 ocurrencias tiene acerca de este encuentro?"
+      answers:
+      - "La protagonista imagina que Juanjo es un chico desagradable, que hace ruido
+        al hablar y le quitar\xE1 sus espacios."
+      - La protagonista imagina y desea que el hijo de Ricardo sea como un hermano
+        para ella.
+      - "La protagonista imagina que finalmente llegar\xE1 a su vida alguien con quien
+        compartir su vida."
+    - quest: "\xBFQu\xE9 resulta del encuentro de la protagonista con Juanjo?"
+      answers:
+      - La protagonista y Juanjo comparten los mismos sentimientos sobre la ausencia
+        de sus padres y lo imaginan como un viento que todo lo arrasa.
+      - Juanjo resulta ser un chico parecido al viento como todo lo arrasa.
+      - "Los chicos permanecen escuchando m\xFAsica en silencio y se muestran poco
+        comunicativos."
+  blockedTime: 0
+  resetTime: 0
+--- !u!114 &1214432437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 114434947018505516, guid: aefa6525dcc3adc4b9a69e28e70b3130,
+    type: 2}
+  m_PrefabInternal: {fileID: 661372755}
+  m_GameObject: {fileID: 1214432435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3370d69858fe0e840800b676f7a612f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allItems:
+  - image: {fileID: 21300000, guid: 165f2e332bfac2f4eb3c3de292e12e68, type: 3}
+    gameProgressKey: libroIngreso
+    isLibro: 1
+  - image: {fileID: 21300000, guid: 1324a4bfab2948e4c8e6c052c0de56e6, type: 3}
+    gameProgressKey: fichero_llave
+    isLibro: 0
+  - image: {fileID: 21300000, guid: 9019909596de16f42ad0ae074b1a73b7, type: 3}
+    gameProgressKey: cuaderno_ingreso
+    isLibro: 1
+  - image: {fileID: 21300000, guid: 10f05ed102bb2d248bf24e7d4ee49d7a, type: 3}
+    gameProgressKey: destornillador
+    isLibro: 0
+  - image: {fileID: 21300000, guid: bd08306e7c97bb245a91c80d5fbef002, type: 3}
+    gameProgressKey: libroCuadro
+    isLibro: 1
+  inventary: []
+--- !u!114 &1214432438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 114640231412475312, guid: aefa6525dcc3adc4b9a69e28e70b3130,
+    type: 2}
+  m_PrefabInternal: {fileID: 661372755}
+  m_GameObject: {fileID: 1214432435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67ee92b125fb14b4384fc1fc845a2a87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  content:
+    picaporte_1: Esto no se ve bien. Mejor le aviso a Marian
+    picaporte_2: "Tengo que encontrar una forma de salir\u2026 Con dignidad"
+    picaporte_3: Con este destornillador tengo que poder arregar esta puerta...
+    picaporte_4: "\xA1S\xED\xED\xED\xED! \xA1In your face, puerta!"
+    escritorio: El escritorio de la directora, o del director. Ya tocarlo me hace
+      sentir importante
+    libroIngreso: "\xA1Encontraste un LIBRO del ingreso!/Lee y responde la trivia
+      para avanzar en la historia./Es necesario leer todos los libros para avanzar."
+    escritorioDoor1: "No huyas, cobarde. Esto no puede ser taaan dif\xEDcil."
+    fichero_1: "\xA1Entrega tus secretos! Owww\u2026 Cerrado"
+    fichero_con_llave: "Voy a probar esta llave en el fichero/\xA1Funcion\xF3!"
+    fichero_con_llave2: "\xA1Encontraste un CUADERNO del ingreso!/Lee y responde la
+      trivia para avanzar en la historia."
+    fichero_done: Ya no hay nada en este viejo fichero
+    cuadro1: "Mar\xEDa Remedios del Valle (1766 - 1847)/Valiente capitana de la Patria\u201D/\xA1Vamos
+      las pibas!"
+    libroCuadro: 'un libro... se llama: Amigos por el viento, de Liliana Bodoc.'
+--- !u!114 &1214432439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 114773183223413848, guid: aefa6525dcc3adc4b9a69e28e70b3130,
+    type: 2}
+  m_PrefabInternal: {fileID: 661372755}
+  m_GameObject: {fileID: 1214432435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4abd52d2147a7bc4f844b1ffbcaa81f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  reloadJson: 0
+  interactiveObjectsTexts: {fileID: 0}
+  gameProgress: {fileID: 0}
+  inventary: {fileID: 0}
+  triviaData: {fileID: 0}
+  currentLevel: 
+  currentLevelIndex: 0
+--- !u!4 &1214432440
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 4253221959410642, guid: aefa6525dcc3adc4b9a69e28e70b3130,
+    type: 2}
+  m_PrefabInternal: {fileID: 661372755}
+  m_GameObject: {fileID: 1214432435}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.26034382, y: -0.01034081, z: 2.6104884}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1214432441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1214432435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8d2b1ab3c1476d498737c669be758a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  content:
+    intro: []
 --- !u!1 &1238360599
 GameObject:
   m_ObjectHideFlags: 0
@@ -18840,9 +20046,9 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -17, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1346334644
 MonoBehaviour:
@@ -18890,57 +20096,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ShowMaskGraphic: 0
---- !u!1001 &1349837885
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 688535937}
-    m_Modifications:
-    - target: {fileID: 4015010188737672, guid: 5482dc6d52deacc44bd6d5846c1cce3a, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4015010188737672, guid: 5482dc6d52deacc44bd6d5846c1cce3a, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4015010188737672, guid: 5482dc6d52deacc44bd6d5846c1cce3a, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4015010188737672, guid: 5482dc6d52deacc44bd6d5846c1cce3a, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4015010188737672, guid: 5482dc6d52deacc44bd6d5846c1cce3a, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4015010188737672, guid: 5482dc6d52deacc44bd6d5846c1cce3a, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4015010188737672, guid: 5482dc6d52deacc44bd6d5846c1cce3a, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4015010188737672, guid: 5482dc6d52deacc44bd6d5846c1cce3a, type: 2}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1781637751549956, guid: 5482dc6d52deacc44bd6d5846c1cce3a, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 5482dc6d52deacc44bd6d5846c1cce3a, type: 2}
-  m_IsPrefabAsset: 0
---- !u!4 &1349837886 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4015010188737672, guid: 5482dc6d52deacc44bd6d5846c1cce3a,
-    type: 2}
-  m_PrefabInternal: {fileID: 1349837885}
 --- !u!1 &1353787912
 GameObject:
   m_ObjectHideFlags: 0
@@ -19196,6 +20351,114 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1413592121
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1413592122}
+  m_Layer: 5
+  m_Name: Dialogues
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1413592122
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1413592121}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1196741703}
+  - {fileID: 672403127}
+  - {fileID: 1418260766}
+  - {fileID: 1052092012}
+  - {fileID: 347041811}
+  - {fileID: 1001013160}
+  m_Father: {fileID: 1879940501}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0.000061035156, y: -258}
+  m_SizeDelta: {x: -728, y: -396}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1418260765
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1418260766}
+  - component: {fileID: 1418260768}
+  - component: {fileID: 1418260767}
+  m_Layer: 5
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1418260766
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1418260765}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.3156613, y: 1.2625, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1413592122}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 10, y: 2}
+  m_SizeDelta: {x: 532.8, y: -70.4}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1418260767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1418260765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.63529414}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &1418260768
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1418260765}
+  m_CullTransparentMesh: 0
 --- !u!1 &1432909522
 GameObject:
   m_ObjectHideFlags: 0
@@ -19224,7 +20487,7 @@ RectTransform:
   m_LocalScale: {x: 0.66628, y: 0.66628, z: 0.66628}
   m_Children: []
   m_Father: {fileID: 1606874757}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -19378,7 +20641,7 @@ RectTransform:
   m_LocalScale: {x: 1.3156613, y: 1.2625, z: 1}
   m_Children: []
   m_Father: {fileID: 1606874757}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -24379,7 +25642,7 @@ GameObject:
   - component: {fileID: 1501546913}
   - component: {fileID: 1501546912}
   m_Layer: 5
-  m_Name: Panel (1)
+  m_Name: bg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24396,7 +25659,7 @@ RectTransform:
   m_LocalScale: {x: 1.828891, y: 1.2625039, z: 1}
   m_Children: []
   m_Father: {fileID: 1654997556}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -24437,6 +25700,64 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1501546910}
   m_CullTransparentMesh: 0
+--- !u!1001 &1502096519
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 938875512}
+    m_Modifications:
+    - target: {fileID: 4086875560742116, guid: 43e6a8214e2f73f4eb77307df583cf7b, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4086875560742116, guid: 43e6a8214e2f73f4eb77307df583cf7b, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4086875560742116, guid: 43e6a8214e2f73f4eb77307df583cf7b, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4086875560742116, guid: 43e6a8214e2f73f4eb77307df583cf7b, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4086875560742116, guid: 43e6a8214e2f73f4eb77307df583cf7b, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4086875560742116, guid: 43e6a8214e2f73f4eb77307df583cf7b, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4086875560742116, guid: 43e6a8214e2f73f4eb77307df583cf7b, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4086875560742116, guid: 43e6a8214e2f73f4eb77307df583cf7b, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114138907714290468, guid: 43e6a8214e2f73f4eb77307df583cf7b,
+        type: 2}
+      propertyPath: anim
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 43e6a8214e2f73f4eb77307df583cf7b, type: 2}
+  m_IsPrefabAsset: 0
+--- !u!114 &1502096520 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114138907714290468, guid: 43e6a8214e2f73f4eb77307df583cf7b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1502096519}
+  m_Script: {fileID: 11500000, guid: 64c285e08e44a2e4fac766fb1968943a, type: 3}
+--- !u!4 &1502096521 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4086875560742116, guid: 43e6a8214e2f73f4eb77307df583cf7b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1502096519}
 --- !u!1 &1519612750
 GameObject:
   m_ObjectHideFlags: 0
@@ -29282,6 +30603,75 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1555131257
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1555131258}
+  - component: {fileID: 1555131260}
+  - component: {fileID: 1555131259}
+  m_Layer: 5
+  m_Name: mask
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1555131258
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1555131257}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.8288878, y: 1.2625073, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1654997556}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 110.00006, y: -6.603}
+  m_SizeDelta: {x: 532.8, y: 296.9}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1555131259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1555131257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &1555131260
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1555131257}
+  m_CullTransparentMesh: 0
 --- !u!1 &1580746753
 GameObject:
   m_ObjectHideFlags: 0
@@ -29313,7 +30703,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -29456,7 +30846,7 @@ RectTransform:
   m_Children:
   - {fileID: 1896404030}
   m_Father: {fileID: 1879940501}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -29848,7 +31238,7 @@ RectTransform:
   - {fileID: 1388329422}
   - {fileID: 1126723037}
   m_Father: {fileID: 1879940501}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -29881,13 +31271,14 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 1832833186}
   - {fileID: 822613400}
   - {fileID: 1451042268}
   - {fileID: 1649964549}
   - {fileID: 78572799}
   - {fileID: 1432909523}
   m_Father: {fileID: 1879940501}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -30169,7 +31560,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1606874757}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -30230,7 +31621,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1654997556
 RectTransform:
   m_ObjectHideFlags: 0
@@ -30241,10 +31632,11 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 1555131258}
   - {fileID: 1501546911}
   - {fileID: 366255365}
   m_Father: {fileID: 1879940501}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -35111,6 +36503,75 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
+--- !u!1 &1832833185
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1832833186}
+  - component: {fileID: 1832833188}
+  - component: {fileID: 1832833187}
+  m_Layer: 5
+  m_Name: mask
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1832833186
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1832833185}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.8288878, y: 1.2625073, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1606874757}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 110.00006, y: 251.397}
+  m_SizeDelta: {x: 532.7999, y: 296.89996}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1832833187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1832833185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &1832833188
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1832833185}
+  m_CullTransparentMesh: 0
 --- !u!1 &1838503818
 GameObject:
   m_ObjectHideFlags: 0
@@ -35415,6 +36876,7 @@ GameObject:
   - component: {fileID: 1879940504}
   - component: {fileID: 1879940505}
   - component: {fileID: 1879940506}
+  - component: {fileID: 1879940507}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -35502,13 +36964,14 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 714786100}
   - {fileID: 1654997556}
   - {fileID: 1601772861}
   - {fileID: 1606874757}
   - {fileID: 1583443770}
   - {fileID: 1195289088}
+  - {fileID: 714786100}
   - {fileID: 191671327}
+  - {fileID: 1413592122}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -35589,6 +37052,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panel: {fileID: 1195289087}
+--- !u!114 &1879940507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1879940496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1706bdd10eeb8f43aa30e7b15ce0bd3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panel: {fileID: 1413592121}
+  icon: {fileID: 0}
+  field: {fileID: 1052092013}
 --- !u!1 &1896404029
 GameObject:
   m_ObjectHideFlags: 0
@@ -35849,6 +37326,59 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1956151144}
   m_CullTransparentMesh: 0
+--- !u!1001 &1981847139
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 938875512}
+    m_Modifications:
+    - target: {fileID: 4015010188737672, guid: af796ff2521229a45b180347e04ba539, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4015010188737672, guid: af796ff2521229a45b180347e04ba539, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4015010188737672, guid: af796ff2521229a45b180347e04ba539, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4015010188737672, guid: af796ff2521229a45b180347e04ba539, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4015010188737672, guid: af796ff2521229a45b180347e04ba539, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4015010188737672, guid: af796ff2521229a45b180347e04ba539, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4015010188737672, guid: af796ff2521229a45b180347e04ba539, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4015010188737672, guid: af796ff2521229a45b180347e04ba539, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: af796ff2521229a45b180347e04ba539, type: 2}
+  m_IsPrefabAsset: 0
+--- !u!114 &1981847140 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114912061241373398, guid: af796ff2521229a45b180347e04ba539,
+    type: 2}
+  m_PrefabInternal: {fileID: 1981847139}
+  m_Script: {fileID: 11500000, guid: 64c285e08e44a2e4fac766fb1968943a, type: 3}
+--- !u!4 &1981847141 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4015010188737672, guid: af796ff2521229a45b180347e04ba539,
+    type: 2}
+  m_PrefabInternal: {fileID: 1981847139}
 --- !u!1 &2008170003
 GameObject:
   m_ObjectHideFlags: 0
@@ -35966,7 +37496,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.00002893673, y: 0.000015453246}
+  m_AnchoredPosition: {x: 0.00002893673, y: 15.627461}
   m_SizeDelta: {x: 0, y: 300}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &2032765863
@@ -36096,9 +37626,29 @@ Transform:
   m_Father: {fileID: 306978224}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
---- !u!114 &2124039093 stripped
+--- !u!114 &2124039093
 MonoBehaviour:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 114300212788950266, guid: aefa6525dcc3adc4b9a69e28e70b3130,
     type: 2}
   m_PrefabInternal: {fileID: 661372755}
+  m_GameObject: {fileID: 1214432435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0b5519ce9a2bc034f8f8d9d38f594a7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ResetProgress: 1
+  items:
+  - name: picaporte
+    value: 0
+  - name: libroIngreso
+    value: 0
+  - name: fichero_llave
+    value: 0
+  - name: cuaderno_ingreso
+    value: 0
+  - name: destornillador
+    value: 0
+  - name: libroCuadro
+    value: 0
