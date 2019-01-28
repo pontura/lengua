@@ -15,15 +15,12 @@ public class Dialogues : MonoBehaviour {
 	void Start () {
 		Events.OnDialogue += OnDialogue;
 		Reset ();
-		Events.OnDialogue (Data.Instance.dialoguesData.content.intro, OnReadyAction);
+	
 	}
 	void OnDestroy () {
 		Events.OnDialogue -= OnDialogue;
 	}
-	void OnReadyAction()
-	{
-		Reset ();
-	}
+
 	void OnDialogue(List<DialoguesData.Dialogue> _dialogue, System.Action OnReady)
 	{		
 		this.OnReady = OnReady;
@@ -36,8 +33,9 @@ public class Dialogues : MonoBehaviour {
 	{
 		if (id >= dialogue.Count) {
 			Reset ();
-			if (OnReady != null)
+			if (OnReady != null) 
 				OnReady ();
+			Reset ();
 		}
 		else {
 			field.text = dialogue [id].text;

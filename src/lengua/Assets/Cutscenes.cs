@@ -4,24 +4,34 @@ using UnityEngine;
 
 public class Cutscenes : MonoBehaviour {
 
-	public Data[] all;
-	public class Data
-	{
-		public types type;
-		public Animation anim;
-	}
-
 	public enum types
 	{
 		INTRO
 	}
-	public Animation intro;
-
 	void Start()
 	{
+		Events.OnCutscene += OnCutscene;
+		Invoke ("Delayed", 0.25f);
 	}
-	public void Play(Animation anim)
+	void Delayed()
 	{
-		anim.Play ();
+		OnCutscene (types.INTRO);
+	}
+	void OnReady()
+	{
+		//;
+	}
+	void OnDestroy()
+	{
+		Events.OnCutscene -= OnCutscene;
+	}
+	public void OnCutscene(types anim)
+	{
+		switch (anim) {
+		case types.INTRO:
+			Events.OnDialogue (Data.Instance.dialoguesData.content.intro, OnReady);
+			GetComponent<Animation> ().Play ("intro");
+			break;
+		}
 	}
 }
