@@ -26,4 +26,10 @@ public static class Events {
 	public static System.Action OnTriviaWrong = delegate {	};
 	public static System.Action<Cutscenes.types> OnCutscene = delegate {	};
 
+	public static System.Action ClickSfx = delegate {	};
+	public static System.Action OpenBagSfx = delegate {	};
+	public static System.Action CloseBagSfx = delegate {	};
+	public static System.Action OpenBookSfx = delegate {};
+	public static System.Action CloseBookSfx = delegate {};
+
 }

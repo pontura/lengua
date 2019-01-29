@@ -60,11 +60,13 @@ public class InventaryUI : MonoBehaviour {
 	}
 	void Close()
 	{
+		Events.CloseBagSfx ();
 		isOpen = false;
 		openedPanel.SetActive (false);
 	}
 	void Open()
 	{
+		Events.OpenBagSfx ();
 		Utils.RemoveAllChildsIn (container);
 		isOpen = true;
 		openedPanel.SetActive (true);

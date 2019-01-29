@@ -32,6 +32,7 @@ public class TextsManager : MonoBehaviour {
 	}
 	public void Next()
 	{
+		Events.ClickSfx ();
 		if (id >= total) {
 			Reset ();
 			if (OnReady != null)

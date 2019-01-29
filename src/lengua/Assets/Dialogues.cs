@@ -31,6 +31,7 @@ public class Dialogues : MonoBehaviour {
 	}
 	public void Next()
 	{
+		Events.ClickSfx ();
 		if (id >= dialogue.Count) {
 			Reset ();
 			if (OnReady != null) 
