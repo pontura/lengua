@@ -70,6 +70,7 @@ public class Character : MonoBehaviour {
 	}
 	void OnCharacterStopWalking()
 	{
+		Debug.Log ("aca");
 		CancelInvoke ();
 		if (selectedInteractiveObject) {			
 			moveTo.Reset ();

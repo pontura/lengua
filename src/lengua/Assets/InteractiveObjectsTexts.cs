@@ -37,6 +37,9 @@ public class InteractiveObjectsTexts : MonoBehaviour {
 
 		public string cuadro1;
 		public string libroCuadro;
+
+		public string libroBloqueado;
+		public string libroCompletado;
 	}
 	public Content content;
 

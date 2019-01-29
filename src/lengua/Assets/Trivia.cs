@@ -29,8 +29,10 @@ public class Trivia : MonoBehaviour {
 			panel.SetActive (true);
 			//title.text = gameProgressKey;
 		} else if (ts == TriviaData.TriviaState.blocked) {
+			Events.OnTip (Data.Instance.interactiveObjectsTexts.content.libroBloqueado);
 			Debug.Log ("La trivia está bloqueada, tiene que esperar un minuto");
 		} else if (ts == TriviaData.TriviaState.complete) {
+			Events.OnTip (Data.Instance.interactiveObjectsTexts.content.libroCompletado);
 			Debug.Log ("La trivia ya está completa");
 		}
 	}

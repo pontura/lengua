@@ -13,6 +13,9 @@ public class TriviaManager : MonoBehaviour {
 	public Transform optionsContainer;
 
 	public GameObject correcto,incorrecto;
+	public AudioClip correctoSfx,incorrectoSFx,winTrivia;
+
+	AudioSource asource;
 
 	TriviaData.Antologia antologia;
 	TriviaData.TriviaProgress tProgress;
@@ -24,6 +27,7 @@ public class TriviaManager : MonoBehaviour {
 
 	void Start () {
 		paginator = GetComponent<TriviaPaginator> ();
+		asource = GetComponent<AudioSource> ();
 		Events.SetTrivia += SetTrivia;
 	}
 	void OnDestroy () {
@@ -71,23 +75,28 @@ public class TriviaManager : MonoBehaviour {
 	}
 
 	public void SetAnswer(bool correct){
-		if (correct) {			
-			tProgress.triviasDone [tProgress.triviasIndex] = true;
-			tProgress.triviasIndex++;
-			if (tProgress.triviasIndex >= tProgress.triviasDone.Length) {
-				tProgress.completed = true;
-				tProgress.state = TriviaData.TriviaState.complete;
-				Events.OnBookComplete ();
-				return;
+			if (correct) {
+				
+				tProgress.triviasDone [tProgress.triviasIndex] = true;
+				tProgress.triviasIndex++;
+				if (tProgress.triviasIndex >= tProgress.triviasDone.Length) {
+					tProgress.completed = true;
+					tProgress.state = TriviaData.TriviaState.complete;
+					asource.PlayOneShot (winTrivia);
+					Events.OnBookComplete ();
+					return;
+				} else {
+					asource.PlayOneShot (correctoSfx);
+				}
+				correcto.SetActive (true);
+			} else {
+				asource.PlayOneShot (incorrectoSFx);
+				tProgress.lastBadAnswerTime = Time.realtimeSinceStartup;
+				tProgress.state = TriviaData.TriviaState.blocked;
+				incorrecto.SetActive (true);
+				close = true;
 			}
-			correcto.SetActive (true);
-		} else {
-			tProgress.lastBadAnswerTime = Time.realtimeSinceStartup;
-			tProgress.state = TriviaData.TriviaState.blocked;
-			incorrecto.SetActive (true);
-			close = true;
-		}
-		Invoke ("HideSigns", 3);
+			Invoke ("HideSigns", 3);
 	}
 
 	void HideSigns(){		

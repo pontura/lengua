@@ -542,6 +542,8 @@ MonoBehaviour:
     cuadro1: "Mar\xEDa Remedios del Valle (1766 - 1847)/Valiente capitana de la Patria\u201D/\xA1Vamos
       las pibas!"
     libroCuadro: 'un libro... se llama: Amigos por el viento, de Liliana Bodoc.'
+    libroBloqueado: me siento un poco bloqueda... voy a esperar un minuto
+    libroCompletado: "\xA1por suerte este libro ya lo termin\xE9!"
 --- !u!114 &114773183223413848
 MonoBehaviour:
   m_ObjectHideFlags: 1
