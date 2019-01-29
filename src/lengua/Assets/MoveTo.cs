@@ -12,7 +12,10 @@ public class MoveTo : MonoBehaviour {
 		this.destination = _destination;
 		isOn = true;
 	}
-
+	public void Reset()
+	{
+		isOn = false;
+	}
 	void Update () {
 		if (!isOn)
 			return;
@@ -25,7 +28,7 @@ public class MoveTo : MonoBehaviour {
 
 		if (Vector3.Distance (transform.position , destination) < 0.1f) {
 			Events.OnCharacterStopWalking ();
-			isOn = false;
+			Reset ();
 		}
 
 	}

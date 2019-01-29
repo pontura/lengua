@@ -6,9 +6,9 @@ public class InteractivePicaporte : InteractiveObject {
 	
 
 	public GameObject prototipoDone;
-	public GameObject state0;
-	public GameObject state1;
-	public GameObject state2;
+	public GameObject state_romper;
+	public GameObject state_ganar;
+	public GameObject state_abrir;
 
 	public override void OnClicked() 
 	{ 
@@ -16,6 +16,8 @@ public class InteractivePicaporte : InteractiveObject {
 	}
 	public override void OnCharacterReachMe()
 	{ 
+		Debug.Log ("_picaporte: OnCharacterReachMe" + gameProgressValue);
+
 		if (gameProgressValue == 2) {			
 			Events.OnSaveNewData ("picaporte", 3);
 			OnSetProgress (3);
@@ -34,26 +36,24 @@ public class InteractivePicaporte : InteractiveObject {
 			Data.Instance.LoadScene ("ProtoDone");
 		} 
 	}
+
 	public override void OnSetProgress(int value) 
-	{
-		Reset ();
-		if(value < 2 )
-			state0.SetActive (true);
-		else if(value == 2)
-			state1.SetActive (true);
-		else if(value == 3)
-			state2.SetActive (true);
+	{	
+	
+		if (value == 2) {
+			state_romper.SetActive (false);
+			state_ganar.SetActive (true);
+			state_abrir.SetActive (false);
+		} else if (value == 3) {
+			state_abrir.SetActive (true);
+			state_ganar.SetActive (false);
+			state_romper.SetActive (false);
+		}
 	}
 	void OnRepaired()
 	{
 		Events.OnSaveNewData ("picaporte", 2);
 		Events.OnTip (content.picaporte_4);
 		Events.OnTip(content.picaporte_4);
-	}
-	void Reset()
-	{
-		state0.SetActive (false);
-		state1.SetActive (false);
-		state2.SetActive (false);
 	}
 }

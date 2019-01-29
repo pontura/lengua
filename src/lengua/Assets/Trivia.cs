@@ -23,6 +23,7 @@ public class Trivia : MonoBehaviour {
 	void OpenTrivia (string gameProgressKey) {
 		this.gameProgressKey = gameProgressKey;
 		TriviaData.TriviaState ts = Data.Instance.triviaData.GetStateByGProgress(gameProgressKey);
+		Debug.Log ("gameProgressKey: " + gameProgressKey + " state: " + ts);
 		if (ts == TriviaData.TriviaState.idle) {
 			Events.SetTrivia (gameProgressKey);
 			panel.SetActive (true);

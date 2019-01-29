@@ -34,15 +34,18 @@ public class Character : MonoBehaviour {
 	{
 		if (state != states.PLAYING)
 			return;		
+
+		CancelInvoke ();
+		Invoke ("TimeoutWalking", 3);
 		
 		selectedInteractiveObject = io;
-		WaltoTo (io.transform.localPosition + offset);
+		WalkTo (io.transform.localPosition + offset);
 	}
 	void OnFloorClicked (Vector3 pos) {
 		selectedInteractiveObject = null;
-		WaltoTo (pos);
+		WalkTo (pos);
 	}
-	void WaltoTo(Vector3 pos)
+	void WalkTo(Vector3 pos)
 	{
 		target.transform.position = pos;
 		LookAtTarget (target);
@@ -59,9 +62,17 @@ public class Character : MonoBehaviour {
 		transform.LookAt (pos);
 		view.LookTo (pos);
 	}
+	void TimeoutWalking()
+	{
+		CancelInvoke ();
+		if(selectedInteractiveObject)
+			OnCharacterStopWalking ();
+	}
 	void OnCharacterStopWalking()
 	{
-		if (selectedInteractiveObject) {
+		CancelInvoke ();
+		if (selectedInteractiveObject) {			
+			moveTo.Reset ();
 			LookAtTarget (selectedInteractiveObject.gameObject);
 			Events.OnCharacterReachInteractiveObject (selectedInteractiveObject);
 		}

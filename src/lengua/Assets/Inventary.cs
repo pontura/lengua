@@ -39,7 +39,7 @@ public class Inventary : MonoBehaviour {
 	{
 		foreach (Item item in allItems) {
 			if (Data.Instance.gameProgress.GetData (item.gameProgressKey).value == 1) {
-				print (item.gameProgressKey + "__" + Data.Instance.gameProgress.GetData (item.gameProgressKey).value);
+				//print (item.gameProgressKey + "__" + Data.Instance.gameProgress.GetData (item.gameProgressKey).value);
 				AddToInventary (item.gameProgressKey);
 			}
 		}

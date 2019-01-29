@@ -98,11 +98,6 @@ public class TriviaData : MonoBehaviour {
 		}
 	}
 
-	// Update is called once per frame
-	void Update () {
-
-	}
-
 	public Antologia GetAntologiaByGProgress(string gameprogress_name){
 		Antologia a = Array.Find (antologia, x => x.gameprogress_name == gameprogress_name);
 		return a;
@@ -116,7 +111,7 @@ public class TriviaData : MonoBehaviour {
 	public TriviaState GetStateByGProgress(string gameprogress_name){
 		TriviaProgress a = triviaProgress.Find(x => x.gameprogress_name == gameprogress_name);
 
-		Debug.Log (Time.realtimeSinceStartup - a.lastBadAnswerTime);
+		Debug.Log (Time.realtimeSinceStartup - a.lastBadAnswerTime + " state: " + a.state);
 
 		if (a.state == TriviaState.complete)
 			return a.state;

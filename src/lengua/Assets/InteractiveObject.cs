@@ -40,12 +40,21 @@ public class InteractiveObject : MonoBehaviour {
 	{
 		GetProgress (gameProgressKey);
 	}
+	int lastProgressValue;
 	void GetProgress(string itemName)
 	{		
+		
+
 		GameProgress.Item item = gameProgress.GetData (itemName);
 		if (item == null)
 			return;
 		if (item.name == gameProgressKey) {
+
+			if (item.value == lastProgressValue)
+				return;
+			
+			lastProgressValue = item.value;
+
 			gameProgressValue = item.value;
 			OnSetProgress (item.value);
 		}
@@ -62,7 +71,6 @@ public class InteractiveObject : MonoBehaviour {
 	}
 	void OnCharacterReachInteractiveObject(InteractiveObject io)
 	{
-		print ("OnCharacterReachInteractiveObject " + io);
 		if (io == this) {
 			GetProgress (gameProgressKey);
 			OnCharacterReachMe ();
