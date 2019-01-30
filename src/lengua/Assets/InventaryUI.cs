@@ -6,6 +6,10 @@ using UnityEngine.UI;
 public class InventaryUI : MonoBehaviour {
 	
 	public Button inventaryButton;
+	public GameObject opened;
+	public GameObject closed;
+	public GameObject nums;
+
 	public Text qty;
 	public GameObject openedPanel;
 	public Transform container;
@@ -15,7 +19,8 @@ public class InventaryUI : MonoBehaviour {
 	bool isOpen;
 
 	void Start () {
-		inventaryButton.interactable = false;
+		nums.SetActive (false);
+		inventaryButton.gameObject.SetActive (false);
 		Close ();
 		Events.InventoryButtonClicked += InventoryButtonClicked;
 		Events.AddToInventary += AddToInventary;
@@ -41,10 +46,13 @@ public class InventaryUI : MonoBehaviour {
 	void AddToInventary (Inventary.Item item) {
 		if (item.isLibro) {
 			int totalItems = Data.Instance.inventary.GetTotalLibros ();
-			if (totalItems == 0)
-				inventaryButton.interactable = false;
+			if (totalItems == 0) {
+				inventaryButton.gameObject.SetActive (false);
+				nums.SetActive (false);
+			}
 			else {
-				inventaryButton.interactable = true;
+				nums.SetActive (true);
+				inventaryButton.gameObject.SetActive (true);
 				qty.text = Data.Instance.inventary.GetTotalLibros ().ToString ();
 			}
 		} else {
@@ -63,9 +71,13 @@ public class InventaryUI : MonoBehaviour {
 		Events.CloseBagSfx ();
 		isOpen = false;
 		openedPanel.SetActive (false);
+		opened.SetActive (false);
+		closed.SetActive (true);
 	}
 	void Open()
 	{
+		opened.SetActive (true);
+		closed.SetActive (false);
 		Events.OpenBagSfx ();
 		Utils.RemoveAllChildsIn (container);
 		isOpen = true;
