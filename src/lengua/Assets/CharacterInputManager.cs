@@ -10,7 +10,7 @@ public class CharacterInputManager : MonoBehaviour {
 	float delay = 0.1f;
 	void Update()
 	{		
-		if (EventSystem.current.IsPointerOverGameObject())
+		if (IsPointerOverUIObject() || EventSystem.current.IsPointerOverGameObject())
 		{
 			
 		} else{
@@ -39,5 +39,12 @@ public class CharacterInputManager : MonoBehaviour {
 				}
 			}
 		}
+	}
+	private bool IsPointerOverUIObject() {
+		PointerEventData eventDataCurrentPosition = new PointerEventData(EventSystem.current);
+		eventDataCurrentPosition.position = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
+		List<RaycastResult> results = new List<RaycastResult>();
+		EventSystem.current.RaycastAll(eventDataCurrentPosition, results);
+		return results.Count > 0;
 	}
 }

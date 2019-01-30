@@ -4,8 +4,14 @@ using UnityEngine;
 
 public class InteractiveFichero : InteractiveObject {
 
+	public GameObject cerrado;
+	public GameObject abierto;
 	void OnEnable()
 	{
+		if (gameProgressValue == 0) {
+			cerrado.SetActive (true);
+			abierto.SetActive (false);
+		}
 		gameProgressKey = "fichero_llave";
 	}
 	public override void OnClicked() 
@@ -14,6 +20,7 @@ public class InteractiveFichero : InteractiveObject {
 	}
 	public override void OnCharacterReachMe() 
 	{ 
+		
 		if (gameProgressValue == 0) {
 			Events.OnTip(content.fichero_1);
 			//Events.OnSaveNewData (gameProgressKey, 1);
@@ -22,6 +29,7 @@ public class InteractiveFichero : InteractiveObject {
 		} else {
 			Events.OnTip (content.fichero_done);		
 		}
+		SetState ();
 	}
 	void FicheroOpened() 
 	{
@@ -33,5 +41,15 @@ public class InteractiveFichero : InteractiveObject {
 	{
 		Events.OnSaveNewData (gameProgressKey, 2);
 		Events.OpenTrivia ("cuaderno_ingreso");
+	}
+	void SetState()
+	{
+		if (gameProgressValue == 0) {
+			cerrado.SetActive (true);
+			abierto.SetActive (false);
+		} else  {
+			cerrado.SetActive (false);
+			abierto.SetActive (true);
+		}
 	}
 }
