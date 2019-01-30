@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 114434947018505516}
   - component: {fileID: 114134459145049482}
   - component: {fileID: 114777048282461660}
+  - component: {fileID: 114132969967853722}
   m_Layer: 0
   m_Name: Data
   m_TagString: Untagged
@@ -45,6 +46,38 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114132969967853722
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1640398861795566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67ee92b125fb14b4384fc1fc845a2a87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  content:
+    picaporte_1: Esto no se ve bien. Mejor le aviso a Marian
+    picaporte_2: "Tengo que encontrar una forma de salir\u2026 Con dignidad"
+    picaporte_3: Con este destornillador tengo que poder arregar esta puerta...
+    picaporte_4: "\xA1S\xED\xED\xED\xED! \xA1In your face, puerta!"
+    escritorio: El escritorio de la directora, o del director. Ya tocarlo me hace
+      sentir importante
+    libroIngreso: "\xA1Encontraste un LIBRO del ingreso!/Lee y responde la trivia
+      para avanzar en la historia./Es necesario leer todos los libros para avanzar."
+    escritorioDoor1: "No huyas, cobarde. Esto no puede ser taaan dif\xEDcil."
+    fichero_1: "\xA1Entrega tus secretos! Owww\u2026 Cerrado"
+    fichero_con_llave: "Voy a probar esta llave en el fichero/\xA1Funcion\xF3!"
+    fichero_con_llave2: "\xA1Encontraste un CUADERNO del ingreso!/Lee y responde la
+      trivia para avanzar en la historia."
+    fichero_done: Ya no hay nada en este viejo fichero
+    cuadro1: "Mar\xEDa Remedios del Valle (1766 - 1847)/Valiente capitana de la Patria\u201D/\xA1Vamos
+      las pibas!"
+    libroCuadro: 'Un libro... se llama: Amigos por el viento, de Liliana Bodoc.'
+    libroCuadro2: "\xA1\xBFEh?! Me pareci\xF3 que algo se mov\xEDa..."
+    libroBloqueado: Me siento un poco bloqueda... voy a esperar un minuto
+    libroCompletado: "\xA1Por suerte este libro ya lo termin\xE9!"
 --- !u!114 &114134459145049482
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -541,9 +574,10 @@ MonoBehaviour:
     fichero_done: Ya no hay nada en este viejo fichero
     cuadro1: "Mar\xEDa Remedios del Valle (1766 - 1847)/Valiente capitana de la Patria\u201D/\xA1Vamos
       las pibas!"
-    libroCuadro: 'un libro... se llama: Amigos por el viento, de Liliana Bodoc.'
-    libroBloqueado: me siento un poco bloqueda... voy a esperar un minuto
-    libroCompletado: "\xA1por suerte este libro ya lo termin\xE9!"
+    libroCuadro: 'Un libro... se llama: Amigos por el viento, de Liliana Bodoc.'
+    libroCuadro2: "\xA1\xBFEh?! Me pareci\xF3 que algo se mov\xEDa..."
+    libroBloqueado: Me siento un poco bloqueda... voy a esperar un minuto
+    libroCompletado: "\xA1Por suerte este libro ya lo termin\xE9!"
 --- !u!114 &114773183223413848
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -569,7 +603,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1640398861795566}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c8d2b1ab3c1476d498737c669be758a7, type: 3}
   m_Name: 
@@ -577,41 +611,41 @@ MonoBehaviour:
   content:
     intro:
     - character: marian
-      state: neutro
+      state: contento
       text: "\xA1Ya est\xE1s ac\xE1, muy bien!"
     - character: avatar
-      state: neutro
+      state: reflexivo
       text: "S\xED. Geniaaaaal"
     - character: marian
-      state: neutro
+      state: reflexivo
       text: "\xBFDetecto iron\xEDa? \xBFUn falso entusiasmo?"
     - character: avatar
-      state: neutro
+      state: fastidio
       text: "\xA1Es s\xE1bado, Marian! \xBFMe quer\xE9s decir qu\xE9 hacemos en este
         colegio?"
     - character: marian
-      state: neutro
+      state: fastidio
       text: "Punto uno: quer\xEDa que lo conozcas. "
     - character: marian
       state: neutro
       text: "Punto dos: Puede que este sea tu pr\xF3ximo colegio\u2026"
     - character: avatar
-      state: neutro
+      state: preocupado
       text: "Si es que paso el examen de ingreso\u2026"
     - character: marian
       state: neutro
       text: "No hace falta hablar de eso ahora, tranqui. Mir\xE1, tengo que salir
         un momento..."
     - character: avatar
-      state: neutro
+      state: preocupado
       text: "\xA1\xBFHoy trabaj\xE1s?!"
     - character: marian
-      state: neutro
+      state: reflexivo
       text: "Algo as\xED..."
     - character: marian
       state: neutro
       text: "Busc\xE1 el material de ingreso por ac\xE1 y encontrame en la biblioteca
         cuando termines. Cualquier cosa me mand\xE1s un mensaje, \xBFs\xED?"
     - character: avatar
-      state: neutro
+      state: contento
       text: "\xA1Ooookey! Vaya, nom\xE1s"

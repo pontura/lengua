@@ -37,6 +37,7 @@ public class InteractiveObjectsTexts : MonoBehaviour {
 
 		public string cuadro1;
 		public string libroCuadro;
+		public string libroCuadro2;
 
 		public string libroBloqueado;
 		public string libroCompletado;
@@ -44,13 +45,14 @@ public class InteractiveObjectsTexts : MonoBehaviour {
 	public Content content;
 
 	void Start () {
+		
 		if(Data.Instance.reloadJson)
-		LoadJson ();
+			LoadJson ();
 	}
 	private void LoadJson()
 	{
+		print ("LoadJson");
 		string filePath = Application.streamingAssetsPath + "/InteractiveObjects.json";
-		print (filePath);
 		if (File.Exists (filePath)) {
 			string json = File.ReadAllText (filePath);
 			content = JsonUtility.FromJson<Content> (json);

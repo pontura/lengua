@@ -5,6 +5,7 @@ using UnityEngine;
 public class Cutscenes : MonoBehaviour {
 
 	public Character character;
+	public CutscenesUI cutscenesUI;
 
 	[HideInInspector]
 	public CharacterAnimations avatar;
@@ -19,7 +20,7 @@ public class Cutscenes : MonoBehaviour {
 	{
 		avatar = character.view.characterAnimations;
 		Events.OnCutscene += OnCutscene;
-		Invoke ("Delayed", 0.25f);
+		Invoke ("Delayed", 0.15f);
 	}
 
 	public void Avatar_Walk()
@@ -79,6 +80,12 @@ public class Cutscenes : MonoBehaviour {
 
 	void Delayed()
 	{
+		cutscenesUI.SetOn ();
+		GetComponent<Animation> ().Play ("intro");
+		Invoke ("Delayed2", 2);
+	}
+	void Delayed2()
+	{
 		OnCutscene (types.INTRO);
 	}
 	void OnReady()
@@ -94,10 +101,10 @@ public class Cutscenes : MonoBehaviour {
 		switch (anim) {
 		case types.INTRO:
 			Events.OnDialogue (Data.Instance.dialoguesData.content.intro, OnReady);
-			GetComponent<Animation> ().Play ("intro");
 			break;
 		case types.INTRO_END:
 			GetComponent<Animation> ().Play ("introEnd");
+			cutscenesUI.SetOff ();
 			break;
 		}
 	}

@@ -78,11 +78,9 @@ public class InteractiveObject : MonoBehaviour {
 	}
 	public virtual void OnClicked() 
 	{ 
-		print ("clicked " + gameObject.name);
 	}
 	public virtual void OnCharacterReachMe() 
 	{ 
-		print ("OnCharacterReachMe " + gameProgressKey);
 		if (gameProgressKey != "") {
 			Events.OnTip(content.GetValue(gameProgressKey));
 		}

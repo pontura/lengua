@@ -16,6 +16,8 @@ public class IntearctiveLibroCuadro : InteractiveObject {
 		if (gameProgressValue == 0) {			
 			Events.OnSaveNewData (gameProgressKey, 1);
 			Events.OnTexts (content.libroCuadro, "inventary/libroCuadro", OnReadComplete);
+		} else if (gameProgressValue == 1) {
+			Events.OnTip(content.libroCuadro2);
 		}
 	}
 	public void OnReadComplete()

@@ -36,7 +36,7 @@ public class Character : MonoBehaviour {
 			return;		
 
 		CancelInvoke ();
-		Invoke ("TimeoutWalking", 3);
+		Invoke ("TimeoutWalking", 2);
 		
 		selectedInteractiveObject = io;
 		WalkTo (io.transform.localPosition + offset);
@@ -70,7 +70,6 @@ public class Character : MonoBehaviour {
 	}
 	void OnCharacterStopWalking()
 	{
-		Debug.Log ("aca");
 		CancelInvoke ();
 		if (selectedInteractiveObject) {			
 			moveTo.Reset ();
