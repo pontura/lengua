@@ -11,8 +11,10 @@ public class Cutscenes : MonoBehaviour {
 	public CharacterAnimations avatar;
 	public CharacterAnimations marian;
 
+	public types type;
 	public enum types
 	{
+		NONE,
 		INTRO,
 		INTRO_END
 	}
@@ -20,7 +22,9 @@ public class Cutscenes : MonoBehaviour {
 	{
 		avatar = character.view.characterAnimations;
 		Events.OnCutscene += OnCutscene;
-		Invoke ("Delayed", 0.15f);
+
+		if(type == types.INTRO)
+			Invoke ("Delayed", 0.15f);
 	}
 
 	public void Avatar_Walk()
