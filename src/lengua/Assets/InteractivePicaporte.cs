@@ -33,7 +33,8 @@ public class InteractivePicaporte : InteractiveObject {
 		} else if (gameProgressValue == 3) {			
 			Events.OnSaveNewData ("picaporte", 3);
 			OnSetProgress(3);
-			Data.Instance.LoadScene ("ProtoDone");
+			Events.ChangeRoom (Room.types.BIBLIOTECA);
+			Events.ForceCharacterPosition(new Vector3(0,0,0));
 		} 
 	}
 

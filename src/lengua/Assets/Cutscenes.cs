@@ -7,8 +7,6 @@ public class Cutscenes : MonoBehaviour {
 	public Character character;
 	public CutscenesUI cutscenesUI;
 
-	[HideInInspector]
-	public CharacterAnimations avatar;
 	public CharacterAnimations marian;
 
 	public types type;
@@ -20,7 +18,6 @@ public class Cutscenes : MonoBehaviour {
 	}
 	void Start()
 	{
-		avatar = character.view.characterAnimations;
 		Events.OnCutscene += OnCutscene;
 
 		if(type == types.INTRO)
@@ -29,7 +26,7 @@ public class Cutscenes : MonoBehaviour {
 
 	public void Avatar_Walk()
 	{
-		avatar.Walk ();
+		character.view.characterAnimations.Walk ();
 	}
 	public void Marian_Idle()
 	{
@@ -42,23 +39,23 @@ public class Cutscenes : MonoBehaviour {
 
 	public void Avatar_Exp_NEUTRO()
 	{
-		avatar.expressions.SetOn (CharacterExpressions.states.NEUTRO);
+		character.view.characterAnimations.expressions.SetOn (CharacterExpressions.states.NEUTRO);
 	}
 	public void Avatar_Exp_CONTENTO()
 	{
-		avatar.expressions.SetOn (CharacterExpressions.states.CONTENTO);
+		character.view.characterAnimations.expressions.SetOn (CharacterExpressions.states.CONTENTO);
 	}
 	public void Avatar_Exp_REFLEXIVO()
 	{
-		avatar.expressions.SetOn (CharacterExpressions.states.REFLEXIVO);
+		character.view.characterAnimations.expressions.SetOn (CharacterExpressions.states.REFLEXIVO);
 	}
 	public void Avatar_Exp_PREOCUPADO()
 	{
-		avatar.expressions.SetOn (CharacterExpressions.states.PREOCUPADO);
+		character.view.characterAnimations.expressions.SetOn (CharacterExpressions.states.PREOCUPADO);
 	}
 	public void Avatar_Exp_FASTIDIO()
 	{
-		avatar.expressions.SetOn (CharacterExpressions.states.FASTIDIO);
+		character.view.characterAnimations.expressions.SetOn (CharacterExpressions.states.FASTIDIO);
 	}
 
 	public void Marian_Exp_NEUTRO()

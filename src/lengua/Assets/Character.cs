@@ -24,11 +24,18 @@ public class Character : MonoBehaviour {
 		Events.OnFloorClicked += OnFloorClicked;
 		Events.OnCharacterStopWalking += OnCharacterStopWalking;
 		Events.OnCharacterWalkToInteractiveObject += OnCharacterWalkToInteractiveObject;
+		Events.ForceCharacterPosition += ForceCharacterPosition;
 	}
 	void OnDestroy () {
 		Events.OnFloorClicked -= OnFloorClicked;
 		Events.OnCharacterStopWalking -= OnCharacterStopWalking;
 		Events.OnCharacterWalkToInteractiveObject -= OnCharacterWalkToInteractiveObject;
+		Events.ForceCharacterPosition -= ForceCharacterPosition;
+	}
+	void ForceCharacterPosition (Vector3 pos)
+	{
+		target.transform.position = pos;
+		transform.position = pos;
 	}
 	void OnCharacterWalkToInteractiveObject(InteractiveObject io, Vector3 offset)
 	{
