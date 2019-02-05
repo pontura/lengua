@@ -242,7 +242,92 @@
 				"answers":["La protagonista y Juanjo comparten los mismos sentimientos sobre la ausencia de sus padres y lo imaginan como un viento que todo lo arrasa.","Juanjo resulta ser un chico parecido al viento como todo lo arrasa.","Los chicos permanecen escuchando música en silencio y se muestran poco comunicativos."]
 				}
 			]
+		},
+
+			{
+			"id":"3",
+			"gameprogress_name":"libro_biblioteca_1",
+			"title":"La Casa de Asterión",
+			"author":"J. L. Borges",
+			"texts":[
+				{"textlines":["Y la reina dio a luz un hijo que se llamó Asterión.",
+			                  	"Apolodoro: Biblioteca, iii, I.",
+						"",
+						"Sé que me acusan de soberbia, y tal vez de misantropía, y tal vez de locura. Tales acusaciones (que yo castigaré a su debido tiempo) son irrisorias. Es verdad que no salgo de mi casa, pero también es verdad que sus puertas (cuyo número es infinito)[1] están abiertas día y noche a los hombres y también a los animales. Que entre el que quiera. No hallará pompas mujeriles aquí ni el bizarro aparato de los palacios pero sí la quietud y la soledad. Asimismo hallará una casa como no hay otra en la faz de la tierra. (Mienten los que declaran que en egipto hay una parecida). Hasta mis detractores admiten que no hay un solo mueble en la casa. Otra especie ridícula es que yo, Asterión, soy un prisionero. ¿Repetiré que no hay una puerta cerrada, añadiré que no hay una cerradura? Por lo demás, algún atardecer he pisado la calle; si antes de la noche volví, lo hice por el temor que me infundieron las caras de la plebe, caras descoloridas y aplanadas, como la mano abierta. Ya se había puesto el sol, pero el desvalido llanto de un niño y las toscas plegarias de la grey dijeron que me habían reconocido. La gente oraba, huía, se prosternaba; unos se encaramaban al estilóbato del templo de las Hachas, otros juntaban piedras. Alguno, creo, se ocultó en el mar. No en vano fue una reina mi madre; no puedo confundirme con el vulgo, aunque mi modestia lo quiera.",
+						"",
+						"[1] El original dice catorce, pero sobran motivos para creer inferir que, en boca de asterión, el número catorce vale por infinitos."
+				]},
+
+				{"textlines":["El hecho es que soy único. No me interesa lo que un hombre pueda trasmitir a otros hombres; como el filósofo, pienso que nada es comunicable por el arte de la escritura. Las enojosas y triviales minucias no tienen cabida en mi espíritu, que está capacitado para lo grande; jamás he retenido la diferencia entre una letra y otra. Cierta impaciencia generosa no ha consentido que yo aprendiera a leer. A veces lo deploro, porque las noches y los días son largos.",
+						"Claro que no me faltan distracciones. Semejante al carnero que va a embestir, corro por las galerías de piedra hasta rodar al suelo, mareado. Me agazapo a la sombra de un aljibe o a la vuelta de un corredor y juego a que me buscan. Hay azoteas desde las que me dejo caer, hasta ensangrentarme. A cualquier hora puedo jugar a estar dormido, con los ojos cerrados y la respiración poderosa. (A veces me duermo realmente, a veces ha cambiado el color del día cuando he abierto los ojos). Pero de tantos juegos el que prefiero es el de otro Asterión. Finjo que viene a visitarme y que yo le muestro la casa. Con grandes reverencias le digo: Ahora volvemos a la encrucijada anterior o Ahora desembocaremos en otro patio o bien decía yo que te gustaría la canaleta o Ahora verás una cisterna que se llenó de arena o Ya verás como el sótano se bifurca. A veces me equivoco y nos reímos buenamente los dos.",
+						"No sólo he imaginado esos juegos; también he meditado sobre la casa. todas las partes de la casa están muchas veces, cualquier lugar es otro lugar. No hay un aljibe, un patio, un abrevadero, un pesebre; son catorce [son infinitos] los pesebres, abrevaderos, patios, aljibes. La casa es del tamaño del mundo; mejor dicho, es el mundo. Sin embargo, a fuerza de fatigar patios con un aljibe y polvorientas galerías de piedra gris he alcanzado la calle y he visto el templo de las Hachas y el mar. Eso no lo entendí hasta que una visión de la noche me reveló que también son catorce [son infinitos] los mares y los templos. Todo está muchas veces, catorce veces, pero dos cosas hay en el mundo que parecen estar una sola vez: arriba, el intrincado sol; abajo, asterión. quizá yo he creado las estrellas y el sol la enorme casa, pero ya no me acuerdo.",
+						"Cada nueve años entran en la casa nueve hombres para que yo los libere de todo mal. Oigo sus pasos o su voz en el fondo de las galerías de piedra y corro alegremente a buscarlos. La ceremonia dura pocos minutos. Uno tras otro caen sin que yo me ensangrinte las manos. Donde cayeron, quedan, y los cadáveres ayudan a distinguir una galería de las otras. Ignoro quiénes son, pero sé que uno de ellos profetizó, en la hora de su muerte, que alguna vez llegaría mi redentor. Desde entonces no me duele la soledad, porque sé que vive mi redentor y al fin se levantará sobre el polvo. Si mi oído alcanza todos los rumores del mundo, yo percibiría sus pasos. Ojalá me lleve a un lugar con menos galerías y menos puertas. ¿Cómo será mi redentor?, me pregunto. ¿Será un toro o un hombre? ¿Será tal vez un toro con cara de hombre? ¿O será como yo?"
+				]},
+
+				{"textlines":["El sol de la mañana reverberó en la espada de bronce. Ya no quedaba ni un vestigio de sangre.",
+						"¿Lo creerás, Ariadna? dijo Teseo. El minotauro apenas se defendió.",
+						"A Marta Mosquera Eastman"
+				]}
+			],
+			"trivias":[
+				{"quest":"¿Por qué acusan al protagonista de soberbia, misantropía y locura?",
+				"answers":["El protagonista espera un redentor porque necesita que lo libere de la muerte y de su soledad","El protagonista espera un redentor porque necesita compañía.","El protagonista espera un redentor porque necesita poder salir del laberinto."]
+				},
+
+				{"quest":"¿Por qué el protagonista espera ¨un redentor¨?",
+				"answers":["A Teseo lo mueve su deseo de matar al monstruo y ser útil a su ciudad, Atenas.","A Teseo lo mueve su deseo de cumplir con la obligación que le impusiera su padre.","A Teseo lo mueve su deseo de gobernar Creta."]
+				},
+
+				{"quest":"¿Cuál es el giro que se le da a la historia?",
+				"answers":["Teseo mata al minotauro quien apenas se defendió.","Teseo libera del laberinto al minotauro.","Teseo defendió al minotauro de su hermana Ariadna."]
+				}
+			]
+		},
+
+		{
+			"id":"4",
+			"gameprogress_name":"libro_biblioteca_2",
+			"title":"Teseo y el Minotauro",
+			"author":"",
+			"texts":[
+				{"textlines":["El Rey Minos, de Creta, tenía varios hijos: Ariadna, Fedra, Glauco, Catreo, pero su predilecto era Androgeo, joven fuerte y vencedor en el gimnasio.",
+						"Cuando en Atenas se organizaron los juegos en honor de Palas Atenea, se reunieron los mejores atletas griegos, y allí partió Androgeo, para medirse con los más fuertes paladines de la Hélade, con el beneplácito de Minos, quien esperaba a su hijo regresar con la corona del triunfo.",
+						"El joven príncipe logró vencer en todas las pruebas a sus rivales, los mejores campeones de la ciudad, pero los atenienses, en lugar de victorearlo, hicieron recaer su furia sobre él, por haber derrotado a sus luchadores, y esa misma noche le dieron muerte.",
+						"Al recibir la noticia, el Rey Minos sintió un inmenso dolor, pero inmediatamente se despertó en él un irrefrenable deseo de venganza, y marchó con un numeroso ejército a sitiar a Atenas, hasta que logró que se rindieran incondicionalmente, e impuso condiciones y penas terribles.",
+						"Entre sus condiciones, estableció que durante nueve años, los atenienses debían enviar a la isla de Creta a siete robustos jóvenes y a siete doncellas, quienes serían las víctimas que se ofrecerían para ser devorados por el minotauro."			
+				]},
+
+				{"textlines":["El minotauro, mitad hombre y mitad toro, vivía en un laberinto, inventado por Dédalo, cercano a Cnosos, capital de Creta. Estaba encerrado en dicho laberinto y se alimentaba de carne humana, de esclavos y prisioneros de guerra, así como los jóvenes atenienses, que enviaba el rey Minos.",
+						"Año a año, llegaban los mensajeros de Creta a elegir a sus víctimas.",
+						"Al tercer año, un joven y gallardo joven hijo del rey ateniense Egeo, llamado Teseo, se ofreció voluntariamente, pues se consideraba capaz de enfrentar y dar muerte al minotauro.",
+						"Al enterarse el Rey Minos, expresó:",
+						"- Como miembro de la familia real estás eximido de ir como víctima. Pero si insistes, te diré que, aunque mates al minotauro, jamás encontrarás la salida del laberinto.",
+						"-No me importa- respondió el joven Teseo, me basta con matar al monstruo y ser útil a Atenas."					
+				]},
+
+				{"textlines":["Ariadna, quien escuchó el diálogo, secretamente, por la noche se acercó al joven y le entregó un puñal y un ovillo de hilo, diciendo:",
+						"-Con este puñal mágico, podrás atravesar el corazón del minotauro, y si sigues el hilo de este ovillo podrás hallar la salida.",
+						"Agradecido quedó el joven Teseo, y penetró en el laberinto, desenvolviendo el ovillo de hilo. Durante horas recorrió el laberinto hasta enfrentarse con la bestia. Después de ardua lucha, logró atravesar el corazón del monstruo con el puñal que le entregara la bella Ariadna. El minotauro murió y Teseo rescató a sus compañeros, con los que emprendió el camino de regreso siguiendo el hilo.",
+						"Fue aclamado por la gente de Cnosos por haberlos liberado del monstruo y del salvaje castigo que año a año debían tributar al minotauro.",
+						"Teseo, victorioso, regresó a Atenas en su nave con las velas desplegadas."
+					
+				]}
+			],
+			"trivias":[
+				{"quest":"¿Por qué establece el rey Minos la pena a los atenienses?",
+				"answers":["El rey Minos establece la pena a los atenienses porque le habían dado muerte a su hijo predilecto, Androgeo.","El rey Minos establece la pena a los atenienses porque los había dominado con su ejército.","El rey Minos establece la pena a los atenienses porque necesitaba alimentar al minotauro."]
+				},
+
+				{"quest":"¿Qué mueve a Teseo a ofrecerse como víctima, a pesar de estar eximido por ser parte de la familia real?",
+				"answers":["A Teseo lo mueve su deseo de matar al monstruo y ser útil a su ciudad, Atenas.","A Teseo lo mueve su deseo de cumplir con la obligación que le impusiera su padre.","A Teseo lo mueve su deseo de gobernar Creta."]
+				},
+
+				{"quest":"¿Cómo logra Teseo salir del laberinto y liberar a sus compañeros?",
+				"answers":["Teseo lograr salir del laberinto y liberar a sus compañeros siguiendo el ovillo de hilo que le había entregado Ariadna.","Teseo lograr salir del laberinto y liberar a sus compañeros porque pudo matar al minotauro con el puñal  que le había entregado Ariadna.","Teseo lograr salir del laberinto y liberar a sus compañeros porque tenía el plano del laberinto."]
+				}
+			]
 		}
+		
 	]
 }
 
