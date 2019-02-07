@@ -2,17 +2,40 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class InteractiveEscalera : MonoBehaviour
+public class InteractiveEscalera : InteractiveObject
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+	public GameObject[] assets;
+	void OnEnable()
+	{
+		OnSetProgress (0); 
+	}
+	public override void OnClicked() 
+	{ 
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+	}
+	public override void OnCharacterReachMe() 
+	{ 
+		if (gameProgressValue < 2) {
+			gameProgressValue++;
+			Events.OnSaveNewData (gameProgressKey, gameProgressValue);
+		} else {
+			GetComponentInChildren<Collider> ().enabled = false;
+		}
+	}
+	public void OnReadComplete()
+	{
+		Events.OpenTrivia (gameProgressKey);
+	}
+	public override void OnSetProgress(int value) 
+	{
+		print ("value  " + value);
+		ResetAll ();
+		assets [value].SetActive (true);
+	}
+	void ResetAll()
+	{
+		foreach (GameObject go in assets)
+			go.SetActive (false);
+	}
+
 }

@@ -12,14 +12,16 @@ public class Cutscenes : MonoBehaviour {
 	{
 		NONE,
 		INTRO,
-		INTRO_END
+		INTRO_END,
+		BIBLIOTECA,
+		BIBLIOTECA_END
 	}
 	public void Init(Room room)
 	{
 		this.room = room;
-		Events.OnCutscene += OnCutscene;
+		//Events.OnCutscene += OnCutscene;
 
-		if(type == types.INTRO)
+		if(type == types.INTRO || type == types.BIBLIOTECA)
 			Invoke ("Delayed", 0.15f);
 	}
 
@@ -81,16 +83,40 @@ public class Cutscenes : MonoBehaviour {
 	void Delayed()
 	{
 		room.roomsManager.cutscenesUI.SetOn ();
-		GetComponent<Animation> ().Play ("intro");
+
+		switch (type) {
+		case types.INTRO:
+			GetComponent<Animation> ().Play ("intro");
+			break;
+		case types.BIBLIOTECA:
+			GetComponent<Animation> ().Play ("biblioteca");
+			break;
+		}
+
 		Invoke ("Delayed2", 2);
 	}
 	void Delayed2()
 	{
-		OnCutscene (types.INTRO);
+		switch (type) {
+		case types.INTRO:
+			OnCutscene (types.INTRO);
+			break;
+		case types.BIBLIOTECA:
+			OnCutscene (types.BIBLIOTECA);
+			break;
+		}
+
 	}
 	void OnReady()
 	{
-		OnCutscene (types.INTRO_END);
+		switch (type) {
+		case types.INTRO:
+			OnCutscene (types.INTRO_END);
+			break;
+		case types.BIBLIOTECA:
+			OnCutscene (types.BIBLIOTECA_END);
+			break;
+		}
 	}
 	void OnDestroy()
 	{
@@ -104,6 +130,13 @@ public class Cutscenes : MonoBehaviour {
 			break;
 		case types.INTRO_END:
 			GetComponent<Animation> ().Play ("introEnd");
+			room.roomsManager.cutscenesUI.SetOff ();
+			break;
+		case types.BIBLIOTECA:
+			Events.OnDialogue (Data.Instance.dialoguesData.content.biblioteca, OnReady);
+			break;
+		case types.BIBLIOTECA_END:
+			GetComponent<Animation> ().Play ("biblioteca_end");
 			room.roomsManager.cutscenesUI.SetOff ();
 			break;
 		}

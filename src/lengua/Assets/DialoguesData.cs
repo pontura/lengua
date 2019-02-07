@@ -10,6 +10,7 @@ public class DialoguesData : MonoBehaviour {
 	public class Content
 	{
 		public List<Dialogue> intro;
+		public List<Dialogue> biblioteca;
 	}
 	[Serializable]
 	public class Dialogue

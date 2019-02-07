@@ -16,7 +16,6 @@ public class MainCamera : MonoBehaviour {
 	}
 
 	void Awake () {
-		print ("AWAKE");
 		state = states.ON;
 		Events.OnEnterNewRoom += OnEnterNewRoom; 
 	}
@@ -29,7 +28,6 @@ public class MainCamera : MonoBehaviour {
 	}
 	void OnEnterNewRoom(Room room)
 	{
-		print ("Events.OnEnterNewRoom += OnEnterNewRoom; " + room);
 		limitsX = room.limitsX;
 		limitsZ = room.limitsZ;
 	}
