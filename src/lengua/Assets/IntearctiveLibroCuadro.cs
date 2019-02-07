@@ -9,7 +9,7 @@ public class IntearctiveLibroCuadro : InteractiveObject {
 
 	public override void OnClicked() 
 	{ 
-
+		print ("clickerD");
 	}
 	public override void OnCharacterReachMe()
 	{ 

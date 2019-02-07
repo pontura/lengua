@@ -4,9 +4,7 @@ using UnityEngine;
 
 public class Cutscenes : MonoBehaviour {
 
-	public Character character;
-	public CutscenesUI cutscenesUI;
-
+	public Room room;
 	public CharacterAnimations marian;
 
 	public types type;
@@ -16,8 +14,9 @@ public class Cutscenes : MonoBehaviour {
 		INTRO,
 		INTRO_END
 	}
-	void Start()
+	public void Init(Room room)
 	{
+		this.room = room;
 		Events.OnCutscene += OnCutscene;
 
 		if(type == types.INTRO)
@@ -26,7 +25,7 @@ public class Cutscenes : MonoBehaviour {
 
 	public void Avatar_Walk()
 	{
-		character.view.characterAnimations.Walk ();
+		room.roomsManager.character.view.characterAnimations.Walk ();
 	}
 	public void Marian_Idle()
 	{
@@ -39,23 +38,23 @@ public class Cutscenes : MonoBehaviour {
 
 	public void Avatar_Exp_NEUTRO()
 	{
-		character.view.characterAnimations.expressions.SetOn (CharacterExpressions.states.NEUTRO);
+		room.roomsManager.character.view.characterAnimations.expressions.SetOn (CharacterExpressions.states.NEUTRO);
 	}
 	public void Avatar_Exp_CONTENTO()
 	{
-		character.view.characterAnimations.expressions.SetOn (CharacterExpressions.states.CONTENTO);
+		room.roomsManager.character.view.characterAnimations.expressions.SetOn (CharacterExpressions.states.CONTENTO);
 	}
 	public void Avatar_Exp_REFLEXIVO()
 	{
-		character.view.characterAnimations.expressions.SetOn (CharacterExpressions.states.REFLEXIVO);
+		room.roomsManager.character.view.characterAnimations.expressions.SetOn (CharacterExpressions.states.REFLEXIVO);
 	}
 	public void Avatar_Exp_PREOCUPADO()
 	{
-		character.view.characterAnimations.expressions.SetOn (CharacterExpressions.states.PREOCUPADO);
+		room.roomsManager.character.view.characterAnimations.expressions.SetOn (CharacterExpressions.states.PREOCUPADO);
 	}
 	public void Avatar_Exp_FASTIDIO()
 	{
-		character.view.characterAnimations.expressions.SetOn (CharacterExpressions.states.FASTIDIO);
+		room.roomsManager.character.view.characterAnimations.expressions.SetOn (CharacterExpressions.states.FASTIDIO);
 	}
 
 	public void Marian_Exp_NEUTRO()
@@ -81,7 +80,7 @@ public class Cutscenes : MonoBehaviour {
 
 	void Delayed()
 	{
-		cutscenesUI.SetOn ();
+		room.roomsManager.cutscenesUI.SetOn ();
 		GetComponent<Animation> ().Play ("intro");
 		Invoke ("Delayed2", 2);
 	}
@@ -105,7 +104,7 @@ public class Cutscenes : MonoBehaviour {
 			break;
 		case types.INTRO_END:
 			GetComponent<Animation> ().Play ("introEnd");
-			cutscenesUI.SetOff ();
+			room.roomsManager.cutscenesUI.SetOff ();
 			break;
 		}
 	}

@@ -3846,8 +3846,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6c01ed023be7a74f9417d788df8f74e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  character: {fileID: 0}
-  cutscenesUI: {fileID: 0}
+  room: {fileID: 0}
   marian: {fileID: 114805472972821578}
   type: 1
 --- !u!111 &111793958353835406
@@ -3879,6 +3878,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed8f49d65ae41c4459e32f433406ef8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  roomsManager: {fileID: 0}
   type: 0
   limitsX: {x: -2.5, y: 2.5}
   limitsZ: {x: 2.3, y: 0.7}
@@ -14458,7 +14458,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4495536310993742
 Transform:
   m_ObjectHideFlags: 0

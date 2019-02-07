@@ -15,6 +15,8 @@ public class InteractiveArmadura : InteractiveObject
 		if (gameProgressValue < 4) {
 			gameProgressValue++;
 			Events.OnSaveNewData (gameProgressKey, gameProgressValue);
+		} else {
+			GetComponentInChildren<Collider> ().enabled = false;
 		}
 	}
 	public void OnReadComplete()

@@ -49339,6 +49339,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4857803416286080}
+  - component: {fileID: 6531632706273937710}
   m_Layer: 0
   m_Name: escalera
   m_TagString: Untagged
@@ -49362,6 +49363,18 @@ Transform:
   m_Father: {fileID: 4796298250657162}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6531632706273937710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1591952737234904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 341c32cb5ddd5f64180b167ab92dec6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1594379570953076
 GameObject:
   m_ObjectHideFlags: 0
@@ -67331,8 +67344,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6c01ed023be7a74f9417d788df8f74e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  character: {fileID: 0}
-  cutscenesUI: {fileID: 0}
+  room: {fileID: 5654462099031211181}
   marian: {fileID: 114696028346797130}
   type: 0
 --- !u!111 &111628883247051606
@@ -67364,6 +67376,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed8f49d65ae41c4459e32f433406ef8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  roomsManager: {fileID: 0}
   type: 1
   limitsX: {x: -8.8, y: 8.8}
   limitsZ: {x: 2.3, y: 0.7}
