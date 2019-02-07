@@ -6,6 +6,7 @@ public class RoomsManager : MonoBehaviour {
 
 	public Room[] rooms;
 	public Room room;
+
 	void Start()
 	{
 		Events.ChangeRoom += ChangeRoom;

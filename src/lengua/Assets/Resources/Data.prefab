@@ -1,21 +1,11 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &100100000
-Prefab:
-  m_ObjectHideFlags: 1
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications: []
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1640398861795566}
-  m_IsPrefabAsset: 1
 --- !u!1 &1640398861795566
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4253221959410642}
@@ -35,9 +25,10 @@ GameObject:
   m_IsActive: 1
 --- !u!4 &4253221959410642
 Transform:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1640398861795566}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.26034382, y: -0.01034081, z: 2.6104884}
@@ -46,11 +37,60 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114132969967853722
+--- !u!114 &114773183223413848
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640398861795566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4abd52d2147a7bc4f844b1ffbcaa81f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  reloadJson: 0
+  interactiveObjectsTexts: {fileID: 0}
+  gameProgress: {fileID: 0}
+  inventary: {fileID: 0}
+  triviaData: {fileID: 0}
+  dialoguesData: {fileID: 0}
+  currentLevel: 
+  currentLevelIndex: 0
+--- !u!114 &114300212788950266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640398861795566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b5519ce9a2bc034f8f8d9d38f594a7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ResetProgress: 1
+  items:
+  - name: picaporte
+    value: 0
+  - name: libroIngreso
+    value: 0
+  - name: fichero_llave
+    value: 0
+  - name: cuaderno_ingreso
+    value: 0
+  - name: destornillador
+    value: 0
+  - name: libroCuadro
+    value: 0
+  - name: armadura
+    value: 0
+--- !u!114 &114640231412475312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1640398861795566}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -78,11 +118,41 @@ MonoBehaviour:
     libroCuadro2: "\xA1\xBFEh?! Me pareci\xF3 que algo se mov\xEDa..."
     libroBloqueado: Me siento un poco bloqueda... voy a esperar un minuto
     libroCompletado: "\xA1Por suerte este libro ya lo termin\xE9!"
+--- !u!114 &114434947018505516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640398861795566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3370d69858fe0e840800b676f7a612f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allItems:
+  - image: {fileID: 21300000, guid: 165f2e332bfac2f4eb3c3de292e12e68, type: 3}
+    gameProgressKey: libroIngreso
+    isLibro: 1
+  - image: {fileID: 21300000, guid: 1324a4bfab2948e4c8e6c052c0de56e6, type: 3}
+    gameProgressKey: fichero_llave
+    isLibro: 0
+  - image: {fileID: 21300000, guid: 9019909596de16f42ad0ae074b1a73b7, type: 3}
+    gameProgressKey: cuaderno_ingreso
+    isLibro: 1
+  - image: {fileID: 21300000, guid: 10f05ed102bb2d248bf24e7d4ee49d7a, type: 3}
+    gameProgressKey: destornillador
+    isLibro: 0
+  - image: {fileID: 21300000, guid: bd08306e7c97bb245a91c80d5fbef002, type: 3}
+    gameProgressKey: libroCuadro
+    isLibro: 1
+  inventary: []
 --- !u!114 &114134459145049482
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1640398861795566}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -493,115 +563,12 @@ MonoBehaviour:
         comunicativos."
   blockedTime: 60
   resetTime: 1800
---- !u!114 &114300212788950266
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1640398861795566}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5519ce9a2bc034f8f8d9d38f594a7d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ResetProgress: 1
-  items:
-  - name: picaporte
-    value: 0
-  - name: libroIngreso
-    value: 0
-  - name: fichero_llave
-    value: 0
-  - name: cuaderno_ingreso
-    value: 0
-  - name: destornillador
-    value: 0
-  - name: libroCuadro
-    value: 0
---- !u!114 &114434947018505516
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1640398861795566}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3370d69858fe0e840800b676f7a612f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  allItems:
-  - image: {fileID: 21300000, guid: 165f2e332bfac2f4eb3c3de292e12e68, type: 3}
-    gameProgressKey: libroIngreso
-    isLibro: 1
-  - image: {fileID: 21300000, guid: 1324a4bfab2948e4c8e6c052c0de56e6, type: 3}
-    gameProgressKey: fichero_llave
-    isLibro: 0
-  - image: {fileID: 21300000, guid: 9019909596de16f42ad0ae074b1a73b7, type: 3}
-    gameProgressKey: cuaderno_ingreso
-    isLibro: 1
-  - image: {fileID: 21300000, guid: 10f05ed102bb2d248bf24e7d4ee49d7a, type: 3}
-    gameProgressKey: destornillador
-    isLibro: 0
-  - image: {fileID: 21300000, guid: bd08306e7c97bb245a91c80d5fbef002, type: 3}
-    gameProgressKey: libroCuadro
-    isLibro: 1
-  inventary: []
---- !u!114 &114640231412475312
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1640398861795566}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67ee92b125fb14b4384fc1fc845a2a87, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  content:
-    picaporte_1: Esto no se ve bien. Mejor le aviso a Marian
-    picaporte_2: "Tengo que encontrar una forma de salir\u2026 Con dignidad"
-    picaporte_3: Con este destornillador tengo que poder arregar esta puerta...
-    picaporte_4: "\xA1S\xED\xED\xED\xED! \xA1In your face, puerta!"
-    escritorio: El escritorio de la directora, o del director. Ya tocarlo me hace
-      sentir importante
-    libroIngreso: "\xA1Encontraste un LIBRO del ingreso!/Lee y responde la trivia
-      para avanzar en la historia./Es necesario leer todos los libros para avanzar."
-    escritorioDoor1: "No huyas, cobarde. Esto no puede ser taaan dif\xEDcil."
-    fichero_1: "\xA1Entrega tus secretos! Owww\u2026 Cerrado"
-    fichero_con_llave: "Voy a probar esta llave en el fichero/\xA1Funcion\xF3!"
-    fichero_con_llave2: "\xA1Encontraste un CUADERNO del ingreso!/Lee y responde la
-      trivia para avanzar en la historia."
-    fichero_done: Ya no hay nada en este viejo fichero
-    cuadro1: "Mar\xEDa Remedios del Valle (1766 - 1847)/Valiente capitana de la Patria\u201D/\xA1Vamos
-      las pibas!"
-    libroCuadro: 'Un libro... se llama: Amigos por el viento, de Liliana Bodoc.'
-    libroCuadro2: "\xA1\xBFEh?! Me pareci\xF3 que algo se mov\xEDa..."
-    libroBloqueado: Me siento un poco bloqueda... voy a esperar un minuto
-    libroCompletado: "\xA1Por suerte este libro ya lo termin\xE9!"
---- !u!114 &114773183223413848
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1640398861795566}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4abd52d2147a7bc4f844b1ffbcaa81f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  reloadJson: 0
-  interactiveObjectsTexts: {fileID: 0}
-  gameProgress: {fileID: 0}
-  inventary: {fileID: 0}
-  triviaData: {fileID: 0}
-  dialoguesData: {fileID: 0}
-  currentLevel: 
-  currentLevelIndex: 0
 --- !u!114 &114777048282461660
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1640398861795566}
   m_Enabled: 0
   m_EditorHideFlags: 0
@@ -649,3 +616,36 @@ MonoBehaviour:
     - character: avatar
       state: contento
       text: "\xA1Ooookey! Vaya, nom\xE1s"
+--- !u!114 &114132969967853722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640398861795566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67ee92b125fb14b4384fc1fc845a2a87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  content:
+    picaporte_1: Esto no se ve bien. Mejor le aviso a Marian
+    picaporte_2: "Tengo que encontrar una forma de salir\u2026 Con dignidad"
+    picaporte_3: Con este destornillador tengo que poder arregar esta puerta...
+    picaporte_4: "\xA1S\xED\xED\xED\xED! \xA1In your face, puerta!"
+    escritorio: El escritorio de la directora, o del director. Ya tocarlo me hace
+      sentir importante
+    libroIngreso: "\xA1Encontraste un LIBRO del ingreso!/Lee y responde la trivia
+      para avanzar en la historia./Es necesario leer todos los libros para avanzar."
+    escritorioDoor1: "No huyas, cobarde. Esto no puede ser taaan dif\xEDcil."
+    fichero_1: "\xA1Entrega tus secretos! Owww\u2026 Cerrado"
+    fichero_con_llave: "Voy a probar esta llave en el fichero/\xA1Funcion\xF3!"
+    fichero_con_llave2: "\xA1Encontraste un CUADERNO del ingreso!/Lee y responde la
+      trivia para avanzar en la historia."
+    fichero_done: Ya no hay nada en este viejo fichero
+    cuadro1: "Mar\xEDa Remedios del Valle (1766 - 1847)/Valiente capitana de la Patria\u201D/\xA1Vamos
+      las pibas!"
+    libroCuadro: 'Un libro... se llama: Amigos por el viento, de Liliana Bodoc.'
+    libroCuadro2: "\xA1\xBFEh?! Me pareci\xF3 que algo se mov\xEDa..."
+    libroBloqueado: Me siento un poco bloqueda... voy a esperar un minuto
+    libroCompletado: "\xA1Por suerte este libro ya lo termin\xE9!"

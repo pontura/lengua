@@ -11,5 +11,16 @@ public class Room : MonoBehaviour {
 		ESCRITORIO,
 		BIBLIOTECA
 	}
+	public Vector2 limitsX;
+	public Vector2 limitsZ;
+
+	void OnEnable()
+	{
+		Invoke ("Delayed", 0.1f);
+	}
+	void Delayed()
+	{
+		Events.OnEnterNewRoom (this);
+	}
 
 }

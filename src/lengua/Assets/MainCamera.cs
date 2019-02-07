@@ -15,11 +15,23 @@ public class MainCamera : MonoBehaviour {
 		ON
 	}
 
-	void Start () {
+	void Awake () {
+		print ("AWAKE");
 		state = states.ON;
+		Events.OnEnterNewRoom += OnEnterNewRoom; 
+	}
+	void OnDestroy()
+	{
+		Events.OnEnterNewRoom -= OnEnterNewRoom; 
 	}
 	void Update () {
 		FollowingUpdate ();
+	}
+	void OnEnterNewRoom(Room room)
+	{
+		print ("Events.OnEnterNewRoom += OnEnterNewRoom; " + room);
+		limitsX = room.limitsX;
+		limitsZ = room.limitsZ;
 	}
 	void FollowingUpdate()
 	{
