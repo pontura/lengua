@@ -2,17 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class InteractiveArmadura : InteractiveObject
+public class InteractiveEscalera : InteractiveObject
 {
 	public GameObject[] assets;
-
+	void OnEnable()
+	{
+		OnSetProgress (0); 
+	}
 	public override void OnClicked() 
 	{ 
 
 	}
 	public override void OnCharacterReachMe() 
 	{ 
-		if (gameProgressValue < 4) {
+		if (gameProgressValue < 2) {
 			gameProgressValue++;
 			Events.OnSaveNewData (gameProgressKey, gameProgressValue);
 		} else {

@@ -61,6 +61,7 @@ public class InteractiveObject : MonoBehaviour {
 	}
 	void OnCharacterHitInteractiveObject(InteractiveObject io)
 	{
+		print ("OnCharacterHitInteractiveObject" + io);
 		if (io == this) {
 			
 			if(walkToMe)

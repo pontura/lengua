@@ -4,9 +4,7 @@ using UnityEngine;
 
 public class Cutscenes : MonoBehaviour {
 
-	public Character character;
-	public CutscenesUI cutscenesUI;
-
+	public Room room;
 	public CharacterAnimations marian;
 
 	public types type;
@@ -14,19 +12,22 @@ public class Cutscenes : MonoBehaviour {
 	{
 		NONE,
 		INTRO,
-		INTRO_END
+		INTRO_END,
+		BIBLIOTECA,
+		BIBLIOTECA_END
 	}
-	void Start()
+	public void Init(Room room)
 	{
-		Events.OnCutscene += OnCutscene;
+		this.room = room;
+		//Events.OnCutscene += OnCutscene;
 
-		if(type == types.INTRO)
+		if(type == types.INTRO || type == types.BIBLIOTECA)
 			Invoke ("Delayed", 0.15f);
 	}
 
 	public void Avatar_Walk()
 	{
-		character.view.characterAnimations.Walk ();
+		room.roomsManager.character.view.characterAnimations.Walk ();
 	}
 	public void Marian_Idle()
 	{
@@ -39,23 +40,23 @@ public class Cutscenes : MonoBehaviour {
 
 	public void Avatar_Exp_NEUTRO()
 	{
-		character.view.characterAnimations.expressions.SetOn (CharacterExpressions.states.NEUTRO);
+		room.roomsManager.character.view.characterAnimations.expressions.SetOn (CharacterExpressions.states.NEUTRO);
 	}
 	public void Avatar_Exp_CONTENTO()
 	{
-		character.view.characterAnimations.expressions.SetOn (CharacterExpressions.states.CONTENTO);
+		room.roomsManager.character.view.characterAnimations.expressions.SetOn (CharacterExpressions.states.CONTENTO);
 	}
 	public void Avatar_Exp_REFLEXIVO()
 	{
-		character.view.characterAnimations.expressions.SetOn (CharacterExpressions.states.REFLEXIVO);
+		room.roomsManager.character.view.characterAnimations.expressions.SetOn (CharacterExpressions.states.REFLEXIVO);
 	}
 	public void Avatar_Exp_PREOCUPADO()
 	{
-		character.view.characterAnimations.expressions.SetOn (CharacterExpressions.states.PREOCUPADO);
+		room.roomsManager.character.view.characterAnimations.expressions.SetOn (CharacterExpressions.states.PREOCUPADO);
 	}
 	public void Avatar_Exp_FASTIDIO()
 	{
-		character.view.characterAnimations.expressions.SetOn (CharacterExpressions.states.FASTIDIO);
+		room.roomsManager.character.view.characterAnimations.expressions.SetOn (CharacterExpressions.states.FASTIDIO);
 	}
 
 	public void Marian_Exp_NEUTRO()
@@ -81,17 +82,41 @@ public class Cutscenes : MonoBehaviour {
 
 	void Delayed()
 	{
-		cutscenesUI.SetOn ();
-		GetComponent<Animation> ().Play ("intro");
+		room.roomsManager.cutscenesUI.SetOn ();
+
+		switch (type) {
+		case types.INTRO:
+			GetComponent<Animation> ().Play ("intro");
+			break;
+		case types.BIBLIOTECA:
+			GetComponent<Animation> ().Play ("biblioteca");
+			break;
+		}
+
 		Invoke ("Delayed2", 2);
 	}
 	void Delayed2()
 	{
-		OnCutscene (types.INTRO);
+		switch (type) {
+		case types.INTRO:
+			OnCutscene (types.INTRO);
+			break;
+		case types.BIBLIOTECA:
+			OnCutscene (types.BIBLIOTECA);
+			break;
+		}
+
 	}
 	void OnReady()
 	{
-		OnCutscene (types.INTRO_END);
+		switch (type) {
+		case types.INTRO:
+			OnCutscene (types.INTRO_END);
+			break;
+		case types.BIBLIOTECA:
+			OnCutscene (types.BIBLIOTECA_END);
+			break;
+		}
 	}
 	void OnDestroy()
 	{
@@ -105,7 +130,14 @@ public class Cutscenes : MonoBehaviour {
 			break;
 		case types.INTRO_END:
 			GetComponent<Animation> ().Play ("introEnd");
-			cutscenesUI.SetOff ();
+			room.roomsManager.cutscenesUI.SetOff ();
+			break;
+		case types.BIBLIOTECA:
+			Events.OnDialogue (Data.Instance.dialoguesData.content.biblioteca, OnReady);
+			break;
+		case types.BIBLIOTECA_END:
+			GetComponent<Animation> ().Play ("biblioteca_end");
+			room.roomsManager.cutscenesUI.SetOff ();
 			break;
 		}
 	}

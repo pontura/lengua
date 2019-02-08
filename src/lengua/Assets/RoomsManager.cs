@@ -4,25 +4,38 @@ using UnityEngine;
 
 public class RoomsManager : MonoBehaviour {
 
+	public Character character;
+	public CutscenesUI cutscenesUI;
+	public Room.types roomType;
 	public Room[] rooms;
-	public Room room;
+	Room room;
+	public Transform container;
 
 	void Start()
 	{
 		Events.ChangeRoom += ChangeRoom;
+		ChangeRoom (roomType);
 	}
-	public void ChangeRoom(Room.types type)
+	void ChangeRoom(Room.types type)
 	{
-		foreach (Room room in rooms)
-			room.gameObject.SetActive (false);
-		room = GetRoom (type);
-		room.gameObject.SetActive (true);
-	}
-	Room GetRoom(Room.types type){
-		foreach (Room room in rooms) {
-			if (room.type == type)
-				return room;
+		Utils.RemoveAllChildsIn(container);
+
+		Room newRoom = rooms [0];
+		switch (type)
+		{
+		case Room.types.ESCRITORIO:
+			newRoom = rooms [0];
+			break;
+		case Room.types.BIBLIOTECA:
+			newRoom = rooms [1];
+			break;
 		}
-		return null;
+		
+		room = Instantiate (newRoom);
+		room.transform.SetParent (container);
+		room.transform.localPosition = Vector3.zero;
+		room.Init (this);
+		Events.OnEnterNewRoom (room);
 	}
+
 }

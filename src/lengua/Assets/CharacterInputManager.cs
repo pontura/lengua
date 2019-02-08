@@ -30,6 +30,7 @@ public class CharacterInputManager : MonoBehaviour {
 					RaycastHit hit = hits [i];
 					InteractiveObject io = hit.transform.gameObject.GetComponentInParent<InteractiveObject> ();
 					if (io != null) {
+						print ("_______	OnCharacterHitInteractiveObject" + io);
 						Events.OnCharacterHitInteractiveObject (io);
 						return;
 					} else if (hit.transform.gameObject.name == "floor") {

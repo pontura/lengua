@@ -85,6 +85,8 @@ MonoBehaviour:
     value: 0
   - name: armadura
     value: 0
+  - name: escalera
+    value: 0
 --- !u!114 &114640231412475312
 MonoBehaviour:
   m_ObjectHideFlags: 0
