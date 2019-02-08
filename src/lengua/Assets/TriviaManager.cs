@@ -33,6 +33,11 @@ public class TriviaManager : MonoBehaviour {
 	void OnDestroy () {
 		Events.SetTrivia -= SetTrivia;
 	}
+
+	public void Close(){
+		Events.TriviaClose ();
+	}
+
 	void SetTrivia (string gameProgressKey) {
 		this.gameProgressKey = gameProgressKey;
 		tProgress = Data.Instance.triviaData.GetTProgressByGProgress(gameProgressKey);

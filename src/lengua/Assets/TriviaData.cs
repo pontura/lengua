@@ -169,4 +169,13 @@ public class TriviaData : MonoBehaviour {
 			return a.state;
 		}
 	}
+
+	public bool AreaDone(int area){
+		List<TriviaProgress> tps = triviaProgress.FindAll(x => x.area == area);
+		foreach (TriviaProgress tp in tps) {
+			if (tp.state != TriviaState.done && tp.state != TriviaState.complete)
+				return false;
+		}
+		return true;	
+	}
 }
