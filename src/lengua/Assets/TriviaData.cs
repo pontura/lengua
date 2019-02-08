@@ -12,6 +12,12 @@ public class TriviaData : MonoBehaviour {
 	public Antologia[] antologia;
 	public float blockedTime;
 	public float resetTime;
+	public float normativaMinimum = 0.7f;
+
+	public enum TriviaType{
+		literatura,
+		normativa
+	}
 
 	[Serializable]
 	public class Antologia
@@ -20,6 +26,8 @@ public class TriviaData : MonoBehaviour {
 		public string gameprogress_name;
 		public string title;
 		public string author;
+		public TriviaType type;
+		public int area;
 		public Text[] texts;
 		public Trivia[] trivias;
 	}
@@ -40,6 +48,8 @@ public class TriviaData : MonoBehaviour {
 	{
 		public string id;
 		public string gameprogress_name;
+		public TriviaType type;
+		public int area;
 		public int triviasIndex;
 		public bool[] triviasDone;
 		public bool completed;
@@ -52,11 +62,30 @@ public class TriviaData : MonoBehaviour {
 			triviasIndex = 0;
 			state = TriviaState.idle;
 		}
+
+		public void AddNormativaDone(int index){
+			if (type == TriviaType.normativa) {
+				triviasDone [index] = true;
+			}
+
+			int dones = 0;
+			for(int i=0;i<triviasDone.Length;i++){
+				if (triviasDone [i])
+					dones++;
+			}
+			if (dones == triviasDone.Length) {
+				completed = true;
+				state = TriviaState.complete;
+			} else if (1f * dones / triviasDone.Length >= Data.Instance.triviaData.normativaMinimum) {
+				state = TriviaState.done;
+			}
+		}
 	}
 
 	public enum TriviaState{
 		idle,
 		blocked,
+		done,
 		complete
 	}
 
@@ -88,11 +117,19 @@ public class TriviaData : MonoBehaviour {
 		//Debug.Log (text);
 		antologia = JsonHelper.FromJson<Antologia> (text);
 
+		triviaProgress.Clear ();
+
 		for (int i = 0; i < antologia.Length; i++) {
 			TriviaProgress tp = new TriviaProgress ();
 			tp.id = antologia [i].id;
 			tp.gameprogress_name = antologia [i].gameprogress_name;
-			tp.triviasDone = new bool[antologia [i].trivias.Length];
+			tp.type = antologia [i].type;
+			if (antologia [i].type == TriviaType.literatura)
+				tp.triviasDone = new bool[antologia [i].trivias.Length];
+			else {
+				tp.triviasDone = new bool[antologia [i].texts [0].textlines.Length];
+			}
+			tp.area = antologia [i].area;
 			tp.state = TriviaState.idle;
 			triviaProgress.Add (tp);
 		}

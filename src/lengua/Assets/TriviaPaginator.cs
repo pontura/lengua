@@ -2,135 +2,169 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System;
 
-public class TriviaPaginator : MonoBehaviour {
+namespace TMPro.Examples
+{
+	public class TriviaPaginator : MonoBehaviour
+	{
 
-	public Text pageLeft;
-	public Text pageRight;
-	public GameObject triviaUI;
 
-	public int charsPerLine;
-	public int linesPerPage;
+		public TextMeshProUGUI pageLeft;
+		NormativaParser leftParser;
+		public TextMeshProUGUI pageRight;
+		NormativaParser rightParser;
+		public GameObject triviaUI;
 
-	public List<string> pages;
+		public int charsPerLine;
+		public int linesPerPage;
 
-	public int charCount,lineCount;
+		public List<string> pages;
 
-	public GameObject backBtn,nextBtn;
+		public int charCount, lineCount;
 
-	int bookIndex;
+		public GameObject backBtn, nextBtn;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
+		int bookIndex;
+
+		TriviaData.TriviaType type;
+
+		TriviaData.TriviaProgress tp;
+
+		// Use this for initialization
+		void Start ()
+		{
+			leftParser = pageLeft.GetComponent<NormativaParser> ();
+			rightParser = pageRight.GetComponent<NormativaParser> ();
+		}
 	
-	// Update is called once per frame
-	void Update () {
+		// Update is called once per frame
+		void Update ()
+		{
 		
-	}
+		}
 
-	public void SetPages(string[] textlines){
-		charCount = 0;
-		lineCount = 0;
+		public void SetPages (string[] textlines, TriviaData.TriviaType t, TriviaData.TriviaProgress tpro)
+		{
 
-		pages.Clear ();
+			type = t;
+			tp = tpro;
 
-		string page = "";
-		Debug.Log (textlines.Length);
+			charCount = 0;
+			lineCount = 0;
 
-		bool nextpage = false;
-		for (int i = 0; i < textlines.Length; i++) {
-			for (int j = 0; j < textlines [i].Length; j++) {				
-				if (nextpage && (textlines [i] [j] == '\n' || textlines [i] [j] == '.')) {
-					//page += '#';
-					nextpage = false;
-					pages.Add (page);
-					page = "";
-					lineCount = 0;
-					charCount = 0;
-				} else {
-					page += textlines [i] [j];
-					charCount++;
-					if (charCount >= charsPerLine || textlines [i] [j]== '\n') {
-						//page += '$';
+			pages.Clear ();
+
+			string page = "";
+			Debug.Log (textlines.Length);
+
+			bool nextpage = false;
+			for (int i = 0; i < textlines.Length; i++) {
+				for (int j = 0; j < textlines [i].Length; j++) {				
+					if (nextpage && (textlines [i] [j] == '\n' || textlines [i] [j] == '.')) {
+						//page += '#';
+						nextpage = false;
+						pages.Add (page);
+						page = "";
+						lineCount = 0;
 						charCount = 0;
-						lineCount++;
-						if (lineCount >= linesPerPage) {						
-							nextpage = true;
+					} else {
+						page += textlines [i] [j];
+						charCount++;
+						if (charCount >= charsPerLine || textlines [i] [j] == '\n') {
+							//page += '$';
+							charCount = 0;
+							lineCount++;
+							if (lineCount >= linesPerPage) {						
+								nextpage = true;
+							}
 						}
 					}
 				}
+				page += '\n';
 			}
-			page += '\n';
-		}
-		pages.Add (page);
+			pages.Add (page);
 
-		bookIndex = 0;
-		backBtn.SetActive (false);
-		DrawPages ();
+			bookIndex = 0;
+			backBtn.SetActive (false);
+			DrawPages ();
 
-		/*pageLeft.text = pages [0];
+			/*pageLeft.text = pages [0];
 		if(pages.Count>1)
 			pageRight.text = pages [1];
 		else
 			pageRight.text = "";*/
-	}
-
-	void DrawPages(){
-		triviaUI.SetActive (false);
-		if (bookIndex > 0)
-			backBtn.SetActive (true);
-		else
-			backBtn.SetActive (false);
-		
-		int pageIndex = bookIndex * 2;
-		if (pageIndex < pages.Count) {
-			pageLeft.text = pages [pageIndex];
-			nextBtn.SetActive (true);
-		} else {
-			pageLeft.text = "";
-			pageRight.text = "";
-			SetTrivia (true);
-			nextBtn.SetActive (false);
-			return;
 		}
 
-		if (pageIndex + 1 < pages.Count) {
-			pageRight.text = pages [pageIndex+1];
-			nextBtn.SetActive (true);
-		}else {
-			pageRight.text = "";
-			SetTrivia (false);
-			nextBtn.SetActive (false);
-			return;
-		}
-
-
+		void DrawPages ()
+		{
+			triviaUI.SetActive (false);
+			if (bookIndex > 0)
+				backBtn.SetActive (true);
+			else
+				backBtn.SetActive (false);
 		
-	}
-
-	void SetTrivia(bool left){
-		
-		if (left)
-			triviaUI.transform.SetParent (pageLeft.transform);
-		else
-			triviaUI.transform.SetParent (pageRight.transform);
-		
-		triviaUI.SetActive (true);
-		triviaUI.transform.localPosition = Vector3.zero;
-
-	}
-
-	public void ChangePage(int val){
-		if (val < 0) {			
-			if (bookIndex == 0)
+			int pageIndex = bookIndex * 2;
+			if (pageIndex < pages.Count) {
+				if (type == TriviaData.TriviaType.literatura)
+					pageLeft.text = pages [pageIndex];
+				else {
+					leftParser.Parse (pages [pageIndex],tp);
+				}
+				
+				nextBtn.SetActive (true);
+			} else {
+				pageLeft.text = "";
+				pageRight.text = "";
+				if (type == TriviaData.TriviaType.literatura)
+				SetTrivia (true);
+				nextBtn.SetActive (false);
 				return;
-			bookIndex--;
-			DrawPages ();
-		} else if (val > 0) {			
-			bookIndex++;
-			DrawPages ();
+			}
+
+			if (pageIndex + 1 < pages.Count) {
+				if (type == TriviaData.TriviaType.literatura)
+					pageRight.text = pages [pageIndex + 1];
+				else {
+					rightParser.Parse (pages [pageIndex + 1],tp);
+				}
+				nextBtn.SetActive (true);
+			} else {
+				pageRight.text = "";
+				if (type == TriviaData.TriviaType.literatura)
+				SetTrivia (false);
+				nextBtn.SetActive (false);
+				return;
+			}
+
+
+		
+		}
+
+		void SetTrivia (bool left)
+		{
+		
+			if (left)
+				triviaUI.transform.SetParent (pageLeft.transform);
+			else
+				triviaUI.transform.SetParent (pageRight.transform);
+		
+			triviaUI.SetActive (true);
+			triviaUI.transform.localPosition = Vector3.zero;
+
+		}
+
+		public void ChangePage (int val)
+		{
+			if (val < 0) {			
+				if (bookIndex == 0)
+					return;
+				bookIndex--;
+				DrawPages ();
+			} else if (val > 0) {			
+				bookIndex++;
+				DrawPages ();
+			}
 		}
 	}
 }

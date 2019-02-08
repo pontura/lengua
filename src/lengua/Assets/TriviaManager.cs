@@ -21,12 +21,12 @@ public class TriviaManager : MonoBehaviour {
 	TriviaData.TriviaProgress tProgress;
 
 	string gameProgressKey;
-	TriviaPaginator paginator;
+	TMPro.Examples.TriviaPaginator paginator;
 
 	bool close;
 
 	void Start () {
-		paginator = GetComponent<TriviaPaginator> ();
+		paginator = GetComponent<TMPro.Examples.TriviaPaginator> ();
 		asource = GetComponent<AudioSource> ();
 		Events.SetTrivia += SetTrivia;
 	}
@@ -39,23 +39,23 @@ public class TriviaManager : MonoBehaviour {
 		if (!tProgress.completed) {
 			antologia = Data.Instance.triviaData.GetAntologiaByGProgress (gameProgressKey);		
 			title.text = antologia.title;
-			paginator.SetPages (antologia.texts [tProgress.triviasIndex].textlines);
-			TriviaData.Trivia t = antologia.trivias [tProgress.triviasIndex];
-			triviaQuest.text = t.quest;
-			for (int i = 0; i < t.answers.Length; i++)
-				triviaAns [i].text = t.answers [i];
+			paginator.SetPages (antologia.texts [tProgress.triviasIndex].textlines, antologia.type, tProgress);
+			if (antologia.type == TriviaData.TriviaType.literatura) {
+				TriviaData.Trivia t = antologia.trivias [tProgress.triviasIndex];
+				triviaQuest.text = t.quest;
+				for (int i = 0; i < t.answers.Length; i++)
+					triviaAns [i].text = t.answers [i];
 
-			ShuffleChildOrder (optionsContainer);
+				ShuffleChildOrder (optionsContainer);
+			}
 		}
 	}
 
 	void Update(){
 		if (test) {
 			if (Input.GetKeyDown (KeyCode.Alpha1)) {
-				Debug.Log ("aca");
 				Events.OpenTrivia (Data.Instance.triviaData.antologia[0].gameprogress_name);
 			}else if (Input.GetKeyDown (KeyCode.Alpha2)) {
-				Debug.Log ("aca");
 				Events.OpenTrivia (Data.Instance.triviaData.antologia[1].gameprogress_name);
 			}else if (Input.GetKeyDown (KeyCode.Alpha3)) {
 				Debug.Log ("aca");
@@ -75,8 +75,7 @@ public class TriviaManager : MonoBehaviour {
 	}
 
 	public void SetAnswer(bool correct){
-			if (correct) {
-				
+			if (correct) {				
 				tProgress.triviasDone [tProgress.triviasIndex] = true;
 				tProgress.triviasIndex++;
 				if (tProgress.triviasIndex >= tProgress.triviasDone.Length) {
