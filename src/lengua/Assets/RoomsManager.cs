@@ -14,10 +14,11 @@ public class RoomsManager : MonoBehaviour {
 	void Start()
 	{
 		Events.ChangeRoom += ChangeRoom;
-		ChangeRoom (roomType);
+		ChangeRoom (roomType, new Vector2(1,2));
 	}
-	void ChangeRoom(Room.types type)
+	void ChangeRoom(Room.types type, Vector2 pos)
 	{
+		
 		Utils.RemoveAllChildsIn(container);
 
 		Room newRoom = rooms [0];

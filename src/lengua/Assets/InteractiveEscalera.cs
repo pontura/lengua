@@ -14,13 +14,13 @@ public class InteractiveEscalera : InteractiveObject
 
 	}
 	public override void OnCharacterReachMe() 
-	{ 
-		if (gameProgressValue < 2) {
-			gameProgressValue++;
-			Events.OnSaveNewData (gameProgressKey, gameProgressValue);
-		} else {
-			GetComponentInChildren<Collider> ().enabled = false;
-		}
+	{
+//		if (gameProgressValue >0) {
+//			gameProgressValue++;
+//			Events.OnSaveNewData (gameProgressKey, gameProgressValue);
+//		} else {
+		Events.OnTip (content.escalera_1);
+		//}
 	}
 	public void OnReadComplete()
 	{

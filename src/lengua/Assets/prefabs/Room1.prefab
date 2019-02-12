@@ -849,6 +849,11 @@ MonoBehaviour:
     libroCuadro2: 
     libroBloqueado: 
     libroCompletado: 
+    cuerno: 
+    minotauro_0: 
+    minotauro_1: 
+    minotauro_2: 
+    alfonsina: 
   gameProgress: {fileID: 0}
   gameProgressKey: fichero_llave
   gameProgressValue: 0
@@ -1918,6 +1923,11 @@ MonoBehaviour:
     libroCuadro2: 
     libroBloqueado: 
     libroCompletado: 
+    cuerno: 
+    minotauro_0: 
+    minotauro_1: 
+    minotauro_2: 
+    alfonsina: 
   gameProgress: {fileID: 0}
   gameProgressKey: cuadro1
   gameProgressValue: 0
@@ -3049,6 +3059,11 @@ MonoBehaviour:
     libroCuadro2: 
     libroBloqueado: 
     libroCompletado: 
+    cuerno: 
+    minotauro_0: 
+    minotauro_1: 
+    minotauro_2: 
+    alfonsina: 
   gameProgress: {fileID: 0}
   gameProgressKey: escritorioDoor1
   gameProgressValue: 0
@@ -3946,6 +3961,11 @@ MonoBehaviour:
     libroCuadro2: 
     libroBloqueado: 
     libroCompletado: 
+    cuerno: 
+    minotauro_0: 
+    minotauro_1: 
+    minotauro_2: 
+    alfonsina: 
   gameProgress: {fileID: 0}
   gameProgressKey: libroIngreso
   gameProgressValue: 0
@@ -4255,6 +4275,11 @@ MonoBehaviour:
     libroCuadro2: 
     libroBloqueado: 
     libroCompletado: 
+    cuerno: 
+    minotauro_0: 
+    minotauro_1: 
+    minotauro_2: 
+    alfonsina: 
   gameProgress: {fileID: 0}
   gameProgressKey: picaporte
   gameProgressValue: 0
@@ -4262,6 +4287,7 @@ MonoBehaviour:
   state_romper: {fileID: 1304517372642736}
   state_ganar: {fileID: 1365970722361882}
   state_abrir: {fileID: 1190144574728274}
+  state_abierta: {fileID: 1670329592716466}
 --- !u!1 &1522635072324934
 GameObject:
   m_ObjectHideFlags: 0
@@ -4483,6 +4509,11 @@ MonoBehaviour:
     libroCuadro2: 
     libroBloqueado: 
     libroCompletado: 
+    cuerno: 
+    minotauro_0: 
+    minotauro_1: 
+    minotauro_2: 
+    alfonsina: 
   gameProgress: {fileID: 0}
   gameProgressKey: escritorio
   gameProgressValue: 0
@@ -4551,6 +4582,11 @@ MonoBehaviour:
     libroCuadro2: 
     libroBloqueado: 
     libroCompletado: 
+    cuerno: 
+    minotauro_0: 
+    minotauro_1: 
+    minotauro_2: 
+    alfonsina: 
   gameProgress: {fileID: 0}
   gameProgressKey: libroCuadro
   gameProgressValue: 0
