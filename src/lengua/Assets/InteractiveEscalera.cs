@@ -15,16 +15,21 @@ public class InteractiveEscalera : InteractiveObject
 	}
 	public override void OnCharacterReachMe() 
 	{
-//		if (gameProgressValue >0) {
-//			gameProgressValue++;
-//			Events.OnSaveNewData (gameProgressKey, gameProgressValue);
-//		} else {
-		Events.OnTip (content.escalera_1);
-		//}
+		if (Data.Instance.gameProgress.GetData ("rueda").value == 1) {
+			gameProgressValue++;
+			Events.OnSaveNewData (gameProgressKey, gameProgressValue);
+			Events.OnSaveNewData ("rueda", 2);
+			Events.UseItem ("rueda");
+			Events.OnTexts (content.escalera_2, "inventary/rueda", RuedaDone);
+		}   else if(gameProgressValue == 1){
+			Events.OnTip (content.escalera_1);
+		} else if(gameProgressValue == 0){
+			Events.OnTip (content.escalera_1);
+		}
 	}
-	public void OnReadComplete()
+	public void RuedaDone()
 	{
-		Events.OpenTrivia (gameProgressKey);
+		iTween.MoveTo (gameObject, iTween.Hash ("x", transform.localPosition.x-1 , "islocal", true, "time", 4 ,"looptype","none"));
 	}
 	public override void OnSetProgress(int value) 
 	{

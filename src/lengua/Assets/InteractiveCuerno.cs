@@ -14,7 +14,7 @@ public class InteractiveCuerno : InteractiveObject {
 	{ 
 		if (gameProgressValue == 0) {
 			Events.OnSaveNewData (gameProgressKey, 1);
-			Events.OnTip (content.cuerno);
+			Events.OnTip (content.cuerno1);
 		}
 	}
 

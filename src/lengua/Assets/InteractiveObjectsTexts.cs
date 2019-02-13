@@ -24,6 +24,8 @@ public class InteractiveObjectsTexts : MonoBehaviour {
 				return cuadernoBiblioteca1;
 			case "cuadernoBiblioteca3":
 				return cuadernoBiblioteca3;
+			case "libros_dibujos":
+				return libros_dibujos;
 			}
 			return "ERROR: no hay un texto default en InteractiveObjectsTexts GetValue() para " + key;
 		}
@@ -47,16 +49,26 @@ public class InteractiveObjectsTexts : MonoBehaviour {
 
 		public string libroBloqueado;
 		public string libroCompletado;
-		public string cuerno;
+		public string cuerno1;
+		public string cuerno2;
 		public string minotauro_0;
 		public string minotauro_1;
 		public string minotauro_2;
 		public string alfonsina;
 		public string puerta_biblioteca_patio;
 		public string escalera_1;
+		public string escalera_2;
 		public string cuadernoBiblioteca1;
 		public string cuadernoBiblioteca2;
 		public string cuadernoBiblioteca3;
+
+		public string libro_biblioteca_1;
+		public string libro_biblioteca_2;
+
+		public string libros_dibujos;
+		public string rueda;
+
+		public string puertaMapoteca;
 	}
 	public Content content;
 

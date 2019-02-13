@@ -259,6 +259,60 @@
 				"answers":["Teseo lograr salir del laberinto y liberar a sus compañeros siguiendo el ovillo de hilo que le había entregado Ariadna.","Teseo lograr salir del laberinto y liberar a sus compañeros porque pudo matar al minotauro con el puñal  que le había entregado Ariadna.","Teseo lograr salir del laberinto y liberar a sus compañeros porque tenía el plano del laberinto."]
 				}
 			]
+		},
+		{
+			"id":"5",
+			"gameprogress_name":"cuadernoBiblioteca1",
+			"title":"Grafemas",
+			"author":"UBATIC",
+			"type":"1",
+			"area":"0",
+			"texts":[
+				{"textlines":["1. Aprobamos el primer parcial de [geografía,jeografía].",
+				"2. Colocaron una placa en el [trigésimo,trijésimo] aniversario de su fundación.",
+				"3. Compró un papel [higiénico,hijiénico] muy suave.",
+				"4. Con un show de [magia,majia] cautivó a los invitados.",
+				"5. [Dedujeron,dedugeron] el acertijo."]}			
+			],
+			"trivias":[
+			
+			]
+		},
+		{
+			"id":"6",
+			"gameprogress_name":"cuadernoBiblioteca2",
+			"title":"Grafemas",
+			"author":"UBATIC",
+			"type":"1",
+			"area":"0",
+			"texts":[
+				{"textlines":["1. Aprobamos el primer parcial de [geografía,jeografía].",
+				"2. Colocaron una placa en el [trigésimo,trijésimo] aniversario de su fundación.",
+				"3. Compró un papel [higiénico,hijiénico] muy suave.",
+				"4. Con un show de [magia,majia] cautivó a los invitados.",
+				"5. [Dedujeron,dedugeron] el acertijo."]}			
+			],
+			"trivias":[
+			
+			]
+		},
+		{
+			"id":"7",
+			"gameprogress_name":"cuadernoBiblioteca3",
+			"title":"Grafemas",
+			"author":"UBATIC",
+			"type":"1",
+			"area":"0",
+			"texts":[
+				{"textlines":["1. Aprobamos el primer parcial de [geografía,jeografía].",
+				"2. Colocaron una placa en el [trigésimo,trijésimo] aniversario de su fundación.",
+				"3. Compró un papel [higiénico,hijiénico] muy suave.",
+				"4. Con un show de [magia,majia] cautivó a los invitados.",
+				"5. [Dedujeron,dedugeron] el acertijo."]}			
+			],
+			"trivias":[
+			
+			]
 		}
 		
 	]

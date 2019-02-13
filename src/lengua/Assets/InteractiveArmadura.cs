@@ -15,17 +15,25 @@ public class InteractiveArmadura : InteractiveObject
 		if (gameProgressValue < 4) {
 			gameProgressValue++;
 			Events.OnSaveNewData (gameProgressKey, gameProgressValue);
+		} else if (gameProgressValue == 4) {
+			Done ();
 		} else {
 			GetComponentInChildren<Collider> ().enabled = false;
 		}
 	}
+	void Done()
+	{
+		Events.OnSaveNewData ("libro_biblioteca_1", 1);
+		Events.OnTexts (content.libro_biblioteca_1, "inventary/libro_biblioteca_1", OnReadComplete);
+		gameProgressValue++;
+
+	}
 	public void OnReadComplete()
 	{
-		Events.OpenTrivia (gameProgressKey);
+		Events.OpenTrivia ("libro_biblioteca_1");
 	}
 	public override void OnSetProgress(int value) 
 	{
-		print ("value  " + value);
 		ResetAll ();
 		assets [value].SetActive (true);
 	}

@@ -63,6 +63,24 @@ public class Trivia : MonoBehaviour {
 					Events.OnSaveNewData ("destornillador", 1);
 			}
 			break;
+		case "libro_biblioteca_1":
+			if (Data.Instance.gameProgress.GetData ("cuerno2").value == 0) {
+				if (Data.Instance.gameProgress.GetData ("cuerno2").value == 0) {
+					Events.OnSaveNewData ("cuerno2", 1);
+					Events.OnTexts (Data.Instance.interactiveObjectsTexts.content.cuerno2, "inventary/cuerno", null);
+				}
+			}
+			break;
+		case "libro_biblioteca_2":
+			if (Data.Instance.gameProgress.GetData ("rueda").value == 0) {
+				if (Data.Instance.gameProgress.GetData ("rueda").value == 0) {
+					Events.OnSaveNewData ("rueda", 1);
+					Events.OnTexts (Data.Instance.interactiveObjectsTexts.content.rueda, "inventary/rueda", null);
+				}
+			}
+			break;
+//		case "cuadernoBiblioteca3":
+//			break;
 		}
 	}
 	void Reset()

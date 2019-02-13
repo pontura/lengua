@@ -15,14 +15,21 @@
 	"libroCuadro2": "¡¿Eh?! Me pareció que algo se movía...",
 	"libroBloqueado": "Me siento un poco bloqueda... voy a esperar un minuto",
 	"libroCompletado": "¡Por suerte este libro ya lo terminé!",
-	"cuerno": "Un cuerno... ¿en el píso? ¿qué hará este cuerno en el piso?...",
+	"cuerno1": "Un cuerno... ¿en el píso? ¿qué hará este cuerno en el piso?...",
+	"cuerno2": "¡Otro cuerno!",
 	"minotauro_0": "A este animal le falta algo…",
 	"minotauro_1": "Mejor pero… ¿a que extrañás el otro cuerno?",
 	"minotauro_2": "Ahora sí, ¡un monstruo hecho y derecho!",
 	"alfonsina": "'¿Qué mundos tengo dentro del alma…/que hace tiempo vengo pidiendo medios para volar?' -Alfonsina Storni",
 	"puerta_biblioteca_patio": "Parece tener un lector de tarjeta. ¡Cuánta seguridad!",
 	"escalera_1": "Me encantaría deslizarme pero le falta una ruedita… ¡Y un escalón!",
+	"escalera_2": "¡Ahora si que sirve para algo!",
 	"cuadernoBiblioteca1": "Encontraste cuaderno Biblioteca 1",
 	"cuadernoBiblioteca2": "Encontraste cuaderno Biblioteca 2",
-	"cuadernoBiblioteca3": "Encontraste cuaderno Biblioteca 3"
+	"cuadernoBiblioteca3": "Encontraste cuaderno Biblioteca 3",	
+	"libro_biblioteca_1": "¡Epa! encontré un libro debajo de esta armadura/'La casa de Asterión'.../a ver...",
+	"libro_biblioteca_2": "¿De donde habrá salido este libro?.../'Teseo y el minotauro'.../a ver...",
+	"libros_dibujos": "¡Cuántos libros! ¿Uno con dibujitos no habrá?",
+	"rueda": "Ok, encontré una rueda..",
+	"puertaMapoteca": "Ahí debe estar la famosa mapoteca…"
 }

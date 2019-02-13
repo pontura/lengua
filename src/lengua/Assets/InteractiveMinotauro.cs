@@ -14,25 +14,34 @@ public class InteractiveMinotauro : InteractiveObject {
 	}
 	public override void OnCharacterReachMe()
 	{ 
-		if (Data.Instance.gameProgress.GetData ("cuerno").value == 1) {
+		if (Data.Instance.gameProgress.GetData ("cuerno1").value == 1) {
 			gameProgressValue++;
 			Events.OnSaveNewData (gameProgressKey, gameProgressValue);
-			Events.OnSaveNewData ("cuerno", 2);
-			Events.UseItem ("cuerno");
+			Events.OnSaveNewData ("cuerno1", 2);
+			Events.UseItem ("cuerno1");
 			Events.OnTip (content.minotauro_1);
+			CheckIfDone ();
 		} else if (Data.Instance.gameProgress.GetData ("cuerno2").value == 1) {
 			gameProgressValue++;
 			Events.OnSaveNewData (gameProgressKey, gameProgressValue);
 			Events.OnSaveNewData ("cuerno2", 2);
 			Events.UseItem ("cuerno2");
 			Events.OnTip (content.minotauro_2);
+			CheckIfDone ();
 		} else if (gameProgressValue < 2) {
 			Events.OnTip (content.minotauro_0);
 		} else {
 			Events.OnTip (content.minotauro_2);
 		}
 	}
-
+	void CheckIfDone()
+	{
+		if (gameProgressValue == 2) {
+			Events.OnSaveNewData ("libro_biblioteca_2", 1);
+			Events.OnTexts (content.libro_biblioteca_2, "inventary/libro_biblioteca_2", OnReadComplete);
+			gameProgressValue++;
+		}
+	}
 	public override void OnSetProgress(int value)
 	{	
 
@@ -50,10 +59,8 @@ public class InteractiveMinotauro : InteractiveObject {
 			state3.SetActive (true);
 		} 
 	}
-//	void OnRepaired()
-//	{
-//		Events.OnSaveNewData ("picaporte", 2);
-//		Events.OnTip (content.picaporte_4);
-//		Events.OnTip(content.picaporte_4);
-//	}
+	public void OnReadComplete()
+	{
+		Events.OpenTrivia ("libro_biblioteca_2");
+	}
 }

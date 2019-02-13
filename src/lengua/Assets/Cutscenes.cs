@@ -14,7 +14,16 @@ public class Cutscenes : MonoBehaviour {
 		INTRO,
 		INTRO_END,
 		BIBLIOTECA,
-		BIBLIOTECA_END
+		BIBLIOTECA_END,
+		PUERTA_MAPOTECA
+	}
+	void Start()
+	{
+		Events.OnCutscene += OnCutscene;
+	}
+	void OnDestroy()
+	{
+		Events.OnCutscene -= OnCutscene;
 	}
 	public void Init(Room room)
 	{
@@ -123,10 +132,6 @@ public class Cutscenes : MonoBehaviour {
 			break;
 		}
 	}
-	void OnDestroy()
-	{
-		Events.OnCutscene -= OnCutscene;
-	}
 	void OnCutscene(types anim)
 	{
 		switch (anim) {
@@ -142,6 +147,10 @@ public class Cutscenes : MonoBehaviour {
 			break;
 		case types.BIBLIOTECA_END:
 			GetComponent<Animation> ().Play ("biblioteca_end");
+			room.roomsManager.cutscenesUI.SetOff ();
+			break;
+		case types.PUERTA_MAPOTECA:
+			GetComponent<Animation> ().Play ("puerta_mapoteca");
 			room.roomsManager.cutscenesUI.SetOff ();
 			break;
 		}

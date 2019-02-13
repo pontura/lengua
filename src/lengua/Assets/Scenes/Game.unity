@@ -2409,7 +2409,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1580746755}
   m_HandleRect: {fileID: 1580746754}
   m_Direction: 2
-  m_Value: 0
+  m_Value: 1
   m_Size: 0.99999994
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -4352,9 +4352,9 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 0
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 80
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!114 &1588145403
 MonoBehaviour:
@@ -5551,6 +5551,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1879940501}
     m_Modifications:
+    - target: {fileID: 6767359710630997359, guid: 417a61b4252c1444086d29091711cbe3,
+        type: 3}
+      propertyPath: m_Name
+      value: Trivia_Cont_2
+      objectReference: {fileID: 0}
     - target: {fileID: 6842267432616219433, guid: 417a61b4252c1444086d29091711cbe3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5655,11 +5660,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6767359710630997359, guid: 417a61b4252c1444086d29091711cbe3,
-        type: 3}
-      propertyPath: m_Name
-      value: Trivia_Cont_2
       objectReference: {fileID: 0}
     - target: {fileID: 6768756723990437336, guid: 417a61b4252c1444086d29091711cbe3,
         type: 3}
@@ -5797,7 +5797,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.00002893673, y: 0.000056219946}
+  m_AnchoredPosition: {x: 0.00002893673, y: -0.000059592054}
   m_SizeDelta: {x: 0, y: 300}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &2032765863
@@ -5972,16 +5972,23 @@ MonoBehaviour:
     libroCuadro2: "\xA1\xBFEh?! Me pareci\xF3 que algo se mov\xEDa..."
     libroBloqueado: Me siento un poco bloqueda... voy a esperar un minuto
     libroCompletado: "\xA1Por suerte este libro ya lo termin\xE9!"
-    cuerno: 
+    cuerno1: 
+    cuerno2: 
     minotauro_0: 
     minotauro_1: 
     minotauro_2: 
     alfonsina: 
     puerta_biblioteca_patio: 
     escalera_1: 
+    escalera_2: 
     cuadernoBiblioteca1: 
     cuadernoBiblioteca2: 
     cuadernoBiblioteca3: 
+    libro_biblioteca_1: 
+    libro_biblioteca_2: 
+    libros_dibujos: 
+    rueda: 
+    puertaMapoteca: 
 --- !u!114 &114134459624942297
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6016,6 +6023,24 @@ MonoBehaviour:
     state: 0
   - id: 2
     gameprogress_name: cuaderno_ingreso
+    type: 0
+    area: 0
+    triviasIndex: 0
+    triviasDone: 000000
+    completed: 0
+    lastBadAnswerTime: 0
+    state: 0
+  - id: 4
+    gameprogress_name: libro_biblioteca_1
+    type: 0
+    area: 0
+    triviasIndex: 0
+    triviasDone: 000000
+    completed: 0
+    lastBadAnswerTime: 0
+    state: 0
+  - id: 5
+    gameprogress_name: libro_biblioteca_2
     type: 0
     area: 0
     triviasIndex: 0
@@ -6441,7 +6466,7 @@ MonoBehaviour:
     value: 0
   - name: escalera
     value: 0
-  - name: cuerno
+  - name: cuerno1
     value: 0
   - name: minotauro
     value: 0
@@ -6449,7 +6474,19 @@ MonoBehaviour:
     value: 0
   - name: puerta_Biblioteca_Patio
     value: 0
+  - name: cuadernoBiblioteca1
+    value: 0
   - name: cuadernoBiblioteca2
+    value: 0
+  - name: cuadernoBiblioteca3
+    value: 0
+  - name: libro_biblioteca_1
+    value: 0
+  - name: rueda
+    value: 0
+  - name: libro_biblioteca_2
+    value: 0
+  - name: puertaMapoteca
     value: 0
 --- !u!114 &114434947464692351
 MonoBehaviour:
@@ -6480,10 +6517,28 @@ MonoBehaviour:
     gameProgressKey: libroCuadro
     isLibro: 1
   - image: {fileID: 21300000, guid: 0cc25e39c01544043b1860e90d82c02a, type: 3}
-    gameProgressKey: cuerno
+    gameProgressKey: cuerno1
     isLibro: 0
   - image: {fileID: 21300000, guid: 0cc25e39c01544043b1860e90d82c02a, type: 3}
     gameProgressKey: cuerno2
+    isLibro: 0
+  - image: {fileID: 21300000, guid: 86b614572c257474bb27d11b075a7f83, type: 3}
+    gameProgressKey: cuadernoBiblioteca1
+    isLibro: 1
+  - image: {fileID: 21300000, guid: 88e4ac270bd915442847f37e14a65036, type: 3}
+    gameProgressKey: cuadernoBiblioteca2
+    isLibro: 1
+  - image: {fileID: 21300000, guid: 11640e6db30c6d44c96f0cef9d25ffb6, type: 3}
+    gameProgressKey: cuadernoBiblioteca3
+    isLibro: 1
+  - image: {fileID: 21300000, guid: a0ba01e07ba2bf948b88bc134abeaf78, type: 3}
+    gameProgressKey: libro_biblioteca_1
+    isLibro: 1
+  - image: {fileID: 21300000, guid: a15a5210a8ed826479e883063bbc580e, type: 3}
+    gameProgressKey: libro_biblioteca_2
+    isLibro: 1
+  - image: {fileID: 21300000, guid: b3a6ca326a0df8a458350b6bc86f8da1, type: 3}
+    gameProgressKey: rueda
     isLibro: 0
   inventary: []
 --- !u!114 &114640231862672099
@@ -6519,16 +6574,23 @@ MonoBehaviour:
     libroCuadro2: "\xA1\xBFEh?! Me pareci\xF3 que algo se mov\xEDa..."
     libroBloqueado: Me siento un poco bloqueda... voy a esperar un minuto
     libroCompletado: "\xA1Por suerte este libro ya lo termin\xE9!"
-    cuerno: 
+    cuerno1: 
+    cuerno2: 
     minotauro_0: 
     minotauro_1: 
     minotauro_2: 
     alfonsina: 
     puerta_biblioteca_patio: 
     escalera_1: 
+    escalera_2: 
     cuadernoBiblioteca1: 
     cuadernoBiblioteca2: 
     cuadernoBiblioteca3: 
+    libro_biblioteca_1: 
+    libro_biblioteca_2: 
+    libros_dibujos: 
+    rueda: 
+    puertaMapoteca: 
 --- !u!114 &114773183641289483
 MonoBehaviour:
   m_ObjectHideFlags: 0

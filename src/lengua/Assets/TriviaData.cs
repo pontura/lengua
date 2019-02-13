@@ -148,7 +148,8 @@ public class TriviaData : MonoBehaviour {
 	public TriviaState GetStateByGProgress(string gameprogress_name){
 		TriviaProgress a = triviaProgress.Find(x => x.gameprogress_name == gameprogress_name);
 
-		Debug.Log (Time.realtimeSinceStartup - a.lastBadAnswerTime + " state: " + a.state);
+	//	Debug.Log (Time.realtimeSinceStartup - a.lastBadAnswerTime + " state: " + a.state);
+		Debug.Log("gameprogress_name " + gameprogress_name);
 
 		if (a.state == TriviaState.complete)
 			return a.state;
