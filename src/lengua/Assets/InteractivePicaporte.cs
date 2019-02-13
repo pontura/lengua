@@ -9,6 +9,7 @@ public class InteractivePicaporte : InteractiveObject {
 	public GameObject state_romper;
 	public GameObject state_ganar;
 	public GameObject state_abrir;
+	public GameObject state_abierta;
 
 	public override void OnClicked() 
 	{ 
@@ -31,24 +32,33 @@ public class InteractivePicaporte : InteractiveObject {
 		} else if (gameProgressValue == 1) {
 			Events.OnTip (content.picaporte_2);
 		} else if (gameProgressValue == 3) {			
-			Events.OnSaveNewData ("picaporte", 3);
+			Events.OnSaveNewData ("picaporte", 4);
 			OnSetProgress(3);
-			Events.ChangeRoom (Room.types.BIBLIOTECA);
-			Events.ForceCharacterPosition(new Vector3(0,0,0));
+			Events.ChangeRoom (Room.types.BIBLIOTECA, new Vector2(-7.5f, 2));
+		} else if (gameProgressValue == 4) {	
+			OnSetProgress(4);
+			Events.ChangeRoom (Room.types.BIBLIOTECA, new Vector2(-7.5f, 2));
 		} 
 	}
 
 	public override void OnSetProgress(int value) 
 	{	
-	
+		state_abierta.SetActive (false);
 		if (value == 2) {
 			state_romper.SetActive (false);
 			state_ganar.SetActive (true);
 			state_abrir.SetActive (false);
+			state_abierta.SetActive (false);
 		} else if (value == 3) {
 			state_abrir.SetActive (true);
 			state_ganar.SetActive (false);
 			state_romper.SetActive (false);
+			state_abierta.SetActive (false);
+		} else if (value == 4) {
+			state_abrir.SetActive (false);
+			state_ganar.SetActive (false);
+			state_romper.SetActive (false);
+			state_abierta.SetActive (true);
 		}
 	}
 	void OnRepaired()

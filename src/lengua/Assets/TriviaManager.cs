@@ -113,4 +113,8 @@ public class TriviaManager : MonoBehaviour {
 			SetTrivia (gameProgressKey);
 		}
 	}
+	public void WinForced()
+	{
+		Events.OnBookComplete ();
+	}
 }

@@ -6,8 +6,6 @@ using System;
 
 public class InteractiveObjectsTexts : MonoBehaviour {
 
-
-
 	[Serializable]
 	public class Content
 	{
@@ -18,6 +16,14 @@ public class InteractiveObjectsTexts : MonoBehaviour {
 				return escritorio;
 			case "escritorioDoor1":
 				return escritorioDoor1;
+			case "alfonsina":
+				return alfonsina;
+			case "cuadernoBiblioteca2":
+				return cuadernoBiblioteca2;
+			case "cuadernoBiblioteca1":
+				return cuadernoBiblioteca1;
+			case "cuadernoBiblioteca3":
+				return cuadernoBiblioteca3;
 			}
 			return "ERROR: no hay un texto default en InteractiveObjectsTexts GetValue() para " + key;
 		}
@@ -41,6 +47,16 @@ public class InteractiveObjectsTexts : MonoBehaviour {
 
 		public string libroBloqueado;
 		public string libroCompletado;
+		public string cuerno;
+		public string minotauro_0;
+		public string minotauro_1;
+		public string minotauro_2;
+		public string alfonsina;
+		public string puerta_biblioteca_patio;
+		public string escalera_1;
+		public string cuadernoBiblioteca1;
+		public string cuadernoBiblioteca2;
+		public string cuadernoBiblioteca3;
 	}
 	public Content content;
 

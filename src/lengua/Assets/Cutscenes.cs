@@ -81,18 +81,23 @@ public class Cutscenes : MonoBehaviour {
 	}
 
 	void Delayed()
-	{
-		room.roomsManager.cutscenesUI.SetOn ();
+	{	
 
 		switch (type) {
 		case types.INTRO:
-			GetComponent<Animation> ().Play ("intro");
+			if (Data.Instance.gameProgress.GetData ("picaporte").value == 0)
+				GetComponent<Animation> ().Play ("intro");
+			else
+				return;
 			break;
 		case types.BIBLIOTECA:
-			GetComponent<Animation> ().Play ("biblioteca");
+			if(Data.Instance.gameProgress.GetData("cuerno").value==0)
+				GetComponent<Animation> ().Play ("biblioteca");
+			else
+				return;
 			break;
 		}
-
+		room.roomsManager.cutscenesUI.SetOn ();
 		Invoke ("Delayed2", 2);
 	}
 	void Delayed2()

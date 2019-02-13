@@ -16,7 +16,7 @@ public static class Events {
 	public static System.Action<List<DialoguesData.Dialogue>, System.Action> OnDialogue = delegate {	};
 	public static System.Action<string> OpenTrivia = delegate {	};
 	public static System.Action<Inventary.Item> AddToInventary = delegate {	};
-	public static System.Action<Room.types> ChangeRoom = delegate {	};
+	public static System.Action<Room.types, Vector2> ChangeRoom = delegate {	};
 	public static System.Action<Room> OnEnterNewRoom = delegate {	};
 	public static System.Action<Vector3> ForceCharacterPosition = delegate {	};
 	public static System.Action<string> RemoveFromInventary = delegate {	};
