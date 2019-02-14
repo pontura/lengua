@@ -18,6 +18,8 @@ public class Data : MonoBehaviour
 	public TriviaData triviaData;
 	[HideInInspector]
 	public DialoguesData dialoguesData;
+	[HideInInspector]
+	public PhoneConversationsData phoneConversationsData;
 
 	public static Data Instance
     {
@@ -64,6 +66,7 @@ public class Data : MonoBehaviour
 		currentLevelIndex = actual.buildIndex;
 		currentLevel = actual.name;
 
+		phoneConversationsData = GetComponent<PhoneConversationsData> ();
 		interactiveObjectsTexts = GetComponent<InteractiveObjectsTexts> ();
 		gameProgress = GetComponent<GameProgress> ();
 		inventary = GetComponent<Inventary> ();

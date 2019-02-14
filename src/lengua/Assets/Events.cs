@@ -36,5 +36,7 @@ public static class Events {
 	public static System.Action OpenBookSfx = delegate {};
 	public static System.Action CloseBookSfx = delegate {};
 
+	public static System.Action<List<PhoneConversationsData.Data>, System.Action>  PhoneConversation = delegate {};
+
 }
 
