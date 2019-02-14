@@ -3128,6 +3128,7 @@ MonoBehaviour:
   rooms:
   - {fileID: 8233078057708878437, guid: 0bff8d02220b0bb4cb3684bb38461bc2, type: 3}
   - {fileID: 5654462099031211181, guid: c50c1bf53a9a2144aa1fa94b075e5ed7, type: 3}
+  - {fileID: 292611432725168045, guid: 1424340886c7b97418a327397d85e0da, type: 3}
   container: {fileID: 1244176918}
 --- !u!4 &1244176918
 Transform:
@@ -5797,7 +5798,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.00002893673, y: -0.000059592054}
+  m_AnchoredPosition: {x: 0.00002893673, y: -0.00004232324}
   m_SizeDelta: {x: 0, y: 300}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &2032765863
@@ -6665,3 +6666,4 @@ MonoBehaviour:
       state: contento
       text: "\xA1Ooookey! Vaya, nom\xE1s"
     biblioteca: []
+    escalera: []

@@ -2841,7 +2841,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomsManager: {fileID: 0}
-  type: 1
+  type: 2
   limitsX: {x: -8.8, y: 8.8}
   limitsZ: {x: 2.3, y: 0.7}
 --- !u!1 &4161710626898695093

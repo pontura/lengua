@@ -7,6 +7,7 @@ public class InteractivePuertaMapoteca : InteractiveObject
 	public override void OnCharacterReachMe() 
 	{
 		if (Data.Instance.gameProgress.GetData ("escalera").value == 1) {
+			Events.OnSaveNewData ("escalera", 2);
 			Events.OnCutscene (Cutscenes.types.PUERTA_MAPOTECA);
 		} else {
 			Events.OnTip (content.puertaMapoteca);

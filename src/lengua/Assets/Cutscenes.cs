@@ -106,11 +106,6 @@ public class Cutscenes : MonoBehaviour {
 				return;
 			break;
 		}
-		room.roomsManager.cutscenesUI.SetOn ();
-		Invoke ("Delayed2", 2);
-	}
-	void Delayed2()
-	{
 		switch (type) {
 		case types.INTRO:
 			OnCutscene (types.INTRO);
@@ -130,12 +125,17 @@ public class Cutscenes : MonoBehaviour {
 		case types.BIBLIOTECA:
 			OnCutscene (types.BIBLIOTECA_END);
 			break;
+		case types.PUERTA_MAPOTECA:
+			Events.ChangeRoom (Room.types.MAPOTECA, new Vector2 (0, 0));
+			//OnCutscene (types.BIBLIOTECA_END);
+			break;
 		}
 	}
 	void OnCutscene(types anim)
 	{
 		switch (anim) {
 		case types.INTRO:
+			room.roomsManager.cutscenesUI.SetOn ();
 			Events.OnDialogue (Data.Instance.dialoguesData.content.intro, OnReady);
 			break;
 		case types.INTRO_END:
@@ -143,6 +143,7 @@ public class Cutscenes : MonoBehaviour {
 			room.roomsManager.cutscenesUI.SetOff ();
 			break;
 		case types.BIBLIOTECA:
+			room.roomsManager.cutscenesUI.SetOn ();
 			Events.OnDialogue (Data.Instance.dialoguesData.content.biblioteca, OnReady);
 			break;
 		case types.BIBLIOTECA_END:
@@ -151,7 +152,8 @@ public class Cutscenes : MonoBehaviour {
 			break;
 		case types.PUERTA_MAPOTECA:
 			GetComponent<Animation> ().Play ("puerta_mapoteca");
-			room.roomsManager.cutscenesUI.SetOff ();
+			room.roomsManager.cutscenesUI.SetOn ();
+			Events.OnDialogue (Data.Instance.dialoguesData.content.escalera, OnReady);
 			break;
 		}
 	}

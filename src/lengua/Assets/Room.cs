@@ -11,7 +11,8 @@ public class Room : MonoBehaviour {
 	public enum types
 	{
 		ESCRITORIO,
-		BIBLIOTECA
+		BIBLIOTECA,
+		MAPOTECA
 	}
 	public Vector2 limitsX;
 	public Vector2 limitsZ;

@@ -141,5 +141,18 @@
 			"state":"neutro",
 			"text": "Y eso que no viste la mapoteca que está arriba. Andá en cuanto puedas. ¡Nos vemos más tarde!"
 		}
+	],
+	"escalera":
+	[
+		{
+			"character":"avatar",
+			"state":"neutro",
+			"text": "¿Qué es ese chillido en el suelo?..."
+		},
+		{
+			"character":"avatar",
+			"state":"neutro",
+			"text": "¡Ah! Ok, la escalera se mueve sola..."
+		}
 	]
 }

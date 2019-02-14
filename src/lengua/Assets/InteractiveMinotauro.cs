@@ -19,15 +19,13 @@ public class InteractiveMinotauro : InteractiveObject {
 			Events.OnSaveNewData (gameProgressKey, gameProgressValue);
 			Events.OnSaveNewData ("cuerno1", 2);
 			Events.UseItem ("cuerno1");
-			Events.OnTip (content.minotauro_1);
-			CheckIfDone ();
+			Events.OnTexts (content.minotauro_1, "inventary/cuerno", CheckIfDone);
 		} else if (Data.Instance.gameProgress.GetData ("cuerno2").value == 1) {
 			gameProgressValue++;
 			Events.OnSaveNewData (gameProgressKey, gameProgressValue);
 			Events.OnSaveNewData ("cuerno2", 2);
 			Events.UseItem ("cuerno2");
-			Events.OnTip (content.minotauro_2);
-			CheckIfDone ();
+			Events.OnTexts (content.minotauro_2, "inventary/cuerno", CheckIfDone);
 		} else if (gameProgressValue < 2) {
 			Events.OnTip (content.minotauro_0);
 		} else {

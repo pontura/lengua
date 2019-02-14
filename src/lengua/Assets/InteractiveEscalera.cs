@@ -22,8 +22,8 @@ public class InteractiveEscalera : InteractiveObject
 			Events.UseItem ("rueda");
 			Events.OnTexts (content.escalera_2, "inventary/rueda", RuedaDone);
 		}   else if(gameProgressValue == 1){
-			Events.OnTip (content.escalera_1);
-		} else if(gameProgressValue == 0){
+			Events.OnTip (content.escalera_2);
+		} else if(gameProgressValue == 0) {
 			Events.OnTip (content.escalera_1);
 		}
 	}
@@ -33,9 +33,12 @@ public class InteractiveEscalera : InteractiveObject
 	}
 	public override void OnSetProgress(int value) 
 	{
-		print ("value  " + value);
 		ResetAll ();
-		assets [value].SetActive (true);
+
+		if(gameProgressValue == 1 || gameProgressValue == 0) {
+			assets [gameProgressValue].SetActive (true);
+		}
+
 	}
 	void ResetAll()
 	{
