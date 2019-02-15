@@ -7,6 +7,7 @@ public class TriviaManager : MonoBehaviour {
 
 	public bool test;
 	public Text title;
+	public Image background;
 
 	public Text triviaQuest;
 	public List<Text> triviaAns;
@@ -43,6 +44,9 @@ public class TriviaManager : MonoBehaviour {
 		tProgress = Data.Instance.triviaData.GetTProgressByGProgress(gameProgressKey);
 		if (!tProgress.completed) {
 			antologia = Data.Instance.triviaData.GetAntologiaByGProgress (gameProgressKey);		
+			Color color = new Color ();
+			ColorUtility.TryParseHtmlString (antologia.color, out color);
+			background.color = color;
 			title.text = antologia.title;
 			paginator.SetPages (antologia.texts [tProgress.triviasIndex].textlines, antologia.type, tProgress);
 			if (antologia.type == TriviaData.TriviaType.literatura) {

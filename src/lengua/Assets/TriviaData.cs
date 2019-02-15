@@ -26,6 +26,7 @@ public class TriviaData : MonoBehaviour {
 		public string gameprogress_name;
 		public string title;
 		public string author;
+		public string color;
 		public TriviaType type;
 		public int area;
 		public Text[] texts;
