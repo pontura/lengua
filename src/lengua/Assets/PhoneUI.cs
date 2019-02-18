@@ -94,6 +94,7 @@ public class PhoneUI : MonoBehaviour {
 			NextWillClose = true;
 			return;
 		}
+		Utils.RemoveAllChildsIn (container);
 		NextWillClose = false;
 		lastConversation = dataContent;
 
