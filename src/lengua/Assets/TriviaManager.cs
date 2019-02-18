@@ -88,7 +88,14 @@ public class TriviaManager : MonoBehaviour {
 	public void SetAnswer(bool correct){
 			if (correct) {				
 				tProgress.triviasDone [tProgress.triviasIndex] = true;
-				tProgress.triviasIndex++;
+				tProgress.triviasIndex++;				
+
+				if (tProgress.type == TriviaData.TriviaType.normativa) {					
+					asource.PlayOneShot (winTrivia);
+					Events.OnBookComplete ();
+					return;
+				}
+				
 				if (tProgress.triviasIndex >= tProgress.triviasDone.Length) {
 					tProgress.completed = true;
 					tProgress.state = TriviaData.TriviaState.complete;
@@ -97,7 +104,8 @@ public class TriviaManager : MonoBehaviour {
 					return;
 				} else {
 					asource.PlayOneShot (correctoSfx);
-				}
+				}			
+
 				correcto.SetActive (true);
 			} else {
 				asource.PlayOneShot (incorrectoSFx);
