@@ -26,6 +26,16 @@ public class InteractiveObjectsTexts : MonoBehaviour {
 				return cuadernoBiblioteca3;
 			case "libros_dibujos":
 				return libros_dibujos;
+			case "libro_mapoteca_1":
+				return libro_mapoteca_1;
+			case "libro_mapoteca_2":
+				return libro_mapoteca_2;
+			case "libro_mapoteca_3":
+				return libro_mapoteca_3;
+			case "lobo":
+				return lobo;
+			case "minimap_2":
+				return minimap_2;
 			}
 			return "ERROR: no hay un texto default en InteractiveObjectsTexts GetValue() para " + key;
 		}
@@ -68,12 +78,27 @@ public class InteractiveObjectsTexts : MonoBehaviour {
 		public string minimap_1;
 		public string minimap_2;
 		public string minimap_3;
+
+		public string minimap_1_inserted;
+		public string minimap_2_inserted;
+		public string minimap_3_inserted;
+
 		public string cajoneraVacia;
 		public string cuadernoMapoteca1;
 		public string cuadernoMapoteca2;
 		public string libro_mapoteca_1;
 		public string libro_mapoteca_2;
 		public string libro_mapoteca_3;
+		public string lobo;
+		public string lobos;
+		public string map;
+		public string mapReady;
+		public string palanca;
+		public string ladder_1;
+		public string ladder_2;
+
+		public string globo_1;
+		public string globo_2;
 	}
 	public Content content;
 

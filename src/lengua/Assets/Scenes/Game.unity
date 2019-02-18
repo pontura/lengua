@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1678,7 +1678,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.00000014580161, y: 0.000006140265}
+  m_AnchoredPosition: {x: 0.00000014580161, y: -0.000002368163}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &363594255
@@ -2586,7 +2586,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 1585f396ccbaa474dbf09e1656030007, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 280f4d726a955f5489c80199509c4653, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2734,7 +2734,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: e7950894184c76441ae6d20497a4eaba, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2924,7 +2924,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.909, g: 0.92849994, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -3027,7 +3027,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1580746754}
   m_Direction: 2
   m_Value: 0
-  m_Size: 0.99999994
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3397,7 +3397,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -6, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 17, y: 0.000030518}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &1133477074
@@ -3460,7 +3460,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.4235902, g: 0.5006065, b: 0.78300005, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -4600,7 +4600,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 105.1, y: 123.3}
-  m_SizeDelta: {x: 485.35, y: 52.58}
+  m_SizeDelta: {x: 485.35, y: 44.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1444019912
 MonoBehaviour:
@@ -4615,7 +4615,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.12970999, g: 0.15317284, b: 0.23799999, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -4623,8 +4623,8 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: c9f6d0e7bc8541498c9a4799ba184ede, type: 3}
-    m_FontSize: 32
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 24
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
@@ -4635,7 +4635,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Joaco
+  m_Text: aasdasdasd
 --- !u!222 &1444019913
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7053,7 +7053,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.00002893673, y: -0.000013470426}
+  m_AnchoredPosition: {x: 0.00002893673, y: 0.0000031742763}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &2032765863
@@ -7314,12 +7314,24 @@ MonoBehaviour:
     minimap_1: 
     minimap_2: 
     minimap_3: 
+    minimap_1_inserted: 
+    minimap_2_inserted: 
+    minimap_3_inserted: 
     cajoneraVacia: 
     cuadernoMapoteca1: 
     cuadernoMapoteca2: 
     libro_mapoteca_1: 
     libro_mapoteca_2: 
     libro_mapoteca_3: 
+    lobo: 
+    lobos: 
+    map: 
+    mapReady: 
+    palanca: 
+    ladder_1: 
+    ladder_2: 
+    globo_1: 
+    globo_2: 
 --- !u!114 &114134459624942297
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7844,6 +7856,18 @@ MonoBehaviour:
     value: 0
   - name: libro_mapoteca_3
     value: 0
+  - name: lobo
+    value: 0
+  - name: lobos
+    value: 0
+  - name: map
+    value: 0
+  - name: palanca
+    value: 0
+  - name: ladder
+    value: 0
+  - name: globo
+    value: 0
 --- !u!114 &114434947464692351
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7893,7 +7917,7 @@ MonoBehaviour:
   - image: {fileID: 21300000, guid: a15a5210a8ed826479e883063bbc580e, type: 3}
     gameProgressKey: libro_biblioteca_2
     isLibro: 1
-  - image: {fileID: 21300000, guid: b3a6ca326a0df8a458350b6bc86f8da1, type: 3}
+  - image: {fileID: 21300000, guid: 676db740bcedd4c48b748780229db7eb, type: 3}
     gameProgressKey: rueda
     isLibro: 0
   - image: {fileID: 21300000, guid: 90b8532bda36c7c44bc0a6ac200598b0, type: 3}
@@ -7920,6 +7944,12 @@ MonoBehaviour:
   - image: {fileID: 21300000, guid: 2d926b8f40b726b4590342bf18466d9f, type: 3}
     gameProgressKey: libro_mapoteca_3
     isLibro: 1
+  - image: {fileID: 21300000, guid: 13fb8866864757d418fe34800b641c02, type: 3}
+    gameProgressKey: lobo
+    isLibro: 0
+  - image: {fileID: 21300000, guid: 89e978c1951069c42b705264efdb76db, type: 3}
+    gameProgressKey: palanca
+    isLibro: 0
   inventary: []
 --- !u!114 &114640231862672099
 MonoBehaviour:
@@ -7974,12 +8004,24 @@ MonoBehaviour:
     minimap_1: 
     minimap_2: 
     minimap_3: 
+    minimap_1_inserted: 
+    minimap_2_inserted: 
+    minimap_3_inserted: 
     cajoneraVacia: 
     cuadernoMapoteca1: 
     cuadernoMapoteca2: 
     libro_mapoteca_1: 
     libro_mapoteca_2: 
     libro_mapoteca_3: 
+    lobo: 
+    lobos: 
+    map: 
+    mapReady: 
+    palanca: 
+    ladder_1: 
+    ladder_2: 
+    globo_1: 
+    globo_2: 
 --- !u!114 &114773183641289483
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8074,6 +8116,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PhoneLine
       objectReference: {fileID: 0}
+    - target: {fileID: 1834509163487868798, guid: 9350064077b694549906cd0b17ba77f4,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 563758437051110907, guid: 9350064077b694549906cd0b17ba77f4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8132,12 +8179,12 @@ PrefabInstance:
     - target: {fileID: 563758437051110907, guid: 9350064077b694549906cd0b17ba77f4,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 280.55
       objectReference: {fileID: 0}
     - target: {fileID: 563758437051110907, guid: 9350064077b694549906cd0b17ba77f4,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -37
       objectReference: {fileID: 0}
     - target: {fileID: 563758437051110907, guid: 9350064077b694549906cd0b17ba77f4,
         type: 3}
@@ -8157,7 +8204,7 @@ PrefabInstance:
     - target: {fileID: 563758437051110907, guid: 9350064077b694549906cd0b17ba77f4,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 563758437051110907, guid: 9350064077b694549906cd0b17ba77f4,
         type: 3}
@@ -8167,7 +8214,7 @@ PrefabInstance:
     - target: {fileID: 563758437051110907, guid: 9350064077b694549906cd0b17ba77f4,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 563758437051110907, guid: 9350064077b694549906cd0b17ba77f4,
         type: 3}

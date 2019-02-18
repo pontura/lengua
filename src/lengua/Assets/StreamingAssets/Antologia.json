@@ -332,7 +332,7 @@
 		{
 			"id":"8",
 			"color": "#439CB5",
-			"gameprogress_name":"CuadernoMapoteca1",
+			"gameprogress_name":"cuadernoMapoteca1",
 			"title":"Grafemas S/C/Z",
 			"author":"",
 			"type":"1",
@@ -355,7 +355,7 @@
 		{
 			"id":"9",
 			"color": "#682710",
-			"gameprogress_name":"Libro_Mapoteca_1",
+			"gameprogress_name":"libro_mapoteca_2",
 			"title":"La inmolación por la belleza",
 			"author":"Marco Denevi",
 			"type":"0",
@@ -386,14 +386,14 @@
 		{
 			"id":"10",
 			"color": "#FDE673",
-			"gameprogress_name":"Libro_Mapoteca_2",
+			"gameprogress_name":"libro_mapoteca_1",
 			"title":"El hombre lobo",
 			"author":"Petronio",
 			"type":"0",
 			"area":"2",
 			"texts":[
-				{"textlines":["() Trimalción comenzó el siguiente relato:",					
-						"Cuando todavía era yo esclavo, vivíamos en una callejuela angosta; ahora está allí la casa de Gavila. En esa casa me enamoré, como a veces lo quieren los dioses, de la mujer del tabernero Terencio: conocéis a Melisa la tarentina, una hermosísima gordita de movedizas redondeces. Pero yo, por Hércules, no la quería por su cuerpo o para saciar mis deseos, sino porque era de buen corazón. Lo que le pedí, nunca me lo negó; si ganaba un as, me daba la mitad; todo lo que tuve lo deposité en su seno, y nunca me defraudó, su compañero murió allí, en su casa de campo. Entonces traté por todos los medios de llegar hasta ella: como sabéis, en los apuros se ven los amigos."]},
+				{"textlines":["Trimalción comenzó el siguiente relato:",					
+						"Cuando todavía era yo esclavo, vivíamos en una callejuela angosta; ahora está allí la casa de Gavila. En esa casa me enamoré, como a veces lo quieren los dioses, de la mujer del tabernero Terencio: conocéis a Melisa la tarentina, una hermosísima gordita de movedizas redondeces. Pero yo, por Hércules, no la quería por su cuerpo o para saciar mis deseos, sino porque era de buen corazón. Lo que le pedí, nunca me lo negó; si ganaba un as, me daba la mitad; todo lo que tuve lo deposité en su seno, y nunca me defraudó, su compañero murió allí, en su casa de campo. Entonces traté por todos los medios de llegar hasta ella: como sabéis, en los apuros se ven los amigos."]},
 
 				{"textlines":["Por casualidad mi dueño había ido a Capua a vender un montón de cosas viejas. Aprovechando la ocasión persuado a un huésped nuestro a que venga conmigo hasta el quinto miliario. Era un soldado, fuerte como Orco. Nos hicimos humo al primer canto del gallo, la luna brillaba como si fuera de día. Llegamos a las tumbas: nuestro hombre se puso a defecar en medio de las tumbas, mientras yo me aparté tarareando un cantito y contando las lápidas. Luego, cuando miré a mi compañero, vi que se desnudaba y ponía toda su ropa junto al camino. A mí se me vino el alma a la nariz, me quedé como muerto. Pero él meó alrededor de sus vestimentas y de repente se transformó en un lobo. No penséis que bromeo; ningún bien valdría tanto como para que mintiera en este punto. Pero, como había empezado a decir, después que se volvió lobo, comenzó a aullar y huyó hacia el bosque. Yo al comienzo no sabía dónde estaba, pero luego me acerqué para tomar sus vestimentas: se habían transformado en piedra. ¿Quién tenía allí más temor de morir que yo? Pero saqué la espada y golpeé las sombras, hasta que llegué a la villa de mi amiga. Y entré como un muerto, casi exhalé el alma; el sudor me chorreaba hasta el fondo de la espalda, mis ojos parecían sin vida, me repuse con gran dificultad."]},
 
@@ -417,7 +417,7 @@
 		{
 			"id":"11",
 			"color": "#BBB97E",
-			"gameprogress_name":"CuadernoMapoteca2",
+			"gameprogress_name":"cuadernoMapoteca2",
 			"title":"Grafemas J/G",
 			"author":"",
 			"type":"1",
@@ -439,7 +439,7 @@
 		{
 			"id":"12",
 			"color": "#2F3042",
-			"gameprogress_name":"Libro_Mapoteca_3",
+			"gameprogress_name":"libro_mapoteca_3",
 			"title":"El anillo encantado",
 			"author":"María Teresa Andruetto",
 			"type":"0",

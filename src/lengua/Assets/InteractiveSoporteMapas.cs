@@ -33,5 +33,6 @@ public class InteractiveSoporteMapas : InteractiveObject
 	}
 	void OnRepaired()
 	{
+		Events.OpenTrivia ("libro_mapoteca_2");
 	}
 }
