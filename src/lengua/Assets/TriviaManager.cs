@@ -30,9 +30,11 @@ public class TriviaManager : MonoBehaviour {
 		paginator = GetComponent<TMPro.Examples.TriviaPaginator> ();
 		asource = GetComponent<AudioSource> ();
 		Events.SetTrivia += SetTrivia;
+		Events.NormativaDone += SetAnswer;
 	}
 	void OnDestroy () {
 		Events.SetTrivia -= SetTrivia;
+		Events.NormativaDone -= SetAnswer;
 	}
 
 	public void Close(){
@@ -65,10 +67,10 @@ public class TriviaManager : MonoBehaviour {
 			if (Input.GetKeyDown (KeyCode.Alpha1)) {
 				Events.OpenTrivia (Data.Instance.triviaData.antologia[0].gameprogress_name);
 			}else if (Input.GetKeyDown (KeyCode.Alpha2)) {
-				Events.OpenTrivia (Data.Instance.triviaData.antologia[1].gameprogress_name);
+				Events.OpenTrivia (Data.Instance.triviaData.antologia[2].gameprogress_name);
 			}else if (Input.GetKeyDown (KeyCode.Alpha3)) {
 				Debug.Log ("aca");
-				Events.OpenTrivia (Data.Instance.triviaData.antologia[2].gameprogress_name);
+				Events.OpenTrivia (Data.Instance.triviaData.antologia[4].gameprogress_name);
 			}
 		}
 	}

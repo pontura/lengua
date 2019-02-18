@@ -25,6 +25,7 @@ public static class Events {
 	public static System.Action<string> UseItem = delegate {	};
 
 	public static System.Action<string> SetTrivia = delegate {	};
+	public static System.Action<bool> NormativaDone = delegate {	};
 	public static System.Action OnBookComplete = delegate {	};
 	public static System.Action OnTriviaWrong = delegate {	};
 	public static System.Action TriviaClose = delegate {	};

@@ -1447,8 +1447,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pageLeft: {fileID: 6768756723990437336}
   pageRight: {fileID: 6768756724058306559}
+  normativaFont: {fileID: 11400000, guid: e31da31c947d6154eada234e5e722868, type: 2}
+  normativaFont_size: 20
+  literaturaFont: {fileID: 11400000, guid: 4d06d848b863cd44a869adb9e364cd72, type: 2}
+  literaturaFont_size: 20
   triviaUI: {fileID: 6767090313196925363}
-  charsPerLine: 29
+  charsPerLine: 28
   linesPerPage: 12
   pages: []
   charCount: 0

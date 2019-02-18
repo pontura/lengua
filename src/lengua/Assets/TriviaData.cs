@@ -77,6 +77,7 @@ public class TriviaData : MonoBehaviour {
 			if (dones == triviasDone.Length) {
 				completed = true;
 				state = TriviaState.complete;
+				Events.NormativaDone (true);
 			} else if (1f * dones / triviasDone.Length >= Data.Instance.triviaData.normativaMinimum) {
 				state = TriviaState.done;
 			}
@@ -129,6 +130,8 @@ public class TriviaData : MonoBehaviour {
 				tp.triviasDone = new bool[antologia [i].trivias.Length];
 			else {
 				tp.triviasDone = new bool[antologia [i].texts [0].textlines.Length];
+				for (int j = 0; j < antologia [i].texts [0].textlines.Length; j++)
+					antologia [i].texts [0].textlines [j] = "{" + j + "}"+antologia [i].texts [0].textlines [j];
 			}
 			tp.area = antologia [i].area;
 			tp.state = TriviaState.idle;

@@ -22,6 +22,7 @@ namespace TMPro.Examples
 			public string selected = "";
 			public string ok;
 			public string[] answers;
+			public int id;
 		}
 
 		void Start()
@@ -40,17 +41,25 @@ namespace TMPro.Examples
 					AnswerData data = new AnswerData ();
 					Debug.Log (s);
 					string a = GetSubstringByString ("[", "]", s);
-					data.sentence = s.Replace ("[" + a + "]", "*");
+					string b = s.Replace ("[" + a + "]", "*");
 					data.answers = a.Split("," [0]);
 					data.ok = data.answers[0];
-					Shuffle (data.answers );
+					Debug.Log (b);
+					string id = GetSubstringByString ("{", "}", b);
+					data.id = int.Parse (id);
+					data.sentence = b.Replace ("{" + id + "}", "");
+					Utils.Shuffle<string> (data.answers);
+					//Shuffle (data.answers );
 					answers.Add (data);
 				}
 			}
 
 			for (int i = 0; i < tp.triviasDone.Length; i++) {
-				if (tp.triviasDone [i])
-					answers [i].selected = answers [i].ok;				
+				if (tp.triviasDone [i]) {
+					AnswerData ad = answers.Find(x => x.id == i);
+					if(ad!=null)
+					ad.selected = ad.ok;
+				}
 			}
 
 			DrawText ();
@@ -98,7 +107,8 @@ namespace TMPro.Examples
 			if (linkArr.Length > 0) {
 				int answerID = int.Parse (linkArr [1]);
 				int selected = int.Parse (linkArr [2]);
-				answers [answerID].selected = answers [answerID].answers[selected];
+				AnswerData ad = answers.Find(x => x.id == answerID);
+				ad.selected = ad.answers[selected];
 			}
 
 			//Debug.Log("OnLinkSelection Index: " + linkIndex + " with ID [" + linkID + "] and Text \"" + linkText + "\" has been selected.");
@@ -127,7 +137,7 @@ namespace TMPro.Examples
 				if (data.selected.Length>0) {
 					if (a == data.selected) {
 						if (data.ok == data.selected) {
-							tp.AddNormativaDone (answerID);
+							tp.AddNormativaDone (data.id);
 							result += "<#00FF00>" + a + "</color> / ";
 						}else
 							result += "<#FF0000>" + a + "</color> / ";
@@ -136,7 +146,7 @@ namespace TMPro.Examples
 					}
 
 				} else {
-					result += "<link=ID_" + answerID + "_" + thisAnswerID + "><u><#FFFF00>" + a + "</color></u></link> / ";
+					result += "<link=ID_" + data.id + "_" + thisAnswerID + "><u><#000000>" + a + "</color></u></link> / ";
 					thisAnswerID++;
 				}
 			}

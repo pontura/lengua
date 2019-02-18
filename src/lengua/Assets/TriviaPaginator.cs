@@ -14,6 +14,10 @@ namespace TMPro.Examples
 		NormativaParser leftParser;
 		public TextMeshProUGUI pageRight;
 		NormativaParser rightParser;
+		public TMP_FontAsset normativaFont;
+		public float normativaFont_size;
+		public TMP_FontAsset literaturaFont;
+		public float literaturaFont_size;
 		public GameObject triviaUI;
 
 		public int charsPerLine;
@@ -48,6 +52,20 @@ namespace TMPro.Examples
 		{
 
 			type = t;
+
+			if (type == TriviaData.TriviaType.literatura) {
+				pageLeft.font = literaturaFont;
+				pageLeft.fontSize = literaturaFont_size;
+				pageRight.font = literaturaFont;
+				pageRight.fontSize = literaturaFont_size;
+			} else if (type == TriviaData.TriviaType.normativa) {
+				pageLeft.font = normativaFont;
+				pageLeft.fontSize = normativaFont_size;
+				pageRight.font = normativaFont;
+				pageRight.fontSize = normativaFont_size;
+			}
+			
+
 			tp = tpro;
 
 			charCount = 0;
@@ -63,7 +81,7 @@ namespace TMPro.Examples
 			for (int i = 0; i < textlines.Length; i++) {
 				for (int j = 0; j < textlines [i].Length; j++) {				
 					if (nextpage && (textlines [i] [j] == '\n' || textlines [i] [j] == '.')) {
-						page += '#';
+						//page += '#';
 						nextpage = false;
 						changePage = true;
 						pages.Add (page);
@@ -74,7 +92,7 @@ namespace TMPro.Examples
 						page += textlines [i] [j];
 						charCount++;
 						if (charCount >= charsPerLine || textlines [i] [j] == '\n') {
-							page += '$';
+							//page += '$';
 							charCount = 0;
 							lineCount++;
 							if (lineCount >= linesPerPage) {						
@@ -112,13 +130,13 @@ namespace TMPro.Examples
 		
 			int pageIndex = bookIndex * 2;
 			if (pageIndex < pages.Count) {
-				if (type == TriviaData.TriviaType.literatura)
+				if (type == TriviaData.TriviaType.literatura) {
 					pageLeft.text = pages [pageIndex];
-				else {
+					nextBtn.SetActive (true);
+				}else {					
 					leftParser.Parse (pages [pageIndex],tp);
+					nextBtn.SetActive (false);
 				}
-				
-				nextBtn.SetActive (true);
 			} else {
 				pageLeft.text = "";
 				pageRight.text = "";
@@ -129,12 +147,16 @@ namespace TMPro.Examples
 			}
 
 			if (pageIndex + 1 < pages.Count) {
-				if (type == TriviaData.TriviaType.literatura)
+				if (type == TriviaData.TriviaType.literatura) {
 					pageRight.text = pages [pageIndex + 1];
-				else {
+					nextBtn.SetActive (true);
+				}else {
 					rightParser.Parse (pages [pageIndex + 1],tp);
+					if(pages.Count>pageIndex + 2)  
+						nextBtn.SetActive (true);
+					else
+						nextBtn.SetActive (false);
 				}
-				nextBtn.SetActive (true);
 			} else {
 				pageRight.text = "";
 				if (type == TriviaData.TriviaType.literatura)
