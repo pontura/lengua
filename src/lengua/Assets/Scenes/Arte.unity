@@ -9592,6 +9592,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1942787892999494, guid: 171c13cff62d5724fb68c028e2497f37, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4109272050960734, guid: 171c13cff62d5724fb68c028e2497f37, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.83
@@ -14536,6 +14540,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Zina
       objectReference: {fileID: 0}
+    - target: {fileID: 439416808897222247, guid: c3dd28aa6b40dd74d8ce435654c2c6d6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 439416808897222244, guid: c3dd28aa6b40dd74d8ce435654c2c6d6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14604,6 +14613,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Room3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3895175795840432170, guid: 1424340886c7b97418a327397d85e0da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1164861017124452029, guid: 1424340886c7b97418a327397d85e0da,
         type: 3}
