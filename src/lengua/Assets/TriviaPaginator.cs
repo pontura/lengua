@@ -59,11 +59,13 @@ namespace TMPro.Examples
 			Debug.Log (textlines.Length);
 
 			bool nextpage = false;
+			bool changePage = false;
 			for (int i = 0; i < textlines.Length; i++) {
 				for (int j = 0; j < textlines [i].Length; j++) {				
 					if (nextpage && (textlines [i] [j] == '\n' || textlines [i] [j] == '.')) {
-						//page += '#';
+						page += '#';
 						nextpage = false;
+						changePage = true;
 						pages.Add (page);
 						page = "";
 						lineCount = 0;
@@ -72,7 +74,7 @@ namespace TMPro.Examples
 						page += textlines [i] [j];
 						charCount++;
 						if (charCount >= charsPerLine || textlines [i] [j] == '\n') {
-							//page += '$';
+							page += '$';
 							charCount = 0;
 							lineCount++;
 							if (lineCount >= linesPerPage) {						
@@ -81,8 +83,12 @@ namespace TMPro.Examples
 						}
 					}
 				}
-				page += '\n';
+				if (changePage)
+					changePage = false;
+				else
+					page += '\n';
 			}
+			if(page!="")
 			pages.Add (page);
 
 			bookIndex = 0;

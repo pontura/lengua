@@ -327,6 +327,22 @@
 			"trivias":[
 			
 			]
+		},
+
+		{
+			"id":"8",
+			"color": "#439CB5",
+			"gameprogress_name":"CuadernoMapoteca1",
+			"title":"Odin",
+			"author":"¿Son o no son hiatos? Revisemos si son correctas las tildes",
+			"type":"1",
+			"area":"2",
+			"texts":[
+				{"textlines":["Se refiere que a la corte de Olaf Tryggvason, que se [habia,había] convertido a la nueva fe, llegó una noche un hombre [viejo,víejo], envuelto en una capa oscura y con el ala del sombrero sobre los ojos. El rey le preguntó si [sabia,sabía] hacer algo; el forastero contestó que [sabia,sabía] tocar el harpa y contar [cuentos,cúentos]. Tocó en el harpa aires antiguos, habló de Gudrun y de Gunnar y, finalmente, refirió el nacimiento de Odin. Dijo que tres parcas vinieron, que las dos primeras le [prometieron,prometíeron] grandes felicidades y que la tercera dijo, colérica: ¨El niño no vivirá más que la vela que está ardiendo,ardíendo a su lado¨. Entonces los padres apagaron la vela para que Odin no muriera. Olaf Tryggvason descreyó de la [historia,historía]; el forastero repitió que era cierta, sacó la vela y la encendió. Mientras la miraban arder, el hombre dijo que era tarde y que [tenía,tenia] que irse. Cuando la vela se hubo consumido, lo buscaron. A unos pasos de la casa del rey, Odin [habia,había] muerto."]}
+			],
+			"trivias":[
+			
+			]
 		}
 		
 	]
