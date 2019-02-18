@@ -2,7 +2,7 @@
 	"Items":[
 		{
 			"id":"0",
-			"color": "#FF0000",
+			"color": "#4A7D6B",
 			"gameprogress_name":"libroIngreso",
 			"title":"La plapla",
 			"author":"María Elena Walsh",
@@ -61,7 +61,7 @@
 		
 		{
 			"id":"1",
-			"color": "#FF0000",
+			"color": "#8F7C05",
 			"gameprogress_name":"libroCuadro",
 			"title":"Amigos por el viento",
 			"author":"Liliana Bodoc",
@@ -158,10 +158,10 @@
 
 		{
 			"id":"2",
-			"color": "#FF0000",
+			"color": "#3953A1",
 			"gameprogress_name":"cuaderno_ingreso",
-			"title":"Grafemas",
-			"author":"UBATIC",
+			"title":"Grafemas J/G",
+			"author":"",
 			"type":"1",
 			"area":"0",
 			"texts":[
@@ -169,7 +169,11 @@
 				"2. Colocaron una placa en el [trigésimo,trijésimo] aniversario de su fundación.",
 				"3. Compró un papel [higiénico,hijiénico] muy suave.",
 				"4. Con un show de [magia,majia] cautivó a los invitados.",
-				"5. [Dedujeron,dedugeron] el acertijo."]}			
+				"5. [Dedujeron,dedugeron] el acertijo.",
+				"6. El [cajero,cagero] permanece abierto después del mediodía.",
+				"7. El [rejente,regente] ya abrió la puerta del colegio.",
+				"8. El tren [rejional,regional] se acerca a la estación."
+				]}			
 			],
 			"trivias":[
 			
@@ -178,7 +182,7 @@
 
 			{
 			"id":"3",
-			"color": "#FF0000",
+			"color": "#DE8E18",
 			"gameprogress_name":"libro_biblioteca_1",
 			"title":"La Casa de Asterión",
 			"author":"J. L. Borges",
@@ -221,7 +225,7 @@
 
 		{
 			"id":"4",
-			"color": "#FF0000",
+			"color": "#70CAB8",
 			"gameprogress_name":"libro_biblioteca_2",
 			"title":"Teseo y el Minotauro",
 			"author":"",
@@ -267,18 +271,21 @@
 		},
 		{
 			"id":"5",
-			"color": "#FF0000",
+			"color": "#D07221",
 			"gameprogress_name":"cuadernoBiblioteca1",
-			"title":"Grafemas",
-			"author":"UBATIC",
+			"title":"Grafemas B/V",
+			"author":"",
 			"type":"1",
-			"area":"0",
+			"area":"1",
 			"texts":[
-				{"textlines":["1. Aprobamos el primer parcial de [geografía,jeografía].",
-				"2. Colocaron una placa en el [trigésimo,trijésimo] aniversario de su fundación.",
-				"3. Compró un papel [higiénico,hijiénico] muy suave.",
-				"4. Con un show de [magia,majia] cautivó a los invitados.",
-				"5. [Dedujeron,dedugeron] el acertijo."]}			
+				{"textlines":["1. [Había,Havía] una vez un gran pez...",
+				"2. [Sabíamos,Savíamos] la verdad.",
+				"3. [Adbirtieron,Advirtieron] que él ya se había retirado.",
+				"4. [Tube/Tuve] que ir de compras.",
+				"5. Ana se destaca por su [amabilidad,amavilidad].",
+				"6. Con Ana [estubimos,estuvimos] en el Aula Magna.",
+				"7. Cuando éramos chicos, [jugábamos,jugávamos] en el patio con una pelota de papel.",
+				"8. Dejó sobre las mesa todos los [bloques,vloques]."]}			
 			],
 			"trivias":[
 			
@@ -286,18 +293,21 @@
 		},
 		{
 			"id":"6",
-			"color": "#FF0000",
+			"color": "#6A3CB3",
 			"gameprogress_name":"cuadernoBiblioteca2",
-			"title":"Grafemas",
-			"author":"UBATIC",
+			"title":"Grafemas S/C/Z",
+			"author":"",
 			"type":"1",
-			"area":"0",
+			"area":"1",
 			"texts":[
-				{"textlines":["1. Aprobamos el primer parcial de [geografía,jeografía].",
-				"2. Colocaron una placa en el [trigésimo,trijésimo] aniversario de su fundación.",
-				"3. Compró un papel [higiénico,hijiénico] muy suave.",
-				"4. Con un show de [magia,majia] cautivó a los invitados.",
-				"5. [Dedujeron,dedugeron] el acertijo."]}			
+				{"textlines":["1. [Persibió,Percibió,Percibió] atinadamente la diferencia.",
+				"2. [Anunsiaron,Anunciaron,Anunziaron] el estreno de la nueva temporada.",
+				"3. [Ensendieron,Encendieron,Enzendieron] el farol de la esquina.",
+				"4. [Alcansé,Alcancé,Alcanzé] mis objetivos.",
+				"5. [Compró varios libros para su clase [espesial,especial,espezial].",
+				"6. Con un [martillaso,martillaco,martillazo] logró clavar la imagen.",
+				"7. Cruzó el puente [inglés,ingléc,ingléz] con gran esfuerzo.",
+				"8. Durante su [noviazgo,noviacgo,noviazgo], se conocieron."]}			
 			],
 			"trivias":[
 			
@@ -305,18 +315,14 @@
 		},
 		{
 			"id":"7",
-			"color": "#FF0000",
+			"color": "#51A151",
 			"gameprogress_name":"cuadernoBiblioteca3",
-			"title":"Grafemas",
-			"author":"UBATIC",
+			"title":"Odin",
+			"author":"¿Son o no son hiatos? Revisemos si son correctas las tildes",
 			"type":"1",
-			"area":"0",
+			"area":"1",
 			"texts":[
-				{"textlines":["1. Aprobamos el primer parcial de [geografía,jeografía].",
-				"2. Colocaron una placa en el [trigésimo,trijésimo] aniversario de su fundación.",
-				"3. Compró un papel [higiénico,hijiénico] muy suave.",
-				"4. Con un show de [magia,majia] cautivó a los invitados.",
-				"5. [Dedujeron,dedugeron] el acertijo."]}			
+				{"textlines":["Se refiere que a la corte de Olaf Tryggvason, que se [habia,había] convertido a la nueva fe, llegó una noche un hombre [viejo,víejo], envuelto en una capa oscura y con el ala del sombrero sobre los ojos. El rey le preguntó si [sabia,sabía] hacer algo; el forastero contestó que [sabia,sabía] tocar el harpa y contar [cuentos,cúentos]. Tocó en el harpa aires antiguos, habló de Gudrun y de Gunnar y, finalmente, refirió el nacimiento de Odin. Dijo que tres parcas vinieron, que las dos primeras le [prometieron,prometíeron] grandes felicidades y que la tercera dijo, colérica: ¨El niño no vivirá más que la vela que está ardiendo,ardíendo a su lado¨. Entonces los padres apagaron la vela para que Odin no muriera. Olaf Tryggvason descreyó de la [historia,historía]; el forastero repitió que era cierta, sacó la vela y la encendió. Mientras la miraban arder, el hombre dijo que era tarde y que [tenía,tenia] que irse. Cuando la vela se hubo consumido, lo buscaron. A unos pasos de la casa del rey, Odin [habia,había] muerto."]}
 			],
 			"trivias":[
 			
