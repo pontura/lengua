@@ -27,7 +27,7 @@ public class InteractivePlaceObjectGeneric : InteractiveObject
 				Events.OnSaveNewData (itemReward, 1);
 				Events.OnTexts (content.GetValue (itemReward), "inventary/" + itemReward, null);
 			} else {
-				Events.OnTip (textNoUsableItem);
+				Events.OnTip (Data.Instance.interactiveObjectsTexts.content.GetValue(textNoUsableItem));
 			}
 		}
 		OnSetProgress (gameProgressValue);

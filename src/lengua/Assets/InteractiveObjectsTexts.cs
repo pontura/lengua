@@ -36,6 +36,16 @@ public class InteractiveObjectsTexts : MonoBehaviour {
 				return lobo;
 			case "minimap_2":
 				return minimap_2;
+			case "tarjeta":
+				return tarjeta;
+			case "mapasDesconocidos":
+				return mapasDesconocidos;
+			case "mapaConstelacion":
+				return mapaConstelacion;
+			case "mapasMedicion":
+				return mapasMedicion;
+			case "globo_1":
+				return globo_1;
 			}
 			return "ERROR: no hay un texto default en InteractiveObjectsTexts GetValue() para " + key;
 		}
@@ -99,6 +109,11 @@ public class InteractiveObjectsTexts : MonoBehaviour {
 
 		public string globo_1;
 		public string globo_2;
+
+		public string tarjeta;
+		public string mapasDesconocidos;
+		public string mapaConstelacion;
+		public string mapasMedicion;
 	}
 	public Content content;
 

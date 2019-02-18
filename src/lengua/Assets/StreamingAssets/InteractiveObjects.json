@@ -44,13 +44,18 @@
 	"libro_mapoteca_1": "Ah... había un ln libro en el piso/El hombre lobo... a ver de qué va...",
 	"libro_mapoteca_2": "La inmolación por la belleza... A ver de qué se trata...",
 	"libro_mapoteca_3": "El anillo encantado",
-	"lobo": "Un lobo...",
-	"lobos": "Lobos",
-	"map": "A este mapa le falta algo",
-	"mapReady": "Este mapa ya está completo",
+	"lobo": "Un lobo, no sabía que lo podía agarrar...",
+	"lobos": "'Lobos salvajes' se lee en la placa de esta fea estatuita.",
+	"map": "Parece que perdiste un par de regiones, amigo",
+	"mapReady": "Espero que seas más feliz ahora, aunque hayas quedado torcido. Mejor dejo de hablar con el mapa, no siento que sea una relación correspondida",
 	"palanca": "Una palanca... ¿para que servirá?",
-	"ladder_1": "escalera no anda",
+	"ladder_1": "Una puertita en el techo. ¿A dónde llevará eso?...",
 	"ladder_2": "ahora si",
-	"globo_1": "ahora si",
-	"globo_2": "ahora si"
+	"globo_1": "El abuelo de Joaco tenía uno así. Lo abrías y adentro había bebidas. ¿Este será de esos?",
+	"globo_2": "¡¿Eh?! ¿Escucho risas? Tanta literatura, ¿no estará afectando mi cerebro?",
+	"tarjeta": "tarjeta texto",
+	"mapasMedicion": "Mapas e instrumentos de medición del año de la escarapela",
+	"mapasDesconocidos": "Raro… No es ningún lugar que conozca",
+	"mapaConstelacion": "¿Existirán organismos inteligentes en otro planeta?¿Es inteligente que yo, como organismo, me haga esta pregunta?"
+
 }
