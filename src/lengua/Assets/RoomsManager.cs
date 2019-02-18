@@ -30,6 +30,9 @@ public class RoomsManager : MonoBehaviour {
 		case Room.types.BIBLIOTECA:
 			newRoom = rooms [1];
 			break;
+		case Room.types.MAPOTECA:
+			newRoom = rooms [2];
+			break;
 		}
 		
 		room = Instantiate (newRoom);
