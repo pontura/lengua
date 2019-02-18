@@ -8,8 +8,8 @@ public class Trivia : MonoBehaviour {
 	public GameObject panel;
 	public Text title;
 	string gameProgressKey;
-
 	void Start () {
+		
 		Reset ();
 		Events.OpenTrivia += OpenTrivia;
 		Events.OnBookComplete += Win;
@@ -53,15 +53,10 @@ public class Trivia : MonoBehaviour {
 			break;
 		case "cuaderno_ingreso":
 			if (Data.Instance.gameProgress.GetData ("destornillador").value == 0) {
-				if(Data.Instance.gameProgress.GetData("destornillador").value==0)
+				if (Data.Instance.gameProgress.GetData ("destornillador").value == 0)
 					Events.OnSaveNewData ("destornillador", 1);
 			}
-			break;
-		case "libroCuadro":
-			if (Data.Instance.gameProgress.GetData ("destornillador").value == 0) {
-				if(Data.Instance.gameProgress.GetData("destornillador").value==0)
-					Events.OnSaveNewData ("destornillador", 1);
-			}
+			OnCuadernoWin ("cuaderno_ingreso");
 			break;
 		case "libro_biblioteca_1":
 			if (Data.Instance.gameProgress.GetData ("cuerno2").value == 0) {
@@ -79,9 +74,25 @@ public class Trivia : MonoBehaviour {
 				}
 			}
 			break;
+		case "cuadernoBiblioteca1":
+			OnCuadernoWin ("cuadernoBiblioteca1");
+			break;
+		case "cuadernoBiblioteca2":
+			OnCuadernoWin ("cuadernoBiblioteca2");
+			break;
+		case "cuadernoBiblioteca3":
+			OnCuadernoWin ("cuadernoBiblioteca3");
+			break;
+
 //		case "cuadernoBiblioteca3":
 //			break;
 		}
+	}
+
+	void OnCuadernoWin(string cuadernoName)
+	{
+		Events.OnSaveNewData (cuadernoName, 2);
+		Events.OnCuadernoWin ();
 	}
 	void Reset()
 	{
