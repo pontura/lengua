@@ -333,18 +333,174 @@
 			"id":"8",
 			"color": "#439CB5",
 			"gameprogress_name":"CuadernoMapoteca1",
-			"title":"Odin",
-			"author":"¿Son o no son hiatos? Revisemos si son correctas las tildes",
+			"title":"Grafemas S/C/Z",
+			"author":"",
 			"type":"1",
 			"area":"2",
 			"texts":[
-				{"textlines":["Se refiere que a la corte de Olaf Tryggvason, que se [habia,había] convertido a la nueva fe, llegó una noche un hombre [viejo,víejo], envuelto en una capa oscura y con el ala del sombrero sobre los ojos. El rey le preguntó si [sabia,sabía] hacer algo; el forastero contestó que [sabia,sabía] tocar el harpa y contar [cuentos,cúentos]. Tocó en el harpa aires antiguos, habló de Gudrun y de Gunnar y, finalmente, refirió el nacimiento de Odin. Dijo que tres parcas vinieron, que las dos primeras le [prometieron,prometíeron] grandes felicidades y que la tercera dijo, colérica: ¨El niño no vivirá más que la vela que está ardiendo,ardíendo a su lado¨. Entonces los padres apagaron la vela para que Odin no muriera. Olaf Tryggvason descreyó de la [historia,historía]; el forastero repitió que era cierta, sacó la vela y la encendió. Mientras la miraban arder, el hombre dijo que era tarde y que [tenía,tenia] que irse. Cuando la vela se hubo consumido, lo buscaron. A unos pasos de la casa del rey, Odin [habia,había] muerto."]}
+				{"textlines":["1. [ectómetro,hectómetro] es igual a 100 metros.",
+				"2. [allá,hallá] está mi lapicera.",
+				"3. Amo el [elado,helado] de chocolate.",
+				"4. Aprobamos los exámenes de [istoria,historia].",
+				"5. El golpe le produjo un [ematoma,hematoma].",
+				"6. El [iato,hiato] es la secuencia de dos vocales que se separan.",
+				"7. El [ipopótamo,hipopótamo] es un gran mamífero.",
+				"8. El león [abita,habita] en la selva."]}
 			],
 			"trivias":[
 			
 			]
-		}
+		},
+
+		{
+			"id":"9",
+			"color": "#682710",
+			"gameprogress_name":"Libro_Mapoteca_1",
+			"title":"La inmolación por la belleza",
+			"author":"Marco Denevi",
+			"type":"0",
+			"area":"2",
+			"texts":[
+				{"textlines":["El erizo era feo y lo sabía. Por eso vivía en sitios apartados, en matorrales sombríos, sin hablar con nadie, siempre solitario y taciturno, siempre triste, él, que en realidad tenía un carácter alegre y gustaba de la compañía de los demás. Sólo se atrevía a salir a altas horas de la noche y, si entonces oía pasos, rápidamente erizaba sus púas y se convertía en una bola para ocultar su rubor."]},
+
+				{"textlines":["Una vez alguien encontró una esfera híspida, ese tremendo alfiletero. En lugar de rociarlo con agua o arrojarle humo -como aconsejan los libros de zoología-, tomó una sarta de perlas, un racimo de uvas de cristal, piedras preciosas, o quizá falsas, cascabeles, dos o tres lentejuelas, varias luciérnagas, un dije de oro, flores de nácar y de terciopelo, mariposas artificiales, un coral, una pluma y un botón, y los fue enhebrando en cada una de las agujas del erizo, hasta transformar a aquella criatura desagradable en un animal fabuloso."]},
+
+				{"textlines":["Todos acudieron a contemplarlo. Según quién lo mirase, semejaba la corona de un emperador bizantino, un fragmento de la cola del Pájaro Roc o, si las luciérnagas se encendían, el fanal de una góndola empavesada para la fiesta del Bucentauro, o, si lo miraba algún envidioso, un bufón.",
+					"El erizo escuchaba las voces, las exclamaciones, los aplausos, y lloraba de felicidad. Pero no se atrevía a moverse por temor de que se le desprendiera aquel ropaje miliunanochesco. Así permaneció durante todo el verano. Cuando llegaron los primeros fríos, había muerto de hambre y de sed. Pero seguía hermoso."]}
+			],
+			"trivias":[
+				{"quest":"¿Por qué el erizo se atreve a salir sólo de noche?",
+				"answers":["El erizo se atreve a salir sólo de noche porque necesita ocultarse de la mirada de los demás.","El  erizo se atreve a salir sólo de noche porque le hace mal la luz del sol.","El erizo se atreve a salir sólo de noche porque necesita el agua del rocío en su cuerpo."]
+				},
+
+				{"quest":"Alguien lo confunde y lo transforma en un animal fabuloso. ¿Por qué?",
+				"answers":["Alguien lo confunde y lo transforma en un animal fabuloso porque lo confunde con un alfiletero y lo cubre con perlas y lentejuelas.","Alguien lo confunde y lo transforma en un animal fabuloso porque lo ven muy feo.","Alguien lo confunde y lo transforma en un animal fabuloso porque lo quiere ayudar."]
+				},
+
+				{"quest":"¿Qué le pasa al erizo cuando llegan los primeros fríos?",
+				"answers":["Cuando llegan los primeros fríos, el erizo muere.","Cuando llegan los primeros fríos, el erizo decide sacarse las lentejuelas y las perlas y cubrirse con ropa de lana","Cuando llegan los primeros fríos, el erizo prefiere convertirse en bufón."]
+				}
+			]
+		},
 		
+		{
+			"id":"10",
+			"color": "#FDE673",
+			"gameprogress_name":"Libro_Mapoteca_2",
+			"title":"El hombre lobo",
+			"author":"Petronio",
+			"type":"0",
+			"area":"2",
+			"texts":[
+				{"textlines":["() Trimalción comenzó el siguiente relato:",					
+						"Cuando todavía era yo esclavo, vivíamos en una callejuela angosta; ahora está allí la casa de Gavila. En esa casa me enamoré, como a veces lo quieren los dioses, de la mujer del tabernero Terencio: conocéis a Melisa la tarentina, una hermosísima gordita de movedizas redondeces. Pero yo, por Hércules, no la quería por su cuerpo o para saciar mis deseos, sino porque era de buen corazón. Lo que le pedí, nunca me lo negó; si ganaba un as, me daba la mitad; todo lo que tuve lo deposité en su seno, y nunca me defraudó, su compañero murió allí, en su casa de campo. Entonces traté por todos los medios de llegar hasta ella: como sabéis, en los apuros se ven los amigos."]},
+
+				{"textlines":["Por casualidad mi dueño había ido a Capua a vender un montón de cosas viejas. Aprovechando la ocasión persuado a un huésped nuestro a que venga conmigo hasta el quinto miliario. Era un soldado, fuerte como Orco. Nos hicimos humo al primer canto del gallo, la luna brillaba como si fuera de día. Llegamos a las tumbas: nuestro hombre se puso a defecar en medio de las tumbas, mientras yo me aparté tarareando un cantito y contando las lápidas. Luego, cuando miré a mi compañero, vi que se desnudaba y ponía toda su ropa junto al camino. A mí se me vino el alma a la nariz, me quedé como muerto. Pero él meó alrededor de sus vestimentas y de repente se transformó en un lobo. No penséis que bromeo; ningún bien valdría tanto como para que mintiera en este punto. Pero, como había empezado a decir, después que se volvió lobo, comenzó a aullar y huyó hacia el bosque. Yo al comienzo no sabía dónde estaba, pero luego me acerqué para tomar sus vestimentas: se habían transformado en piedra. ¿Quién tenía allí más temor de morir que yo? Pero saqué la espada y golpeé las sombras, hasta que llegué a la villa de mi amiga. Y entré como un muerto, casi exhalé el alma; el sudor me chorreaba hasta el fondo de la espalda, mis ojos parecían sin vida, me repuse con gran dificultad."]},
+
+				{"textlines":["Mi Melisa empezó a asombrarse de que yo anduviera por ahí tan tarde, y me dijo: Si hubieras venido antes, al menos me habrías ayudado, pues un lobo entró en la villa y atacó a todo el ganado, hizo sangrar a los animales como un carnicero. Pero si escapó, no le fue como para reírse, pues uno de nuestros esclavos le atravesó el cuello con una lanza. Cuando oí esto ya no pude cerrar los ojos, sino que, como ya era día claro, hui a la casa de nuestro Gayo como un tabernero zurrado, y luego que llegué al lugar donde las vestimentas se habían transformado en piedra, nada encontré sino sangre. Y cuando llegué a mi casa, mi soldado yacía en su cama como un buey, y un médico le curaba el cuello. Me di cuenta de que era un hombre-lobo, y después no pude gustar con él ni un trozo de pan, ni aunque me azotaran. Que otros vean qué piensan de esto; si miento, que vuestros Genios tutelares me sean hostiles."]}
+			],
+			"trivias":[
+				{"quest":"¿Quién relata la historia?",
+				"answers":["La historia es relatada por un esclavo.","La historia es relatada por el tabernero Terencio.","La historia es relatada por un narrador externo."]
+				},
+
+				{"quest":"¿Por qué el soldado se desnudó y orinó sus ropas?",
+				"answers":["El soldado se desnudó y orinó sus ropas para transformarse en hombre lobo.","El soldado se desnudó y orinó sus ropas porque estaba loco y no sabía lo que hacía.","El soldado se desnudó y orinó sus ropas tenía calor."]
+				},
+
+				{"quest":"¿Cuál es la resolución del relato?",
+				"answers":["El esclavo comprueba que el soldado fue herido como lobo y yace en su cama.","El hombre lobo muere a causa de su herida en el cuello.","Descubren que el soldado es un hombre lobo y lo apresan."]
+				}
+			]
+		},
+
+		{
+			"id":"11",
+			"color": "#BBB97E",
+			"gameprogress_name":"CuadernoMapoteca2",
+			"title":"Grafemas J/G",
+			"author":"",
+			"type":"1",
+			"area":"2",
+			"texts":[
+				{"textlines":["1. En la [cerrajería,cerragería] realizó la copia de las llaves.",
+				"2. Es muy [fotojénico,fotogénico].",
+				"3. Es preciso [homenajear,homenagear] a los exalumnos.",
+				"4. Hizo su evaluación con mucho [coraje,corage].",
+				"5. Hizo un [jesto,gesto] simpático.",
+				"6. La [jeología,geología] es una ciencia que estudia la historia del globo terrestre.",
+				"7. Leímos una leyenda [indíjena/indígena]."]}
+			],
+			"trivias":[
+			
+			]
+		},
+
+		{
+			"id":"12",
+			"color": "#2F3042",
+			"gameprogress_name":"Libro_Mapoteca_3",
+			"title":"El anillo encantado",
+			"author":"María Teresa Andruetto",
+			"type":"0",
+			"area":"2",
+			"texts":[
+				{"textlines":["Ifigenia tenía el cabello rubio como el trigo y unos ojos más azules que el lago de Constanza.",
+					"Caminaba descalza a la orilla del agua.",
+					"Era pálida y leve. Parecía hecha de aire.",
+					"El emperador Carlomagno la vio y se enamoró de ella.",
+					"Él era ya un hombre viejo y ella, apenas una muchacha.",
+					"Pero el Emperador se enamoró perdidamente y olvidó pronto sus deberes de soberano.",
+					"Los nobles de la corte estaban muy preocupados porque nada interesaba ya a Carlomagno.",
+					"Ni dinero.",
+					"Ni caza.",
+					"Ni guerra.",
+					"Ni batallas.",
+					"Sólo la muchacha."]},
+
+				{"textlines":["A pesar del amor, Ifigenia murió una tarde de abril llena de pájaros.",
+						"Los nobles de la corte respiraron aliviados.",
+						"Por fin el Emperador se ocuparía de su hacienda, de su guerra y de sus batallas.",
+						"Pero nada de eso ocurrió, porque el amor de Carlomagno no había muerto.",
+						"Hizo llevar a su habitación el cadáver embalsamado de la muchacha.",
+						"No quería separarse de él.",
+						"Asustado por esta macabra pasión, el Arzobispo del imperio sospechó un encantamiento y fue a revisar el cadáver.",
+						"Muerta, Ifigenia era tan hermosa como cuando caminaba descalza junto al lago de Constanza.",
+						"La revisó de pies a cabeza.",
+						"Bajo la lengua dura y helada, encontró un anillo con una piedra azul.",
+						"El azul de aquella piedra le trajo recuerdos del lago y del mar distante.",					
+						"El Arzobispo sacó el anillo que estaba escondido bajo la lengua.",
+						"Ni bien lo tomó en sus manos, Carlomagno enterró el cadáver.",
+						"Y se enamoró del Arzobispo.",
+						"El Arzobispo, turbado y sin saber qué hacer, entregó el anillo a su asistente.",
+						"Ni bien el asistente lo tomó en sus manos, Carlomagno abandonó al Arzobispo.",
+						"Y se enamoró del asistente.",
+						"El asistente, aturdido por esta situación embarazosa, entregó el anillo al primer hombre que pasaba.",
+						"Ni bien el hombre lo tomó en sus manos, Carlomagno abandonó al asistente."]},
+
+				{"textlines":["Y se enamoró del hombre.",
+					"El hombre, asustado por este amor extraño, empezó a correr con el anillo en la mano, y el Emperador tras él.",
+					"Hasta que se cruzó una gitana y el hombre le entregó el anillo.",
+					"Ni bien la gitana lo tomó en sus manos, Carlomagno dejó de perseguir al hombre.",
+					"Y se enamoró de la gitana.",
+					"Pero a la gitana se le cayó el anillo al agua.",
+					"Ni bien el agua recibió el anillo en su lecho, Carlomagno abandonó a la gitana.",
+					"Y se enamoró del lago de Constanza junto al que lfigenia caminaba descalza."]}
+			],
+			"trivias":[
+				{"quest":"¿Cómo se llamaba la muchacha de la que se enamora Carlomagno?",
+				"answers":["La muchacha de la que se enamora Carlomagno se llamaba Ifigenia.","La muchacha de la que se enamora Carlomagno se llamaba Constanza.","La muchacha de la que se enamora Carlomagno se llamaba María Teresa."]
+				},
+
+				{"quest":"¿Qué es lo que encontró el Arzobispo?",
+				"answers":["El Arzobispo encontró un anillo con una piedra azul, bajo la lengua.","El Arzobispo encontró una espina, bajo los pies.","El Arzobispo encontró un zapato encantado."]
+				},
+
+				{"quest":"¿Qué generaba el anillo en quienes lo percibían?",
+				"answers":["Quienes percibían el anillo se enamoraban de su poseedor.","Quienes percibían el anillo se enamoraban de sí mismos.","Quienes percibían el anillo odiaban a su poseedor."]
+				}
+			]
+		}
 	]
 }
 

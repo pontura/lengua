@@ -3,12 +3,12 @@
 	[
 		{
 			"character":"marian",
-			"state":"neutro",
+			"state":"contento",
 			"text": "¡Ya estás acá, muy bien!"
 		},
 		{
 			"character":"avatar",
-			"state":"neutro",
+			"state":"preocupado",
 			"text": "Sí. Geniaaaaal"
 		},
 		{
@@ -28,12 +28,12 @@
 		},
 		{
 			"character":"marian",
-			"state":"neutro",
+			"state":"contento",
 			"text": "Punto dos: Puede que este sea tu próximo colegio…"
 		},
 		{
 			"character":"avatar",
-			"state":"neutro",
+			"state":"reflexivo",
 			"text": "Si es que paso el examen de ingreso…"
 		},
 		{
@@ -43,7 +43,7 @@
 		},
 		{
 			"character":"avatar",
-			"state":"neutro",
+			"state":"preocupado",
 			"text": "¡¿Hoy trabajás?!"
 		},
 		
@@ -54,12 +54,12 @@
 		},
 		{
 			"character":"marian",
-			"state":"neutro",
+			"state":"contento",
 			"text": "Buscá el material de ingreso por acá y encontrame en la biblioteca cuando termines. Cualquier cosa me mandás un mensaje, ¿sí?"
 		},
 		{
 			"character":"avatar",
-			"state":"neutro",
+			"state":"contento",
 			"text": "¡Ooookey! Vaya, nomás"
 		}
 	],
@@ -67,12 +67,12 @@
 	"biblioteca":
 	[
 		{
-			"character":"marian",
+			"character":"preocupado",
 			"state":"neutro",
 			"text": "¿Te habías quedado encerrada?, ¡Recién ahora veo tu mensaje!"
 		},
 		{
-			"character":"avatar",
+			"character":"fastidio",
 			"state":"neutro",
 			"text": "Podría haber muerto en esa oficina… De aburrimiento"
 		},
@@ -83,12 +83,12 @@
 		},
 		{
 			"character":"avatar",
-			"state":"neutro",
+			"state":"reflexivo",
 			"text": "Vos porque sos bibliotecaria y te encanta leer, como a mamá. O como a cualquiera en nuestra la familia, ¡menos yo!"
 		},
 		{
 			"character":"marian",
-			"state":"neutro",
+			"state":"contento",
 			"text": "¡Si te lo pasás leyendo mangas! ¡Eso es leer! Además, nunca es tarde para encontrarle el gusto a la lectura"
 		},
 		{
@@ -113,27 +113,27 @@
 		},
 		{
 			"character":"marian",
-			"state":"neutro",
+			"state":"reflexivo",
 			"text": "De hecho, todo el colegio es un poco… ¿Cómo decirlo?"
 		},
 		{
 			"character":"marian",
-			"state":"neutro",
+			"state":"contento",
 			"text": " (sonrisa) En fin, ¡no me hagas caso! Vos seguí buscando todo el material que puedas, ¡Y ejercitate!"
 		},
 		{
 			"character":"avatar",
-			"state":"neutro",
+			"state":"fastidio",
 			"text": "Oww, pensé que ibas a olvidarte de eso"
 		},
 		{
 			"character":"marian",
-			"state":"neutro",
+			"state":"contento",
 			"text": "¡Jamás! Quiero que entres a este colegio. ¿No es fabulosa esta biblioteca?"
 		},
 		{
 			"character":"avatar",
-			"state":"neutro",
+			"state":"contento",
 			"text": "La verdad es que está bastante bien"
 		},
 		{
@@ -151,7 +151,7 @@
 		},
 		{
 			"character":"avatar",
-			"state":"neutro",
+			"state":"reflexivo",
 			"text": "¡Ah! Ok, la escalera se mueve sola..."
 		}
 	]
