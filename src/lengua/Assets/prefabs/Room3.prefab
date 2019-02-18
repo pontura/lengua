@@ -5535,7 +5535,7 @@ Transform:
   - {fileID: 970686880900617331}
   - {fileID: 4051029436347920179}
   m_Father: {fileID: 5573865738027380483}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
 --- !u!114 &5575444942505829150
 MonoBehaviour:
@@ -5616,6 +5616,10 @@ MonoBehaviour:
     ladder_2: ahora si
     globo_1: 
     globo_2: 
+    tarjeta: 
+    mapasDesconocidos: 
+    mapaConstelacion: 
+    mapasMedicion: 
   gameProgress: {fileID: 0}
   gameProgressKey: lobos
   gameProgressValue: 0
@@ -5737,7 +5741,7 @@ Transform:
   - {fileID: 5079446023977530003}
   - {fileID: 773239646}
   m_Father: {fileID: 5573865738027380483}
-  m_RootOrder: 7
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
 --- !u!114 &842446862887662861
 MonoBehaviour:
@@ -5808,6 +5812,10 @@ MonoBehaviour:
     ladder_2: 
     globo_1: 
     globo_2: 
+    tarjeta: 
+    mapasDesconocidos: 
+    mapaConstelacion: 
+    mapasMedicion: 
   gameProgress: {fileID: 0}
   gameProgressKey: globo
   gameProgressValue: 0
@@ -6245,7 +6253,7 @@ Transform:
   - {fileID: 1645198381}
   - {fileID: 400124094}
   m_Father: {fileID: 5573865738027380483}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
 --- !u!114 &5426248012646473911
 MonoBehaviour:
@@ -6326,6 +6334,10 @@ MonoBehaviour:
     ladder_2: ahora si
     globo_1: 
     globo_2: 
+    tarjeta: 
+    mapasDesconocidos: 
+    mapaConstelacion: 
+    mapasMedicion: 
   gameProgress: {fileID: 0}
   gameProgressKey: soporteMapas
   gameProgressValue: 0
@@ -11605,13 +11617,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1574500321}
   m_LocalRotation: {x: 0.38268343, y: 0, z: 0, w: 0.92387956}
-  m_LocalPosition: {x: -2.859, y: 0.062, z: 2.579}
+  m_LocalPosition: {x: -2.859, y: 0.062, z: 2.846}
   m_LocalScale: {x: 0.31516162, y: 0.31516162, z: 0.31516162}
   m_Children:
   - {fileID: 6324562990766688134}
   - {fileID: 5479133488789654114}
   m_Father: {fileID: 5573865738027380483}
-  m_RootOrder: 6
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
 --- !u!114 &239389093634185905
 MonoBehaviour:
@@ -11692,6 +11704,10 @@ MonoBehaviour:
     ladder_2: ahora si
     globo_1: 
     globo_2: 
+    tarjeta: 
+    mapasDesconocidos: 
+    mapaConstelacion: 
+    mapasMedicion: 
   gameProgress: {fileID: 0}
   gameProgressKey: lobo
   gameProgressValue: 0
@@ -26469,6 +26485,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 8959551147802563759}
+  - {fileID: 4201930533667715716}
   - {fileID: 6592976080700866566}
   - {fileID: 6248472544346737904}
   - {fileID: 4440557648970263178}
@@ -26479,9 +26497,101 @@ Transform:
   - {fileID: 676303666}
   - {fileID: 3118038410039794619}
   - {fileID: 3776669426712479457}
+  - {fileID: 2543405325101414192}
   m_Father: {fileID: 1164861017124452029}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &833374906661974138
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2376641467055387807}
+  - component: {fileID: 910292409500282769}
+  - component: {fileID: 7011655924687429392}
+  - component: {fileID: 1940936254716391638}
+  m_Layer: 0
+  m_Name: collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2376641467055387807
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 833374906661974138}
+  m_LocalRotation: {x: -0.38268343, y: -2.7191284e-15, z: -6.5645566e-15, w: 0.92387956}
+  m_LocalPosition: {x: 0.221, y: 0.438, z: -0.438}
+  m_LocalScale: {x: 1.23, y: 0.75, z: 0.41}
+  m_Children: []
+  m_Father: {fileID: 2543405325101414192}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &910292409500282769
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 833374906661974138}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &7011655924687429392
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 833374906661974138}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &1940936254716391638
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 833374906661974138}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &946862860246390463
 GameObject:
   m_ObjectHideFlags: 0
@@ -61123,7 +61233,7 @@ Transform:
   - {fileID: 3334956139661751670}
   - {fileID: 5884519892588575029}
   m_Father: {fileID: 5573865738027380483}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 51.893, y: -0.93200004, z: 48.685}
 --- !u!114 &7883912791201410983
 MonoBehaviour:
@@ -61138,7 +61248,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walkToMe: 1
-  waltoToMeOffset: {x: 0, y: 0, z: 0}
+  waltoToMeOffset: {x: 0, y: 0, z: -0.2}
   content:
     picaporte_1: Esto no se ve bien. Mejor le aviso a Marian
     picaporte_2: "Tengo que encontrar una forma de salir\u2026 Con dignidad"
@@ -61204,6 +61314,10 @@ MonoBehaviour:
     ladder_2: ahora si
     globo_1: 
     globo_2: 
+    tarjeta: 
+    mapasDesconocidos: 
+    mapaConstelacion: 
+    mapasMedicion: 
   gameProgress: {fileID: 0}
   gameProgressKey: libro_mapoteca_1
   gameProgressValue: 0
@@ -66055,6 +66169,114 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
+--- !u!1 &3181260430974186133
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2543405325101414192}
+  - component: {fileID: 7791931280214474333}
+  m_Layer: 0
+  m_Name: mapasMedicion
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2543405325101414192
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3181260430974186133}
+  m_LocalRotation: {x: 0.38268343, y: -0, z: -0, w: 0.92387956}
+  m_LocalPosition: {x: 4.034, y: -0.26, z: 0.43}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2376641467055387807}
+  m_Father: {fileID: 5573865738027380483}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
+--- !u!114 &7791931280214474333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3181260430974186133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 553e10c846521bf46a112a277fe8032a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walkToMe: 1
+  waltoToMeOffset: {x: 0, y: 0, z: 0.3}
+  content:
+    picaporte_1: 
+    picaporte_2: 
+    picaporte_3: 
+    picaporte_4: 
+    escritorio: 
+    libroIngreso: 
+    escritorioDoor1: 
+    fichero_1: 
+    fichero_con_llave: 
+    fichero_con_llave2: 
+    fichero_done: 
+    cuadro1: 
+    libroCuadro: 
+    libroCuadro2: 
+    libroBloqueado: 
+    libroCompletado: 
+    cuerno1: 
+    cuerno2: 
+    minotauro_0: 
+    minotauro_1: 
+    minotauro_2: 
+    alfonsina: 
+    puerta_biblioteca_patio: 
+    escalera_1: 
+    escalera_2: 
+    cuadernoBiblioteca1: 
+    cuadernoBiblioteca2: 
+    cuadernoBiblioteca3: 
+    libro_biblioteca_1: 
+    libro_biblioteca_2: 
+    libros_dibujos: 
+    rueda: 
+    puertaMapoteca: 
+    minimap_1: 
+    minimap_2: 
+    minimap_3: 
+    minimap_1_inserted: 
+    minimap_2_inserted: 
+    minimap_3_inserted: 
+    cajoneraVacia: 
+    cuadernoMapoteca1: 
+    cuadernoMapoteca2: 
+    libro_mapoteca_1: 
+    libro_mapoteca_2: 
+    libro_mapoteca_3: 
+    lobo: 
+    lobos: 
+    map: 
+    mapReady: 
+    palanca: 
+    ladder_1: 
+    ladder_2: 
+    globo_1: 
+    globo_2: 
+    tarjeta: 
+    mapasDesconocidos: 
+    mapaConstelacion: 
+    mapasMedicion: 
+  gameProgress: {fileID: 0}
+  gameProgressKey: mapasMedicion
+  gameProgressValue: 0
 --- !u!1 &3187528281901972154
 GameObject:
   m_ObjectHideFlags: 0
@@ -66246,7 +66468,7 @@ Transform:
   - {fileID: 670529156}
   - {fileID: 1407813860}
   m_Father: {fileID: 5573865738027380483}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8426418617525622226
 MonoBehaviour:
@@ -66327,6 +66549,10 @@ MonoBehaviour:
     ladder_2: ahora si
     globo_1: 
     globo_2: 
+    tarjeta: 
+    mapasDesconocidos: 
+    mapaConstelacion: 
+    mapasMedicion: 
   gameProgress: {fileID: 0}
   gameProgressKey: map
   gameProgressValue: 0
@@ -71568,6 +71794,97 @@ Transform:
   m_Father: {fileID: 8737743711478546405}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3750237221036096893
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4427608256925941958}
+  - component: {fileID: 2768853290486748864}
+  - component: {fileID: 7155948582584834957}
+  - component: {fileID: 3372044710800768899}
+  m_Layer: 0
+  m_Name: collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4427608256925941958
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3750237221036096893}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.124, z: 0}
+  m_LocalScale: {x: 1.16, y: 1.47, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4201930533667715716}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &2768853290486748864
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3750237221036096893}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &7155948582584834957
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3750237221036096893}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &3372044710800768899
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3750237221036096893}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3786478168568051685
 GameObject:
   m_ObjectHideFlags: 0
@@ -76870,7 +77187,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4816481739433936361}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -76913,6 +77230,114 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &5011555434534966617
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4201930533667715716}
+  - component: {fileID: 2266628008103110848}
+  m_Layer: 0
+  m_Name: mapasDesconocidos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4201930533667715716
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5011555434534966617}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4.03, y: 0, z: 3.09}
+  m_LocalScale: {x: 1, y: 1.51, z: 0.13}
+  m_Children:
+  - {fileID: 4427608256925941958}
+  m_Father: {fileID: 5573865738027380483}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2266628008103110848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5011555434534966617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 553e10c846521bf46a112a277fe8032a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walkToMe: 1
+  waltoToMeOffset: {x: 1, y: 0, z: -1}
+  content:
+    picaporte_1: 
+    picaporte_2: 
+    picaporte_3: 
+    picaporte_4: 
+    escritorio: 
+    libroIngreso: 
+    escritorioDoor1: 
+    fichero_1: 
+    fichero_con_llave: 
+    fichero_con_llave2: 
+    fichero_done: 
+    cuadro1: 
+    libroCuadro: 
+    libroCuadro2: 
+    libroBloqueado: 
+    libroCompletado: 
+    cuerno1: 
+    cuerno2: 
+    minotauro_0: 
+    minotauro_1: 
+    minotauro_2: 
+    alfonsina: 
+    puerta_biblioteca_patio: 
+    escalera_1: 
+    escalera_2: 
+    cuadernoBiblioteca1: 
+    cuadernoBiblioteca2: 
+    cuadernoBiblioteca3: 
+    libro_biblioteca_1: 
+    libro_biblioteca_2: 
+    libros_dibujos: 
+    rueda: 
+    puertaMapoteca: 
+    minimap_1: 
+    minimap_2: 
+    minimap_3: 
+    minimap_1_inserted: 
+    minimap_2_inserted: 
+    minimap_3_inserted: 
+    cajoneraVacia: 
+    cuadernoMapoteca1: 
+    cuadernoMapoteca2: 
+    libro_mapoteca_1: 
+    libro_mapoteca_2: 
+    libro_mapoteca_3: 
+    lobo: 
+    lobos: 
+    map: 
+    mapReady: 
+    palanca: 
+    ladder_1: 
+    ladder_2: 
+    globo_1: 
+    globo_2: 
+    tarjeta: 
+    mapasDesconocidos: 
+    mapaConstelacion: 
+    mapasMedicion: 
+  gameProgress: {fileID: 0}
+  gameProgressKey: mapasDesconocidos
+  gameProgressValue: 0
 --- !u!1 &5064540866541262649
 GameObject:
   m_ObjectHideFlags: 0
@@ -82371,7 +82796,7 @@ Transform:
   - {fileID: 9115295020721397912}
   - {fileID: 6744028896787812124}
   m_Father: {fileID: 5573865738027380483}
-  m_RootOrder: 8
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 61.678, y: 12.498, z: -63.874004}
 --- !u!114 &6970823714082962612
 MonoBehaviour:
@@ -82452,6 +82877,10 @@ MonoBehaviour:
     ladder_2: ahora si
     globo_1: 
     globo_2: 
+    tarjeta: 
+    mapasDesconocidos: 
+    mapaConstelacion: 
+    mapasMedicion: 
   gameProgress: {fileID: 0}
   gameProgressKey: libro_mapoteca_2
   gameProgressValue: 0
@@ -83010,10 +83439,105 @@ MonoBehaviour:
     ladder_2: ahora si
     globo_1: 
     globo_2: 
+    tarjeta: 
+    mapasDesconocidos: 
+    mapaConstelacion: 
+    mapasMedicion: 
   gameProgress: {fileID: 0}
   gameProgressKey: 
   gameProgressValue: 0
   asset: {fileID: 0}
+--- !u!1 &6549129872517465371
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7484355705746841809}
+  - component: {fileID: 1072573569096786528}
+  - component: {fileID: 8972993682526645919}
+  - component: {fileID: 68921119277258424}
+  m_Layer: 0
+  m_Name: collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7484355705746841809
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6549129872517465371}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.124, z: 0}
+  m_LocalScale: {x: 1.93, y: 1.47, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8959551147802563759}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1072573569096786528
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6549129872517465371}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &8972993682526645919
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6549129872517465371}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &68921119277258424
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6549129872517465371}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6602589648129447250
 GameObject:
   m_ObjectHideFlags: 0
@@ -93141,7 +93665,7 @@ Transform:
   - {fileID: 8847652077140766337}
   - {fileID: 8554409964436956255}
   m_Father: {fileID: 5573865738027380483}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
 --- !u!114 &8525342364291099662
 MonoBehaviour:
@@ -93222,6 +93746,10 @@ MonoBehaviour:
     ladder_2: ahora si
     globo_1: 
     globo_2: 
+    tarjeta: 
+    mapasDesconocidos: 
+    mapaConstelacion: 
+    mapasMedicion: 
   gameProgress: {fileID: 0}
   gameProgressKey: cajoneraMapoteca
   gameProgressValue: 0
@@ -93420,7 +93948,7 @@ Transform:
   - {fileID: 5204924202689511364}
   - {fileID: 3023310496142855567}
   m_Father: {fileID: 5573865738027380483}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &6471995559130699766
 SpriteRenderer:
@@ -93549,6 +94077,10 @@ MonoBehaviour:
     ladder_2: ahora si
     globo_1: 
     globo_2: 
+    tarjeta: 
+    mapasDesconocidos: 
+    mapaConstelacion: 
+    mapasMedicion: 
   gameProgress: {fileID: 0}
   gameProgressKey: 
   gameProgressValue: 0
@@ -98613,6 +99145,114 @@ Transform:
   m_Father: {fileID: 1164861017124452029}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7965427385666340936
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8959551147802563759}
+  - component: {fileID: 6207642781468516550}
+  m_Layer: 0
+  m_Name: mapaConstelacion
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8959551147802563759
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7965427385666340936}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.27, y: 0, z: 3.09}
+  m_LocalScale: {x: 1, y: 1.51, z: 0.13}
+  m_Children:
+  - {fileID: 7484355705746841809}
+  m_Father: {fileID: 5573865738027380483}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6207642781468516550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7965427385666340936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 553e10c846521bf46a112a277fe8032a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walkToMe: 1
+  waltoToMeOffset: {x: -1.5, y: 0, z: -1}
+  content:
+    picaporte_1: 
+    picaporte_2: 
+    picaporte_3: 
+    picaporte_4: 
+    escritorio: 
+    libroIngreso: 
+    escritorioDoor1: 
+    fichero_1: 
+    fichero_con_llave: 
+    fichero_con_llave2: 
+    fichero_done: 
+    cuadro1: 
+    libroCuadro: 
+    libroCuadro2: 
+    libroBloqueado: 
+    libroCompletado: 
+    cuerno1: 
+    cuerno2: 
+    minotauro_0: 
+    minotauro_1: 
+    minotauro_2: 
+    alfonsina: 
+    puerta_biblioteca_patio: 
+    escalera_1: 
+    escalera_2: 
+    cuadernoBiblioteca1: 
+    cuadernoBiblioteca2: 
+    cuadernoBiblioteca3: 
+    libro_biblioteca_1: 
+    libro_biblioteca_2: 
+    libros_dibujos: 
+    rueda: 
+    puertaMapoteca: 
+    minimap_1: 
+    minimap_2: 
+    minimap_3: 
+    minimap_1_inserted: 
+    minimap_2_inserted: 
+    minimap_3_inserted: 
+    cajoneraVacia: 
+    cuadernoMapoteca1: 
+    cuadernoMapoteca2: 
+    libro_mapoteca_1: 
+    libro_mapoteca_2: 
+    libro_mapoteca_3: 
+    lobo: 
+    lobos: 
+    map: 
+    mapReady: 
+    palanca: 
+    ladder_1: 
+    ladder_2: 
+    globo_1: 
+    globo_2: 
+    tarjeta: 
+    mapasDesconocidos: 
+    mapaConstelacion: 
+    mapasMedicion: 
+  gameProgress: {fileID: 0}
+  gameProgressKey: mapaConstelacion
+  gameProgressValue: 0
 --- !u!1 &8006682411164458650
 GameObject:
   m_ObjectHideFlags: 0
@@ -103581,7 +104221,7 @@ Transform:
   - {fileID: 1715901039}
   - {fileID: 7163921716637554202}
   m_Father: {fileID: 5573865738027380483}
-  m_RootOrder: 9
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5878236209629312571
 MonoBehaviour:
@@ -103662,6 +104302,10 @@ MonoBehaviour:
     ladder_2: ahora si
     globo_1: 
     globo_2: 
+    tarjeta: 
+    mapasDesconocidos: 
+    mapaConstelacion: 
+    mapasMedicion: 
   gameProgress: {fileID: 0}
   gameProgressKey: ladder
   gameProgressValue: 0

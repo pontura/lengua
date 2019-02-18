@@ -7868,6 +7868,8 @@ MonoBehaviour:
     value: 0
   - name: globo
     value: 0
+  - name: tarjeta
+    value: 0
 --- !u!114 &114434947464692351
 MonoBehaviour:
   m_ObjectHideFlags: 0
