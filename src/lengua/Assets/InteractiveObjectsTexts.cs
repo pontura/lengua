@@ -34,7 +34,6 @@ public class InteractiveObjectsTexts : MonoBehaviour {
 		public string picaporte_2;
 		public string picaporte_3;
 		public string picaporte_4;
-
 		public string escritorio;
 		public string libroIngreso;
 		public string escritorioDoor1;
@@ -42,7 +41,6 @@ public class InteractiveObjectsTexts : MonoBehaviour {
 		public string fichero_con_llave;
 		public string fichero_con_llave2;
 		public string fichero_done;
-
 		public string cuadro1;
 		public string libroCuadro;
 		public string libroCuadro2;
@@ -61,14 +59,21 @@ public class InteractiveObjectsTexts : MonoBehaviour {
 		public string cuadernoBiblioteca1;
 		public string cuadernoBiblioteca2;
 		public string cuadernoBiblioteca3;
-
 		public string libro_biblioteca_1;
 		public string libro_biblioteca_2;
-
 		public string libros_dibujos;
 		public string rueda;
-
 		public string puertaMapoteca;
+
+		public string minimap_1;
+		public string minimap_2;
+		public string minimap_3;
+		public string cajoneraVacia;
+		public string cuadernoMapoteca1;
+		public string cuadernoMapoteca2;
+		public string libro_mapoteca_1;
+		public string libro_mapoteca_2;
+		public string libro_mapoteca_3;
 	}
 	public Content content;
 

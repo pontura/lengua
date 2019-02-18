@@ -1678,7 +1678,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.00000014580161, y: -0.0000007531}
+  m_AnchoredPosition: {x: 0.00000014580161, y: 0.000014458662}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &363594255
@@ -3935,7 +3935,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   character: {fileID: 1588145398}
   cutscenesUI: {fileID: 1879940508}
-  roomType: 0
+  roomType: 2
   rooms:
   - {fileID: 8233078057708878437, guid: 0bff8d02220b0bb4cb3684bb38461bc2, type: 3}
   - {fileID: 5654462099031211181, guid: c50c1bf53a9a2144aa1fa94b075e5ed7, type: 3}
@@ -6986,10 +6986,30 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6768756724817349116, guid: 417a61b4252c1444086d29091711cbe3,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6768756724817349116, guid: 417a61b4252c1444086d29091711cbe3,
+        type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 6768756724189144538, guid: 417a61b4252c1444086d29091711cbe3,
         type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6768756724189144538, guid: 417a61b4252c1444086d29091711cbe3,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6768756724189144538, guid: 417a61b4252c1444086d29091711cbe3,
+        type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6663625108954066273, guid: 417a61b4252c1444086d29091711cbe3,
         type: 3}
@@ -7033,7 +7053,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.00002893673, y: 0.000035911922}
+  m_AnchoredPosition: {x: 0.00002893673, y: 0.0000049554887}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &2032765863
@@ -7291,6 +7311,15 @@ MonoBehaviour:
     libros_dibujos: 
     rueda: 
     puertaMapoteca: 
+    minimap_1: 
+    minimap_2: 
+    minimap_3: 
+    cajoneraVacia: 
+    cuadernoMapoteca1: 
+    cuadernoMapoteca2: 
+    libro_mapoteca_1: 
+    libro_mapoteca_2: 
+    libro_mapoteca_3: 
 --- !u!114 &114134459624942297
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7795,6 +7824,26 @@ MonoBehaviour:
     value: 0
   - name: celular
     value: 0
+  - name: cajoneraMapoteca
+    value: 0
+  - name: minimap_1
+    value: 0
+  - name: minimap_2
+    value: 0
+  - name: minimap_3
+    value: 0
+  - name: cuadernoMapoteca1
+    value: 0
+  - name: cuadernoMapoteca2
+    value: 0
+  - name: soporteMapas
+    value: 0
+  - name: libro_mapoteca_1
+    value: 0
+  - name: libro_mapoteca_2
+    value: 0
+  - name: libro_mapoteca_3
+    value: 0
 --- !u!114 &114434947464692351
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7847,6 +7896,30 @@ MonoBehaviour:
   - image: {fileID: 21300000, guid: b3a6ca326a0df8a458350b6bc86f8da1, type: 3}
     gameProgressKey: rueda
     isLibro: 0
+  - image: {fileID: 21300000, guid: 90b8532bda36c7c44bc0a6ac200598b0, type: 3}
+    gameProgressKey: minimap_1
+    isLibro: 0
+  - image: {fileID: 21300000, guid: decf49b498ed1364ea42db6f5a0a455d, type: 3}
+    gameProgressKey: minimap_2
+    isLibro: 0
+  - image: {fileID: 21300000, guid: a9dc33a4ea8c989419a98b46e60ca9ed, type: 3}
+    gameProgressKey: minimap_3
+    isLibro: 0
+  - image: {fileID: 21300000, guid: e312bde9e357e88438578e4ec5ee1050, type: 3}
+    gameProgressKey: cuadernoMapoteca1
+    isLibro: 1
+  - image: {fileID: 21300000, guid: a8f12da1d005c2248873b4acd2e4d5ee, type: 3}
+    gameProgressKey: cuadernoMapoteca2
+    isLibro: 1
+  - image: {fileID: 21300000, guid: 0d6d85caf8957ee4abf70c01ebc59b9f, type: 3}
+    gameProgressKey: libro_mapoteca_1
+    isLibro: 1
+  - image: {fileID: 21300000, guid: d0365899cec76a64db78335d281b1082, type: 3}
+    gameProgressKey: libro_mapoteca_2
+    isLibro: 1
+  - image: {fileID: 21300000, guid: 2d926b8f40b726b4590342bf18466d9f, type: 3}
+    gameProgressKey: libro_mapoteca_3
+    isLibro: 1
   inventary: []
 --- !u!114 &114640231862672099
 MonoBehaviour:
@@ -7898,6 +7971,15 @@ MonoBehaviour:
     libros_dibujos: 
     rueda: 
     puertaMapoteca: 
+    minimap_1: 
+    minimap_2: 
+    minimap_3: 
+    cajoneraVacia: 
+    cuadernoMapoteca1: 
+    cuadernoMapoteca2: 
+    libro_mapoteca_1: 
+    libro_mapoteca_2: 
+    libro_mapoteca_3: 
 --- !u!114 &114773183641289483
 MonoBehaviour:
   m_ObjectHideFlags: 0
