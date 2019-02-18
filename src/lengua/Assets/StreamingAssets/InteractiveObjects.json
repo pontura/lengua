@@ -35,10 +35,17 @@
 	"minimap_1": "Un parte de mapa",
 	"minimap_2": "Otra parte del mapa",
 	"minimap_3": "Otra parte del mapa",
+	"minimap_1_inserted": "Puse la 1",
+	"minimap_2_inserted": "Puse la 2",
+	"minimap_3_inserted": "Puse la 3",
 	"cajoneraVacia": "Nada por aquí...",
 	"cuadernoMapoteca1": "¡Un cuaderno!",
 	"cuadernoMapoteca2": "¡Otro cuaderno!",
-	"libro_mapoteca_1": "libro_mapoteca_1",
+	"libro_mapoteca_1": "Ah... había un ln libro en el piso/El hombre lobo... a ver de qué va...",
 	"libro_mapoteca_2": "La inmolación por la belleza... A ver de qué se trata...",
-	"libro_mapoteca_3": "libro_mapoteca_3"
+	"libro_mapoteca_3": "libro_mapoteca_3",
+	"lobo": "Un lobo...",
+	"lobos": "Lobos",
+	"map": "A este mapa le falta algo",
+	"mapReady": "Este mapa ya está completo"
 }

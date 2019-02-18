@@ -1678,7 +1678,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.00000014580161, y: 0.000014458662}
+  m_AnchoredPosition: {x: 0.00000014580161, y: 0.00002970899}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &363594255
@@ -7053,7 +7053,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.00002893673, y: 0.0000049554887}
+  m_AnchoredPosition: {x: 0.00002893673, y: 0.000018336146}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &2032765863
@@ -7314,12 +7314,18 @@ MonoBehaviour:
     minimap_1: 
     minimap_2: 
     minimap_3: 
+    minimap_1_inserted: 
+    minimap_2_inserted: 
+    minimap_3_inserted: 
     cajoneraVacia: 
     cuadernoMapoteca1: 
     cuadernoMapoteca2: 
     libro_mapoteca_1: 
     libro_mapoteca_2: 
     libro_mapoteca_3: 
+    lobo: 
+    lobos: 
+    map: 
 --- !u!114 &114134459624942297
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7844,6 +7850,12 @@ MonoBehaviour:
     value: 0
   - name: libro_mapoteca_3
     value: 0
+  - name: lobo
+    value: 0
+  - name: lobos
+    value: 0
+  - name: map
+    value: 0
 --- !u!114 &114434947464692351
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7893,7 +7905,7 @@ MonoBehaviour:
   - image: {fileID: 21300000, guid: a15a5210a8ed826479e883063bbc580e, type: 3}
     gameProgressKey: libro_biblioteca_2
     isLibro: 1
-  - image: {fileID: 21300000, guid: b3a6ca326a0df8a458350b6bc86f8da1, type: 3}
+  - image: {fileID: 21300000, guid: 676db740bcedd4c48b748780229db7eb, type: 3}
     gameProgressKey: rueda
     isLibro: 0
   - image: {fileID: 21300000, guid: 90b8532bda36c7c44bc0a6ac200598b0, type: 3}
@@ -7920,6 +7932,9 @@ MonoBehaviour:
   - image: {fileID: 21300000, guid: 2d926b8f40b726b4590342bf18466d9f, type: 3}
     gameProgressKey: libro_mapoteca_3
     isLibro: 1
+  - image: {fileID: 21300000, guid: 13fb8866864757d418fe34800b641c02, type: 3}
+    gameProgressKey: lobo
+    isLibro: 0
   inventary: []
 --- !u!114 &114640231862672099
 MonoBehaviour:
@@ -7974,12 +7989,18 @@ MonoBehaviour:
     minimap_1: 
     minimap_2: 
     minimap_3: 
+    minimap_1_inserted: 
+    minimap_2_inserted: 
+    minimap_3_inserted: 
     cajoneraVacia: 
     cuadernoMapoteca1: 
     cuadernoMapoteca2: 
     libro_mapoteca_1: 
     libro_mapoteca_2: 
     libro_mapoteca_3: 
+    lobo: 
+    lobos: 
+    map: 
 --- !u!114 &114773183641289483
 MonoBehaviour:
   m_ObjectHideFlags: 0
