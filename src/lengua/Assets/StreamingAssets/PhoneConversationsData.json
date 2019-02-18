@@ -8,13 +8,13 @@
 		},
 		{
 			"character":"avatar",
-			"emoji":"uff",
-			"text": ""
+			"emoji":"icons01",
+			"text": "(emoji de ufff)"
 		},
 		{
 			"character":"avatar",
 			"emoji":"",
-			"text": "(emoji de ufff) Acá, ejercitándome para el futuro (emoji con anteojitos)"
+			"text": "(Acá, ejercitándome para el futuro (emoji con anteojitos)"
 		},
 		{
 			"character":"joaco",
@@ -136,5 +136,103 @@
 			"emoji":"carne",
 			"text": ""
 		}		
+	],
+	"marian_1":
+	[
+		{
+			"character":"marian",
+			"emoji":"",
+			"text": "Buenas, ¿todo bien por ahí?"
+		},
+		{
+			"character":"avatar",
+			"emoji":"",
+			"text": "'¿Todo?'... No, todo, todo no"
+		},
+		{
+			"character":"marian",
+			"emoji":"",
+			"text": "Cuenteme, sobri, ¿qué te aqueja?"
+		},
+		{
+			"character":"avatar",
+			"emoji":"",
+			"text": "(icono aburrimiento) Béh.... La vida misma"
+		},
+		{
+			"character":"marian",
+			"emoji":"",
+			"text": "Eso es mucho, hacé un recorte"
+		},
+		{
+			"character":"avatar",
+			"emoji":"",
+			"text": "Bueno, lo hago"
+		},
+		{
+			"character":"avatar",
+			"emoji":"",
+			"text": "Preferiría estar en un bosque, con las patas en un arroyo"
+		},
+		{
+			"character":"avatar",
+			"emoji":"",
+			"text": "Pero estoy acá, respirando el polvo de quichicientos libros"
+		},
+		{
+			"character":"marian",
+			"emoji":"",
+			"text": "¡Ah, el polvo de los libros! (emoji de enamorada)"
+		},
+		{
+			"character":"marian",
+			"emoji":"",
+			"text": "Ese aroma que los dioses destinan solo a unos pocos"
+		},
+		{
+			"character":"marian",
+			"emoji":"",
+			"text": "Contiene una alta cuota de ácaros, pero todo lo bueno tiene su precio"
+		},
+		{
+			"character":"avatar",
+			"emoji":"",
+			"text": "¿Qué son los ácaros?"
+		},
+		{
+			"character":"marian",
+			"emoji":"",
+			"text": "Mejor no saberlo"
+		},
+		{
+			"character":"marian",
+			"emoji":"",
+			"text": "Lo que importa es que este colegio esconde un misterio..."
+		},
+		{
+			"character":"avatar",
+			"emoji":"",
+			"text": "(emoji sorprendido)"
+		},
+		{
+			"character":"marian",
+			"emoji":"",
+			"text": "(emoji guiñando ojo)"
+		},
+		{
+			"character":"marian",
+			"emoji":"",
+			"text": "Y para encontrarlo, tenés que seguir adelante"
+		},
+		{
+			"character":"marian",
+			"emoji":"",
+			"text": "No puedo decir más, por ahora"
+		},
+		{
+			"character":"marian",
+			"emoji":"",
+			"text": "Estoy con Zina, después te veo, ¡beso!"
+		}
 	]
 }

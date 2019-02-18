@@ -10,6 +10,7 @@ public class PhoneConversationsData : MonoBehaviour {
 	public class Content
 	{
 		public List<Data> joaco_biblioteca;
+		public List<Data> marian_1;
 	}
 	[Serializable]
 	public class Data

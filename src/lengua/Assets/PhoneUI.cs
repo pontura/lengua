@@ -11,11 +11,67 @@ public class PhoneUI : MonoBehaviour {
 	public ScrollRect scrollRect;
 	public PhoneLine phoneLine_to_instantiate;
 	List<PhoneConversationsData.Data> dataContent;
-	System.Action OnReady;
+	List<PhoneConversationsData.Data> lastConversation;
+	public Image avatar;
+	public Text avatarName;
+	GameProgress gameProgress;
 
 	void Start () {
-		Events.PhoneConversation += PhoneConversation;
+		gameProgress = Data.Instance.gameProgress;
+		Events.OnCuadernoWin += OnCuadernoWin;
 		Reset ();
+		if (gameProgress.GetData ("celular").value == 0)
+			panel.SetActive (false);
+	}
+	void Update()
+	{
+		if(Input.GetKeyDown(KeyCode.A))
+		{
+			dataContent = Data.Instance.phoneConversationsData.content.joaco_biblioteca;
+			RingPhone ();
+			Events.OnSaveNewData ("celular", 1);
+		}
+
+	}
+	void OnCuadernoWin()
+	{
+		
+		if (gameProgress.GetData ("celular").value == 0) {
+			if (
+				gameProgress.GetData ("cuaderno_ingreso").value == 2 &&
+				(
+					gameProgress.GetData ("cuadernoBiblioteca1").value == 2 ||
+					gameProgress.GetData ("cuadernoBiblioteca2").value == 2 ||
+					gameProgress.GetData ("cuadernoBiblioteca3").value == 2
+				)
+			) {
+				dataContent = Data.Instance.phoneConversationsData.content.joaco_biblioteca;
+				RingPhone ();
+				Events.OnSaveNewData ("celular", 1);
+			}
+		} else if (gameProgress.GetData ("celular").value == 1) {
+			if (
+				gameProgress.GetData ("cuaderno_ingreso").value == 2 &&
+				gameProgress.GetData ("cuadernoBiblioteca1").value == 2 &&
+				gameProgress.GetData ("cuadernoBiblioteca2").value == 2 &&
+				gameProgress.GetData ("cuadernoBiblioteca3").value == 2
+			) {
+				dataContent = Data.Instance.phoneConversationsData.content.marian_1;
+				RingPhone ();
+				Events.OnSaveNewData ("celular", 2);
+			}
+		}
+	}
+	void RingPhone()
+	{
+		panel.SetActive (true);
+		panel.GetComponent<Animation> ().Play ("phoneRing");
+	}
+	public void OnClicked()
+	{
+		PhoneConversation ();
+		panel.GetComponent<Animation> ().Stop ();
+		panel.transform.localEulerAngles = Vector3.zero;
 	}
 	public void Close()
 	{
@@ -27,23 +83,30 @@ public class PhoneUI : MonoBehaviour {
 	}
 	void Reset()
 	{
-		panel.SetActive (false);
 		panel_UI.SetActive (false);
 	}
 	int id;
-	void PhoneConversation(List<PhoneConversationsData.Data> _content, System.Action OnReady)
+	bool NextWillClose;
+	void PhoneConversation()
 	{
-		this.OnReady = OnReady;
 		panel_UI.SetActive (true);
-		this.dataContent = _content;
+		if (lastConversation == dataContent) {
+			NextWillClose = true;
+			return;
+		}
+		Utils.RemoveAllChildsIn (container);
+		NextWillClose = false;
+		lastConversation = dataContent;
+
 		id = 0;
 		Next ();
-
+		string avatarNameText = dataContent [0].character;
+		avatar.sprite = Resources.Load<Sprite> ("profile/" + avatarNameText) as Sprite;
+		avatarName.text = avatarNameText;
 	}
 	public void Next()
 	{
-		if (id >= dataContent.Count) {
-			OnReady ();
+		if(NextWillClose || id >= dataContent.Count) {
 			Reset ();
 			return;
 		}
