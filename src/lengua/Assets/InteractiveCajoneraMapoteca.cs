@@ -24,7 +24,7 @@ public class InteractiveCajoneraMapoteca : InteractiveObject
 		} else if (gameProgressValue == 1) {
 			Events.OnSaveNewData (gameProgressKey, 2);
 			Events.OnSaveNewData ("minimap_1", 1);
-			Events.OnTexts (content.minimap_1, "inventary/minimap_1", OnRepaired);
+			Events.OnTexts (content.minimap_1, "inventary/minimap_1", null);
 		} else if (gameProgressValue == 2) {
 			Events.OnSaveNewData (gameProgressKey, 3);
 			Events.OnTip (content.cajoneraVacia);
@@ -57,5 +57,6 @@ public class InteractiveCajoneraMapoteca : InteractiveObject
 	}
 	void OnRepaired()
 	{
+		Events.OpenTrivia ("cuadernoMapoteca1");
 	}
 }

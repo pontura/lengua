@@ -43,6 +43,13 @@ public class InventaryUI : MonoBehaviour {
 		case "cuadernoBiblioteca3":
 		case "libro_biblioteca_1":
 		case "libro_biblioteca_2":
+
+		case "libro_mapoteca_1":
+		case "libro_mapoteca_2":
+		case "libro_mapoteca_3":
+
+		case "cuadernoMapoteca1":
+		case "cuadernoMapoteca2":
 			Events.OpenTrivia (gameProgressKey);
 			break;
 		}

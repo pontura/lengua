@@ -43,9 +43,14 @@
 	"cuadernoMapoteca2": "¡Otro cuaderno!",
 	"libro_mapoteca_1": "Ah... había un ln libro en el piso/El hombre lobo... a ver de qué va...",
 	"libro_mapoteca_2": "La inmolación por la belleza... A ver de qué se trata...",
-	"libro_mapoteca_3": "libro_mapoteca_3",
+	"libro_mapoteca_3": "El anillo encantado",
 	"lobo": "Un lobo...",
 	"lobos": "Lobos",
 	"map": "A este mapa le falta algo",
-	"mapReady": "Este mapa ya está completo"
+	"mapReady": "Este mapa ya está completo",
+	"palanca": "Una palanca... ¿para que servirá?",
+	"ladder_1": "escalera no anda",
+	"ladder_2": "ahora si",
+	"globo_1": "ahora si",
+	"globo_2": "ahora si"
 }

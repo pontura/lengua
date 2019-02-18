@@ -74,6 +74,22 @@ public class Trivia : MonoBehaviour {
 				}
 			}
 			break;
+		case "libro_mapoteca_1":
+			if (Data.Instance.gameProgress.GetData ("minimap_3").value == 0) {
+				if (Data.Instance.gameProgress.GetData ("minimap_3").value == 0) {
+					Events.OnSaveNewData ("minimap_3", 1);
+					Events.OnTexts (Data.Instance.interactiveObjectsTexts.content.minimap_3, "inventary/minimap_3", null);
+				}
+			}
+			break;
+		case "libro_mapoteca_3":
+			if (Data.Instance.gameProgress.GetData ("palanca").value == 0) {
+				if (Data.Instance.gameProgress.GetData ("palanca").value == 0) {
+					Events.OnSaveNewData ("palanca", 1);
+					Events.OnTexts (Data.Instance.interactiveObjectsTexts.content.palanca, "inventary/palanca", null);
+				}
+			}
+			break;
 		case "cuadernoBiblioteca1":
 			OnCuadernoWin ("cuadernoBiblioteca1");
 			break;

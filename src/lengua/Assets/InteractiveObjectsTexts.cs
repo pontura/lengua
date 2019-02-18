@@ -28,6 +28,8 @@ public class InteractiveObjectsTexts : MonoBehaviour {
 				return libros_dibujos;
 			case "libro_mapoteca_1":
 				return libro_mapoteca_1;
+			case "libro_mapoteca_2":
+				return libro_mapoteca_2;
 			case "libro_mapoteca_3":
 				return libro_mapoteca_3;
 			case "lobo":
@@ -91,6 +93,12 @@ public class InteractiveObjectsTexts : MonoBehaviour {
 		public string lobos;
 		public string map;
 		public string mapReady;
+		public string palanca;
+		public string ladder_1;
+		public string ladder_2;
+
+		public string globo_1;
+		public string globo_2;
 	}
 	public Content content;
 
