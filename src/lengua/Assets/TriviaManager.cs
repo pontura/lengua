@@ -7,7 +7,10 @@ public class TriviaManager : MonoBehaviour {
 
 	public bool test;
 	public Text title;
-	public Image background;
+	public Image backgroundLibro;
+	public GameObject libro;
+	public Image backgroundCuaderno;
+	public GameObject cuaderno;
 
 	public Text triviaQuest;
 	public List<Text> triviaAns;
@@ -48,16 +51,22 @@ public class TriviaManager : MonoBehaviour {
 			antologia = Data.Instance.triviaData.GetAntologiaByGProgress (gameProgressKey);		
 			Color color = new Color ();
 			ColorUtility.TryParseHtmlString (antologia.color, out color);
-			background.color = color;
+			backgroundLibro.color = color;
+			backgroundCuaderno.color = color;
 			title.text = antologia.title;
 			paginator.SetPages (antologia.texts [tProgress.triviasIndex].textlines, antologia.type, tProgress);
 			if (antologia.type == TriviaData.TriviaType.literatura) {
+				libro.SetActive (true);
+				cuaderno.SetActive (false);
 				TriviaData.Trivia t = antologia.trivias [tProgress.triviasIndex];
 				triviaQuest.text = t.quest;
 				for (int i = 0; i < t.answers.Length; i++)
 					triviaAns [i].text = t.answers [i];
 
 				ShuffleChildOrder (optionsContainer);
+			} else {
+				libro.SetActive (false);
+				cuaderno.SetActive (true);
 			}
 		}
 	}
