@@ -1,138 +1,138 @@
 {
-	"joaco_biblioteca":
+	"Joaco_biblioteca":
 	[
 		{
-			"character":"joaco",
+			"character":"Joaco",
 			"emoji":"",
 			"text": "¡Ey! ¿Cómo va eso, amige?"
 		},
 		{
-			"character":"avatar",
+			"character":"Yo",
 			"emoji":"icons01",
 			"text": "(emoji de ufff)"
 		},
 		{
-			"character":"avatar",
+			"character":"Yo",
 			"emoji":"",
 			"text": "(Acá, ejercitándome para el futuro (emoji con anteojitos)"
 		},
 		{
-			"character":"joaco",
+			"character":"Joaco",
 			"emoji":"",
 			"text": "¡Ah, claro! Hoy ibas al colegio donde trabaja tu tía ¿Yyyy?"
 		},
 		{
-			"character":"avatar",
+			"character":"Yo",
 			"emoji":"",
 			"text": "Qué se yo. Ya sabés que mucho no me convence"
 		},
 		{
-			"character":"joaco",
+			"character":"Joaco",
 			"emoji":"",
 			"text": "¿Dar el examen?"
 		},
 		{
-			"character":"avatar",
+			"character":"Yo",
 			"emoji":"",
 			"text": "¡¡¿Te das cuenta de que si lo doy bien, voy a tener que mudarme?!!"
 		},
 		{
-			"character":"joaco",
+			"character":"Joaco",
 			"emoji":"embole",
 			"text": ""
 		},
 		{
-			"character":"joaco",
+			"character":"Joaco",
 			"emoji":"",
 			"text": "Tu mamá quiere que vivan un tiempo con tu tía, ¿no?"
 		},
 		{
-			"character":"avatar",
+			"character":"Yo",
 			"emoji":"",
 			"text": "Sí, es verdad que este colegio quedaría muy lejos de mi casa de ahora"
 		},
 		{
-			"character":"avatar",
+			"character":"Yo",
 			"emoji":"",
 			"text": "Pero no sé, van a ser muchos cambios juntos"
 		},
 		{
-			"character":"avatar",
+			"character":"Yo",
 			"emoji":"",
 			"text": "La mudanza, dejar el otro cole. Además, vos y yo…"
 		},
 		{
-			"character":"joaco",
+			"character":"Joaco",
 			"emoji":"",
 			"text": "¿Vos y yo qué?"
 		},
 		{
-			"character":"avatar",
+			"character":"Yo",
 			"emoji":"",
 			"text": "Nada, ¿Es normal que haya armaduras en la biblioteca?"
 		},
 		{
-			"character":"joaco",
+			"character":"Joaco",
 			"emoji":"ojos",
 			"text": ""
 		},
 		{
-			"character":"joaco",
+			"character":"Joaco",
 			"emoji":"",
 			"text": "¡¿Armaduras?!"
 		},
 		{
-			"character":"avatar",
+			"character":"Yo",
 			"emoji":"",
 			"text": "Este lugar tiene cosas medio raras (emoji de pensar)"
 		},
 		{
-			"character":"avatar",
+			"character":"Yo",
 			"emoji":"",
 			"text": "Seguiré reportando para usted ni bien descubra otra"
 		},
 		{
-			"character":"joaco",
+			"character":"Joaco",
 			"emoji":"",
 			"text": "Suerte con eso"
 		},
 		{
-			"character":"joaco",
+			"character":"Joaco",
 			"emoji":"",
 			"text": "Yo voy a seguir con mi nuevo videojuego, Zamba zombi"
 		},
 		{
-			"character":"joaco",
+			"character":"Joaco",
 			"emoji":"",
 			"text": "Si no bailás bien, te ataca una horda y te comen crudo"
 		},
 		{
-			"character":"joaco",
+			"character":"Joaco",
 			"emoji":"risa",
 			"text": ""
 		},
 		{
-			"character":"joaco",
+			"character":"Joaco",
 			"emoji":"monstruo",
 			"text": ""
 		},
 		{
-			"character":"joaco",
+			"character":"Joaco",
 			"emoji":"carne",
 			"text": ""
 		},
 		{
-			"character":"avatar",
+			"character":"Yo",
 			"emoji":"pulgar",
 			"text": ""
 		},
 		{
-			"character":"avatar",
+			"character":"Yo",
 			"emoji":"monstruo",
 			"text": ""
 		},
 		{
-			"character":"avatar",
+			"character":"Yo",
 			"emoji":"carne",
 			"text": ""
 		}		
@@ -145,7 +145,7 @@
 			"text": "Buenas, ¿todo bien por ahí?"
 		},
 		{
-			"character":"avatar",
+			"character":"Yo",
 			"emoji":"",
 			"text": "'¿Todo?'... No, todo, todo no"
 		},
@@ -155,7 +155,7 @@
 			"text": "Cuenteme, sobri, ¿qué te aqueja?"
 		},
 		{
-			"character":"avatar",
+			"character":"Yo",
 			"emoji":"",
 			"text": "(icono aburrimiento) Béh.... La vida misma"
 		},
@@ -165,17 +165,17 @@
 			"text": "Eso es mucho, hacé un recorte"
 		},
 		{
-			"character":"avatar",
+			"character":"Yo",
 			"emoji":"",
 			"text": "Bueno, lo hago"
 		},
 		{
-			"character":"avatar",
+			"character":"Yo",
 			"emoji":"",
 			"text": "Preferiría estar en un bosque, con las patas en un arroyo"
 		},
 		{
-			"character":"avatar",
+			"character":"Yo",
 			"emoji":"",
 			"text": "Pero estoy acá, respirando el polvo de quichicientos libros"
 		},
@@ -195,7 +195,7 @@
 			"text": "Contiene una alta cuota de ácaros, pero todo lo bueno tiene su precio"
 		},
 		{
-			"character":"avatar",
+			"character":"Yo",
 			"emoji":"",
 			"text": "¿Qué son los ácaros?"
 		},
@@ -210,7 +210,7 @@
 			"text": "Lo que importa es que este colegio esconde un misterio..."
 		},
 		{
-			"character":"avatar",
+			"character":"Yo",
 			"emoji":"",
 			"text": "(emoji sorprendido)"
 		},
