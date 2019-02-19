@@ -8,13 +8,18 @@
 		},
 		{
 			"character":"Yo",
-			"emoji":"icons01",
-			"text": "(emoji de ufff)"
+			"emoji":"icons02",
+			"text": "..."
 		},
 		{
 			"character":"Yo",
 			"emoji":"",
-			"text": "(Acá, ejercitándome para el futuro (emoji con anteojitos)"
+			"text": "Acá, ejercitándome para el futuro."
+		},
+		{
+			"character":"Yo",
+			"emoji":"icons01",
+			"text": ""
 		},
 		{
 			"character":"Joaco",
@@ -34,11 +39,11 @@
 		{
 			"character":"Yo",
 			"emoji":"",
-			"text": "¡¡¿Te das cuenta de que si lo doy bien, voy a tener que mudarme?!!"
+			"text": "¡¡Si lo doy bien, voy a tener que mudarme!!"
 		},
 		{
 			"character":"Joaco",
-			"emoji":"embole",
+			"emoji":"icons02",
 			"text": ""
 		},
 		{
@@ -47,9 +52,14 @@
 			"text": "Tu mamá quiere que vivan un tiempo con tu tía, ¿no?"
 		},
 		{
+			"character":"Joaco",
+			"emoji":"icons02",
+			"text": ""
+		},
+		{
 			"character":"Yo",
 			"emoji":"",
-			"text": "Sí, es verdad que este colegio quedaría muy lejos de mi casa de ahora"
+			"text": "Sí. Este colegio quedaría muy lejos de mi casa"
 		},
 		{
 			"character":"Yo",
@@ -73,7 +83,7 @@
 		},
 		{
 			"character":"Joaco",
-			"emoji":"ojos",
+			"emoji":"icons03",
 			"text": ""
 		},
 		{
@@ -82,9 +92,19 @@
 			"text": "¡¿Armaduras?!"
 		},
 		{
+			"character":"Joaco",
+			"emoji":"icons03",
+			"text": ""
+		},
+		{
 			"character":"Yo",
 			"emoji":"",
 			"text": "Este lugar tiene cosas medio raras (emoji de pensar)"
+		},
+		{
+			"character":"Yo",
+			"emoji":"icons04",
+			"text": ""
 		},
 		{
 			"character":"Yo",
@@ -103,37 +123,32 @@
 		},
 		{
 			"character":"Joaco",
+			"emoji":"icons10",
+			"text": ""
+		},
+		{
+			"character":"Joaco",
 			"emoji":"",
 			"text": "Si no bailás bien, te ataca una horda y te comen crudo"
 		},
 		{
 			"character":"Joaco",
-			"emoji":"risa",
+			"emoji":"icons05",
 			"text": ""
 		},
 		{
 			"character":"Joaco",
-			"emoji":"monstruo",
-			"text": ""
-		},
-		{
-			"character":"Joaco",
-			"emoji":"carne",
+			"emoji":"icons09",
 			"text": ""
 		},
 		{
 			"character":"Yo",
-			"emoji":"pulgar",
+			"emoji":"icons06",
 			"text": ""
 		},
 		{
 			"character":"Yo",
-			"emoji":"monstruo",
-			"text": ""
-		},
-		{
-			"character":"Yo",
-			"emoji":"carne",
+			"emoji":"icons11",
 			"text": ""
 		}		
 	],
