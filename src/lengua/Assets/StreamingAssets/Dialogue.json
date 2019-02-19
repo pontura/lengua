@@ -155,4 +155,102 @@
 			"text": "¡Ah! Ok, la escalera se mueve sola..."
 		}
 	]
+	"mapoteca":
+	[
+		{
+			"character":"avatar",
+			"state":"neutro",
+			"text": "¿Ho… Hola?"
+		},
+		{
+			"character":"zina",
+			"state":"contento",
+			"text": "¡Ah! Ok, la escalera se mueve sola..."
+		},
+		{
+			"character":"avatar",
+			"state":"neutro",
+			"text": "¿Y usted es...?"
+		},
+		{
+			"character":"zina",
+			"state":"reflexivo",
+			"text": "Me dicen Zina. Mi nombre completo quiere decir 'La que está dispuesta a todo' ¿Sabes el significado de tu nombre?"
+		},
+		{
+			"character":"avatar",
+			"state":"neutro",
+			"text": "Nop. Ni se me había ocurrido que pueda tener uno"
+		},
+		{
+			"character":"zina",
+			"state":"neutro",
+			"text": "Todas las palabras significan algo. Y los silencios también"
+		},
+		{
+			"character":"avatar",
+			"state":"reflexivo",
+			"text": "..."
+		},
+		{
+			"character":"zina",
+			"state":"reflexivo",
+			"text": "..."
+		},
+		{
+			"character":"avatar",
+			"state":"fastidio",
+			"text": "Esteeeemmm. Okey… ¿Usted no estaba con mi tía? Marian me dijo que estaba con usted"
+		},
+		{
+			"character":"zina",
+			"state":"fastidio",
+			"text": "Ah, sí, en algún momento. Nos vemos, nos dejamos de ver... Una persona muy particular tu tía. Todos la apreciamos mucho acá ¿Entiendo que tenés dudas sobre entrar a este colegio?"
+		},
+		{
+			"character":"avatar",
+			"state":"neutro",
+			"text": "¡Qué chusma es Marian? ¿Ya le contó eso de mí?"
+		},
+		{
+			"character":"zina",
+			"state":"neutro",
+			"text": "No, no. No me dijo nada pero tengo un oído muy fino. Algo oí de lo que le comentaste en la oficina del director"
+		},
+		{
+			"character":"avatar",
+			"state":"reflexivo",
+			"text": "¿En la oficina? ¡¿Pero si estábamos ella y yo, nomás?!"
+		},
+		{
+			"character":"zina",
+			"state":"contento",
+			"text": "Ah, estas paredes son de papel, se oye todo si estás en el lugar indicado. Igual tomalo con calma, es normal tener dudas sobre lo que puede cambiarte la vida. Y este colegio te la va a cambiar si vos estás dispuesta."
+		},
+		{
+			"character":"avatar",
+			"state":"neutro",
+			"text": "Eso es lo que todavía no sé"
+		},
+		{
+			"character":"zina",
+			"state":"contento",
+			"text": "Por lo pronto hay un montón de cosas interesantes para descubrir acá mismo¡Yo misma soy una de ellas y me descubriste! Ja, ja"
+		},
+		{
+			"character":"avatar",
+			"state":"contento",
+			"text": "..."
+		},
+		{
+			"character":"zina",
+			"state":"contento",
+			"text": "Bueno, te dejo hacer lo tuyo ¡Espero verte después, criatura!"
+		},
+		{
+			"character":"avatar",
+			"state":"preocupado",
+			"text": "¿'Criatura'? Nadie me llama así desde… ¡Nunca! En fin, vamos a 'lo nuestro'"
+		}
+	]
 }
