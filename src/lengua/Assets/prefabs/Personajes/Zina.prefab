@@ -683,6 +683,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 439416808897222244}
+  - component: {fileID: 8750114695416517252}
+  - component: {fileID: 559351594538321394}
   m_Layer: 0
   m_Name: Zina
   m_TagString: Untagged
@@ -705,6 +707,44 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
+--- !u!114 &8750114695416517252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 439416808897222247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64c285e08e44a2e4fac766fb1968943a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 439416807754168784}
+  state: 0
+  expressions: {fileID: 559351594538321394}
+--- !u!114 &559351594538321394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 439416808897222247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2df553c3a2b36c54f811218da845c2b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  all:
+  - state: 0
+    spriteRenderer: {fileID: 7262572329999490324}
+  - state: 4
+    spriteRenderer: {fileID: 1394703368}
+  - state: 3
+    spriteRenderer: {fileID: 1527362812}
+  - state: 1
+    spriteRenderer: {fileID: 8764910859566498118}
+  - state: 2
+    spriteRenderer: {fileID: 969673928}
 --- !u!1 &439416809075024807
 GameObject:
   m_ObjectHideFlags: 0

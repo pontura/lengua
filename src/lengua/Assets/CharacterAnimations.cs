@@ -16,15 +16,28 @@ public class CharacterAnimations : MonoBehaviour {
 	{
 		IDLE,
 		WALK,
-		ENTER
+		ENTER,
+		LADDER
 	}
 	public void Idle () {
 		PlayAnim ("idle");
 		state = states.IDLE;
 	}
+	public void Talk () {
+		PlayAnim ("talk");
+		state = states.IDLE;
+	}
 	public void Walk () {
 		PlayAnim ("walk");
 		state = states.WALK;
+	}
+	public void Ladder () {
+		PlayAnim ("ladder");
+		state = states.LADDER;
+	}
+	public void Disappear () {
+		PlayAnim ("disappear");
+		state = states.IDLE;
 	}
 	public void Use () {
 		PlayAnim ("use");

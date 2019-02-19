@@ -6,6 +6,8 @@ public class Cutscenes : MonoBehaviour {
 
 	public Room room;
 	public CharacterAnimations marian;
+	public CharacterAnimations zina;
+	public CharacterAnimations avatar;
 
 	public types type;
 	public enum types
@@ -33,18 +35,39 @@ public class Cutscenes : MonoBehaviour {
 		if(type == types.INTRO || type == types.BIBLIOTECA)
 			Invoke ("Delayed", 0.15f);
 	}
-
+	public void Avatar_Idle()
+	{
+		avatar.Idle ();
+	}
 	public void Avatar_Walk()
 	{
-		room.roomsManager.character.view.characterAnimations.Walk ();
+		avatar.Walk ();
 	}
+	public void Avatar_Ladder()
+	{
+		avatar.Ladder ();
+	}
+
 	public void Marian_Idle()
 	{
 		marian.Idle ();
 	}
+	public void Marian_Talk()
+	{
+		marian.Talk ();
+	}
 	public void Marian_Walk()
 	{
 		marian.Walk ();
+	}
+
+	public void Zina_Idle()
+	{
+		zina.Idle ();
+	}
+	public void Zina_Disappear()
+	{
+		zina.Disappear ();
 	}
 
 	public void Avatar_Exp_NEUTRO()
@@ -89,6 +112,27 @@ public class Cutscenes : MonoBehaviour {
 		marian.expressions.SetOn (CharacterExpressions.states.FASTIDIO);
 	}
 
+	public void Zina_Exp_NEUTRO()
+	{
+		zina.expressions.SetOn (CharacterExpressions.states.NEUTRO);
+	}
+	public void Zina_Exp_CONTENTO()
+	{
+		zina.expressions.SetOn (CharacterExpressions.states.CONTENTO);
+	}
+	public void Zina_Exp_REFLEXIVO()
+	{
+		zina.expressions.SetOn (CharacterExpressions.states.REFLEXIVO);
+	}
+	public void Zina_Exp_PREOCUPADO()
+	{
+		zina.expressions.SetOn (CharacterExpressions.states.PREOCUPADO);
+	}
+	public void Zina_Exp_FASTIDIO()
+	{
+		zina.expressions.SetOn (CharacterExpressions.states.FASTIDIO);
+	}
+
 	void Delayed()
 	{	
 
@@ -100,8 +144,10 @@ public class Cutscenes : MonoBehaviour {
 				return;
 			break;
 		case types.BIBLIOTECA:
-			if(Data.Instance.gameProgress.GetData("cuerno").value==0)
+			if (Data.Instance.gameProgress.GetData ("cuerno1").value == 0) {
 				GetComponent<Animation> ().Play ("biblioteca");
+				room.roomsManager.character.transform.position = new Vector3 (-8, 1, 0);
+			}
 			else
 				return;
 			break;

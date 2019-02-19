@@ -9616,6 +9616,31 @@ MonoBehaviour:
     libros_dibujos: "\xA1Cu\xE1ntos libros! \xBFUno con dibujitos no habr\xE1?"
     rueda: 
     puertaMapoteca: 
+    minimap_1: 
+    minimap_2: 
+    minimap_3: 
+    minimap_1_inserted: 
+    minimap_2_inserted: 
+    minimap_3_inserted: 
+    cajoneraVacia: 
+    cuadernoMapoteca1: 
+    cuadernoMapoteca2: 
+    libro_mapoteca_1: 
+    libro_mapoteca_2: 
+    libro_mapoteca_3: 
+    lobo: 
+    lobos: 
+    map: 
+    mapReady: 
+    palanca: 
+    ladder_1: 
+    ladder_2: 
+    globo_1: 
+    globo_2: 
+    tarjeta: 
+    mapasDesconocidos: 
+    mapaConstelacion: 
+    mapasMedicion: 
   gameProgress: {fileID: 0}
   gameProgressKey: 
   gameProgressValue: 0
@@ -15447,6 +15472,31 @@ MonoBehaviour:
     libros_dibujos: "\xA1Cu\xE1ntos libros! \xBFUno con dibujitos no habr\xE1?"
     rueda: 
     puertaMapoteca: 
+    minimap_1: 
+    minimap_2: 
+    minimap_3: 
+    minimap_1_inserted: 
+    minimap_2_inserted: 
+    minimap_3_inserted: 
+    cajoneraVacia: 
+    cuadernoMapoteca1: 
+    cuadernoMapoteca2: 
+    libro_mapoteca_1: 
+    libro_mapoteca_2: 
+    libro_mapoteca_3: 
+    lobo: 
+    lobos: 
+    map: 
+    mapReady: 
+    palanca: 
+    ladder_1: 
+    ladder_2: 
+    globo_1: 
+    globo_2: 
+    tarjeta: 
+    mapasDesconocidos: 
+    mapaConstelacion: 
+    mapasMedicion: 
   gameProgress: {fileID: 0}
   gameProgressKey: puerta_biblioteca_patio
   gameProgressValue: 0
@@ -16167,6 +16217,31 @@ MonoBehaviour:
     libros_dibujos: "\xA1Cu\xE1ntos libros! \xBFUno con dibujitos no habr\xE1?"
     rueda: 
     puertaMapoteca: 
+    minimap_1: 
+    minimap_2: 
+    minimap_3: 
+    minimap_1_inserted: 
+    minimap_2_inserted: 
+    minimap_3_inserted: 
+    cajoneraVacia: 
+    cuadernoMapoteca1: 
+    cuadernoMapoteca2: 
+    libro_mapoteca_1: 
+    libro_mapoteca_2: 
+    libro_mapoteca_3: 
+    lobo: 
+    lobos: 
+    map: 
+    mapReady: 
+    palanca: 
+    ladder_1: 
+    ladder_2: 
+    globo_1: 
+    globo_2: 
+    tarjeta: 
+    mapasDesconocidos: 
+    mapaConstelacion: 
+    mapasMedicion: 
   gameProgress: {fileID: 0}
   gameProgressKey: alfonsina
   gameProgressValue: 0
@@ -21782,11 +21857,36 @@ MonoBehaviour:
     libros_dibujos: "\xA1Cu\xE1ntos libros! \xBFUno con dibujitos no habr\xE1?"
     rueda: 
     puertaMapoteca: 
+    minimap_1: 
+    minimap_2: 
+    minimap_3: 
+    minimap_1_inserted: 
+    minimap_2_inserted: 
+    minimap_3_inserted: 
+    cajoneraVacia: 
+    cuadernoMapoteca1: 
+    cuadernoMapoteca2: 
+    libro_mapoteca_1: 
+    libro_mapoteca_2: 
+    libro_mapoteca_3: 
+    lobo: 
+    lobos: 
+    map: 
+    mapReady: 
+    palanca: 
+    ladder_1: 
+    ladder_2: 
+    globo_1: 
+    globo_2: 
+    tarjeta: 
+    mapasDesconocidos: 
+    mapaConstelacion: 
+    mapasMedicion: 
   gameProgress: {fileID: 0}
   gameProgressKey: escalera
   gameProgressValue: 0
   assets:
-  - {fileID: 0}
+  - {fileID: 6137490449152005927}
   - {fileID: 1786077928081176}
 --- !u!1 &1612187649231584
 GameObject:
@@ -22901,6 +23001,31 @@ MonoBehaviour:
     libros_dibujos: "\xA1Cu\xE1ntos libros! \xBFUno con dibujitos no habr\xE1?"
     rueda: 
     puertaMapoteca: 
+    minimap_1: 
+    minimap_2: 
+    minimap_3: 
+    minimap_1_inserted: 
+    minimap_2_inserted: 
+    minimap_3_inserted: 
+    cajoneraVacia: 
+    cuadernoMapoteca1: 
+    cuadernoMapoteca2: 
+    libro_mapoteca_1: 
+    libro_mapoteca_2: 
+    libro_mapoteca_3: 
+    lobo: 
+    lobos: 
+    map: 
+    mapReady: 
+    palanca: 
+    ladder_1: 
+    ladder_2: 
+    globo_1: 
+    globo_2: 
+    tarjeta: 
+    mapasDesconocidos: 
+    mapaConstelacion: 
+    mapasMedicion: 
   gameProgress: {fileID: 0}
   gameProgressKey: minotauro
   gameProgressValue: 0
@@ -23671,7 +23796,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   room: {fileID: 5654462099031211181}
   marian: {fileID: 114696028346797130}
-  type: 5
+  zina: {fileID: 0}
+  avatar: {fileID: 114912061366974169}
+  type: 3
 --- !u!111 &111628883247051606
 Animation:
   m_ObjectHideFlags: 0
@@ -28732,6 +28859,31 @@ MonoBehaviour:
     libros_dibujos: "\xA1Cu\xE1ntos libros! \xBFUno con dibujitos no habr\xE1?"
     rueda: 
     puertaMapoteca: 
+    minimap_1: 
+    minimap_2: 
+    minimap_3: 
+    minimap_1_inserted: 
+    minimap_2_inserted: 
+    minimap_3_inserted: 
+    cajoneraVacia: 
+    cuadernoMapoteca1: 
+    cuadernoMapoteca2: 
+    libro_mapoteca_1: 
+    libro_mapoteca_2: 
+    libro_mapoteca_3: 
+    lobo: 
+    lobos: 
+    map: 
+    mapReady: 
+    palanca: 
+    ladder_1: 
+    ladder_2: 
+    globo_1: 
+    globo_2: 
+    tarjeta: 
+    mapasDesconocidos: 
+    mapaConstelacion: 
+    mapasMedicion: 
   gameProgress: {fileID: 0}
   gameProgressKey: cuerno1
   gameProgressValue: 0
@@ -41129,6 +41281,31 @@ MonoBehaviour:
     libros_dibujos: "\xA1Cu\xE1ntos libros! \xBFUno con dibujitos no habr\xE1?"
     rueda: 
     puertaMapoteca: 
+    minimap_1: 
+    minimap_2: 
+    minimap_3: 
+    minimap_1_inserted: 
+    minimap_2_inserted: 
+    minimap_3_inserted: 
+    cajoneraVacia: 
+    cuadernoMapoteca1: 
+    cuadernoMapoteca2: 
+    libro_mapoteca_1: 
+    libro_mapoteca_2: 
+    libro_mapoteca_3: 
+    lobo: 
+    lobos: 
+    map: 
+    mapReady: 
+    palanca: 
+    ladder_1: 
+    ladder_2: 
+    globo_1: 
+    globo_2: 
+    tarjeta: 
+    mapasDesconocidos: 
+    mapaConstelacion: 
+    mapasMedicion: 
   gameProgress: {fileID: 0}
   gameProgressKey: cuadernoBiblioteca1
   gameProgressValue: 0
@@ -50773,6 +50950,31 @@ MonoBehaviour:
     libros_dibujos: "\xA1Cu\xE1ntos libros! \xBFUno con dibujitos no habr\xE1?"
     rueda: 
     puertaMapoteca: 
+    minimap_1: 
+    minimap_2: 
+    minimap_3: 
+    minimap_1_inserted: 
+    minimap_2_inserted: 
+    minimap_3_inserted: 
+    cajoneraVacia: 
+    cuadernoMapoteca1: 
+    cuadernoMapoteca2: 
+    libro_mapoteca_1: 
+    libro_mapoteca_2: 
+    libro_mapoteca_3: 
+    lobo: 
+    lobos: 
+    map: 
+    mapReady: 
+    palanca: 
+    ladder_1: 
+    ladder_2: 
+    globo_1: 
+    globo_2: 
+    tarjeta: 
+    mapasDesconocidos: 
+    mapaConstelacion: 
+    mapasMedicion: 
   gameProgress: {fileID: 0}
   gameProgressKey: cuadernoBiblioteca2
   gameProgressValue: 0
@@ -62316,6 +62518,31 @@ MonoBehaviour:
     libros_dibujos: 
     rueda: 
     puertaMapoteca: 
+    minimap_1: 
+    minimap_2: 
+    minimap_3: 
+    minimap_1_inserted: 
+    minimap_2_inserted: 
+    minimap_3_inserted: 
+    cajoneraVacia: 
+    cuadernoMapoteca1: 
+    cuadernoMapoteca2: 
+    libro_mapoteca_1: 
+    libro_mapoteca_2: 
+    libro_mapoteca_3: 
+    lobo: 
+    lobos: 
+    map: 
+    mapReady: 
+    palanca: 
+    ladder_1: 
+    ladder_2: 
+    globo_1: 
+    globo_2: 
+    tarjeta: 
+    mapasDesconocidos: 
+    mapaConstelacion: 
+    mapasMedicion: 
   gameProgress: {fileID: 0}
   gameProgressKey: puertaMapoteca
   gameProgressValue: 0
@@ -63681,6 +63908,31 @@ MonoBehaviour:
     libros_dibujos: "\xA1Cu\xE1ntos libros! \xBFUno con dibujitos no habr\xE1?"
     rueda: 
     puertaMapoteca: 
+    minimap_1: 
+    minimap_2: 
+    minimap_3: 
+    minimap_1_inserted: 
+    minimap_2_inserted: 
+    minimap_3_inserted: 
+    cajoneraVacia: 
+    cuadernoMapoteca1: 
+    cuadernoMapoteca2: 
+    libro_mapoteca_1: 
+    libro_mapoteca_2: 
+    libro_mapoteca_3: 
+    lobo: 
+    lobos: 
+    map: 
+    mapReady: 
+    palanca: 
+    ladder_1: 
+    ladder_2: 
+    globo_1: 
+    globo_2: 
+    tarjeta: 
+    mapasDesconocidos: 
+    mapaConstelacion: 
+    mapasMedicion: 
   gameProgress: {fileID: 0}
   gameProgressKey: armadura
   gameProgressValue: 0
@@ -64567,6 +64819,31 @@ MonoBehaviour:
     libros_dibujos: "\xA1Cu\xE1ntos libros! \xBFUno con dibujitos no habr\xE1?"
     rueda: 
     puertaMapoteca: 
+    minimap_1: 
+    minimap_2: 
+    minimap_3: 
+    minimap_1_inserted: 
+    minimap_2_inserted: 
+    minimap_3_inserted: 
+    cajoneraVacia: 
+    cuadernoMapoteca1: 
+    cuadernoMapoteca2: 
+    libro_mapoteca_1: 
+    libro_mapoteca_2: 
+    libro_mapoteca_3: 
+    lobo: 
+    lobos: 
+    map: 
+    mapReady: 
+    palanca: 
+    ladder_1: 
+    ladder_2: 
+    globo_1: 
+    globo_2: 
+    tarjeta: 
+    mapasDesconocidos: 
+    mapaConstelacion: 
+    mapasMedicion: 
   gameProgress: {fileID: 0}
   gameProgressKey: libros_dibujos
   gameProgressValue: 0
@@ -71313,6 +71590,31 @@ MonoBehaviour:
     libros_dibujos: "\xA1Cu\xE1ntos libros! \xBFUno con dibujitos no habr\xE1?"
     rueda: 
     puertaMapoteca: 
+    minimap_1: 
+    minimap_2: 
+    minimap_3: 
+    minimap_1_inserted: 
+    minimap_2_inserted: 
+    minimap_3_inserted: 
+    cajoneraVacia: 
+    cuadernoMapoteca1: 
+    cuadernoMapoteca2: 
+    libro_mapoteca_1: 
+    libro_mapoteca_2: 
+    libro_mapoteca_3: 
+    lobo: 
+    lobos: 
+    map: 
+    mapReady: 
+    palanca: 
+    ladder_1: 
+    ladder_2: 
+    globo_1: 
+    globo_2: 
+    tarjeta: 
+    mapasDesconocidos: 
+    mapaConstelacion: 
+    mapasMedicion: 
   gameProgress: {fileID: 0}
   gameProgressKey: libros_dibujos
   gameProgressValue: 0
@@ -73140,6 +73442,31 @@ MonoBehaviour:
     libros_dibujos: "\xA1Cu\xE1ntos libros! \xBFUno con dibujitos no habr\xE1?"
     rueda: 
     puertaMapoteca: 
+    minimap_1: 
+    minimap_2: 
+    minimap_3: 
+    minimap_1_inserted: 
+    minimap_2_inserted: 
+    minimap_3_inserted: 
+    cajoneraVacia: 
+    cuadernoMapoteca1: 
+    cuadernoMapoteca2: 
+    libro_mapoteca_1: 
+    libro_mapoteca_2: 
+    libro_mapoteca_3: 
+    lobo: 
+    lobos: 
+    map: 
+    mapReady: 
+    palanca: 
+    ladder_1: 
+    ladder_2: 
+    globo_1: 
+    globo_2: 
+    tarjeta: 
+    mapasDesconocidos: 
+    mapaConstelacion: 
+    mapasMedicion: 
   gameProgress: {fileID: 0}
   gameProgressKey: cuadernoBiblioteca3
   gameProgressValue: 0
@@ -73587,6 +73914,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Julia
       objectReference: {fileID: 0}
+    - target: {fileID: 1781637751549956, guid: af796ff2521229a45b180347e04ba539, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 114912061241373398, guid: af796ff2521229a45b180347e04ba539,
         type: 3}
       propertyPath: anim
@@ -73669,6 +74000,24 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 412910607}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &114912061366974169 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114912061241373398, guid: af796ff2521229a45b180347e04ba539,
+    type: 3}
+  m_PrefabInstance: {fileID: 412910607}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64c285e08e44a2e4fac766fb1968943a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!95 &95479911396440145 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 95479910984121438, guid: af796ff2521229a45b180347e04ba539,
+    type: 3}
+  m_PrefabInstance: {fileID: 412910607}
+  m_PrefabAsset: {fileID: 0}
 --- !u!212 &212397019434038737 stripped
 SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 212397019022176734, guid: af796ff2521229a45b180347e04ba539,
@@ -73696,12 +74045,6 @@ SpriteRenderer:
 --- !u!212 &212901446781431511 stripped
 SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 212901447175400152, guid: af796ff2521229a45b180347e04ba539,
-    type: 3}
-  m_PrefabInstance: {fileID: 412910607}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &95479911396440145 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 95479910984121438, guid: af796ff2521229a45b180347e04ba539,
     type: 3}
   m_PrefabInstance: {fileID: 412910607}
   m_PrefabAsset: {fileID: 0}
