@@ -138,15 +138,18 @@ public class Cutscenes : MonoBehaviour {
 
 		switch (type) {
 		case types.INTRO:
-			if (Data.Instance.gameProgress.GetData ("picaporte").value == 0)
+			if (Data.Instance.gameProgress.GetData ("cutscenes").value == 0) {
 				GetComponent<Animation> ().Play ("intro");
+				Events.OnSaveNewData ("cutscenes", 1);
+			}
 			else
 				return;
 			break;
 		case types.BIBLIOTECA:
-			if (Data.Instance.gameProgress.GetData ("cuerno1").value == 0) {
+			if (Data.Instance.gameProgress.GetData ("cutscenes").value == 1) {
+				Events.OnSaveNewData ("cutscenes", 2);
+				Events.OnFloorClicked (new Vector3 (-8.5f, 0, 2));
 				GetComponent<Animation> ().Play ("biblioteca");
-				room.roomsManager.character.transform.position = new Vector3 (-8, 1, 0);
 			}
 			else
 				return;

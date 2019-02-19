@@ -23831,7 +23831,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   roomsManager: {fileID: 0}
   type: 1
-  limitsX: {x: -8.8, y: 8.8}
+  limitsX: {x: -8.05, y: 8.8}
   limitsZ: {x: 2.3, y: 0.7}
 --- !u!1 &1904987196565908
 GameObject:

@@ -34,6 +34,10 @@ public class Character : MonoBehaviour {
 	}
 	void ChangeRoom(Room.types type, Vector2 _pos)
 	{
+		Repositionate (_pos);
+	}
+	public void Repositionate(Vector2 _pos)
+	{
 		Vector3 pos = new Vector3 (_pos.x, transform.localPosition.y, _pos.y);
 		target.transform.position = pos;
 		transform.position = pos;
@@ -49,7 +53,7 @@ public class Character : MonoBehaviour {
 		selectedInteractiveObject = io;
 		WalkTo (io.transform.localPosition + offset);
 	}
-	void OnFloorClicked (Vector3 pos) {
+	public void OnFloorClicked (Vector3 pos) {
 		selectedInteractiveObject = null;
 		WalkTo (pos);
 	}
