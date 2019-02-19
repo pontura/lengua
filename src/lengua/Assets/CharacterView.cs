@@ -24,7 +24,15 @@ public class CharacterView : MonoBehaviour {
 		characterAnimations.Idle ();
 		characterExpressions = characterAnimations.GetComponent<CharacterExpressions> ();
 	}
-
+	public void ResetPosition()
+	{
+		iTween it = GetComponent<iTween> ();
+		if (it != null) {			
+			iTween.Stop (gameObject);
+		}
+		Vector3 newPos = target.transform.localPosition;
+		transform.localPosition = newPos;	
+	}
 	public void LookTo(Vector3 pos)
 	{
 		if (pos.x < transform.localPosition.x)

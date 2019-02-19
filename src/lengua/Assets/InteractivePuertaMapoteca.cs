@@ -9,6 +9,8 @@ public class InteractivePuertaMapoteca : InteractiveObject
 		if (Data.Instance.gameProgress.GetData ("escalera").value == 1) {
 			Events.OnSaveNewData ("escalera", 2);
 			Events.OnCutscene (Cutscenes.types.PUERTA_MAPOTECA);
+		} else if (Data.Instance.gameProgress.GetData ("escalera").value == 2) {
+			
 		} else {
 			Events.OnTip (content.puertaMapoteca);
 		}

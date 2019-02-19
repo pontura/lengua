@@ -12978,6 +12978,7 @@ Transform:
   - {fileID: 8821741139934462974}
   - {fileID: 1365857983797002813}
   - {fileID: 4797308830585814794}
+  - {fileID: 6475637082961815275}
   m_Father: {fileID: 4777564607557290}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -15915,7 +15916,7 @@ Transform:
   m_GameObject: {fileID: 358487389253905108}
   m_LocalRotation: {x: -0, y: -0, z: -7.1054265e-15, w: 1}
   m_LocalPosition: {x: 0, y: 0.3, z: 0}
-  m_LocalScale: {x: 4.77, y: 1.54, z: 0.5}
+  m_LocalScale: {x: 1.5, y: 1.54, z: 0.5}
   m_Children: []
   m_Father: {fileID: 4797308830585814794}
   m_RootOrder: 0
@@ -42381,6 +42382,97 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &3135835060287814842
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2616548553544705963}
+  - component: {fileID: 5897520091921189803}
+  - component: {fileID: 3236984184595008702}
+  - component: {fileID: 2451519166051987465}
+  m_Layer: 0
+  m_Name: collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2616548553544705963
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3135835060287814842}
+  m_LocalRotation: {x: -0, y: -0, z: -7.1054265e-15, w: 1}
+  m_LocalPosition: {x: 0, y: 0.3, z: 0}
+  m_LocalScale: {x: 1.5, y: 1.54, z: 0.5}
+  m_Children: []
+  m_Father: {fileID: 6475637082961815275}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &5897520091921189803
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3135835060287814842}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &3236984184595008702
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3135835060287814842}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &2451519166051987465
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3135835060287814842}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3139954862110985831
 GameObject:
   m_ObjectHideFlags: 0
@@ -53982,6 +54074,128 @@ Transform:
   m_Father: {fileID: 604861706593632321}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5917019956134322533
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6475637082961815275}
+  - component: {fileID: 2431926981875416687}
+  m_Layer: 0
+  m_Name: libros_dibujos (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6475637082961815275
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5917019956134322533}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3.21, y: -0.25, z: 2.9}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2616548553544705963}
+  m_Father: {fileID: 4796298250657162}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2431926981875416687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5917019956134322533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 553e10c846521bf46a112a277fe8032a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walkToMe: 1
+  waltoToMeOffset: {x: 0, y: 0, z: -0.5}
+  content:
+    picaporte_1: Esto no se ve bien. Mejor le aviso a Marian
+    picaporte_2: "Tengo que encontrar una forma de salir\u2026 Con dignidad"
+    picaporte_3: Con este destornillador tengo que poder arregar esta puerta...
+    picaporte_4: "\xA1S\xED\xED\xED\xED! \xA1In your face, puerta!"
+    escritorio: El escritorio de la directora, o del director. Ya tocarlo me hace
+      sentir importante
+    libroIngreso: "\xA1Encontraste un LIBRO del ingreso!/Lee y responde la trivia
+      para avanzar en la historia./Es necesario leer todos los libros para avanzar."
+    escritorioDoor1: "No huyas, cobarde. Esto no puede ser taaan dif\xEDcil."
+    fichero_1: "\xA1Entrega tus secretos! Owww\u2026 Cerrado"
+    fichero_con_llave: "Voy a probar esta llave en el fichero/\xA1Funcion\xF3!"
+    fichero_con_llave2: "\xA1Encontraste un CUADERNO del ingreso!/Lee y responde la
+      trivia para avanzar en la historia."
+    fichero_done: Ya no hay nada en este viejo fichero
+    cuadro1: "Mar\xEDa Remedios del Valle (1766 - 1847)/Valiente capitana de la Patria\u201D/\xA1Vamos
+      las pibas!"
+    libroCuadro: 'Un libro... se llama: Amigos por el viento, de Liliana Bodoc.'
+    libroCuadro2: "\xA1\xBFEh?! Me pareci\xF3 que algo se mov\xEDa..."
+    libroBloqueado: Me siento un poco bloqueda... voy a esperar un minuto
+    libroCompletado: "\xA1Por suerte este libro ya lo termin\xE9!"
+    cuerno1: "Un cuerno... \xBFen el p\xEDso? \xBFqu\xE9 har\xE1 este cuerno en el
+      piso?..."
+    cuerno2: "\xA1Otro cuerno!"
+    minotauro_0: "A este animal le falta algo\u2026"
+    minotauro_1: "Mejor pero\u2026 \xBFa que extra\xF1\xE1s el otro cuerno?"
+    minotauro_2: "Ahora s\xED, \xA1un monstruo hecho y derecho!"
+    alfonsina: "'\xBFQu\xE9 mundos tengo dentro del alma\u2026/que hace tiempo vengo
+      pidiendo medios para volar?' -Alfonsina Storni"
+    puerta_biblioteca_patio: "Parece tener un lector de tarjeta. \xA1Cu\xE1nta seguridad!"
+    escalera_1: "Me encantar\xEDa deslizarme pero le falta una ruedita\u2026 \xA1Y
+      un escal\xF3n!"
+    escalera_2: "\xA1Ahora si que sirve para algo!"
+    cuadernoBiblioteca1: Encontraste cuaderno Biblioteca 1
+    cuadernoBiblioteca2: Encontraste cuaderno Biblioteca 2
+    cuadernoBiblioteca3: Encontraste cuaderno Biblioteca 3
+    libro_biblioteca_1: "\xA1Epa! encontr\xE9 un libro debajo de esta armadura/'La
+      casa de Asteri\xF3n'.../a ver..."
+    libro_biblioteca_2: "\xBFDe donde habr\xE1 salido este libro?.../'Teseo y el minotauro'.../a
+      ver..."
+    libros_dibujos: "\xA1Cu\xE1ntos libros! \xBFUno con dibujitos no habr\xE1?"
+    rueda: "Ok, encontr\xE9 una rueda.."
+    puertaMapoteca: "Ah\xED debe estar la famosa mapoteca\u2026"
+    minimap_1: Un parte de mapa
+    minimap_2: Otra parte del mapa
+    minimap_3: Otra parte del mapa
+    minimap_1_inserted: Puse la 1
+    minimap_2_inserted: Puse la 2
+    minimap_3_inserted: Puse la 3
+    cajoneraVacia: "Nada por aqu\xED..."
+    cuadernoMapoteca1: "\xA1Un cuaderno!"
+    cuadernoMapoteca2: "\xA1Otro cuaderno!"
+    libro_mapoteca_1: "Ah... hab\xEDa un ln libro en el piso/El hombre lobo... a ver
+      de qu\xE9 va..."
+    libro_mapoteca_2: "La inmolaci\xF3n por la belleza... A ver de qu\xE9 se trata..."
+    libro_mapoteca_3: El anillo encantado
+    lobo: "Un lobo, no sab\xEDa que lo pod\xEDa agarrar..."
+    lobos: '''Lobos salvajes'' se lee en la placa de esta fea estatuita.'
+    map: Parece que perdiste un par de regiones, amigo
+    mapReady: "Espero que seas m\xE1s feliz ahora, aunque hayas quedado torcido. Mejor
+      dejo de hablar con el mapa, no siento que sea una relaci\xF3n correspondida"
+    palanca: "Una palanca... \xBFpara que servir\xE1?"
+    ladder_1: "Una puertita en el techo. \xBFA d\xF3nde llevar\xE1 eso?..."
+    ladder_2: ahora si
+    globo_1: "El abuelo de Joaco ten\xEDa uno as\xED. Lo abr\xEDas y adentro hab\xEDa
+      bebidas. \xBFEste ser\xE1 de esos?"
+    globo_2: "\xA1\xBFEh?! \xBFEscucho risas? Tanta literatura, \xBFno estar\xE1 afectando
+      mi cerebro?"
+    tarjeta: tarjeta texto
+    mapasDesconocidos: "Raro\u2026 No es ning\xFAn lugar que conozca"
+    mapaConstelacion: "\xBFExistir\xE1n organismos inteligentes en otro planeta?\xBFEs
+      inteligente que yo, como organismo, me haga esta pregunta?"
+    mapasMedicion: "Mapas e instrumentos de medici\xF3n del a\xF1o de la escarapela"
+  gameProgress: {fileID: 0}
+  gameProgressKey: libros_dibujos
+  gameProgressValue: 0
 --- !u!1 &5921658722269575892
 GameObject:
   m_ObjectHideFlags: 0
@@ -55325,7 +55539,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6141531710463704649}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.43, y: -0.25, z: 2.9}
+  m_LocalPosition: {x: -6.42, y: -0.25, z: 2.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 9103567877843829602}

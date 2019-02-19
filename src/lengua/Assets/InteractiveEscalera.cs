@@ -7,7 +7,7 @@ public class InteractiveEscalera : InteractiveObject
 	public GameObject[] assets;
 	void OnEnable()
 	{
-		OnSetProgress (0); 
+		OnSetProgress (gameProgressValue); 
 	}
 	public override void OnClicked() 
 	{ 
@@ -21,10 +21,12 @@ public class InteractiveEscalera : InteractiveObject
 			Events.OnSaveNewData ("rueda", 2);
 			Events.UseItem ("rueda");
 			Events.OnTexts (content.escalera_2, "inventary/rueda", RuedaDone);
-		}   else if(gameProgressValue == 1){
+		}  else if(gameProgressValue == 1){
 			Events.OnTip (content.escalera_2);
 		} else if(gameProgressValue == 0) {
 			Events.OnTip (content.escalera_1);
+		} else if(gameProgressValue == 2) {
+			Events.ChangeRoom (Room.types.MAPOTECA, new Vector2 (-1.142f, 2.16f));
 		}
 	}
 	public void RuedaDone()
@@ -38,6 +40,11 @@ public class InteractiveEscalera : InteractiveObject
 
 		if(gameProgressValue == 1 || gameProgressValue == 0) {
 			assets [gameProgressValue].SetActive (true);
+		} else if(gameProgressValue == 2) {
+			assets [1].SetActive (true);
+			Vector3 pos = transform.localPosition;
+			pos.x = -5.2f;
+			transform.localPosition = pos;
 		}
 
 	}

@@ -7,6 +7,7 @@ public class DialoguesCamera : MonoBehaviour {
 	public Camera camera;
 	public CharacterAnimations julia;
 	public CharacterAnimations marian;
+	public CharacterAnimations zina;
 
 	void Start () {
 		camera.enabled = false;
@@ -18,6 +19,8 @@ public class DialoguesCamera : MonoBehaviour {
 		CharacterAnimations character = null;
 		if(characterName == "avatar")
 			character = julia;
+		else if(characterName == "zina")
+			character = zina;
 		else
 			character = marian;
 
@@ -53,5 +56,6 @@ public class DialoguesCamera : MonoBehaviour {
 	{
 		julia.gameObject.SetActive (false);
 		marian.gameObject.SetActive (false);
+		zina.gameObject.SetActive (false);
 	}
 }
