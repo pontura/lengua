@@ -127,7 +127,8 @@ namespace TMPro
                 int linkIndex = TMP_TextUtilities.FindIntersectingLink(m_TextComponent, Input.mousePosition, m_Camera);
 
                 // Handle new Link selection.
-                if (linkIndex != -1 && linkIndex != m_selectedLink)
+                //if (linkIndex != -1 && linkIndex != m_selectedLink)
+				if (linkIndex != -1)
                 {
                     m_selectedLink = linkIndex;
 

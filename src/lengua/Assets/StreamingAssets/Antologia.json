@@ -281,7 +281,7 @@
 				{"textlines":["1. [Había,Havía] una vez un gran pez...",
 				"2. [Sabíamos,Savíamos] la verdad.",
 				"3. [Advirtieron,Adbirtieron] que él ya se había retirado.",
-				"4. [Tuve/Tube] que ir de compras.",
+				"4. [Tuve,Tube] que ir de compras.",
 				"5. Ana se destaca por su [amabilidad,amavilidad].",
 				"6. Con Ana [estuvimos,estubimos] en el Aula Magna.",
 				"7. Cuando éramos chicos, [jugábamos,jugávamos] en el patio con una pelota de papel.",
@@ -304,7 +304,7 @@
 				"2. [Anunciaron,Anunsiaron,Anunziaron] el estreno de la nueva temporada.",
 				"3. [Encendieron,Ensendieron,Enzendieron] el farol de la esquina.",
 				"4. [Alcancé,Alcansé,Alcanzé] mis objetivos.",
-				"5. [Compró varios libros para su clase [especial,espesial,espezial].",
+				"5. Compró varios libros para su clase [especial,espesial,espezial].",
 				"6. Con un [martillazo,martillaco,martillaso] logró clavar la imagen.",
 				"7. Cruzó el puente [inglés,ingléc,ingléz] con gran esfuerzo.",
 				"8. Durante su [noviazgo,noviacgo,noviasgo], se conocieron."]}			
@@ -322,7 +322,15 @@
 			"type":"1",
 			"area":"1",
 			"texts":[
-				{"textlines":["Se refiere que a la corte de Olaf Tryggvason, que se [había,habia] convertido a la nueva fe, llegó una noche un hombre [viejo,víejo], envuelto en una capa oscura y con el ala del sombrero sobre los ojos. El rey le preguntó si [sabía,sabia] hacer algo; el forastero contestó que [sabía,sabia] tocar el harpa y contar [cuentos,cúentos]. Tocó en el harpa aires antiguos, habló de Gudrun y de Gunnar y, finalmente, refirió el nacimiento de Odin. Dijo que tres parcas vinieron, que las dos primeras le [prometieron,prometíeron] grandes felicidades y que la tercera dijo, colérica: ¨El niño no vivirá más que la vela que está ardiendo,ardíendo a su lado¨. Entonces los padres apagaron la vela para que Odin no muriera. Olaf Tryggvason descreyó de la [historia,historía]; el forastero repitió que era cierta, sacó la vela y la encendió. Mientras la miraban arder, el hombre dijo que era tarde y que [tenía,tenia] que irse. Cuando la vela se hubo consumido, lo buscaron. A unos pasos de la casa del rey, Odin [había,habia] muerto."]}
+				{"textlines":["Se refiere que a la corte de Olaf Tryggvason, que se [había,habia] convertido a la nueva fe,",
+					"llegó una noche un hombre [viejo,víejo], envuelto en una capa oscura y con el ala del sombrero sobre los ojos.",
+					"El rey le preguntó si [sabía,sabia] hacer algo;",
+					"el forastero contestó que [sabía,sabia] tocar el harpa y",
+					"contar [cuentos,cúentos]. Tocó en el harpa aires antiguos, habló de Gudrun y de Gunnar y, finalmente, refirió el nacimiento de Odin.",
+					"Dijo que tres parcas vinieron, que las dos primeras le [prometieron,prometíeron] grandes felicidades y que la tercera dijo, colérica: ¨El niño no vivirá más que la vela que está ardiendo,ardíendo a su lado¨. Entonces los padres apagaron la vela para que Odin no muriera.",
+					"Olaf Tryggvason descreyó de la [historia,historía]; el forastero repitió que era cierta, sacó la vela y la encendió.",
+					"Mientras la miraban arder, el hombre dijo que era tarde y que [tenía,tenia] que irse. Cuando la vela se hubo consumido, lo buscaron.",
+					"A unos pasos de la casa del rey, Odin [había,habia] muerto."]}
 			],
 			"trivias":[
 			

@@ -25,7 +25,7 @@ namespace TMPro.Examples
 			public int id;
 		}
 
-		void Start()
+		void Awake()
 		{
 			TextEventHandler = GetComponent<TMP_TextEventHandler> ();
 			textMeshPro = GetComponent<TextMeshProUGUI> ();				
@@ -77,10 +77,10 @@ namespace TMPro.Examples
 
 		void OnEnable()
 		{
-			if (TextEventHandler != null)
-			{
+			/*if (TextEventHandler != null)
+			{*/
 				TextEventHandler.onLinkSelection.AddListener(OnLinkSelection);
-			}
+			//}
 		}
 		string GetSubstringByString(string a, string b, string c)
 		{
@@ -100,6 +100,7 @@ namespace TMPro.Examples
 			
 
 			Debug.Log("linkID" + linkID );
+			Debug.Log(linkText );
 	
 			//Debug.Log("OnLinkSelection Index: " + linkIndex + " with ID [" + linkID + "] and Text \"" + linkText + "\" has been selected.");
 			//string[] linkArr1= linkID.Split("'" [0]);
@@ -138,11 +139,11 @@ namespace TMPro.Examples
 					if (a == data.selected) {
 						if (data.ok == data.selected) {
 							tp.AddNormativaDone (data.id);
-							result += "<#00FF00>" + a + "</color> / ";
+							result += "<#006600>" + a + "</color> / ";
 						}else
 							result += "<#FF0000>" + a + "</color> / ";
 					} else {
-						result +=  "<s><#FFFFFF>" + a + "</color></s> / ";
+						result +=  "<s><#333>" + a + "</color></s> / ";
 					}
 
 				} else {
