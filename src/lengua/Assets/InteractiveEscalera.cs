@@ -29,6 +29,7 @@ public class InteractiveEscalera : InteractiveObject
 	}
 	public void RuedaDone()
 	{
+		assets[1].SetActive (true);
 		iTween.MoveTo (gameObject, iTween.Hash ("x", transform.localPosition.x-1 , "islocal", true, "time", 4 ,"looptype","none"));
 	}
 	public override void OnSetProgress(int value) 

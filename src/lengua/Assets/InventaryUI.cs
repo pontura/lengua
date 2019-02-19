@@ -25,12 +25,18 @@ public class InventaryUI : MonoBehaviour {
 		Events.InventoryButtonClicked += InventoryButtonClicked;
 		Events.AddToInventary += AddToInventary;
 		Events.UseItem += UseItem;
+		Events.OnFloorClicked += OnFloorClicked;
 	}
 	void OnDestroy()
 	{
 		Events.InventoryButtonClicked -= InventoryButtonClicked;
 		Events.AddToInventary -= AddToInventary;
 		Events.UseItem -= UseItem;
+		Events.OnFloorClicked -= OnFloorClicked;
+	}
+	void OnFloorClicked(Vector3 p)
+	{
+		Close ();
 	}
 	void InventoryButtonClicked(string gameProgressKey)
 	{
@@ -75,12 +81,13 @@ public class InventaryUI : MonoBehaviour {
 	{		
 		if (!isOpen)
 			Open ();
-		else
+		else {
+			Events.CloseBagSfx ();
 			Close ();
+		}
 	}
 	void Close()
-	{
-		Events.CloseBagSfx ();
+	{		
 		isOpen = false;
 		openedPanel.SetActive (false);
 		opened.SetActive (false);

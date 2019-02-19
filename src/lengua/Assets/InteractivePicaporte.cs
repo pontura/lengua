@@ -34,10 +34,10 @@ public class InteractivePicaporte : InteractiveObject {
 		} else if (gameProgressValue == 3) {			
 			Events.OnSaveNewData ("picaporte", 4);
 			OnSetProgress(3);
-			Events.ChangeRoom (Room.types.BIBLIOTECA, new Vector2(-7.5f, 2));
+			Events.ChangeRoom (Room.types.BIBLIOTECA, new Vector2(-8.51f, 2.5f));
 		} else if (gameProgressValue == 4) {	
 			OnSetProgress(4);
-			Events.ChangeRoom (Room.types.BIBLIOTECA, new Vector2(-7.5f, 2));
+			Events.ChangeRoom (Room.types.BIBLIOTECA, new Vector2(-8.51f, 2.5f));
 		} 
 	}
 

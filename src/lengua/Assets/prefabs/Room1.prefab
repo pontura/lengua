@@ -849,11 +849,48 @@ MonoBehaviour:
     libroCuadro2: 
     libroBloqueado: 
     libroCompletado: 
-    cuerno: 
+    cuerno1: 
+    cuerno2: 
     minotauro_0: 
     minotauro_1: 
     minotauro_2: 
     alfonsina: 
+    puerta_biblioteca_patio: 
+    escalera_1: 
+    escalera_2: 
+    cuadernoBiblioteca1: 
+    cuadernoBiblioteca2: 
+    cuadernoBiblioteca3: 
+    libro_biblioteca_1: 
+    libro_biblioteca_2: 
+    libros_dibujos: 
+    rueda: 
+    puertaMapoteca: 
+    minimap_1: 
+    minimap_2: 
+    minimap_3: 
+    minimap_1_inserted: 
+    minimap_2_inserted: 
+    minimap_3_inserted: 
+    cajoneraVacia: 
+    cuadernoMapoteca1: 
+    cuadernoMapoteca2: 
+    libro_mapoteca_1: 
+    libro_mapoteca_2: 
+    libro_mapoteca_3: 
+    lobo: 
+    lobos: 
+    map: 
+    mapReady: 
+    palanca: 
+    ladder_1: 
+    ladder_2: 
+    globo_1: 
+    globo_2: 
+    tarjeta: 
+    mapasDesconocidos: 
+    mapaConstelacion: 
+    mapasMedicion: 
   gameProgress: {fileID: 0}
   gameProgressKey: fichero_llave
   gameProgressValue: 0
@@ -1923,11 +1960,48 @@ MonoBehaviour:
     libroCuadro2: 
     libroBloqueado: 
     libroCompletado: 
-    cuerno: 
+    cuerno1: 
+    cuerno2: 
     minotauro_0: 
     minotauro_1: 
     minotauro_2: 
     alfonsina: 
+    puerta_biblioteca_patio: 
+    escalera_1: 
+    escalera_2: 
+    cuadernoBiblioteca1: 
+    cuadernoBiblioteca2: 
+    cuadernoBiblioteca3: 
+    libro_biblioteca_1: 
+    libro_biblioteca_2: 
+    libros_dibujos: 
+    rueda: 
+    puertaMapoteca: 
+    minimap_1: 
+    minimap_2: 
+    minimap_3: 
+    minimap_1_inserted: 
+    minimap_2_inserted: 
+    minimap_3_inserted: 
+    cajoneraVacia: 
+    cuadernoMapoteca1: 
+    cuadernoMapoteca2: 
+    libro_mapoteca_1: 
+    libro_mapoteca_2: 
+    libro_mapoteca_3: 
+    lobo: 
+    lobos: 
+    map: 
+    mapReady: 
+    palanca: 
+    ladder_1: 
+    ladder_2: 
+    globo_1: 
+    globo_2: 
+    tarjeta: 
+    mapasDesconocidos: 
+    mapaConstelacion: 
+    mapasMedicion: 
   gameProgress: {fileID: 0}
   gameProgressKey: cuadro1
   gameProgressValue: 0
@@ -3059,11 +3133,48 @@ MonoBehaviour:
     libroCuadro2: 
     libroBloqueado: 
     libroCompletado: 
-    cuerno: 
+    cuerno1: 
+    cuerno2: 
     minotauro_0: 
     minotauro_1: 
     minotauro_2: 
     alfonsina: 
+    puerta_biblioteca_patio: 
+    escalera_1: 
+    escalera_2: 
+    cuadernoBiblioteca1: 
+    cuadernoBiblioteca2: 
+    cuadernoBiblioteca3: 
+    libro_biblioteca_1: 
+    libro_biblioteca_2: 
+    libros_dibujos: 
+    rueda: 
+    puertaMapoteca: 
+    minimap_1: 
+    minimap_2: 
+    minimap_3: 
+    minimap_1_inserted: 
+    minimap_2_inserted: 
+    minimap_3_inserted: 
+    cajoneraVacia: 
+    cuadernoMapoteca1: 
+    cuadernoMapoteca2: 
+    libro_mapoteca_1: 
+    libro_mapoteca_2: 
+    libro_mapoteca_3: 
+    lobo: 
+    lobos: 
+    map: 
+    mapReady: 
+    palanca: 
+    ladder_1: 
+    ladder_2: 
+    globo_1: 
+    globo_2: 
+    tarjeta: 
+    mapasDesconocidos: 
+    mapaConstelacion: 
+    mapasMedicion: 
   gameProgress: {fileID: 0}
   gameProgressKey: escritorioDoor1
   gameProgressValue: 0
@@ -3863,6 +3974,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   room: {fileID: 0}
   marian: {fileID: 114805472972821578}
+  zina: {fileID: 0}
   type: 1
 --- !u!111 &111793958353835406
 Animation:
@@ -3895,7 +4007,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   roomsManager: {fileID: 0}
   type: 0
-  limitsX: {x: -2.5, y: 2.5}
+  limitsX: {x: -2.5, y: 0.29}
   limitsZ: {x: 2.3, y: 0.7}
 --- !u!1 &1496279304232864
 GameObject:
@@ -3961,11 +4073,48 @@ MonoBehaviour:
     libroCuadro2: 
     libroBloqueado: 
     libroCompletado: 
-    cuerno: 
+    cuerno1: 
+    cuerno2: 
     minotauro_0: 
     minotauro_1: 
     minotauro_2: 
     alfonsina: 
+    puerta_biblioteca_patio: 
+    escalera_1: 
+    escalera_2: 
+    cuadernoBiblioteca1: 
+    cuadernoBiblioteca2: 
+    cuadernoBiblioteca3: 
+    libro_biblioteca_1: 
+    libro_biblioteca_2: 
+    libros_dibujos: 
+    rueda: 
+    puertaMapoteca: 
+    minimap_1: 
+    minimap_2: 
+    minimap_3: 
+    minimap_1_inserted: 
+    minimap_2_inserted: 
+    minimap_3_inserted: 
+    cajoneraVacia: 
+    cuadernoMapoteca1: 
+    cuadernoMapoteca2: 
+    libro_mapoteca_1: 
+    libro_mapoteca_2: 
+    libro_mapoteca_3: 
+    lobo: 
+    lobos: 
+    map: 
+    mapReady: 
+    palanca: 
+    ladder_1: 
+    ladder_2: 
+    globo_1: 
+    globo_2: 
+    tarjeta: 
+    mapasDesconocidos: 
+    mapaConstelacion: 
+    mapasMedicion: 
   gameProgress: {fileID: 0}
   gameProgressKey: libroIngreso
   gameProgressValue: 0
@@ -4275,11 +4424,48 @@ MonoBehaviour:
     libroCuadro2: 
     libroBloqueado: 
     libroCompletado: 
-    cuerno: 
+    cuerno1: 
+    cuerno2: 
     minotauro_0: 
     minotauro_1: 
     minotauro_2: 
     alfonsina: 
+    puerta_biblioteca_patio: 
+    escalera_1: 
+    escalera_2: 
+    cuadernoBiblioteca1: 
+    cuadernoBiblioteca2: 
+    cuadernoBiblioteca3: 
+    libro_biblioteca_1: 
+    libro_biblioteca_2: 
+    libros_dibujos: 
+    rueda: 
+    puertaMapoteca: 
+    minimap_1: 
+    minimap_2: 
+    minimap_3: 
+    minimap_1_inserted: 
+    minimap_2_inserted: 
+    minimap_3_inserted: 
+    cajoneraVacia: 
+    cuadernoMapoteca1: 
+    cuadernoMapoteca2: 
+    libro_mapoteca_1: 
+    libro_mapoteca_2: 
+    libro_mapoteca_3: 
+    lobo: 
+    lobos: 
+    map: 
+    mapReady: 
+    palanca: 
+    ladder_1: 
+    ladder_2: 
+    globo_1: 
+    globo_2: 
+    tarjeta: 
+    mapasDesconocidos: 
+    mapaConstelacion: 
+    mapasMedicion: 
   gameProgress: {fileID: 0}
   gameProgressKey: picaporte
   gameProgressValue: 0
@@ -4509,11 +4695,48 @@ MonoBehaviour:
     libroCuadro2: 
     libroBloqueado: 
     libroCompletado: 
-    cuerno: 
+    cuerno1: 
+    cuerno2: 
     minotauro_0: 
     minotauro_1: 
     minotauro_2: 
     alfonsina: 
+    puerta_biblioteca_patio: 
+    escalera_1: 
+    escalera_2: 
+    cuadernoBiblioteca1: 
+    cuadernoBiblioteca2: 
+    cuadernoBiblioteca3: 
+    libro_biblioteca_1: 
+    libro_biblioteca_2: 
+    libros_dibujos: 
+    rueda: 
+    puertaMapoteca: 
+    minimap_1: 
+    minimap_2: 
+    minimap_3: 
+    minimap_1_inserted: 
+    minimap_2_inserted: 
+    minimap_3_inserted: 
+    cajoneraVacia: 
+    cuadernoMapoteca1: 
+    cuadernoMapoteca2: 
+    libro_mapoteca_1: 
+    libro_mapoteca_2: 
+    libro_mapoteca_3: 
+    lobo: 
+    lobos: 
+    map: 
+    mapReady: 
+    palanca: 
+    ladder_1: 
+    ladder_2: 
+    globo_1: 
+    globo_2: 
+    tarjeta: 
+    mapasDesconocidos: 
+    mapaConstelacion: 
+    mapasMedicion: 
   gameProgress: {fileID: 0}
   gameProgressKey: escritorio
   gameProgressValue: 0
@@ -4582,11 +4805,48 @@ MonoBehaviour:
     libroCuadro2: 
     libroBloqueado: 
     libroCompletado: 
-    cuerno: 
+    cuerno1: 
+    cuerno2: 
     minotauro_0: 
     minotauro_1: 
     minotauro_2: 
     alfonsina: 
+    puerta_biblioteca_patio: 
+    escalera_1: 
+    escalera_2: 
+    cuadernoBiblioteca1: 
+    cuadernoBiblioteca2: 
+    cuadernoBiblioteca3: 
+    libro_biblioteca_1: 
+    libro_biblioteca_2: 
+    libros_dibujos: 
+    rueda: 
+    puertaMapoteca: 
+    minimap_1: 
+    minimap_2: 
+    minimap_3: 
+    minimap_1_inserted: 
+    minimap_2_inserted: 
+    minimap_3_inserted: 
+    cajoneraVacia: 
+    cuadernoMapoteca1: 
+    cuadernoMapoteca2: 
+    libro_mapoteca_1: 
+    libro_mapoteca_2: 
+    libro_mapoteca_3: 
+    lobo: 
+    lobos: 
+    map: 
+    mapReady: 
+    palanca: 
+    ladder_1: 
+    ladder_2: 
+    globo_1: 
+    globo_2: 
+    tarjeta: 
+    mapasDesconocidos: 
+    mapaConstelacion: 
+    mapasMedicion: 
   gameProgress: {fileID: 0}
   gameProgressKey: libroCuadro
   gameProgressValue: 0

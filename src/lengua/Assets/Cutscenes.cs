@@ -7,7 +7,6 @@ public class Cutscenes : MonoBehaviour {
 	public Room room;
 	public CharacterAnimations marian;
 	public CharacterAnimations zina;
-	public CharacterAnimations avatar;
 
 	public types type;
 	public enum types
@@ -37,17 +36,23 @@ public class Cutscenes : MonoBehaviour {
 	}
 	public void Avatar_Idle()
 	{
-		avatar.Idle ();
+		room.roomsManager.character.view.characterAnimations.Idle ();
 	}
 	public void Avatar_Walk()
 	{
-		avatar.Walk ();
+		room.roomsManager.character.view.characterAnimations.Walk ();
+	}
+	public void Avatar_Walk_to_Ladder()
+	{
+		Events.OnFloorClicked (new Vector3(-5.1f,0,2.4f));
 	}
 	public void Avatar_Ladder()
 	{
-		avatar.Ladder ();
+		room.roomsManager.character.view.characterAnimations.Ladder ();
+		Vector3 pos = room.roomsManager.character.view.gameObject.transform.localPosition;
+		iTween.MoveTo (room.roomsManager.character.view.gameObject, iTween.Hash ("x", pos.x+0.32f, "y", pos.y+5 , "islocal", true, "time", 25,"looptype","none"));
+		Invoke ("OnReady", 2);
 	}
-
 	public void Marian_Idle()
 	{
 		marian.Idle ();
@@ -138,7 +143,7 @@ public class Cutscenes : MonoBehaviour {
 
 		switch (type) {
 		case types.INTRO:
-			if (Data.Instance.gameProgress.GetData ("cutscenes").value == 0) {
+			if (Data.Instance.gameProgress.GetData ("cutscenes").value < 1) {
 				GetComponent<Animation> ().Play ("intro");
 				Events.OnSaveNewData ("cutscenes", 1);
 			}
@@ -146,7 +151,7 @@ public class Cutscenes : MonoBehaviour {
 				return;
 			break;
 		case types.BIBLIOTECA:
-			if (Data.Instance.gameProgress.GetData ("cutscenes").value == 1) {
+			if (Data.Instance.gameProgress.GetData ("cutscenes").value < 2) {
 				Events.OnSaveNewData ("cutscenes", 2);
 				Events.OnFloorClicked (new Vector3 (-8.5f, 0, 2));
 				GetComponent<Animation> ().Play ("biblioteca");
@@ -167,6 +172,7 @@ public class Cutscenes : MonoBehaviour {
 	}
 	void OnReady()
 	{
+		print ("_______On ready " + type);
 		switch (type) {
 		case types.INTRO:
 			OnCutscene (types.INTRO_END);
@@ -180,8 +186,10 @@ public class Cutscenes : MonoBehaviour {
 			break;
 		}
 	}
+
 	void OnCutscene(types anim)
 	{
+		this.type = anim;
 		switch (anim) {
 		case types.INTRO:
 			room.roomsManager.cutscenesUI.SetOn ();
@@ -202,7 +210,7 @@ public class Cutscenes : MonoBehaviour {
 		case types.PUERTA_MAPOTECA:
 			GetComponent<Animation> ().Play ("puerta_mapoteca");
 			room.roomsManager.cutscenesUI.SetOn ();
-			Events.OnDialogue (Data.Instance.dialoguesData.content.escalera, OnReady);
+			Events.OnDialogue (Data.Instance.dialoguesData.content.escalera, null);
 			break;
 		}
 	}
