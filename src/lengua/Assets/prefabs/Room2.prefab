@@ -16710,7 +16710,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &4062930740569064
 Transform:
   m_ObjectHideFlags: 0
@@ -73918,11 +73918,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 114912061241373398, guid: af796ff2521229a45b180347e04ba539,
-        type: 3}
-      propertyPath: anim
-      value: 
-      objectReference: {fileID: 95479911396440145}
     - target: {fileID: 4015010188737672, guid: af796ff2521229a45b180347e04ba539, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.015
@@ -73967,6 +73962,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114912061241373398, guid: af796ff2521229a45b180347e04ba539,
+        type: 3}
+      propertyPath: anim
+      value: 
+      objectReference: {fileID: 95479911396440145}
     - target: {fileID: 114457319359025878, guid: af796ff2521229a45b180347e04ba539,
         type: 3}
       propertyPath: all.Array.data[0].spriteRenderer
