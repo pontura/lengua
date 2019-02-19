@@ -125,7 +125,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   avatarField: {fileID: 2946809061708961909}
   contentField: {fileID: 3745795680145735393}
-  image: {fileID: 0}
+  image: {fileID: 399571173356124742}
 --- !u!1 &2967887011305526880
 GameObject:
   m_ObjectHideFlags: 0
@@ -193,7 +193,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: c9f6d0e7bc8541498c9a4799ba184ede, type: 3}
-    m_FontSize: 19
+    m_FontSize: 15
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
