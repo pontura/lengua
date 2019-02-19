@@ -172,7 +172,12 @@
 		{
 			"character":"Yo",
 			"emoji":"",
-			"text": "(icono aburrimiento) Béh.... La vida misma"
+			"text": "Béh.... La vida misma"
+		},
+		{
+			"character":"Yo",
+			"emoji":"icons02",
+			"text": ""
 		},
 		{
 			"character":"marian",
@@ -197,7 +202,12 @@
 		{
 			"character":"marian",
 			"emoji":"",
-			"text": "¡Ah, el polvo de los libros! (emoji de enamorada)"
+			"text": "¡Ah, el polvo de los libros!"
+		},
+		{
+			"character":"marian",
+			"emoji":"icons08",
+			"text": ""
 		},
 		{
 			"character":"marian",
@@ -226,13 +236,13 @@
 		},
 		{
 			"character":"Yo",
-			"emoji":"",
-			"text": "(emoji sorprendido)"
+			"emoji":"icons03",
+			"text": ""
 		},
 		{
 			"character":"marian",
-			"emoji":"",
-			"text": "(emoji guiñando ojo)"
+			"emoji":"icons11",
+			"text": ""
 		},
 		{
 			"character":"marian",
