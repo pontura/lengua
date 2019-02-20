@@ -94,13 +94,7 @@ public class TriviaData : MonoBehaviour {
 	void Start () {
 		/*if (!Data.Instance.reloadJson)
 			return;*/
-		/*string filePath = "";
-		#if UNITY_EDITOR
-			filePath = Path.Combine (Application.streamingAssetsPath + "/", filename);
-		#elif UNITY_ANDROID
-			filePath = "jar:file://" + Application.dataPath + "!/assets/" + filename;
-			Debug.Log ("ANDROID");
-		#endif*/
+		
 		string filePath = Path.Combine (Application.streamingAssetsPath + "/", filename);
 		StartCoroutine(LoadFile(filePath));
 	}
@@ -111,7 +105,12 @@ public class TriviaData : MonoBehaviour {
 			using (WWW www = new WWW(filePath))
 			{
 				yield return www;
-				text = www.text;
+
+				if (string.IsNullOrEmpty (www.error)) {
+					text = System.Text.Encoding.UTF8.GetString (www.bytes, 3, www.bytes.Length - 3);  // Skip thr first 3 bytes (i.e. the UTF8 BOM)
+				} else {
+					text = www.text;
+				}
 			}
 		} else
 			text = System.IO.File.ReadAllText(filePath);

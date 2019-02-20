@@ -24,16 +24,29 @@ public class PhoneConversationsData : MonoBehaviour {
 
 	void Start () {
 		//if(Data.Instance.reloadJson)
-		LoadJson ();
+		StartCoroutine(LoadJson());
 	}
-	private void LoadJson()
+	IEnumerator LoadJson()
 	{
 		string filePath = Application.streamingAssetsPath + "/PhoneConversationsData.json";
 		print (filePath);
-		if (File.Exists (filePath)) {
-			string json = File.ReadAllText (filePath);
-			content = JsonUtility.FromJson<Content> (json);
+
+		string json = "";
+		if (filePath.Contains ("://")) {
+			using (WWW www = new WWW (filePath)) {
+				yield return www;
+
+				json = www.text;
+
+			}
+		} else {
+			if (File.Exists (filePath))
+				json = System.IO.File.ReadAllText (filePath);
 		}
+		
+
+		content = JsonUtility.FromJson<Content> (json);
+
 	}
 
 }
