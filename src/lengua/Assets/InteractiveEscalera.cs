@@ -5,6 +5,7 @@ using UnityEngine;
 public class InteractiveEscalera : InteractiveObject
 {
 	public GameObject[] assets;
+	AudioSource source;
 	void OnEnable()
 	{
 		OnSetProgress (gameProgressValue); 
@@ -18,7 +19,7 @@ public class InteractiveEscalera : InteractiveObject
 		if (Data.Instance.gameProgress.GetData ("rueda").value == 1) {
 			gameProgressValue++;
 			Events.OnSaveNewData (gameProgressKey, gameProgressValue);
-			Events.OnSaveNewData ("rueda", 2);
+			Events.OnSaveNewData ("rueda", 2);	
 			Events.UseItem ("rueda");
 			Events.OnTexts (content.escalera_2, "inventary/rueda", RuedaDone);
 		}  else if(gameProgressValue == 1){
@@ -31,8 +32,10 @@ public class InteractiveEscalera : InteractiveObject
 	}
 	public void RuedaDone()
 	{
+		source = GetComponent<AudioSource> ();
 		assets[1].SetActive (true);
 		iTween.MoveTo (gameObject, iTween.Hash ("x", transform.localPosition.x-1 , "islocal", true, "time", 4 ,"looptype","none"));
+		source.Play ();
 	}
 	public override void OnSetProgress(int value) 
 	{

@@ -22,4 +22,8 @@ public class CutsceneSfxs : MonoBehaviour{
 	public void PlayClip(int index){
 		source.PlayOneShot (clips [index]);
 	}
+
+	public void ClipStop(){
+		source.Stop ();
+	}
 }
