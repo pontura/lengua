@@ -1,4 +1,4 @@
-﻿using System.Collections;
+﻿	using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -16,8 +16,13 @@ public class PhoneUI : MonoBehaviour {
 	public Text avatarName;
 	GameProgress gameProgress;
 
+	public AudioClip ringSFX;
+	public AudioClip messageSFX;
+	AudioSource asource;
+
 	void Start () {
 		gameProgress = Data.Instance.gameProgress;
+		asource = GetComponent<AudioSource> ();
 		Events.OnCuadernoWin += OnCuadernoWin;
 		Reset ();
 		if (gameProgress.GetData ("celular").value == 0)
@@ -64,11 +69,19 @@ public class PhoneUI : MonoBehaviour {
 	}
 	void RingPhone()
 	{
+		asource.spatialBlend = 0.4f;
+		asource.loop = true;
+		asource.clip = ringSFX;
+		asource.Play ();
 		panel.SetActive (true);
 		panel.GetComponent<Animation> ().Play ("phoneRing");
 	}
 	public void OnClicked()
 	{
+		asource.Stop ();
+		asource.spatialBlend = 0f;
+		asource.loop = false;
+
 		PhoneConversation ();
 		panel.GetComponent<Animation> ().Stop ();
 		panel.transform.localEulerAngles = Vector3.zero;
@@ -116,6 +129,9 @@ public class PhoneUI : MonoBehaviour {
 	}
 	void AddLine(PhoneConversationsData.Data data)
 	{
+		asource.clip = messageSFX;
+		asource.spatialBlend = 0.6f;
+		asource.Play ();
 		PhoneLine line = Instantiate (phoneLine_to_instantiate);
 		line.transform.SetParent (container);
 		line.transform.localScale = Vector3.one;
