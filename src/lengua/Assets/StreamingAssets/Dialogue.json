@@ -67,13 +67,13 @@
 	"biblioteca":
 	[
 		{
-			"character":"preocupado",
+			"character":"marian",
 			"state":"neutro",
 			"text": "¿Te habías quedado encerrada?, ¡Recién ahora veo tu mensaje!"
 		},
 		{
-			"character":"fastidio",
-			"state":"neutro",
+			"character":"avatar",
+			"state":"fastidio",
 			"text": "Podría haber muerto en esa oficina… De aburrimiento"
 		},
 		{
@@ -119,7 +119,7 @@
 		{
 			"character":"marian",
 			"state":"contento",
-			"text": " (sonrisa) En fin, ¡no me hagas caso! Vos seguí buscando todo el material que puedas, ¡Y ejercitate!"
+			"text": "...en fin, ¡no me hagas caso! Vos seguí buscando todo el material que puedas, ¡Y ejercitate!"
 		},
 		{
 			"character":"avatar",
@@ -165,7 +165,7 @@
 		{
 			"character":"zina",
 			"state":"contento",
-			"text": "¡Ah! Ok, la escalera se mueve sola..."
+			"text": "Criatura… Estaba esperándote."
 		},
 		{
 			"character":"avatar",
@@ -180,12 +180,12 @@
 		{
 			"character":"avatar",
 			"state":"neutro",
-			"text": "Nop. Ni se me había ocurrido que pueda tener uno"
+			"text": "Nop. Ni se me había ocurrido que pueda tener uno."
 		},
 		{
 			"character":"zina",
 			"state":"neutro",
-			"text": "Todas las palabras significan algo. Y los silencios también"
+			"text": "Todas las palabras significan algo. Y los silencios también."
 		},
 		{
 			"character":"avatar",
@@ -200,7 +200,7 @@
 		{
 			"character":"avatar",
 			"state":"fastidio",
-			"text": "Esteeeemmm. Okey… ¿Usted no estaba con mi tía? Marian me dijo que estaba con usted"
+			"text": "Esteeeemmm. Okey… ¿Usted no estaba con mi tía? Marian me dijo que estaba con usted."
 		},
 		{
 			"character":"zina",
@@ -215,7 +215,7 @@
 		{
 			"character":"zina",
 			"state":"neutro",
-			"text": "No, no. No me dijo nada pero tengo un oído muy fino. Algo oí de lo que le comentaste en la oficina del director"
+			"text": "No, no. No me dijo nada pero tengo un oído muy fino. Algo oí de lo que le comentaste en la oficina del director."
 		},
 		{
 			"character":"avatar",
@@ -225,12 +225,17 @@
 		{
 			"character":"zina",
 			"state":"contento",
-			"text": "Ah, estas paredes son de papel, se oye todo si estás en el lugar indicado. Igual tomalo con calma, es normal tener dudas sobre lo que puede cambiarte la vida. Y este colegio te la va a cambiar si vos estás dispuesta."
+			"text": "Ah, estas paredes son de papel, se oye todo si estás en el lugar indicado."
+		},
+		{
+			"character":"zina",
+			"state":"contento",
+			"text": "Tomalo con calma, es normal tener dudas sobre lo que puede cambiarte la vida. Y este colegio te la puede cambiar si querés..."
 		},
 		{
 			"character":"avatar",
 			"state":"neutro",
-			"text": "Eso es lo que todavía no sé"
+			"text": "Eso es lo que todavía no sé."
 		},
 		{
 			"character":"zina",
@@ -250,7 +255,7 @@
 		{
 			"character":"avatar",
 			"state":"preocupado",
-			"text": "¿'Criatura'? Nadie me llama así desde… ¡Nunca! En fin, vamos a 'lo nuestro'"
+			"text": "¿'Criatura'? Nadie me llama así desde… ¡Nunca! En fin, vamos a 'lo nuestro'."
 		}
 	]
 }
