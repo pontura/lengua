@@ -24,12 +24,12 @@
 		{
 			"character":"marian",
 			"state":"neutro",
-			"text": "Punto uno: quería que lo conozcas. "
+			"text": "Punto uno: quería que lo conocieras. "
 		},
 		{
 			"character":"marian",
 			"state":"contento",
-			"text": "Punto dos: Puede que este sea tu próximo colegio…"
+			"text": "Punto dos: puede que este sea tu próximo colegio…"
 		},
 		{
 			"character":"avatar",
@@ -55,7 +55,7 @@
 		{
 			"character":"marian",
 			"state":"contento",
-			"text": "Buscá el material de ingreso por acá y encontrame en la biblioteca cuando termines. Cualquier cosa me mandás un mensaje, ¿sí?"
+			"text": "Buscá el material del ingreso por acá y encontrame en la biblioteca cuando termines. Cualquier cosa me mandás un mensaje, ¿sí?"
 		},
 		{
 			"character":"avatar",
@@ -69,7 +69,7 @@
 		{
 			"character":"marian",
 			"state":"neutro",
-			"text": "¿Te habías quedado encerrada?, ¡Recién ahora veo tu mensaje!"
+			"text": "¿Te habías quedado encerrada? ¡Recién ahora veo tu mensaje!"
 		},
 		{
 			"character":"avatar",
@@ -109,7 +109,7 @@
 		{
 			"character":"marian",
 			"state":"neutro",
-			"text": "Espero que puedas verla. Ella es… Especial"
+			"text": "Espero que puedas verla. Ella es… especial"
 		},
 		{
 			"character":"marian",
@@ -119,7 +119,7 @@
 		{
 			"character":"marian",
 			"state":"contento",
-			"text": "...en fin, ¡no me hagas caso! Vos seguí buscando todo el material que puedas, ¡Y ejercitate!"
+			"text": "...En fin, ¡no me hagas caso! Vos seguí buscando todo el material que puedas, ¡Y ejercitate!"
 		},
 		{
 			"character":"avatar",
@@ -240,7 +240,7 @@
 		{
 			"character":"zina",
 			"state":"contento",
-			"text": "Por lo pronto hay un montón de cosas interesantes para descubrir acá mismo¡Yo misma soy una de ellas y me descubriste! Ja, ja"
+			"text": "Por lo pronto hay un montón de cosas interesantes para descubrir en este lugar. ¡Yo misma soy una de ellas y me descubriste! Ja, ja"
 		},
 		{
 			"character":"avatar",

@@ -8,7 +8,7 @@
 	"escritorioDoor1": "No huyas, cobarde. Esto no puede ser taaan difícil.",
 	"fichero_1": "¡Entrega tus secretos! Owww… Cerrado",
 	"fichero_con_llave": "Voy a probar esta llave en el fichero/¡Funcionó!",
-	"fichero_con_llave2": "¡Encontraste un CUADERNO del ingreso!/Lee y responde la trivia para avanzar en la historia.",
+	"fichero_con_llave2": "¡Encontraste un CUADERNO del ingreso!/Leé y respondé la trivia para avanzar en la historia.",
 	"fichero_done": "Ya no hay nada en este viejo fichero",
 	"cuadro1":"María Remedios del Valle (1766 - 1847)/Valiente capitana de la Patria”/¡Vamos las pibas!",
 	"libroCuadro": "Un libro... se llama: Amigos por el viento, de Liliana Bodoc.",
@@ -41,7 +41,7 @@
 	"cajoneraVacia": "Nada por aquí...",
 	"cuadernoMapoteca1": "¡Un cuaderno!",
 	"cuadernoMapoteca2": "¡Otro cuaderno!",
-	"libro_mapoteca_1": "Ah... había un ln libro en el piso/El hombre lobo... a ver de qué va...",
+	"libro_mapoteca_1": "Ah... había un  libro en el piso/El hombre lobo... a ver de qué va...",
 	"libro_mapoteca_2": "La inmolación por la belleza... A ver de qué se trata...",
 	"libro_mapoteca_3": "El anillo encantado",
 	"lobo": "Un lobo, no sabía que lo podía agarrar...",
@@ -53,9 +53,9 @@
 	"ladder_2": "ahora si",
 	"globo_1": "El abuelo de Joaco tenía uno así. Lo abrías y adentro había bebidas. ¿Este será de esos?",
 	"globo_2": "¡¿Eh?! ¿Escucho risas? Tanta literatura, ¿no estará afectando mi cerebro?",
-	"tarjeta": "¡Una tarjeta! Me suena donde podría usarla...",
+	"tarjeta": "¡Una tarjeta! Me suena dónde podría usarla...",
 	"mapasMedicion": "Mapas e instrumentos de medición del año de la escarapela",
 	"mapasDesconocidos": "Raro… No es ningún lugar que conozca",
-	"mapaConstelacion": "¿Existirán organismos inteligentes en otro planeta?¿Es inteligente que yo, como organismo, me haga esta pregunta?"
+	"mapaConstelacion": "¿Existirán organismos inteligentes en otro planeta?  ¿Es inteligente que yo, como organismo, me haga esta pregunta?"
 
 }
