@@ -259,5 +259,229 @@
 			"emoji":"",
 			"text": "Estoy con Zina, después te veo. ¡Beso!"
 		}
+	],
+	"patio1":
+	[
+		{
+			"character":"Joaco",
+			"emoji":"",
+			"text": "¡Empecé el trabajo de ciencias naturales, así adelantamos!"
+		},
+		{
+			"character":"Joaco",
+			"emoji":"icons11",
+			"text": ""
+		},
+		{
+			"character":"Joaco",
+			"emoji":"",
+			"text": "'La higiene de los alimentos'"
+		},
+		{
+			"character":"Joaco",
+			"emoji":"",
+			"text": "El tema me dio hambre y estoy comiendo una"
+		},
+		{
+			"character":"Joaco",
+			"emoji":"icons11",
+			"text": ""
+		},
+		{
+			"character":"Joaco",
+			"emoji":"",
+			"text": "Píxel y yo la estamos comiendo"
+		},
+		{
+			"character":"Yo",
+			"emoji":"",
+			"text": "¡¿Estás compartiendo una"
+		},
+		{
+			"character":"Yo",
+			"emoji":"icons11",
+			"text": ""
+		},
+		{
+			"character":"Yo",
+			"emoji":"",
+			"text": "con tu perro?!"
+		},
+		{
+			"character":"Yo",
+			"emoji":"",
+			"text": "Eso no puede ser muy higiénico"
+		},
+		{
+			"character":"Yo",
+			"emoji":"icons11",
+			"text": ""
+		},
+		{
+			"character":"Joaco",
+			"emoji":"icons11",
+			"text": ""
+		},
+		{
+			"character":"Joaco",
+			"emoji":"",
+			"text": "Compartir comida con Píxel me hace más fuerte"
+		},
+		{
+			"character":"Joaco",
+			"emoji":"",
+			"text": "Desarrollo anticuerpos"
+		},
+		{
+			"character":"Yo",
+			"emoji":"icons11",
+			"text": ""
+		},
+		{
+			"character":"Yo",
+			"emoji":"",
+			"text": "Ponele..."
+		},
+		{
+			"character":"Joaco",
+			"emoji":"",
+			"text": "¿Vos como venís con el ingreso?"
+		},
+		{
+			"character":"Joaco",
+			"emoji":"",
+			"text": "Estuve pensando…"
+		},
+		{
+			"character":"Yo",
+			"emoji":"",
+			"text": "¿En qué?"
+		},
+		{
+			"character":"Joaco",
+			"emoji":"",
+			"text": "En lo que decías, que si entrás a ese colegio vas a mudarte"
+		},
+		{
+			"character":"Yo",
+			"emoji":"",
+			"text": "¿Y?"
+		},
+		{
+			"character":"Joaco",
+			"emoji":"",
+			"text": "Y… ¡Que puede estar bueno!"
+		},
+		{
+			"character":"Yo",
+			"emoji":"",
+			"text": "¿Cómo?"
+		},
+		{
+			"character":"Joaco",
+			"emoji":"",
+			"text": "Que dicen que es un re buen colegio"
+		},
+		{
+			"character":"Joaco",
+			"emoji":"",
+			"text": "Así que está muy bien si entrás"
+		},
+		{
+			"character":"Yo",
+			"emoji":"",
+			"text": "Claro, veo que a vos no te importa nada"
+		},
+		{
+			"character":"Joaco",
+			"emoji":"",
+			"text": "¿Eh?"
+		},
+		{
+			"character":"Yo",
+			"emoji":"",
+			"text": "Que sí, que te quedes tranquilo"
+		},
+		{
+			"character":"Yo",
+			"emoji":"",
+			"text": "Rindo el ingreso bien, me mudo a lo de mi tía y no nos vemos más"
+		},
+		{
+			"character":"Joaco",
+			"emoji":"",
+			"text": "¡Pero pará! ¿Qué te picó?"
+		},
+		{
+			"character":"Yo",
+			"emoji":"",
+			"text": "Nada, Joaco. Ya fue. Hablamos después"
+		}
+	],
+	"patio2":
+	[
+		{
+			"character":"Joaco",
+			"emoji":"",
+			"text": "Che, no sé qué entendiste de lo que dije"
+		},
+		{
+			"character":"Joaco",
+			"emoji":"",
+			"text": "Pero no quise decir nada malo"
+		},
+		{
+			"character":"Joaco",
+			"emoji":"",
+			"text": "Hablame cuando puedas, ¿dale? ¡Beso!"
+		},
+		{
+			"character":"Yo",
+			"emoji":"",
+			"text": "No voy a contestarle"
+		},
+		{
+			"character":"Yo",
+			"emoji":"",
+			"text": "Tengo mejores cosas que hacer"
+		}
+	],
+	"patio3":
+	[
+		{
+			"character":"marian",
+			"emoji":"",
+			"text": "Hablé con tu mamá y preguntó qué tal iba todo"
+		},
+		{
+			"character":"marian",
+			"emoji":"",
+			"text": "Le dije que venís súper bien. ¡Creemos en vos, sobri! "
+		},
+		{
+			"character":"marian",
+			"emoji":"",
+			"text": "Mandate con todo al laboratorio y después contame qué tal"
+		},
+		{
+			"character":"marian",
+			"emoji":"",
+			"text": "Nos vemos en un rato"
+		},
+		{
+			"character":"marian",
+			"emoji":"icons01",
+			"text": ""
+		},
+		{
+			"character":"Yo",
+			"emoji":"",
+			"text": "“¿Creen en mí?” Genial, doble presión"
+		},
+		{
+			"character":"Yo",
+			"emoji":"",
+			"text": "¡Lo que qusiera creer yo es que estoy cerca del final!"
+		}
 	]
 }

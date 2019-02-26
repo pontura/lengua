@@ -46,10 +46,43 @@ public class InteractiveObjectsTexts : MonoBehaviour {
 				return mapasMedicion;
 			case "globo_1":
 				return globo_1;
+			case "cuadernoPatio1":
+				return cuadernoPatio1;
+			case "cuadernoPatio2":
+				return cuadernoPatio2;
+			case "cuadernoPatio3":
+				return cuadernoPatio3;
+			case "cuadernoArbol":
+				return cuadernoArbol;
+			case "libro_patio_1":
+				return libro_patio_1;
+			case "libro_patio_2":
+				return libro_patio_2;
+			case "libro_patio_3":
+				return libro_patio_3;
+			case "pozo":
+				return pozo;
+			case "ligustrina":
+				return ligustrina;
+			case "estatuaIncompleta":
+				return estatuaIncompleta;
+			case "cola_inserted":
+				return cola_inserted;
+			case "montura_inserted":
+				return montura_inserted;
+			case "catSinOrigami":
+				return catSinOrigami;
+			case "origami":
+				return origami;
+			case "banco":
+				return banco;
+			case "catDone":
+				return catDone;
 			}
 			return "ERROR: no hay un texto default en InteractiveObjectsTexts GetValue() para " + key;
 		}
 
+		public string catDone;
 		public string picaporte_1;
 		public string picaporte_2;
 		public string picaporte_3;
@@ -93,6 +126,9 @@ public class InteractiveObjectsTexts : MonoBehaviour {
 		public string minimap_2_inserted;
 		public string minimap_3_inserted;
 
+		public string cola_inserted;
+		public string montura_inserted;
+
 		public string cajoneraVacia;
 		public string cuadernoMapoteca1;
 		public string cuadernoMapoteca2;
@@ -114,6 +150,26 @@ public class InteractiveObjectsTexts : MonoBehaviour {
 		public string mapasDesconocidos;
 		public string mapaConstelacion;
 		public string mapasMedicion;
+
+		public string cuadernoPatio1;
+		public string cuadernoPatio2;
+		public string cuadernoPatio3;
+
+		public string libro_patio_1;
+		public string libro_patio_2;
+		public string libro_patio_3;
+		public string cola;
+		public string montura;
+		public string pala;
+		public string piedra;
+		public string tijeras;
+		public string cuadernoArbol;
+		public string pozo;
+		public string ligustrina;
+		public string estatuaIncompleta;
+		public string origami;
+		public string catSinOrigami;
+		public string banco;
 	}
 	public Content content;
 

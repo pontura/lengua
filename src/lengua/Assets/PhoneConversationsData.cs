@@ -11,6 +11,9 @@ public class PhoneConversationsData : MonoBehaviour {
 	{
 		public List<Data> joaco_biblioteca;
 		public List<Data> marian_1;
+		public List<Data> patio1;
+		public List<Data> patio2;
+		public List<Data> patio3;
 	}
 	[Serializable]
 	public class Data

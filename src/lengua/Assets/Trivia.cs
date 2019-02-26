@@ -90,6 +90,30 @@ public class Trivia : MonoBehaviour {
 				}
 			}
 			break;
+		case "libro_patio_1":
+			if (Data.Instance.gameProgress.GetData ("pala").value == 0) {
+				if (Data.Instance.gameProgress.GetData ("pala").value == 0) {
+					Events.OnSaveNewData ("pala", 1);
+					Events.OnTexts (Data.Instance.interactiveObjectsTexts.content.pala, "inventary/pala", null);
+				}
+			}
+			break;
+		case "libro_patio_2":
+			if (Data.Instance.gameProgress.GetData ("cola").value == 0) {
+				if (Data.Instance.gameProgress.GetData ("cola").value == 0) {
+					Events.OnSaveNewData ("cola", 1);
+					Events.OnTexts (Data.Instance.interactiveObjectsTexts.content.cola, "inventary/cola", null);
+				}
+			}
+			break;
+		case "libro_patio_3":
+			if (Data.Instance.gameProgress.GetData ("origami").value == 0) {
+				if (Data.Instance.gameProgress.GetData ("origami").value == 0) {
+					Events.OnSaveNewData ("origami", 1);
+					Events.OnTexts (Data.Instance.interactiveObjectsTexts.content.origami, "inventary/origami", null);
+				}
+			}
+			break;
 		case "cuadernoBiblioteca1":
 			OnCuadernoWin ("cuadernoBiblioteca1");
 			break;
@@ -97,7 +121,28 @@ public class Trivia : MonoBehaviour {
 			OnCuadernoWin ("cuadernoBiblioteca2");
 			break;
 		case "cuadernoBiblioteca3":
+			if (Data.Instance.gameProgress.GetData ("tijeras").value == 0) {
+				if (Data.Instance.gameProgress.GetData ("tijeras").value == 0)
+					Events.OnSaveNewData ("tijeras", 1);
+			}
 			OnCuadernoWin ("cuadernoBiblioteca3");
+			break;
+
+
+		case "cuadernoPatio1":
+			OnCuadernoWin (gameProgressKey);
+			Events.OnSaveNewData ("piedra", 1);
+			Events.OnTexts (Data.Instance.interactiveObjectsTexts.content.piedra, "inventary/piedra", null);
+			break;
+		case "cuadernoPatio2":
+			OnCuadernoWin (gameProgressKey);
+			Events.OnSaveNewData ("montura", 1);
+			Events.OnTexts (Data.Instance.interactiveObjectsTexts.content.montura, "inventary/montura", null);
+			break;
+		case "cuadernoPatio3":
+			OnCuadernoWin (gameProgressKey);
+			Events.OnSaveNewData ("tijeras", 1);
+			Events.OnTexts (Data.Instance.interactiveObjectsTexts.content.tijeras, "inventary/tijeras", null);
 			break;
 
 //		case "cuadernoBiblioteca3":

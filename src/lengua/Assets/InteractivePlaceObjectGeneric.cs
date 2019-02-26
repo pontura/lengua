@@ -11,6 +11,7 @@ public class InteractivePlaceObjectGeneric : InteractiveObject
 	public string itemReward;
 
 	public string textNoUsableItem;
+	public bool itemRewardIsBook;
 
 	public override void OnClicked() 
 	{ 
@@ -25,12 +26,20 @@ public class InteractivePlaceObjectGeneric : InteractiveObject
 				Events.OnSaveNewData (itemToBeUsed, 2);
 				Events.OnSaveNewData (gameProgressKey, 1);
 				Events.OnSaveNewData (itemReward, 1);
-				Events.OnTexts (content.GetValue (itemReward), "inventary/" + itemReward, null);
+
+				if(itemRewardIsBook)
+					Events.OnTexts (content.GetValue (itemReward), "inventary/" + itemReward, OnDone);
+				else
+					Events.OnTexts (content.GetValue (itemReward), "inventary/" + itemReward, null);
 			} else {
 				Events.OnTip (Data.Instance.interactiveObjectsTexts.content.GetValue(textNoUsableItem));
 			}
 		}
 		OnSetProgress (gameProgressValue);
+	}
+	void OnDone()
+	{
+		Events.OpenTrivia (itemReward);
 	}
 	public override void OnSetProgress(int value) 
 	{	

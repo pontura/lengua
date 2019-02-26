@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1678,7 +1678,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.00000014580161, y: -0.000006601751}
+  m_AnchoredPosition: {x: 0.00000014580161, y: 0.00003726363}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &363594255
@@ -3029,7 +3029,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1580746754}
   m_Direction: 2
   m_Value: 0
-  m_Size: 0.99999994
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3937,12 +3937,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   character: {fileID: 1588145398}
   cutscenesUI: {fileID: 1879940508}
-  roomType: 1
+  roomType: 3
   rooms:
   - {fileID: 8233078057708878437, guid: 0bff8d02220b0bb4cb3684bb38461bc2, type: 3}
   - {fileID: 5654462099031211181, guid: c50c1bf53a9a2144aa1fa94b075e5ed7, type: 3}
   - {fileID: 292611432725168045, guid: 1424340886c7b97418a327397d85e0da, type: 3}
-  - {fileID: 644484419396283835, guid: 5bac698fea547954db5c1eb4fa59c74b, type: 3}
+  - {fileID: 644484419396283835, guid: b16c5ceebbbae204da0c799fbb6092d8, type: 3}
+  - {fileID: 5463321714059804750, guid: b2fd313ecc8f74542977a331b9f01fb5, type: 3}
   container: {fileID: 1244176918}
 --- !u!4 &1244176918
 Transform:
@@ -5373,9 +5374,9 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 0
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 126
+  m_Constraints: 116
   m_CollisionDetection: 0
 --- !u!114 &1588145403
 MonoBehaviour:
@@ -7206,7 +7207,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.00002893673, y: -0.000021188007}
+  m_AnchoredPosition: {x: 0.00002893673, y: -0.000013507205}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &2032765863
@@ -7400,6 +7401,9 @@ MonoBehaviour:
   content:
     joaco_biblioteca: []
     marian_1: []
+    patio1: []
+    patio2: []
+    patio3: []
 --- !u!4 &4253221545647233
 Transform:
   m_ObjectHideFlags: 0
@@ -7427,6 +7431,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   content:
+    catDone: 
     picaporte_1: Esto no se ve bien. Mejor le aviso a Marian
     picaporte_2: "Tengo que encontrar una forma de salir\u2026 Con dignidad"
     picaporte_3: Con este destornillador tengo que poder arregar esta puerta...
@@ -7470,6 +7475,8 @@ MonoBehaviour:
     minimap_1_inserted: 
     minimap_2_inserted: 
     minimap_3_inserted: 
+    cola_inserted: 
+    montura_inserted: 
     cajoneraVacia: 
     cuadernoMapoteca1: 
     cuadernoMapoteca2: 
@@ -7489,6 +7496,24 @@ MonoBehaviour:
     mapasDesconocidos: 
     mapaConstelacion: 
     mapasMedicion: 
+    cuadernoPatio1: 
+    cuadernoPatio2: 
+    cuadernoPatio3: 
+    libro_patio_1: 
+    libro_patio_2: 
+    libro_patio_3: 
+    cola: 
+    montura: 
+    pala: 
+    piedra: 
+    tijeras: 
+    cuadernoArbol: 
+    pozo: 
+    ligustrina: 
+    estatuaIncompleta: 
+    origami: 
+    catSinOrigami: 
+    banco: 
 --- !u!114 &114134459624942297
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7992,7 +8017,7 @@ MonoBehaviour:
   - name: puertaMapoteca
     value: 0
   - name: celular
-    value: 0
+    value: 2
   - name: cajoneraMapoteca
     value: 0
   - name: minimap_1
@@ -8028,6 +8053,34 @@ MonoBehaviour:
   - name: tarjeta
     value: 0
   - name: cutscenes
+    value: 0
+  - name: cuadernoPatio1
+    value: 0
+  - name: cuadernoPatio2
+    value: 0
+  - name: cuadernoPatio3
+    value: 0
+  - name: libro_patio_1
+    value: 0
+  - name: libro_patio_2
+    value: 0
+  - name: libro_patio_3
+    value: 0
+  - name: cola
+    value: 0
+  - name: grulla
+    value: 0
+  - name: montura
+    value: 0
+  - name: pala
+    value: 0
+  - name: piedra
+    value: 0
+  - name: tijeras
+    value: 0
+  - name: cuadernoArbol
+    value: 0
+  - name: origami
     value: 0
 --- !u!114 &114434947464692351
 MonoBehaviour:
@@ -8114,6 +8167,42 @@ MonoBehaviour:
   - image: {fileID: 21300000, guid: 077cf8ec55cfb8f4c85f049359c503d7, type: 3}
     gameProgressKey: tarjeta
     isLibro: 0
+  - image: {fileID: 21300000, guid: 56ae07b17f685fb4abf68fe795e13fa7, type: 3}
+    gameProgressKey: cuadernoPatio1
+    isLibro: 1
+  - image: {fileID: 21300000, guid: a6dc66c9585d59a4a83e1e5b2e09fc5a, type: 3}
+    gameProgressKey: cuadernoPatio1
+    isLibro: 1
+  - image: {fileID: 21300000, guid: fa2010cc344c0984cbdc27e4e20d9f0f, type: 3}
+    gameProgressKey: libro_patio_1
+    isLibro: 1
+  - image: {fileID: 21300000, guid: 775f45891f3251642a3a269d13438827, type: 3}
+    gameProgressKey: libro_patio_2
+    isLibro: 1
+  - image: {fileID: 21300000, guid: 61271b7a6bf12024a96243e8e6ca1ebe, type: 3}
+    gameProgressKey: libro_patio_3
+    isLibro: 1
+  - image: {fileID: 21300000, guid: 24b8ecd6ee261db4a9a3a9f175feb6cb, type: 3}
+    gameProgressKey: piedra
+    isLibro: 0
+  - image: {fileID: 21300000, guid: a2aa6b1fce7ee4a418cae904cccf2f25, type: 3}
+    gameProgressKey: pala
+    isLibro: 0
+  - image: {fileID: 21300000, guid: 79117b0333d001d48bfe306536307de6, type: 3}
+    gameProgressKey: tijeras
+    isLibro: 0
+  - image: {fileID: 21300000, guid: 9019909596de16f42ad0ae074b1a73b7, type: 3}
+    gameProgressKey: cuadernoPatio3
+    isLibro: 1
+  - image: {fileID: 21300000, guid: 33fa1c9c06872fe4b91d5bebe078f1ba, type: 3}
+    gameProgressKey: cola
+    isLibro: 0
+  - image: {fileID: 21300000, guid: 4787dd609245e46439a9a71716c268ac, type: 3}
+    gameProgressKey: montura
+    isLibro: 0
+  - image: {fileID: 21300000, guid: 0578e965a69889d4882d8e2d5449160a, type: 3}
+    gameProgressKey: origami
+    isLibro: 0
   inventary: []
 --- !u!114 &114640231862672099
 MonoBehaviour:
@@ -8128,6 +8217,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   content:
+    catDone: 
     picaporte_1: Esto no se ve bien. Mejor le aviso a Marian
     picaporte_2: "Tengo que encontrar una forma de salir\u2026 Con dignidad"
     picaporte_3: Con este destornillador tengo que poder arregar esta puerta...
@@ -8171,6 +8261,8 @@ MonoBehaviour:
     minimap_1_inserted: 
     minimap_2_inserted: 
     minimap_3_inserted: 
+    cola_inserted: 
+    montura_inserted: 
     cajoneraVacia: 
     cuadernoMapoteca1: 
     cuadernoMapoteca2: 
@@ -8190,6 +8282,24 @@ MonoBehaviour:
     mapasDesconocidos: 
     mapaConstelacion: 
     mapasMedicion: 
+    cuadernoPatio1: 
+    cuadernoPatio2: 
+    cuadernoPatio3: 
+    libro_patio_1: 
+    libro_patio_2: 
+    libro_patio_3: 
+    cola: 
+    montura: 
+    pala: 
+    piedra: 
+    tijeras: 
+    cuadernoArbol: 
+    pozo: 
+    ligustrina: 
+    estatuaIncompleta: 
+    origami: 
+    catSinOrigami: 
+    banco: 
 --- !u!114 &114773183641289483
 MonoBehaviour:
   m_ObjectHideFlags: 0
