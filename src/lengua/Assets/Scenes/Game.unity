@@ -1678,7 +1678,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.00000014580161, y: 0.00003726363}
+  m_AnchoredPosition: {x: 0.00000014580161, y: 0.000007323254}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &363594255
@@ -3028,8 +3028,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1580746755}
   m_HandleRect: {fileID: 1580746754}
   m_Direction: 2
-  m_Value: 0
-  m_Size: 1
+  m_Value: 1
+  m_Size: 0.99999994
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3937,7 +3937,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   character: {fileID: 1588145398}
   cutscenesUI: {fileID: 1879940508}
-  roomType: 3
+  roomType: 4
   rooms:
   - {fileID: 8233078057708878437, guid: 0bff8d02220b0bb4cb3684bb38461bc2, type: 3}
   - {fileID: 5654462099031211181, guid: c50c1bf53a9a2144aa1fa94b075e5ed7, type: 3}
@@ -7207,7 +7207,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.00002893673, y: -0.000013507205}
+  m_AnchoredPosition: {x: 0.00002893673, y: -0.000040144812}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &2032765863
@@ -7404,6 +7404,8 @@ MonoBehaviour:
     patio1: []
     patio2: []
     patio3: []
+    lab1: []
+    lab2: []
 --- !u!4 &4253221545647233
 Transform:
   m_ObjectHideFlags: 0
@@ -7431,6 +7433,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   content:
+    vaso2: 
+    veneno: 
+    letra2_inserted: 
+    h_inserted: 
+    llave02_used: 
+    h: 
+    g: 
+    libro_lab_1: 
+    libro_lab_2: 
+    cuadernoLab1: 
+    cuadernoLab2: 
+    cuadernoLab3: 
     catDone: 
     picaporte_1: Esto no se ve bien. Mejor le aviso a Marian
     picaporte_2: "Tengo que encontrar una forma de salir\u2026 Con dignidad"
@@ -7474,6 +7488,7 @@ MonoBehaviour:
     minimap_3: 
     minimap_1_inserted: 
     minimap_2_inserted: 
+    caldero_inserted: 
     minimap_3_inserted: 
     cola_inserted: 
     montura_inserted: 
@@ -7514,6 +7529,26 @@ MonoBehaviour:
     origami: 
     catSinOrigami: 
     banco: 
+    vaso: 
+    balon: 
+    gato1: 
+    gato2: 
+    cuadroOrigamis1: 
+    cuadroOrigamis2: 
+    pileta1: 
+    pileta2: 
+    armarioLab: 
+    letra2: 
+    pizarron: 
+    balones1: 
+    balones2: 
+    caldero1: 
+    caldero2: 
+    caldero3: 
+    llave02: 
+    vaso2_inserted: 
+    balon_inserted: 
+    copa: 
 --- !u!114 &114134459624942297
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8082,6 +8117,46 @@ MonoBehaviour:
     value: 0
   - name: origami
     value: 0
+  - name: origami2
+    value: 0
+  - name: libro_lab_1
+    value: 0
+  - name: libro_lab_2
+    value: 0
+  - name: cuadernoLab1
+    value: 0
+  - name: cuadernoLab2
+    value: 0
+  - name: cuadernoLab3
+    value: 0
+  - name: cuadroOrigamis
+    value: 0
+  - name: vaso
+    value: 0
+  - name: pileta
+    value: 0
+  - name: letra2
+    value: 0
+  - name: h
+    value: 0
+  - name: vaso2
+    value: 0
+  - name: balon
+    value: 0
+  - name: llave02
+    value: 0
+  - name: armarioLab
+    value: 0
+  - name: veneno
+    value: 0
+  - name: g
+    value: 0
+  - name: pizarron
+    value: 0
+  - name: copa
+    value: 0
+  - name: caldero
+    value: 0
 --- !u!114 &114434947464692351
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8203,6 +8278,51 @@ MonoBehaviour:
   - image: {fileID: 21300000, guid: 0578e965a69889d4882d8e2d5449160a, type: 3}
     gameProgressKey: origami
     isLibro: 0
+  - image: {fileID: 21300000, guid: 3e4158b3e896ff349b6748695c743aa2, type: 3}
+    gameProgressKey: libro_lab_1
+    isLibro: 1
+  - image: {fileID: 21300000, guid: e0f096476ffbeb04dbafcf4a8447d622, type: 3}
+    gameProgressKey: libro_lab_2
+    isLibro: 1
+  - image: {fileID: 21300000, guid: be081dc3fd1a19041bc4373749ea9922, type: 3}
+    gameProgressKey: cuadernoLab1
+    isLibro: 1
+  - image: {fileID: 21300000, guid: 1e40bc9a6bd62e644b0f24b9a45aaccb, type: 3}
+    gameProgressKey: cuadernoLab2
+    isLibro: 1
+  - image: {fileID: 21300000, guid: 8ce63ffa36edd374f8053c02170cf30d, type: 3}
+    gameProgressKey: cuadernoLab3
+    isLibro: 1
+  - image: {fileID: 21300000, guid: 0578e965a69889d4882d8e2d5449160a, type: 3}
+    gameProgressKey: origami2
+    isLibro: 0
+  - image: {fileID: 21300000, guid: e0e35c4137f61cb4cb1129b5a57b9e7d, type: 3}
+    gameProgressKey: vaso
+    isLibro: 0
+  - image: {fileID: 21300000, guid: e0e35c4137f61cb4cb1129b5a57b9e7d, type: 3}
+    gameProgressKey: vaso2
+    isLibro: 0
+  - image: {fileID: 21300000, guid: 7cb839a9eebd2a44aba4302cd313f6c7, type: 3}
+    gameProgressKey: letra2
+    isLibro: 0
+  - image: {fileID: 21300000, guid: c406d105b03687241bfd9c51d014259c, type: 3}
+    gameProgressKey: balon
+    isLibro: 0
+  - image: {fileID: 21300000, guid: 1c755a67fc34dda4cb2e0399f038e228, type: 3}
+    gameProgressKey: h
+    isLibro: 0
+  - image: {fileID: 21300000, guid: 9d675b8b0a4731842b5ee9a1747c5d37, type: 3}
+    gameProgressKey: llave02
+    isLibro: 0
+  - image: {fileID: 21300000, guid: 26fbb9680315a65438986c9769abb8fe, type: 3}
+    gameProgressKey: veneno
+    isLibro: 0
+  - image: {fileID: 21300000, guid: fb9465beb2cdf3546bc37fce98f933a2, type: 3}
+    gameProgressKey: g
+    isLibro: 0
+  - image: {fileID: 21300000, guid: 20870701e2a7f4d4cbda089cf67d6b2b, type: 3}
+    gameProgressKey: copa
+    isLibro: 0
   inventary: []
 --- !u!114 &114640231862672099
 MonoBehaviour:
@@ -8217,6 +8337,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   content:
+    vaso2: 
+    veneno: 
+    letra2_inserted: 
+    h_inserted: 
+    llave02_used: 
+    h: 
+    g: 
+    libro_lab_1: 
+    libro_lab_2: 
+    cuadernoLab1: 
+    cuadernoLab2: 
+    cuadernoLab3: 
     catDone: 
     picaporte_1: Esto no se ve bien. Mejor le aviso a Marian
     picaporte_2: "Tengo que encontrar una forma de salir\u2026 Con dignidad"
@@ -8260,6 +8392,7 @@ MonoBehaviour:
     minimap_3: 
     minimap_1_inserted: 
     minimap_2_inserted: 
+    caldero_inserted: 
     minimap_3_inserted: 
     cola_inserted: 
     montura_inserted: 
@@ -8300,6 +8433,26 @@ MonoBehaviour:
     origami: 
     catSinOrigami: 
     banco: 
+    vaso: 
+    balon: 
+    gato1: 
+    gato2: 
+    cuadroOrigamis1: 
+    cuadroOrigamis2: 
+    pileta1: 
+    pileta2: 
+    armarioLab: 
+    letra2: 
+    pizarron: 
+    balones1: 
+    balones2: 
+    caldero1: 
+    caldero2: 
+    caldero3: 
+    llave02: 
+    vaso2_inserted: 
+    balon_inserted: 
+    copa: 
 --- !u!114 &114773183641289483
 MonoBehaviour:
   m_ObjectHideFlags: 0

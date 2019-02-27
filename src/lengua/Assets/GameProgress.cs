@@ -47,4 +47,10 @@ public class GameProgress : MonoBehaviour {
 				return item;
 		return null;
 	}
+	public void SetData(string name, int _value)
+	{
+		foreach (Item item in items)
+			if (item.name == name)
+				item.value = _value;
+	}
 }

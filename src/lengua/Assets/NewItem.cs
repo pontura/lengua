@@ -17,10 +17,14 @@ public class NewItem : MonoBehaviour {
 		Events.AddToInventary -= AddToInventary;
 	}
 	void AddToInventary (Inventary.Item _item) {
-		panel.SetActive (true);
+		Invoke ("Delayed", 1);
 		Inventary.Item item = Data.Instance.inventary.GetItem (_item.gameProgressKey);
 		image.sprite = item.image;
 		Invoke ("Close", 2);
+	}
+	void Delayed()
+	{
+		panel.SetActive (true);
 	}
 	public void Close()
 	{

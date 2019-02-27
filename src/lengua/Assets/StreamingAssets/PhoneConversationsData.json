@@ -483,5 +483,21 @@
 			"emoji":"",
 			"text": "¡Lo que qusiera creer yo es que estoy cerca del final!"
 		}
+	],
+	"lab1":
+	[
+		{
+			"character":"Joaco",
+			"emoji":"",
+			"text": "Dialogo 1 lab con Joaco"
+		}
+	],
+	"lab2":
+	[
+		{
+			"character":"marian",
+			"emoji":"",
+			"text": "Dialogo 2 lab con marian"
+		}
 	]
 }

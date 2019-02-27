@@ -45,10 +45,9 @@ public class Trivia : MonoBehaviour {
 	public void Win()
 	{
 		Reset ();
-		switch(gameProgressKey)
-		{
+		switch (gameProgressKey) {
 		case "libroIngreso":
-			if (Data.Instance.gameProgress.GetData ("fichero_llave").value == 0) 
+			if (Data.Instance.gameProgress.GetData ("fichero_llave").value == 0)
 				Events.OnSaveNewData ("fichero_llave", 1);
 			break;
 		case "cuaderno_ingreso":
@@ -144,9 +143,37 @@ public class Trivia : MonoBehaviour {
 			Events.OnSaveNewData ("tijeras", 1);
 			Events.OnTexts (Data.Instance.interactiveObjectsTexts.content.tijeras, "inventary/tijeras", null);
 			break;
-
-//		case "cuadernoBiblioteca3":
-//			break;
+		case "libro_lab_1":
+			if (Data.Instance.gameProgress.GetData ("vaso").value == 0) {
+				if (Data.Instance.gameProgress.GetData ("vaso").value == 0) {
+					Events.OnSaveNewData ("vaso", 1);
+					Events.OnTexts (Data.Instance.interactiveObjectsTexts.content.vaso, "inventary/vaso", null);
+				}
+			}
+			break;
+		case "libro_lab_2":
+			if (Data.Instance.gameProgress.GetData ("h").value == 0) {
+				if (Data.Instance.gameProgress.GetData ("h").value == 0) {
+					Events.OnSaveNewData ("h", 1);
+					Events.OnTexts (Data.Instance.interactiveObjectsTexts.content.h, "inventary/h", null);
+				}
+			}
+			break;
+		case "cuadernoLab1":
+			OnCuadernoWin ("cuadernoLab1");
+			break;
+		case "cuadernoLab2":
+			OnCuadernoWin ("cuadernoLab2");
+			Events.OnSaveNewData ("llave02", 1);
+			Events.OnTexts (Data.Instance.interactiveObjectsTexts.content.llave02, "inventary/llave02", null);
+			break;
+		case "cuadernoLab3":
+			Events.OnSaveNewData ("balon", 1);
+			Events.OnTexts (Data.Instance.interactiveObjectsTexts.content.balon, "inventary/balon", null);
+			OnCuadernoWin ("cuadernoLab3");
+			break;
+		
+		
 		}
 	}
 

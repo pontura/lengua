@@ -78,10 +78,79 @@ public class InteractiveObjectsTexts : MonoBehaviour {
 				return banco;
 			case "catDone":
 				return catDone;
+			case "gato1":
+				return gato1;
+			case "gato2":
+				return gato2;
+			case "cuadroOrigamis1":
+				return cuadroOrigamis1;
+			case "cuadroOrigamis2":
+				return cuadroOrigamis2;
+			case "pileta1":
+				return pileta1;
+			case "pileta2":
+				return pileta2;
+			case "armarioLab":
+				return armarioLab;
+			case "letra2":
+				return letra2;
+			case "pizarron":
+				return pizarron;
+			case "balones1":
+				return balones1;
+			case "balones2":
+				return balones2;
+			case "caldero1":
+				return caldero1;
+			case "caldero2":
+				return caldero2;
+			case "caldero3":
+				return caldero3;
+			case "libro_lab_1":
+				return libro_lab_1;
+			case "libro_lab_2":
+				return libro_lab_2;
+			case "cuadernoLab1":
+				return cuadernoLab1;
+			case "cuadernoLab2":
+				return cuadernoLab2;
+			case "cuadernoLab3":
+				return cuadernoLab3;
+			case "llave02":
+				return llave02;
+			case "caldero_inserted":
+				return caldero_inserted;
+			case "veneno":
+				return veneno;
+			case "h":
+				return h;
+			case "g":
+				return g;
+			case "vaso2":
+				return vaso2;
+			case "balon":
+				return balon;
+			case "copa":
+				return copa;
+//			case "letra2_inserted":
+//				return letra2_inserted;
+//			case "h_inserted":
+//				return h_inserted;
 			}
 			return "ERROR: no hay un texto default en InteractiveObjectsTexts GetValue() para " + key;
 		}
-
+		public string vaso2;
+		public string veneno;
+		public string letra2_inserted;
+		public string h_inserted;
+		public string llave02_used;
+		public string h;
+		public string g;
+		public string libro_lab_1;
+		public string libro_lab_2;
+		public string cuadernoLab1;
+		public string cuadernoLab2;
+		public string cuadernoLab3;
 		public string catDone;
 		public string picaporte_1;
 		public string picaporte_2;
@@ -124,6 +193,7 @@ public class InteractiveObjectsTexts : MonoBehaviour {
 
 		public string minimap_1_inserted;
 		public string minimap_2_inserted;
+		public string caldero_inserted;
 		public string minimap_3_inserted;
 
 		public string cola_inserted;
@@ -170,6 +240,26 @@ public class InteractiveObjectsTexts : MonoBehaviour {
 		public string origami;
 		public string catSinOrigami;
 		public string banco;
+		public string vaso;
+		public string balon;
+		public string gato1;
+		public string gato2;
+		public string cuadroOrigamis1;
+		public string cuadroOrigamis2;
+		public string pileta1;
+		public string pileta2;
+		public string armarioLab;
+		public string letra2;
+		public string pizarron;
+		public string balones1;
+		public string balones2;
+		public string caldero1;
+		public string caldero2;
+		public string caldero3;
+		public string llave02;
+		public string vaso2_inserted;
+		public string balon_inserted;
+		public string copa;
 	}
 	public Content content;
 

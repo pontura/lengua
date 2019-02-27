@@ -14,6 +14,8 @@ public class PhoneConversationsData : MonoBehaviour {
 		public List<Data> patio1;
 		public List<Data> patio2;
 		public List<Data> patio3;
+		public List<Data> lab1;
+		public List<Data> lab2;
 	}
 	[Serializable]
 	public class Data

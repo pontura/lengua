@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class InteractivePlaceObjectGeneric : InteractiveObject
+public class InteractivePileta : InteractiveObject
 {
 	public GameObject state_incomplete;
 	public GameObject state_complete;
@@ -17,15 +17,15 @@ public class InteractivePlaceObjectGeneric : InteractiveObject
 
 	public override void OnClicked() 
 	{ 
-//		if (swapStateToOnClick.Length == 0)
-//			return;
-//		if (swapStateToOnClick [0].activeSelf) {
-//			swapStateToOnClick [0].SetActive (false);
-//			swapStateToOnClick [1].SetActive (true);
-//		} else {
-//			swapStateToOnClick [1].SetActive (false);
-//			swapStateToOnClick [0].SetActive (true);
-//		}
+		//		if (swapStateToOnClick.Length == 0)
+		//			return;
+		//		if (swapStateToOnClick [0].activeSelf) {
+		//			swapStateToOnClick [0].SetActive (false);
+		//			swapStateToOnClick [1].SetActive (true);
+		//		} else {
+		//			swapStateToOnClick [1].SetActive (false);
+		//			swapStateToOnClick [0].SetActive (true);
+		//		}
 	}
 	public override void OnCharacterReachMe()
 	{ 

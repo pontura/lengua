@@ -89,6 +89,22 @@ public class PhoneUI : MonoBehaviour {
 				RingPhone ();
 				Events.OnSaveNewData ("celular", 5);
 			}
+		} else if (gameProgress.GetData ("celular").value == 5) {
+			if (
+				gameProgress.GetData ("cuadernoLab1").value == 2
+			) {
+				dataContent = Data.Instance.phoneConversationsData.content.lab1;
+				RingPhone ();
+				Events.OnSaveNewData ("celular", 6);
+			}
+		} else if (gameProgress.GetData ("celular").value == 6) {
+			if (
+				gameProgress.GetData ("cuadernoLab2").value == 2
+			) {
+				dataContent = Data.Instance.phoneConversationsData.content.lab2;
+				RingPhone ();
+				Events.OnSaveNewData ("celular", 7);
+			}
 		}
 	}
 	void RingPhone()

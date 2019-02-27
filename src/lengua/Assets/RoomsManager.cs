@@ -36,6 +36,9 @@ public class RoomsManager : MonoBehaviour {
 		case Room.types.PATIO:
 			newRoom = rooms [3];
 			break;
+		case Room.types.LAB:
+			newRoom = rooms [4];
+			break;
 		}
 		
 		room = Instantiate (newRoom);

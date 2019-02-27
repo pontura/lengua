@@ -9,9 +9,21 @@ public class InteractiveCat : InteractiveObject
 	public GameObject origami;
 	public GameObject walk;
 
+	public bool isInLab;
+
 	void OnEnable()
 	{
-		SetState (normal);
+		if (isInLab) {
+			if (Data.Instance.gameProgress.GetData ("origami2").value >0) {
+				walk.SetActive (true);
+				origami.SetActive (false);
+			} else {
+				walk.SetActive (false);
+				origami.SetActive (true);
+			}
+		} else {
+			SetState (normal);
+		}
 	}
 	public override void OnClicked() 
 	{ 
@@ -19,7 +31,19 @@ public class InteractiveCat : InteractiveObject
 	}
 	public override void OnCharacterReachMe()
 	{ 
-		if (Data.Instance.gameProgress.GetData ("origami").value == 3)	
+		if (isInLab) {
+			if (Data.Instance.gameProgress.GetData ("origami2").value == 0) {
+				Events.OnSaveNewData ("origami2", 1);
+				walk.SetActive (true);
+				origami.SetActive (false);
+				Events.OnTexts (content.gato1, "inventary/origami", null);
+			}  else
+			{
+				Events.OnTip (content.gato2);
+			} 
+			return;
+		}
+		if (Data.Instance.gameProgress.GetData ("origami").value > 2)	
 		{
 			GotoRoom ();
 		}else if (Data.Instance.gameProgress.GetData ("origami").value == 2)	
