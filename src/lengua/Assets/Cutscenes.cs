@@ -18,7 +18,9 @@ public class Cutscenes : MonoBehaviour {
 		BIBLIOTECA_END,
 		PUERTA_MAPOTECA,
 		MAPOTECA,
-		MAPOTECA_END
+		MAPOTECA_END,
+		MAPOTECA2,
+		MAPOTECA_END2
 	}
 	void Start()
 	{
@@ -168,6 +170,13 @@ public class Cutscenes : MonoBehaviour {
 				Events.OnFloorClicked (new Vector3 (-1.13f, 0, 2.14f));
 				GetComponent<Animation> ().Play ("mapoteca");
 			}
+			else if (Data.Instance.gameProgress.GetData ("cutscenes").value < 4) {
+				room.roomsManager.character.view.ResetPosition ();
+				Events.OnSaveNewData ("cutscenes", 4);
+				Events.OnFloorClicked (new Vector3 (-1.13f, 0, 2.14f));
+				GetComponent<Animation> ().Play ("mapoteca2");
+				type = types.MAPOTECA2;
+			}
 			else
 				return;
 			break;
@@ -181,6 +190,9 @@ public class Cutscenes : MonoBehaviour {
 			break;
 		case types.MAPOTECA:
 			OnCutscene (types.MAPOTECA);
+			break;
+		case types.MAPOTECA2:
+			OnCutscene (types.MAPOTECA2);
 			break;
 		}
 
@@ -200,6 +212,9 @@ public class Cutscenes : MonoBehaviour {
 			break;
 		case types.MAPOTECA:
 			OnCutscene (types.MAPOTECA_END);
+			break;
+		case types.MAPOTECA2:
+			OnCutscene (types.MAPOTECA_END2);
 			break;
 		}
 	}
@@ -237,6 +252,11 @@ public class Cutscenes : MonoBehaviour {
 		case types.MAPOTECA_END:
 			GetComponent<Animation> ().Play ("mapoteca_end");
 			Events.OnDialogue (Data.Instance.dialoguesData.content.mapoteca, null);
+			room.roomsManager.cutscenesUI.SetOff ();
+			break;
+		case types.MAPOTECA_END2:
+			GetComponent<Animation> ().Play ("mapoteca_end2");
+			Events.OnDialogue (Data.Instance.dialoguesData.content.mapoteca2, null);
 			room.roomsManager.cutscenesUI.SetOff ();
 			break;
 		}

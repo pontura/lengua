@@ -4874,8 +4874,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walkToMe: 1
-  waltoToMeOffset: {x: 0, y: 0, z: -0.7}
+  waltoToMeOffset: {x: 0, y: 0, z: -1}
   content:
+    vaso2: 
+    veneno: 
+    letra2_inserted: 
+    h_inserted: 
+    llave02_used: 
+    h: 
+    g: 
+    libro_lab_1: 
+    libro_lab_2: 
+    cuadernoLab1: 
+    cuadernoLab2: 
+    cuadernoLab3: 
+    catDone: 
     picaporte_1: Esto no se ve bien. Mejor le aviso a Marian
     picaporte_2: "Tengo que encontrar una forma de salir\u2026 Con dignidad"
     picaporte_3: Con este destornillador tengo que poder arregar esta puerta...
@@ -4923,7 +4936,10 @@ MonoBehaviour:
     minimap_3: Otra parte del mapa
     minimap_1_inserted: Puse la 1
     minimap_2_inserted: Puse la 2
+    caldero_inserted: 
     minimap_3_inserted: Puse la 3
+    cola_inserted: 
+    montura_inserted: 
     cajoneraVacia: "Nada por aqu\xED..."
     cuadernoMapoteca1: "\xA1Un cuaderno!"
     cuadernoMapoteca2: "\xA1Otro cuaderno!"
@@ -4948,6 +4964,44 @@ MonoBehaviour:
     mapaConstelacion: "\xBFExistir\xE1n organismos inteligentes en otro planeta?\xBFEs
       inteligente que yo, como organismo, me haga esta pregunta?"
     mapasMedicion: "Mapas e instrumentos de medici\xF3n del a\xF1o de la escarapela"
+    cuadernoPatio1: 
+    cuadernoPatio2: 
+    cuadernoPatio3: 
+    libro_patio_1: 
+    libro_patio_2: 
+    libro_patio_3: 
+    cola: 
+    montura: 
+    pala: 
+    piedra: 
+    tijeras: 
+    cuadernoArbol: 
+    pozo: 
+    ligustrina: 
+    estatuaIncompleta: 
+    origami: 
+    catSinOrigami: 
+    banco: 
+    vaso: 
+    balon: 
+    gato1: 
+    gato2: 
+    cuadroOrigamis1: 
+    cuadroOrigamis2: 
+    pileta1: 
+    pileta2: 
+    armarioLab: 
+    letra2: 
+    pizarron: 
+    balones1: 
+    balones2: 
+    caldero1: 
+    caldero2: 
+    caldero3: 
+    llave02: 
+    vaso2_inserted: 
+    balon_inserted: 
+    copa: 
   gameProgress: {fileID: 0}
   gameProgressKey: 
   gameProgressValue: 0
@@ -10737,6 +10791,19 @@ MonoBehaviour:
   walkToMe: 1
   waltoToMeOffset: {x: 0, y: 0, z: -2.4}
   content:
+    vaso2: 
+    veneno: 
+    letra2_inserted: 
+    h_inserted: 
+    llave02_used: 
+    h: 
+    g: 
+    libro_lab_1: 
+    libro_lab_2: 
+    cuadernoLab1: 
+    cuadernoLab2: 
+    cuadernoLab3: 
+    catDone: 
     picaporte_1: Esto no se ve bien. Mejor le aviso a Marian
     picaporte_2: "Tengo que encontrar una forma de salir\u2026 Con dignidad"
     picaporte_3: Con este destornillador tengo que poder arregar esta puerta...
@@ -10784,7 +10851,10 @@ MonoBehaviour:
     minimap_3: Otra parte del mapa
     minimap_1_inserted: Puse la 1
     minimap_2_inserted: Puse la 2
+    caldero_inserted: 
     minimap_3_inserted: Puse la 3
+    cola_inserted: 
+    montura_inserted: 
     cajoneraVacia: "Nada por aqu\xED..."
     cuadernoMapoteca1: "\xA1Un cuaderno!"
     cuadernoMapoteca2: "\xA1Otro cuaderno!"
@@ -10809,6 +10879,44 @@ MonoBehaviour:
     mapaConstelacion: "\xBFExistir\xE1n organismos inteligentes en otro planeta?\xBFEs
       inteligente que yo, como organismo, me haga esta pregunta?"
     mapasMedicion: "Mapas e instrumentos de medici\xF3n del a\xF1o de la escarapela"
+    cuadernoPatio1: 
+    cuadernoPatio2: 
+    cuadernoPatio3: 
+    libro_patio_1: 
+    libro_patio_2: 
+    libro_patio_3: 
+    cola: 
+    montura: 
+    pala: 
+    piedra: 
+    tijeras: 
+    cuadernoArbol: 
+    pozo: 
+    ligustrina: 
+    estatuaIncompleta: 
+    origami: 
+    catSinOrigami: 
+    banco: 
+    vaso: 
+    balon: 
+    gato1: 
+    gato2: 
+    cuadroOrigamis1: 
+    cuadroOrigamis2: 
+    pileta1: 
+    pileta2: 
+    armarioLab: 
+    letra2: 
+    pizarron: 
+    balones1: 
+    balones2: 
+    caldero1: 
+    caldero2: 
+    caldero3: 
+    llave02: 
+    vaso2_inserted: 
+    balon_inserted: 
+    copa: 
   gameProgress: {fileID: 0}
   gameProgressKey: puerta_Biblioteca_Patio
   gameProgressValue: 0
@@ -11235,7 +11343,7 @@ Transform:
   m_GameObject: {fileID: 1199232996321282}
   m_LocalRotation: {x: 0.17364816, y: 0, z: 0, w: 0.9848078}
   m_LocalPosition: {x: 0.6, y: -1.88, z: 2.66}
-  m_LocalScale: {x: 0.53471696, y: 0.2106512, z: 0.46905}
+  m_LocalScale: {x: 0.72, y: 0.2106512, z: 0.46905}
   m_Children:
   - {fileID: 4548671730447716}
   m_Father: {fileID: 4777564607557290}
@@ -11487,6 +11595,19 @@ MonoBehaviour:
   walkToMe: 1
   waltoToMeOffset: {x: 0, y: 0, z: -1}
   content:
+    vaso2: 
+    veneno: 
+    letra2_inserted: 
+    h_inserted: 
+    llave02_used: 
+    h: 
+    g: 
+    libro_lab_1: 
+    libro_lab_2: 
+    cuadernoLab1: 
+    cuadernoLab2: 
+    cuadernoLab3: 
+    catDone: 
     picaporte_1: Esto no se ve bien. Mejor le aviso a Marian
     picaporte_2: "Tengo que encontrar una forma de salir\u2026 Con dignidad"
     picaporte_3: Con este destornillador tengo que poder arregar esta puerta...
@@ -11534,7 +11655,10 @@ MonoBehaviour:
     minimap_3: Otra parte del mapa
     minimap_1_inserted: Puse la 1
     minimap_2_inserted: Puse la 2
+    caldero_inserted: 
     minimap_3_inserted: Puse la 3
+    cola_inserted: 
+    montura_inserted: 
     cajoneraVacia: "Nada por aqu\xED..."
     cuadernoMapoteca1: "\xA1Un cuaderno!"
     cuadernoMapoteca2: "\xA1Otro cuaderno!"
@@ -11559,6 +11683,44 @@ MonoBehaviour:
     mapaConstelacion: "\xBFExistir\xE1n organismos inteligentes en otro planeta?\xBFEs
       inteligente que yo, como organismo, me haga esta pregunta?"
     mapasMedicion: "Mapas e instrumentos de medici\xF3n del a\xF1o de la escarapela"
+    cuadernoPatio1: 
+    cuadernoPatio2: 
+    cuadernoPatio3: 
+    libro_patio_1: 
+    libro_patio_2: 
+    libro_patio_3: 
+    cola: 
+    montura: 
+    pala: 
+    piedra: 
+    tijeras: 
+    cuadernoArbol: 
+    pozo: 
+    ligustrina: 
+    estatuaIncompleta: 
+    origami: 
+    catSinOrigami: 
+    banco: 
+    vaso: 
+    balon: 
+    gato1: 
+    gato2: 
+    cuadroOrigamis1: 
+    cuadroOrigamis2: 
+    pileta1: 
+    pileta2: 
+    armarioLab: 
+    letra2: 
+    pizarron: 
+    balones1: 
+    balones2: 
+    caldero1: 
+    caldero2: 
+    caldero3: 
+    llave02: 
+    vaso2_inserted: 
+    balon_inserted: 
+    copa: 
   gameProgress: {fileID: 0}
   gameProgressKey: alfonsina
   gameProgressValue: 0
@@ -12432,6 +12594,19 @@ MonoBehaviour:
   walkToMe: 1
   waltoToMeOffset: {x: -0.2, y: 0, z: -1}
   content:
+    vaso2: 
+    veneno: 
+    letra2_inserted: 
+    h_inserted: 
+    llave02_used: 
+    h: 
+    g: 
+    libro_lab_1: 
+    libro_lab_2: 
+    cuadernoLab1: 
+    cuadernoLab2: 
+    cuadernoLab3: 
+    catDone: 
     picaporte_1: Esto no se ve bien. Mejor le aviso a Marian
     picaporte_2: "Tengo que encontrar una forma de salir\u2026 Con dignidad"
     picaporte_3: Con este destornillador tengo que poder arregar esta puerta...
@@ -12479,7 +12654,10 @@ MonoBehaviour:
     minimap_3: Otra parte del mapa
     minimap_1_inserted: Puse la 1
     minimap_2_inserted: Puse la 2
+    caldero_inserted: 
     minimap_3_inserted: Puse la 3
+    cola_inserted: 
+    montura_inserted: 
     cajoneraVacia: "Nada por aqu\xED..."
     cuadernoMapoteca1: "\xA1Un cuaderno!"
     cuadernoMapoteca2: "\xA1Otro cuaderno!"
@@ -12504,6 +12682,44 @@ MonoBehaviour:
     mapaConstelacion: "\xBFExistir\xE1n organismos inteligentes en otro planeta?\xBFEs
       inteligente que yo, como organismo, me haga esta pregunta?"
     mapasMedicion: "Mapas e instrumentos de medici\xF3n del a\xF1o de la escarapela"
+    cuadernoPatio1: 
+    cuadernoPatio2: 
+    cuadernoPatio3: 
+    libro_patio_1: 
+    libro_patio_2: 
+    libro_patio_3: 
+    cola: 
+    montura: 
+    pala: 
+    piedra: 
+    tijeras: 
+    cuadernoArbol: 
+    pozo: 
+    ligustrina: 
+    estatuaIncompleta: 
+    origami: 
+    catSinOrigami: 
+    banco: 
+    vaso: 
+    balon: 
+    gato1: 
+    gato2: 
+    cuadroOrigamis1: 
+    cuadroOrigamis2: 
+    pileta1: 
+    pileta2: 
+    armarioLab: 
+    letra2: 
+    pizarron: 
+    balones1: 
+    balones2: 
+    caldero1: 
+    caldero2: 
+    caldero3: 
+    llave02: 
+    vaso2_inserted: 
+    balon_inserted: 
+    copa: 
   gameProgress: {fileID: 0}
   gameProgressKey: escalera
   gameProgressValue: 0
@@ -13777,6 +13993,19 @@ MonoBehaviour:
   walkToMe: 1
   waltoToMeOffset: {x: -0.25, y: 0, z: -1}
   content:
+    vaso2: 
+    veneno: 
+    letra2_inserted: 
+    h_inserted: 
+    llave02_used: 
+    h: 
+    g: 
+    libro_lab_1: 
+    libro_lab_2: 
+    cuadernoLab1: 
+    cuadernoLab2: 
+    cuadernoLab3: 
+    catDone: 
     picaporte_1: Esto no se ve bien. Mejor le aviso a Marian
     picaporte_2: "Tengo que encontrar una forma de salir\u2026 Con dignidad"
     picaporte_3: Con este destornillador tengo que poder arregar esta puerta...
@@ -13824,7 +14053,10 @@ MonoBehaviour:
     minimap_3: Otra parte del mapa
     minimap_1_inserted: Puse la 1
     minimap_2_inserted: Puse la 2
+    caldero_inserted: 
     minimap_3_inserted: Puse la 3
+    cola_inserted: 
+    montura_inserted: 
     cajoneraVacia: "Nada por aqu\xED..."
     cuadernoMapoteca1: "\xA1Un cuaderno!"
     cuadernoMapoteca2: "\xA1Otro cuaderno!"
@@ -13849,6 +14081,44 @@ MonoBehaviour:
     mapaConstelacion: "\xBFExistir\xE1n organismos inteligentes en otro planeta?\xBFEs
       inteligente que yo, como organismo, me haga esta pregunta?"
     mapasMedicion: "Mapas e instrumentos de medici\xF3n del a\xF1o de la escarapela"
+    cuadernoPatio1: 
+    cuadernoPatio2: 
+    cuadernoPatio3: 
+    libro_patio_1: 
+    libro_patio_2: 
+    libro_patio_3: 
+    cola: 
+    montura: 
+    pala: 
+    piedra: 
+    tijeras: 
+    cuadernoArbol: 
+    pozo: 
+    ligustrina: 
+    estatuaIncompleta: 
+    origami: 
+    catSinOrigami: 
+    banco: 
+    vaso: 
+    balon: 
+    gato1: 
+    gato2: 
+    cuadroOrigamis1: 
+    cuadroOrigamis2: 
+    pileta1: 
+    pileta2: 
+    armarioLab: 
+    letra2: 
+    pizarron: 
+    balones1: 
+    balones2: 
+    caldero1: 
+    caldero2: 
+    caldero3: 
+    llave02: 
+    vaso2_inserted: 
+    balon_inserted: 
+    copa: 
   gameProgress: {fileID: 0}
   gameProgressKey: minotauro
   gameProgressValue: 0
@@ -14975,6 +15245,19 @@ MonoBehaviour:
   walkToMe: 1
   waltoToMeOffset: {x: 0, y: 0, z: 0}
   content:
+    vaso2: 
+    veneno: 
+    letra2_inserted: 
+    h_inserted: 
+    llave02_used: 
+    h: 
+    g: 
+    libro_lab_1: 
+    libro_lab_2: 
+    cuadernoLab1: 
+    cuadernoLab2: 
+    cuadernoLab3: 
+    catDone: 
     picaporte_1: Esto no se ve bien. Mejor le aviso a Marian
     picaporte_2: "Tengo que encontrar una forma de salir\u2026 Con dignidad"
     picaporte_3: Con este destornillador tengo que poder arregar esta puerta...
@@ -15022,7 +15305,10 @@ MonoBehaviour:
     minimap_3: Otra parte del mapa
     minimap_1_inserted: Puse la 1
     minimap_2_inserted: Puse la 2
+    caldero_inserted: 
     minimap_3_inserted: Puse la 3
+    cola_inserted: 
+    montura_inserted: 
     cajoneraVacia: "Nada por aqu\xED..."
     cuadernoMapoteca1: "\xA1Un cuaderno!"
     cuadernoMapoteca2: "\xA1Otro cuaderno!"
@@ -15047,6 +15333,44 @@ MonoBehaviour:
     mapaConstelacion: "\xBFExistir\xE1n organismos inteligentes en otro planeta?\xBFEs
       inteligente que yo, como organismo, me haga esta pregunta?"
     mapasMedicion: "Mapas e instrumentos de medici\xF3n del a\xF1o de la escarapela"
+    cuadernoPatio1: 
+    cuadernoPatio2: 
+    cuadernoPatio3: 
+    libro_patio_1: 
+    libro_patio_2: 
+    libro_patio_3: 
+    cola: 
+    montura: 
+    pala: 
+    piedra: 
+    tijeras: 
+    cuadernoArbol: 
+    pozo: 
+    ligustrina: 
+    estatuaIncompleta: 
+    origami: 
+    catSinOrigami: 
+    banco: 
+    vaso: 
+    balon: 
+    gato1: 
+    gato2: 
+    cuadroOrigamis1: 
+    cuadroOrigamis2: 
+    pileta1: 
+    pileta2: 
+    armarioLab: 
+    letra2: 
+    pizarron: 
+    balones1: 
+    balones2: 
+    caldero1: 
+    caldero2: 
+    caldero3: 
+    llave02: 
+    vaso2_inserted: 
+    balon_inserted: 
+    copa: 
   gameProgress: {fileID: 0}
   gameProgressKey: cuerno1
   gameProgressValue: 0
@@ -27353,6 +27677,19 @@ MonoBehaviour:
   walkToMe: 1
   waltoToMeOffset: {x: 0, y: 0, z: -1}
   content:
+    vaso2: 
+    veneno: 
+    letra2_inserted: 
+    h_inserted: 
+    llave02_used: 
+    h: 
+    g: 
+    libro_lab_1: 
+    libro_lab_2: 
+    cuadernoLab1: 
+    cuadernoLab2: 
+    cuadernoLab3: 
+    catDone: 
     picaporte_1: Esto no se ve bien. Mejor le aviso a Marian
     picaporte_2: "Tengo que encontrar una forma de salir\u2026 Con dignidad"
     picaporte_3: Con este destornillador tengo que poder arregar esta puerta...
@@ -27400,7 +27737,10 @@ MonoBehaviour:
     minimap_3: Otra parte del mapa
     minimap_1_inserted: Puse la 1
     minimap_2_inserted: Puse la 2
+    caldero_inserted: 
     minimap_3_inserted: Puse la 3
+    cola_inserted: 
+    montura_inserted: 
     cajoneraVacia: "Nada por aqu\xED..."
     cuadernoMapoteca1: "\xA1Un cuaderno!"
     cuadernoMapoteca2: "\xA1Otro cuaderno!"
@@ -27425,6 +27765,44 @@ MonoBehaviour:
     mapaConstelacion: "\xBFExistir\xE1n organismos inteligentes en otro planeta?\xBFEs
       inteligente que yo, como organismo, me haga esta pregunta?"
     mapasMedicion: "Mapas e instrumentos de medici\xF3n del a\xF1o de la escarapela"
+    cuadernoPatio1: 
+    cuadernoPatio2: 
+    cuadernoPatio3: 
+    libro_patio_1: 
+    libro_patio_2: 
+    libro_patio_3: 
+    cola: 
+    montura: 
+    pala: 
+    piedra: 
+    tijeras: 
+    cuadernoArbol: 
+    pozo: 
+    ligustrina: 
+    estatuaIncompleta: 
+    origami: 
+    catSinOrigami: 
+    banco: 
+    vaso: 
+    balon: 
+    gato1: 
+    gato2: 
+    cuadroOrigamis1: 
+    cuadroOrigamis2: 
+    pileta1: 
+    pileta2: 
+    armarioLab: 
+    letra2: 
+    pizarron: 
+    balones1: 
+    balones2: 
+    caldero1: 
+    caldero2: 
+    caldero3: 
+    llave02: 
+    vaso2_inserted: 
+    balon_inserted: 
+    copa: 
   gameProgress: {fileID: 0}
   gameProgressKey: cuadernoBiblioteca1
   gameProgressValue: 0
@@ -32594,7 +32972,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2438862106796532926}
   m_LocalRotation: {x: 2.7191289e-15, y: 0.38268343, z: 0.92387956, w: -6.5645583e-15}
-  m_LocalPosition: {x: 0, y: -0.803, z: -3.1}
+  m_LocalPosition: {x: 0, y: -0.66, z: -2.88}
   m_LocalScale: {x: 1.25528, y: -2.04, z: 0.8315489}
   m_Children: []
   m_Father: {fileID: 815909730}
@@ -32653,7 +33031,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2438862106796532926}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -39404,6 +39782,19 @@ MonoBehaviour:
   walkToMe: 1
   waltoToMeOffset: {x: 0, y: 0, z: -1}
   content:
+    vaso2: 
+    veneno: 
+    letra2_inserted: 
+    h_inserted: 
+    llave02_used: 
+    h: 
+    g: 
+    libro_lab_1: 
+    libro_lab_2: 
+    cuadernoLab1: 
+    cuadernoLab2: 
+    cuadernoLab3: 
+    catDone: 
     picaporte_1: Esto no se ve bien. Mejor le aviso a Marian
     picaporte_2: "Tengo que encontrar una forma de salir\u2026 Con dignidad"
     picaporte_3: Con este destornillador tengo que poder arregar esta puerta...
@@ -39451,7 +39842,10 @@ MonoBehaviour:
     minimap_3: Otra parte del mapa
     minimap_1_inserted: Puse la 1
     minimap_2_inserted: Puse la 2
+    caldero_inserted: 
     minimap_3_inserted: Puse la 3
+    cola_inserted: 
+    montura_inserted: 
     cajoneraVacia: "Nada por aqu\xED..."
     cuadernoMapoteca1: "\xA1Un cuaderno!"
     cuadernoMapoteca2: "\xA1Otro cuaderno!"
@@ -39476,6 +39870,44 @@ MonoBehaviour:
     mapaConstelacion: "\xBFExistir\xE1n organismos inteligentes en otro planeta?\xBFEs
       inteligente que yo, como organismo, me haga esta pregunta?"
     mapasMedicion: "Mapas e instrumentos de medici\xF3n del a\xF1o de la escarapela"
+    cuadernoPatio1: 
+    cuadernoPatio2: 
+    cuadernoPatio3: 
+    libro_patio_1: 
+    libro_patio_2: 
+    libro_patio_3: 
+    cola: 
+    montura: 
+    pala: 
+    piedra: 
+    tijeras: 
+    cuadernoArbol: 
+    pozo: 
+    ligustrina: 
+    estatuaIncompleta: 
+    origami: 
+    catSinOrigami: 
+    banco: 
+    vaso: 
+    balon: 
+    gato1: 
+    gato2: 
+    cuadroOrigamis1: 
+    cuadroOrigamis2: 
+    pileta1: 
+    pileta2: 
+    armarioLab: 
+    letra2: 
+    pizarron: 
+    balones1: 
+    balones2: 
+    caldero1: 
+    caldero2: 
+    caldero3: 
+    llave02: 
+    vaso2_inserted: 
+    balon_inserted: 
+    copa: 
   gameProgress: {fileID: 0}
   gameProgressKey: cuadernoBiblioteca2
   gameProgressValue: 0
@@ -49239,6 +49671,19 @@ MonoBehaviour:
   walkToMe: 1
   waltoToMeOffset: {x: -2, y: 0, z: -0.5}
   content:
+    vaso2: 
+    veneno: 
+    letra2_inserted: 
+    h_inserted: 
+    llave02_used: 
+    h: 
+    g: 
+    libro_lab_1: 
+    libro_lab_2: 
+    cuadernoLab1: 
+    cuadernoLab2: 
+    cuadernoLab3: 
+    catDone: 
     picaporte_1: Esto no se ve bien. Mejor le aviso a Marian
     picaporte_2: "Tengo que encontrar una forma de salir\u2026 Con dignidad"
     picaporte_3: Con este destornillador tengo que poder arregar esta puerta...
@@ -49286,7 +49731,10 @@ MonoBehaviour:
     minimap_3: Otra parte del mapa
     minimap_1_inserted: Puse la 1
     minimap_2_inserted: Puse la 2
+    caldero_inserted: 
     minimap_3_inserted: Puse la 3
+    cola_inserted: 
+    montura_inserted: 
     cajoneraVacia: "Nada por aqu\xED..."
     cuadernoMapoteca1: "\xA1Un cuaderno!"
     cuadernoMapoteca2: "\xA1Otro cuaderno!"
@@ -49311,6 +49759,44 @@ MonoBehaviour:
     mapaConstelacion: "\xBFExistir\xE1n organismos inteligentes en otro planeta?\xBFEs
       inteligente que yo, como organismo, me haga esta pregunta?"
     mapasMedicion: "Mapas e instrumentos de medici\xF3n del a\xF1o de la escarapela"
+    cuadernoPatio1: 
+    cuadernoPatio2: 
+    cuadernoPatio3: 
+    libro_patio_1: 
+    libro_patio_2: 
+    libro_patio_3: 
+    cola: 
+    montura: 
+    pala: 
+    piedra: 
+    tijeras: 
+    cuadernoArbol: 
+    pozo: 
+    ligustrina: 
+    estatuaIncompleta: 
+    origami: 
+    catSinOrigami: 
+    banco: 
+    vaso: 
+    balon: 
+    gato1: 
+    gato2: 
+    cuadroOrigamis1: 
+    cuadroOrigamis2: 
+    pileta1: 
+    pileta2: 
+    armarioLab: 
+    letra2: 
+    pizarron: 
+    balones1: 
+    balones2: 
+    caldero1: 
+    caldero2: 
+    caldero3: 
+    llave02: 
+    vaso2_inserted: 
+    balon_inserted: 
+    copa: 
   gameProgress: {fileID: 0}
   gameProgressKey: puertaMapoteca
   gameProgressValue: 0
@@ -54889,6 +55375,19 @@ MonoBehaviour:
   walkToMe: 1
   waltoToMeOffset: {x: 0, y: 0, z: -0.5}
   content:
+    vaso2: 
+    veneno: 
+    letra2_inserted: 
+    h_inserted: 
+    llave02_used: 
+    h: 
+    g: 
+    libro_lab_1: 
+    libro_lab_2: 
+    cuadernoLab1: 
+    cuadernoLab2: 
+    cuadernoLab3: 
+    catDone: 
     picaporte_1: Esto no se ve bien. Mejor le aviso a Marian
     picaporte_2: "Tengo que encontrar una forma de salir\u2026 Con dignidad"
     picaporte_3: Con este destornillador tengo que poder arregar esta puerta...
@@ -54936,7 +55435,10 @@ MonoBehaviour:
     minimap_3: Otra parte del mapa
     minimap_1_inserted: Puse la 1
     minimap_2_inserted: Puse la 2
+    caldero_inserted: 
     minimap_3_inserted: Puse la 3
+    cola_inserted: 
+    montura_inserted: 
     cajoneraVacia: "Nada por aqu\xED..."
     cuadernoMapoteca1: "\xA1Un cuaderno!"
     cuadernoMapoteca2: "\xA1Otro cuaderno!"
@@ -54961,6 +55463,44 @@ MonoBehaviour:
     mapaConstelacion: "\xBFExistir\xE1n organismos inteligentes en otro planeta?\xBFEs
       inteligente que yo, como organismo, me haga esta pregunta?"
     mapasMedicion: "Mapas e instrumentos de medici\xF3n del a\xF1o de la escarapela"
+    cuadernoPatio1: 
+    cuadernoPatio2: 
+    cuadernoPatio3: 
+    libro_patio_1: 
+    libro_patio_2: 
+    libro_patio_3: 
+    cola: 
+    montura: 
+    pala: 
+    piedra: 
+    tijeras: 
+    cuadernoArbol: 
+    pozo: 
+    ligustrina: 
+    estatuaIncompleta: 
+    origami: 
+    catSinOrigami: 
+    banco: 
+    vaso: 
+    balon: 
+    gato1: 
+    gato2: 
+    cuadroOrigamis1: 
+    cuadroOrigamis2: 
+    pileta1: 
+    pileta2: 
+    armarioLab: 
+    letra2: 
+    pizarron: 
+    balones1: 
+    balones2: 
+    caldero1: 
+    caldero2: 
+    caldero3: 
+    llave02: 
+    vaso2_inserted: 
+    balon_inserted: 
+    copa: 
   gameProgress: {fileID: 0}
   gameProgressKey: libros_dibujos
   gameProgressValue: 0
@@ -55017,6 +55557,19 @@ MonoBehaviour:
   walkToMe: 1
   waltoToMeOffset: {x: -0.5, y: 0, z: -1}
   content:
+    vaso2: 
+    veneno: 
+    letra2_inserted: 
+    h_inserted: 
+    llave02_used: 
+    h: 
+    g: 
+    libro_lab_1: 
+    libro_lab_2: 
+    cuadernoLab1: 
+    cuadernoLab2: 
+    cuadernoLab3: 
+    catDone: 
     picaporte_1: Esto no se ve bien. Mejor le aviso a Marian
     picaporte_2: "Tengo que encontrar una forma de salir\u2026 Con dignidad"
     picaporte_3: Con este destornillador tengo que poder arregar esta puerta...
@@ -55064,7 +55617,10 @@ MonoBehaviour:
     minimap_3: Otra parte del mapa
     minimap_1_inserted: Puse la 1
     minimap_2_inserted: Puse la 2
+    caldero_inserted: 
     minimap_3_inserted: Puse la 3
+    cola_inserted: 
+    montura_inserted: 
     cajoneraVacia: "Nada por aqu\xED..."
     cuadernoMapoteca1: "\xA1Un cuaderno!"
     cuadernoMapoteca2: "\xA1Otro cuaderno!"
@@ -55089,6 +55645,44 @@ MonoBehaviour:
     mapaConstelacion: "\xBFExistir\xE1n organismos inteligentes en otro planeta?\xBFEs
       inteligente que yo, como organismo, me haga esta pregunta?"
     mapasMedicion: "Mapas e instrumentos de medici\xF3n del a\xF1o de la escarapela"
+    cuadernoPatio1: 
+    cuadernoPatio2: 
+    cuadernoPatio3: 
+    libro_patio_1: 
+    libro_patio_2: 
+    libro_patio_3: 
+    cola: 
+    montura: 
+    pala: 
+    piedra: 
+    tijeras: 
+    cuadernoArbol: 
+    pozo: 
+    ligustrina: 
+    estatuaIncompleta: 
+    origami: 
+    catSinOrigami: 
+    banco: 
+    vaso: 
+    balon: 
+    gato1: 
+    gato2: 
+    cuadroOrigamis1: 
+    cuadroOrigamis2: 
+    pileta1: 
+    pileta2: 
+    armarioLab: 
+    letra2: 
+    pizarron: 
+    balones1: 
+    balones2: 
+    caldero1: 
+    caldero2: 
+    caldero3: 
+    llave02: 
+    vaso2_inserted: 
+    balon_inserted: 
+    copa: 
   gameProgress: {fileID: 0}
   gameProgressKey: armadura
   gameProgressValue: 0
@@ -55910,6 +56504,19 @@ MonoBehaviour:
   walkToMe: 1
   waltoToMeOffset: {x: 0, y: 0, z: -0.5}
   content:
+    vaso2: 
+    veneno: 
+    letra2_inserted: 
+    h_inserted: 
+    llave02_used: 
+    h: 
+    g: 
+    libro_lab_1: 
+    libro_lab_2: 
+    cuadernoLab1: 
+    cuadernoLab2: 
+    cuadernoLab3: 
+    catDone: 
     picaporte_1: Esto no se ve bien. Mejor le aviso a Marian
     picaporte_2: "Tengo que encontrar una forma de salir\u2026 Con dignidad"
     picaporte_3: Con este destornillador tengo que poder arregar esta puerta...
@@ -55957,7 +56564,10 @@ MonoBehaviour:
     minimap_3: Otra parte del mapa
     minimap_1_inserted: Puse la 1
     minimap_2_inserted: Puse la 2
+    caldero_inserted: 
     minimap_3_inserted: Puse la 3
+    cola_inserted: 
+    montura_inserted: 
     cajoneraVacia: "Nada por aqu\xED..."
     cuadernoMapoteca1: "\xA1Un cuaderno!"
     cuadernoMapoteca2: "\xA1Otro cuaderno!"
@@ -55982,6 +56592,44 @@ MonoBehaviour:
     mapaConstelacion: "\xBFExistir\xE1n organismos inteligentes en otro planeta?\xBFEs
       inteligente que yo, como organismo, me haga esta pregunta?"
     mapasMedicion: "Mapas e instrumentos de medici\xF3n del a\xF1o de la escarapela"
+    cuadernoPatio1: 
+    cuadernoPatio2: 
+    cuadernoPatio3: 
+    libro_patio_1: 
+    libro_patio_2: 
+    libro_patio_3: 
+    cola: 
+    montura: 
+    pala: 
+    piedra: 
+    tijeras: 
+    cuadernoArbol: 
+    pozo: 
+    ligustrina: 
+    estatuaIncompleta: 
+    origami: 
+    catSinOrigami: 
+    banco: 
+    vaso: 
+    balon: 
+    gato1: 
+    gato2: 
+    cuadroOrigamis1: 
+    cuadroOrigamis2: 
+    pileta1: 
+    pileta2: 
+    armarioLab: 
+    letra2: 
+    pizarron: 
+    balones1: 
+    balones2: 
+    caldero1: 
+    caldero2: 
+    caldero3: 
+    llave02: 
+    vaso2_inserted: 
+    balon_inserted: 
+    copa: 
   gameProgress: {fileID: 0}
   gameProgressKey: libros_dibujos
   gameProgressValue: 0
@@ -72458,6 +73106,19 @@ MonoBehaviour:
   walkToMe: 1
   waltoToMeOffset: {x: 0, y: 0, z: -0.5}
   content:
+    vaso2: 
+    veneno: 
+    letra2_inserted: 
+    h_inserted: 
+    llave02_used: 
+    h: 
+    g: 
+    libro_lab_1: 
+    libro_lab_2: 
+    cuadernoLab1: 
+    cuadernoLab2: 
+    cuadernoLab3: 
+    catDone: 
     picaporte_1: Esto no se ve bien. Mejor le aviso a Marian
     picaporte_2: "Tengo que encontrar una forma de salir\u2026 Con dignidad"
     picaporte_3: Con este destornillador tengo que poder arregar esta puerta...
@@ -72505,7 +73166,10 @@ MonoBehaviour:
     minimap_3: Otra parte del mapa
     minimap_1_inserted: Puse la 1
     minimap_2_inserted: Puse la 2
+    caldero_inserted: 
     minimap_3_inserted: Puse la 3
+    cola_inserted: 
+    montura_inserted: 
     cajoneraVacia: "Nada por aqu\xED..."
     cuadernoMapoteca1: "\xA1Un cuaderno!"
     cuadernoMapoteca2: "\xA1Otro cuaderno!"
@@ -72530,6 +73194,44 @@ MonoBehaviour:
     mapaConstelacion: "\xBFExistir\xE1n organismos inteligentes en otro planeta?\xBFEs
       inteligente que yo, como organismo, me haga esta pregunta?"
     mapasMedicion: "Mapas e instrumentos de medici\xF3n del a\xF1o de la escarapela"
+    cuadernoPatio1: 
+    cuadernoPatio2: 
+    cuadernoPatio3: 
+    libro_patio_1: 
+    libro_patio_2: 
+    libro_patio_3: 
+    cola: 
+    montura: 
+    pala: 
+    piedra: 
+    tijeras: 
+    cuadernoArbol: 
+    pozo: 
+    ligustrina: 
+    estatuaIncompleta: 
+    origami: 
+    catSinOrigami: 
+    banco: 
+    vaso: 
+    balon: 
+    gato1: 
+    gato2: 
+    cuadroOrigamis1: 
+    cuadroOrigamis2: 
+    pileta1: 
+    pileta2: 
+    armarioLab: 
+    letra2: 
+    pizarron: 
+    balones1: 
+    balones2: 
+    caldero1: 
+    caldero2: 
+    caldero3: 
+    llave02: 
+    vaso2_inserted: 
+    balon_inserted: 
+    copa: 
   gameProgress: {fileID: 0}
   gameProgressKey: libros_dibujos
   gameProgressValue: 0
@@ -74347,6 +75049,19 @@ MonoBehaviour:
   walkToMe: 1
   waltoToMeOffset: {x: 0, y: 0, z: 1}
   content:
+    vaso2: 
+    veneno: 
+    letra2_inserted: 
+    h_inserted: 
+    llave02_used: 
+    h: 
+    g: 
+    libro_lab_1: 
+    libro_lab_2: 
+    cuadernoLab1: 
+    cuadernoLab2: 
+    cuadernoLab3: 
+    catDone: 
     picaporte_1: Esto no se ve bien. Mejor le aviso a Marian
     picaporte_2: "Tengo que encontrar una forma de salir\u2026 Con dignidad"
     picaporte_3: Con este destornillador tengo que poder arregar esta puerta...
@@ -74394,7 +75109,10 @@ MonoBehaviour:
     minimap_3: Otra parte del mapa
     minimap_1_inserted: Puse la 1
     minimap_2_inserted: Puse la 2
+    caldero_inserted: 
     minimap_3_inserted: Puse la 3
+    cola_inserted: 
+    montura_inserted: 
     cajoneraVacia: "Nada por aqu\xED..."
     cuadernoMapoteca1: "\xA1Un cuaderno!"
     cuadernoMapoteca2: "\xA1Otro cuaderno!"
@@ -74419,6 +75137,44 @@ MonoBehaviour:
     mapaConstelacion: "\xBFExistir\xE1n organismos inteligentes en otro planeta?\xBFEs
       inteligente que yo, como organismo, me haga esta pregunta?"
     mapasMedicion: "Mapas e instrumentos de medici\xF3n del a\xF1o de la escarapela"
+    cuadernoPatio1: 
+    cuadernoPatio2: 
+    cuadernoPatio3: 
+    libro_patio_1: 
+    libro_patio_2: 
+    libro_patio_3: 
+    cola: 
+    montura: 
+    pala: 
+    piedra: 
+    tijeras: 
+    cuadernoArbol: 
+    pozo: 
+    ligustrina: 
+    estatuaIncompleta: 
+    origami: 
+    catSinOrigami: 
+    banco: 
+    vaso: 
+    balon: 
+    gato1: 
+    gato2: 
+    cuadroOrigamis1: 
+    cuadroOrigamis2: 
+    pileta1: 
+    pileta2: 
+    armarioLab: 
+    letra2: 
+    pizarron: 
+    balones1: 
+    balones2: 
+    caldero1: 
+    caldero2: 
+    caldero3: 
+    llave02: 
+    vaso2_inserted: 
+    balon_inserted: 
+    copa: 
   gameProgress: {fileID: 0}
   gameProgressKey: cuadernoBiblioteca3
   gameProgressValue: 0

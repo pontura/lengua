@@ -21,6 +21,11 @@ public class InteractiveCat : InteractiveObject
 				walk.SetActive (false);
 				origami.SetActive (true);
 			}
+		} else if (Data.Instance.gameProgress.GetData ("origami").value > 2) {
+			normal.SetActive (false);
+			angry.SetActive (false);
+			origami.SetActive (false);
+			walk.SetActive (false);
 		} else {
 			SetState (normal);
 		}
@@ -52,6 +57,7 @@ public class InteractiveCat : InteractiveObject
 			Events.OnSaveNewData ("origami", 3);
 			SetState (walk);
 		} else	if (Data.Instance.gameProgress.GetData ("origami").value == 1) {	
+			Events.UseItem ("origami");
 			Events.OnSaveNewData ("origami", 2);
 			SetState (origami);
 		} else {
@@ -71,6 +77,6 @@ public class InteractiveCat : InteractiveObject
 	}
 	void GotoRoom()
 	{
-		Events.ChangeRoom (Room.types.LAB, new Vector2 (-1.142f, 2.16f));
+		Events.ChangeRoom (Room.types.LAB, new Vector2 (-3, 2f));
 	}
 }

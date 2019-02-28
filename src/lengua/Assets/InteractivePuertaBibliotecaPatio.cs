@@ -14,7 +14,7 @@ public class InteractivePuertaBibliotecaPatio : InteractiveObject
 	public override void OnCharacterReachMe()
 	{ 
 		if (gameProgressValue == 1) {	
-			Events.ChangeRoom (Room.types.PATIO, new Vector2 (0, -6));
+			Events.ChangeRoom (Room.types.PATIO, new Vector2 (-5, -6));
 		} else  if (gameProgressValue == 0) {	
 			if (Data.Instance.gameProgress.GetData ("tarjeta").value == 1) {
 				Events.UseItem ("tarjeta");

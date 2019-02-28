@@ -1678,7 +1678,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.00000014580161, y: 0.000007323254}
+  m_AnchoredPosition: {x: 0.00000014580161, y: 0.0000036054591}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &363594255
@@ -3028,8 +3028,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1580746755}
   m_HandleRect: {fileID: 1580746754}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.99999994
+  m_Value: 0
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3442,7 +3442,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 991995088}
   m_Direction: 2
   m_Value: 0
-  m_Size: 1
+  m_Size: 0.9999999
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3937,13 +3937,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   character: {fileID: 1588145398}
   cutscenesUI: {fileID: 1879940508}
-  roomType: 4
+  roomType: 0
   rooms:
   - {fileID: 8233078057708878437, guid: 0bff8d02220b0bb4cb3684bb38461bc2, type: 3}
   - {fileID: 5654462099031211181, guid: c50c1bf53a9a2144aa1fa94b075e5ed7, type: 3}
   - {fileID: 292611432725168045, guid: 1424340886c7b97418a327397d85e0da, type: 3}
   - {fileID: 644484419396283835, guid: b16c5ceebbbae204da0c799fbb6092d8, type: 3}
   - {fileID: 5463321714059804750, guid: b2fd313ecc8f74542977a331b9f01fb5, type: 3}
+  - {fileID: 1650712399241724659, guid: e21cd146a41584140bb069d83ef23a1b, type: 3}
   container: {fileID: 1244176918}
 --- !u!4 &1244176918
 Transform:
@@ -7207,7 +7208,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.00002893673, y: -0.000040144812}
+  m_AnchoredPosition: {x: 0.00002893673, y: -0.000020996084}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &2032765863
@@ -7433,6 +7434,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   content:
+    usarG: 
     vaso2: 
     veneno: 
     letra2_inserted: 
@@ -7504,7 +7506,6 @@ MonoBehaviour:
     mapReady: 
     palanca: 
     ladder_1: 
-    ladder_2: 
     globo_1: 
     globo_2: 
     tarjeta: 
@@ -8337,6 +8338,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   content:
+    usarG: 
     vaso2: 
     veneno: 
     letra2_inserted: 
@@ -8408,7 +8410,6 @@ MonoBehaviour:
     mapReady: 
     palanca: 
     ladder_1: 
-    ladder_2: 
     globo_1: 
     globo_2: 
     tarjeta: 
@@ -8530,6 +8531,7 @@ MonoBehaviour:
     biblioteca: []
     escalera: []
     mapoteca: []
+    mapoteca2: []
 --- !u!224 &563758437051110907 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 563758437051110907, guid: 9350064077b694549906cd0b17ba77f4,

@@ -132,6 +132,10 @@ public class InteractiveObjectsTexts : MonoBehaviour {
 				return balon;
 			case "copa":
 				return copa;
+			case "ladder_1":
+				return ladder_1;
+			case "usarG":
+				return usarG;
 //			case "letra2_inserted":
 //				return letra2_inserted;
 //			case "h_inserted":
@@ -139,6 +143,8 @@ public class InteractiveObjectsTexts : MonoBehaviour {
 			}
 			return "ERROR: no hay un texto default en InteractiveObjectsTexts GetValue() para " + key;
 		}
+
+		public string usarG;
 		public string vaso2;
 		public string veneno;
 		public string letra2_inserted;
@@ -211,7 +217,6 @@ public class InteractiveObjectsTexts : MonoBehaviour {
 		public string mapReady;
 		public string palanca;
 		public string ladder_1;
-		public string ladder_2;
 
 		public string globo_1;
 		public string globo_2;

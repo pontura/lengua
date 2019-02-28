@@ -257,5 +257,133 @@
 			"state":"preocupado",
 			"text": "¿'Criatura'? Nadie me llama así desde… ¡Nunca! En fin, vamos a 'lo nuestro'."
 		}
+	],
+	"mapoteca2":
+	[
+		{
+			"character":"zina",
+			"state":"reflexivo",
+			"text": "¡Qué grata sorpresa que estés aquí de nuevo, (nombre del avatar)"
+		},
+		{
+			"character":"zina",
+			"state":"neutro",
+			"text": "Veo que la perseverancia es otro don de tu familia"
+		},
+		{
+			"character":"avatar",
+			"state":"reflexivo",
+			"text": "¿Perseverancia?"
+		},
+		{
+			"character":"zina",
+			"state":"neutro",
+			"text": "Constancia, firmeza cuando hacen algo"
+		},
+		{
+			"character":"avatar",
+			"state":"contento",
+			"text": "¿Es una forma elegante de decir que somos cabeza duras?"
+		},
+		{
+			"character":"zina",
+			"state":"contento",
+			"text": "Algo así… ¡Pero ser cabeza dura puede llevarte lejos!"
+		},
+		{
+			"character":"zina",
+			"state":"contento",
+			"text": "Supongo que yo también lo soy y por eso sigo aquí"
+		},
+		{
+			"character":"zina",
+			"state":"contento",
+			"text": "¡Hay tanto por ver, por disfrutar, por entender!"
+		},
+		{
+			"character":"avatar",
+			"state":"reflexivo",
+			"text": "Hablando de entender, Zina… ¿Qué pasa en este lugar?"
+		},
+		{
+			"character":"avatar",
+			"state":"neutro",
+			"text": "Cada parte nueva del colegio que visito es más rara que la anterior"
+		},
+		{
+			"character":"zina",
+			"state":"neutro",
+			"text": "A veces es menos importante entender que experimentar, criatura"
+		},
+		{
+			"character":"zina",
+			"state":"neutro",
+			"text": "Falta poco, solo queda el altillo para que concluya este magnífico paseo"
+		},
+		{
+			"character":"zina",
+			"state":"neutro",
+			"text": "Puede que cuando estés allí no puedas comunicarte con nadie..."
+		},
+		{
+			"character":"avatar",
+			"state":"neutro",
+			"text": "¿El altillo es el último lugar?"
+		},
+		{
+			"character":"zina",
+			"state":"neutro",
+			"text": "Por hoy, sí. ¡Pero el colegio está lleno de sitios para cuando vuelvas!"
+		},
+		{
+			"character":"avatar",
+			"state":"reflexivo",
+			"text": "Todavía no sé si voy a volver…"
+		},
+		{
+			"character":"zina",
+			"state":"contento",
+			"text": "Algo me dice que sí..."
+		},
+		{
+			"character":"zina",
+			"state":"contento",
+			"text": "Es como lo tuyo con Joaco, ¡algo me decía que ustedes dos se iban a arreglar!"
+		},
+		{
+			"character":"avatar",
+			"state":"reflexivo",
+			"text": "¡Pero…!"
+		},
+		{
+			"character":"avatar",
+			"state":"reflexivo",
+			"text": "¿Cómo sabés que me había enojado con él?"
+		},
+		{
+			"character":"avatar",
+			"state":"reflexivo",
+			"text": "¿Hay cámaras o micrófonos ocultos? ¡¿Soy parte de un reality?!"
+		},
+		{
+			"character":"zina",
+			"state":"contento",
+			"text": "No sé qué será un reality pero ya te dije que mi oído es fino…"
+		},
+		{
+			"character":"zina",
+			"state":"neutro",
+			"text": "Es hora de tu última prueba..."
+		},
+		{
+			"character":"zina",
+			"state":"neutro",
+			"text": "Nos veremos una vez más antes de que te vayas, ¡adiós!"
+		},
+		{
+			"character":"avatar",
+			"state":"reflexivo",
+			"text": "Mi última prueba… A ver cómo subo al altillo..."
+		}
 	]
 }

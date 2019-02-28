@@ -13,6 +13,7 @@ public class DialoguesData : MonoBehaviour {
 		public List<Dialogue> biblioteca;
 		public List<Dialogue> escalera;
 		public List<Dialogue> mapoteca;
+		public List<Dialogue> mapoteca2;
 	}
 	[Serializable]
 	public class Dialogue

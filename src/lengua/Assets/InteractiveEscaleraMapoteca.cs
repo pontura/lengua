@@ -19,20 +19,27 @@ public class InteractiveEscaleraMapoteca : InteractiveObject
 	}
 	public override void OnCharacterReachMe()
 	{ 
+		if (gameProgressValue == 1) { 
+			Events.ChangeRoom (Room.types.ALTILLO, new Vector2 (0,0));
+		}
 		if (gameProgressValue == 0) { 
 			if (Data.Instance.gameProgress.GetData (itemToBeUsed).value == 1) {			
 				Events.UseItem (itemToBeUsed);
 				Events.OnSaveNewData (itemToBeUsed, 2);
 				Events.OnSaveNewData (gameProgressKey, 1);
-				Events.OnSaveNewData (itemReward, 1);
-				Events.OnTexts (content.GetValue (itemReward), "inventary/" + itemReward, null);
-				Events.OnTip (textWhenDone);
+				//Events.OnSaveNewData (itemReward, 1);
+				Events.OnTexts (textWhenDone, "inventary/" + itemToBeUsed, OnUsed);
+				return;
 			} else {
 				Events.OnTip (textNoUsableItem);
 			}
 		} else {
 			
 		}
+		OnSetProgress (gameProgressValue);
+	}
+	void OnUsed()
+	{
 		OnSetProgress (gameProgressValue);
 	}
 	public override void OnSetProgress(int value) 
@@ -44,8 +51,5 @@ public class InteractiveEscaleraMapoteca : InteractiveObject
 			state_incomplete.SetActive (true);
 		else
 			state_complete.SetActive (true);
-	}
-	void OnRepaired()
-	{
 	}
 }

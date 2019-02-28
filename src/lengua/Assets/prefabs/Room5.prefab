@@ -75436,6 +75436,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1722616744208712520}
+  - component: {fileID: 5339730380620725393}
   m_Layer: 0
   m_Name: puerta
   m_TagString: Untagged
@@ -75462,6 +75463,148 @@ Transform:
   m_Father: {fileID: 4786174351045665532}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
+--- !u!114 &5339730380620725393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8824262389802431869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83923c5325cff344e9247cc48612e19f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walkToMe: 1
+  waltoToMeOffset: {x: 0, y: 0, z: 0}
+  content:
+    vaso2: 
+    veneno: 
+    letra2_inserted: 
+    h_inserted: 
+    llave02_used: 
+    h: 
+    g: 
+    libro_lab_1: 
+    libro_lab_2: 
+    cuadernoLab1: 
+    cuadernoLab2: 
+    cuadernoLab3: 
+    catDone: 
+    picaporte_1: Esto no se ve bien. Mejor le aviso a Marian
+    picaporte_2: "Tengo que encontrar una forma de salir\u2026 Con dignidad"
+    picaporte_3: Con este destornillador tengo que poder arregar esta puerta...
+    picaporte_4: "\xA1S\xED\xED\xED\xED! \xA1In your face, puerta!"
+    escritorio: El escritorio de la directora, o del director. Ya tocarlo me hace
+      sentir importante
+    libroIngreso: "\xA1Encontraste un LIBRO del ingreso!/Lee y responde la trivia
+      para avanzar en la historia./Es necesario leer todos los libros para avanzar."
+    escritorioDoor1: "No huyas, cobarde. Esto no puede ser taaan dif\xEDcil."
+    fichero_1: "\xA1Entrega tus secretos! Owww\u2026 Cerrado"
+    fichero_con_llave: "Voy a probar esta llave en el fichero/\xA1Funcion\xF3!"
+    fichero_con_llave2: "\xA1Encontraste un CUADERNO del ingreso!/Lee y responde la
+      trivia para avanzar en la historia."
+    fichero_done: Ya no hay nada en este viejo fichero
+    cuadro1: "Mar\xEDa Remedios del Valle (1766 - 1847)/Valiente capitana de la Patria\u201D/\xA1Vamos
+      las pibas!"
+    libroCuadro: 'Un libro... se llama: Amigos por el viento, de Liliana Bodoc.'
+    libroCuadro2: "\xA1\xBFEh?! Me pareci\xF3 que algo se mov\xEDa..."
+    libroBloqueado: Me siento un poco bloqueda... voy a esperar un minuto
+    libroCompletado: "\xA1Por suerte este libro ya lo termin\xE9!"
+    cuerno1: "Un cuerno... \xBFen el p\xEDso? \xBFqu\xE9 har\xE1 este cuerno en el
+      piso?..."
+    cuerno2: "\xA1Otro cuerno!"
+    minotauro_0: "A este animal le falta algo\u2026"
+    minotauro_1: "Mejor pero\u2026 \xBFa que extra\xF1\xE1s el otro cuerno?"
+    minotauro_2: "Ahora s\xED, \xA1un monstruo hecho y derecho!"
+    alfonsina: "'\xBFQu\xE9 mundos tengo dentro del alma\u2026/que hace tiempo vengo
+      pidiendo medios para volar?' -Alfonsina Storni"
+    puerta_biblioteca_patio: "Parece tener un lector de tarjeta. \xA1Cu\xE1nta seguridad!"
+    escalera_1: "Me encantar\xEDa deslizarme pero le falta una ruedita\u2026 \xA1Y
+      un escal\xF3n!"
+    escalera_2: "\xA1Ahora si que sirve para algo!"
+    cuadernoBiblioteca1: Encontraste cuaderno Biblioteca 1
+    cuadernoBiblioteca2: Encontraste cuaderno Biblioteca 2
+    cuadernoBiblioteca3: Encontraste cuaderno Biblioteca 3
+    libro_biblioteca_1: "\xA1Epa! encontr\xE9 un libro debajo de esta armadura/'La
+      casa de Asteri\xF3n'.../a ver..."
+    libro_biblioteca_2: "\xBFDe donde habr\xE1 salido este libro?.../'Teseo y el minotauro'.../a
+      ver..."
+    libros_dibujos: "\xA1Cu\xE1ntos libros! \xBFUno con dibujitos no habr\xE1?"
+    rueda: "Ok, encontr\xE9 una rueda.."
+    puertaMapoteca: "Ah\xED debe estar la famosa mapoteca\u2026"
+    minimap_1: Un parte de mapa
+    minimap_2: Otra parte del mapa
+    minimap_3: Otra parte del mapa
+    minimap_1_inserted: Puse la 1
+    minimap_2_inserted: Puse la 2
+    caldero_inserted: 
+    minimap_3_inserted: Puse la 3
+    cola_inserted: 
+    montura_inserted: 
+    cajoneraVacia: "Nada por aqu\xED..."
+    cuadernoMapoteca1: "\xA1Un cuaderno!"
+    cuadernoMapoteca2: "\xA1Otro cuaderno!"
+    libro_mapoteca_1: "Ah... hab\xEDa un ln libro en el piso/El hombre lobo... a ver
+      de qu\xE9 va..."
+    libro_mapoteca_2: "La inmolaci\xF3n por la belleza... A ver de qu\xE9 se trata..."
+    libro_mapoteca_3: El anillo encantado
+    lobo: Un lobo...
+    lobos: Lobos
+    map: A este mapa le falta algo
+    mapReady: "Este mapa ya est\xE1 completo"
+    palanca: "Una palanca... \xBFpara que servir\xE1?"
+    ladder_1: escalera no anda
+    ladder_2: ahora si
+    globo_1: 
+    globo_2: 
+    tarjeta: 
+    mapasDesconocidos: 
+    mapaConstelacion: 
+    mapasMedicion: 
+    cuadernoPatio1: 
+    cuadernoPatio2: 
+    cuadernoPatio3: 
+    libro_patio_1: 
+    libro_patio_2: 
+    libro_patio_3: 
+    cola: 
+    montura: 
+    pala: 
+    piedra: 
+    tijeras: 
+    cuadernoArbol: 
+    pozo: 
+    ligustrina: 
+    estatuaIncompleta: 
+    origami: 
+    catSinOrigami: 
+    banco: 
+    vaso: 
+    balon: 
+    gato1: 
+    gato2: 
+    cuadroOrigamis1: 
+    cuadroOrigamis2: 
+    pileta1: 
+    pileta2: 
+    armarioLab: 
+    letra2: 
+    pizarron: 
+    balones1: 
+    balones2: 
+    caldero1: 
+    caldero2: 
+    caldero3: 
+    llave02: 
+    vaso2_inserted: 
+    balon_inserted: 
+    copa: 
+  gameProgress: {fileID: 0}
+  gameProgressKey: 
+  gameProgressValue: 0
+  roomType: 3
+  newPos: {x: 3.6, y: -5.5}
 --- !u!1 &8882834973170894014
 GameObject:
   m_ObjectHideFlags: 0

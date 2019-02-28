@@ -39,6 +39,9 @@ public class RoomsManager : MonoBehaviour {
 		case Room.types.LAB:
 			newRoom = rooms [4];
 			break;
+		case Room.types.ALTILLO:
+			newRoom = rooms [5];
+			break;
 		}
 		
 		room = Instantiate (newRoom);

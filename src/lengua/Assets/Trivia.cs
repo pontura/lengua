@@ -120,10 +120,10 @@ public class Trivia : MonoBehaviour {
 			OnCuadernoWin ("cuadernoBiblioteca2");
 			break;
 		case "cuadernoBiblioteca3":
-			if (Data.Instance.gameProgress.GetData ("tijeras").value == 0) {
-				if (Data.Instance.gameProgress.GetData ("tijeras").value == 0)
-					Events.OnSaveNewData ("tijeras", 1);
-			}
+//			if (Data.Instance.gameProgress.GetData ("tijeras").value == 0) {
+//				if (Data.Instance.gameProgress.GetData ("tijeras").value == 0)
+//					Events.OnSaveNewData ("tijeras", 1);
+//			}
 			OnCuadernoWin ("cuadernoBiblioteca3");
 			break;
 

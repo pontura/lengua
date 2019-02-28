@@ -5552,6 +5552,20 @@ MonoBehaviour:
   walkToMe: 1
   waltoToMeOffset: {x: 0, y: 0, z: -1.4}
   content:
+    usarG: 
+    vaso2: 
+    veneno: 
+    letra2_inserted: 
+    h_inserted: 
+    llave02_used: 
+    h: 
+    g: 
+    libro_lab_1: 
+    libro_lab_2: 
+    cuadernoLab1: 
+    cuadernoLab2: 
+    cuadernoLab3: 
+    catDone: 
     picaporte_1: Esto no se ve bien. Mejor le aviso a Marian
     picaporte_2: "Tengo que encontrar una forma de salir\u2026 Con dignidad"
     picaporte_3: Con este destornillador tengo que poder arregar esta puerta...
@@ -5599,7 +5613,10 @@ MonoBehaviour:
     minimap_3: Otra parte del mapa
     minimap_1_inserted: Puse la 1
     minimap_2_inserted: Puse la 2
+    caldero_inserted: 
     minimap_3_inserted: Puse la 3
+    cola_inserted: 
+    montura_inserted: 
     cajoneraVacia: "Nada por aqu\xED..."
     cuadernoMapoteca1: "\xA1Un cuaderno!"
     cuadernoMapoteca2: "\xA1Otro cuaderno!"
@@ -5613,13 +5630,50 @@ MonoBehaviour:
     mapReady: "Este mapa ya est\xE1 completo"
     palanca: "Una palanca... \xBFpara que servir\xE1?"
     ladder_1: escalera no anda
-    ladder_2: ahora si
     globo_1: 
     globo_2: 
     tarjeta: 
     mapasDesconocidos: 
     mapaConstelacion: 
     mapasMedicion: 
+    cuadernoPatio1: 
+    cuadernoPatio2: 
+    cuadernoPatio3: 
+    libro_patio_1: 
+    libro_patio_2: 
+    libro_patio_3: 
+    cola: 
+    montura: 
+    pala: 
+    piedra: 
+    tijeras: 
+    cuadernoArbol: 
+    pozo: 
+    ligustrina: 
+    estatuaIncompleta: 
+    origami: 
+    catSinOrigami: 
+    banco: 
+    vaso: 
+    balon: 
+    gato1: 
+    gato2: 
+    cuadroOrigamis1: 
+    cuadroOrigamis2: 
+    pileta1: 
+    pileta2: 
+    armarioLab: 
+    letra2: 
+    pizarron: 
+    balones1: 
+    balones2: 
+    caldero1: 
+    caldero2: 
+    caldero3: 
+    llave02: 
+    vaso2_inserted: 
+    balon_inserted: 
+    copa: 
   gameProgress: {fileID: 0}
   gameProgressKey: lobos
   gameProgressValue: 0
@@ -5628,6 +5682,8 @@ MonoBehaviour:
   itemToBeUsed: lobo
   itemReward: minimap_2
   textNoUsableItem: lobos
+  itemRewardIsBook: 0
+  swapStateToOnClick: []
 --- !u!1 &670529155
 GameObject:
   m_ObjectHideFlags: 0
@@ -5758,6 +5814,20 @@ MonoBehaviour:
   walkToMe: 1
   waltoToMeOffset: {x: 0.2, y: 0, z: 0.2}
   content:
+    usarG: 
+    vaso2: 
+    veneno: 
+    letra2_inserted: 
+    h_inserted: 
+    llave02_used: 
+    h: 
+    g: 
+    libro_lab_1: 
+    libro_lab_2: 
+    cuadernoLab1: 
+    cuadernoLab2: 
+    cuadernoLab3: 
+    catDone: 
     picaporte_1: 
     picaporte_2: 
     picaporte_3: 
@@ -5796,7 +5866,10 @@ MonoBehaviour:
     minimap_3: 
     minimap_1_inserted: 
     minimap_2_inserted: 
+    caldero_inserted: 
     minimap_3_inserted: 
+    cola_inserted: 
+    montura_inserted: 
     cajoneraVacia: 
     cuadernoMapoteca1: 
     cuadernoMapoteca2: 
@@ -5809,13 +5882,50 @@ MonoBehaviour:
     mapReady: 
     palanca: 
     ladder_1: 
-    ladder_2: 
     globo_1: 
     globo_2: 
     tarjeta: 
     mapasDesconocidos: 
     mapaConstelacion: 
     mapasMedicion: 
+    cuadernoPatio1: 
+    cuadernoPatio2: 
+    cuadernoPatio3: 
+    libro_patio_1: 
+    libro_patio_2: 
+    libro_patio_3: 
+    cola: 
+    montura: 
+    pala: 
+    piedra: 
+    tijeras: 
+    cuadernoArbol: 
+    pozo: 
+    ligustrina: 
+    estatuaIncompleta: 
+    origami: 
+    catSinOrigami: 
+    banco: 
+    vaso: 
+    balon: 
+    gato1: 
+    gato2: 
+    cuadroOrigamis1: 
+    cuadroOrigamis2: 
+    pileta1: 
+    pileta2: 
+    armarioLab: 
+    letra2: 
+    pizarron: 
+    balones1: 
+    balones2: 
+    caldero1: 
+    caldero2: 
+    caldero3: 
+    llave02: 
+    vaso2_inserted: 
+    balon_inserted: 
+    copa: 
   gameProgress: {fileID: 0}
   gameProgressKey: globo
   gameProgressValue: 0
@@ -5824,6 +5934,8 @@ MonoBehaviour:
   itemToBeUsed: palanca
   itemReward: tarjeta
   textNoUsableItem: globo_1
+  itemRewardIsBook: 0
+  swapStateToOnClick: []
 --- !u!1 &706115478
 GameObject:
   m_ObjectHideFlags: 0
@@ -6368,6 +6480,20 @@ MonoBehaviour:
   walkToMe: 1
   waltoToMeOffset: {x: 0, y: 0, z: 0.5}
   content:
+    usarG: 
+    vaso2: 
+    veneno: 
+    letra2_inserted: 
+    h_inserted: 
+    llave02_used: 
+    h: 
+    g: 
+    libro_lab_1: 
+    libro_lab_2: 
+    cuadernoLab1: 
+    cuadernoLab2: 
+    cuadernoLab3: 
+    catDone: 
     picaporte_1: Esto no se ve bien. Mejor le aviso a Marian
     picaporte_2: "Tengo que encontrar una forma de salir\u2026 Con dignidad"
     picaporte_3: Con este destornillador tengo que poder arregar esta puerta...
@@ -6415,7 +6541,10 @@ MonoBehaviour:
     minimap_3: Otra parte del mapa
     minimap_1_inserted: Puse la 1
     minimap_2_inserted: Puse la 2
+    caldero_inserted: 
     minimap_3_inserted: Puse la 3
+    cola_inserted: 
+    montura_inserted: 
     cajoneraVacia: "Nada por aqu\xED..."
     cuadernoMapoteca1: "\xA1Un cuaderno!"
     cuadernoMapoteca2: "\xA1Otro cuaderno!"
@@ -6429,13 +6558,50 @@ MonoBehaviour:
     mapReady: "Este mapa ya est\xE1 completo"
     palanca: "Una palanca... \xBFpara que servir\xE1?"
     ladder_1: escalera no anda
-    ladder_2: ahora si
     globo_1: 
     globo_2: 
     tarjeta: 
     mapasDesconocidos: 
     mapaConstelacion: 
     mapasMedicion: 
+    cuadernoPatio1: 
+    cuadernoPatio2: 
+    cuadernoPatio3: 
+    libro_patio_1: 
+    libro_patio_2: 
+    libro_patio_3: 
+    cola: 
+    montura: 
+    pala: 
+    piedra: 
+    tijeras: 
+    cuadernoArbol: 
+    pozo: 
+    ligustrina: 
+    estatuaIncompleta: 
+    origami: 
+    catSinOrigami: 
+    banco: 
+    vaso: 
+    balon: 
+    gato1: 
+    gato2: 
+    cuadroOrigamis1: 
+    cuadroOrigamis2: 
+    pileta1: 
+    pileta2: 
+    armarioLab: 
+    letra2: 
+    pizarron: 
+    balones1: 
+    balones2: 
+    caldero1: 
+    caldero2: 
+    caldero3: 
+    llave02: 
+    vaso2_inserted: 
+    balon_inserted: 
+    copa: 
   gameProgress: {fileID: 0}
   gameProgressKey: soporteMapas
   gameProgressValue: 0
@@ -11738,6 +11904,20 @@ MonoBehaviour:
   walkToMe: 1
   waltoToMeOffset: {x: 0, y: 0, z: -1}
   content:
+    usarG: 
+    vaso2: 
+    veneno: 
+    letra2_inserted: 
+    h_inserted: 
+    llave02_used: 
+    h: 
+    g: 
+    libro_lab_1: 
+    libro_lab_2: 
+    cuadernoLab1: 
+    cuadernoLab2: 
+    cuadernoLab3: 
+    catDone: 
     picaporte_1: Esto no se ve bien. Mejor le aviso a Marian
     picaporte_2: "Tengo que encontrar una forma de salir\u2026 Con dignidad"
     picaporte_3: Con este destornillador tengo que poder arregar esta puerta...
@@ -11785,7 +11965,10 @@ MonoBehaviour:
     minimap_3: Otra parte del mapa
     minimap_1_inserted: Puse la 1
     minimap_2_inserted: Puse la 2
+    caldero_inserted: 
     minimap_3_inserted: Puse la 3
+    cola_inserted: 
+    montura_inserted: 
     cajoneraVacia: "Nada por aqu\xED..."
     cuadernoMapoteca1: "\xA1Un cuaderno!"
     cuadernoMapoteca2: "\xA1Otro cuaderno!"
@@ -11799,17 +11982,56 @@ MonoBehaviour:
     mapReady: "Este mapa ya est\xE1 completo"
     palanca: "Una palanca... \xBFpara que servir\xE1?"
     ladder_1: escalera no anda
-    ladder_2: ahora si
     globo_1: 
     globo_2: 
     tarjeta: 
     mapasDesconocidos: 
     mapaConstelacion: 
     mapasMedicion: 
+    cuadernoPatio1: 
+    cuadernoPatio2: 
+    cuadernoPatio3: 
+    libro_patio_1: 
+    libro_patio_2: 
+    libro_patio_3: 
+    cola: 
+    montura: 
+    pala: 
+    piedra: 
+    tijeras: 
+    cuadernoArbol: 
+    pozo: 
+    ligustrina: 
+    estatuaIncompleta: 
+    origami: 
+    catSinOrigami: 
+    banco: 
+    vaso: 
+    balon: 
+    gato1: 
+    gato2: 
+    cuadroOrigamis1: 
+    cuadroOrigamis2: 
+    pileta1: 
+    pileta2: 
+    armarioLab: 
+    letra2: 
+    pizarron: 
+    balones1: 
+    balones2: 
+    caldero1: 
+    caldero2: 
+    caldero3: 
+    llave02: 
+    vaso2_inserted: 
+    balon_inserted: 
+    copa: 
   gameProgress: {fileID: 0}
   gameProgressKey: lobo
   gameProgressValue: 0
   asset: {fileID: 8006682411164458650}
+  readyAsset: {fileID: 0}
+  itemRewardIsBook: 0
 --- !u!1 &1645198380
 GameObject:
   m_ObjectHideFlags: 0
@@ -61446,6 +61668,20 @@ MonoBehaviour:
   walkToMe: 1
   waltoToMeOffset: {x: 0, y: 0, z: -0.2}
   content:
+    usarG: 
+    vaso2: 
+    veneno: 
+    letra2_inserted: 
+    h_inserted: 
+    llave02_used: 
+    h: 
+    g: 
+    libro_lab_1: 
+    libro_lab_2: 
+    cuadernoLab1: 
+    cuadernoLab2: 
+    cuadernoLab3: 
+    catDone: 
     picaporte_1: Esto no se ve bien. Mejor le aviso a Marian
     picaporte_2: "Tengo que encontrar una forma de salir\u2026 Con dignidad"
     picaporte_3: Con este destornillador tengo que poder arregar esta puerta...
@@ -61493,7 +61729,10 @@ MonoBehaviour:
     minimap_3: Otra parte del mapa
     minimap_1_inserted: Puse la 1
     minimap_2_inserted: Puse la 2
+    caldero_inserted: 
     minimap_3_inserted: Puse la 3
+    cola_inserted: 
+    montura_inserted: 
     cajoneraVacia: "Nada por aqu\xED..."
     cuadernoMapoteca1: "\xA1Un cuaderno!"
     cuadernoMapoteca2: "\xA1Otro cuaderno!"
@@ -61507,13 +61746,50 @@ MonoBehaviour:
     mapReady: "Este mapa ya est\xE1 completo"
     palanca: "Una palanca... \xBFpara que servir\xE1?"
     ladder_1: escalera no anda
-    ladder_2: ahora si
     globo_1: 
     globo_2: 
     tarjeta: 
     mapasDesconocidos: 
     mapaConstelacion: 
     mapasMedicion: 
+    cuadernoPatio1: 
+    cuadernoPatio2: 
+    cuadernoPatio3: 
+    libro_patio_1: 
+    libro_patio_2: 
+    libro_patio_3: 
+    cola: 
+    montura: 
+    pala: 
+    piedra: 
+    tijeras: 
+    cuadernoArbol: 
+    pozo: 
+    ligustrina: 
+    estatuaIncompleta: 
+    origami: 
+    catSinOrigami: 
+    banco: 
+    vaso: 
+    balon: 
+    gato1: 
+    gato2: 
+    cuadroOrigamis1: 
+    cuadroOrigamis2: 
+    pileta1: 
+    pileta2: 
+    armarioLab: 
+    letra2: 
+    pizarron: 
+    balones1: 
+    balones2: 
+    caldero1: 
+    caldero2: 
+    caldero3: 
+    llave02: 
+    vaso2_inserted: 
+    balon_inserted: 
+    copa: 
   gameProgress: {fileID: 0}
   gameProgressKey: libro_mapoteca_1
   gameProgressValue: 0
@@ -66412,6 +66688,20 @@ MonoBehaviour:
   walkToMe: 1
   waltoToMeOffset: {x: 0, y: 0, z: 0.3}
   content:
+    usarG: 
+    vaso2: 
+    veneno: 
+    letra2_inserted: 
+    h_inserted: 
+    llave02_used: 
+    h: 
+    g: 
+    libro_lab_1: 
+    libro_lab_2: 
+    cuadernoLab1: 
+    cuadernoLab2: 
+    cuadernoLab3: 
+    catDone: 
     picaporte_1: 
     picaporte_2: 
     picaporte_3: 
@@ -66450,7 +66740,10 @@ MonoBehaviour:
     minimap_3: 
     minimap_1_inserted: 
     minimap_2_inserted: 
+    caldero_inserted: 
     minimap_3_inserted: 
+    cola_inserted: 
+    montura_inserted: 
     cajoneraVacia: 
     cuadernoMapoteca1: 
     cuadernoMapoteca2: 
@@ -66463,13 +66756,50 @@ MonoBehaviour:
     mapReady: 
     palanca: 
     ladder_1: 
-    ladder_2: 
     globo_1: 
     globo_2: 
     tarjeta: 
     mapasDesconocidos: 
     mapaConstelacion: 
     mapasMedicion: 
+    cuadernoPatio1: 
+    cuadernoPatio2: 
+    cuadernoPatio3: 
+    libro_patio_1: 
+    libro_patio_2: 
+    libro_patio_3: 
+    cola: 
+    montura: 
+    pala: 
+    piedra: 
+    tijeras: 
+    cuadernoArbol: 
+    pozo: 
+    ligustrina: 
+    estatuaIncompleta: 
+    origami: 
+    catSinOrigami: 
+    banco: 
+    vaso: 
+    balon: 
+    gato1: 
+    gato2: 
+    cuadroOrigamis1: 
+    cuadroOrigamis2: 
+    pileta1: 
+    pileta2: 
+    armarioLab: 
+    letra2: 
+    pizarron: 
+    balones1: 
+    balones2: 
+    caldero1: 
+    caldero2: 
+    caldero3: 
+    llave02: 
+    vaso2_inserted: 
+    balon_inserted: 
+    copa: 
   gameProgress: {fileID: 0}
   gameProgressKey: mapasMedicion
   gameProgressValue: 0
@@ -66681,6 +67011,20 @@ MonoBehaviour:
   walkToMe: 1
   waltoToMeOffset: {x: -2, y: 0, z: -1}
   content:
+    usarG: 
+    vaso2: 
+    veneno: 
+    letra2_inserted: 
+    h_inserted: 
+    llave02_used: 
+    h: 
+    g: 
+    libro_lab_1: 
+    libro_lab_2: 
+    cuadernoLab1: 
+    cuadernoLab2: 
+    cuadernoLab3: 
+    catDone: 
     picaporte_1: Esto no se ve bien. Mejor le aviso a Marian
     picaporte_2: "Tengo que encontrar una forma de salir\u2026 Con dignidad"
     picaporte_3: Con este destornillador tengo que poder arregar esta puerta...
@@ -66728,7 +67072,10 @@ MonoBehaviour:
     minimap_3: Otra parte del mapa
     minimap_1_inserted: Puse la 1
     minimap_2_inserted: Puse la 2
+    caldero_inserted: 
     minimap_3_inserted: Puse la 3
+    cola_inserted: 
+    montura_inserted: 
     cajoneraVacia: "Nada por aqu\xED..."
     cuadernoMapoteca1: "\xA1Un cuaderno!"
     cuadernoMapoteca2: "\xA1Otro cuaderno!"
@@ -66742,13 +67089,50 @@ MonoBehaviour:
     mapReady: "Este mapa ya est\xE1 completo"
     palanca: "Una palanca... \xBFpara que servir\xE1?"
     ladder_1: escalera no anda
-    ladder_2: ahora si
     globo_1: 
     globo_2: 
     tarjeta: 
     mapasDesconocidos: 
     mapaConstelacion: 
     mapasMedicion: 
+    cuadernoPatio1: 
+    cuadernoPatio2: 
+    cuadernoPatio3: 
+    libro_patio_1: 
+    libro_patio_2: 
+    libro_patio_3: 
+    cola: 
+    montura: 
+    pala: 
+    piedra: 
+    tijeras: 
+    cuadernoArbol: 
+    pozo: 
+    ligustrina: 
+    estatuaIncompleta: 
+    origami: 
+    catSinOrigami: 
+    banco: 
+    vaso: 
+    balon: 
+    gato1: 
+    gato2: 
+    cuadroOrigamis1: 
+    cuadroOrigamis2: 
+    pileta1: 
+    pileta2: 
+    armarioLab: 
+    letra2: 
+    pizarron: 
+    balones1: 
+    balones2: 
+    caldero1: 
+    caldero2: 
+    caldero3: 
+    llave02: 
+    vaso2_inserted: 
+    balon_inserted: 
+    copa: 
   gameProgress: {fileID: 0}
   gameProgressKey: map
   gameProgressValue: 0
@@ -72226,6 +72610,8 @@ Animation:
   m_Animations:
   - {fileID: 7400000, guid: ad18f28ef4af10f4b9e4cdc4292196cd, type: 2}
   - {fileID: 7400000, guid: 59b3b9e027ce7984ea2db4c89385340b, type: 2}
+  - {fileID: 7400000, guid: bed3569be7bd8404c8d256c494a4f4e9, type: 2}
+  - {fileID: 7400000, guid: f24bd8a84d101c347a8d901b50466b2a, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
@@ -77474,6 +77860,20 @@ MonoBehaviour:
   walkToMe: 1
   waltoToMeOffset: {x: 1, y: 0, z: -1}
   content:
+    usarG: 
+    vaso2: 
+    veneno: 
+    letra2_inserted: 
+    h_inserted: 
+    llave02_used: 
+    h: 
+    g: 
+    libro_lab_1: 
+    libro_lab_2: 
+    cuadernoLab1: 
+    cuadernoLab2: 
+    cuadernoLab3: 
+    catDone: 
     picaporte_1: 
     picaporte_2: 
     picaporte_3: 
@@ -77512,7 +77912,10 @@ MonoBehaviour:
     minimap_3: 
     minimap_1_inserted: 
     minimap_2_inserted: 
+    caldero_inserted: 
     minimap_3_inserted: 
+    cola_inserted: 
+    montura_inserted: 
     cajoneraVacia: 
     cuadernoMapoteca1: 
     cuadernoMapoteca2: 
@@ -77525,13 +77928,50 @@ MonoBehaviour:
     mapReady: 
     palanca: 
     ladder_1: 
-    ladder_2: 
     globo_1: 
     globo_2: 
     tarjeta: 
     mapasDesconocidos: 
     mapaConstelacion: 
     mapasMedicion: 
+    cuadernoPatio1: 
+    cuadernoPatio2: 
+    cuadernoPatio3: 
+    libro_patio_1: 
+    libro_patio_2: 
+    libro_patio_3: 
+    cola: 
+    montura: 
+    pala: 
+    piedra: 
+    tijeras: 
+    cuadernoArbol: 
+    pozo: 
+    ligustrina: 
+    estatuaIncompleta: 
+    origami: 
+    catSinOrigami: 
+    banco: 
+    vaso: 
+    balon: 
+    gato1: 
+    gato2: 
+    cuadroOrigamis1: 
+    cuadroOrigamis2: 
+    pileta1: 
+    pileta2: 
+    armarioLab: 
+    letra2: 
+    pizarron: 
+    balones1: 
+    balones2: 
+    caldero1: 
+    caldero2: 
+    caldero3: 
+    llave02: 
+    vaso2_inserted: 
+    balon_inserted: 
+    copa: 
   gameProgress: {fileID: 0}
   gameProgressKey: mapasDesconocidos
   gameProgressValue: 0
@@ -83010,6 +83450,20 @@ MonoBehaviour:
   walkToMe: 1
   waltoToMeOffset: {x: 0, y: 0, z: 0}
   content:
+    usarG: 
+    vaso2: 
+    veneno: 
+    letra2_inserted: 
+    h_inserted: 
+    llave02_used: 
+    h: 
+    g: 
+    libro_lab_1: 
+    libro_lab_2: 
+    cuadernoLab1: 
+    cuadernoLab2: 
+    cuadernoLab3: 
+    catDone: 
     picaporte_1: Esto no se ve bien. Mejor le aviso a Marian
     picaporte_2: "Tengo que encontrar una forma de salir\u2026 Con dignidad"
     picaporte_3: Con este destornillador tengo que poder arregar esta puerta...
@@ -83057,7 +83511,10 @@ MonoBehaviour:
     minimap_3: Otra parte del mapa
     minimap_1_inserted: Puse la 1
     minimap_2_inserted: Puse la 2
+    caldero_inserted: 
     minimap_3_inserted: Puse la 3
+    cola_inserted: 
+    montura_inserted: 
     cajoneraVacia: "Nada por aqu\xED..."
     cuadernoMapoteca1: "\xA1Un cuaderno!"
     cuadernoMapoteca2: "\xA1Otro cuaderno!"
@@ -83071,13 +83528,50 @@ MonoBehaviour:
     mapReady: "Este mapa ya est\xE1 completo"
     palanca: "Una palanca... \xBFpara que servir\xE1?"
     ladder_1: escalera no anda
-    ladder_2: ahora si
     globo_1: 
     globo_2: 
     tarjeta: 
     mapasDesconocidos: 
     mapaConstelacion: 
     mapasMedicion: 
+    cuadernoPatio1: 
+    cuadernoPatio2: 
+    cuadernoPatio3: 
+    libro_patio_1: 
+    libro_patio_2: 
+    libro_patio_3: 
+    cola: 
+    montura: 
+    pala: 
+    piedra: 
+    tijeras: 
+    cuadernoArbol: 
+    pozo: 
+    ligustrina: 
+    estatuaIncompleta: 
+    origami: 
+    catSinOrigami: 
+    banco: 
+    vaso: 
+    balon: 
+    gato1: 
+    gato2: 
+    cuadroOrigamis1: 
+    cuadroOrigamis2: 
+    pileta1: 
+    pileta2: 
+    armarioLab: 
+    letra2: 
+    pizarron: 
+    balones1: 
+    balones2: 
+    caldero1: 
+    caldero2: 
+    caldero3: 
+    llave02: 
+    vaso2_inserted: 
+    balon_inserted: 
+    copa: 
   gameProgress: {fileID: 0}
   gameProgressKey: libro_mapoteca_2
   gameProgressValue: 0
@@ -83572,6 +84066,20 @@ MonoBehaviour:
   walkToMe: 1
   waltoToMeOffset: {x: 0, y: 0, z: 0}
   content:
+    usarG: 
+    vaso2: 
+    veneno: 
+    letra2_inserted: 
+    h_inserted: 
+    llave02_used: 
+    h: 
+    g: 
+    libro_lab_1: 
+    libro_lab_2: 
+    cuadernoLab1: 
+    cuadernoLab2: 
+    cuadernoLab3: 
+    catDone: 
     picaporte_1: Esto no se ve bien. Mejor le aviso a Marian
     picaporte_2: "Tengo que encontrar una forma de salir\u2026 Con dignidad"
     picaporte_3: Con este destornillador tengo que poder arregar esta puerta...
@@ -83619,7 +84127,10 @@ MonoBehaviour:
     minimap_3: Otra parte del mapa
     minimap_1_inserted: Puse la 1
     minimap_2_inserted: Puse la 2
+    caldero_inserted: 
     minimap_3_inserted: Puse la 3
+    cola_inserted: 
+    montura_inserted: 
     cajoneraVacia: "Nada por aqu\xED..."
     cuadernoMapoteca1: "\xA1Un cuaderno!"
     cuadernoMapoteca2: "\xA1Otro cuaderno!"
@@ -83633,13 +84144,50 @@ MonoBehaviour:
     mapReady: "Este mapa ya est\xE1 completo"
     palanca: "Una palanca... \xBFpara que servir\xE1?"
     ladder_1: escalera no anda
-    ladder_2: ahora si
     globo_1: 
     globo_2: 
     tarjeta: 
     mapasDesconocidos: 
     mapaConstelacion: 
     mapasMedicion: 
+    cuadernoPatio1: 
+    cuadernoPatio2: 
+    cuadernoPatio3: 
+    libro_patio_1: 
+    libro_patio_2: 
+    libro_patio_3: 
+    cola: 
+    montura: 
+    pala: 
+    piedra: 
+    tijeras: 
+    cuadernoArbol: 
+    pozo: 
+    ligustrina: 
+    estatuaIncompleta: 
+    origami: 
+    catSinOrigami: 
+    banco: 
+    vaso: 
+    balon: 
+    gato1: 
+    gato2: 
+    cuadroOrigamis1: 
+    cuadroOrigamis2: 
+    pileta1: 
+    pileta2: 
+    armarioLab: 
+    letra2: 
+    pizarron: 
+    balones1: 
+    balones2: 
+    caldero1: 
+    caldero2: 
+    caldero3: 
+    llave02: 
+    vaso2_inserted: 
+    balon_inserted: 
+    copa: 
   gameProgress: {fileID: 0}
   gameProgressKey: 
   gameProgressValue: 0
@@ -93879,6 +94427,20 @@ MonoBehaviour:
   walkToMe: 1
   waltoToMeOffset: {x: 1, y: 0, z: -1}
   content:
+    usarG: 
+    vaso2: 
+    veneno: 
+    letra2_inserted: 
+    h_inserted: 
+    llave02_used: 
+    h: 
+    g: 
+    libro_lab_1: 
+    libro_lab_2: 
+    cuadernoLab1: 
+    cuadernoLab2: 
+    cuadernoLab3: 
+    catDone: 
     picaporte_1: Esto no se ve bien. Mejor le aviso a Marian
     picaporte_2: "Tengo que encontrar una forma de salir\u2026 Con dignidad"
     picaporte_3: Con este destornillador tengo que poder arregar esta puerta...
@@ -93926,7 +94488,10 @@ MonoBehaviour:
     minimap_3: Otra parte del mapa
     minimap_1_inserted: Puse la 1
     minimap_2_inserted: Puse la 2
+    caldero_inserted: 
     minimap_3_inserted: Puse la 3
+    cola_inserted: 
+    montura_inserted: 
     cajoneraVacia: "Nada por aqu\xED..."
     cuadernoMapoteca1: "\xA1Un cuaderno!"
     cuadernoMapoteca2: "\xA1Otro cuaderno!"
@@ -93940,13 +94505,50 @@ MonoBehaviour:
     mapReady: "Este mapa ya est\xE1 completo"
     palanca: "Una palanca... \xBFpara que servir\xE1?"
     ladder_1: escalera no anda
-    ladder_2: ahora si
     globo_1: 
     globo_2: 
     tarjeta: 
     mapasDesconocidos: 
     mapaConstelacion: 
     mapasMedicion: 
+    cuadernoPatio1: 
+    cuadernoPatio2: 
+    cuadernoPatio3: 
+    libro_patio_1: 
+    libro_patio_2: 
+    libro_patio_3: 
+    cola: 
+    montura: 
+    pala: 
+    piedra: 
+    tijeras: 
+    cuadernoArbol: 
+    pozo: 
+    ligustrina: 
+    estatuaIncompleta: 
+    origami: 
+    catSinOrigami: 
+    banco: 
+    vaso: 
+    balon: 
+    gato1: 
+    gato2: 
+    cuadroOrigamis1: 
+    cuadroOrigamis2: 
+    pileta1: 
+    pileta2: 
+    armarioLab: 
+    letra2: 
+    pizarron: 
+    balones1: 
+    balones2: 
+    caldero1: 
+    caldero2: 
+    caldero3: 
+    llave02: 
+    vaso2_inserted: 
+    balon_inserted: 
+    copa: 
   gameProgress: {fileID: 0}
   gameProgressKey: cajoneraMapoteca
   gameProgressValue: 0
@@ -94210,6 +94812,20 @@ MonoBehaviour:
   walkToMe: 1
   waltoToMeOffset: {x: 0, y: 0, z: -0.5}
   content:
+    usarG: 
+    vaso2: 
+    veneno: 
+    letra2_inserted: 
+    h_inserted: 
+    llave02_used: 
+    h: 
+    g: 
+    libro_lab_1: 
+    libro_lab_2: 
+    cuadernoLab1: 
+    cuadernoLab2: 
+    cuadernoLab3: 
+    catDone: 
     picaporte_1: Esto no se ve bien. Mejor le aviso a Marian
     picaporte_2: "Tengo que encontrar una forma de salir\u2026 Con dignidad"
     picaporte_3: Con este destornillador tengo que poder arregar esta puerta...
@@ -94257,7 +94873,10 @@ MonoBehaviour:
     minimap_3: Otra parte del mapa
     minimap_1_inserted: Puse la 1
     minimap_2_inserted: Puse la 2
+    caldero_inserted: 
     minimap_3_inserted: Puse la 3
+    cola_inserted: 
+    montura_inserted: 
     cajoneraVacia: "Nada por aqu\xED..."
     cuadernoMapoteca1: "\xA1Un cuaderno!"
     cuadernoMapoteca2: "\xA1Otro cuaderno!"
@@ -94271,13 +94890,50 @@ MonoBehaviour:
     mapReady: "Este mapa ya est\xE1 completo"
     palanca: "Una palanca... \xBFpara que servir\xE1?"
     ladder_1: escalera no anda
-    ladder_2: ahora si
     globo_1: 
     globo_2: 
     tarjeta: 
     mapasDesconocidos: 
     mapaConstelacion: 
     mapasMedicion: 
+    cuadernoPatio1: 
+    cuadernoPatio2: 
+    cuadernoPatio3: 
+    libro_patio_1: 
+    libro_patio_2: 
+    libro_patio_3: 
+    cola: 
+    montura: 
+    pala: 
+    piedra: 
+    tijeras: 
+    cuadernoArbol: 
+    pozo: 
+    ligustrina: 
+    estatuaIncompleta: 
+    origami: 
+    catSinOrigami: 
+    banco: 
+    vaso: 
+    balon: 
+    gato1: 
+    gato2: 
+    cuadroOrigamis1: 
+    cuadroOrigamis2: 
+    pileta1: 
+    pileta2: 
+    armarioLab: 
+    letra2: 
+    pizarron: 
+    balones1: 
+    balones2: 
+    caldero1: 
+    caldero2: 
+    caldero3: 
+    llave02: 
+    vaso2_inserted: 
+    balon_inserted: 
+    copa: 
   gameProgress: {fileID: 0}
   gameProgressKey: 
   gameProgressValue: 0
@@ -99390,6 +100046,20 @@ MonoBehaviour:
   walkToMe: 1
   waltoToMeOffset: {x: -1.5, y: 0, z: -1}
   content:
+    usarG: 
+    vaso2: 
+    veneno: 
+    letra2_inserted: 
+    h_inserted: 
+    llave02_used: 
+    h: 
+    g: 
+    libro_lab_1: 
+    libro_lab_2: 
+    cuadernoLab1: 
+    cuadernoLab2: 
+    cuadernoLab3: 
+    catDone: 
     picaporte_1: 
     picaporte_2: 
     picaporte_3: 
@@ -99428,7 +100098,10 @@ MonoBehaviour:
     minimap_3: 
     minimap_1_inserted: 
     minimap_2_inserted: 
+    caldero_inserted: 
     minimap_3_inserted: 
+    cola_inserted: 
+    montura_inserted: 
     cajoneraVacia: 
     cuadernoMapoteca1: 
     cuadernoMapoteca2: 
@@ -99441,13 +100114,50 @@ MonoBehaviour:
     mapReady: 
     palanca: 
     ladder_1: 
-    ladder_2: 
     globo_1: 
     globo_2: 
     tarjeta: 
     mapasDesconocidos: 
     mapaConstelacion: 
     mapasMedicion: 
+    cuadernoPatio1: 
+    cuadernoPatio2: 
+    cuadernoPatio3: 
+    libro_patio_1: 
+    libro_patio_2: 
+    libro_patio_3: 
+    cola: 
+    montura: 
+    pala: 
+    piedra: 
+    tijeras: 
+    cuadernoArbol: 
+    pozo: 
+    ligustrina: 
+    estatuaIncompleta: 
+    origami: 
+    catSinOrigami: 
+    banco: 
+    vaso: 
+    balon: 
+    gato1: 
+    gato2: 
+    cuadroOrigamis1: 
+    cuadroOrigamis2: 
+    pileta1: 
+    pileta2: 
+    armarioLab: 
+    letra2: 
+    pizarron: 
+    balones1: 
+    balones2: 
+    caldero1: 
+    caldero2: 
+    caldero3: 
+    llave02: 
+    vaso2_inserted: 
+    balon_inserted: 
+    copa: 
   gameProgress: {fileID: 0}
   gameProgressKey: mapaConstelacion
   gameProgressValue: 0
@@ -104436,6 +105146,20 @@ MonoBehaviour:
   walkToMe: 1
   waltoToMeOffset: {x: -1, y: 0, z: 0.3}
   content:
+    usarG: 
+    vaso2: 
+    veneno: 
+    letra2_inserted: 
+    h_inserted: 
+    llave02_used: 
+    h: 
+    g: 
+    libro_lab_1: 
+    libro_lab_2: 
+    cuadernoLab1: 
+    cuadernoLab2: 
+    cuadernoLab3: 
+    catDone: 
     picaporte_1: Esto no se ve bien. Mejor le aviso a Marian
     picaporte_2: "Tengo que encontrar una forma de salir\u2026 Con dignidad"
     picaporte_3: Con este destornillador tengo que poder arregar esta puerta...
@@ -104483,7 +105207,10 @@ MonoBehaviour:
     minimap_3: Otra parte del mapa
     minimap_1_inserted: Puse la 1
     minimap_2_inserted: Puse la 2
+    caldero_inserted: 
     minimap_3_inserted: Puse la 3
+    cola_inserted: 
+    montura_inserted: 
     cajoneraVacia: "Nada por aqu\xED..."
     cuadernoMapoteca1: "\xA1Un cuaderno!"
     cuadernoMapoteca2: "\xA1Otro cuaderno!"
@@ -104497,22 +105224,59 @@ MonoBehaviour:
     mapReady: "Este mapa ya est\xE1 completo"
     palanca: "Una palanca... \xBFpara que servir\xE1?"
     ladder_1: escalera no anda
-    ladder_2: ahora si
     globo_1: 
     globo_2: 
     tarjeta: 
     mapasDesconocidos: 
     mapaConstelacion: 
     mapasMedicion: 
+    cuadernoPatio1: 
+    cuadernoPatio2: 
+    cuadernoPatio3: 
+    libro_patio_1: 
+    libro_patio_2: 
+    libro_patio_3: 
+    cola: 
+    montura: 
+    pala: 
+    piedra: 
+    tijeras: 
+    cuadernoArbol: 
+    pozo: 
+    ligustrina: 
+    estatuaIncompleta: 
+    origami: 
+    catSinOrigami: 
+    banco: 
+    vaso: 
+    balon: 
+    gato1: 
+    gato2: 
+    cuadroOrigamis1: 
+    cuadroOrigamis2: 
+    pileta1: 
+    pileta2: 
+    armarioLab: 
+    letra2: 
+    pizarron: 
+    balones1: 
+    balones2: 
+    caldero1: 
+    caldero2: 
+    caldero3: 
+    llave02: 
+    vaso2_inserted: 
+    balon_inserted: 
+    copa: 
   gameProgress: {fileID: 0}
   gameProgressKey: ladder
   gameProgressValue: 0
   state_incomplete: {fileID: 4756231752143691951}
   state_complete: {fileID: 1715901038}
-  itemToBeUsed: xxx
+  itemToBeUsed: g
   itemReward: 
   textNoUsableItem: ladder_1
-  textWhenDone: ladder_2
+  textWhenDone: usarG
 --- !u!1 &9052917330006948377
 GameObject:
   m_ObjectHideFlags: 0
@@ -104690,6 +105454,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2692460147233043419}
     m_Modifications:
+    - target: {fileID: 439416808897222247, guid: c3dd28aa6b40dd74d8ce435654c2c6d6,
+        type: 3}
+      propertyPath: m_Name
+      value: Zina
+      objectReference: {fileID: 0}
+    - target: {fileID: 439416808897222247, guid: c3dd28aa6b40dd74d8ce435654c2c6d6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8750114695416517252, guid: c3dd28aa6b40dd74d8ce435654c2c6d6,
         type: 3}
       propertyPath: anim
@@ -104700,31 +105474,6 @@ PrefabInstance:
       propertyPath: expressions
       value: 
       objectReference: {fileID: 8131718821391962851}
-    - target: {fileID: 559351594538321394, guid: c3dd28aa6b40dd74d8ce435654c2c6d6,
-        type: 3}
-      propertyPath: all.Array.data[0].spriteRenderer
-      value: 
-      objectReference: {fileID: 1428568446221617669}
-    - target: {fileID: 559351594538321394, guid: c3dd28aa6b40dd74d8ce435654c2c6d6,
-        type: 3}
-      propertyPath: all.Array.data[1].spriteRenderer
-      value: 
-      objectReference: {fileID: 8582343978862324505}
-    - target: {fileID: 559351594538321394, guid: c3dd28aa6b40dd74d8ce435654c2c6d6,
-        type: 3}
-      propertyPath: all.Array.data[2].spriteRenderer
-      value: 
-      objectReference: {fileID: 8582343978729726957}
-    - target: {fileID: 559351594538321394, guid: c3dd28aa6b40dd74d8ce435654c2c6d6,
-        type: 3}
-      propertyPath: all.Array.data[3].spriteRenderer
-      value: 
-      objectReference: {fileID: 1061067882231797335}
-    - target: {fileID: 559351594538321394, guid: c3dd28aa6b40dd74d8ce435654c2c6d6,
-        type: 3}
-      propertyPath: all.Array.data[4].spriteRenderer
-      value: 
-      objectReference: {fileID: 8582343979303984089}
     - target: {fileID: 439416808897222244, guid: c3dd28aa6b40dd74d8ce435654c2c6d6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -104785,16 +105534,31 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: -1
       objectReference: {fileID: 0}
-    - target: {fileID: 439416808897222247, guid: c3dd28aa6b40dd74d8ce435654c2c6d6,
+    - target: {fileID: 559351594538321394, guid: c3dd28aa6b40dd74d8ce435654c2c6d6,
         type: 3}
-      propertyPath: m_Name
-      value: Zina
-      objectReference: {fileID: 0}
-    - target: {fileID: 439416808897222247, guid: c3dd28aa6b40dd74d8ce435654c2c6d6,
+      propertyPath: all.Array.data[0].spriteRenderer
+      value: 
+      objectReference: {fileID: 1428568446221617669}
+    - target: {fileID: 559351594538321394, guid: c3dd28aa6b40dd74d8ce435654c2c6d6,
         type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
+      propertyPath: all.Array.data[1].spriteRenderer
+      value: 
+      objectReference: {fileID: 8582343978862324505}
+    - target: {fileID: 559351594538321394, guid: c3dd28aa6b40dd74d8ce435654c2c6d6,
+        type: 3}
+      propertyPath: all.Array.data[2].spriteRenderer
+      value: 
+      objectReference: {fileID: 8582343978729726957}
+    - target: {fileID: 559351594538321394, guid: c3dd28aa6b40dd74d8ce435654c2c6d6,
+        type: 3}
+      propertyPath: all.Array.data[3].spriteRenderer
+      value: 
+      objectReference: {fileID: 1061067882231797335}
+    - target: {fileID: 559351594538321394, guid: c3dd28aa6b40dd74d8ce435654c2c6d6,
+        type: 3}
+      propertyPath: all.Array.data[4].spriteRenderer
+      value: 
+      objectReference: {fileID: 8582343979303984089}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3dd28aa6b40dd74d8ce435654c2c6d6, type: 3}
 --- !u!4 &8143496735579947381 stripped

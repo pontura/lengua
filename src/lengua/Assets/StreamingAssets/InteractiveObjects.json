@@ -50,7 +50,6 @@
 	"mapReady": "Espero que seas más feliz ahora, aunque hayas quedado torcido. Mejor dejo de hablar con el mapa, no siento que sea una relación correspondida",
 	"palanca": "Una palanca... ¿para que servirá?",
 	"ladder_1": "Una puertita en el techo. ¿A dónde llevará eso?...",
-	"ladder_2": "ahora si",
 	"globo_1": "El abuelo de Joaco tenía uno así. Lo abrías y adentro había bebidas. ¿Este será de esos?",
 	"globo_2": "¡¿Eh?! ¿Escucho risas? Tanta literatura, ¿no estará afectando mi cerebro?",
 	"tarjeta": "¡Una tarjeta! Me suena dónde podría usarla...",
@@ -108,6 +107,7 @@
 	"llave02": "Una llave pequeña",
 	"llave02_used": "A ver.. si esta llave sirve para este armario",
 	"caldero_inserted": "Un poco de esto...",
-	"copa": "Una copa llena de... algo"
+	"copa": "Una copa llena de... algo",
+	"usarG"; "Creo que si estiro esta G puedo hacer un gancho y llegar a la entrada del techo"
 	
 }

@@ -14,7 +14,8 @@ public class Room : MonoBehaviour {
 		BIBLIOTECA,
 		MAPOTECA,
 		PATIO,
-		LAB
+		LAB,
+		ALTILLO
 	}
 	public Vector2 limitsX;
 	public Vector2 limitsZ;
