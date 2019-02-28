@@ -80,7 +80,7 @@ namespace TMPro.Examples
 			bool changePage = false;
 			for (int i = 0; i < textlines.Length; i++) {
 				for (int j = 0; j < textlines [i].Length; j++) {				
-					if (nextpage && (textlines [i] [j] == '\n' || textlines [i] [j] == '.')) {
+					if (nextpage && (textlines [i] [j] == '\n' || textlines [i] [j] == '.' || textlines [i] [j] == '#')) {
 						//page += '#';
 						nextpage = false;
 						changePage = true;
