@@ -84,6 +84,8 @@ namespace TMPro.Examples
 						//page += '#';
 						nextpage = false;
 						changePage = true;
+						if(textlines [i] [j] == '.')
+							page += '.';
 						pages.Add (page);
 						page = "";
 						lineCount = 0;

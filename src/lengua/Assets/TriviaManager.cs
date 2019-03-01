@@ -76,7 +76,7 @@ public class TriviaManager : MonoBehaviour {
 			if (Input.GetKeyDown (KeyCode.Alpha1)) {
 				Events.OpenTrivia ("libro_lab_1");
 			}else if (Input.GetKeyDown (KeyCode.Alpha2)) {
-				Events.OpenTrivia (Data.Instance.triviaData.antologia[2].gameprogress_name);
+				Events.OpenTrivia (Data.Instance.triviaData.antologia[0].gameprogress_name);
 			}else if (Input.GetKeyDown (KeyCode.Alpha3)) {
 				Debug.Log ("aca");
 				Events.OpenTrivia (Data.Instance.triviaData.antologia[4].gameprogress_name);
