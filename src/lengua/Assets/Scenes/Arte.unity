@@ -43136,10 +43136,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Julia
       objectReference: {fileID: 0}
-    - target: {fileID: 1781637751549956, guid: af796ff2521229a45b180347e04ba539, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4015010188737672, guid: af796ff2521229a45b180347e04ba539, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.545
@@ -43184,23 +43180,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1017502925612886, guid: af796ff2521229a45b180347e04ba539, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1513543524009636, guid: af796ff2521229a45b180347e04ba539, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1853800282254084, guid: af796ff2521229a45b180347e04ba539, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1571851256876390, guid: af796ff2521229a45b180347e04ba539, type: 3}
+    - target: {fileID: 1197743988065896, guid: af796ff2521229a45b180347e04ba539, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1535730921285054, guid: af796ff2521229a45b180347e04ba539, type: 3}
+    - target: {fileID: 1577888677998236, guid: af796ff2521229a45b180347e04ba539, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8175657204757362090, guid: af796ff2521229a45b180347e04ba539,
+        type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -64792,7 +64781,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 4.12
+  orthographic size: 1.73
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -75722,6 +75711,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Room6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3222179834899248548, guid: e21cd146a41584140bb069d83ef23a1b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1596264735514715200, guid: e21cd146a41584140bb069d83ef23a1b,
         type: 3}
