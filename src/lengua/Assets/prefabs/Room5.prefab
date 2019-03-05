@@ -129,6 +129,7 @@ MonoBehaviour:
   walkToMe: 1
   waltoToMeOffset: {x: 0, y: 0, z: 0.1}
   content:
+    usarG: 
     vaso2: 
     veneno: 
     letra2_inserted: 
@@ -196,7 +197,6 @@ MonoBehaviour:
     mapReady: 
     palanca: 
     ladder_1: 
-    ladder_2: 
     globo_1: 
     globo_2: 
     tarjeta: 
@@ -375,6 +375,7 @@ MonoBehaviour:
   walkToMe: 1
   waltoToMeOffset: {x: 0, y: 0, z: 0}
   content:
+    usarG: 
     vaso2: 
     veneno: 
     letra2_inserted: "Queda mejor as\xED"
@@ -453,7 +454,6 @@ MonoBehaviour:
       dejo de hablar con el mapa, no siento que sea una relaci\xF3n correspondida"
     palanca: "Una palanca... \xBFpara que servir\xE1?"
     ladder_1: "Una puertita en el techo. \xBFA d\xF3nde llevar\xE1 eso?..."
-    ladder_2: ahora si
     globo_1: "El abuelo de Joaco ten\xEDa uno as\xED. Lo abr\xEDas y adentro hab\xEDa
       bebidas. \xBFEste ser\xE1 de esos?"
     globo_2: "\xA1\xBFEh?! \xBFEscucho risas? Tanta literatura, \xBFno estar\xE1 afectando
@@ -46723,6 +46723,7 @@ MonoBehaviour:
   walkToMe: 1
   waltoToMeOffset: {x: -0.5, y: 0, z: 0}
   content:
+    usarG: 
     vaso2: 
     veneno: 
     letra2_inserted: "Queda mejor as\xED"
@@ -46801,7 +46802,6 @@ MonoBehaviour:
       dejo de hablar con el mapa, no siento que sea una relaci\xF3n correspondida"
     palanca: "Una palanca... \xBFpara que servir\xE1?"
     ladder_1: "Una puertita en el techo. \xBFA d\xF3nde llevar\xE1 eso?..."
-    ladder_2: ahora si
     globo_1: "El abuelo de Joaco ten\xEDa uno as\xED. Lo abr\xEDas y adentro hab\xEDa
       bebidas. \xBFEste ser\xE1 de esos?"
     globo_2: "\xA1\xBFEh?! \xBFEscucho risas? Tanta literatura, \xBFno estar\xE1 afectando
@@ -52257,6 +52257,7 @@ MonoBehaviour:
   walkToMe: 1
   waltoToMeOffset: {x: 0.5, y: 0, z: 0}
   content:
+    usarG: 
     vaso2: 
     veneno: 
     letra2_inserted: "Queda mejor as\xED"
@@ -52335,7 +52336,6 @@ MonoBehaviour:
       dejo de hablar con el mapa, no siento que sea una relaci\xF3n correspondida"
     palanca: "Una palanca... \xBFpara que servir\xE1?"
     ladder_1: "Una puertita en el techo. \xBFA d\xF3nde llevar\xE1 eso?..."
-    ladder_2: ahora si
     globo_1: "El abuelo de Joaco ten\xEDa uno as\xED. Lo abr\xEDas y adentro hab\xEDa
       bebidas. \xBFEste ser\xE1 de esos?"
     globo_2: "\xA1\xBFEh?! \xBFEscucho risas? Tanta literatura, \xBFno estar\xE1 afectando
@@ -53260,6 +53260,7 @@ MonoBehaviour:
   walkToMe: 1
   waltoToMeOffset: {x: 1.2, y: 0, z: 1}
   content:
+    usarG: 
     vaso2: 
     veneno: 
     letra2_inserted: "Queda mejor as\xED"
@@ -53338,7 +53339,6 @@ MonoBehaviour:
       dejo de hablar con el mapa, no siento que sea una relaci\xF3n correspondida"
     palanca: "Una palanca... \xBFpara que servir\xE1?"
     ladder_1: "Una puertita en el techo. \xBFA d\xF3nde llevar\xE1 eso?..."
-    ladder_2: ahora si
     globo_1: "El abuelo de Joaco ten\xEDa uno as\xED. Lo abr\xEDas y adentro hab\xEDa
       bebidas. \xBFEste ser\xE1 de esos?"
     globo_2: "\xA1\xBFEh?! \xBFEscucho risas? Tanta literatura, \xBFno estar\xE1 afectando
@@ -59093,6 +59093,7 @@ MonoBehaviour:
   walkToMe: 1
   waltoToMeOffset: {x: 0, y: 0, z: 0}
   content:
+    usarG: 
     vaso2: 
     veneno: 
     letra2_inserted: "Queda mejor as\xED"
@@ -59171,7 +59172,6 @@ MonoBehaviour:
       dejo de hablar con el mapa, no siento que sea una relaci\xF3n correspondida"
     palanca: "Una palanca... \xBFpara que servir\xE1?"
     ladder_1: "Una puertita en el techo. \xBFA d\xF3nde llevar\xE1 eso?..."
-    ladder_2: ahora si
     globo_1: "El abuelo de Joaco ten\xEDa uno as\xED. Lo abr\xEDas y adentro hab\xEDa
       bebidas. \xBFEste ser\xE1 de esos?"
     globo_2: "\xA1\xBFEh?! \xBFEscucho risas? Tanta literatura, \xBFno estar\xE1 afectando
@@ -65022,6 +65022,7 @@ MonoBehaviour:
   walkToMe: 1
   waltoToMeOffset: {x: 0, y: 0, z: 0}
   content:
+    usarG: 
     vaso2: 
     veneno: 
     letra2_inserted: 
@@ -65089,7 +65090,6 @@ MonoBehaviour:
     mapReady: 
     palanca: 
     ladder_1: 
-    ladder_2: 
     globo_1: 
     globo_2: 
     tarjeta: 
@@ -67203,7 +67203,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &5962440501460200436
 Transform:
   m_ObjectHideFlags: 0
@@ -67400,6 +67400,7 @@ MonoBehaviour:
   walkToMe: 1
   waltoToMeOffset: {x: 0, y: 0, z: 0}
   content:
+    usarG: 
     vaso2: 
     veneno: 
     letra2_inserted: 
@@ -67467,7 +67468,6 @@ MonoBehaviour:
     mapReady: 
     palanca: 
     ladder_1: 
-    ladder_2: 
     globo_1: 
     globo_2: 
     tarjeta: 
@@ -68691,6 +68691,7 @@ MonoBehaviour:
   walkToMe: 1
   waltoToMeOffset: {x: 0, y: 0, z: 0}
   content:
+    usarG: 
     vaso2: 
     veneno: 
     letra2_inserted: 
@@ -68758,7 +68759,6 @@ MonoBehaviour:
     mapReady: 
     palanca: 
     ladder_1: 
-    ladder_2: 
     globo_1: 
     globo_2: 
     tarjeta: 
@@ -74617,7 +74617,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1259163621780236078
 Transform:
   m_ObjectHideFlags: 0
@@ -74692,7 +74692,7 @@ Animation:
   m_GameObject: {fileID: 8227941288721310394}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 0}
+  m_Animation: {fileID: 7400000, guid: 1d8eac6ebf9558b408bf9a8410ab5b6c, type: 2}
   m_Animations:
   - {fileID: 7400000, guid: 1d8eac6ebf9558b408bf9a8410ab5b6c, type: 2}
   m_WrapMode: 0
@@ -75478,6 +75478,7 @@ MonoBehaviour:
   walkToMe: 1
   waltoToMeOffset: {x: 0, y: 0, z: 0}
   content:
+    usarG: 
     vaso2: 
     veneno: 
     letra2_inserted: 
@@ -75555,7 +75556,6 @@ MonoBehaviour:
     mapReady: "Este mapa ya est\xE1 completo"
     palanca: "Una palanca... \xBFpara que servir\xE1?"
     ladder_1: escalera no anda
-    ladder_2: ahora si
     globo_1: 
     globo_2: 
     tarjeta: 
@@ -75912,6 +75912,7 @@ MonoBehaviour:
   walkToMe: 1
   waltoToMeOffset: {x: 1, y: 0, z: 0.5}
   content:
+    usarG: 
     vaso2: 
     veneno: 
     letra2_inserted: "Queda mejor as\xED"
@@ -75990,7 +75991,6 @@ MonoBehaviour:
       dejo de hablar con el mapa, no siento que sea una relaci\xF3n correspondida"
     palanca: "Una palanca... \xBFpara que servir\xE1?"
     ladder_1: "Una puertita en el techo. \xBFA d\xF3nde llevar\xE1 eso?..."
-    ladder_2: ahora si
     globo_1: "El abuelo de Joaco ten\xEDa uno as\xED. Lo abr\xEDas y adentro hab\xEDa
       bebidas. \xBFEste ser\xE1 de esos?"
     globo_2: "\xA1\xBFEh?! \xBFEscucho risas? Tanta literatura, \xBFno estar\xE1 afectando
