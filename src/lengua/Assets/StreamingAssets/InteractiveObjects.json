@@ -108,6 +108,23 @@
 	"llave02_used": "A ver.. si esta llave sirve para este armario",
 	"caldero_inserted": "Un poco de esto...",
 	"copa": "Una copa llena de... algo",
-	"usarG": "Creo que si estiro esta G puedo hacer un gancho y llegar a la entrada del techo"
+	"usarG": "Creo que si estiro esta G puedo hacer un gancho y llegar a la entrada del techo",
+	
+	"cuadernoAltillo1": "cuadernoAltillo1",
+	"cuadernoAltillo2": "cuadernoAltillo2",
+	"cuadernoAltillo3": "cuadernoAltillo3",
+	
+	"libro_altillo_1": "libro_altillo_1",
+	"libro_altillo_2": "libro_altillo_2",
+	
+	"rosa": "rosa",
+	"ovillo": "ovillo",
+	"telar_sin_ovillo": "telar_sin_ovillo",
+	"trenza1": "trenza1",
+	"trenza2": "trenza2",
+	"plumasNegras": "plumasNegras",
+	"escalera": "escalera",
+	"manivela": "manivela",
+	"estrella": "estrella"
 	
 }

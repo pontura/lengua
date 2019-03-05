@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1678,7 +1678,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.00000014580161, y: 0.0000036054591}
+  m_AnchoredPosition: {x: 0.00000014580161, y: 0.00001264005}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &363594255
@@ -3028,8 +3028,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1580746755}
   m_HandleRect: {fileID: 1580746754}
   m_Direction: 2
-  m_Value: 0
-  m_Size: 0.99999994
+  m_Value: 1
+  m_Size: 0.9999999
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3937,7 +3937,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   character: {fileID: 1588145398}
   cutscenesUI: {fileID: 1879940508}
-  roomType: 3
+  roomType: 5
   rooms:
   - {fileID: 8233078057708878437, guid: 0bff8d02220b0bb4cb3684bb38461bc2, type: 3}
   - {fileID: 5654462099031211181, guid: c50c1bf53a9a2144aa1fa94b075e5ed7, type: 3}
@@ -5569,11 +5569,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 938875512}
     m_Modifications:
-    - target: {fileID: 439416808897222247, guid: c3dd28aa6b40dd74d8ce435654c2c6d6,
-        type: 3}
-      propertyPath: m_Name
-      value: Zina
-      objectReference: {fileID: 0}
     - target: {fileID: 439416808897222244, guid: c3dd28aa6b40dd74d8ce435654c2c6d6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5628,6 +5623,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 439416808897222247, guid: c3dd28aa6b40dd74d8ce435654c2c6d6,
+        type: 3}
+      propertyPath: m_Name
+      value: Zina
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3dd28aa6b40dd74d8ce435654c2c6d6, type: 3}
@@ -7208,7 +7208,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.00002893673, y: -0.000032494296}
+  m_AnchoredPosition: {x: 0.00002893673, y: 0.000023844756}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &2032765863
@@ -7434,6 +7434,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   content:
+    plumasNegras: 
+    ovillo: 
+    ovillo2: 
+    rosa: 
+    escalera: 
+    cuadernoAltillo1: 
+    cuadernoAltillo2: 
+    cuadernoAltillo3: 
+    libro_altillo_1: 
+    libro_altillo_2: 
     usarG: 
     vaso2: 
     veneno: 
@@ -8158,6 +8168,32 @@ MonoBehaviour:
     value: 0
   - name: caldero
     value: 0
+  - name: compuerta
+    value: 1
+  - name: cuadernoAltillo1
+    value: 1
+  - name: cuadernoAltillo2
+    value: 1
+  - name: cuadernoAltillo3
+    value: 1
+  - name: libro_altillo_1
+    value: 1
+  - name: libro_altillo_2
+    value: 1
+  - name: rosa
+    value: 1
+  - name: manivela
+    value: 1
+  - name: plumasNegras
+    value: 1
+  - name: ovillo
+    value: 1
+  - name: escalera
+    value: 1
+  - name: trenza1
+    value: 1
+  - name: trenza2
+    value: 1
 --- !u!114 &114434947464692351
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8324,6 +8360,39 @@ MonoBehaviour:
   - image: {fileID: 21300000, guid: 20870701e2a7f4d4cbda089cf67d6b2b, type: 3}
     gameProgressKey: copa
     isLibro: 0
+  - image: {fileID: 21300000, guid: 4c7c1058dd543c14dadb02903d7fe4a2, type: 3}
+    gameProgressKey: libro_altillo_1
+    isLibro: 1
+  - image: {fileID: 21300000, guid: 56b6c86bf17d0684ea108a5bffba363d, type: 3}
+    gameProgressKey: libro_altillo_2
+    isLibro: 1
+  - image: {fileID: 21300000, guid: e88a2b511f917e647931ff7f633021a9, type: 3}
+    gameProgressKey: cuadernoAltillo1
+    isLibro: 1
+  - image: {fileID: 21300000, guid: 9a05d110e2fe91741803eaa201b336c8, type: 3}
+    gameProgressKey: cuadernoAltillo2
+    isLibro: 1
+  - image: {fileID: 21300000, guid: fe1c82e19e6c5524eae2271424aa3dd2, type: 3}
+    gameProgressKey: cuadernoAltillo3
+    isLibro: 1
+  - image: {fileID: 21300000, guid: 9807049186c66594ea63a79669fa8c9c, type: 3}
+    gameProgressKey: ovillo
+    isLibro: 0
+  - image: {fileID: 21300000, guid: 2aac5df974926a14b91b51f67e0699ba, type: 3}
+    gameProgressKey: plumasNegras
+    isLibro: 0
+  - image: {fileID: 21300000, guid: 5e06a03c42252b2488716857fea8aec0, type: 3}
+    gameProgressKey: rosa
+    isLibro: 0
+  - image: {fileID: 21300000, guid: cc31ff8ea4efdda49906d72e5f4bc1c3, type: 3}
+    gameProgressKey: escalera
+    isLibro: 0
+  - image: {fileID: 21300000, guid: 1d4333cfacab6e0488dedcec812706de, type: 3}
+    gameProgressKey: trenza1
+    isLibro: 0
+  - image: {fileID: 21300000, guid: 1d4333cfacab6e0488dedcec812706de, type: 3}
+    gameProgressKey: trenza2
+    isLibro: 0
   inventary: []
 --- !u!114 &114640231862672099
 MonoBehaviour:
@@ -8338,6 +8407,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   content:
+    plumasNegras: 
+    ovillo: 
+    ovillo2: 
+    rosa: 
+    escalera: 
+    cuadernoAltillo1: 
+    cuadernoAltillo2: 
+    cuadernoAltillo3: 
+    libro_altillo_1: 
+    libro_altillo_2: 
     usarG: 
     vaso2: 
     veneno: 

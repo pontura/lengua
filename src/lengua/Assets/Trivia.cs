@@ -172,6 +172,16 @@ public class Trivia : MonoBehaviour {
 			Events.OnTexts (Data.Instance.interactiveObjectsTexts.content.balon, "inventary/balon", null);
 			OnCuadernoWin ("cuadernoLab3");
 			break;
+
+
+		case "libro_altillo_1":
+			if (Data.Instance.gameProgress.GetData ("estrella").value == 0) {
+				if (Data.Instance.gameProgress.GetData ("estrella").value == 0) {
+					Events.OnSaveNewData ("estrella", 1);
+					Events.OnTexts (Data.Instance.interactiveObjectsTexts.content.estrella, "inventary/estrella", null);
+				}
+			}
+			break;
 		
 		
 		}

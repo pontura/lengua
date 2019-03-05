@@ -136,6 +136,28 @@ public class InteractiveObjectsTexts : MonoBehaviour {
 				return ladder_1;
 			case "usarG":
 				return usarG;
+			case "cuadernoAltillo1":
+				return cuadernoAltillo1;
+			case "cuadernoAltillo2":
+				return cuadernoAltillo2;
+			case "cuadernoAltillo3":
+				return cuadernoAltillo3;
+			case "libro_altillo_1":
+				return libro_altillo_1;
+			case "libro_altillo_2":
+				return libro_altillo_2;
+			case "plumasNegras":
+				return plumasNegras;
+			case "ovillo":
+				return ovillo;
+			case "rosa":
+				return rosa;
+			case "escalera":
+				return escalera;
+			case "ovillo2":
+				return ovillo2;
+			case "telar_sin_ovillo":
+				return telar_sin_ovillo;
 //			case "letra2_inserted":
 //				return letra2_inserted;
 //			case "h_inserted":
@@ -143,6 +165,21 @@ public class InteractiveObjectsTexts : MonoBehaviour {
 			}
 			return "ERROR: no hay un texto default en InteractiveObjectsTexts GetValue() para " + key;
 		}
+		public string estrella;
+		public string telar_sin_ovillo;
+		public string plumasNegras;
+		public string ovillo;
+		public string ovillo2;
+
+		public string rosa;
+		public string escalera;
+
+		public string cuadernoAltillo1;
+		public string cuadernoAltillo2;
+		public string cuadernoAltillo3;
+
+		public string libro_altillo_1;
+		public string libro_altillo_2;
 
 		public string usarG;
 		public string vaso2;

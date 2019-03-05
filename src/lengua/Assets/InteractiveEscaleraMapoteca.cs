@@ -20,7 +20,7 @@ public class InteractiveEscaleraMapoteca : InteractiveObject
 	public override void OnCharacterReachMe()
 	{ 
 		if (gameProgressValue == 1) { 
-			Events.ChangeRoom (Room.types.ALTILLO, new Vector2 (0,0));
+			Events.ChangeRoom (Room.types.ALTILLO, new Vector2 (3.2f,-0.5f));
 		}
 		if (gameProgressValue == 0) { 
 			if (Data.Instance.gameProgress.GetData (itemToBeUsed).value == 1) {			
