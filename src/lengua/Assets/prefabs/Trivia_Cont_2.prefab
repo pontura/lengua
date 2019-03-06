@@ -1508,7 +1508,7 @@ MonoBehaviour:
   correcto: {fileID: 6768011809213546553}
   incorrecto: {fileID: 6766788847439105989}
   correctoSfx: {fileID: 8300000, guid: 6d9aa08e4d7101f4a8b765dff05e16da, type: 3}
-  incorrectoSFx: {fileID: 8300000, guid: 927244095c32fa1448b91cdd6b444156, type: 3}
+  incorrectoSfx: {fileID: 8300000, guid: 927244095c32fa1448b91cdd6b444156, type: 3}
   winTrivia: {fileID: 8300000, guid: 497905d177bc84046a36624555849ccb, type: 3}
 --- !u!114 &6663185214984809967
 MonoBehaviour:

@@ -17,7 +17,7 @@ public class TriviaManager : MonoBehaviour {
 	public Transform optionsContainer;
 
 	public GameObject correcto,incorrecto;
-	public AudioClip correctoSfx,incorrectoSFx,winTrivia;
+	public AudioClip correctoSfx,incorrectoSfx,winTrivia;
 
 	AudioSource asource;
 
@@ -34,14 +34,26 @@ public class TriviaManager : MonoBehaviour {
 		asource = GetComponent<AudioSource> ();
 		Events.SetTrivia += SetTrivia;
 		Events.NormativaDone += SetAnswer;
+		Events.CorrectoSfx += CorrectoSfx;
+		Events.IncorrectoSfx += IncorrectoSfx;
 	}
 	void OnDestroy () {
 		Events.SetTrivia -= SetTrivia;
 		Events.NormativaDone -= SetAnswer;
+		Events.CorrectoSfx -= CorrectoSfx;
+		Events.IncorrectoSfx -= IncorrectoSfx;
 	}
 
 	public void Close(){
 		Events.TriviaClose ();
+	}
+
+	public void CorrectoSfx(){
+		asource.PlayOneShot (correctoSfx);
+	}
+
+	public void IncorrectoSfx(){
+		asource.PlayOneShot (incorrectoSfx);
 	}
 
 	void SetTrivia (string gameProgressKey) {
@@ -117,7 +129,7 @@ public class TriviaManager : MonoBehaviour {
 
 				correcto.SetActive (true);
 			} else {
-				asource.PlayOneShot (incorrectoSFx);
+				asource.PlayOneShot (incorrectoSfx);
 				tProgress.lastBadAnswerTime = Time.realtimeSinceStartup;
 				tProgress.state = TriviaData.TriviaState.blocked;
 				incorrecto.SetActive (true);

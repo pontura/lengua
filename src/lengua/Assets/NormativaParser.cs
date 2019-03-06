@@ -110,6 +110,10 @@ namespace TMPro.Examples
 				int selected = int.Parse (linkArr [2]);
 				AnswerData ad = answers.Find(x => x.id == answerID);
 				ad.selected = ad.answers[selected];
+				if (ad.selected == ad.ok)
+					Events.CorrectoSfx();
+				else
+					Events.IncorrectoSfx();
 			}
 
 			//Debug.Log("OnLinkSelection Index: " + linkIndex + " with ID [" + linkID + "] and Text \"" + linkText + "\" has been selected.");

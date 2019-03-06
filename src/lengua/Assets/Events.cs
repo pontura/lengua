@@ -36,6 +36,8 @@ public static class Events {
 	public static System.Action CloseBagSfx = delegate {	};
 	public static System.Action OpenBookSfx = delegate {};
 	public static System.Action CloseBookSfx = delegate {};
+	public static System.Action CorrectoSfx = delegate {};
+	public static System.Action IncorrectoSfx = delegate {};
 
 	public static System.Action OnCuadernoWin = delegate {};
 
