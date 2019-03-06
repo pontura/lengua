@@ -39,5 +39,7 @@ public static class Events {
 
 	public static System.Action OnCuadernoWin = delegate {};
 
+	public static System.Action NextMusicTrack = delegate {};
+
 }
 

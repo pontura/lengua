@@ -16,6 +16,8 @@ GameObject:
   - component: {fileID: 114134459145049482}
   - component: {fileID: 114777048282461660}
   - component: {fileID: 114132969967853722}
+  - component: {fileID: 7022735695211520629}
+  - component: {fileID: 6442682096764908666}
   m_Layer: 0
   m_Name: Data
   m_TagString: Untagged
@@ -33,7 +35,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.26034382, y: -0.01034081, z: 2.6104884}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 2523483330705188327}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -49,12 +52,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4abd52d2147a7bc4f844b1ffbcaa81f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  reloadJson: 0
+  reloadJson: 1
   interactiveObjectsTexts: {fileID: 0}
   gameProgress: {fileID: 0}
   inventary: {fileID: 0}
   triviaData: {fileID: 0}
   dialoguesData: {fileID: 0}
+  phoneConversationsData: {fileID: 0}
   currentLevel: 
   currentLevelIndex: 0
 --- !u!114 &114300212788950266
@@ -87,6 +91,170 @@ MonoBehaviour:
     value: 0
   - name: escalera
     value: 0
+  - name: cuerno1
+    value: 0
+  - name: minotauro
+    value: 0
+  - name: cuerno2
+    value: 0
+  - name: puerta_Biblioteca_Patio
+    value: 0
+  - name: cuadernoBiblioteca1
+    value: 0
+  - name: cuadernoBiblioteca2
+    value: 0
+  - name: cuadernoBiblioteca3
+    value: 0
+  - name: libro_biblioteca_1
+    value: 0
+  - name: rueda
+    value: 0
+  - name: libro_biblioteca_2
+    value: 0
+  - name: puertaMapoteca
+    value: 0
+  - name: celular
+    value: 2
+  - name: cajoneraMapoteca
+    value: 0
+  - name: minimap_1
+    value: 0
+  - name: minimap_2
+    value: 0
+  - name: minimap_3
+    value: 0
+  - name: cuadernoMapoteca1
+    value: 0
+  - name: cuadernoMapoteca2
+    value: 0
+  - name: soporteMapas
+    value: 0
+  - name: libro_mapoteca_1
+    value: 0
+  - name: libro_mapoteca_2
+    value: 0
+  - name: libro_mapoteca_3
+    value: 0
+  - name: lobo
+    value: 0
+  - name: lobos
+    value: 0
+  - name: map
+    value: 0
+  - name: palanca
+    value: 0
+  - name: ladder
+    value: 0
+  - name: globo
+    value: 0
+  - name: tarjeta
+    value: 0
+  - name: cutscenes
+    value: 0
+  - name: cuadernoPatio1
+    value: 0
+  - name: cuadernoPatio2
+    value: 0
+  - name: cuadernoPatio3
+    value: 0
+  - name: libro_patio_1
+    value: 0
+  - name: libro_patio_2
+    value: 0
+  - name: libro_patio_3
+    value: 0
+  - name: cola
+    value: 0
+  - name: grulla
+    value: 0
+  - name: montura
+    value: 0
+  - name: pala
+    value: 0
+  - name: piedra
+    value: 0
+  - name: tijeras
+    value: 0
+  - name: cuadernoArbol
+    value: 0
+  - name: origami
+    value: 0
+  - name: origami2
+    value: 0
+  - name: libro_lab_1
+    value: 0
+  - name: libro_lab_2
+    value: 0
+  - name: cuadernoLab1
+    value: 0
+  - name: cuadernoLab2
+    value: 0
+  - name: cuadernoLab3
+    value: 0
+  - name: cuadroOrigamis
+    value: 0
+  - name: vaso
+    value: 0
+  - name: pileta
+    value: 0
+  - name: letra2
+    value: 0
+  - name: h
+    value: 0
+  - name: vaso2
+    value: 0
+  - name: balon
+    value: 0
+  - name: llave02
+    value: 0
+  - name: armarioLab
+    value: 0
+  - name: veneno
+    value: 0
+  - name: g
+    value: 0
+  - name: pizarron
+    value: 0
+  - name: copa
+    value: 0
+  - name: caldero
+    value: 0
+  - name: compuerta
+    value: 0
+  - name: cuadernoAltillo1
+    value: 0
+  - name: cuadernoAltillo2
+    value: 0
+  - name: cuadernoAltillo3
+    value: 0
+  - name: libro_altillo_1
+    value: 0
+  - name: libro_altillo_2
+    value: 0
+  - name: rosa
+    value: 0
+  - name: manivela
+    value: 0
+  - name: plumasNegras
+    value: 0
+  - name: ovillo
+    value: 0
+  - name: escalera_altillo
+    value: 0
+  - name: trenza1
+    value: 0
+  - name: trenza2
+    value: 0
+  - name: estrella
+    value: 0
+  - name: claraboya
+    value: 0
+  - name: telescopio
+    value: 0
+  - name: busto
+    value: 0
+  - name: alas
+    value: 0
 --- !u!114 &114640231412475312
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -100,6 +268,49 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   content:
+    compuerta_no: 
+    alas: 
+    alas_no: 
+    manivela_done: 
+    no_hay_escalera: 
+    bustoColocaTrenza: 
+    busto: 
+    manivela: 
+    telescopio_done: 
+    telescopio_1: 
+    telescopio_2: 
+    telescopio_sin_manivela: 
+    claraboyaPoneEstrella: 
+    claraboyaPoneEscalera: 
+    trenza1: 
+    trenza2: 
+    claraboya: 
+    estrella: 
+    telar_sin_ovillo: 
+    plumasNegras: 
+    ovillo: 
+    ovillo2: 
+    rosa: 
+    escalera_altillo: 
+    cuadernoAltillo1: 
+    cuadernoAltillo2: 
+    cuadernoAltillo3: 
+    libro_altillo_1: 
+    libro_altillo_2: 
+    usarG: 
+    vaso2: 
+    veneno: 
+    letra2_inserted: 
+    h_inserted: 
+    llave02_used: 
+    h: 
+    g: 
+    libro_lab_1: 
+    libro_lab_2: 
+    cuadernoLab1: 
+    cuadernoLab2: 
+    cuadernoLab3: 
+    catDone: 
     picaporte_1: Esto no se ve bien. Mejor le aviso a Marian
     picaporte_2: "Tengo que encontrar una forma de salir\u2026 Con dignidad"
     picaporte_3: Con este destornillador tengo que poder arregar esta puerta...
@@ -120,6 +331,88 @@ MonoBehaviour:
     libroCuadro2: "\xA1\xBFEh?! Me pareci\xF3 que algo se mov\xEDa..."
     libroBloqueado: Me siento un poco bloqueda... voy a esperar un minuto
     libroCompletado: "\xA1Por suerte este libro ya lo termin\xE9!"
+    cuerno1: 
+    cuerno2: 
+    minotauro_0: 
+    minotauro_1: 
+    minotauro_2: 
+    alfonsina: 
+    puerta_biblioteca_patio: 
+    escalera_1: 
+    escalera_2: 
+    cuadernoBiblioteca1: 
+    cuadernoBiblioteca2: 
+    cuadernoBiblioteca3: 
+    libro_biblioteca_1: 
+    libro_biblioteca_2: 
+    libros_dibujos: 
+    rueda: 
+    puertaMapoteca: 
+    minimap_1: 
+    minimap_2: 
+    minimap_3: 
+    minimap_1_inserted: 
+    minimap_2_inserted: 
+    caldero_inserted: 
+    minimap_3_inserted: 
+    cola_inserted: 
+    montura_inserted: 
+    cajoneraVacia: 
+    cuadernoMapoteca1: 
+    cuadernoMapoteca2: 
+    libro_mapoteca_1: 
+    libro_mapoteca_2: 
+    libro_mapoteca_3: 
+    lobo: 
+    lobos: 
+    map: 
+    mapReady: 
+    palanca: 
+    ladder_1: 
+    globo_1: 
+    globo_2: 
+    tarjeta: 
+    mapasDesconocidos: 
+    mapaConstelacion: 
+    mapasMedicion: 
+    cuadernoPatio1: 
+    cuadernoPatio2: 
+    cuadernoPatio3: 
+    libro_patio_1: 
+    libro_patio_2: 
+    libro_patio_3: 
+    cola: 
+    montura: 
+    pala: 
+    piedra: 
+    tijeras: 
+    cuadernoArbol: 
+    pozo: 
+    ligustrina: 
+    estatuaIncompleta: 
+    origami: 
+    catSinOrigami: 
+    banco: 
+    vaso: 
+    balon: 
+    gato1: 
+    gato2: 
+    cuadroOrigamis1: 
+    cuadroOrigamis2: 
+    pileta1: 
+    pileta2: 
+    armarioLab: 
+    letra2: 
+    pizarron: 
+    balones1: 
+    balones2: 
+    caldero1: 
+    caldero2: 
+    caldero3: 
+    llave02: 
+    vaso2_inserted: 
+    balon_inserted: 
+    copa: 
 --- !u!114 &114434947018505516
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -148,6 +441,180 @@ MonoBehaviour:
   - image: {fileID: 21300000, guid: bd08306e7c97bb245a91c80d5fbef002, type: 3}
     gameProgressKey: libroCuadro
     isLibro: 1
+  - image: {fileID: 21300000, guid: 0cc25e39c01544043b1860e90d82c02a, type: 3}
+    gameProgressKey: cuerno1
+    isLibro: 0
+  - image: {fileID: 21300000, guid: 0cc25e39c01544043b1860e90d82c02a, type: 3}
+    gameProgressKey: cuerno2
+    isLibro: 0
+  - image: {fileID: 21300000, guid: 86b614572c257474bb27d11b075a7f83, type: 3}
+    gameProgressKey: cuadernoBiblioteca1
+    isLibro: 1
+  - image: {fileID: 21300000, guid: 88e4ac270bd915442847f37e14a65036, type: 3}
+    gameProgressKey: cuadernoBiblioteca2
+    isLibro: 1
+  - image: {fileID: 21300000, guid: 11640e6db30c6d44c96f0cef9d25ffb6, type: 3}
+    gameProgressKey: cuadernoBiblioteca3
+    isLibro: 1
+  - image: {fileID: 21300000, guid: a0ba01e07ba2bf948b88bc134abeaf78, type: 3}
+    gameProgressKey: libro_biblioteca_1
+    isLibro: 1
+  - image: {fileID: 21300000, guid: a15a5210a8ed826479e883063bbc580e, type: 3}
+    gameProgressKey: libro_biblioteca_2
+    isLibro: 1
+  - image: {fileID: 21300000, guid: 676db740bcedd4c48b748780229db7eb, type: 3}
+    gameProgressKey: rueda
+    isLibro: 0
+  - image: {fileID: 21300000, guid: 90b8532bda36c7c44bc0a6ac200598b0, type: 3}
+    gameProgressKey: minimap_1
+    isLibro: 0
+  - image: {fileID: 21300000, guid: decf49b498ed1364ea42db6f5a0a455d, type: 3}
+    gameProgressKey: minimap_2
+    isLibro: 0
+  - image: {fileID: 21300000, guid: a9dc33a4ea8c989419a98b46e60ca9ed, type: 3}
+    gameProgressKey: minimap_3
+    isLibro: 0
+  - image: {fileID: 21300000, guid: e312bde9e357e88438578e4ec5ee1050, type: 3}
+    gameProgressKey: cuadernoMapoteca1
+    isLibro: 1
+  - image: {fileID: 21300000, guid: a8f12da1d005c2248873b4acd2e4d5ee, type: 3}
+    gameProgressKey: cuadernoMapoteca2
+    isLibro: 1
+  - image: {fileID: 21300000, guid: 0d6d85caf8957ee4abf70c01ebc59b9f, type: 3}
+    gameProgressKey: libro_mapoteca_1
+    isLibro: 1
+  - image: {fileID: 21300000, guid: d0365899cec76a64db78335d281b1082, type: 3}
+    gameProgressKey: libro_mapoteca_2
+    isLibro: 1
+  - image: {fileID: 21300000, guid: 2d926b8f40b726b4590342bf18466d9f, type: 3}
+    gameProgressKey: libro_mapoteca_3
+    isLibro: 1
+  - image: {fileID: 21300000, guid: 13fb8866864757d418fe34800b641c02, type: 3}
+    gameProgressKey: lobo
+    isLibro: 0
+  - image: {fileID: 21300000, guid: 89e978c1951069c42b705264efdb76db, type: 3}
+    gameProgressKey: palanca
+    isLibro: 0
+  - image: {fileID: 21300000, guid: 077cf8ec55cfb8f4c85f049359c503d7, type: 3}
+    gameProgressKey: tarjeta
+    isLibro: 0
+  - image: {fileID: 21300000, guid: 56ae07b17f685fb4abf68fe795e13fa7, type: 3}
+    gameProgressKey: cuadernoPatio1
+    isLibro: 1
+  - image: {fileID: 21300000, guid: a6dc66c9585d59a4a83e1e5b2e09fc5a, type: 3}
+    gameProgressKey: cuadernoPatio2
+    isLibro: 1
+  - image: {fileID: 21300000, guid: 61271b7a6bf12024a96243e8e6ca1ebe, type: 3}
+    gameProgressKey: libro_patio_1
+    isLibro: 1
+  - image: {fileID: 21300000, guid: 775f45891f3251642a3a269d13438827, type: 3}
+    gameProgressKey: libro_patio_2
+    isLibro: 1
+  - image: {fileID: 21300000, guid: fa2010cc344c0984cbdc27e4e20d9f0f, type: 3}
+    gameProgressKey: libro_patio_3
+    isLibro: 1
+  - image: {fileID: 21300000, guid: 24b8ecd6ee261db4a9a3a9f175feb6cb, type: 3}
+    gameProgressKey: piedra
+    isLibro: 0
+  - image: {fileID: 21300000, guid: a2aa6b1fce7ee4a418cae904cccf2f25, type: 3}
+    gameProgressKey: pala
+    isLibro: 0
+  - image: {fileID: 21300000, guid: 79117b0333d001d48bfe306536307de6, type: 3}
+    gameProgressKey: tijeras
+    isLibro: 0
+  - image: {fileID: 21300000, guid: 9019909596de16f42ad0ae074b1a73b7, type: 3}
+    gameProgressKey: cuadernoPatio3
+    isLibro: 1
+  - image: {fileID: 21300000, guid: 33fa1c9c06872fe4b91d5bebe078f1ba, type: 3}
+    gameProgressKey: cola
+    isLibro: 0
+  - image: {fileID: 21300000, guid: 4787dd609245e46439a9a71716c268ac, type: 3}
+    gameProgressKey: montura
+    isLibro: 0
+  - image: {fileID: 21300000, guid: 0578e965a69889d4882d8e2d5449160a, type: 3}
+    gameProgressKey: origami
+    isLibro: 0
+  - image: {fileID: 21300000, guid: 3e4158b3e896ff349b6748695c743aa2, type: 3}
+    gameProgressKey: libro_lab_1
+    isLibro: 1
+  - image: {fileID: 21300000, guid: e0f096476ffbeb04dbafcf4a8447d622, type: 3}
+    gameProgressKey: libro_lab_2
+    isLibro: 1
+  - image: {fileID: 21300000, guid: be081dc3fd1a19041bc4373749ea9922, type: 3}
+    gameProgressKey: cuadernoLab1
+    isLibro: 1
+  - image: {fileID: 21300000, guid: 1e40bc9a6bd62e644b0f24b9a45aaccb, type: 3}
+    gameProgressKey: cuadernoLab2
+    isLibro: 1
+  - image: {fileID: 21300000, guid: 8ce63ffa36edd374f8053c02170cf30d, type: 3}
+    gameProgressKey: cuadernoLab3
+    isLibro: 1
+  - image: {fileID: 21300000, guid: 0578e965a69889d4882d8e2d5449160a, type: 3}
+    gameProgressKey: origami2
+    isLibro: 0
+  - image: {fileID: 21300000, guid: e0e35c4137f61cb4cb1129b5a57b9e7d, type: 3}
+    gameProgressKey: vaso
+    isLibro: 0
+  - image: {fileID: 21300000, guid: e0e35c4137f61cb4cb1129b5a57b9e7d, type: 3}
+    gameProgressKey: vaso2
+    isLibro: 0
+  - image: {fileID: 21300000, guid: 7cb839a9eebd2a44aba4302cd313f6c7, type: 3}
+    gameProgressKey: letra2
+    isLibro: 0
+  - image: {fileID: 21300000, guid: c406d105b03687241bfd9c51d014259c, type: 3}
+    gameProgressKey: balon
+    isLibro: 0
+  - image: {fileID: 21300000, guid: 1c755a67fc34dda4cb2e0399f038e228, type: 3}
+    gameProgressKey: h
+    isLibro: 0
+  - image: {fileID: 21300000, guid: 9d675b8b0a4731842b5ee9a1747c5d37, type: 3}
+    gameProgressKey: llave02
+    isLibro: 0
+  - image: {fileID: 21300000, guid: 26fbb9680315a65438986c9769abb8fe, type: 3}
+    gameProgressKey: veneno
+    isLibro: 0
+  - image: {fileID: 21300000, guid: fb9465beb2cdf3546bc37fce98f933a2, type: 3}
+    gameProgressKey: g
+    isLibro: 0
+  - image: {fileID: 21300000, guid: 20870701e2a7f4d4cbda089cf67d6b2b, type: 3}
+    gameProgressKey: copa
+    isLibro: 0
+  - image: {fileID: 21300000, guid: 4c7c1058dd543c14dadb02903d7fe4a2, type: 3}
+    gameProgressKey: libro_altillo_1
+    isLibro: 1
+  - image: {fileID: 21300000, guid: 56b6c86bf17d0684ea108a5bffba363d, type: 3}
+    gameProgressKey: libro_altillo_2
+    isLibro: 1
+  - image: {fileID: 21300000, guid: e88a2b511f917e647931ff7f633021a9, type: 3}
+    gameProgressKey: cuadernoAltillo1
+    isLibro: 1
+  - image: {fileID: 21300000, guid: 9a05d110e2fe91741803eaa201b336c8, type: 3}
+    gameProgressKey: cuadernoAltillo2
+    isLibro: 1
+  - image: {fileID: 21300000, guid: fe1c82e19e6c5524eae2271424aa3dd2, type: 3}
+    gameProgressKey: cuadernoAltillo3
+    isLibro: 1
+  - image: {fileID: 21300000, guid: 9807049186c66594ea63a79669fa8c9c, type: 3}
+    gameProgressKey: ovillo
+    isLibro: 0
+  - image: {fileID: 21300000, guid: 2aac5df974926a14b91b51f67e0699ba, type: 3}
+    gameProgressKey: plumasNegras
+    isLibro: 0
+  - image: {fileID: 21300000, guid: 5e06a03c42252b2488716857fea8aec0, type: 3}
+    gameProgressKey: rosa
+    isLibro: 0
+  - image: {fileID: 21300000, guid: cc31ff8ea4efdda49906d72e5f4bc1c3, type: 3}
+    gameProgressKey: escalera_altillo
+    isLibro: 0
+  - image: {fileID: 21300000, guid: 1d4333cfacab6e0488dedcec812706de, type: 3}
+    gameProgressKey: trenza1
+    isLibro: 0
+  - image: {fileID: 21300000, guid: 1d4333cfacab6e0488dedcec812706de, type: 3}
+    gameProgressKey: trenza2
+    isLibro: 0
+  - image: {fileID: 21300000, guid: 668605a51cab22d4f8551b348ee11226, type: 3}
+    gameProgressKey: estrella
+    isLibro: 0
   inventary: []
 --- !u!114 &114134459145049482
 MonoBehaviour:
@@ -165,6 +632,8 @@ MonoBehaviour:
   triviaProgress:
   - id: 0
     gameprogress_name: libroIngreso
+    type: 0
+    area: 0
     triviasIndex: 0
     triviasDone: 000000
     completed: 0
@@ -172,6 +641,8 @@ MonoBehaviour:
     state: 0
   - id: 1
     gameprogress_name: libroCuadro
+    type: 0
+    area: 0
     triviasIndex: 0
     triviasDone: 000000
     completed: 0
@@ -179,6 +650,26 @@ MonoBehaviour:
     state: 0
   - id: 2
     gameprogress_name: cuaderno_ingreso
+    type: 0
+    area: 0
+    triviasIndex: 0
+    triviasDone: 000000
+    completed: 0
+    lastBadAnswerTime: 0
+    state: 0
+  - id: 4
+    gameprogress_name: libro_biblioteca_1
+    type: 0
+    area: 0
+    triviasIndex: 0
+    triviasDone: 000000
+    completed: 0
+    lastBadAnswerTime: 0
+    state: 0
+  - id: 5
+    gameprogress_name: libro_biblioteca_2
+    type: 0
+    area: 0
     triviasIndex: 0
     triviasDone: 000000
     completed: 0
@@ -189,6 +680,9 @@ MonoBehaviour:
     gameprogress_name: libroIngreso
     title: La plapla
     author: "Mar\xEDa Elena Walsh"
+    color: 
+    type: 0
+    area: 0
     texts:
     - textlines:
       - "Felipito Tacat\xFAn estaba haciendo los deberes. Inclinado sobre el cuaderno
@@ -263,6 +757,9 @@ MonoBehaviour:
     gameprogress_name: libroCuadro
     title: Amigos por el viento
     author: Liliana Bodoc
+    color: 
+    type: 0
+    area: 0
     texts:
     - textlines:
       - "A veces, la vida se comporta como un viento: desordena y arrasa. Algo susurra
@@ -415,6 +912,9 @@ MonoBehaviour:
     gameprogress_name: cuaderno_ingreso
     title: Amigos por el viento
     author: Liliana Bodoc
+    color: 
+    type: 0
+    area: 0
     texts:
     - textlines:
       - "A veces, la vida se comporta como un viento: desordena y arrasa. Algo susurra
@@ -565,6 +1065,7 @@ MonoBehaviour:
         comunicativos."
   blockedTime: 60
   resetTime: 1800
+  normativaMinimum: 0.7
 --- !u!114 &114777048282461660
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -572,7 +1073,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1640398861795566}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c8d2b1ab3c1476d498737c669be758a7, type: 3}
   m_Name: 
@@ -618,6 +1119,10 @@ MonoBehaviour:
     - character: avatar
       state: contento
       text: "\xA1Ooookey! Vaya, nom\xE1s"
+    biblioteca: []
+    escalera: []
+    mapoteca: []
+    mapoteca2: []
 --- !u!114 &114132969967853722
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -631,6 +1136,49 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   content:
+    compuerta_no: 
+    alas: 
+    alas_no: 
+    manivela_done: 
+    no_hay_escalera: 
+    bustoColocaTrenza: 
+    busto: 
+    manivela: 
+    telescopio_done: 
+    telescopio_1: 
+    telescopio_2: 
+    telescopio_sin_manivela: 
+    claraboyaPoneEstrella: 
+    claraboyaPoneEscalera: 
+    trenza1: 
+    trenza2: 
+    claraboya: 
+    estrella: 
+    telar_sin_ovillo: 
+    plumasNegras: 
+    ovillo: 
+    ovillo2: 
+    rosa: 
+    escalera_altillo: 
+    cuadernoAltillo1: 
+    cuadernoAltillo2: 
+    cuadernoAltillo3: 
+    libro_altillo_1: 
+    libro_altillo_2: 
+    usarG: 
+    vaso2: 
+    veneno: 
+    letra2_inserted: 
+    h_inserted: 
+    llave02_used: 
+    h: 
+    g: 
+    libro_lab_1: 
+    libro_lab_2: 
+    cuadernoLab1: 
+    cuadernoLab2: 
+    cuadernoLab3: 
+    catDone: 
     picaporte_1: Esto no se ve bien. Mejor le aviso a Marian
     picaporte_2: "Tengo que encontrar una forma de salir\u2026 Con dignidad"
     picaporte_3: Con este destornillador tengo que poder arregar esta puerta...
@@ -651,3 +1199,727 @@ MonoBehaviour:
     libroCuadro2: "\xA1\xBFEh?! Me pareci\xF3 que algo se mov\xEDa..."
     libroBloqueado: Me siento un poco bloqueda... voy a esperar un minuto
     libroCompletado: "\xA1Por suerte este libro ya lo termin\xE9!"
+    cuerno1: 
+    cuerno2: 
+    minotauro_0: 
+    minotauro_1: 
+    minotauro_2: 
+    alfonsina: 
+    puerta_biblioteca_patio: 
+    escalera_1: 
+    escalera_2: 
+    cuadernoBiblioteca1: 
+    cuadernoBiblioteca2: 
+    cuadernoBiblioteca3: 
+    libro_biblioteca_1: 
+    libro_biblioteca_2: 
+    libros_dibujos: 
+    rueda: 
+    puertaMapoteca: 
+    minimap_1: 
+    minimap_2: 
+    minimap_3: 
+    minimap_1_inserted: 
+    minimap_2_inserted: 
+    caldero_inserted: 
+    minimap_3_inserted: 
+    cola_inserted: 
+    montura_inserted: 
+    cajoneraVacia: 
+    cuadernoMapoteca1: 
+    cuadernoMapoteca2: 
+    libro_mapoteca_1: 
+    libro_mapoteca_2: 
+    libro_mapoteca_3: 
+    lobo: 
+    lobos: 
+    map: 
+    mapReady: 
+    palanca: 
+    ladder_1: 
+    globo_1: 
+    globo_2: 
+    tarjeta: 
+    mapasDesconocidos: 
+    mapaConstelacion: 
+    mapasMedicion: 
+    cuadernoPatio1: 
+    cuadernoPatio2: 
+    cuadernoPatio3: 
+    libro_patio_1: 
+    libro_patio_2: 
+    libro_patio_3: 
+    cola: 
+    montura: 
+    pala: 
+    piedra: 
+    tijeras: 
+    cuadernoArbol: 
+    pozo: 
+    ligustrina: 
+    estatuaIncompleta: 
+    origami: 
+    catSinOrigami: 
+    banco: 
+    vaso: 
+    balon: 
+    gato1: 
+    gato2: 
+    cuadroOrigamis1: 
+    cuadroOrigamis2: 
+    pileta1: 
+    pileta2: 
+    armarioLab: 
+    letra2: 
+    pizarron: 
+    balones1: 
+    balones2: 
+    caldero1: 
+    caldero2: 
+    caldero3: 
+    llave02: 
+    vaso2_inserted: 
+    balon_inserted: 
+    copa: 
+--- !u!114 &7022735695211520629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640398861795566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff06027e4bd67af499630c5a41f354f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  content:
+    joaco_biblioteca: []
+    marian_1: []
+    patio1: []
+    patio2: []
+    patio3: []
+    lab1: []
+    lab2: []
+--- !u!114 &6442682096764908666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640398861795566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24f4da1d9cebe9548aea50da81a0cabd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fade: {fileID: 189694, guid: 0286696ef3952ef4da79c770eb94b166, type: 3}
+  tracks:
+  - {fileID: 7491732810371091361}
+  - {fileID: 8789275089350697583}
+  - {fileID: 4083519439653631030}
+  - {fileID: 2155996106684781761}
+  bpm: 90
+  numBeatsPerSegment: 16
+--- !u!1 &21115964421618717
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2523483330705188327}
+  m_Layer: 0
+  m_Name: Music
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2523483330705188327
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 21115964421618717}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 9086500611309570255}
+  - {fileID: 8797232293284547061}
+  - {fileID: 2234967639122683228}
+  - {fileID: 7571734100557682472}
+  m_Father: {fileID: 4253221959410642}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &254943220826435495
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8797232293284547061}
+  - component: {fileID: 8789275089350697583}
+  - component: {fileID: 562132726924649489}
+  m_Layer: 0
+  m_Name: MusicTrack
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8797232293284547061
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 254943220826435495}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2523483330705188327}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8789275089350697583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 254943220826435495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71230759ff3171f45ad7e1c270c2fd67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clip: {fileID: 8300000, guid: f7e58bb1abb2db8448813ed97d133be1, type: 3}
+--- !u!82 &562132726924649489
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 254943220826435495}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 243913811052525196, guid: 54f619d7ae1612140af313cd4b4f047b,
+    type: 2}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!1 &1141710268096964222
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2234967639122683228}
+  - component: {fileID: 4083519439653631030}
+  - component: {fileID: 4564260553552862265}
+  m_Layer: 0
+  m_Name: MusicTrack
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2234967639122683228
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1141710268096964222}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2523483330705188327}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4083519439653631030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1141710268096964222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71230759ff3171f45ad7e1c270c2fd67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clip: {fileID: 8300000, guid: 74fc4e858ac1d4946b97dd42f667efbc, type: 3}
+--- !u!82 &4564260553552862265
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1141710268096964222}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 243913811052525196, guid: 54f619d7ae1612140af313cd4b4f047b,
+    type: 2}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!1 &3153937481436346419
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9086500611309570255}
+  - component: {fileID: 7491732810371091361}
+  - component: {fileID: 6991219627653963178}
+  m_Layer: 0
+  m_Name: MusicTrack
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9086500611309570255
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3153937481436346419}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2523483330705188327}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7491732810371091361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3153937481436346419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71230759ff3171f45ad7e1c270c2fd67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clip: {fileID: 8300000, guid: f6789e816e65e174a8f92fa07271a3c1, type: 3}
+--- !u!82 &6991219627653963178
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3153937481436346419}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 243913811052525196, guid: 54f619d7ae1612140af313cd4b4f047b,
+    type: 2}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!1 &6174242570100435817
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7571734100557682472}
+  - component: {fileID: 2155996106684781761}
+  - component: {fileID: 9005458281411770586}
+  m_Layer: 0
+  m_Name: MusicTrack
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7571734100557682472
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6174242570100435817}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2523483330705188327}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2155996106684781761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6174242570100435817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71230759ff3171f45ad7e1c270c2fd67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clip: {fileID: 8300000, guid: c64ddabcbb3c9264c955d907e243f548, type: 3}
+--- !u!82 &9005458281411770586
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6174242570100435817}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 243913811052525196, guid: 54f619d7ae1612140af313cd4b4f047b,
+    type: 2}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
