@@ -188,10 +188,19 @@ public class InteractiveObjectsTexts : MonoBehaviour
                 case "telescopio_sin_manivela":
                     return telescopio_sin_manivela;
                 case "manivela_done":
+                    return alas;
+                case "alas":
                     return manivela_done;
+                case "alas_no":
+                    return alas_no;
+                case "compuerta_no":
+                    return compuerta_no;
             }
             return "ERROR: no hay un texto default en InteractiveObjectsTexts GetValue() para " + key;
         }
+        public string compuerta_no;
+        public string alas;
+        public string alas_no;
         public string manivela_done;
         public string no_hay_escalera;
         public string bustoColocaTrenza;

@@ -226,9 +226,14 @@ public class Trivia : MonoBehaviour
                 break;
 
             case "cuadernoAltillo2":
+                Events.OnSaveNewData("plumasNegras", 1);
+                Events.OnTexts(Data.Instance.interactiveObjectsTexts.content.plumasNegras, "inventary/plumasNegras", null);
+                OnCuadernoWin("cuadernoAltillo2");
+                break;
+			case "cuadernoAltillo3":
                 Events.OnSaveNewData("manivela", 1);
                 Events.OnTexts(Data.Instance.interactiveObjectsTexts.content.manivela, "inventary/manivela", null);
-                OnCuadernoWin("cuadernoAltillo2");
+                OnCuadernoWin("cuadernoAltillo3");
                 break;
 
 
