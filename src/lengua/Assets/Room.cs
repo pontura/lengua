@@ -5,7 +5,7 @@ using UnityEngine;
 public class Room : MonoBehaviour {
 
 	public RoomsManager roomsManager;
-
+	public float cameraSize = 1.61f;
 	public types type;
 
 	public enum types

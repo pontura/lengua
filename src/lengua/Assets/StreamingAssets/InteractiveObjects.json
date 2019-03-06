@@ -123,8 +123,18 @@
 	"trenza1": "trenza1",
 	"trenza2": "trenza2",
 	"plumasNegras": "plumasNegras",
-	"escalera": "escalera",
+	"escalera_altillo": "escalera",
 	"manivela": "manivela",
-	"estrella": "estrella"
-	
+	"estrella": "estrella",
+	"claraboya": "claraboya",
+	"claraboyaPoneEscalera": "claraboyaPoneEscalera",
+	"claraboyaPoneEstrella": "claraboyaPoneEstrella",
+	"telescopio_1": "Parece que algo falta... no logro ver nada...",
+	"telescopio_2": "Algo veo ahora... pero algo falta...",
+	"telescopio_done": "¡Hermoso!",
+	"busto": "Este busto está incompleto",
+	"bustoColocaTrenza": "¡Esto va acá!",
+	"no_hay_escalera": "Colocaría la estrella ahí... pero no llego",
+	"telescopio_sin_manivela": "telescopio_sin_manivela",
+	"manivela_done": "manivela_done"
 }
