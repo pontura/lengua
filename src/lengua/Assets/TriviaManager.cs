@@ -17,7 +17,7 @@ public class TriviaManager : MonoBehaviour {
 	public Transform optionsContainer;
 
 	public GameObject correcto,incorrecto;
-	public AudioClip correctoSfx,incorrectoSfx,winTrivia;
+	public AudioClip correctoSfx,incorrectoSfx,winTrivia,openSfx,closeSfx;
 
 	AudioSource asource;
 
@@ -45,18 +45,24 @@ public class TriviaManager : MonoBehaviour {
 	}
 
 	public void Close(){
+		asource.pitch = 1f;
+		asource.PlayOneShot (closeSfx);
 		Events.TriviaClose ();
 	}
 
 	public void CorrectoSfx(){
+		asource.pitch = 1f;
 		asource.PlayOneShot (correctoSfx);
 	}
 
 	public void IncorrectoSfx(){
+		asource.pitch = 1f;
 		asource.PlayOneShot (incorrectoSfx);
 	}
 
 	void SetTrivia (string gameProgressKey) {
+		asource.pitch = 1f;
+		asource.PlayOneShot (openSfx);
 		this.gameProgressKey = gameProgressKey;
 		tProgress = Data.Instance.triviaData.GetTProgressByGProgress(gameProgressKey);
 		if (!tProgress.completed) {
@@ -111,7 +117,8 @@ public class TriviaManager : MonoBehaviour {
 				tProgress.triviasDone [tProgress.triviasIndex] = true;
 				tProgress.triviasIndex++;				
 
-				if (tProgress.type == TriviaData.TriviaType.normativa) {					
+				if (tProgress.type == TriviaData.TriviaType.normativa) {
+					asource.pitch = 1f;
 					asource.PlayOneShot (winTrivia);
 					Events.OnBookComplete ();
 					return;
@@ -120,15 +127,18 @@ public class TriviaManager : MonoBehaviour {
 				if (tProgress.triviasIndex >= tProgress.triviasDone.Length) {
 					tProgress.completed = true;
 					tProgress.state = TriviaData.TriviaState.complete;
+					asource.pitch = 1f;
 					asource.PlayOneShot (winTrivia);
 					Events.OnBookComplete ();
 					return;
 				} else {
+					asource.pitch = 1f;
 					asource.PlayOneShot (correctoSfx);
 				}			
 
 				correcto.SetActive (true);
 			} else {
+				asource.pitch = 1f;
 				asource.PlayOneShot (incorrectoSfx);
 				tProgress.lastBadAnswerTime = Time.realtimeSinceStartup;
 				tProgress.state = TriviaData.TriviaState.blocked;

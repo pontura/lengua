@@ -833,6 +833,49 @@ MonoBehaviour:
   walkToMe: 1
   waltoToMeOffset: {x: 0, y: 0, z: -0.25}
   content:
+    compuerta_no: 
+    alas: 
+    alas_no: 
+    manivela_done: 
+    no_hay_escalera: 
+    bustoColocaTrenza: 
+    busto: 
+    manivela: 
+    telescopio_done: 
+    telescopio_1: 
+    telescopio_2: 
+    telescopio_sin_manivela: 
+    claraboyaPoneEstrella: 
+    claraboyaPoneEscalera: 
+    trenza1: 
+    trenza2: 
+    claraboya: 
+    estrella: 
+    telar_sin_ovillo: 
+    plumasNegras: 
+    ovillo: 
+    ovillo2: 
+    rosa: 
+    escalera_altillo: 
+    cuadernoAltillo1: 
+    cuadernoAltillo2: 
+    cuadernoAltillo3: 
+    libro_altillo_1: 
+    libro_altillo_2: 
+    usarG: 
+    vaso2: 
+    veneno: 
+    letra2_inserted: 
+    h_inserted: 
+    llave02_used: 
+    h: 
+    g: 
+    libro_lab_1: 
+    libro_lab_2: 
+    cuadernoLab1: 
+    cuadernoLab2: 
+    cuadernoLab3: 
+    catDone: 
     picaporte_1: 
     picaporte_2: 
     picaporte_3: 
@@ -871,7 +914,10 @@ MonoBehaviour:
     minimap_3: 
     minimap_1_inserted: 
     minimap_2_inserted: 
+    caldero_inserted: 
     minimap_3_inserted: 
+    cola_inserted: 
+    montura_inserted: 
     cajoneraVacia: 
     cuadernoMapoteca1: 
     cuadernoMapoteca2: 
@@ -884,13 +930,50 @@ MonoBehaviour:
     mapReady: 
     palanca: 
     ladder_1: 
-    ladder_2: 
     globo_1: 
     globo_2: 
     tarjeta: 
     mapasDesconocidos: 
     mapaConstelacion: 
     mapasMedicion: 
+    cuadernoPatio1: 
+    cuadernoPatio2: 
+    cuadernoPatio3: 
+    libro_patio_1: 
+    libro_patio_2: 
+    libro_patio_3: 
+    cola: 
+    montura: 
+    pala: 
+    piedra: 
+    tijeras: 
+    cuadernoArbol: 
+    pozo: 
+    ligustrina: 
+    estatuaIncompleta: 
+    origami: 
+    catSinOrigami: 
+    banco: 
+    vaso: 
+    balon: 
+    gato1: 
+    gato2: 
+    cuadroOrigamis1: 
+    cuadroOrigamis2: 
+    pileta1: 
+    pileta2: 
+    armarioLab: 
+    letra2: 
+    pizarron: 
+    balones1: 
+    balones2: 
+    caldero1: 
+    caldero2: 
+    caldero3: 
+    llave02: 
+    vaso2_inserted: 
+    balon_inserted: 
+    copa: 
   gameProgress: {fileID: 0}
   gameProgressKey: fichero_llave
   gameProgressValue: 0
@@ -1530,6 +1613,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4701950632739382}
   - component: {fileID: 212511459878652448}
+  - component: {fileID: 6438264362354316924}
   m_Layer: 0
   m_Name: ficheroAbierto
   m_TagString: Untagged
@@ -1599,6 +1683,103 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!82 &6438264362354316924
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1191156256908250}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 243715316410260404, guid: 54f619d7ae1612140af313cd4b4f047b,
+    type: 2}
+  m_audioClip: {fileID: 8300000, guid: 203939fa3a5847f42a52d69976fb8cee, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.5
+  m_Pitch: 2
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1203765032317022
 GameObject:
   m_ObjectHideFlags: 0
@@ -2042,6 +2223,49 @@ MonoBehaviour:
   walkToMe: 0
   waltoToMeOffset: {x: 0, y: 0, z: 0}
   content:
+    compuerta_no: 
+    alas: 
+    alas_no: 
+    manivela_done: 
+    no_hay_escalera: 
+    bustoColocaTrenza: 
+    busto: 
+    manivela: 
+    telescopio_done: 
+    telescopio_1: 
+    telescopio_2: 
+    telescopio_sin_manivela: 
+    claraboyaPoneEstrella: 
+    claraboyaPoneEscalera: 
+    trenza1: 
+    trenza2: 
+    claraboya: 
+    estrella: 
+    telar_sin_ovillo: 
+    plumasNegras: 
+    ovillo: 
+    ovillo2: 
+    rosa: 
+    escalera_altillo: 
+    cuadernoAltillo1: 
+    cuadernoAltillo2: 
+    cuadernoAltillo3: 
+    libro_altillo_1: 
+    libro_altillo_2: 
+    usarG: 
+    vaso2: 
+    veneno: 
+    letra2_inserted: 
+    h_inserted: 
+    llave02_used: 
+    h: 
+    g: 
+    libro_lab_1: 
+    libro_lab_2: 
+    cuadernoLab1: 
+    cuadernoLab2: 
+    cuadernoLab3: 
+    catDone: 
     picaporte_1: 
     picaporte_2: 
     picaporte_3: 
@@ -2080,7 +2304,10 @@ MonoBehaviour:
     minimap_3: 
     minimap_1_inserted: 
     minimap_2_inserted: 
+    caldero_inserted: 
     minimap_3_inserted: 
+    cola_inserted: 
+    montura_inserted: 
     cajoneraVacia: 
     cuadernoMapoteca1: 
     cuadernoMapoteca2: 
@@ -2093,13 +2320,50 @@ MonoBehaviour:
     mapReady: 
     palanca: 
     ladder_1: 
-    ladder_2: 
     globo_1: 
     globo_2: 
     tarjeta: 
     mapasDesconocidos: 
     mapaConstelacion: 
     mapasMedicion: 
+    cuadernoPatio1: 
+    cuadernoPatio2: 
+    cuadernoPatio3: 
+    libro_patio_1: 
+    libro_patio_2: 
+    libro_patio_3: 
+    cola: 
+    montura: 
+    pala: 
+    piedra: 
+    tijeras: 
+    cuadernoArbol: 
+    pozo: 
+    ligustrina: 
+    estatuaIncompleta: 
+    origami: 
+    catSinOrigami: 
+    banco: 
+    vaso: 
+    balon: 
+    gato1: 
+    gato2: 
+    cuadroOrigamis1: 
+    cuadroOrigamis2: 
+    pileta1: 
+    pileta2: 
+    armarioLab: 
+    letra2: 
+    pizarron: 
+    balones1: 
+    balones2: 
+    caldero1: 
+    caldero2: 
+    caldero3: 
+    llave02: 
+    vaso2_inserted: 
+    balon_inserted: 
+    copa: 
   gameProgress: {fileID: 0}
   gameProgressKey: cuadro1
   gameProgressValue: 0
@@ -3311,6 +3575,49 @@ MonoBehaviour:
   walkToMe: 1
   waltoToMeOffset: {x: 0, y: 0, z: -0.5}
   content:
+    compuerta_no: 
+    alas: 
+    alas_no: 
+    manivela_done: 
+    no_hay_escalera: 
+    bustoColocaTrenza: 
+    busto: 
+    manivela: 
+    telescopio_done: 
+    telescopio_1: 
+    telescopio_2: 
+    telescopio_sin_manivela: 
+    claraboyaPoneEstrella: 
+    claraboyaPoneEscalera: 
+    trenza1: 
+    trenza2: 
+    claraboya: 
+    estrella: 
+    telar_sin_ovillo: 
+    plumasNegras: 
+    ovillo: 
+    ovillo2: 
+    rosa: 
+    escalera_altillo: 
+    cuadernoAltillo1: 
+    cuadernoAltillo2: 
+    cuadernoAltillo3: 
+    libro_altillo_1: 
+    libro_altillo_2: 
+    usarG: 
+    vaso2: 
+    veneno: 
+    letra2_inserted: 
+    h_inserted: 
+    llave02_used: 
+    h: 
+    g: 
+    libro_lab_1: 
+    libro_lab_2: 
+    cuadernoLab1: 
+    cuadernoLab2: 
+    cuadernoLab3: 
+    catDone: 
     picaporte_1: Esto no se ve bien. Mejor le aviso a Marian
     picaporte_2: Definitivamente, el picaporte esta... roto
     picaporte_3: 
@@ -3351,7 +3658,10 @@ MonoBehaviour:
     minimap_3: 
     minimap_1_inserted: 
     minimap_2_inserted: 
+    caldero_inserted: 
     minimap_3_inserted: 
+    cola_inserted: 
+    montura_inserted: 
     cajoneraVacia: 
     cuadernoMapoteca1: 
     cuadernoMapoteca2: 
@@ -3364,13 +3674,50 @@ MonoBehaviour:
     mapReady: 
     palanca: 
     ladder_1: 
-    ladder_2: 
     globo_1: 
     globo_2: 
     tarjeta: 
     mapasDesconocidos: 
     mapaConstelacion: 
     mapasMedicion: 
+    cuadernoPatio1: 
+    cuadernoPatio2: 
+    cuadernoPatio3: 
+    libro_patio_1: 
+    libro_patio_2: 
+    libro_patio_3: 
+    cola: 
+    montura: 
+    pala: 
+    piedra: 
+    tijeras: 
+    cuadernoArbol: 
+    pozo: 
+    ligustrina: 
+    estatuaIncompleta: 
+    origami: 
+    catSinOrigami: 
+    banco: 
+    vaso: 
+    balon: 
+    gato1: 
+    gato2: 
+    cuadroOrigamis1: 
+    cuadroOrigamis2: 
+    pileta1: 
+    pileta2: 
+    armarioLab: 
+    letra2: 
+    pizarron: 
+    balones1: 
+    balones2: 
+    caldero1: 
+    caldero2: 
+    caldero3: 
+    llave02: 
+    vaso2_inserted: 
+    balon_inserted: 
+    copa: 
   gameProgress: {fileID: 0}
   gameProgressKey: escritorioDoor1
   gameProgressValue: 0
@@ -4204,6 +4551,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomsManager: {fileID: 0}
+  cameraSize: 1.61
   type: 0
   limitsX: {x: -2.5, y: 0.29}
   limitsZ: {x: 2.3, y: 0.7}
@@ -4367,6 +4715,49 @@ MonoBehaviour:
   walkToMe: 1
   waltoToMeOffset: {x: -0.2, y: 0, z: -0.15}
   content:
+    compuerta_no: 
+    alas: 
+    alas_no: 
+    manivela_done: 
+    no_hay_escalera: 
+    bustoColocaTrenza: 
+    busto: 
+    manivela: 
+    telescopio_done: 
+    telescopio_1: 
+    telescopio_2: 
+    telescopio_sin_manivela: 
+    claraboyaPoneEstrella: 
+    claraboyaPoneEscalera: 
+    trenza1: 
+    trenza2: 
+    claraboya: 
+    estrella: 
+    telar_sin_ovillo: 
+    plumasNegras: 
+    ovillo: 
+    ovillo2: 
+    rosa: 
+    escalera_altillo: 
+    cuadernoAltillo1: 
+    cuadernoAltillo2: 
+    cuadernoAltillo3: 
+    libro_altillo_1: 
+    libro_altillo_2: 
+    usarG: 
+    vaso2: 
+    veneno: 
+    letra2_inserted: 
+    h_inserted: 
+    llave02_used: 
+    h: 
+    g: 
+    libro_lab_1: 
+    libro_lab_2: 
+    cuadernoLab1: 
+    cuadernoLab2: 
+    cuadernoLab3: 
+    catDone: 
     picaporte_1: 
     picaporte_2: 
     picaporte_3: 
@@ -4405,7 +4796,10 @@ MonoBehaviour:
     minimap_3: 
     minimap_1_inserted: 
     minimap_2_inserted: 
+    caldero_inserted: 
     minimap_3_inserted: 
+    cola_inserted: 
+    montura_inserted: 
     cajoneraVacia: 
     cuadernoMapoteca1: 
     cuadernoMapoteca2: 
@@ -4418,13 +4812,50 @@ MonoBehaviour:
     mapReady: 
     palanca: 
     ladder_1: 
-    ladder_2: 
     globo_1: 
     globo_2: 
     tarjeta: 
     mapasDesconocidos: 
     mapaConstelacion: 
     mapasMedicion: 
+    cuadernoPatio1: 
+    cuadernoPatio2: 
+    cuadernoPatio3: 
+    libro_patio_1: 
+    libro_patio_2: 
+    libro_patio_3: 
+    cola: 
+    montura: 
+    pala: 
+    piedra: 
+    tijeras: 
+    cuadernoArbol: 
+    pozo: 
+    ligustrina: 
+    estatuaIncompleta: 
+    origami: 
+    catSinOrigami: 
+    banco: 
+    vaso: 
+    balon: 
+    gato1: 
+    gato2: 
+    cuadroOrigamis1: 
+    cuadroOrigamis2: 
+    pileta1: 
+    pileta2: 
+    armarioLab: 
+    letra2: 
+    pizarron: 
+    balones1: 
+    balones2: 
+    caldero1: 
+    caldero2: 
+    caldero3: 
+    llave02: 
+    vaso2_inserted: 
+    balon_inserted: 
+    copa: 
   gameProgress: {fileID: 0}
   gameProgressKey: libroIngreso
   gameProgressValue: 0
@@ -4718,6 +5149,49 @@ MonoBehaviour:
   walkToMe: 1
   waltoToMeOffset: {x: -0.5, y: 0, z: -0.17}
   content:
+    compuerta_no: 
+    alas: 
+    alas_no: 
+    manivela_done: 
+    no_hay_escalera: 
+    bustoColocaTrenza: 
+    busto: 
+    manivela: 
+    telescopio_done: 
+    telescopio_1: 
+    telescopio_2: 
+    telescopio_sin_manivela: 
+    claraboyaPoneEstrella: 
+    claraboyaPoneEscalera: 
+    trenza1: 
+    trenza2: 
+    claraboya: 
+    estrella: 
+    telar_sin_ovillo: 
+    plumasNegras: 
+    ovillo: 
+    ovillo2: 
+    rosa: 
+    escalera_altillo: 
+    cuadernoAltillo1: 
+    cuadernoAltillo2: 
+    cuadernoAltillo3: 
+    libro_altillo_1: 
+    libro_altillo_2: 
+    usarG: 
+    vaso2: 
+    veneno: 
+    letra2_inserted: 
+    h_inserted: 
+    llave02_used: 
+    h: 
+    g: 
+    libro_lab_1: 
+    libro_lab_2: 
+    cuadernoLab1: 
+    cuadernoLab2: 
+    cuadernoLab3: 
+    catDone: 
     picaporte_1: 
     picaporte_2: 
     picaporte_3: 
@@ -4756,7 +5230,10 @@ MonoBehaviour:
     minimap_3: 
     minimap_1_inserted: 
     minimap_2_inserted: 
+    caldero_inserted: 
     minimap_3_inserted: 
+    cola_inserted: 
+    montura_inserted: 
     cajoneraVacia: 
     cuadernoMapoteca1: 
     cuadernoMapoteca2: 
@@ -4769,13 +5246,50 @@ MonoBehaviour:
     mapReady: 
     palanca: 
     ladder_1: 
-    ladder_2: 
     globo_1: 
     globo_2: 
     tarjeta: 
     mapasDesconocidos: 
     mapaConstelacion: 
     mapasMedicion: 
+    cuadernoPatio1: 
+    cuadernoPatio2: 
+    cuadernoPatio3: 
+    libro_patio_1: 
+    libro_patio_2: 
+    libro_patio_3: 
+    cola: 
+    montura: 
+    pala: 
+    piedra: 
+    tijeras: 
+    cuadernoArbol: 
+    pozo: 
+    ligustrina: 
+    estatuaIncompleta: 
+    origami: 
+    catSinOrigami: 
+    banco: 
+    vaso: 
+    balon: 
+    gato1: 
+    gato2: 
+    cuadroOrigamis1: 
+    cuadroOrigamis2: 
+    pileta1: 
+    pileta2: 
+    armarioLab: 
+    letra2: 
+    pizarron: 
+    balones1: 
+    balones2: 
+    caldero1: 
+    caldero2: 
+    caldero3: 
+    llave02: 
+    vaso2_inserted: 
+    balon_inserted: 
+    copa: 
   gameProgress: {fileID: 0}
   gameProgressKey: picaporte
   gameProgressValue: 0
@@ -4989,6 +5503,49 @@ MonoBehaviour:
   walkToMe: 1
   waltoToMeOffset: {x: 0, y: 0, z: -0.7}
   content:
+    compuerta_no: 
+    alas: 
+    alas_no: 
+    manivela_done: 
+    no_hay_escalera: 
+    bustoColocaTrenza: 
+    busto: 
+    manivela: 
+    telescopio_done: 
+    telescopio_1: 
+    telescopio_2: 
+    telescopio_sin_manivela: 
+    claraboyaPoneEstrella: 
+    claraboyaPoneEscalera: 
+    trenza1: 
+    trenza2: 
+    claraboya: 
+    estrella: 
+    telar_sin_ovillo: 
+    plumasNegras: 
+    ovillo: 
+    ovillo2: 
+    rosa: 
+    escalera_altillo: 
+    cuadernoAltillo1: 
+    cuadernoAltillo2: 
+    cuadernoAltillo3: 
+    libro_altillo_1: 
+    libro_altillo_2: 
+    usarG: 
+    vaso2: 
+    veneno: 
+    letra2_inserted: 
+    h_inserted: 
+    llave02_used: 
+    h: 
+    g: 
+    libro_lab_1: 
+    libro_lab_2: 
+    cuadernoLab1: 
+    cuadernoLab2: 
+    cuadernoLab3: 
+    catDone: 
     picaporte_1: 
     picaporte_2: 
     picaporte_3: 
@@ -5027,7 +5584,10 @@ MonoBehaviour:
     minimap_3: 
     minimap_1_inserted: 
     minimap_2_inserted: 
+    caldero_inserted: 
     minimap_3_inserted: 
+    cola_inserted: 
+    montura_inserted: 
     cajoneraVacia: 
     cuadernoMapoteca1: 
     cuadernoMapoteca2: 
@@ -5040,13 +5600,50 @@ MonoBehaviour:
     mapReady: 
     palanca: 
     ladder_1: 
-    ladder_2: 
     globo_1: 
     globo_2: 
     tarjeta: 
     mapasDesconocidos: 
     mapaConstelacion: 
     mapasMedicion: 
+    cuadernoPatio1: 
+    cuadernoPatio2: 
+    cuadernoPatio3: 
+    libro_patio_1: 
+    libro_patio_2: 
+    libro_patio_3: 
+    cola: 
+    montura: 
+    pala: 
+    piedra: 
+    tijeras: 
+    cuadernoArbol: 
+    pozo: 
+    ligustrina: 
+    estatuaIncompleta: 
+    origami: 
+    catSinOrigami: 
+    banco: 
+    vaso: 
+    balon: 
+    gato1: 
+    gato2: 
+    cuadroOrigamis1: 
+    cuadroOrigamis2: 
+    pileta1: 
+    pileta2: 
+    armarioLab: 
+    letra2: 
+    pizarron: 
+    balones1: 
+    balones2: 
+    caldero1: 
+    caldero2: 
+    caldero3: 
+    llave02: 
+    vaso2_inserted: 
+    balon_inserted: 
+    copa: 
   gameProgress: {fileID: 0}
   gameProgressKey: escritorio
   gameProgressValue: 0
@@ -5099,6 +5696,49 @@ MonoBehaviour:
   walkToMe: 1
   waltoToMeOffset: {x: -0.5, y: 0, z: -0.17}
   content:
+    compuerta_no: 
+    alas: 
+    alas_no: 
+    manivela_done: 
+    no_hay_escalera: 
+    bustoColocaTrenza: 
+    busto: 
+    manivela: 
+    telescopio_done: 
+    telescopio_1: 
+    telescopio_2: 
+    telescopio_sin_manivela: 
+    claraboyaPoneEstrella: 
+    claraboyaPoneEscalera: 
+    trenza1: 
+    trenza2: 
+    claraboya: 
+    estrella: 
+    telar_sin_ovillo: 
+    plumasNegras: 
+    ovillo: 
+    ovillo2: 
+    rosa: 
+    escalera_altillo: 
+    cuadernoAltillo1: 
+    cuadernoAltillo2: 
+    cuadernoAltillo3: 
+    libro_altillo_1: 
+    libro_altillo_2: 
+    usarG: 
+    vaso2: 
+    veneno: 
+    letra2_inserted: 
+    h_inserted: 
+    llave02_used: 
+    h: 
+    g: 
+    libro_lab_1: 
+    libro_lab_2: 
+    cuadernoLab1: 
+    cuadernoLab2: 
+    cuadernoLab3: 
+    catDone: 
     picaporte_1: 
     picaporte_2: 
     picaporte_3: 
@@ -5137,7 +5777,10 @@ MonoBehaviour:
     minimap_3: 
     minimap_1_inserted: 
     minimap_2_inserted: 
+    caldero_inserted: 
     minimap_3_inserted: 
+    cola_inserted: 
+    montura_inserted: 
     cajoneraVacia: 
     cuadernoMapoteca1: 
     cuadernoMapoteca2: 
@@ -5150,13 +5793,50 @@ MonoBehaviour:
     mapReady: 
     palanca: 
     ladder_1: 
-    ladder_2: 
     globo_1: 
     globo_2: 
     tarjeta: 
     mapasDesconocidos: 
     mapaConstelacion: 
     mapasMedicion: 
+    cuadernoPatio1: 
+    cuadernoPatio2: 
+    cuadernoPatio3: 
+    libro_patio_1: 
+    libro_patio_2: 
+    libro_patio_3: 
+    cola: 
+    montura: 
+    pala: 
+    piedra: 
+    tijeras: 
+    cuadernoArbol: 
+    pozo: 
+    ligustrina: 
+    estatuaIncompleta: 
+    origami: 
+    catSinOrigami: 
+    banco: 
+    vaso: 
+    balon: 
+    gato1: 
+    gato2: 
+    cuadroOrigamis1: 
+    cuadroOrigamis2: 
+    pileta1: 
+    pileta2: 
+    armarioLab: 
+    letra2: 
+    pizarron: 
+    balones1: 
+    balones2: 
+    caldero1: 
+    caldero2: 
+    caldero3: 
+    llave02: 
+    vaso2_inserted: 
+    balon_inserted: 
+    copa: 
   gameProgress: {fileID: 0}
   gameProgressKey: libroCuadro
   gameProgressValue: 0

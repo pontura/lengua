@@ -19,6 +19,8 @@ namespace TMPro.Examples
 		public TMP_FontAsset literaturaFont;
 		public float literaturaFont_size;
 		public GameObject triviaUI;
+		public AudioClip nextSfx;
+		AudioSource source;
 
 		public int charsPerLine;
 		public int linesPerPage;
@@ -38,6 +40,7 @@ namespace TMPro.Examples
 		// Use this for initialization
 		void Start ()
 		{
+			source = GetComponent<AudioSource> ();
 			leftParser = pageLeft.GetComponent<NormativaParser> ();
 			rightParser = pageRight.GetComponent<NormativaParser> ();
 		}
@@ -190,9 +193,15 @@ namespace TMPro.Examples
 				if (bookIndex == 0)
 					return;
 				bookIndex--;
+				source.clip = nextSfx;
+				source.pitch = UnityEngine.Random.Range (1.1f, 1.5f);
+				source.Play ();
 				DrawPages ();
 			} else if (val > 0) {			
 				bookIndex++;
+				source.clip = nextSfx;
+				source.pitch = UnityEngine.Random.Range (1.1f, 1.5f);
+				source.Play ();
 				DrawPages ();
 			}
 		}
