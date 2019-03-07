@@ -47,13 +47,13 @@
 			],
 			"trivias":[
 				{"quest":"¿Qué hacía la Plapla por las páginas del libro?",
-				"answers":["La Plapla caminaba, bailaba y patinaba muy contenta.","La Plapla manchaba de tinta todas las hojas del libro.","La Plapla se quedaba quieta en el último renglón."]
+				"answers":["Caminaba, bailaba y patinaba muy contenta.","Manchaba de tinta todas las hojas del libro.","Se quedaba quieta en el último renglón."]
 				},
 				{"quest":"¿Qué pensó la maestra sobre Felipito?",
-				"answers":["La maestra pensó que Felipito se había vuelto loco.","La maestra pensó que Felipito se había equivocado.","La maestra pensó que Felipito estaba mintiendo."]
+				"answers":["Pensó que Felipito se había vuelto loco.","Pensó que Felipito se había equivocado.","Pensó que Felipito estaba mintiendo."]
 				},
 				{"quest":"¿Por qué la Plapla no figura en el abecedario?",
-				"answers":["La Plapla no figura en el abecedario porque generó mucho bochinche y falta de estudio en el colegio.","La Plapla no figura en el abecedario porque no se quedaba quieta en su lugar.","La Plapla no figura en el abecedario porque ya había letras suficientes."]
+				"answers":["Porque generó mucho bochinche y falta de estudio en el colegio.","Porque no se quedaba quieta en su lugar.","Porque ya había letras suficientes."]
 				}
 			]
 		},
@@ -143,15 +143,15 @@
 			],
 			"trivias":[
 				{"quest":"¿Por qué dice la protagonista que la vida se transformó en viento?",
-				"answers":["La protagonista dice que la vida se transformó en viento porque la ausencia de su padre movilizó sus sentimientos y modificó su entorno.","La protagonista dice  que la vida se transformó en viento porque empezaron a derrumbarse los edificios.","La protagonista dice que la vida se transformó en viento porque se le ensucian los ojos."]
+				"answers":["Porque la ausencia de su padre movilizó sus sentimientos y modificó su entorno.","Porque empezaron a derrumbarse los edificios.","Porque se le ensucian los ojos."]
 				},
 
 				{"quest":"La protagonista imagina lo que le espera con la llegada de los invitados ¿qué ocurrencias tiene acerca de este encuentro?",
-				"answers":["La protagonista imagina que Juanjo es un chico desagradable, que hace ruido al hablar y le quitará sus espacios.","La protagonista imagina y desea que el hijo de Ricardo sea como un hermano para ella.","La protagonista imagina que finalmente llegará a su vida alguien con quien compartir su vida."]
+				"answers":["Imagina que Juanjo es un chico desagradable, que hace ruido al hablar y le quitará sus espacios.","Imagina y desea que el hijo de Ricardo sea como un hermano para ella.","Imagina que finalmente llegará a su vida alguien con quien compartir su vida."]
 				},
 
 				{"quest":"¿Qué resulta del encuentro de la protagonista con Juanjo?",
-				"answers":["La protagonista y Juanjo comparten los mismos sentimientos sobre la ausencia de sus padres y lo imaginan como un viento que todo lo arrasa.","Juanjo resulta ser un chico parecido al viento como todo lo arrasa.","Los chicos permanecen escuchando música en silencio y se muestran poco comunicativos."]
+				"answers":["Ambos comparten los mismos sentimientos sobre la ausencia de sus padres y lo imaginan como un viento que todo lo arrasa.","Juanjo resulta ser un chico parecido al viento como todo lo arrasa.","Los chicos permanecen escuchando música en silencio y se muestran poco comunicativos."]
 				}
 			]
 		},
@@ -210,7 +210,7 @@
 			],
 			"trivias":[
 				{"quest":"¿Por qué acusan al protagonista de soberbia, misantropía y locura?",
-				"answers":["El protagonista espera un redentor porque necesita que lo libere de la muerte y de su soledad","El protagonista espera un redentor porque necesita compañía.","El protagonista espera un redentor porque necesita poder salir del laberinto."]
+				"answers":["Porque necesita que lo libere de la muerte y de su soledad","Porque necesita compañía.","Porque necesita poder salir del laberinto."]
 				},
 
 				{"quest":"¿Por qué el protagonista espera ¨un redentor¨?",
@@ -257,15 +257,15 @@
 			],
 			"trivias":[
 				{"quest":"¿Por qué establece el rey Minos la pena a los atenienses?",
-				"answers":["El rey Minos establece la pena a los atenienses porque le habían dado muerte a su hijo predilecto, Androgeo.","El rey Minos establece la pena a los atenienses porque los había dominado con su ejército.","El rey Minos establece la pena a los atenienses porque necesitaba alimentar al minotauro."]
+				"answers":["Porque le habían dado muerte a su hijo predilecto, Androgeo.","Porque los había dominado con su ejército.","Porque necesitaba alimentar al minotauro."]
 				},
 
 				{"quest":"¿Qué mueve a Teseo a ofrecerse como víctima, a pesar de estar eximido por ser parte de la familia real?",
-				"answers":["A Teseo lo mueve su deseo de matar al monstruo y ser útil a su ciudad, Atenas.","A Teseo lo mueve su deseo de cumplir con la obligación que le impusiera su padre.","A Teseo lo mueve su deseo de gobernar Creta."]
+				"answers":["Su deseo de matar al monstruo y ser útil a su ciudad, Atenas.","Su deseo de cumplir con la obligación que le impusiera su padre.","Su deseo de gobernar Creta."]
 				},
 
 				{"quest":"¿Cómo logra Teseo salir del laberinto y liberar a sus compañeros?",
-				"answers":["Teseo lograr salir del laberinto y liberar a sus compañeros siguiendo el ovillo de hilo que le había entregado Ariadna.","Teseo lograr salir del laberinto y liberar a sus compañeros porque pudo matar al minotauro con el puñal  que le había entregado Ariadna.","Teseo lograr salir del laberinto y liberar a sus compañeros porque tenía el plano del laberinto."]
+				"answers":["Siguiendo el ovillo de hilo que le había entregado Ariadna.","Porque pudo matar al minotauro con el puñal  que le había entregado Ariadna.","Porque tenía el plano del laberinto."]
 				}
 			]
 		},
@@ -378,15 +378,15 @@
 			],
 			"trivias":[
 				{"quest":"¿Por qué el erizo se atreve a salir sólo de noche?",
-				"answers":["El erizo se atreve a salir sólo de noche porque necesita ocultarse de la mirada de los demás.","El  erizo se atreve a salir sólo de noche porque le hace mal la luz del sol.","El erizo se atreve a salir sólo de noche porque necesita el agua del rocío en su cuerpo."]
+				"answers":["Porque necesita ocultarse de la mirada de los demás.","Porque le hace mal la luz del sol.","Porque necesita el agua del rocío en su cuerpo."]
 				},
 
 				{"quest":"Alguien lo confunde y lo transforma en un animal fabuloso. ¿Por qué?",
-				"answers":["Alguien lo confunde y lo transforma en un animal fabuloso porque lo confunde con un alfiletero y lo cubre con perlas y lentejuelas.","Alguien lo confunde y lo transforma en un animal fabuloso porque lo ven muy feo.","Alguien lo confunde y lo transforma en un animal fabuloso porque lo quiere ayudar."]
+				"answers":["Porque lo confunde con un alfiletero y lo cubre con perlas y lentejuelas.","Porque lo ven muy feo.","Porque lo quiere ayudar."]
 				},
 
 				{"quest":"¿Qué le pasa al erizo cuando llegan los primeros fríos?",
-				"answers":["Cuando llegan los primeros fríos, el erizo muere.","Cuando llegan los primeros fríos, el erizo decide sacarse las lentejuelas y las perlas y cubrirse con ropa de lana","Cuando llegan los primeros fríos, el erizo prefiere convertirse en bufón."]
+				"answers":["El erizo muere.","El erizo decide sacarse las lentejuelas y las perlas y cubrirse con ropa de lana","El erizo prefiere convertirse en bufón."]
 				}
 			]
 		},
