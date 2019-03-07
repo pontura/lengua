@@ -115,6 +115,7 @@ public class PhoneUI : MonoBehaviour {
 		asource.Play ();
 		panel.SetActive (true);
 		panel.GetComponent<Animation> ().Play ("phoneRing");
+		Events.PhoneMusic (true);
 	}
 	public void OnClicked()
 	{
@@ -136,6 +137,7 @@ public class PhoneUI : MonoBehaviour {
 	}
 	void Reset()
 	{
+		Events.PhoneMusic (false);
 		panel_UI.SetActive (false);
 	}
 	int id;

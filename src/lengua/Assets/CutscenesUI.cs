@@ -13,9 +13,11 @@ public class CutscenesUI : MonoBehaviour {
 	}
 
 	public void SetOn() {
+		Events.CutsceneMusic (true);
 		panel.SetActive (true);
 	}
 	public void SetOff() {
+		Events.CutsceneMusic (false);
 		anim.Play ("cutscenesOff");
 		Invoke ("Reset", 2);
 	}
