@@ -13,7 +13,7 @@ public class MusicTrack : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-		Debug.Log (clip.length);
+		//Debug.Log (clip.length);
 		source = GetComponent<AudioSource> ();
     }
 
