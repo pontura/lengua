@@ -130,6 +130,36 @@ MonoBehaviour:
   walkToMe: 1
   waltoToMeOffset: {x: 1, y: 0, z: 0}
   content:
+    compuerta_no: 
+    alas: 
+    alas_no: 
+    manivela_done: 
+    no_hay_escalera: 
+    bustoColocaTrenza: 
+    busto: 
+    manivela: 
+    telescopio_done: 
+    telescopio_1: 
+    telescopio_2: 
+    telescopio_sin_manivela: 
+    claraboyaPoneEstrella: 
+    claraboyaPoneEscalera: 
+    trenza1: 
+    trenza2: 
+    claraboya: 
+    estrella: 
+    telar_sin_ovillo: 
+    plumasNegras: 
+    ovillo: 
+    ovillo2: 
+    rosa: 
+    escalera_altillo: 
+    cuadernoAltillo1: 
+    cuadernoAltillo2: 
+    cuadernoAltillo3: 
+    libro_altillo_1: 
+    libro_altillo_2: 
+    usarG: 
     vaso2: 
     veneno: 
     letra2_inserted: 
@@ -208,7 +238,6 @@ MonoBehaviour:
       dejo de hablar con el mapa, no siento que sea una relaci\xF3n correspondida"
     palanca: "Una palanca... \xBFpara que servir\xE1?"
     ladder_1: "Una puertita en el techo. \xBFA d\xF3nde llevar\xE1 eso?..."
-    ladder_2: ahora si
     globo_1: "El abuelo de Joaco ten\xEDa uno as\xED. Lo abr\xEDas y adentro hab\xEDa
       bebidas. \xBFEste ser\xE1 de esos?"
     globo_2: "\xA1\xBFEh?! \xBFEscucho risas? Tanta literatura, \xBFno estar\xE1 afectando
@@ -1214,6 +1243,36 @@ MonoBehaviour:
   walkToMe: 1
   waltoToMeOffset: {x: 0.7, y: 0, z: -0.2}
   content:
+    compuerta_no: 
+    alas: 
+    alas_no: 
+    manivela_done: 
+    no_hay_escalera: 
+    bustoColocaTrenza: 
+    busto: 
+    manivela: 
+    telescopio_done: 
+    telescopio_1: 
+    telescopio_2: 
+    telescopio_sin_manivela: 
+    claraboyaPoneEstrella: 
+    claraboyaPoneEscalera: 
+    trenza1: 
+    trenza2: 
+    claraboya: 
+    estrella: 
+    telar_sin_ovillo: 
+    plumasNegras: 
+    ovillo: 
+    ovillo2: 
+    rosa: 
+    escalera_altillo: 
+    cuadernoAltillo1: 
+    cuadernoAltillo2: 
+    cuadernoAltillo3: 
+    libro_altillo_1: 
+    libro_altillo_2: 
+    usarG: 
     vaso2: 
     veneno: 
     letra2_inserted: 
@@ -1292,7 +1351,6 @@ MonoBehaviour:
       dejo de hablar con el mapa, no siento que sea una relaci\xF3n correspondida"
     palanca: "Una palanca... \xBFpara que servir\xE1?"
     ladder_1: "Una puertita en el techo. \xBFA d\xF3nde llevar\xE1 eso?..."
-    ladder_2: ahora si
     globo_1: "El abuelo de Joaco ten\xEDa uno as\xED. Lo abr\xEDas y adentro hab\xEDa
       bebidas. \xBFEste ser\xE1 de esos?"
     globo_2: "\xA1\xBFEh?! \xBFEscucho risas? Tanta literatura, \xBFno estar\xE1 afectando
@@ -1373,7 +1431,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 18262292480526521}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1413,8 +1471,8 @@ Animation:
   serializedVersion: 3
   m_Animation: {fileID: 0}
   m_Animations:
-  - {fileID: 7400000, guid: c76db83d0c2c49249aa379935803aae6, type: 2}
-  - {fileID: 7400000, guid: 56a14bf5b0f5f1b49a1c02d81af5a9bd, type: 2}
+  - {fileID: 7400000, guid: 06866e997153713478018218377a0e29, type: 2}
+  - {fileID: 7400000, guid: e78b03f921e5e2f418aeddb52476e7ba, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
@@ -1432,6 +1490,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomsManager: {fileID: 0}
+  cameraSize: 1.61
   type: 2
   limitsX: {x: -2.96, y: 2.35}
   limitsZ: {x: 2.61, y: -7.35}
@@ -1733,6 +1792,36 @@ MonoBehaviour:
   walkToMe: 1
   waltoToMeOffset: {x: -0.5, y: 0, z: 1}
   content:
+    compuerta_no: 
+    alas: 
+    alas_no: 
+    manivela_done: 
+    no_hay_escalera: 
+    bustoColocaTrenza: 
+    busto: 
+    manivela: 
+    telescopio_done: 
+    telescopio_1: 
+    telescopio_2: 
+    telescopio_sin_manivela: 
+    claraboyaPoneEstrella: 
+    claraboyaPoneEscalera: 
+    trenza1: 
+    trenza2: 
+    claraboya: 
+    estrella: 
+    telar_sin_ovillo: 
+    plumasNegras: 
+    ovillo: 
+    ovillo2: 
+    rosa: 
+    escalera_altillo: 
+    cuadernoAltillo1: 
+    cuadernoAltillo2: 
+    cuadernoAltillo3: 
+    libro_altillo_1: 
+    libro_altillo_2: 
+    usarG: 
     vaso2: 
     veneno: 
     letra2_inserted: 
@@ -1800,7 +1889,6 @@ MonoBehaviour:
     mapReady: 
     palanca: 
     ladder_1: 
-    ladder_2: 
     globo_1: 
     globo_2: 
     tarjeta: 
@@ -6655,6 +6743,36 @@ MonoBehaviour:
   walkToMe: 1
   waltoToMeOffset: {x: 0, y: 0, z: 0}
   content:
+    compuerta_no: 
+    alas: 
+    alas_no: 
+    manivela_done: 
+    no_hay_escalera: 
+    bustoColocaTrenza: 
+    busto: 
+    manivela: 
+    telescopio_done: 
+    telescopio_1: 
+    telescopio_2: 
+    telescopio_sin_manivela: 
+    claraboyaPoneEstrella: 
+    claraboyaPoneEscalera: 
+    trenza1: 
+    trenza2: 
+    claraboya: 
+    estrella: 
+    telar_sin_ovillo: 
+    plumasNegras: 
+    ovillo: 
+    ovillo2: 
+    rosa: 
+    escalera_altillo: 
+    cuadernoAltillo1: 
+    cuadernoAltillo2: 
+    cuadernoAltillo3: 
+    libro_altillo_1: 
+    libro_altillo_2: 
+    usarG: 
     vaso2: 
     veneno: 
     letra2_inserted: 
@@ -6722,7 +6840,6 @@ MonoBehaviour:
     mapReady: 
     palanca: 
     ladder_1: 
-    ladder_2: 
     globo_1: 
     globo_2: 
     tarjeta: 
@@ -38016,7 +38133,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6951753414521475878
 Transform:
   m_ObjectHideFlags: 0
@@ -43877,6 +43994,36 @@ MonoBehaviour:
   walkToMe: 1
   waltoToMeOffset: {x: 0, y: 0, z: 0}
   content:
+    compuerta_no: 
+    alas: 
+    alas_no: 
+    manivela_done: 
+    no_hay_escalera: 
+    bustoColocaTrenza: 
+    busto: 
+    manivela: 
+    telescopio_done: 
+    telescopio_1: 
+    telescopio_2: 
+    telescopio_sin_manivela: 
+    claraboyaPoneEstrella: 
+    claraboyaPoneEscalera: 
+    trenza1: 
+    trenza2: 
+    claraboya: 
+    estrella: 
+    telar_sin_ovillo: 
+    plumasNegras: 
+    ovillo: 
+    ovillo2: 
+    rosa: 
+    escalera_altillo: 
+    cuadernoAltillo1: 
+    cuadernoAltillo2: 
+    cuadernoAltillo3: 
+    libro_altillo_1: 
+    libro_altillo_2: 
+    usarG: 
     vaso2: 
     veneno: 
     letra2_inserted: 
@@ -43955,7 +44102,6 @@ MonoBehaviour:
       dejo de hablar con el mapa, no siento que sea una relaci\xF3n correspondida"
     palanca: "Una palanca... \xBFpara que servir\xE1?"
     ladder_1: "Una puertita en el techo. \xBFA d\xF3nde llevar\xE1 eso?..."
-    ladder_2: ahora si
     globo_1: "El abuelo de Joaco ten\xEDa uno as\xED. Lo abr\xEDas y adentro hab\xEDa
       bebidas. \xBFEste ser\xE1 de esos?"
     globo_2: "\xA1\xBFEh?! \xBFEscucho risas? Tanta literatura, \xBFno estar\xE1 afectando
@@ -49195,6 +49341,36 @@ MonoBehaviour:
   walkToMe: 1
   waltoToMeOffset: {x: 1, y: 0, z: -0.7}
   content:
+    compuerta_no: 
+    alas: 
+    alas_no: 
+    manivela_done: 
+    no_hay_escalera: 
+    bustoColocaTrenza: 
+    busto: 
+    manivela: 
+    telescopio_done: 
+    telescopio_1: 
+    telescopio_2: 
+    telescopio_sin_manivela: 
+    claraboyaPoneEstrella: 
+    claraboyaPoneEscalera: 
+    trenza1: 
+    trenza2: 
+    claraboya: 
+    estrella: 
+    telar_sin_ovillo: 
+    plumasNegras: 
+    ovillo: 
+    ovillo2: 
+    rosa: 
+    escalera_altillo: 
+    cuadernoAltillo1: 
+    cuadernoAltillo2: 
+    cuadernoAltillo3: 
+    libro_altillo_1: 
+    libro_altillo_2: 
+    usarG: 
     vaso2: 
     veneno: 
     letra2_inserted: 
@@ -49273,7 +49449,6 @@ MonoBehaviour:
       dejo de hablar con el mapa, no siento que sea una relaci\xF3n correspondida"
     palanca: "Una palanca... \xBFpara que servir\xE1?"
     ladder_1: "Una puertita en el techo. \xBFA d\xF3nde llevar\xE1 eso?..."
-    ladder_2: ahora si
     globo_1: "El abuelo de Joaco ten\xEDa uno as\xED. Lo abr\xEDas y adentro hab\xEDa
       bebidas. \xBFEste ser\xE1 de esos?"
     globo_2: "\xA1\xBFEh?! \xBFEscucho risas? Tanta literatura, \xBFno estar\xE1 afectando
@@ -49714,6 +49889,36 @@ MonoBehaviour:
   walkToMe: 1
   waltoToMeOffset: {x: 0, y: 0, z: 4}
   content:
+    compuerta_no: 
+    alas: 
+    alas_no: 
+    manivela_done: 
+    no_hay_escalera: 
+    bustoColocaTrenza: 
+    busto: 
+    manivela: 
+    telescopio_done: 
+    telescopio_1: 
+    telescopio_2: 
+    telescopio_sin_manivela: 
+    claraboyaPoneEstrella: 
+    claraboyaPoneEscalera: 
+    trenza1: 
+    trenza2: 
+    claraboya: 
+    estrella: 
+    telar_sin_ovillo: 
+    plumasNegras: 
+    ovillo: 
+    ovillo2: 
+    rosa: 
+    escalera_altillo: 
+    cuadernoAltillo1: 
+    cuadernoAltillo2: 
+    cuadernoAltillo3: 
+    libro_altillo_1: 
+    libro_altillo_2: 
+    usarG: 
     vaso2: 
     veneno: 
     letra2_inserted: 
@@ -49781,7 +49986,6 @@ MonoBehaviour:
     mapReady: 
     palanca: 
     ladder_1: 
-    ladder_2: 
     globo_1: 
     globo_2: 
     tarjeta: 
@@ -65537,7 +65741,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &9163287947063510390
 Transform:
   m_ObjectHideFlags: 0
@@ -71039,6 +71243,36 @@ MonoBehaviour:
   walkToMe: 1
   waltoToMeOffset: {x: 3.5, y: 0, z: -4.1}
   content:
+    compuerta_no: 
+    alas: 
+    alas_no: 
+    manivela_done: 
+    no_hay_escalera: 
+    bustoColocaTrenza: 
+    busto: 
+    manivela: 
+    telescopio_done: 
+    telescopio_1: 
+    telescopio_2: 
+    telescopio_sin_manivela: 
+    claraboyaPoneEstrella: 
+    claraboyaPoneEscalera: 
+    trenza1: 
+    trenza2: 
+    claraboya: 
+    estrella: 
+    telar_sin_ovillo: 
+    plumasNegras: 
+    ovillo: 
+    ovillo2: 
+    rosa: 
+    escalera_altillo: 
+    cuadernoAltillo1: 
+    cuadernoAltillo2: 
+    cuadernoAltillo3: 
+    libro_altillo_1: 
+    libro_altillo_2: 
+    usarG: 
     vaso2: 
     veneno: 
     letra2_inserted: 
@@ -71117,7 +71351,6 @@ MonoBehaviour:
       dejo de hablar con el mapa, no siento que sea una relaci\xF3n correspondida"
     palanca: "Una palanca... \xBFpara que servir\xE1?"
     ladder_1: "Una puertita en el techo. \xBFA d\xF3nde llevar\xE1 eso?..."
-    ladder_2: ahora si
     globo_1: "El abuelo de Joaco ten\xEDa uno as\xED. Lo abr\xEDas y adentro hab\xEDa
       bebidas. \xBFEste ser\xE1 de esos?"
     globo_2: "\xA1\xBFEh?! \xBFEscucho risas? Tanta literatura, \xBFno estar\xE1 afectando
@@ -71555,6 +71788,36 @@ MonoBehaviour:
   walkToMe: 1
   waltoToMeOffset: {x: -0.5, y: 0, z: 0}
   content:
+    compuerta_no: 
+    alas: 
+    alas_no: 
+    manivela_done: 
+    no_hay_escalera: 
+    bustoColocaTrenza: 
+    busto: 
+    manivela: 
+    telescopio_done: 
+    telescopio_1: 
+    telescopio_2: 
+    telescopio_sin_manivela: 
+    claraboyaPoneEstrella: 
+    claraboyaPoneEscalera: 
+    trenza1: 
+    trenza2: 
+    claraboya: 
+    estrella: 
+    telar_sin_ovillo: 
+    plumasNegras: 
+    ovillo: 
+    ovillo2: 
+    rosa: 
+    escalera_altillo: 
+    cuadernoAltillo1: 
+    cuadernoAltillo2: 
+    cuadernoAltillo3: 
+    libro_altillo_1: 
+    libro_altillo_2: 
+    usarG: 
     vaso2: 
     veneno: 
     letra2_inserted: 
@@ -71622,7 +71885,6 @@ MonoBehaviour:
     mapReady: 
     palanca: 
     ladder_1: 
-    ladder_2: 
     globo_1: 
     globo_2: 
     tarjeta: 
