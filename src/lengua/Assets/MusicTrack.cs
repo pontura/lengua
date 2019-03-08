@@ -23,7 +23,7 @@ public class MusicTrack : MonoBehaviour
 		if (!multitrack)
 			return;
 		if (source.time >= clip.length * 0.5f && !skiped) {
-			Debug.Log (source.clip.name);
+			//Debug.Log (source.clip.name);
 			Events.NextMusicTrack ();
 			skiped = true;
 		} else if (skiped) {

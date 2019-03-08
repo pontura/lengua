@@ -75,7 +75,7 @@ public class MusicManager : MonoBehaviour
 	}
 
 	void NextMusicTrack(){
-		Debug.Log ("ACA");
+		//Debug.Log ("ACA");
 		MusicCue (tracks[trackIndex],false, nextEventTime,0f);
 		int lastIndex = trackIndex;
 		trackIndex++;

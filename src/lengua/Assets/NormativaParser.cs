@@ -99,8 +99,8 @@ namespace TMPro.Examples
 		{
 			
 
-			Debug.Log("linkID" + linkID );
-			Debug.Log(linkText );
+			//Debug.Log("linkID" + linkID );
+			//Debug.Log(linkText );
 	
 			//Debug.Log("OnLinkSelection Index: " + linkIndex + " with ID [" + linkID + "] and Text \"" + linkText + "\" has been selected.");
 			//string[] linkArr1= linkID.Split("'" [0]);
