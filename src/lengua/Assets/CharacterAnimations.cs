@@ -23,12 +23,21 @@ public class CharacterAnimations : MonoBehaviour {
 		PlayAnim ("idle");
 		state = states.IDLE;
 	}
+	public void IdleRosa () {
+		PlayAnim ("idleRosa");
+		state = states.IDLE;
+	}
+	
 	public void Talk () {
 		PlayAnim ("talk");
 		state = states.IDLE;
 	}
 	public void Walk () {
 		PlayAnim ("walk");
+		state = states.WALK;
+	}
+	public void WalkRosa () {
+		PlayAnim ("walkRosa");
 		state = states.WALK;
 	}
 	public void Ladder () {

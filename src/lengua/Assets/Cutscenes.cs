@@ -42,9 +42,17 @@ public class Cutscenes : MonoBehaviour {
 	{
 		room.roomsManager.character.view.characterAnimations.Idle ();
 	}
+	public void Avatar_Idle_Rosa()
+	{
+		room.roomsManager.character.view.characterAnimations.IdleRosa ();
+	}
 	public void Avatar_Walk()
 	{
-		room.roomsManager.character.view.characterAnimations.Walk ();
+		room.roomsManager.character.view.characterAnimations.Idle ();
+	}
+	public void Avatar_Walk_Rosa()
+	{
+		room.roomsManager.character.view.characterAnimations.WalkRosa ();
 	}
 	public void Avatar_Walk_to_Ladder()
 	{
@@ -73,6 +81,10 @@ public class Cutscenes : MonoBehaviour {
 	public void Zina_Idle()
 	{
 		zina.Idle ();
+	}
+	public void Zina_IdleRosa()
+	{
+		zina.IdleRosa ();
 	}
 	public void Zina_Disappear()
 	{
