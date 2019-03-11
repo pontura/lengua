@@ -24,7 +24,7 @@ public class CharacterAnimations : MonoBehaviour {
 		state = states.IDLE;
 	}
 	public void IdleRosa () {
-		PlayAnim ("idleRosa");
+		PlayAnim ("idle_rose");
 		state = states.IDLE;
 	}
 	
@@ -37,7 +37,7 @@ public class CharacterAnimations : MonoBehaviour {
 		state = states.WALK;
 	}
 	public void WalkRosa () {
-		PlayAnim ("walkRosa");
+		PlayAnim ("walk_rose");
 		state = states.WALK;
 	}
 	public void Ladder () {

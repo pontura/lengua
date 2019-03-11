@@ -385,5 +385,23 @@
 			"state":"reflexivo",
 			"text": "Mi última prueba… A ver cómo subo al altillo..."
 		}
+	],
+	"final":
+	[
+		{
+			"character":"zina",
+			"state":"reflexivo",
+			"text": "final!"
+		},
+		{
+			"character":"zina",
+			"state":"neutro",
+			"text": "final 2"
+		},
+		{
+			"character":"avatar",
+			"state":"reflexivo",
+			"text": "final 3"
+		}
 	]
 }

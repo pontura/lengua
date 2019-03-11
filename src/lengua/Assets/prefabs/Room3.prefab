@@ -72815,6 +72815,8 @@ Animation:
   - {fileID: 7400000, guid: 59b3b9e027ce7984ea2db4c89385340b, type: 2}
   - {fileID: 7400000, guid: bed3569be7bd8404c8d256c494a4f4e9, type: 2}
   - {fileID: 7400000, guid: f24bd8a84d101c347a8d901b50466b2a, type: 2}
+  - {fileID: 7400000, guid: 56a14bf5b0f5f1b49a1c02d81af5a9bd, type: 2}
+  - {fileID: 7400000, guid: 0c9bac84a8298164da046570183f945d, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
@@ -106356,7 +106358,7 @@ PrefabInstance:
     - target: {fileID: 439416808897222247, guid: c3dd28aa6b40dd74d8ce435654c2c6d6,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3dd28aa6b40dd74d8ce435654c2c6d6, type: 3}
