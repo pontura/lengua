@@ -544,14 +544,14 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 0
-    functionName: Marian_Idle
+    functionName: Avatar_Idle
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0
-    functionName: Avatar_Idle
+  - time: 0.016666668
+    functionName: Marian_Idle
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
