@@ -137,23 +137,34 @@ namespace TMPro.Examples
 		{
 			string result = "";
 			int thisAnswerID = 0;
+			int i = 0;
 			foreach (string a in items) {
 				AnswerData data = answers [answerID];
 				if (data.selected.Length>0) {
 					if (a == data.selected) {
 						if (data.ok == data.selected) {
 							tp.AddNormativaDone (data.id);
-							result += "<#006600>" + a + "</color> / ";
-						}else
-							result += "<#FF0000>" + a + "</color> / ";
+							result += "<#006600>" + a + "</color> ";
+							if (i < items.Length - 1)
+								result += "/ ";
+						} else {
+							result += "<#FF0000>" + a + "</color> ";
+							if (i < items.Length - 1)
+								result += "/ ";
+						}
 					} else {
-						result +=  "<s><#333>" + a + "</color></s> / ";
+						result +=  "<s><#333>" + a + "</color></s> ";
+						if (i < items.Length - 1)
+							result += "/ ";
 					}
 
 				} else {
-					result += "<link=ID_" + data.id + "_" + thisAnswerID + "><u><#000000>" + a + "</color></u></link> / ";
+					result += "<link=ID_" + data.id + "_" + thisAnswerID + "><u><#000000>" + a + "</color></u></link> ";
+					if (i < items.Length - 1)
+						result += "/ ";
 					thisAnswerID++;
 				}
+				i++;
 			}
 			string newSentence = sentence.Replace ("*", result);
 			return newSentence;

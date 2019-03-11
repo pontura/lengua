@@ -20,7 +20,7 @@
 				"¡Ay!",
 				"Volvió a abrir el cuaderno valientemente y se puso otro par de anteojos, y ya van tres. Pegando la nariz al papel preguntó:",
 				"¿Quién es usted, señorita?",
-				"Y la letra caminadora contestó:",
+				"Y la letra caminadora#contestó: ",
 				"Soy una Plapla.",
 				"¿Una Plapla?  preguntó Felipito asustadísimo ¿Qué es eso?",
 				"¿No acabo de decirte? Una Plapla soy yo.",
@@ -32,7 +32,7 @@
 				"Después, nada.",
 				"Y la Plapla siguió patinando sobre el cuaderno mientras cantaba un vals con su voz chiquita y de tinta.",
 				"Al día siguiente, Felipito corrió a mostrarle el cuaderno a su maestra, gritando entusiasmado:",
-				"¡Señorita, mire la Plapla, mire la Plapla!",
+				"¡Señorita, mire la Plapla, mire la Plapla!#",
 				"La maestra creyó que Felipito se había vuelto loco. Pero no.",
 				"Abrió el cuaderno, y allí estaba la Plapla bailando y patinando por la página y jugando a la rayuela con los renglones."
 				]},
@@ -81,7 +81,7 @@
 				"- Significa que es tu cumpleaños, y no el míó - respondí.",
 				"La gata salió de su canasto, y fue a enredarse entre las piernas de mamá.",
 				"Que mamá tuviera novio era casi insoportable. Pero que ese novio tuviera un hijo era una verdadera amenaza. Otra vez, un peligro rondaba mi vida. Otra vez había viento en el horizonte.",
-				"- Se van a entender bien - dijo mamá -. Juanjo tiene tu edad.",
+				"- Se van a entender bien - dijo mamá - Juanjo tiene tu edad.",
 				"La gata, único ser que entendía mi desolación, salto sobre mis rodillas. Gracias, gatita buena."]},
 
 				{"textlines":["Habían pasado varios años desde aquel viento que se llevó a papá. En casa ya estaban reparados los daños. Los huecos de la biblioteca fueron ocupados con nuevos libros. Y hacía mucho que yo no encontraba gotas de llanto escondidas en los jarrones, disimuladas como estalactitas en el congelador, disfrazadas de pedacitos de cristal. ¨Se me acaba de romper una copa¨, inventaba mamá, que, contal de ocultarme su tristeza, era capaz de esas y otras asombrosas hechicerías.",
@@ -103,7 +103,7 @@
 				"No tuve más remedio que abrir la puerta.", 
 				"- ¡Hola! - dijeron las rosas que traía Ricardo.", 
 				"- ¡Hola! - dijo Ricardo asomado detrás de las rosas.", 
-				"Yo mira a su hijo sin piedad. Como lo había imaginado, traía puesta una remera ridícula y un pantalón que le quedaba corto.",
+				"Yo mira a su hijo sin piedad. Como lo había imaginado, traía puesta una remera#ridícula y un pantalón que le quedaba corto.",
 				"Enseguida, apareció mamá. Estaba tan linda como si no se hubiese arreglado. Así le pasaba a ella. Y el azul les quedaba muy bien a sus cejas espesas. ",
 				"- Podrían ir a escuchar música a tu habitación - sugirió la mujer que cumplía años, desesperada por la falta de aire. Y es que yo me lo había tragado todo para matar por asfixia a los invitados.",
 				"Cumplí sin quejarme. El horrible chico me siguió en silencio. Me senté en una cama. Él se sentó en la otra. Sin dudas, ya estaría decidiendo que el dormitorio pronto sería de su propiedad. Y yo dormiría en el canasto, junto a la gata."
@@ -165,14 +165,14 @@
 			"type":"1",
 			"area":"0",
 			"texts":[
-				{"textlines":["1. Aprobamos el primer parcial de [geografía,jeografía].",
-				"2. Colocaron una placa en el [trigésimo,trijésimo] aniversario de su fundación.",
-				"3. Compró un papel [higiénico,hijiénico] muy suave.",
-				"4. Con un show de [magia,majia] cautivó a los invitados.",
-				"5. [Dedujeron,Dedugeron] el acertijo.",
-				"6. El [cajero,cagero] permanece abierto después del mediodía.",
-				"7. El [regente,rejente] ya abrió la puerta del colegio.",
-				"8. El tren [regional,rejional] se acerca a la estación."
+				{"textlines":["1) Aprobamos el primer parcial de [geografía,jeografía].",
+				"2) Colocaron una placa en el [trigésimo,trijésimo] aniversario de su fundación.",
+				"3) Compró un papel [higiénico,hijiénico] muy suave.",
+				"4) Con un show de [magia,majia] cautivó a los invitados.",
+				"5) [Dedujeron,Dedugeron] el acertijo.",
+				"6) El [cajero,cagero] permanece abierto después del mediodía.",
+				"7) El [regente,rejente] ya abrió la puerta del colegio.",
+				"8) El tren [regional,rejional] se acerca a la estación."
 				]}			
 			],
 			"trivias":[
@@ -192,29 +192,29 @@
 				{"textlines":["Y la reina dio a luz un hijo que se llamó Asterión.",
 			                  	"Apolodoro: Biblioteca, iii, I.",
 						"",
-						"Sé que me acusan de soberbia, y tal vez de misantropía, y tal vez de locura. Tales acusaciones (que yo castigaré a su debido tiempo) son irrisorias. Es verdad que no salgo de mi casa, pero también es verdad que sus puertas (cuyo número es infinito)[1] están abiertas día y noche a los hombres y también a los animales. Que entre el que quiera. No hallará pompas mujeriles aquí ni el bizarro aparato de los palacios pero sí la quietud y la soledad. Asimismo hallará una casa como no hay otra en la faz de la tierra. (Mienten los que declaran que en egipto hay una parecida). Hasta mis detractores admiten que no hay un solo mueble en la casa. Otra especie ridícula es que yo, Asterión, soy un prisionero. ¿Repetiré que no hay una puerta cerrada, añadiré que no hay una cerradura? Por lo demás, algún atardecer he pisado la calle; si antes de la noche volví, lo hice por el temor que me infundieron las caras de la plebe, caras descoloridas y aplanadas, como la mano abierta. Ya se había puesto el sol, pero el desvalido llanto de un niño y las toscas plegarias de la grey dijeron que me habían reconocido. La gente oraba, huía, se prosternaba; unos se encaramaban al estilóbato del templo de las Hachas, otros juntaban piedras. Alguno, creo, se ocultó en el mar. No en vano fue una reina mi madre; no puedo confundirme con el vulgo, aunque mi modestia lo quiera.",
+						"Sé que me acusan de soberbia, y tal vez de misantropía, y tal vez de locura. Tales acusaciones (que yo castigaré a su debido tiempo) son irrisorias. Es verdad que no salgo de mi casa, pero también es verdad que sus puertas (cuyo número es infinito)[1] están abiertas#día y noche a los hombres y también a los animales. Que entre el que quiera. No hallará pompas mujeriles aquí ni el bizarro aparato de los palacios pero sí la quietud y la soledad. Asimismo hallará una casa como no hay otra en la faz de la tierra. (Mienten los que declaran que en egipto hay una parecida). Hasta mis detractores admiten que no hay un solo mueble en la casa. Otra especie ridícula es que yo, Asterión, soy un prisionero. ¿Repetiré que no hay una puerta cerrada, añadiré que no hay una cerradura? Por lo demás, algún atardecer he pisado la calle; si antes de la noche volví, lo hice por el temor que me infundieron las caras de la plebe, caras descoloridas y aplanadas, como la mano abierta. Ya se había puesto el sol, pero el desvalido llanto de un niño y las toscas plegarias de la grey dijeron que me habían reconocido. La gente oraba, huía, se prosternaba; unos se encaramaban al estilóbato del templo de las Hachas, otros juntaban piedras. Alguno, creo, se ocultó en el mar. No en vano fue una reina mi madre; no puedo confundirme con el vulgo, aunque mi modestia lo quiera.",
 						"",
 						"[1] El original dice catorce, pero sobran motivos para creer inferir que, en boca de asterión, el número catorce vale por infinitos."
 				]},
 
 				{"textlines":["El hecho es que soy único. No me interesa lo que un hombre pueda trasmitir a otros hombres; como el filósofo, pienso que nada es comunicable por el arte de la escritura. Las enojosas y triviales minucias no tienen cabida en mi espíritu, que está capacitado para lo grande; jamás he retenido la diferencia entre una letra y otra. Cierta impaciencia generosa no ha consentido que yo aprendiera a leer. A veces lo deploro, porque las noches y los días son largos.",
 						"Claro que no me faltan distracciones. Semejante al carnero que va a embestir, corro por las galerías de piedra hasta rodar al suelo, mareado. Me agazapo a la sombra de un aljibe o a la vuelta de un corredor y juego a que me buscan. Hay azoteas desde las que me dejo caer, hasta ensangrentarme. A cualquier hora puedo jugar a estar dormido, con los ojos cerrados y la respiración poderosa. (A veces me duermo realmente, a veces ha cambiado el color del día cuando he abierto los ojos). Pero de tantos juegos el que prefiero es el de otro Asterión. Finjo que viene a visitarme y que yo le muestro la casa. Con grandes reverencias le digo: Ahora volvemos a la encrucijada anterior o Ahora desembocaremos en otro patio o bien decía yo que te gustaría la canaleta o Ahora verás una cisterna que se llenó de arena o Ya verás como el sótano se bifurca. A veces me equivoco y nos reímos buenamente los dos.",
-						"No sólo he imaginado esos juegos; también he meditado sobre la casa. todas las partes de la casa están muchas veces, cualquier lugar es otro lugar. No hay un aljibe, un patio, un abrevadero, un pesebre; son catorce [son infinitos] los pesebres, abrevaderos, patios, aljibes. La casa es del tamaño del mundo; mejor dicho, es el mundo. Sin embargo, a fuerza de fatigar patios con un aljibe y polvorientas galerías de piedra gris he alcanzado la calle y he visto el templo de las Hachas y el mar. Eso no lo entendí hasta que una visión de la noche me reveló que también son catorce [son infinitos] los mares y los templos. Todo está muchas veces, catorce veces, pero dos cosas hay en el mundo que parecen estar una sola vez: arriba, el intrincado sol; abajo, asterión. quizá yo he creado las estrellas y el sol la enorme casa, pero ya no me acuerdo.",
+						"No sólo he imaginado esos juegos; también he meditado sobre la casa. todas las partes de la casa están muchas veces, cualquier lugar es otro lugar. No hay un aljibe, un patio, un abrevadero, un pesebre; son catorce [son infinitos] los pesebres, abrevaderos, patios, aljibes. La casa es del tamaño del mundo; mejor dicho, es el mundo. Sin embargo, a fuerza de fatigar patios con un aljibe y polvorientas galerías de piedra gris he alcanzado la calle y he visto el templo de las Hachas y el mar. Eso no lo entendí hasta que una visión de la noche me reveló que también son catorce [son infinitos] los mares y los templos. Todo está muchas veces, catorce veces, pero dos cosas hay en el mundo que parecen estar una sola vez: arriba, el intrincado sol; abajo, asterión. quizá yo he creado las estrellas y el sol la enorme casa, pero ya no me acuerdo. ",
 						"Cada nueve años entran en la casa nueve hombres para que yo los libere de todo mal. Oigo sus pasos o su voz en el fondo de las galerías de piedra y corro alegremente a buscarlos. La ceremonia dura pocos minutos. Uno tras otro caen sin que yo me ensangrinte las manos. Donde cayeron, quedan, y los cadáveres ayudan a distinguir una galería de las otras. Ignoro quiénes son, pero sé que uno de ellos profetizó, en la hora de su muerte, que alguna vez llegaría mi redentor. Desde entonces no me duele la soledad, porque sé que vive mi redentor y al fin se levantará sobre el polvo. Si mi oído alcanza todos los rumores del mundo, yo percibiría sus pasos. Ojalá me lleve a un lugar con menos galerías y menos puertas. ¿Cómo será mi redentor?, me pregunto. ¿Será un toro o un hombre? ¿Será tal vez un toro con cara de hombre? ¿O será como yo?"
 				]},
 
 				{"textlines":["El sol de la mañana reverberó en la espada de bronce. Ya no quedaba ni un vestigio de sangre.",
-						"¿Lo creerás, Ariadna? dijo Teseo. El minotauro apenas se defendió.",
+						"-¿Lo creerás, Ariadna? -dijo Teseo-. El minotauro apenas se defendió.",
 						"A Marta Mosquera Eastman"
 				]}
 			],
 			"trivias":[
 				{"quest":"¿Por qué acusan al protagonista de soberbia, misantropía y locura?",
-				"answers":["Porque necesita que lo libere de la muerte y de su soledad","Porque necesita compañía.","Porque necesita poder salir del laberinto."]
+				"answers":["Porque no sale de su casa, no comparte con ninguna persona su lugar y llega a admitir que ya que su madre fue una reina no puede confundirse con el pueblo","Porque no tiene muebles en su casa.","Porque su madre fue una  reina no puede confundirse con el pueblo."]
 				},
 
 				{"quest":"¿Por qué el protagonista espera ¨un redentor¨?",
-				"answers":["A Teseo lo mueve su deseo de matar al monstruo y ser útil a su ciudad, Atenas.","A Teseo lo mueve su deseo de cumplir con la obligación que le impusiera su padre.","A Teseo lo mueve su deseo de gobernar Creta."]
+				"answers":["Porque necesita que lo libere de la muerte y de su soledad.","Porque necesita compañía","Porque necesita poder salir del laberinto."]
 				},
 
 				{"quest":"¿Cuál es el giro que se le da a la historia?",
@@ -233,7 +233,7 @@
 			"area":"1",
 			"texts":[
 				{"textlines":["El Rey Minos, de Creta, tenía varios hijos: Ariadna, Fedra, Glauco, Catreo, pero su predilecto era Androgeo, joven fuerte y vencedor en el gimnasio.",
-						"Cuando en Atenas se organizaron los juegos en honor de Palas Atenea, se reunieron los mejores atletas griegos, y allí partió Androgeo, para medirse con los más fuertes paladines de la Hélade, con el beneplácito de Minos, quien esperaba a su hijo regresar con la corona del triunfo.",
+						"Cuando en Atenas se organizaron los juegos en honor de Palas Atenea, se reunieron los mejores atletas griegos, y allí partió Androgeo, para medirse con los más fuertes paladines de la Hélade, con el beneplácito de Minos,#quien esperaba a su hijo regresar con la corona del triunfo. ",
 						"El joven príncipe logró vencer en todas las pruebas a sus rivales, los mejores campeones de la ciudad, pero los atenienses, en lugar de victorearlo, hicieron recaer su furia sobre él, por haber derrotado a sus luchadores, y esa misma noche le dieron muerte.",
 						"Al recibir la noticia, el Rey Minos sintió un inmenso dolor, pero inmediatamente se despertó en él un irrefrenable deseo de venganza, y marchó con un numeroso ejército a sitiar a Atenas, hasta que logró que se rindieran incondicionalmente, e impuso condiciones y penas terribles.",
 						"Entre sus condiciones, estableció que durante nueve años, los atenienses debían enviar a la isla de Creta a siete robustos jóvenes y a siete doncellas, quienes serían las víctimas que se ofrecerían para ser devorados por el minotauro."			
@@ -242,7 +242,7 @@
 				{"textlines":["El minotauro, mitad hombre y mitad toro, vivía en un laberinto, inventado por Dédalo, cercano a Cnosos, capital de Creta. Estaba encerrado en dicho laberinto y se alimentaba de carne humana, de esclavos y prisioneros de guerra, así como los jóvenes atenienses, que enviaba el rey Minos.",
 						"Año a año, llegaban los mensajeros de Creta a elegir a sus víctimas.",
 						"Al tercer año, un joven y gallardo joven hijo del rey ateniense Egeo, llamado Teseo, se ofreció voluntariamente, pues se consideraba capaz de enfrentar y dar muerte al minotauro.",
-						"Al enterarse el Rey Minos, expresó:",
+						"Al enterarse el Rey Minos, expresó:#",
 						"- Como miembro de la familia real estás eximido de ir como víctima. Pero si insistes, te diré que, aunque mates al minotauro, jamás encontrarás la salida del laberinto.",
 						"-No me importa- respondió el joven Teseo, me basta con matar al monstruo y ser útil a Atenas."					
 				]},
@@ -278,14 +278,14 @@
 			"type":"1",
 			"area":"1",
 			"texts":[
-				{"textlines":["1. [Había,Havía] una vez un gran pez...",
-				"2. [Sabíamos,Savíamos] la verdad.",
-				"3. [Advirtieron,Adbirtieron] que él ya se había retirado.",
-				"4. [Tuve,Tube] que ir de compras.",
-				"5. Ana se destaca por su [amabilidad,amavilidad].",
-				"6. Con Ana [estuvimos,estubimos] en el Aula Magna.",
-				"7. Cuando éramos chicos, [jugábamos,jugávamos] en el patio con una pelota de papel.",
-				"8. Dejó sobre las mesa todos los [bloques,vloques]."]}			
+				{"textlines":["1) [Había,Havía] una vez un gran pez...",
+				"2) [Sabíamos,Savíamos] la verdad.",
+				"3) [Advirtieron,Adbirtieron] que se había retirado.",
+				"4) [Tuve,Tube] que ir de compras.",
+				"5) Ana se destaca por su [amabilidad,amavilidad].",
+				"6) Con Ana [estuvimos,estubimos] en el Aula Magna.",
+				"7) Cuando éramos chicos, [jugábamos,jugávamos] en el patio con una pelota de papel.",
+				"8) Dejó sobre las mesa todos los [bloques,vloques]."]}			
 			],
 			"trivias":[
 			
@@ -300,14 +300,14 @@
 			"type":"1",
 			"area":"1",
 			"texts":[
-				{"textlines":["1. [Percibió,Persibió,Perzibió] atinadamente la diferencia.",
-				"2. [Anunciaron,Anunsiaron,Anunziaron] el estreno de la nueva temporada.",
-				"3. [Encendieron,Ensendieron,Enzendieron] el farol de la esquina.",
-				"4. [Alcancé,Alcansé,Alcanzé] mis objetivos.",
-				"5. Compró varios libros para su clase [especial,espesial,espezial].",
-				"6. Con un [martillazo,martillaco,martillaso] logró clavar la imagen.",
-				"7. Cruzó el puente [inglés,ingléc,ingléz] con gran esfuerzo.",
-				"8. Durante su [noviazgo,noviacgo,noviasgo], se conocieron."]}			
+				{"textlines":["1) [Percibió,Persibió,Perzibió] atinadamente la diferencia.",
+				"2) [Anunciaron,Anunsiaron,Anunziaron] el estreno de la nueva temporada.",
+				"3) [Encendieron,Ensendieron,Enzendieron] el farol de la esquina.",
+				"4) [Alcancé,Alcansé,Alcanzé] mis objetivos.",
+				"5) Compró varios libros para su clase [especial,espesial,espezial].",
+				"6) Con un [martillazo,martillaco,martillaso] logró clavar la imagen.",
+				"7) Cruzó el puente [inglés,ingléc,ingléz] con gran esfuerzo.",
+				"8) Durante su [noviazgo,noviacgo,noviasgo], se conocieron."]}			
 			],
 			"trivias":[
 			
@@ -323,12 +323,12 @@
 			"area":"1",
 			"texts":[
 				{"textlines":["Se refiere que a la corte de Olaf Tryggvason, que se [había,habia] convertido a la nueva fe,",
-					"llegó una noche un hombre [viejo,víejo], envuelto en una capa oscura y con el ala del sombrero sobre los ojos.",
+					"llegó una noche un hombre [viejo,víejo], envuelto en una#capa oscura y con el ala del sombrero sobre los ojos. ",
 					"El rey le preguntó si [sabía,sabia] hacer algo;",
-					"el forastero contestó que [sabía,sabia] tocar el harpa y",
+					"el forastero contestó que [sabía,sabia] tocar el harpa y#",
 					"contar [cuentos,cúentos]. Tocó en el harpa aires antiguos, habló de Gudrun y de Gunnar y, finalmente, refirió el nacimiento de Odin.",
-					"Dijo que tres parcas vinieron, que las dos primeras le [prometieron,prometíeron] grandes felicidades y que la tercera dijo, colérica: ¨El niño no vivirá más que la vela que está ardiendo,ardíendo a su lado¨. Entonces los padres apagaron la vela para que Odin no muriera.",
-					"Olaf Tryggvason descreyó de la [historia,historía]; el forastero repitió que era cierta, sacó la vela y la encendió.",
+					"Dijo que tres parcas vinieron, que las dos primeras le [prometieron,prometíeron] grandes felicidades y que la tercera dijo, colérica:#¨El niño no vivirá más que la vela que está ardiendo,ardíendo a su lado¨",
+					"Olaf Tryggvason descreyó de la [historia,historía];#el forastero repitió que era cierta, sacó la vela y la encendió. ",
 					"Mientras la miraban arder, el hombre dijo que era tarde y que [tenía,tenia] que irse. Cuando la vela se hubo consumido, lo buscaron.",
 					"A unos pasos de la casa del rey, Odin [había,habia] muerto."]}
 			],
@@ -346,14 +346,14 @@
 			"type":"1",
 			"area":"2",
 			"texts":[
-				{"textlines":["1. [hectómetro,ectómetro] es igual a 100 metros.",
-				"2. [allá,hallá] está mi lapicera.",
-				"3. Amo el [helado,elado] de chocolate.",
-				"4. Aprobamos los exámenes de [historia,istoria].",
-				"5. El golpe le produjo un [hematoma,ematoma].",
-				"6. El [iato,hiato] es la secuencia de dos vocales que se separan.",
-				"7. El [hipopótamo,ipopótamo] es un gran mamífero.",
-				"8. El león [habita,abita] en la selva."]}
+				{"textlines":["1) [hectómetro,ectómetro] es igual a 100 metros.",
+				"2) [allá,hallá] está mi lapicera.",
+				"3) Amo el [helado,elado] de chocolate.",
+				"4) Aprobamos los exámenes de [historia,istoria].",
+				"5) El golpe le produjo un [hematoma,ematoma].",
+				"6) El [iato,hiato] es la secuencia de dos vocales que se separan.",
+				"7) El [hipopótamo,ipopótamo] es un gran mamífero.",
+				"8) El león [habita,abita] en la selva."]}
 			],
 			"trivias":[
 			
@@ -371,7 +371,7 @@
 			"texts":[
 				{"textlines":["El erizo era feo y lo sabía. Por eso vivía en sitios apartados, en matorrales sombríos, sin hablar con nadie, siempre solitario y taciturno, siempre triste, él, que en realidad tenía un carácter alegre y gustaba de la compañía de los demás. Sólo se atrevía a salir a altas horas de la noche y, si entonces oía pasos, rápidamente erizaba sus púas y se convertía en una bola para ocultar su rubor."]},
 
-				{"textlines":["Una vez alguien encontró una esfera híspida, ese tremendo alfiletero. En lugar de rociarlo con agua o arrojarle humo -como aconsejan los libros de zoología-, tomó una sarta de perlas, un racimo de uvas de cristal, piedras preciosas, o quizá falsas, cascabeles, dos o tres lentejuelas, varias luciérnagas, un dije de oro, flores de nácar y de terciopelo, mariposas artificiales, un coral, una pluma y un botón, y los fue enhebrando en cada una de las agujas del erizo, hasta transformar a aquella criatura desagradable en un animal fabuloso."]},
+				{"textlines":["Una vez alguien encontró una esfera híspida, ese tremendo alfiletero. En lugar de rociarlo con agua o arrojarle humo -como aconsejan los libros de zoología-, tomó una sarta de perlas, un racimo de uvas de cristal, piedras preciosas, o quizá falsas, cascabeles, dos o tres lentejuelas, varias luciérnagas, un dije de oro, flores de nácar y de terciopelo, mariposas#artificiales, un coral, una pluma y un botón, y los fue enhebrando en cada una de las agujas del erizo, hasta transformar a aquella criatura desagradable en un animal fabuloso."]},
 
 				{"textlines":["Todos acudieron a contemplarlo. Según quién lo mirase, semejaba la corona de un emperador bizantino, un fragmento de la cola del Pájaro Roc o, si las luciérnagas se encendían, el fanal de una góndola empavesada para la fiesta del Bucentauro, o, si lo miraba algún envidioso, un bufón.",
 					"El erizo escuchaba las voces, las exclamaciones, los aplausos, y lloraba de felicidad. Pero no se atrevía a moverse por temor de que se le desprendiera aquel ropaje miliunanochesco. Así permaneció durante todo el verano. Cuando llegaron los primeros fríos, había muerto de hambre y de sed. Pero seguía hermoso."]}
@@ -403,9 +403,9 @@
 				{"textlines":["Trimalción comenzó el siguiente relato:",					
 						"Cuando todavía era yo esclavo, vivíamos en una callejuela angosta; ahora está allí la casa de Gavila. En esa casa me enamoré, como a veces lo quieren los dioses, de la mujer del tabernero Terencio: conocéis a Melisa la tarentina, una hermosísima gordita de movedizas redondeces. Pero yo, por Hércules, no la quería por su cuerpo o para saciar mis deseos, sino porque era de buen corazón. Lo que le pedí, nunca me lo negó; si ganaba un as, me daba la mitad; todo lo que tuve lo deposité en su seno, y nunca me defraudó, su compañero murió allí, en su casa de campo. Entonces traté por todos los medios de llegar hasta ella: como sabéis, en los apuros se ven los amigos."]},
 
-				{"textlines":["Por casualidad mi dueño había ido a Capua a vender un montón de cosas viejas. Aprovechando la ocasión persuado a un huésped nuestro a que venga conmigo hasta el quinto miliario. Era un soldado, fuerte como Orco. Nos hicimos humo al primer canto del gallo, la luna brillaba como si fuera de día. Llegamos a las tumbas: nuestro hombre se puso a defecar en medio de las tumbas, mientras yo me aparté tarareando un cantito y contando las lápidas. Luego, cuando miré a mi compañero, vi que se desnudaba y ponía toda su ropa junto al camino. A mí se me vino el alma a la nariz, me quedé como muerto. Pero él meó alrededor de sus vestimentas y de repente se transformó en un lobo. No penséis que bromeo; ningún bien valdría tanto como para que mintiera en este punto. Pero, como había empezado a decir, después que se volvió lobo, comenzó a aullar y huyó hacia el bosque. Yo al comienzo no sabía dónde estaba, pero luego me acerqué para tomar sus vestimentas: se habían transformado en piedra. ¿Quién tenía allí más temor de morir que yo? Pero saqué la espada y golpeé las sombras, hasta que llegué a la villa de mi amiga. Y entré como un muerto, casi exhalé el alma; el sudor me chorreaba hasta el fondo de la espalda, mis ojos parecían sin vida, me repuse con gran dificultad."]},
+				{"textlines":["Por casualidad mi dueño había ido a Capua a vender un montón de cosas viejas. Aprovechando la ocasión persuado a un huésped nuestro a que venga conmigo hasta el quinto miliario. Era un soldado, fuerte como Orco. Nos hicimos humo al primer canto del gallo, la luna brillaba como si fuera de día. Llegamos a las tumbas: nuestro hombre se puso a defecar en medio de las tumbas, mientras yo me aparté tarareando un cantito y contando las lápidas. Luego, cuando miré a mi compañero, vi que se desnudaba y ponía toda su ropa junto al camino. A mí se me vino el alma a la nariz, me quedé como muerto. Pero él meó alrededor de sus vestimentas y de repente se transformó en un lobo. No penséis que bromeo; ningún bien valdría tanto como para que mintiera en este punto. Pero, como había empezado a decir, después que se volvió lobo, comenzó a aullar y huyó hacia el bosque. Yo al comienzo no sabía dónde estaba, pero luego me acerqué para tomar sus vestimentas: se habían transformado en piedra. ¿Quién tenía allí más temor de morir que yo? Pero saqué la espada y golpeé las sombras, hasta que llegué a la villa de mi amiga. Y entré como un muerto, casi exhalé el alma; el sudor me chorreaba hasta el fondo de la#espalda, mis ojos parecían sin vida, me repuse con gran dificultad."]},
 
-				{"textlines":["Mi Melisa empezó a asombrarse de que yo anduviera por ahí tan tarde, y me dijo: Si hubieras venido antes, al menos me habrías ayudado, pues un lobo entró en la villa y atacó a todo el ganado, hizo sangrar a los animales como un carnicero. Pero si escapó, no le fue como para reírse, pues uno de nuestros esclavos le atravesó el cuello con una lanza. Cuando oí esto ya no pude cerrar los ojos, sino que, como ya era día claro, hui a la casa de nuestro Gayo como un tabernero zurrado, y luego que llegué al lugar donde las vestimentas se habían transformado en piedra, nada encontré sino sangre. Y cuando llegué a mi casa, mi soldado yacía en su cama como un buey, y un médico le curaba el cuello. Me di cuenta de que era un hombre-lobo, y después no pude gustar con él ni un trozo de pan, ni aunque me azotaran. Que otros vean qué piensan de esto; si miento, que vuestros Genios tutelares me sean hostiles¨."]}
+				{"textlines":["Mi Melisa empezó a asombrarse de que yo anduviera por ahí tan tarde, y me dijo: ¨Si hubieras venido antes, al menos me habrías ayudado, pues un lobo entró en la villa y atacó a todo el ganado, hizo sangrar a los animales como un carnicero. Pero si escapó, no le fue como para reírse, pues uno de nuestros esclavos le atravesó el cuello con una lanza¨. Cuando oí esto ya no pude cerrar los ojos, sino que, como ya era día claro, hui a la casa de nuestro Gayo como un tabernero zurrado, y luego que llegué al lugar donde las vestimentas se habían transformado en piedra, nada encontré sino sangre. Y cuando llegué a mi casa, mi soldado yacía en su cama como un buey, y un médico le curaba el cuello. Me di cuenta de que era un hombre-lobo, y después no pude gustar con él ni un trozo de pan, ni aunque me azotaran. Que otros vean qué piensan de esto; si miento, que vuestros Genios tutelares me sean hostiles¨."]}
 			],
 			"trivias":[
 				{"quest":"¿Quién relata la historia?",
@@ -431,13 +431,13 @@
 			"type":"1",
 			"area":"2",
 			"texts":[
-				{"textlines":["1. En la [cerrajería,cerragería] realizó la copia de las llaves.",
-				"2. Es muy [fotogénico,fotojénico].",
-				"3. Es preciso [homenajear,homenagear] a los exalumnos.",
-				"4. Hizo su evaluación con mucho [coraje,corage].",
-				"5. Hizo un [gesto,jesto] simpático.",
-				"6. La [geología,jeología] es una ciencia que estudia la historia del globo terrestre.",
-				"7. Leímos una leyenda [indígena/indíjena]."]}
+				{"textlines":["1) En la [cerrajería,cerragería] realizó la copia de las llaves.",
+				"2) Es muy [fotogénico,fotojénico].",
+				"3) Es preciso [homenajear,homenagear] a los exalumnos.",
+				"4) Hizo su evaluación con mucho [coraje,corage].",
+				"5) Hizo un [gesto,jesto] simpático.",
+				"6) La [geología,jeología] es una ciencia que estudia la historia del globo terrestre.",
+				"7) Leímos una leyenda [indígena,indíjena]."]}
 			],
 			"trivias":[
 			
@@ -518,14 +518,14 @@
 			"type":"1",
 			"area":"3",
 			"texts":[
-				{"textlines":["1. El [vicedirector,bicedirector] convocó a una reunión de padres.",
-					"2. El baño se ha llenado de [burbujas,vurbujas].",
-					"3. El patio del Pelle es muy [agradable,agradavle].",
-					"4. En su [brazo,vrazo] tenía un extraño tatuaje.",
-					"5. Es muy [suave,suabe] su voz.",
-					"6. Es muy [divertido,dibertido] el ejercicio de esta página.",
-					"7. Fue imposible quitar el [clavo,clabo] de la pared.",
-					"8. Fueron al colegio en [subte,suvte]."
+				{"textlines":["1) El [vicedirector,bicedirector] convocó a una reunión de padres.",
+					"2) El baño se ha llenado de [burbujas,vurbujas].",
+					"3) El patio del Pelle es muy [agradable,agradavle].",
+					"4) En su [brazo,vrazo] tenía un extraño tatuaje.",
+					"5) Es muy [suave,suabe] su voz.",
+					"6) Es muy [divertido,dibertido] el ejercicio de esta página.",
+					"7) Fue imposible quitar el [clavo,clabo] de la pared.",
+					"8) Fueron al colegio en [subte,suvte]."
 					]}
 			],
 			"trivias":[
@@ -541,14 +541,14 @@
 			"type":"1",
 			"area":"3",
 			"texts":[
-				{"textlines":["1. El chico [bonaerense,bonaerence,bonaerenze] lo logró.",
-					"2. El extraño [acontecimiento,acontesimiento,acontezimiento] llamó la atención de todos los turistas.",
-					"3. El león se posó en esa bella [planicie,planisie,planizie].",
-					"4. En el [cobertizo,cobertiso,cobertico] escondieron el viejo baúl.",
-					"5. Encontré una carta en un [cajoncito,cajonsito,cajonzito].",
-					"6. Es [lícito,lísito,lízito] todo esfuerzo.",
-					"7. Ese piso es muy [resbaladizo,resbaladiso,resbaladico].",
-					"8. La [docencia,dosensia,dozencia] es una maravillosa vocación."
+				{"textlines":["1) El chico [bonaerense,bonaerence,bonaerenze] lo logró.",
+					"2) El extraño [acontecimiento,acontesimiento,acontezimiento]#llamó la atención de todos los turistas ",
+					"3) El león se posó en esa bella [planicie,planisie,planizie].",
+					"4) En el [cobertizo,cobertiso,cobertico] escondieron el viejo baúl.",
+					"5) Encontré una carta en un [cajoncito,cajonsito,cajonzito].",
+					"6) Es [lícito,lísito,lízito] todo esfuerzo.",
+					"7) Ese piso es muy [resbaladizo,resbaladiso,resbaladico].",
+					"8) La [docencia,dosensia,dozencia] es una maravillosa vocación."
 					]}
 			],
 			"trivias":[
@@ -566,10 +566,10 @@
 			"texts":[
 				{"textlines":["Se dice que antes de [que,qué] Yací bajara a la tierra,",
 					"los hombres estaban tan ocupados en sus propios quehaceres que apenas [se,sé] miraban o conversaban un poco.",
-    					"Una mañana, Yací bajó a la tierra, acompañada por la nube Araí. Convertidas en muchachas, caminaron por el laberinto de sauces, lapachos, cedros y palmeras. Eso es todo lo que conocía [de,dé] la selva: los enormes torrentes y el colchón verde e ininterrumpido del follaje,",
+    					"Una mañana, Yací bajó a la tierra, acompañada por la nube Araí. Eso es todo lo que conocía [de,dé] la selva: los enormes torrentes y el colchón verde e ininterrumpido#del follaje, ",
 					"[que,qué] casi no deja pasar la luz.",
-					"Pero Yací era curiosa y quería ver por [si,sí] misma las maravillas de las que le habían hablado el sol y las nubes:",
-					"el tornasol de los picaflores, [el/él] encaje de los helechos y los picos brillantes de los tucanes."]}
+					"Pero Yací era curiosa y quería ver por [si,sí] misma las maravillas de las que le habían hablado el sol y las#nubes: ",
+					"el tornasol de los picaflores, [el,él] encaje de los helechos y los picos brillantes de los tucanes."]}
 			],
 			"trivias":[
 			
@@ -584,9 +584,9 @@
 			"type":"0",
 			"area":"3",
 			"texts":[
-				{"textlines":["En toda la Provincia de Corrientes se conoce la leyenda de los entierros. Los entierros son tesoros escondidos, casi siempre en botijuelos de barro, que eran en los que la gente de la antigüedá guardaban y escondían su fortuna bajo tierra. Cuando los dueños se mueren o han desaparecido por alguna causa, estos tesoros quedan ocultos hasta que alguno tenga la suerte, por la volunta del dueño muerto, de encontrarlo. Todos tienen cientos de años. Mientras los entierros permanecen escondidos, el alma del muerto pena, pero el muerto no permite que cualquiera saque su fortuna, siempre lo destina a personas que merezcan ese premio y que sean valientes. Por eso tanta gente de mala índole y avara busca los entierros que por tradición se sabe que están en algunas partes y no les encuentran. Cuando el entierro está destinado a la persona que lo saca, aparecen las prendas de oro, de plata y las monedas y dinero de mucho valor. Si el finado no le quiere dar al que lo encuentra, sólo salen bichos de todas clases. El finado entrega su entierro a las personas que él elige, para poder descansar en paz, después de tanto penar. Entonces hay que hacerle decir una misa y dar limosna a los pobres en nombre de su alma."]},
+				{"textlines":["En toda la Provincia de Corrientes se conoce la leyenda de los entierros. Los entierros son tesoros escondidos, casi siempre en botijuelos de barro, que eran en los que la gente de la antigüedá guardaban y escondían su fortuna bajo tierra. Cuando los dueños se mueren o han desaparecido por alguna causa, estos tesoros quedan ocultos hasta que alguno tenga la suerte, por la volunta del dueño muerto,#de encontrarlo. Todos tienen cientos de años. Mientras los entierros permanecen escondidos, el alma del muerto pena, pero el muerto no permite que cualquiera saque su fortuna, siempre lo destina a personas que merezcan ese premio y que sean valientes. Por eso tanta gente de mala índole y avara busca los entierros que por tradición se sabe que están en algunas partes y no les encuentran. Cuando el entierro está destinado a la persona que lo saca, aparecen las prendas de oro, de plata y las monedas y dinero de mucho valor. Si el finado no le quiere dar al que lo encuentra, sólo salen bichos de todas clases. El finado entrega su entierro a las personas que él elige, para poder descansar en paz, después de tanto penar. Entonces hay que hacerle decir una misa y dar limosna a los pobres en nombre de su alma."]},
 
-				{"textlines":["También hay que saber sacar los entierros. Muchos se han muerto cuando al abrir el lugar del entierro han respirado el tufo que se ha juntado con los años del oro y la plata en ese lugar misterioso. Pocos lo saben, pero los viejos lo conocen. Cuando se abre el lugar, muy rápido hay que tapar todo con un poncho, hay que ponerse en contra del viento, romper de lejos con una pedrada el botijuelo o lo que sea y disparar a una distancia prudente hasta que se evapore el olor a cardenillo, que es el que mata a los que lo respiran.",
+				{"textlines":["También hay que saber sacar los entierros. Muchos se han muerto cuando al abrir el lugar del entierro han respirado el tufo que se ha juntado con los años del oro y la plata en ese lugar misterioso. Pocos lo saben, pero los viejos lo conocen. Cuando se abre el lugar, muy rápido hay que tapar todo con un poncho, hay que ponerse en contra del viento, romper de lejos con una pedrada el botijuelo o lo que sea y disparar#a una distancia prudente hasta que se evapore el olor a cardenillo, que es el que mata a los que lo respiran.",
 						"Donde existe un entierro aparecen luces por la noche y generalmente cuando hay mal tiempo. Si el entierro es de plata, las luces son blancas; si es de oro, la luz es roja; si es cobre, la luz es verde.",
 						"Los entierros se buscan con un hierro de punta que se llama sondador. Se introduce el sondador más o menos a medio metro bajo tierra en distintas partes donde se supone o se sabe que hay entierros. Cuando se toca un objeto duro, sospechoso, se cava y seguramente se encuentra el entierro. No todas las personas son capaces de encontrar un entierro y más todavía de sacarlo. Tiene que ser una persona valiente, de sangre fría y saber todo lo que se necesita para hacer bien las cosas.",
 						"Cuando un finado quiere dar a una persona su tesoro enterrado, le hace soñar el lugar donde le tiene. Esta persona debe ir de noche. Allí aparecen visiones que le impiden en toda forma el trabajo de buscar el entierro. Esto es buena señal porque asegura que hay tesoro donde se busca o que está muy cerca. A veces aparece una tropa de animales que le quiere atropellar. Si se asusta el buscador y se hace un lado, pierde el entierro. Otras veces son otras visiones como la de un hombre sin cabeza, o una mujer o un toro que quiere atropellar al buscador. En todos los casos debe permanecer firme y afrontar con todo valor el trabajo. Entonces se calma todo y se puede sacar el tesoro enterrado."]},
@@ -623,8 +623,8 @@
 					"Estuvo un largo rato mirando el cielo. Después bajó a la cueva, cerró los ojos y se quedó dormido."]},
 
 				{"textlines":["Esa noche el sapo soñó que era árbol. A la mañana siguiente contó su sueño. Más de cien sapos lo escuchaban.",
-					"-Anoche fui árbol -dijo-, un álamo. Estaba cerca de unos paraísos. Tenía nidos. Tenía raíces hondas y muchos brazos como alas, pero no podía volar. Era un tronco delgado y alto que subía. Creí que caminaba, pero era el otoño llevándome las hojas. Creí que lloraba, pero era la lluvia. Siempre estaba en el mismo sitio, subiendo, con las raíces sedientas y profundas. No me gustó ser árbol.",
-					"El sapo se fue, llegó a la huerta y se quedó descansando debajo de una hoja de acelga. Esa tarde el sapo dijo:",
+					"-Anoche fui árbol -dijo-, un álamo. Estaba cerca de unos paraísos. Tenía nidos. Tenía raíces hondas y muchos brazos como alas, pero no podía volar. Era un tronco delgado y alto que subía. Creí que caminaba, pero era el otoño llevándome las hojas. Creí que lloraba, pero era la lluvia. Siempre estaba en el mismo sitio, subiendo, con las raíces sedientas y profundas. No me gustó ser árbol. ",
+					"El sapo se fue, llegó a la huerta y se quedó descansando debajo de una hoja de acelga. Esa tarde el sapo dijo: ",
 					"-Esta noche voy a soñar que soy río"]},
 
 				{"textlines":["Al día siguiente contó su sueño. Más de doscientos sapos formaron rueda para oírlo. -Fui río anoche -dijo-. A ambos lados, lejos, tenía las riberas. No podía escucharme. Iba llevando barcos. Los llevaba y los traía. Eran siempre los mismos pañuelos en el puerto. La misma prisa por partir, la misma prisa por llegar. Descubrí que los barcos llevan a los que se quedan. Descubrí también que el río es agua que está quieta, es la espuma que anda; y que el río está siempre callado, es un largo silencio que busca las orillas, la tierra, para descansar. Su música cabe en las manos de un niño; sube y baja por las espirales de un caracol. Fue una lástima. No vi una sola sirena; siempre vi peces, nada más que peces. No me gustó ser río.",
@@ -667,7 +667,7 @@
 			"area":"3",
 			"texts":[
 				{"textlines":["Naomi Watanabe y Toshiro Ueda creían que el mundo era nuevo. Como todos los chicos. Porque ellos eran nuevos en el mundo. También, como todos los chicos.",
-					"Pero el mundo era ya muy viejo entonces, en el año 1945, y otra vez estaba en guerra. Naomi y Toshiro no entendían muy bien qué era lo que estaba pasando. Desde que ambos recordaban, sus pequeñas vidas en la ciudad japonesa de Hiroshima se habían desarrollado del mismo modo: en un clima de sobresaltos, entre adultos callados y tristes, compartiendo con ellos los escasos granos de arroz que flotaban en la sopa#diaria y el miedo que apretaba las reuniones familiares de cada anochecer en torno a las noticias de la radio, que hablaban de luchas y muerte por todas partes.",
+					"Pero el mundo era ya muy viejo entonces, en el año 1945, y otra vez estaba en guerra. Naomi y Toshiro no entendían muy bien qué era lo que estaba pasando. Desde que ambos recordaban, sus pequeñas vidas en la ciudad japonesa de Hiroshima se habían desarrollado del mismo modo: en un clima de sobresaltos, entre adultos callados y tristes, compartiendo con ellos los escasos granos de arroz que flotaban en la sopa diaria y el miedo que apretaba las reuniones familiares de cada anochecer en torno a las noticias de la radio, que hablaban de luchas y#muerte por todas partes. ",
 					"Sin embargo, creían que el mundo era nuevo y esperaban ansiosos cada día para descubrirlo.",
 					"¡Ah... y también se estaban descubriendo uno al otro!",
 					"Se contemplaban de reojo durante la caminata hacia la escuela, cuando suponían que sus miradas levantaban murallas y nadie más que ellos podían transitar ese imaginario senderito de ojos a ojos.",
@@ -684,7 +684,7 @@
 						"Se fue julio y Naomi arrancó contenta la hoja del almanaque...",
 						"Y aunque no lo supieran: ¡Por fin llegó agosto! -pensaron los dos al mismo tiempo.",
 						"Fue justamente el primero de ese mes cuando Toshiro viajó, junto con sus padres, hacia la aldea de Miyashima. Iban a pasar una semana. Allí vivían los abuelos, dos ceramistas que veían apilarse vasijas en todos los rincones de su local.",
-						"Ya no vendían nada. No obstante, sus manos viejas seguían modelando la arcilla con la misma dedicación de otras épocas. -Para cuando termine la guerra... -decía el abuelo.",
+						"Ya no vendían nada. No obstante, sus manos viejas seguían modelando la arcilla con la misma dedicación de otras épocas. -Para cuando termine la guerra -decía el abuelo.",
 						"-Todo acaba algún día...- comentaba la abuela por lo bajo. Y Toshiro sentía que la paz debía de ser algo muy hermoso, porque los ojos de su madre parecían aclararse fugazmente cada vez que se referían al fin de la guerra, tal como a él se le aclaraban los suyos cuando recordaba a Naomi.",
 						"¿Y Naomi?",
 						"El primero de agosto despertó inquieta; acababa de soñar que caminaba sobre la nieve. Sola. Descalza. Ni casas ni árboles a su alrededor. Un desierto helado y ella atravesándolo.",
@@ -697,7 +697,7 @@
 						"Pronto",
 						"Florecerán los crisantemos.",
 						"Espera,",
-						"Corazón.",
+						"Corazón.#",
 						"Después achicó en rollitos ambos papeles y los guardó dentro de una cajita de laca en la que escondía sus pequeños tesoros de la curiosidad de sus hermanos.",
 						"El cuatro y el cinco de agosto se los pasó ayudando a su madre y a las tías. ¡Era tanta la ropa para remendar!",
 						"Sin embargo, esa tarea no le disgustaba. Naomi siempre sabía hallar el modo de convertir en un juego entretenido lo que acaso resultaba aburridísimo para otras chicas.",
@@ -744,15 +744,15 @@
 						"Y así, en el silencio y la oscuridad de aquellas horas, Toshiro recortó primero novecientos ochenta cuadraditos y luego los plegó, uno por uno, hasta completar las mil grullas que ansiaba Naomi, tras sumarles las que ella misma había hecho. Ya amanecía."]},
 
 				{"textlines":["El muchacho se encontraba pasando hilos a través de las siluetas de papel. Separó en grupos de diez las frágiles grullas del milagro y las aprestó para que imitaran el vuelo, suspendidas como estaban de un leve hilo de coser, una encima de la otra.",
-					"Con los dedos paspados y el corazón temblando, Toshiro colocó las cien tiras de su furoshiki  y partió rumbo al hospital antes de que su familia se despertara.",
+					"Con los dedos paspados y el corazón temblando, Toshiro colocó las cien tiras de su furoshiki  y partió rumbo al hospital antes de#que su familia se despertara. ",
 					"Por esa única vez, tomó sin pedir permiso la bicicleta de sus primos.",
 					"No había tiempo que perder. Imposible recorrer a pie, como el día anterior, los kilómetros que lo separaban del hospital. La vida de Naomi dependía de esas grullas.",
-					"-Prohibidas las visitas a esta hora -le dijo una enfermera, impidiéndole el acceso a la enorme sala en uno de cuyos extremos estaba la cama de su querida amiga.",
+					"-Prohibidas las visitas a esta hora -le dijo una enfermera, impidiéndole el acceso a la enorme sala en#uno de cuyos extremos estaba la cama de su querida amiga. ",
 					"Toshiro insistió: -Sólo quiero colgar estas grullas sobre su lecho. Por favor...",
-					"Ningún gesto denunció la emoción de la enfermera cuando el chico le mostró las avecitas de papel. Con la misma aparente impasibilidad con que momentos antes le había cerrado el paso, se hizo a un lado y le permitió que entrara: -Pero cinco minutos, ¿eh?",
+					"Ningún gesto denunció la emoción de la enfermera cuando el chico le mostró las avecitas de papel. Con la misma aparente impasibilidad con que momentos antes le había cerrado el paso, se hizo a un lado y le permitió#que entrara: -Pero cinco minutos, ¿eh? ",
 					"Naomi dormía.",
 					"Tratando de no hacer el mínimo ruidito, Toshiro puso una silla sobre la mesa de luz y luego se subió.",
-					"Tuvo que estirarse a más no poder para alcanzar el cielo raso. Pero lo alcanzó. Y en un rato estaban las mil grullas pendiendo del techo; los cien hilos entrelazados, firmemente sujetos con alfileres.",
+					"Tuvo que estirarse a más no poder para alcanzar el cielo raso. Pero lo alcanzó. Y en un rato estaban las mil grullas pendiendo del techo; los cien hilos entrelazados, firmemente#sujetos con alfileres. ",
 					"Fue al bajarse de su improvisada escalera cuando advirtió que Naomi lo estaba observando. Tenía la cabecita echada hacia un lado y una sonrisa en los ojos.",
 					"-Son hermosas, Toshi-chan... Gracias...",
 					"-Hay un millar. Son tuyas, Naomi. Tuyas- y el muchacho abandonó la sala sin darse vuelta.",
@@ -793,33 +793,33 @@
 			"type":"0",
 			"area":"4",
 			"texts":[
-				{"textlines":["La coartada de los tres hermanos de la suicida fue verificada.  Ellos no habían mentido. El mayor, Juan, permaneció desde las cinco de la tarde hasta las doce de la noche (la señora Stevens se suicidó entre siete y diez de la noche) detenido en una comisaría por su participación imprudente en una accidente de tránsito. El segundo hermano, Esteban, se encontraba en el pueblo de Lister desde las seis de la tarde de aquel día hasta las nueve del siguiente, y, en cuanto al tercero, el doctor Pablo, no se había apartado ni un momento del laboratorio de análisis de leche de la Erpa Cía., donde estaba adjunto a la sección de dosificación de mantecas en las cremas.",
+				{"textlines":["La coartada de los tres hermanos de la suicida fue verificada.  Ellos no habían mentido. El mayor, Juan, permaneció desde las cinco de la tarde hasta las doce de la noche (la señora Stevens se suicidó entre siete y diez de la noche) detenido en una comisaría por su participación imprudente en una accidente de tránsito. El segundo hermano, Esteban, se encontraba en el pueblo de Lister desde las seis de la tarde de aquel día hasta las nueve del siguiente, y, en cuanto al tercero, el doctor Pablo, no se había apartado ni un momento del laboratorio de análisis de leche de la Erpa Cía, donde estaba adjunto a la sección de dosificación de mantecas en las cremas.",
             					"Lo más curioso de caso es que aquel día los tres hermanos almorzaron con la suicida para festejar su cumpleaños, y ella, a su vez, en ningún momento dejó de traslucir su intención funesta. Comieron todos alegremente; luego, a las dos de la tarde, los hombres se retiraron."]},
 
-				{"textlines":["Sus declaraciones coincidían en un todo con las de la antigua doméstica que servía hacía muchos años a la señora Stevens. Esta mujer, que dormía afuera del departamento, a las siete de la tarde se retiró a su casa. La última orden que recibió de la señora Stevens fue que le enviara por el portero un diario de la tarde. La criada se marchó; a las siete y diez el portero le entregó a la señora Stevens el diario pedido y el proceso de acción que ésta siguió antes de matarse se presume lógicamente así: la propietaria revisó las adiciones#en las libretas donde llevaba anotadas las entradas y salidas de su contabilidad doméstica, porque las libretas se encontraban sobre la mesa del comedor con algunos gastos del día subrayados; luego se sirvió un vaso de agua con whisky, y en esta mezcla arrojó aproximadamente medio gramo de cianuro de potasio. A continuación se puso a leer el diario, bebió el veneno, y al sentirse morir trató de ponerse de pie y cayó sobre la alfombra. El periódico fue hallado entre sus dedos tremendamente contraídos.",
+				{"textlines":["Sus declaraciones coincidían en un todo con las de la antigua doméstica que servía hacía muchos años a la señora Stevens. Esta mujer, que dormía afuera del departamento, a las siete de la tarde se retiró a su casa. La última orden que recibió de la señora Stevens fue que le enviara por el portero un diario de la tarde. La criada se marchó; a las siete y diez el portero le entregó a la señora Stevens el diario pedido y el proceso de acción que ésta siguió antes de matarse se presume lógicamente así: la propietaria revisó las adiciones en las libretas donde llevaba anotadas las entradas y salidas de su contabilidad doméstica, porque las libretas se encontraban sobre la mesa del comedor con algunos#gastos del día subrayados; luego se sirvió un vaso de agua con whisky, y en esta mezcla arrojó aproximadamente medio gramo de cianuro de potasio. A continuación se puso a leer el diario, bebió el veneno, y al sentirse morir trató de ponerse de pie y cayó sobre la alfombra. El periódico fue hallado entre sus dedos tremendamente contraídos.",
 					"Tal era la primera hipótesis que se desprendía del conjunto de cosas ordenadas pacíficamente en el interior del departamento pero, como se puede apreciar, este proceso de suicidio está cargado de absurdos psicológicos. Ninguno de los funcionarios que intervinimos en la investigación  podíamos aceptar congruentemente que la señora Stevens se hubiese suicidado. Sin embargo, únicamente la Stevens podía haber echado el cianuro en el vaso. El whisky no contenía veneno. El agua que se agregó al whisky también era pura. Podía presumirse que el veneno había sido depositado en el fondo o las paredes de la copa, pero el vaso utilizado  por la suicida había sido retirado de un anaquel donde se hallaba una docena de vasos del mismo estilo; de manera que el presunto asesino no podía saber se la Stevens iba a utilizar éste o aquél. La oficina policial de química nos informó que ninguno de los vasos contenía veneno adherido a sus paredes.",
-					"El asunto no era fácil. Las primeras pruebas, pruebas mecánicas como las llamaba yo, nos inclinaban a aceptar que la viuda se había quitado la vida por su propia mano, pero la evidencia de que ella estaba distraída leyendo un periódico cuando la sorprendió la muerte transformaba en disparatada la prueba mecánica del suicidio.",
-					"Tal era la situación técnica del caso cuando yo fui designado por mis superiores para continuar ocupándome de él. En cuanto a los informes de nuestro gabinete de análisis, no cabía dudas. Únicamente en el vaso, donde la señora Stevens había bebido, se encontraba veneno. El agua y el whisky de las botellas eran completamente inofensivos. Por otra parte, la declaración del portero era terminante; nadie había visitado a la señora Stevens después que él le alcanzó el periódico; de manera que si yo, después de algunas investigaciones superficiales, hubiera cerrado el sumario informando de un suicidio comprobado, mis superiores no hubiesen podido objetar palabra. Sin embargo, para mí cerrar el sumario significaba confesarme fracasado. La señora Stevens había sido asesinada, y había un indicio que lo comprobaba:¿ dónde se hallaba el envase que contenía el veneno antes de que ella lo arrojara en su bebida?",
+					"El asunto no era fácil. Las primeras pruebas, pruebas mecánicas como las llamaba yo, nos inclinaban a aceptar que la viuda se había quitado la vida por su propia mano, pero la evidencia de que ella estaba distraída leyendo un periódico cuando la#sorprendió la muerte transformaba en disparatada la prueba mecánica del suicidio. ",
+					"Tal era la situación técnica del caso cuando yo fui designado por mis superiores para continuar ocupándome de él. En cuanto a los informes de nuestro gabinete de análisis, no cabía dudas. Únicamente en el vaso, donde la señora Stevens había bebido, se encontraba veneno. El agua y el whisky de las botellas eran completamente inofensivos. Por otra parte, la declaración del portero era terminante; nadie había visitado a la señora Stevens después que él le alcanzó el periódico; de manera que si yo, después de algunas investigaciones#superficiales, hubiera cerrado el sumario informando de un suicidio comprobado, mis superiores no hubiesen podido objetar palabra. Sin embargo, para mí cerrar el sumario significaba confesarme fracasado. La señora Stevens había sido asesinada, y había un indicio que lo comprobaba: ¿dónde se hallaba el envase que contenía el veneno antes de#que ella lo arrojara en su bebida? ",
 					"Por más que nosotros revisáramos el departamento, no nos fue posible descubrir la caja, el sobre o el frasco que contuvo el tóxico. Aquel indicio resultaba extraordinariamente sugestivo. Además había otro: los hermanos de la muerta eran tres bribones.",
 					"Los tres, en menos de diez años, habían despilfarrado los bienes que heredaron de sus padres. Actualmente sus medios de vida no eran del todo satisfactorios.",
 					"Juan trabajaba como ayudante de un procurador especializado en divorcios. Su conducta resultó más de una vez sospechosa y lindante con la presunción de un chantaje. Esteban era corredor de seguros y había asegurado a su hermana en una gruesa suma a su favor,; en cuanto a Pablo, trabajaba de veterinario , pero estaba descalificado por la Justicia e inhabilitado para ejercer su profesión, convicto de haber dopado caballos. Para no morirse de hambre ingresó en la industria lechera, se ocupaba de los análisis.",
 					"Tales eran los hermanos de la señora Stevens. En cuanto a ésta, había enviudado tres veces. El día del ¨suicidio¨ cumplió 68 años; pero era una mujer extraordinariamente conservada, gruesa, robusta, enérgica, con el cabello totalmente renegrido. Podía aspirar a casarse una cuarta vez y manejaba su casa alegremente y con puño duro. Aficionada a los placeres de la mesa, su despensa estaba provista de vinos y comestibles, y no cabe duda de que sin aquel ¨accidente¨ la viuda hubiera vivido cien años. Suponer que una mujer de ese carácter era capaz de suicidarse, es desconocer la naturaleza humana. Su muerte beneficiaba a cada uno de los tres hermanos con doscientos treinta mil pesos.",
 					"La criada de la muerta era una mujer casi estúpida, y utilizada por aquélla en las labores groseras de la casa. Ahora estaba prácticamente aterrorizada al verse engranada en un procedimiento judicial.",
-					"El cadáver fue descubierto por el portero y la sirvienta a las siete de  la mañana, hora en que ésta, no pudiendo abrir la puerta porque las hojas estaban aseguradas por dentro con cadenas de acero, llamó en su auxilio al encargado de la casa. A las once de la mañana, como creo haber dicho anteriormente, estaban en nuestro poder los informes del laboratorio de análisis, a las tres de la tarde abandonaba yo la habitación que quedaba detenida la sirvienta, con una idea brincando en el magín: ¿y si alguien había entrado en el departamento de la viuda rompiendo un vidrio de#la ventana y colocando otro después  que volcó el veneno en el vaso? Era una fantasía de novela policial, pero convenía verificar la hipótesis."]},
+					"El cadáver fue descubierto por el portero y la sirvienta a las siete de  la mañana, hora en que ésta, no pudiendo abrir la puerta porque las hojas estaban aseguradas por dentro con cadenas de acero, llamó en su auxilio al encargado de la casa. A las once de la mañana, como creo haber dicho anteriormente, estaban en nuestro poder los informes del laboratorio de análisis, a las tres de la#tarde abandonaba yo la habitación que quedaba detenida la sirvienta, con una idea brincando en el magín: ¿y si alguien había entrado en el departamento de la viuda rompiendo un vidrio de la ventana y colocando otro después  que volcó el veneno en el vaso? Era una fantasía de novela policial, pero convenía verificar la hipótesis."]},
 
 				{"textlines":["Salí decepcionado del departamento. Mi conjetura era absolutamente disparatada: la masilla solidificada no revelaba mudanza alguna.",
 					"Eché a caminar sin prisa. El ¨suicidio¨ de la señora Stevens me preocupaba (diré una enormidad) no policialmente, sino deportivamente. Yo estaba en presencia de un asesino sagacísimo, posiblemente uno de los tres hermanos que había utilizado un recurso simple y complicado, pero imposible de presumir en la nitidez de aquel vacío.",
 					"Absorbido en mis cavilaciones, entré en un café, y tan identificado estaba en mis conjeturas, que yo. que nunca bebo bebidas alcohólicas, automáticamente pedí un whisky. ¿Cuánto tiempo permaneció el",
 					"whisky servido frente a mis ojos? No lo sé; pero de pronto mis ojos vieron el vaso de whisky, la garrafa de agua y un plato con trozos de hielo. Atónito quedé mirando el conjunto aquel. De pronto una idea alumbró mi curiosidad, llamé al camarero, le pagué la bebida que no había tomado, subí apresuradamente a un automóvil y me dirigí a la casa de la sirvienta. Una hipótesis daba grandes saltos en mi cerebro. Entré en la habitación donde estaba detenida, me senté frente a ella y le dije:",
-					"- Míreme bien y fíjese en lo que me va a contestar: la señora Stevens, ¿tomaba el whisky con hielo o sin hielo?",
+					"- Míreme bien y fíjese en lo#que me va a contestar: la señora Stevens, ¿tomaba el whisky con hielo o sin hielo? ",
 					"-Con hielo, señor.",
 					"-¿Dónde compraba el hielo?",
 					"- No lo compraba, señor. En casa había una heladera pequeña que lo fabricaba en pancitos. - Y la criada casi iluminada prosiguió, a pesar de su estupidez.-",
 					"-Ahora que me acuerdo, la heladera, hasta ayer, que vino el señor Pablo, estaba descompuesta. Él se encargó de arreglarla en un momento.",
-					"Una hora después nos encontrábamos en el departamento de la suicida el químico de nuestra oficina de análisis, el técnico  retiró el agua que se encontraba en el depósito congelador de la heladera y varios pancitos de hielo. El químico inició la operación destinada a revelar la presencia del tóxico, y a los pocos minutos pudo manifestarnos:",
+					"Una hora después nos encontrábamos en el departamento de la suicida el químico de nuestra oficina de análisis, el técnico  retiró el agua que se encontraba en el depósito congelador de la heladera y varios pancitos#de hielo. El químico inició la operación destinada a revelar la presencia del tóxico, y a los pocos minutos pudo manifestarnos: ",
 					"- El agua está envenenada y los panes de este hielo están fabricados con agua envenenada.",
 					"Nos miramos jubilosamente. El misterio estaba desentrañado.",
-					"Ahora era un juego reconstruir el crimen. El doctor Pablo, al reparar el fusible de la heladera (defecto que localizó el técnico) arrojó en el depósito congelador una cantidad de cianuro disuelto. Después, ignorante de lo que aguardaba, la señora Stevens preparó un whisky; del depósito retiró un pancito de hielo (lo cual explicaba que el vaso con hielo disuelto se encontrara sobre la mesa), el cual, al derretirse en el alcohol, lo envenenó poderosamente debido a su alta concentración. Sin imaginarse que la muerte la aguardaba en su vicio, la señora Stevens se puso a leer el periódico, hasta que juzgando el whisky suficientemente enfriado, bebió un sorbo. Los efectos no se hicieron esperar.",
+					"Ahora era un juego reconstruir el crimen. El doctor Pablo, al reparar el fusible de la heladera (defecto que localizó el técnico) arrojó en el depósito congelador una cantidad de cianuro disuelto. Después, ignorante de lo que aguardaba, la señora Stevens preparó un whisky; del depósito retiró un pancito de hielo (lo cual explicaba que el vaso con#hielo disuelto se encontrara sobre la mesa), el cual, al derretirse en el alcohol, lo envenenó poderosamente debido a su alta concentración. Sin imaginarse que la muerte la aguardaba en su vicio, la señora Stevens se puso a leer el periódico, hasta que juzgando el whisky suficientemente enfriado, bebió un sorbo. Los efectos no se hicieron esperar.",
 					"No quedaba sino ir en busca del veterinario. Inútilmente lo aguardamos  en su casa. Ignoraban dónde se encontraba. Del laboratorio donde trabajaba  nos informaron que llegaría a las diez de la noche.",
 					"A las once, yo, mi superior y el juez nos presentamos en el laboratorio de la Erpa. El doctor Pablo, en cuanto nos vio comparecer en grupo, levantó el brazo como si quisiera anatemizar nuestras investigaciones, abrió la boca y se desplomó inerte junto a la mesa de mármol. Lo había muerto de un síncope. En su armario se encontraba un frasco de veneno. Fue el asesino más ingenioso que conocí."]}
 			],
@@ -906,7 +906,7 @@
 					"-¿Qué hiciste con las anotaciones?",
 					"Valentín señaló dos o tres ceniceros llenos de papelitos quemados.",
 					"-Me ganaron de mano con el baño -comentó-. Hay mucha corrida esta mañana.",
-					"-Qué risa -dijo el comisario-. ¿Vos sabés la alegría que me da verte?",
+					"-Qué risa -dijo el comisario- ¿Vos sabés la alegría que me da verte?#",
 					"El otro hizo un gesto dubitativo.",
 					"-Y a vos también -prosiguió el comisario-. Se te nota en la cara. Vamos a arreglar para vernos más seguido.",
 					"Valentín cerró la puerta.",
@@ -915,14 +915,14 @@
 					"Cruzaron a tomar un café. Eran las diez.",
 					"-Pinta feo -admitió Suárez-. ¿Qué sabe del muerto?",
 					"-Lo mismo que nada. Estudiante boliviano. Daba un examen cada dos años. Anoche lo vieron entrar borracho, a eso de las cuatro.",
-					"En ese momento descubrieron a Isaías Bloom parado en la puerta del café, buscándolos con mirada de mochuelo. Le hicieron señas.",
-					"-Estuve reconstruyendo -explicó mientras se sentaba-. Olmedo estaba asustado. Hace cuatro días me dijo que tenía algo serio que contarme, y que a lo mejor iba a ver a la policía a ustedes.",
+					"En ese momento descubrieron a Isaías Bloom parado en la puerta#del café, buscándolos con mirada de mochuelo. Le hicieron señas. ",
+					"-Estuve reconstruyendo -explicó mientras se sentaba-. Olmedo estaba asustado. Hace cuatro días me dijo que tenía algo serio que contarme, y que a lo mejor iba a ver a la policía -a ustedes.",
 					"-¿Qué le pasaba?",
 					"-No quiso decir. Era muy hermético y estaba nervioso. Pero además, es cierto que estaban ocurriendo cosas raras. El domingo a la noche, por ejemplo, creo que alguien entró en la pieza. Yo estaba dormido y soñé algo. Soñé con un bosque y una mariposa de luz que revoloteaba entre los árboles y yo trataba de alcanzarla.",
 					"-Ajá -dijo el comisario, tamborileando sobre la mesa.",
 					"-Entonces me desperté y me pareció oír un ruidito metálico. Me quedé mirando la esfera luminosa del despertador que estaba sobre el escritorio. De golpe no la vi más, y enseguida volví a verla.",
 					"-¿Y eso qué quiere decir?",
-					"-A lo mejor quiere decir que alguien pasó frente al reloj cuando yo lo estaba mirando.",
+					"-A lo mejor quiere decir que alguien pasó frente al reloj cuando yo lo estaba#mirando. ",
 					"-Sería el mismo Olmedo.",
 					"-No, porque prendí la luz y estaba dormido. Al día siguiente se quejó de que le habían estado revisando las cosas.",
 					"-¿Qué cosas?",
@@ -987,7 +987,7 @@
 
 				{"textlines":["Pero el comisario corría ya hacia la pieza de Velarde, donde sólo encontró el hálito de una fuga que no lo iba a llevar más lejos que el Aeroparque.",
 						"Los hombres del gabinete habían llegado por fin y envolvían con cuidado una alfombrita verde que todavía conservaba rastros de humedad y, si tenían suerte, de veneno, y algunas esquirlas de vidrio.",
-						"-Le temblaron las manos al envenenarle el agua a Olmedo -explicaba ahora el comisario a los periodistas-. Se le rompió la copa y no tuvo más remedio que llevársela para no dejar huellas. A la noche siguiente se decidió por el cuchillo. Parece que estaba desesperado por lo que iba a contarnos Olmedo, si le daba tiempo. Andaban los dos en el tráfico de drogas y Olmedo quiso abrirse. Eso es todo. Los detalles los inventan ustedes.",
+						"-Le temblaron las manos al envenenarle el agua a Olmedo -explicaba ahora el comisario a los periodistas-. Se le rompió la copa y no tuvo más remedio que llevársela para no dejar huellas. A la noche siguiente se decidió por el cuchillo. Parece que estaba desesperado por lo que iba a contarnos Olmedo, si le daba tiempo. Andaban los dos en el tráfico de drogas y Olmedo quiso abrirse. Eso es todo. Los detalles los inventan ustedes. ",
 						"A la salida se encontraron con Isaías Bloom.",
 						"-Seguí soñando, pibe -dijo el comisario."]}
 			],
@@ -1014,14 +1014,14 @@
 			"type":"1",
 			"area":"4",
 			"texts":[
-				{"textlines":["1. El poema [emanaba,hemanaba] mucha alegría.",
-					"2. En la [huida,uida], perdió su calzado.",
-					"3. Es un departamento de pocos [ambientes,hambientes].",
-					"4. Es una camisa muy [holgada,olgada].",
-					"5. [Hablemos,Ablemos] de otro tema.",
-					"6. [Hallamos,Allamos] la respuesta correcta.",
-					"7. La energía [hidráulica,idráulica] es una fuente única para el planeta.",
-					"8. La [ida,hida] del Martín Fierro llamó la atención de los lectores."]}
+				{"textlines":["1) El poema [emanaba,hemanaba] mucha alegría.",
+					"2) En la [huida,uida] perdió su calzado.",
+					"3) Es un departamento de pocos [ambientes,hambientes].",
+					"4) Es una camisa muy [holgada,olgada].",
+					"5) [Hablemos,Ablemos] de otro tema.",
+					"6) [Hallamos,Allamos] la respuesta correcta.",
+					"7) La energía [hidráulica,idráulica] es una fuente única para el planeta.",
+					"8) La [ida,hida] del Martín Fierro llamó la atención de los lectores."]}
 			],
 			"trivias":[
 			
@@ -1036,13 +1036,13 @@
 			"type":"1",
 			"area":"4",
 			"texts":[
-				{"textlines":["1. Padeció una fuerte [neuralgia,neuraljia].",
-					"2. Su [angelical,anjelical] mirada la cautivó.",
-					"3. Su producción es muy [original,orijinal].",
-					"4. Su risa es muy [contagiosa,contajiosa].",
-					"5. [Trabajé,Trabagé] muy duro para obtener buenos resultados.",
-					"6. Ya te [traje,trage] tus apuntes.",
-					"7. Yo te [dije,dige] mi secreto."]}
+				{"textlines":["1) Padeció una fuerte [neuralgia,neuraljia].",
+					"2) Su [angelical,anjelical] mirada la cautivó.",
+					"3) Su producción es muy [original,orijinal].",
+					"4) Su risa es muy [contagiosa,contajiosa].",
+					"5) [Trabajé,Trabagé] muy duro para obtener buenos resultados.",
+					"6) Ya te [traje,trage] tus apuntes.",
+					"7) Yo te [dije,dige] mi secreto."]}
 			],
 			"trivias":[
 			
@@ -1057,13 +1057,13 @@
 			"type":"1",
 			"area":"4",
 			"texts":[
-				{"textlines":["1. Ha sido [privilegio,pribilegio] un  conocerte. ",
-					"2. Julián está [meditabundo,meditavundo].",
-					"3. La [biblioteca,viblioteca] es magnífica.",
-					"4. Los chicos [buscan,vuscan] un nuevo videojuego.",
-					"5. Los estudiantes [debían,devían] ingresar en horario al colegio.",
-					"6. Martín y Florencia [iban,ivan] al club todos los sábados.",
-					"7. Mi mascota es [herbívora,herbíbora]."]}
+				{"textlines":["1) Ha sido [privilegio,pribilegio] un  conocerte. ",
+					"2) Julián está [meditabundo,meditavundo].",
+					"3) La [biblioteca,viblioteca] es magnífica.",
+					"4) Los chicos [buscan,vuscan] un nuevo videojuego.",
+					"5) Los estudiantes [debían,devían] ingresar en horario al colegio.",
+					"6) Martín y Florencia [iban,ivan] al club todos los sábados.",
+					"7) Mi mascota es [herbívora,herbíbora]."]}
 			],
 			"trivias":[
 			
@@ -1082,13 +1082,13 @@
 			"type":"1",
 			"area":"5",
 			"texts":[
-				{"textlines":["1. La [palidez,palides,palidec] de su rostro me llamó la atención.",
-					"2. Mañana es la última [función,funsión,funzión] del grupo de teatro.",
-					"3. No seas [ofensivo,ofencivo,ofenzivo].",
-					"4. Nos gusta esa [canción,cansión,canzión].",
-					"5. Podremos [movilizar,movilisar,movilicar] nuestros ideales.",
-					"6. Por fin llegó su [décimo,désimo,dézimo] cumpleaños.",
-					"7. Pronto leeremos literatura [gauchesca,gauchecca,gauchezca]."]}
+				{"textlines":["1) La [palidez,palides,palidec] de su rostro me llamó la atención.",
+					"2) Mañana es la última [función,funsión,funzión] del grupo de teatro.",
+					"3) No seas [ofensivo,ofencivo,ofenzivo]",
+					"4) Nos gusta esa [canción,cansión,canzión].#",
+					"5) Podremos [movilizar,movilisar,movilicar] nuestros ideales.",
+					"6) Por fin llegó su [décimo,désimo,dézimo] cumpleaños.",
+					"7) Pronto leeremos literatura [gauchesca,gauchecca,gauchezca]."]}
 			],
 			"trivias":[
 			
@@ -1104,12 +1104,12 @@
 			"area":"5",
 			"texts":[
 				{"textlines":["Hubo en un tiempo un admirable arquitecto, [inventor,invéntor,inventór] y artesano llamado Dédalo.",
-					"La diosa Atenea en persona le [transmitió,transmitio,transmitío] esas artes.",
-					"Estaba muy orgulloso de sus invenciones, tanto que no soportaba la idea de tener un rival. Pero ocurrió que su sobrino, Perdix, a quien supo [enseñar,énseñar,enseñár] su oficio, se convirtió en un aprendiz ejemplar:",
+					"La diosa Atenea en persona le [transmitió,transmitio,transmitío] esas artes.#",
+					"Pero ocurrió que su sobrino, Perdix, a quien supo [enseñar,énseñar,enseñár] su oficio, se convirtió en un aprendiz ejemplar:#",
 					"con sólo doce años, [inventó,invento,ínventó] la sierra inspirado en la espina de los peces.",
-					"Dédalo [empezó,empezo,émpezo] a tener celos de él, ya que lo igualaba en inventiva.",
-					"Un día, envidioso de sus logros, llevó al joven a lo alto del templo de Atenea en la Acrópolis y, con la excusa de señalarle unas vistas lejanas, lo [empujó,empujo,empújo] y lo hizo caer a tierra.",
-					"Pero la diosa Atenea salvó el alma del joven transformándolo en un ave de vuelo bajo, la [perdiz,perdíz,pérdiz]..."]}
+					"Dédalo [empezó,empezo,émpezo] a tener celos de él, ya que lo igualaba en inventiva. Un día, envidioso de sus logros, llevó al joven a lo alto del#",
+					"templo de Atenea en la Acrópolis y, con la excusa de señalarle unas vistas lejanas, lo [empujó,empujo,empújo] y lo hizo caer a tierra.",
+					"Pero la diosa Atenea salvó el alma del joven transformándolo en un ave de vuelo bajo, la [perdiz,perdíz,pérdiz]"]}
 			],
 			"trivias":[
 			
@@ -1124,13 +1124,13 @@
 			"type":"1",
 			"area":"5",
 			"texts":[
-				{"textlines":["1. La teoría [heliocéntrica,eliocéntrica] cambió el pensamiento de la humanidad.",
-					"2. Las palabras [homófonas,omófonas] suenan igual.",
-					"3. Logré realizar el [heptágono,eptágono] en geometría.",
-					"4. Los seres [humanos,umanos] somos maravillosos.",
-					"5. Me asustó la [hiena,iena].",
-					"6. Mi [hermano/ermano] no es mi clon.",
-					"7. No se quebró el [omóplato,homóplato]."]}
+				{"textlines":["1) La teoría [heliocéntrica,eliocéntrica] cambió el pensamiento humanidad.#",
+					"2) Las palabras [homófonas,omófonas] suenan igual.",
+					"3) Logré realizar el [heptágono,eptágono] en geometría.",
+					"4) Los seres [humanos,umanos] somos maravillosos.",
+					"5) Me asustó la [hiena,iena].",
+					"6) Mi [hermano,ermano] no es mi clon.",
+					"7) No se quebró el [omóplato,homóplato]."]}
 			],
 			"trivias":[
 			
@@ -1147,11 +1147,11 @@
 			"texts":[
 				{"textlines":["La Tritonia había prestado sus oídos a tales relatos y a las canciones de las Aónides y había aprobado  su justa ira. Ella recordó entonces la vanidad de Aracne, que en cierta  ocasión había dicho que la aventajaba en el arte de trabajar la lana. Esta doncella no era ilustre por su nacimiento ni por la categoría de sus padres sino por su arte. Idmón, su padre, era un simple tintorero de lanas en la ciudad de Colofón, y su madre, que ya había muerto, había sido de tan humilde familia como su marido. Sin embargo, su hija había adquirido una gran reputación por la destreza con que ejecutaba sus labores. Vivía en la pequeña ciudad de Hipepo. Atraía hasta allí la curiosidad de las ninfas de Mole y del Pactolo, que a menudo abandonaban sus encantadoras viñas y las aguas de su río para admirar la belleza de las obras de Aracne."]},
 
-				{"textlines":["No constituía solamente un placer infinito ver esas obras maestras cuando estaban acabadas, sino el encanto de vérselas ejecutar con tan significada gracia, ya sea si aglomeraba la ruda lana en los primeros círculos o ya sea si con los dedos hacía subir la obra y, buscados largo trecho, ablandaba unos vellones que igualaban a las nubes, o si con ligero pulgar giraba el pulido huso. Se podría haber dicho que Minerva en persona las había ejecutado. Con la misma presteza y gracia que hilaba, trabajaba con la aguja. Ella, sabedora de su habilidad no reconocía a la diosa superioridad en su arte: Puede venir - decía ella - y disputar conmigo cuál de las dos es más hábil; no rechazo el combate. Y si soy vencida quiero someterme a toda suerte de castigos. Picada por el discurso de la insolente, Minerva, tomando la figura de una viejecita de blanca cabellera y apoyándose sobre un bastón, le comenzó a hablarle así a Aracne: No se debe despreciar la vejez. Los años dan la experiencia, y no debes dejar de escuchar los consejos que te voy a dar. Conténtate con la reputación con que por tu habilidad has sobrepasado a todas las mujeres del mundo; pero no trates jamás de igualarte a una diosa. Debes satisfacer con alguna explicación las palabras ofensivas que acabas de proferir: ella está presta a perdonarte si demuestras arrepentimiento. Aracne contempló a la anciana y, con el semblante torvo, dejó su tejido, sin ocultar su ira en el semblante, le habló así: Vieja insensata, parece en verdad que los años te han dotado de gran juicio y que el peso de los años te es de gran utilidad. Ve, ve a dar estos sanos consejos a tu  hija, si es que la tienes: yo, desde luego, te aseguro que no los necesito de nadie, y que estas manifestaciones no me harán cambiar de sentimiento ¿Por qué Minerva no se presenta tal como es? ¿Por qué rehuye el desprecio que le he hecho? Lo acepta, dijo la diosa quien se despojó de la figura de la anciana y dejó notar la  verdadera imagen de Minerva. Las ninfas y mujeres que por allí andaban le rindieron sus honores; Aracne se conservó imperturbable: solamente un levísimo rubor cubrió sus mejillas. Le duró poco tiempo. Pronto le volvió su blanco color de antes. Ambas se preparaban para la obra. El  instrumento rodaba con una agilidad increíble y cada vez que el hilo pasa a través del mismo tenían el cuidado de separarlo con un peine especial, necesario en esta clase de trabajo. Tanto la una como la otra trabajan con una destreza y ligereza admirables, poniendo ambas un gran celo en quererse sobrepasar. La unión de los más bellos colores formaba sobre sus telas una mezcla tan agradable de claros y oscuros, y las nubes eran tan delicadas y diluidas, que se hubiera podido compararlas a los colores del Arco Iris. Imaginen los rayos del Sol a través de suavísima lluvia, descomponiéndose en los siete maravillosos colores. Hasta tal punto los colores que se tocaban eran los mismos, sin embargo había grandes diferencias entre ellas. Por allí también dúctil en los hilos se entremete el oro, y un viejo argumento a las telas se lleva.  Cada una de ellas trazó sobre su tejido antiguas historias."]},
+				{"textlines":["No constituía solamente un placer infinito ver esas obras maestras cuando estaban acabadas, sino el encanto de vérselas ejecutar con tan significada gracia, ya sea si aglomeraba la ruda lana en los primeros círculos o ya sea si con los dedos hacía subir la obra y, buscados largo trecho, ablandaba unos vellones que igualaban a las nubes, o si con ligero pulgar giraba el pulido huso. Se podría haber dicho que Minerva en persona las había ejecutado. Con la misma presteza y gracia que hilaba, trabajaba con la aguja. Ella, sabedora de su habilidad no reconocía a la diosa superioridad en su arte: ¨Puede venir - decía ella - y disputar conmigo cuál de las dos es más hábil; no rechazo el combate. Y si soy vencida quiero someterme a toda suerte de castigos¨. Picada por el discurso de la insolente, Minerva, tomando la figura de una viejecita de blanca cabellera y apoyándose sobre un bastón, le comenzó a hablarle así a Aracne: ¨No se debe despreciar la vejez. Los años dan la experiencia, y no debes dejar de escuchar los consejos que te voy a dar. Conténtate con la reputación con que por tu habilidad has sobrepasado a todas las mujeres del mundo; pero no trates jamás de igualarte a una diosa. Debes satisfacer con alguna explicación las palabras ofensivas que acabas de proferir: ella está presta a perdonarte#si demuestras arrepentimiento¨. Aracne contempló a la anciana y, con el semblante torvo, dejó su tejido, sin ocultar su ira en el semblante, le habló así: ¨Vieja insensata, parece en verdad que los años te han dotado de gran juicio y que el peso de los años te es de gran utilidad. Ve, ve a dar estos sanos consejos a tu  hija, si es que la tienes: yo, desde luego, te aseguro que no los necesito de nadie, y que estas manifestaciones no me harán cambiar de sentimiento ¿Por qué Minerva no se presenta tal como es? ¿Por qué rehuye el desprecio que le he hecho?¨ ¨Lo acepta¨, dijo la diosa quien se despojó de la figura de la anciana y dejó notar la  verdadera#imagen de Minerva. Las ninfas y mujeres que por allí andaban le rindieron sus honores; Aracne se conservó imperturbable: solamente un levísimo rubor cubrió sus mejillas. Le duró poco tiempo. Pronto le volvió su blanco color de antes. Ambas se preparaban para la obra. El  instrumento rodaba con una agilidad increíble y cada vez que el hilo pasa a través del mismo tenían el cuidado de separarlo con un peine especial, necesario en esta clase de trabajo. Tanto la una como la otra trabajan con una destreza y ligereza admirables, poniendo ambas un gran celo en quererse sobrepasar. La unión de los más bellos colores formaba sobre sus telas una mezcla tan agradable de claros y oscuros, y las nubes eran tan delicadas y diluidas, que se hubiera podido compararlas a los colores del Arco Iris. Imaginen los rayos del Sol a través de suavísima lluvia, descomponiéndose en los siete maravillosos colores. Hasta tal punto los colores que se tocaban eran los mismos, sin embargo había grandes diferencias entre ellas. Por allí también dúctil en los hilos se entremete el oro, y un viejo argumento a las telas se lleva.  Cada una de ellas trazó sobre su tejido antiguas historias."]},
 
 				{"textlines":["Minerva representó en el suyo el pleito que Atenea tuvo con Neptuno sobre el nombre que se debía de dar a esta ciudad. Se observaba allí a los doce grandes dioses sentados sobre sus tronos con su majestad característica y Júpiter en el centro. Cada uno de estos dioses estaba allí representado al natural, pero Júpiter con un aire de grandeza tal que anunciaba ser el maestro del mundo. Neptuno, golpeando la tierra con estridencia, hizo salir un caballo; esto parecía que le autorizaba a dar un nombre a la ciudad. Minerva estaba representada con su casco, su lanza y su escudo, sobre el cual estaba la vencida cabeza de Medusa. La Tritonia daba un golpe a la tierra con su lanza, viéndose salir un olivo repleto de hojas y fruto. Perplejos de admiración los dioses por este prodigio, decidieron en su favor la victoria. Con esto la diosa había terminado su obra.  Sin embargo, para hacer comprender mejor a su rival el castigo que la esperaba por su temeridad, trazó en pequeño en las cuatro esquinas del lienzo la historia de cuatro combates. En uno se veía la aventura de Hemo, rey de Tracia, y de Ródope, su esposa, que fueron convertidos en rocas por haber tenido la audacia de llevar los nombres de Júpiter y Juno. En el otro ángulo estaba la historia de Piga, reina de los Pigmeos, a quien Juno, para castigarla por su presunción, transformó en grulla con el fin de que ella misma estuviera en guerra continua con su pueblo. En el tercer ángulo se veía a Antígona, que había tenido la audacia de compararse con la esposa de Júpiter. Esta diosa la metamorfoseó en cigüeña -ni la ciudad de Ilión, ni Laomedón, su padre, lograron impedir que la revistiera de blancas plumas, de las cuales tuvo la vanidad de celebrarlo-. Finalmente, en la cuarta esquina, se veía a la infortunada Cinara abrazando con lágrimas en los ojos las gradas de un templo. Eran sus propias hijas, a quienes los dioses así las habían metamorfoseado. Minerva rodeó el borde de su trabajo con ramos de olivo entrelazados. Tal era el dibujo que en su obra maestra trazó la diosa, empleando en ella el árbol que le era consagrado.",
 					"Aracne, por su lado, representó a dioses cometiendo varios crímenes (...) Hojas de hiedra entrelazadas, con mucho arte dispuestas, bordeaban esta bella obra de tapicería. Estaba tan bien ejecutada, que Minerva no pudo encontrar en ella ningún defecto.",
-					"La diosa, dolida por el éxito de Aracne,  rompió las pintadas -celestiales delitos-, y tal como el radio del citoríaco monte sostenía, golpeó la frente de la Idmonia Aracne. Con la lanzadera rasgó de arriba abajo el tapiz y golpeó fuertemente la cabeza de Aracne, quien, poseída de gran desesperación, huyó de la gente. Minerva, con un resto de piedad, la sostuvo en el aire y le habló así: ¨Vive pues, pero cuelga, aun así, malvada y esta ley misma de tu castigo, para que no estés libre de inquietud en el futuro, sea declarada para tu descendencia y tus tardíos nietos¨. Al marcharse Minerva, le arrojó el jugo de una hierba envenenada. Se derramaron sus pelos, su nariz y sus orejas por la triste droga tocados; su cabeza y su cuerpo se hicieron pequeños. Las piernas y los brazos en tornaron en patas sutilísimas. El resto lo ocupaba el vientre...",
+					"La diosa, dolida por el éxito de Aracne,  rompió las pintadas -celestiales delitos-, y tal como el radio del citoríaco monte sostenía, golpeó la frente de la Idmonia Aracne. Con la lanzadera rasgó de arriba abajo el tapiz y golpeó fuertemente la cabeza de Aracne, quien, poseída de gran desesperación, huyó#de la gente. Minerva, con un resto de piedad, la sostuvo en el aire y le habló así: ¨Vive pues, pero cuelga, aun así, malvada y esta ley misma de tu castigo, para que no estés libre de inquietud en el futuro, sea declarada para tu descendencia y tus tardíos nietos¨. Al marcharse Minerva, le arrojó el jugo de una hierba envenenada. Se derramaron sus pelos, su nariz y sus orejas por la triste droga tocados; su cabeza y su cuerpo se hicieron pequeños. Las piernas y los brazos en tornaron en patas sutilísimas. El resto lo ocupaba el vientre.",
 					"De esta manera, en araña transformada, siguió tejiendo con sus hilos la tarea a que ella estaba acostumbrada."]}
 			],
 			"trivias":[
@@ -1177,21 +1177,21 @@
 			"type":"0",
 			"area":"5",
 			"texts":[
-				{"textlines":["Al tercer día de lluvia habían matado tantos cangrejos dentro de la casa, que Pelayo tuvo que atravesar su patio anegado para tirarlos al mar, pues el niño recién nacido había pasado la noche con calenturas y se pensaba que era causa de la pestilencia. El mundo estaba triste desde el martes. El cielo y el mar eran una misma cosa de ceniza, y las arenas de la playa, que en marzo fulguraban como polvo de lumbre, se habían convertido en un caldo de lodo y mariscos podridos. La luz era tan mansa al mediodía, que cuando Pelayo regresaba a la casa después de haber tirado los cangrejos, le costó trabajo ver qué era lo que se movía y se quejaba en el fondo del patio. Tuvo que acercarse mucho para descubrir que era un hombre viejo, que estaba tumbado boca abajo en el lodazal, y a pesar de sus grandes esfuerzos no podía levantarse, porque se lo impedían sus enormes alas.",
+				{"textlines":["Al tercer día de lluvia habían matado tantos cangrejos dentro de la casa, que Pelayo tuvo que atravesar su patio anegado para tirarlos al mar, pues el niño recién nacido había pasado la noche con calenturas y se pensaba que era causa de la pestilencia. El mundo estaba triste desde el martes. El cielo y el mar eran una misma cosa de ceniza, y las arenas de la playa, que en marzo fulguraban como polvo de lumbre, se habían convertido en un caldo de lodo y mariscos podridos. La luz era tan mansa al mediodía, que cuando Pelayo regresaba a la casa después de haber tirado los cangrejos, le costó trabajo ver qué era lo que se movía y se quejaba en el fondo del patio. Tuvo que acercarse mucho para descubrir que era un hombre viejo, que estaba tumbado boca abajo en el lodazal, y a pesar de sus grandes esfuerzos no podía levantarse, porque se lo impedían sus enormes alas. ",
 					"Asustado por aquella pesadilla, Pelayo corrió en busca de Elisenda, su mujer, que estaba poniéndole compresas al niño enfermo, y la llevó hasta el fondo del patio. Ambos observaron el cuerpo caído con un callado estupor. Estaba vestido como un trapero. Le quedaban apenas unas hilachas descoloridas en el cráneo pelado y muy pocos dientes en la boca, y su lastimosa condición de bisabuelo ensopado lo había desprovisto de toda grandeza. Sus alas de gallinazo grande, sucias y medio desplumadas, estaban encalladas para siempre en el lodazal. Tanto lo observaron, y con tanta atención, que Pelayo y Elisenda se sobrepusieron muy pronto del asombro y acabaron por encontrarlo familiar. Entonces se atrevieron a hablarle, y él les contestó en un dialecto incomprensible pero con una buena voz de navegante. Fue así como pasaron por alto el inconveniente de las alas, y concluyeron con muy buen juicio que era un náufrago solitario de alguna nave extranjera abatida por el temporal. Sin embargo, llamaron para que lo viera a una vecina que sabía todas las cosas de la vida y la muerte, y a ella le bastó con una mirada para sacarlos del error.",
-					" Es un ángel les dijo. Seguro que venía por el niño, pero el pobre está tan viejo que lo ha tumbado la lluvia.",
-					"Al día siguiente todo el mundo sabía que en casa de Pelayo tenían cautivo un ángel de carne y hueso. Contra el criterio de la vecina sabia, para quien los ángeles de estos tiempos eran sobrevivientes fugitivos de una conspiración celestial, no habían tenido corazón para matarlo a palos. Pelayo estuvo vigilándolo toda la tarde desde la cocina, armado con un garrote de alguacil, y antes de acostarse lo sacó a rastras del lodazal y lo encerró con las gallinas en el gallinero alumbrado. A media noche, cuando terminó la lluvia, Pelayo y Elisenda seguían matando cangrejos. Poco después el niño despertó sin fiebre y con deseos de comer. Entonces se sintieron magnánimos y decidieron poner al ángel en una balsa con agua dulce y provisiones para tres días, y abandonarlo a su suerte en altamar. Pero cuando salieron al patio con las primeras luces, encontraron a todo el vecindario frente al gallinero, retozando con el ángel sin la menor devoción y echándole cosas de comer por los huecos de las alambradas, como si no fuera una criatura sobrenatural sino un animal de circo."]},
+					"- Es un ángel -les dijo-. Seguro que venía por el niño, pero el pobre está tan viejo que lo ha tumbado la lluvia.",
+					"Al día siguiente todo el mundo sabía que en casa de Pelayo tenían cautivo un ángel de carne y hueso. Contra el criterio de la vecina sabia, para quien los ángeles de estos tiempos eran sobrevivientes fugitivos de una conspiración celestial, no#habían tenido corazón para matarlo a palos. Pelayo estuvo vigilándolo toda la tarde desde la cocina, armado con un garrote de alguacil, y antes de acostarse lo sacó a rastras del lodazal y lo encerró con las gallinas en el gallinero alumbrado. A media noche, cuando terminó la lluvia, Pelayo y Elisenda seguían matando cangrejos. Poco después el niño despertó sin fiebre y con deseos de comer. Entonces se sintieron magnánimos y decidieron poner al ángel en una balsa con agua dulce y provisiones para tres días, y abandonarlo a su suerte en altamar. Pero cuando salieron al patio con las primeras luces, encontraron a todo el vecindario frente al gallinero, retozando con el ángel sin la menor#devoción y echándole cosas de comer por los huecos de las alambradas, como si no fuera una criatura sobrenatural sino un animal de circo."]},
 
-				{"textlines":["El padre Gonzaga llegó antes de las siete alarmado por la desproporción de la noticia. A esa hora ya habían acudido curiosos menos frívolos que los del amanecer, y habían hecho toda clase de conjeturas sobre el porvenir del cautivo. Los más simples pensaban que sería nombrado alcalde del mundo. Otros, de espíritu más áspero, suponían que sería ascendido a general de cinco estrellas para que ganara todas las guerras. Algunos visionarios esperaban que fuera conservado como semental para implantar en la tierra una estirpe de hombres alados y sabios que se hicieran cargo del Universo. Pero el padre Gonzaga, antes de ser cura, había sido leñador macizo. Asomado a las alambradas repasó un instante su catecismo, y todavía pidió que le abrieran la puerta para examinar de cerca de aquel varón de lástima que más parecía una enorme gallina decrépita entre las gallinas absortas. Estaba echado en un rincón, secándose al sol las alas extendidas, entre las cáscaras de fruta y las sobras de desayunos que le habían tirado los madrugadores. Ajeno a las impertinencias del mundo, apenas si levantó sus ojos de anticuario y murmuró algo en su dialecto cuando el padre Gonzaga entró en el gallinero y le dio los buenos días en latín. El párroco tuvo la primera sospecha de impostura al comprobar que no entendía la lengua de Dios ni sabía saludar a sus ministros. Luego observó que visto de cerca resultaba demasiado humano: tenía un insoportable olor de intemperie, el revés de las alas sembrado de algas parasitarias y las plumas mayores maltratadas por vientos terrestres, y nada de su naturaleza miserable estaba de acuerdo con la egregia dignidad de los ángeles. Entonces abandonó el gallinero, y con un breve sermón previno a los curiosos contra los riesgos de la ingenuidad. Les recordó que el demonio tenía la mala costumbre de recurrir a artificios de carnaval para confundir a los incautos. Argumentó que si las alas no eran el elemento esencial para determinar las diferencias entre un gavilán y un aeroplano, mucho menos podían serlo para reconocer a los ángeles. Sin embargo, prometió escribir una carta a su obispo, para que éste escribiera otra al Sumo Pontífice, de modo que el veredicto final viniera de los tribunales más altos.",
+				{"textlines":["El padre Gonzaga llegó antes de las siete alarmado por la desproporción de la noticia. A esa hora ya habían acudido curiosos menos frívolos que los del amanecer, y habían hecho toda clase de conjeturas sobre el porvenir del cautivo. Los más simples pensaban que sería nombrado alcalde del mundo. Otros, de espíritu más áspero, suponían que sería ascendido a general de cinco estrellas para que ganara todas las guerras. Algunos visionarios esperaban que fuera conservado como semental para implantar en la tierra una estirpe de hombres alados y sabios que se hicieran cargo del Universo. Pero el padre Gonzaga, antes de ser cura, había sido leñador macizo. Asomado a las alambradas repasó un instante su catecismo, y todavía pidió que le abrieran la puerta para examinar de cerca de aquel varón de lástima que más parecía una enorme gallina decrépita entre las gallinas absortas. Estaba echado en un rincón, secándose al sol las alas extendidas, entre las cáscaras de fruta y las sobras de desayunos que le habían tirado los madrugadores. Ajeno a las impertinencias del mundo, apenas si levantó sus ojos de anticuario y murmuró algo en su dialecto cuando el padre Gonzaga entró en el gallinero y le dio los buenos días en latín. El párroco tuvo la primera sospecha de impostura al comprobar que no entendía la lengua de Dios ni sabía saludar a sus ministros. Luego observó que visto de cerca resultaba demasiado humano: tenía un insoportable olor de intemperie, el revés de las alas sembrado de algas parasitarias y las plumas mayores maltratadas por vientos terrestres, y nada de su naturaleza miserable#estaba de acuerdo con la egregia dignidad de los ángeles. Entonces abandonó el gallinero, y con un breve sermón previno a los curiosos contra los riesgos de la ingenuidad. Les recordó que el demonio tenía la mala costumbre de recurrir a artificios de carnaval para confundir a los incautos. Argumentó que si las alas no eran el elemento esencial para determinar las diferencias entre un gavilán y un aeroplano, mucho menos podían serlo para reconocer a los ángeles. Sin embargo, prometió escribir una carta a su obispo, para que éste escribiera otra al Sumo Pontífice, de modo que el veredicto final viniera de los tribunales más altos.",
 					"Su prudencia cayó en corazones estériles. La noticia del ángel cautivo se divulgó con tanta rapidez, que al cabo de pocas horas había en el patio un alboroto de mercado, y tuvieron que llevar la tropa con bayonetas para espantar el tumulto que ya estaba a punto de tumbar la casa. Elisenda, con el espinazo torcido de tanto barrer basura de feria, tuvo entonces la buena idea de tapiar el patio y cobrar cinco centavos por la entrada para ver al ángel.",
-					"Vinieron curiosos hasta de la Martinica. Vino una feria ambulante con un acróbata volador, que pasó zumbando varias veces por encima de la muchedumbre, pero nadie le hizo caso porque sus alas no eran de ángel sino de murciélago sideral. Vinieron en busca de salud los enfermos más desdichados del Caribe: una pobre mujer que desde niña estaba contando los latidos de su corazón y ya no le alcanzaban los números, un jamaicano que no podía dormir porque lo atormentaba el ruido de las estrellas, un sonámbulo que se levantaba de noche a deshacer dormido las cosas que había hecho despierto, y muchos otros de menor gravedad. En medio de aquel desorden de naufragio que hacía temblar la tierra, Pelayo y Elisenda estaban felices de cansancio, porque en menos de una semana atiborraron de plata los dormitorios, y todavía la fila de peregrinos que esperaban su turno para entrar llegaba hasta el otro lado del horizonte.",
-					"El ángel era el único que no participaba de su propio acontecimiento. El tiempo se le iba buscando acomodo en su nido prestado, aturdido por el calor de infierno de las lámparas de aceite y las velas de sacrificio que le arrimaban a las alambradas. Al principio trataron de que comiera cristales de alcanfor, que, de acuerdo con la sabiduría de la vecina sabia, era el alimento específico de los ángeles. Pero él los despreciaba, como despreció sin probarlos los almuerzos papales que le llevaban los penitentes, y nunca se supo si fue por ángel o por viejo que terminó comiendo nada más que papillas de berenjena. Su única virtud sobrenatural parecía ser la paciencia. Sobre todo en los primeros tiempos, cuando le picoteaban las gallinas en busca de los parásitos estelares que proliferaban en sus alas, y los baldados le arrancaban plumas para tocarse con ellas sus defectos, y hasta los más piadosos le tiraban piedras tratando de que se levantara para verlo de cuerpo entero. La única vez que consiguieron alterarlo fue cuando le abrasaron el costado con un hierro de marcar novillos, porque llevaba tantas horas de estar inmóvil que lo creyeron muerto. Despertó sobresaltado, despotricando en lengua hermética y con los ojos en lágrimas, y dio un par de aletazos que provocaron un remolino de estiércol de gallinero y polvo lunar, y un ventarrón de pánico que no parecía de este mundo. Aunque muchos creyeron que su reacción no había sido de rabia sino de dolor, desde entonces se cuidaron de no molestarlo, porque la mayoría entendió que su pasividad no era la de un héroe en uso de buen retiro sino la de un cataclismo en reposo."]},
+					"Vinieron curiosos hasta de la Martinica. Vino una feria ambulante con un acróbata volador, que pasó zumbando varias veces por encima de la muchedumbre, pero nadie le hizo caso porque sus alas no eran de ángel sino de#murciélago sideral. Vinieron en busca de salud los enfermos más desdichados del Caribe: una pobre mujer que desde niña estaba contando los latidos de su corazón y ya no le alcanzaban los números, un jamaicano que no podía dormir porque lo atormentaba el ruido de las estrellas, un sonámbulo que se levantaba de noche a deshacer dormido las cosas que había hecho despierto,#y muchos otros de menor gravedad. En medio de aquel desorden de naufragio que hacía temblar la tierra, Pelayo y Elisenda estaban felices de cansancio, porque en menos de una semana atiborraron de plata los dormitorios, y todavía la fila de peregrinos que esperaban su turno para entrar llegaba hasta el otro lado del horizonte.",
+					"El ángel era el único que no participaba de su propio acontecimiento. El tiempo se le iba buscando acomodo en su nido prestado, aturdido por el calor de infierno de las lámparas de aceite y las velas de sacrificio que le arrimaban a las alambradas. Al principio trataron de que comiera cristales de alcanfor, que, de acuerdo con la sabiduría de la vecina sabia, era el alimento específico de los#ángeles. Pero él los despreciaba, como despreció sin probarlos los almuerzos papales que le llevaban los penitentes, y nunca se supo si fue por ángel o por viejo que terminó comiendo nada más que papillas de berenjena. Su única virtud sobrenatural parecía ser la paciencia. Sobre todo en los primeros tiempos, cuando le picoteaban las gallinas en busca de los parásitos estelares que proliferaban en sus alas, y los baldados le arrancaban plumas para tocarse con ellas sus defectos, y hasta los más piadosos le tiraban piedras tratando de que se levantara para verlo de cuerpo entero. La única vez que consiguieron alterarlo fue cuando le abrasaron el costado con un hierro de marcar novillos, porque llevaba tantas horas de estar inmóvil que lo creyeron muerto. Despertó sobresaltado, despotricando en lengua hermética y con los ojos en lágrimas, y dio un par de aletazos que provocaron un remolino de estiércol de gallinero y polvo lunar, y un#ventarrón de pánico que no parecía de este mundo. Aunque muchos creyeron que su reacción no había sido de rabia sino de dolor, desde entonces se cuidaron de no molestarlo, porque la mayoría entendió que su pasividad no era la de un héroe en uso de buen retiro sino la de un cataclismo en reposo."]},
 
-				{"textlines":["El padre Gonzaga se enfrentó a la frivolidad de la muchedumbre con fórmulas de inspiración doméstica, mientras le llegaba un juicio terminante sobre la naturaleza del cautivo. Pero el correo de Roma había perdido la noción de la urgencia. El tiempo se les iba en averiguar si el convicto tenía ombligo, si su dialecto tenía algo que ver con el arameo, si podía caber muchas veces en la punta de un alfiler, o si no sería simplemente un noruego con alas. Aquellas cartas de parsimonia habrían ido y venido hasta el fin de los siglos, si un acontecimiento providencial no hubiera puesto término a las tribulaciones del párroco.",
-					"Sucedió que por esos días, entre muchas otras atracciones de las ferias errantes del Caribe, llevaron al pueblo el espectáculo triste de la mujer que se había convertido en araña por desobedecer a sus padres. La entrada para verla no sólo costaba menos que la entrada para ver al ángel, sino que permitían hacerle toda clase de preguntas sobre su absurda condición, y examinarla al derecho y al revés, de modo que nadie pusiera en duda la verdad del horror. Era una tarántula espantosa del tamaño de un carnero y con la cabeza de una doncella triste. Pero lo más desgarrador no era su figura de disparate, sino la sincera aflicción con que contaba los pormenores de su desgracia: siendo casi una niña se había escapado de la casa de sus padres para ir a un baile, y cuando regresaba por el bosque después de haber bailado toda la noche sin permiso, un trueno pavoroso abrió el cielo en dos mitades, y por aquella grieta salió el relámpago de azufre que la convirtió en araña. Su único alimento eran las bolitas de carne molida que las almas caritativas quisieran echarle en la boca. Semejante espectáculo, cargado de tanta verdad humana y de tan temible escarmiento, tenía que derrotar sin proponérselo al de un ángel despectivo que apenas si se dignaba mirar a los mortales. Además los escasos milagros que se le atribuían al ángel revelaban un cierto desorden mental, como el del ciego que no recobró la visión pero le salieron tres dientes nuevos, y el del paralítico que no pudo andar pero estuvo a punto de ganarse la lotería, y el del leproso a quien le nacieron girasoles en las heridas. Aquellos milagros de consolación que más bien parecían entretenimientos de burla, habían quebrantado ya la reputación del ángel cuando la mujer convertida en araña terminó de aniquilarla. Fue así como el padre Gonzaga se curó para siempre del insomnio, y el patio de Pelayo volvió a quedar tan solitario como en los tiempos en que llovió tres días y los cangrejos caminaban por los dormitorios.",
-					"Los dueños de la casa no tuvieron nada que lamentar. Con el dinero recaudado construyeron una mansión de dos plantas, con balcones y jardines, y con sardineles muy altos para que no se metieran los cangrejos del invierno, y con barras de hierro en las ventanas para que no se metieran los ángeles. Pelayo estableció además un criadero de conejos muy cerca del pueblo y renunció para siempre a su mal empleo de alguacil, y Elisenda se compró unas zapatillas satinadas de tacones altos y muchos vestidos de seda tornasol, de los que usaban las señoras más codiciadas en los domingos de aquellos tiempos. El gallinero fue lo único que no mereció atención. Si alguna vez lo lavaron con creolina y quemaron las lágrimas de mirra en su interior, no fue por hacerle honor al ángel, sino por conjurar la pestilencia de muladar que ya andaba como un fantasma por todas partes y estaba volviendo vieja la casa nueva. Al principio, cuando el niño aprendió a caminar, se cuidaron de que no estuviera cerca del gallinero. Pero luego se fueron olvidando del temor y acostumbrándose a la peste, y antes de que el niño mudara los dientes se había metido a jugar dentro del gallinero, cuyas alambradas podridas se caían a pedazos. El ángel no fue menos displicente con él que con el resto de los mortales, pero soportaba las infamias más ingeniosas con una mansedumbre de perro sin ilusiones. Ambos contrajeron la varicela al mismo tiempo. El médico que atendió al niño no resistió la tentación de auscultar al ángel, y encontró tantos soplos en el corazón y tantos ruidos en los riñones, que no le pareció posible que estuviera vivo. Lo que más le asombró, sin embargo, fue la lógica de sus alas. Resultaban tan naturales en aquel organismo completamente humano, que no podía entender por qué no las tenían también los otros hombres.",
-					"Cuando el niño fue a la escuela, hacía mucho tiempo que el sol y la lluvia habían desbaratado el gallinero. El ángel andaba arrastrándose por acá y por allá como un moribundo sin dueño. Lo sacaban a escobazos de un dormitorio y un momento después lo encontraban en la cocina. Parecía estar en tantos lugares al mismo tiempo, que llegaron a pensar que se desdoblaba, que se repetía a sí mismo por toda la casa, y la exasperada Elisenda gritaba fuera de quicio que era una desgracia vivir en aquel infierno lleno de ángeles. Apenas si podía comer, sus ojos de anticuario se le habían vuelto tan turbios que andaba tropezando con los horcones, y ya no le quedaban sino las cánulas peladas de las últimas plumas. Pelayo le echó encima una manta y le hizo la caridad de dejarlo dormir en el cobertizo, y sólo entonces advirtieron que pasaba la noche con calenturas delirantes en trabalenguas de noruego viejo. Fue esa una de las pocas veces en que se alarmaron, porque pensaban que se iba a morir, y ni siquiera la vecina sabia había podido decirles qué se hacía con los ángeles muertos.",
-					"Sin embargo, no sólo sobrevivió a su peor invierno, sino que pareció mejor con los primeros soles. Se quedó inmóvil muchos días en el rincón más apartado del patio, donde nadie lo viera, y a principios de diciembre empezaron a nacerle en las alas unas plumas grandes y duras, plumas de pajarraco viejo, que más bien parecían un nuevo percance de la decrepitud. Pero él debía conocer la razón de estos cambios, porque se cuidaba muy bien de que nadie los notara, y de que nadie oyera las canciones de navegantes que a veces cantaba bajo las estrellas. Una mañana, Elisenda estaba cortando rebanadas de cebolla para el almuerzo, cuando un viento que parecía de alta mar se metió en la cocina. Entonces se asomó por la ventana, y sorprendió al ángel en las primeras tentativas del vuelo. Eran tan torpes, que abrió con las uñas un surco de arado en las hortalizas y estuvo a punto de desbaratar el cobertizo con aquellos aletazos indignos que resbalaban en la luz y no encontraban asidero en el aire. Pero logró ganar altura. Elisenda exhaló un suspiro de descanso, por ella y por él, cuando lo vio pasar por encima de las últimas casas, sustentándose de cualquier modo con un azaroso aleteo de buitre senil. Siguió viéndolo hasta cuando acabó de cortar la cebolla, y siguió viéndolo hasta cuando ya no era posible que lo pudiera ver, porque entonces ya no era un estorbo en su vida, sino un punto imaginario en el horizonte del mar."]}
+				{"textlines":["El padre Gonzaga se enfrentó a la frivolidad de la muchedumbre con fórmulas de inspiración doméstica, mientras le llegaba un juicio terminante sobre la naturaleza del cautivo. Pero el correo de Roma había perdido la noción de la urgencia. El tiempo se les iba en averiguar si el convicto tenía ombligo, si su dialecto tenía algo que ver con el arameo, si podía#caber muchas veces en la punta de un alfiler, o si no sería simplemente un noruego con alas. Aquellas cartas de parsimonia habrían ido y venido hasta el fin de los siglos, si un acontecimiento providencial no hubiera puesto término a las tribulaciones del párroco. ",
+					"Sucedió que por esos días, entre muchas otras atracciones de las ferias errantes del Caribe,#llevaron al pueblo el espectáculo triste de la mujer que se había convertido en araña por desobedecer a sus padres. La entrada para verla no sólo costaba menos que la entrada para ver al ángel, sino que permitían hacerle toda clase de preguntas sobre su absurda condición, y examinarla al derecho y al revés, de modo que nadie pusiera en duda la verdad del horror. Era una tarántula espantosa del tamaño de un carnero y con la cabeza de una doncella triste. Pero lo más desgarrador no era su figura de disparate, sino la sincera aflicción con que contaba los pormenores de su desgracia: siendo casi una niña se había escapado de la casa de sus padres para ir a un baile, y cuando regresaba por el bosque después de haber bailado toda la noche sin permiso,#un trueno pavoroso abrió el cielo en dos mitades, y por aquella grieta salió el relámpago de azufre que la convirtió en araña. Su único alimento eran las bolitas de carne molida que las almas caritativas quisieran echarle en la boca. Semejante espectáculo, cargado de tanta verdad humana y de tan temible escarmiento, tenía que derrotar sin proponérselo al de un ángel despectivo#que apenas si se dignaba mirar a los mortales. Además los escasos milagros que se le atribuían al ángel revelaban un cierto desorden mental, como el del ciego que no recobró la visión pero le salieron tres dientes nuevos, y el del paralítico que no pudo andar pero estuvo a punto de ganarse la lotería, y el del leproso a quien le nacieron girasoles en las heridas. Aquellos milagros de consolación que más bien parecían entretenimientos de burla, habían quebrantado ya la reputación del ángel cuando la mujer convertida en araña terminó de aniquilarla. Fue así como el padre Gonzaga se curó para siempre del insomnio, y el patio de Pelayo volvió a quedar tan solitario como en los tiempos en que llovió#tres días y los cangrejos caminaban por los dormitorios. ",
+					"Los dueños de la casa no tuvieron nada que lamentar. Con el dinero recaudado construyeron una mansión de dos plantas, con balcones y jardines, y con sardineles muy altos para que no se metieran los cangrejos del invierno, y con barras de hierro en las ventanas para que no se metieran los ángeles. Pelayo estableció además un criadero de conejos muy cerca del pueblo y renunció para siempre a su mal empleo de alguacil, y Elisenda se compró unas zapatillas satinadas de tacones altos y muchos vestidos de seda tornasol, de los que usaban las señoras más codiciadas en los domingos de aquellos tiempos. El gallinero fue lo único que no mereció atención. Si alguna vez lo lavaron con creolina y quemaron las lágrimas de mirra en su interior, no fue por hacerle honor al ángel, sino por conjurar la pestilencia de muladar que ya andaba como un fantasma por todas partes y estaba volviendo vieja la casa nueva. Al principio, cuando el niño aprendió a caminar, se cuidaron de que no estuviera cerca del gallinero. Pero luego se fueron olvidando del temor y acostumbrándose a la peste, y antes de que el niño mudara los dientes se había metido a jugar dentro del gallinero, cuyas alambradas podridas se caían a pedazos. El ángel no fue menos displicente con él que con el resto de los mortales, pero soportaba las infamias más ingeniosas con una mansedumbre de perro sin ilusiones. Ambos contrajeron la varicela al mismo tiempo. El médico que atendió al niño no resistió la tentación de auscultar al ángel, y encontró tantos soplos en el corazón y tantos ruidos#en los riñones, que no le pareció posible que estuviera vivo. Lo que más le asombró, sin embargo, fue la lógica de sus alas. Resultaban tan naturales en aquel organismo completamente humano, que no podía entender por qué no las tenían también los otros hombres.",
+					"Cuando el niño fue a la escuela, hacía mucho tiempo que el sol y la lluvia habían#desbaratado el gallinero. El ángel andaba arrastrándose por acá y por allá como un moribundo sin dueño. Lo sacaban a escobazos de un dormitorio y un momento después lo encontraban en la cocina. Parecía estar en tantos lugares al mismo tiempo, que llegaron a pensar que se desdoblaba, que se repetía a sí mismo por toda la casa, y la exasperada Elisenda gritaba fuera#de quicio que era una desgracia vivir en aquel infierno lleno de ángeles. Apenas si podía comer, sus ojos de anticuario se le habían vuelto tan turbios que andaba tropezando con los horcones, y ya no le quedaban sino las cánulas peladas de las últimas plumas. Pelayo le echó encima una manta y le hizo la caridad de dejarlo dormir en el cobertizo, y sólo entonces advirtieron#que pasaba la noche con calenturas delirantes en trabalenguas de noruego viejo. Fue esa una de las pocas veces en que se alarmaron, porque pensaban que se iba a morir, y ni siquiera la vecina sabia había podido decirles qué se hacía con los ángeles muertos.",
+					"Sin embargo, no sólo sobrevivió a su peor invierno, sino que pareció mejor con los primeros soles. Se quedó inmóvil muchos días en el rincón más apartado del patio, donde nadie lo viera, y a principios de diciembre empezaron a nacerle en las alas unas plumas grandes y duras, plumas de pajarraco viejo, que más bien parecían un nuevo percance de la decrepitud. Pero él debía conocer la razón de estos cambios, porque se cuidaba muy bien de que nadie los notara, y de que nadie oyera#las canciones de navegantes que a veces cantaba bajo las estrellas. Una mañana, Elisenda estaba cortando rebanadas de cebolla para el almuerzo, cuando un viento que parecía de alta mar se metió en la cocina. Entonces se asomó por la ventana, y sorprendió al ángel en las primeras tentativas del vuelo. Eran tan torpes, que abrió con las uñas un surco de arado en las hortalizas y estuvo a punto de desbaratar el cobertizo con aquellos aletazos indignos que resbalaban en la luz y no encontraban asidero en el aire. Pero logró ganar altura. Elisenda exhaló un suspiro de descanso, por ella y por él, cuando lo vio pasar por encima de las últimas casas, sustentándose de cualquier#modo con un azaroso aleteo de buitre senil. Siguió viéndolo hasta cuando acabó de cortar la cebolla, y siguió viéndolo hasta cuando ya no era posible que lo pudiera ver, porque entonces ya no era un estorbo en su vida, sino un punto imaginario en el horizonte del mar."]}
 			],
 			"trivias":[
 				{"quest":"¿Qué reacciones genera en el vecindario el hallazgo de Pelayo?",

@@ -25,6 +25,9 @@ namespace TMPro.Examples
 		public int charsPerLine;
 		public int linesPerPage;
 
+		public int charsPerLine_norma;
+		public int linesPerPage_norma;
+
 		public List<string> pages;
 
 		public int charCount, lineCount;
@@ -55,17 +58,27 @@ namespace TMPro.Examples
 		{
 
 			type = t;
+			int charsPL=charsPerLine;
+			int lPP=linesPerPage;
 
 			if (type == TriviaData.TriviaType.literatura) {
 				pageLeft.font = literaturaFont;
+				pageLeft.fontStyle = FontStyles.Normal;
 				pageLeft.fontSize = literaturaFont_size;
 				pageRight.font = literaturaFont;
+				pageRight.fontStyle = FontStyles.Normal;
 				pageRight.fontSize = literaturaFont_size;
+				charsPL = charsPerLine;
+				lPP = linesPerPage;
 			} else if (type == TriviaData.TriviaType.normativa) {
 				pageLeft.font = normativaFont;
+				pageLeft.fontStyle = FontStyles.Italic;
 				pageLeft.fontSize = normativaFont_size;
 				pageRight.font = normativaFont;
+				pageRight.fontStyle = FontStyles.Italic;
 				pageRight.fontSize = normativaFont_size;
+				charsPL = charsPerLine_norma;
+				lPP = linesPerPage_norma;
 			}
 			
 
@@ -83,7 +96,7 @@ namespace TMPro.Examples
 			bool changePage = false;
 			for (int i = 0; i < textlines.Length; i++) {
 				for (int j = 0; j < textlines [i].Length; j++) {				
-					if (nextpage && (textlines [i] [j] == '\n' || textlines [i] [j] == '.' || textlines [i] [j] == '#')) {
+					if (nextpage && (textlines [i] [j] == '\n' || textlines [i] [j] == '.') || textlines [i] [j] == '#') {
 						//page += '#';
 						nextpage = false;
 						changePage = true;
@@ -96,11 +109,11 @@ namespace TMPro.Examples
 					} else {
 						page += textlines [i] [j];
 						charCount++;
-						if (charCount >= charsPerLine || textlines [i] [j] == '\n') {
+						if (charCount >= charsPL || textlines [i] [j] == '\n') {
 							//page += '$';
 							charCount = 0;
 							lineCount++;
-							if (lineCount >= linesPerPage) {						
+							if (lineCount >= lPP) {						
 								nextpage = true;
 							}
 						}

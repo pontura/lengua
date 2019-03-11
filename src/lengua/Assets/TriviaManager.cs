@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class TriviaManager : MonoBehaviour {
 
 	public bool test;
+	int showIndex = 28;
 	public Text title;
 	public Image backgroundLibro;
 	public GameObject libro;
@@ -91,13 +92,16 @@ public class TriviaManager : MonoBehaviour {
 
 	void Update(){
 		if (test) {
-			if (Input.GetKeyDown (KeyCode.Alpha1)) {
-				Events.OpenTrivia ("libro_lab_1");
-			}else if (Input.GetKeyDown (KeyCode.Alpha2)) {
-				Events.OpenTrivia (Data.Instance.triviaData.antologia[0].gameprogress_name);
-			}else if (Input.GetKeyDown (KeyCode.Alpha3)) {
-				Debug.Log ("aca");
-				Events.OpenTrivia (Data.Instance.triviaData.antologia[4].gameprogress_name);
+			if (Input.GetKeyDown (KeyCode.W)) {
+				showIndex++;
+				if (showIndex >= Data.Instance.triviaData.antologia.Length)
+					showIndex = 0;
+			}if (Input.GetKeyDown (KeyCode.Q)) {
+				showIndex--;
+				if (showIndex < 0)
+					showIndex = Data.Instance.triviaData.antologia.Length-1;
+			}else if (Input.GetKeyDown (KeyCode.Alpha1)) {
+				Events.OpenTrivia (Data.Instance.triviaData.antologia[showIndex].gameprogress_name);
 			}
 		}
 	}
