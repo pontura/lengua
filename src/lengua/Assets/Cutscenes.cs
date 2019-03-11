@@ -20,7 +20,9 @@ public class Cutscenes : MonoBehaviour {
 		MAPOTECA,
 		MAPOTECA_END,
 		MAPOTECA2,
-		MAPOTECA_END2
+		MAPOTECA_END2,
+		FINAL,
+		FINAL_END
 	}
 	void Start()
 	{
@@ -189,6 +191,13 @@ public class Cutscenes : MonoBehaviour {
 				GetComponent<Animation> ().Play ("mapoteca2");
 				type = types.MAPOTECA2;
 			}
+			else if (Data.Instance.gameProgress.GetData ("cutscenes").value < 5) {
+				room.roomsManager.character.view.ResetPosition ();
+				Events.OnSaveNewData ("cutscenes", 5);
+				Events.OnFloorClicked (new Vector3 (-1.13f, 0, 2.14f));
+				GetComponent<Animation> ().Play ("final");
+				type = types.FINAL;
+			}
 			else
 				return;
 			break;
@@ -205,6 +214,9 @@ public class Cutscenes : MonoBehaviour {
 			break;
 		case types.MAPOTECA2:
 			OnCutscene (types.MAPOTECA2);
+			break;
+		case types.FINAL:
+			OnCutscene (types.FINAL);
 			break;
 		}
 
@@ -227,6 +239,9 @@ public class Cutscenes : MonoBehaviour {
 			break;
 		case types.MAPOTECA2:
 			OnCutscene (types.MAPOTECA_END2);
+			break;
+		case types.FINAL:
+			OnCutscene (types.FINAL_END);
 			break;
 		}
 	}
@@ -269,6 +284,15 @@ public class Cutscenes : MonoBehaviour {
 		case types.MAPOTECA_END2:
 			GetComponent<Animation> ().Play ("mapoteca_end2");
 			Events.OnDialogue (Data.Instance.dialoguesData.content.mapoteca2, null);
+			room.roomsManager.cutscenesUI.SetOff ();
+			break;
+		case types.FINAL:
+			GetComponent<Animation> ().Play ("final");
+			Events.OnDialogue (Data.Instance.dialoguesData.content.final, null);
+			room.roomsManager.cutscenesUI.SetOff ();
+			break;
+		case types.FINAL_END:
+			print ("DONE");
 			room.roomsManager.cutscenesUI.SetOff ();
 			break;
 		}

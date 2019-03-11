@@ -21,25 +21,23 @@ public class InteractiveEscaleraMapoteca : InteractiveObject
 	{ 
 		if (gameProgressValue == 1) { 
 			Events.ChangeRoom (Room.types.ALTILLO, new Vector2 (3.2f,-0.5f));
+			return;
 		}
 		if (gameProgressValue == 0) { 
 			if (Data.Instance.gameProgress.GetData (itemToBeUsed).value == 1) {			
 				Events.UseItem (itemToBeUsed);
 				Events.OnSaveNewData (itemToBeUsed, 2);
-				Events.OnSaveNewData (gameProgressKey, 1);
-				//Events.OnSaveNewData (itemReward, 1);
-				Events.OnTexts (textWhenDone, "inventary/" + itemToBeUsed, OnUsed);
+				Events.OnTexts (content.usarG, "inventary/" + itemToBeUsed, OnUsed);
 				return;
 			} else {
-				Events.OnTip (textNoUsableItem);
+				Events.OnTip (content.puertaMapoteca);
 			}
-		} else {
-			
-		}
+		} 
 		OnSetProgress (gameProgressValue);
 	}
 	void OnUsed()
 	{
+		Events.OnSaveNewData (gameProgressKey, 1);
 		OnSetProgress (gameProgressValue);
 	}
 	public override void OnSetProgress(int value) 
