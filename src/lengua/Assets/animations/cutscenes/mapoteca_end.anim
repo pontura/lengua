@@ -84,7 +84,7 @@ AnimationClip:
         outWeight: 0
       - serializedVersion: 3
         time: 1.9333333
-        value: 1
+        value: 0
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 103
@@ -254,7 +254,7 @@ AnimationClip:
         outWeight: 0
       - serializedVersion: 3
         time: 1.9333333
-        value: 1
+        value: 0
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 103
@@ -273,13 +273,6 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 0
-    functionName: Zina_Idle
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
-  - time: 1.9
     functionName: Zina_Disappear
     data: 
     objectReferenceParameter: {fileID: 0}
