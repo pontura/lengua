@@ -540,17 +540,236 @@
 		{
 			"character":"zina",
 			"state":"reflexivo",
-			"text": "final!"
+			"text": "Oh, ¡amo las rosas! ¿Esa es para mí?"
+		},
+		{
+			"character":"avatar",
+			"state":"neutro",
+			"text": "¿Por qué no? ¡Claro que es para vos!"
+		},
+		{
+			"character":"zina",
+			"state":"contento",
+			"text": "¡Gracias! ¡Me encanta! He escrito mucho sobre rosas"
+		},
+		{
+			"character":"avatar",
+			"state":"neutro",
+			"text": "No sabía que escribías, además de ser preceptora"
+		},
+		{
+			"character":"zina",
+			"state":"reflexivo",
+			"text": "¿Preceptora, yo? (neutro) No, yo fui maestra, y hace mucho ya"
+		},
+		{
+			"character":"avatar",
+			"state":"preocupado",
+			"text": "Mi tía dijo que eras preceptora… ¿Pero entonces qué hacés en el colegio?"
 		},
 		{
 			"character":"zina",
 			"state":"neutro",
-			"text": "final 2"
+			"text": "¡Yo vivo en el colegio, parte del tiempo! Pensé que lo sabías a esta altura"
+		},
+		{
+			"character":"zina",
+			"state":"neutro",
+			"text": "Pero claro, tu tía quiere contarte todo de a poco, y hace bien"
+		},
+		{
+			"character":"avatar",
+			"state":"neutro",
+			"text": "¿Qué es lo que quiere contarme de a poco?"
+		},
+		{
+			"character":"avatar",
+			"state":"neutro",
+			"text": "¡¿Que el colegio está embrujado?! ¡Creo que de eso ya me di cuenta!"
+		},
+		{
+			"character":"zina",
+			"state":"contento",
+			"text": "Ja, ja, bueno, tanto como embrujado no sé"
+		},
+		{
+			"character":"zina",
+			"state":"neutro",
+			"text": "Pero es cierto que aquí hay lugar para mucha magia"
+		},
+		{
+			"character":"avatar",
+			"state":"neutro",
+			"text": "¿Podés contarme más, entonces? ¡En el altillo pasaron cosas rarísimas!"
+		},
+		{
+			"character":"zina",
+			"state":"neutro",
+			"text": "Lo sé, lo sé y tu tía te espera en la biblioteca para explicarte todo"
+		},
+		{
+			"character":"zina",
+			"state":"neutro",
+			"text": "Me encantó conocerte y espero que volvamos a encontrarnos"
+		},
+		{
+			"character":"zina",
+			"state":"neutro",
+			"text": "Pero si eso no llegara a suceder, no te preocupes"
+		},
+		{
+			"character":"zina",
+			"state":"neutro",
+			"text": "Tu vida estará llena de magia adonde quiera que vayas"
+		},
+		{
+			"character":"avatar",
+			"state":"contento",
+			"text": "Gracias, Zina. También a mí me gustó conocerte. ¡Chau!"
+		}
+	],
+	"final2":
+	[
+		{
+			"character":"marian",
+			"state":"reflexivo",
+			"text": "¡Qué nervios! ¿Qué pasó en el altillo?"
 		},
 		{
 			"character":"avatar",
 			"state":"reflexivo",
-			"text": "final 3"
+			"text": "¡Pasó de todo! ¡Y me extrañó que no me llegara ni un mensaje!"
+		},
+		{
+			"character":"marian",
+			"state":"reflexivo",
+			"text": "Quise comunicarme pero los mensajes no llegan al altillo"
+		},
+		{
+			"character":"marian",
+			"state":"reflexivo",
+			"text": "Es el sector más... intervenido del colegio"
+		},
+		{
+			"character":"avatar",
+			"state":"neutro",
+			"text": "Tía, no puedo más de la intriga, y un poco del susto también"
+		},
+		{
+			"character":"avatar",
+			"state":"neutro",
+			"text": "¿Cómo “intervenido”? ¿Vas a contarme de una vez qué pasa acá?"
+		},
+		{
+			"character":"avatar",
+			"state":"neutro",
+			"text": "Vi cosas imposibles, de otros mundos, como salidas de libros"
+		},
+		{
+			"character":"marian",
+			"state":"contento",
+			"text": "¡Exacto! ¡Ya decía yo que vos también podrías verlas!"
+		},
+		{
+			"character":"avatar",
+			"state":"reflexivo",
+			"text": "¿Querés decir que no todo el mundo las ve? "
+		},
+		{
+			"character":"marian",
+			"state":"reflexivo",
+			"text": "Hasta ahora, solo vos y yo. Bueno, sospecho que algunos alumnos también..."
+		},
+		{
+			"character":"marian",
+			"state":"reflexivo",
+			"text": "A mí me pasó al poco tiempo de trabajar acá"
+		},
+		{
+			"character":"avatar",
+			"state":"reflexivo",
+			"text": "¡Pero yo no soy tan fan de la lectura!"
+		},
+		{
+			"character":"marian",
+			"state":"reflexivo",
+			"text": "Pero está en nuestra familia. "
+		},
+		{
+			"character":"marian",
+			"state":"reflexivo",
+			"text": "La abuela, tu madre y yo te leímos muchos cuentos desde que eras chica"
+		},
+		{
+			"character":"marian",
+			"state":"reflexivo",
+			"text": "Pero no es solo eso, además es algo que sucede en este colegio"
+		},
+		{
+			"character":"avatar",
+			"state":"reflexivo",
+			"text": "Como mundos que se cruzan, ¿no? ¡Guau!"
+		},
+		{
+			"character":"marian",
+			"state":"reflexivo",
+			"text": "Guau, sí, ¡tenés razón en ladrar! Ja, ja"
+		},
+		{
+			"character":"marian",
+			"state":"reflexivo",
+			"text": "¡Tenía mucha curiosidad por saber si podrías percibirlo!"
+		},
+		{
+			"character":"avatar",
+			"state":"reflexivo",
+			"text": "Ya veo, ¡por eso repartiste el material de ingreso por todo el colegio!"
+		},
+		{
+			"character":"marian",
+			"state":"reflexivo",
+			"text": "Claro, por eso y para que ejercitaras"
+		},
+		{
+			"character":"marian",
+			"state":"reflexivo",
+			"text": "Porque ya sabés que también me gustaría que entres acá"
+		},
+		{
+			"character":"marian",
+			"state":"reflexivo",
+			"text": "Quisiera tenerte más cerca, a vos y a tu mamá"
+		},
+		{
+			"character":"avatar",
+			"state":"reflexivo",
+			"text": "Tía, yo te agradezco un montón, pero sigo sin saber si quiero rendir el ingreso..."
+		},
+		{
+			"character":"avatar",
+			"state":"reflexivo",
+			"text": "O si puedo… ¡Espero que no te enojes conmigo!"
+		},
+		{
+			"character":"marian",
+			"state":"contento",
+			"text": "Claro que no, sobri, ya sé que son muchos cambios para vos"
+		},
+		{
+			"character":"marian",
+			"state":"contento",
+			"text": "Por lo pronto me gustaría que te animes a dar el ingreso"
+		},
+		{
+			"character":"marian",
+			"state":"reflexivo",
+			"text": "Ya habrá tiempo para pensar en lo demás, ¿sí?"
+		},
+		{
+			"character":"avatar",
+			"state":"contento",
+			"text": "¡Sí!"
 		}
 	]
+
 }

@@ -15054,6 +15054,8 @@ Animation:
   - {fileID: 7400000, guid: c76db83d0c2c49249aa379935803aae6, type: 2}
   - {fileID: 7400000, guid: 3f33120d924777443a0c66064d223f7d, type: 2}
   - {fileID: 7400000, guid: 8b0b39aec5c43d142ad1e87afded1e77, type: 2}
+  - {fileID: 7400000, guid: 56a14bf5b0f5f1b49a1c02d81af5a9bd, type: 2}
+  - {fileID: 7400000, guid: 0c9bac84a8298164da046570183f945d, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
@@ -80910,6 +80912,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4747921077390286}
     m_Modifications:
+    - target: {fileID: 439416808897222247, guid: c3dd28aa6b40dd74d8ce435654c2c6d6,
+        type: 3}
+      propertyPath: m_Name
+      value: Zina
+      objectReference: {fileID: 0}
+    - target: {fileID: 439416808897222247, guid: c3dd28aa6b40dd74d8ce435654c2c6d6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8750114695416517252, guid: c3dd28aa6b40dd74d8ce435654c2c6d6,
         type: 3}
       propertyPath: anim
@@ -80920,31 +80932,6 @@ PrefabInstance:
       propertyPath: expressions
       value: 
       objectReference: {fileID: 1054860823908552106}
-    - target: {fileID: 559351594538321394, guid: c3dd28aa6b40dd74d8ce435654c2c6d6,
-        type: 3}
-      propertyPath: all.Array.data[0].spriteRenderer
-      value: 
-      objectReference: {fileID: 7901985651950196044}
-    - target: {fileID: 559351594538321394, guid: c3dd28aa6b40dd74d8ce435654c2c6d6,
-        type: 3}
-      propertyPath: all.Array.data[1].spriteRenderer
-      value: 
-      objectReference: {fileID: 675725877579592784}
-    - target: {fileID: 559351594538321394, guid: c3dd28aa6b40dd74d8ce435654c2c6d6,
-        type: 3}
-      propertyPath: all.Array.data[2].spriteRenderer
-      value: 
-      objectReference: {fileID: 675725877711174820}
-    - target: {fileID: 559351594538321394, guid: c3dd28aa6b40dd74d8ce435654c2c6d6,
-        type: 3}
-      propertyPath: all.Array.data[3].spriteRenderer
-      value: 
-      objectReference: {fileID: 8125512864760203550}
-    - target: {fileID: 559351594538321394, guid: c3dd28aa6b40dd74d8ce435654c2c6d6,
-        type: 3}
-      propertyPath: all.Array.data[4].spriteRenderer
-      value: 
-      objectReference: {fileID: 675725879284253840}
     - target: {fileID: 439416808897222244, guid: c3dd28aa6b40dd74d8ce435654c2c6d6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -81000,16 +80987,31 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 439416808897222247, guid: c3dd28aa6b40dd74d8ce435654c2c6d6,
+    - target: {fileID: 559351594538321394, guid: c3dd28aa6b40dd74d8ce435654c2c6d6,
         type: 3}
-      propertyPath: m_Name
-      value: Zina
-      objectReference: {fileID: 0}
-    - target: {fileID: 439416808897222247, guid: c3dd28aa6b40dd74d8ce435654c2c6d6,
+      propertyPath: all.Array.data[0].spriteRenderer
+      value: 
+      objectReference: {fileID: 7901985651950196044}
+    - target: {fileID: 559351594538321394, guid: c3dd28aa6b40dd74d8ce435654c2c6d6,
         type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
+      propertyPath: all.Array.data[1].spriteRenderer
+      value: 
+      objectReference: {fileID: 675725877579592784}
+    - target: {fileID: 559351594538321394, guid: c3dd28aa6b40dd74d8ce435654c2c6d6,
+        type: 3}
+      propertyPath: all.Array.data[2].spriteRenderer
+      value: 
+      objectReference: {fileID: 675725877711174820}
+    - target: {fileID: 559351594538321394, guid: c3dd28aa6b40dd74d8ce435654c2c6d6,
+        type: 3}
+      propertyPath: all.Array.data[3].spriteRenderer
+      value: 
+      objectReference: {fileID: 8125512864760203550}
+    - target: {fileID: 559351594538321394, guid: c3dd28aa6b40dd74d8ce435654c2c6d6,
+        type: 3}
+      propertyPath: all.Array.data[4].spriteRenderer
+      value: 
+      objectReference: {fileID: 675725879284253840}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3dd28aa6b40dd74d8ce435654c2c6d6, type: 3}
 --- !u!114 &8074408704410180316 stripped

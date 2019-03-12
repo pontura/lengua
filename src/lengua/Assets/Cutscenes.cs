@@ -25,7 +25,9 @@ public class Cutscenes : MonoBehaviour
         FINAL,
         FINAL_END,
         PATIO,
-        PATIO_END
+        PATIO_END,
+        FINAL2,
+        FINAL2_END,
     }
     void Start()
     {
@@ -37,10 +39,10 @@ public class Cutscenes : MonoBehaviour
     }
     public void Init(Room room)
     {
-		if(zina != null)
-			zina.gameObject.SetActive(false);
-		if(marian != null)
-			marian.gameObject.SetActive(false);
+        if (zina != null)
+            zina.gameObject.SetActive(false);
+        if (marian != null)
+            marian.gameObject.SetActive(false);
 
         this.room = room;
         //Events.OnCutscene += OnCutscene;
@@ -185,8 +187,14 @@ public class Cutscenes : MonoBehaviour
                     Events.OnFloorClicked(new Vector3(-8.5f, 0, 2));
                     GetComponent<Animation>().Play("biblioteca");
                 }
+                else if (Data.Instance.gameProgress.GetData("cutscenes").value == 6)
+                {
+                    Events.OnSaveNewData("cutscenes", 7);
+                    //  Events.OnFloorClicked(new Vector3(-8.5f, 0, 2));
+                    GetComponent<Animation>().Play("final");
+                }
                 else
-                    return;
+                     return;
                 break;
             case types.PATIO:
                 if (Data.Instance.gameProgress.GetData("cutscenes").value == 3)
@@ -206,7 +214,7 @@ public class Cutscenes : MonoBehaviour
                     Events.OnFloorClicked(new Vector3(-1.13f, 0, 2.14f));
                     GetComponent<Animation>().Play("mapoteca");
                 }
-                else if (Data.Instance.gameProgress.GetData("cutscenes").value == 4 && Data.Instance.gameProgress.GetData("g").value>0)
+                else if (Data.Instance.gameProgress.GetData("cutscenes").value == 4 && Data.Instance.gameProgress.GetData("g").value > 0)
                 {
                     room.roomsManager.character.view.ResetPosition();
                     Events.OnSaveNewData("cutscenes", 5);
@@ -214,18 +222,18 @@ public class Cutscenes : MonoBehaviour
                     GetComponent<Animation>().Play("mapoteca2");
                     type = types.MAPOTECA2;
                 }
-                else if (Data.Instance.gameProgress.GetData("cutscenes").value == 5 && Data.Instance.gameProgress.GetData("rosa").value>0)
+                else if (Data.Instance.gameProgress.GetData("cutscenes").value == 5 && Data.Instance.gameProgress.GetData("rosa").value > 0)
                 {
                     room.roomsManager.character.view.ResetPosition();
                     Events.OnSaveNewData("cutscenes", 6);
                     Events.OnFloorClicked(new Vector3(-1.13f, 0, 2.14f));
-                    GetComponent<Animation>().Play("final");
+                    GetComponent<Animation>().Play("mapoteca2");
                     type = types.FINAL;
                 }
                 else
-				{
+                {
                     return;
-				}
+                }
                 break;
         }
         switch (type)
@@ -247,6 +255,9 @@ public class Cutscenes : MonoBehaviour
                 break;
             case types.FINAL:
                 OnCutscene(types.FINAL);
+                break;
+            case types.FINAL2:
+                OnCutscene(types.FINAL2);
                 break;
         }
 
@@ -277,6 +288,9 @@ public class Cutscenes : MonoBehaviour
             case types.PATIO:
                 OnCutscene(types.PATIO_END);
                 break;
+            case types.FINAL2:
+                OnCutscene(types.FINAL2_END);
+                break;
         }
     }
 
@@ -302,7 +316,7 @@ public class Cutscenes : MonoBehaviour
                 room.roomsManager.cutscenesUI.SetOff();
                 break;
             case types.PATIO:
-               room.roomsManager.cutscenesUI.SetOn();
+                room.roomsManager.cutscenesUI.SetOn();
                 Events.OnDialogue(Data.Instance.dialoguesData.content.patio, OnReady);
                 break;
             case types.PATIO_END:
@@ -319,28 +333,35 @@ public class Cutscenes : MonoBehaviour
                 room.roomsManager.cutscenesUI.SetOn();
                 Events.OnDialogue(Data.Instance.dialoguesData.content.mapoteca, OnReady);
                 break;
-			case types.MAPOTECA2:
+            case types.MAPOTECA2:
                 GetComponent<Animation>().Play("mapoteca2");
                 room.roomsManager.cutscenesUI.SetOn();
                 Events.OnDialogue(Data.Instance.dialoguesData.content.mapoteca2, OnReady);
                 break;
             case types.MAPOTECA_END:
                 GetComponent<Animation>().Play("mapoteca_end");
-                Events.OnDialogue(Data.Instance.dialoguesData.content.mapoteca, null);
                 room.roomsManager.cutscenesUI.SetOff();
                 break;
             case types.MAPOTECA_END2:
-                GetComponent<Animation>().Play("mapoteca_end2");
-                Events.OnDialogue(Data.Instance.dialoguesData.content.mapoteca2, null);
+                GetComponent<Animation>().Play("mapoteca2end");
                 room.roomsManager.cutscenesUI.SetOff();
                 break;
             case types.FINAL:
-                GetComponent<Animation>().Play("final");
+                GetComponent<Animation>().Play("mapoteca2");
                 Events.OnDialogue(Data.Instance.dialoguesData.content.final, null);
                 room.roomsManager.cutscenesUI.SetOff();
                 break;
             case types.FINAL_END:
-                print("DONE");
+                 GetComponent<Animation>().Play("mapoteca2end");
+                room.roomsManager.cutscenesUI.SetOff();
+                break;
+            case types.FINAL2:
+                GetComponent<Animation>().Play("final");
+                Events.OnDialogue(Data.Instance.dialoguesData.content.final2, null);
+                room.roomsManager.cutscenesUI.SetOff();
+                break;
+            case types.FINAL2_END:
+                GetComponent<Animation>().Play("final_end");
                 room.roomsManager.cutscenesUI.SetOff();
                 break;
         }
