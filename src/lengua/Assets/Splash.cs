@@ -17,7 +17,7 @@ public class Splash : MonoBehaviour
     }
 
 	public void PlayGame(){
-		Debug.Log ("ACA");
+		Events.ClickSfx ();
 		Data.Instance.LoadScene ("Game");
 	}
 }
