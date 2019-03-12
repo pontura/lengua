@@ -15071,9 +15071,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomsManager: {fileID: 0}
-  cameraSize: 1.61
+  cameraSize: 1.9
   type: 1
-  limitsX: {x: -8.05, y: 8.8}
+  limitsX: {x: -7.9, y: 8.5}
   limitsZ: {x: 2.3, y: 0.7}
 --- !u!114 &1717056955074444888
 MonoBehaviour:
