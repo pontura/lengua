@@ -319,6 +319,11 @@ public class Cutscenes : MonoBehaviour
                 room.roomsManager.cutscenesUI.SetOn();
                 Events.OnDialogue(Data.Instance.dialoguesData.content.mapoteca, OnReady);
                 break;
+			case types.MAPOTECA2:
+                GetComponent<Animation>().Play("mapoteca2");
+                room.roomsManager.cutscenesUI.SetOn();
+                Events.OnDialogue(Data.Instance.dialoguesData.content.mapoteca2, OnReady);
+                break;
             case types.MAPOTECA_END:
                 GetComponent<Animation>().Play("mapoteca_end");
                 Events.OnDialogue(Data.Instance.dialoguesData.content.mapoteca, null);
