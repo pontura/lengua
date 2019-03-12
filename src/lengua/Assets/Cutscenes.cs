@@ -214,7 +214,7 @@ public class Cutscenes : MonoBehaviour
                     GetComponent<Animation>().Play("mapoteca2");
                     type = types.MAPOTECA2;
                 }
-                else if (Data.Instance.gameProgress.GetData("cutscenes").value == 5 && Data.Instance.gameProgress.GetData("rose").value>0)
+                else if (Data.Instance.gameProgress.GetData("cutscenes").value == 5 && Data.Instance.gameProgress.GetData("rosa").value>0)
                 {
                     room.roomsManager.character.view.ResetPosition();
                     Events.OnSaveNewData("cutscenes", 6);
