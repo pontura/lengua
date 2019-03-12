@@ -386,6 +386,155 @@
 			"text": "Mi última prueba… A ver cómo subo al altillo..."
 		}
 	],
+	"patio":
+	[
+		{
+			"character":"marian",
+			"state":"contento",
+			"text": "¡Acá está mi valiente!"
+		},
+		{
+			"character":"avatar",
+			"state":"reflexivo",
+			"text": "¿Valiente, yo?"
+		},
+		{
+			"character":"marian",
+			"state":"contento",
+			"text": "¡Claro! Si llegaste hasta acá es porque ejercitaste un montón"
+		},
+		{
+			"character":"marian",
+			"state":"contento",
+			"text": "¡Y también leíste mucho, sobri! ¿Qué opinás de los cuentos?"
+		},
+		{
+			"character":"avatar",
+			"state":"reflexivo",
+			"text": "¿La verdad?..."
+		},
+		{
+			"character":"avatar",
+			"state":"contento",
+			"text": "Algunos no están nada mal, ¿eh?"
+		},
+		{
+			"character":"avatar",
+			"state":"contento",
+			"text": "Sabía que ibas a aflojar"
+		},
+		{
+			"character":"avatar",
+			"state":"contento",
+			"text": "Después de quejarte primero, claro"
+		},
+		{
+			"character":"avatar",
+			"state":"sorpresa",
+			"text": "..."
+		},
+		{
+			"character":"avatar",
+			"state":"fastidio",
+			"text": "..."
+		},
+		{
+			"character":"avatar",
+			"state":"fastidio",
+			"text": "¡Eso me recuerda que tengo una queja!"
+		},
+		{
+			"character":"avatar",
+			"state":"fastidio",
+			"text": "¡¿Sos vos las que esconde los ejercicios en lugares tan raros?!"
+		},
+		{
+			"character":"marian",
+			"state":"neutro",
+			"text": "¿Yoooo? Bueno, solo diré que algunos los ordené yo"
+		},
+		{
+			"character":"marian",
+			"state":"neutro",
+			"text": "Mientras que otros… Aparecen donde aparecen"
+		},
+		{
+			"character":"avatar",
+			"state":"reflexivo",
+			"text": "¿Cómo que 'aparecen'?"
+		},
+		{
+			"character":"avatar",
+			"state":"reflexivo",
+			"text": "Tía, no me asustes que ya empecé a escuchar 'cosas'"
+		},
+		{
+			"character":"avatar",
+			"state":"reflexivo",
+			"text": "Aullidos, risas, qué se yo qué más"
+		},
+		{
+			"character":"marian",
+			"state":"reflexivo",
+			"text": "¿Y eso?"
+		},
+		{
+			"character":"avatar",
+			"state":"preocupado",
+			"text": "En la mapoteca, después de que Zina se fue"
+		},
+		{
+			"character":"marian",
+			"state":"reflexivo",
+			"text": "¡¡¿La viste a Zina?!!"
+		},
+		{
+			"character":"marian",
+			"state":"contento",
+			"text": "¡Eso es maravilloso! Más que maravilloso, ¡es fantástico!"
+		},
+		{
+			"character":"avatar",
+			"state":"neutro",
+			"text": "Bueno, veo que te llena de entusiasmo que haya conocido a la preceptora"
+		},
+		{
+			"character":"marian",
+			"state":"contento",
+			"text": "No sabés cuánto, Zina no habla con cualquiera"
+		},
+		{
+			"character":"marian",
+			"state":"contento",
+			"text": "Y es alguien de quien se aprende mucho"
+		},
+		{
+			"character":"avatar",
+			"state":"neutro",
+			"text": "Hablando de eso… ¿Cuánto me queda por aprender?"
+		},
+		{
+			"character":"marian",
+			"state":"contento",
+			"text": "Ánimo que ya estás a mitad de camino"
+		},
+		{
+			"character":"marian",
+			"state":"contento",
+			"text": "El patio es un lugar muy interesante, ¡y el laboratorio todavía lo es más!"
+		},
+		{
+			"character":"marian",
+			"state":"neutro",
+			"text": "Si es que convencés a Pizarnik de que te deje entrar…"
+		}
+		,
+		{
+			"character":"marian",
+			"state":"neutro",
+			"text": "Nos vemos en un rato, que tengo que llamar a tu mamá, ¡hasta luego!"
+		}
+	],
 	"final":
 	[
 		{

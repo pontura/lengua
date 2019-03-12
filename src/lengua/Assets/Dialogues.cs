@@ -40,7 +40,6 @@ public class Dialogues : MonoBehaviour {
 		}
 		else {
 			field.text = dialogue [id].text;
-			print(id + " " + dialogue [id].character + " " +  dialogue [id].state);
 			dialoguesCamera.SetOn (dialogue [id].character, dialogue [id].state);
 			id++;
 		}
