@@ -19,6 +19,13 @@ public class CharacterAnimations : MonoBehaviour {
 		ENTER,
 		LADDER
 	}
+	void Update()
+	{
+		if(state == states.IDLE)
+		{
+			PlayAnim ("idle");
+		}
+	}
 	public void Idle () {
 		PlayAnim ("idle");
 		state = states.IDLE;

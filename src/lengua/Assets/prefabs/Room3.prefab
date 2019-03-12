@@ -5841,7 +5841,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walkToMe: 1
-  waltoToMeOffset: {x: 0.2, y: 0, z: 0.2}
+  waltoToMeOffset: {x: 0.2, y: 0, z: 0.4}
   content:
     compuerta_no: 
     alas: 
@@ -77956,7 +77956,7 @@ Transform:
   m_GameObject: {fileID: 4816481739433936361}
   m_LocalRotation: {x: -0.38268343, y: -2.7191284e-15, z: -6.5645566e-15, w: 0.92387956}
   m_LocalPosition: {x: 0, y: 0.438, z: -0.438}
-  m_LocalScale: {x: 0.65, y: 1.37731, z: 0.5}
+  m_LocalScale: {x: 0.65, y: 1.59, z: 0.5}
   m_Children: []
   m_Father: {fileID: 676303666}
   m_RootOrder: 0
