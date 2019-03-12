@@ -11,6 +11,7 @@ public class DialoguesData : MonoBehaviour {
 	{
 		public List<Dialogue> intro;
 		public List<Dialogue> biblioteca;
+		public List<Dialogue> patio;
 		public List<Dialogue> escalera;
 		public List<Dialogue> mapoteca;
 		public List<Dialogue> mapoteca2;
