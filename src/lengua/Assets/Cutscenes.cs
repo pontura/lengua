@@ -37,6 +37,11 @@ public class Cutscenes : MonoBehaviour
     }
     public void Init(Room room)
     {
+		if(zina != null)
+			zina.gameObject.SetActive(false);
+		if(marian != null)
+			marian.gameObject.SetActive(false);
+
         this.room = room;
         //Events.OnCutscene += OnCutscene;
 
@@ -184,9 +189,9 @@ public class Cutscenes : MonoBehaviour
                     return;
                 break;
             case types.PATIO:
-                if (Data.Instance.gameProgress.GetData("cutscenes").value < 3)
+                if (Data.Instance.gameProgress.GetData("cutscenes").value == 3)
                 {
-                    Events.OnSaveNewData("cutscenes", 3);
+                    Events.OnSaveNewData("cutscenes", 4);
                     Events.OnFloorClicked(new Vector3(-4, 0, -5.2f));
                     GetComponent<Animation>().Play("patio");
                 }
@@ -194,14 +199,14 @@ public class Cutscenes : MonoBehaviour
                     return;
                 break;
             case types.MAPOTECA:
-                if (Data.Instance.gameProgress.GetData("cutscenes").value < 4)
+                if (Data.Instance.gameProgress.GetData("cutscenes").value == 2)
                 {
                     room.roomsManager.character.view.ResetPosition();
-                    Events.OnSaveNewData("cutscenes", 4);
+                    Events.OnSaveNewData("cutscenes", 3);
                     Events.OnFloorClicked(new Vector3(-1.13f, 0, 2.14f));
                     GetComponent<Animation>().Play("mapoteca");
                 }
-                else if (Data.Instance.gameProgress.GetData("cutscenes").value < 5)
+                else if (Data.Instance.gameProgress.GetData("cutscenes").value == 4 && Data.Instance.gameProgress.GetData("g").value>0)
                 {
                     room.roomsManager.character.view.ResetPosition();
                     Events.OnSaveNewData("cutscenes", 5);
@@ -209,7 +214,7 @@ public class Cutscenes : MonoBehaviour
                     GetComponent<Animation>().Play("mapoteca2");
                     type = types.MAPOTECA2;
                 }
-                else if (Data.Instance.gameProgress.GetData("cutscenes").value < 6)
+                else if (Data.Instance.gameProgress.GetData("cutscenes").value == 5 && Data.Instance.gameProgress.GetData("rose").value>0)
                 {
                     room.roomsManager.character.view.ResetPosition();
                     Events.OnSaveNewData("cutscenes", 6);
@@ -218,7 +223,9 @@ public class Cutscenes : MonoBehaviour
                     type = types.FINAL;
                 }
                 else
+				{
                     return;
+				}
                 break;
         }
         switch (type)
