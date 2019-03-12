@@ -3032,11 +3032,15 @@ MonoBehaviour:
   m_Value: 0
 <<<<<<< HEAD:src/lengua/Assets/Scenes/Game__real.unity
 <<<<<<< HEAD:src/lengua/Assets/Scenes/Game__real.unity
+<<<<<<< HEAD:src/lengua/Assets/Scenes/Game__real.unity
 <<<<<<< HEAD
   m_Size: 1
 =======
   m_Size: 0.9999999
 >>>>>>> a43b7076f5e88671920549501713cf1530032e39
+=======
+  m_Size: 0.99999994
+>>>>>>> parent of a43b707... ajustes UI:src/lengua/Assets/Scenes/Game.unity
 =======
   m_Size: 0.99999994
 >>>>>>> parent of a43b707... ajustes UI:src/lengua/Assets/Scenes/Game.unity
@@ -7223,11 +7227,15 @@ RectTransform:
   m_AnchorMax: {x: 1, y: 1}
 <<<<<<< HEAD:src/lengua/Assets/Scenes/Game__real.unity
 <<<<<<< HEAD:src/lengua/Assets/Scenes/Game__real.unity
+<<<<<<< HEAD:src/lengua/Assets/Scenes/Game__real.unity
 <<<<<<< HEAD
   m_AnchoredPosition: {x: 0.00002893673, y: 0.00003719969}
 =======
   m_AnchoredPosition: {x: 0.00002893673, y: 0.00001434184}
 >>>>>>> a43b7076f5e88671920549501713cf1530032e39
+=======
+  m_AnchoredPosition: {x: 0.00002893673, y: 0.000020874451}
+>>>>>>> parent of a43b707... ajustes UI:src/lengua/Assets/Scenes/Game.unity
 =======
   m_AnchoredPosition: {x: 0.00002893673, y: 0.000020874451}
 >>>>>>> parent of a43b707... ajustes UI:src/lengua/Assets/Scenes/Game.unity
