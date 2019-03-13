@@ -227,8 +227,7 @@ public class Cutscenes : MonoBehaviour
                     room.roomsManager.character.view.ResetPosition();
                     Events.OnSaveNewData("cutscenes", 6);
                     Events.OnFloorClicked(new Vector3(-1.13f, 0, 2.14f));
-                    GetComponent<Animation>().Play("mapoteca2");
-                    type = types.MAPOTECA2;
+                    type = types.FINAL;
                     Events.UseItem("rosa");
                     Events.OnSaveNewData ("rosa", 2);
                 }
@@ -350,6 +349,7 @@ public class Cutscenes : MonoBehaviour
                 room.roomsManager.cutscenesUI.SetOff();
                 break;
             case types.FINAL:
+                room.roomsManager.cutscenesUI.SetOn();
                 GetComponent<Animation>().Play("mapoteca2");
                 Events.OnDialogue(Data.Instance.dialoguesData.content.final, OnReady);
                 room.roomsManager.cutscenesUI.SetOff();
