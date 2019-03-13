@@ -263,7 +263,7 @@
 		{
 			"character":"zina",
 			"state":"reflexivo",
-			"text": "¡Qué grata sorpresa que estés aquí de nuevo, (nombre del avatar)"
+			"text": "¡Qué grata sorpresa que estés aquí de nuevo."
 		},
 		{
 			"character":"zina",
@@ -419,12 +419,12 @@
 			"text": "Algunos no están nada mal, ¿eh?"
 		},
 		{
-			"character":"avatar",
+			"character":"marian",
 			"state":"contento",
 			"text": "Sabía que ibas a aflojar"
 		},
 		{
-			"character":"avatar",
+			"character":"marian",
 			"state":"contento",
 			"text": "Después de quejarte primero, claro"
 		},
