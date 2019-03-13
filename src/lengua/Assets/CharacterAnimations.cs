@@ -32,7 +32,7 @@ public class CharacterAnimations : MonoBehaviour {
 	}
 	public void IdleRosa () {
 		PlayAnim ("idle_rose");
-		state = states.IDLE;
+		state = states.ENTER;
 	}
 	
 	public void Talk () {
