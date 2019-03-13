@@ -190,11 +190,11 @@ public class Cutscenes : MonoBehaviour
                 else if (Data.Instance.gameProgress.GetData("cutscenes").value == 6)
                 {
                     Events.OnSaveNewData("cutscenes", 7);
-                    //  Events.OnFloorClicked(new Vector3(-8.5f, 0, 2));
-                    GetComponent<Animation>().Play("final");
+                    Events.OnFloorClicked(new Vector3(-2, 0, 2));
+                    type = types.FINAL2;
                 }
                 else
-                     return;
+                    return;
                 break;
             case types.PATIO:
                 if (Data.Instance.gameProgress.GetData("cutscenes").value == 3)
@@ -228,7 +228,9 @@ public class Cutscenes : MonoBehaviour
                     Events.OnSaveNewData("cutscenes", 6);
                     Events.OnFloorClicked(new Vector3(-1.13f, 0, 2.14f));
                     GetComponent<Animation>().Play("mapoteca2");
-                    type = types.FINAL;
+                    type = types.MAPOTECA2;
+                    Events.UseItem("rosa");
+                    Events.OnSaveNewData ("rosa", 2);
                 }
                 else
                 {
@@ -296,6 +298,7 @@ public class Cutscenes : MonoBehaviour
 
     void OnCutscene(types anim)
     {
+        print("Oncutscene " + anim);
         this.type = anim;
         switch (anim)
         {
@@ -348,22 +351,26 @@ public class Cutscenes : MonoBehaviour
                 break;
             case types.FINAL:
                 GetComponent<Animation>().Play("mapoteca2");
-                Events.OnDialogue(Data.Instance.dialoguesData.content.final, null);
+                Events.OnDialogue(Data.Instance.dialoguesData.content.final, OnReady);
                 room.roomsManager.cutscenesUI.SetOff();
                 break;
             case types.FINAL_END:
-                 GetComponent<Animation>().Play("mapoteca2end");
+                GetComponent<Animation>().Play("mapoteca2end");
                 room.roomsManager.cutscenesUI.SetOff();
                 break;
             case types.FINAL2:
                 GetComponent<Animation>().Play("final");
-                Events.OnDialogue(Data.Instance.dialoguesData.content.final2, null);
-                room.roomsManager.cutscenesUI.SetOff();
+                Events.OnDialogue(Data.Instance.dialoguesData.content.final2, OnReady);
+                room.roomsManager.cutscenesUI.SetOn();
                 break;
             case types.FINAL2_END:
                 GetComponent<Animation>().Play("final_end");
-                room.roomsManager.cutscenesUI.SetOff();
+                Invoke("SetOffFinalScene", 8);
                 break;
         }
+    }
+    void SetOffFinalScene()
+    {
+        room.roomsManager.cutscenesUI.SetOff();
     }
 }

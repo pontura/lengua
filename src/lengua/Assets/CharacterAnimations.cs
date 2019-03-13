@@ -53,7 +53,7 @@ public class CharacterAnimations : MonoBehaviour {
 	}
 	public void Disappear () {
 		PlayAnim ("disappear");
-		state = states.IDLE;
+		state = states.ENTER;
 	}
 	public void Use () {
 		PlayAnim ("use");
