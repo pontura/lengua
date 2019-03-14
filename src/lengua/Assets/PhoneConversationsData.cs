@@ -34,7 +34,7 @@ public class PhoneConversationsData : MonoBehaviour {
 	IEnumerator LoadJson()
 	{
 		string filePath = Application.streamingAssetsPath + "/PhoneConversationsData.json";
-		print (filePath);
+		//print (filePath);
 
 		string json = "";
 		if (filePath.Contains ("://")) {

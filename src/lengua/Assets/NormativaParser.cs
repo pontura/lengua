@@ -39,12 +39,12 @@ namespace TMPro.Examples
 			foreach (string s in sentences) {
 				if (s.Length > 1) {
 					AnswerData data = new AnswerData ();
-					Debug.Log (s);
+					//Debug.Log (s);
 					string a = GetSubstringByString ("[", "]", s);
 					string b = s.Replace ("[" + a + "]", "*");
 					data.answers = a.Split("," [0]);
 					data.ok = data.answers[0];
-					Debug.Log (b);
+					//Debug.Log (b);
 					string id = GetSubstringByString ("{", "}", b);
 					data.id = int.Parse (id);
 					data.sentence = b.Replace ("{" + id + "}", "");

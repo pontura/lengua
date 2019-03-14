@@ -14,6 +14,10 @@ public class TriviaData : MonoBehaviour {
 	public float resetTime;
 	public float normativaMinimum = 0.7f;
 
+	char propSep = '&';
+	char elementSep = '#';
+	char doneSep = '@';
+
 	public enum TriviaType{
 		literatura,
 		normativa
@@ -99,6 +103,72 @@ public class TriviaData : MonoBehaviour {
 		StartCoroutine(LoadFile(filePath));
 	}
 
+	public void SaveProgress(){
+		string data = "";
+		for(int j=0;j<triviaProgress.Count;j++){
+			TriviaProgress tp = triviaProgress [j];
+			data += tp.id + propSep +
+			tp.gameprogress_name + propSep +
+			tp.type + propSep +
+			tp.area + propSep +
+			tp.triviasIndex + propSep;
+			for (int i = 0; i < tp.triviasDone.Length; i++) {
+				data += tp.triviasDone[i];
+				if (i < tp.triviasDone.Length - 1)
+					data += doneSep;
+			}
+			data += propSep + "";
+			data += "" + tp.completed + propSep +
+				tp.state;
+
+			if (j < triviaProgress.Count - 1)
+				data += "" + elementSep;
+			
+		}		
+		PlayerPrefs.SetString ("TriviaProgress", data);
+	}
+
+	bool LoadProgress(){
+		string d = PlayerPrefs.GetString ("TriviaProgress");
+
+		//Debug.Log (d);
+
+		if (d == "")
+			return false;
+		else {
+			string[] data = d.Split (elementSep);
+			foreach (string s in data) {
+				//Debug.Log (s);
+				TriviaProgress tp = new TriviaProgress ();
+				string[] ss = s.Split (propSep);
+				//Debug.Log (ss[0]);
+				tp.id = ss[0];
+				tp.gameprogress_name = ss[1];
+				tp.type = (TriviaType)System.Enum.Parse (typeof(TriviaType), ss [2]);
+				tp.area = int.Parse(ss[3]);
+
+				string[] done = ss [5].Split (doneSep);
+				tp.triviasDone = new bool[done.Length];
+				if (tp.type == TriviaType.normativa) {
+					tp.triviasIndex = int.Parse(ss[4]);
+					for (int i = 0; i < done.Length; i++) {
+						tp.triviasDone [i] = bool.Parse (done [i]);
+						int j = int.Parse (tp.id);
+						antologia [j].texts [0].textlines [i] = "{" + i + "}" + antologia [j].texts [0].textlines [i];
+					}
+
+				}
+				tp.completed = bool.Parse(ss [6]);
+				tp.state = (TriviaState)System.Enum.Parse (typeof(TriviaState), ss [7]);
+
+				triviaProgress.Add (tp);
+
+			}
+			return true;
+		}
+
+	}
+
 	IEnumerator LoadFile(string filePath) {
 		string text = "";
 		if (filePath.Contains("://")) {
@@ -120,21 +190,24 @@ public class TriviaData : MonoBehaviour {
 
 		triviaProgress.Clear ();
 
-		for (int i = 0; i < antologia.Length; i++) {
-			TriviaProgress tp = new TriviaProgress ();
-			tp.id = antologia [i].id;
-			tp.gameprogress_name = antologia [i].gameprogress_name;
-			tp.type = antologia [i].type;
-			if (antologia [i].type == TriviaType.literatura)
-				tp.triviasDone = new bool[antologia [i].trivias.Length];
-			else {
-				tp.triviasDone = new bool[antologia [i].texts [0].textlines.Length];
-				for (int j = 0; j < antologia [i].texts [0].textlines.Length; j++)
-					antologia [i].texts [0].textlines [j] = "{" + j + "}"+antologia [i].texts [0].textlines [j];
+		if (!LoadProgress ()) {
+
+			for (int i = 0; i < antologia.Length; i++) {
+				TriviaProgress tp = new TriviaProgress ();
+				tp.id = antologia [i].id;
+				tp.gameprogress_name = antologia [i].gameprogress_name;
+				tp.type = antologia [i].type;
+				if (antologia [i].type == TriviaType.literatura)
+					tp.triviasDone = new bool[antologia [i].trivias.Length];
+				else {
+					tp.triviasDone = new bool[antologia [i].texts [0].textlines.Length];
+					for (int j = 0; j < antologia [i].texts [0].textlines.Length; j++)
+						antologia [i].texts [0].textlines [j] = "{" + j + "}" + antologia [i].texts [0].textlines [j];
+				}
+				tp.area = antologia [i].area;
+				tp.state = TriviaState.idle;
+				triviaProgress.Add (tp);
 			}
-			tp.area = antologia [i].area;
-			tp.state = TriviaState.idle;
-			triviaProgress.Add (tp);
 		}
 	}
 

@@ -140,6 +140,7 @@ public class TriviaManager : MonoBehaviour {
 					asource.PlayOneShot (correctoSfx);
 				}			
 
+				Data.Instance.triviaData.SaveProgress ();
 				correcto.SetActive (true);
 			} else {
 				asource.pitch = 1f;

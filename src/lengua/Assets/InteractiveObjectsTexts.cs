@@ -365,7 +365,7 @@ public class InteractiveObjectsTexts : MonoBehaviour
     }
     IEnumerator LoadJson()
     {
-        print("LoadJson");
+        //print("LoadJson");
         string filePath = Application.streamingAssetsPath + "/InteractiveObjects.json";
 
         string json = "";
@@ -385,7 +385,7 @@ public class InteractiveObjectsTexts : MonoBehaviour
                 json = System.IO.File.ReadAllText(filePath);
         }
 
-        Debug.Log(json);
+        //Debug.Log(json);
 
         content = JsonUtility.FromJson<Content>(json);
         Events.OnInteractiveTextsLoaded();
