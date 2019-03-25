@@ -20,6 +20,10 @@ public class Data : MonoBehaviour
 	public DialoguesData dialoguesData;
 	[HideInInspector]
 	public PhoneConversationsData phoneConversationsData;
+	[HideInInspector]
+	public Users users;
+
+	public bool esAlumno;
 
 	public static Data Instance
     {
@@ -72,6 +76,6 @@ public class Data : MonoBehaviour
 		inventary = GetComponent<Inventary> ();
 		triviaData = GetComponent<TriviaData> ();
 		dialoguesData = GetComponent<DialoguesData> ();
-
+		users = GetComponent<Users> ();
     }
 }

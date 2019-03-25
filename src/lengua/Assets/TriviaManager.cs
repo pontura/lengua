@@ -20,6 +20,8 @@ public class TriviaManager : MonoBehaviour {
 	public GameObject correcto,incorrecto;
 	public AudioClip correctoSfx,incorrectoSfx,winTrivia,openSfx,closeSfx;
 
+	public GoogleAnalyticsV3 ga;
+
 	AudioSource asource;
 
 	TriviaData.Antologia antologia;
@@ -33,16 +35,19 @@ public class TriviaManager : MonoBehaviour {
 	void Start () {
 		paginator = GetComponent<TMPro.Examples.TriviaPaginator> ();
 		asource = GetComponent<AudioSource> ();
+		ga.StartSession ();
 		Events.SetTrivia += SetTrivia;
 		Events.NormativaDone += SetAnswer;
 		Events.CorrectoSfx += CorrectoSfx;
 		Events.IncorrectoSfx += IncorrectoSfx;
+		Events.LogEvent += LogEvent;
 	}
 	void OnDestroy () {
 		Events.SetTrivia -= SetTrivia;
 		Events.NormativaDone -= SetAnswer;
 		Events.CorrectoSfx -= CorrectoSfx;
 		Events.IncorrectoSfx -= IncorrectoSfx;
+		Events.LogEvent -= LogEvent;
 	}
 
 	public void Close(){
@@ -116,8 +121,12 @@ public class TriviaManager : MonoBehaviour {
 		}
 	}
 
-	public void SetAnswer(bool correct){
-			if (correct) {				
+	public void SetAnswer(int option){
+		string val = option == 0 ? "BIEN" : "MAL";
+		if (tProgress.type == TriviaData.TriviaType.literatura) 
+			LogEvent (tProgress.type.ToString (), "ID_Trivia:"+tProgress.id, "EjercicioNro:"+tProgress.triviasIndex+"_Opción:"+option+"_"+val, option);
+		
+			if (option==0) {				
 				tProgress.triviasDone [tProgress.triviasIndex] = true;
 				tProgress.triviasIndex++;				
 
@@ -166,5 +175,12 @@ public class TriviaManager : MonoBehaviour {
 	public void WinForced()
 	{
 		Events.OnBookComplete ();
+	}
+
+	public void LogEvent(string eventCategory,string eventAction,string eventLabel,long value){
+		if (Data.Instance.esAlumno) {
+			ga.LogEvent (eventCategory, eventAction, eventLabel, value);
+			ga.DispatchHits ();
+		}
 	}
 }

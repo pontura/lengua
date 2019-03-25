@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 114132969967853722}
   - component: {fileID: 7022735695211520629}
   - component: {fileID: 6442682096764908666}
+  - component: {fileID: 6074322896020361160}
   m_Layer: 0
   m_Name: Data
   m_TagString: Untagged
@@ -59,6 +60,7 @@ MonoBehaviour:
   triviaData: {fileID: 0}
   dialoguesData: {fileID: 0}
   phoneConversationsData: {fileID: 0}
+  esAlumno: 0
   currentLevel: 
   currentLevelIndex: 0
 --- !u!114 &114300212788950266
@@ -1120,9 +1122,12 @@ MonoBehaviour:
       state: contento
       text: "\xA1Ooookey! Vaya, nom\xE1s"
     biblioteca: []
+    patio: []
     escalera: []
     mapoteca: []
     mapoteca2: []
+    final: []
+    final2: []
 --- !u!114 &114132969967853722
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1323,6 +1328,20 @@ MonoBehaviour:
   phono: {fileID: 8447637473242722882}
   bpm: 90
   numBeatsPerSegment: 16
+--- !u!114 &6074322896020361160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640398861795566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 271b6236f71ecf4418bc9fb9aa9d38cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  users: []
+  url: https://docs.google.com/spreadsheets/d/1g8csS8zxK1Nj93MxPoxLMOJPwOQErYrzScykFW_LyuA/gviz/tq?tqx=out:csv
 --- !u!1 &21115964421618717
 GameObject:
   m_ObjectHideFlags: 0

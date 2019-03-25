@@ -25,7 +25,7 @@ public static class Events {
 	public static System.Action<string> UseItem = delegate {	};
 
 	public static System.Action<string> SetTrivia = delegate {	};
-	public static System.Action<bool> NormativaDone = delegate {	};
+	public static System.Action<int> NormativaDone = delegate {	};
 	public static System.Action OnBookComplete = delegate {	};
 	public static System.Action OnTriviaWrong = delegate {	};
 	public static System.Action TriviaClose = delegate {	};
@@ -44,6 +44,8 @@ public static class Events {
 	public static System.Action NextMusicTrack = delegate {};
 	public static System.Action<bool> CutsceneMusic = delegate {};
 	public static System.Action<bool> PhoneMusic = delegate {};
+
+	public static System.Action<string,string,string,long> LogEvent = delegate {};
 
 }
 

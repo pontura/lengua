@@ -675,25 +675,5 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8444599999466422475, guid: 8698e3ed56fdebc43a07692440f882e1,
-        type: 3}
-      propertyPath: m_Camera
-      value: 
-      objectReference: {fileID: 1910921493}
-    - target: {fileID: 8444599999466422475, guid: 8698e3ed56fdebc43a07692440f882e1,
-        type: 3}
-      propertyPath: m_RenderMode
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8444599999466422474, guid: 8698e3ed56fdebc43a07692440f882e1,
-        type: 3}
-      propertyPath: m_MatchWidthOrHeight
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8444599999466422477, guid: 8698e3ed56fdebc43a07692440f882e1,
-        type: 3}
-      propertyPath: m_IgnoreReversedGraphics
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8698e3ed56fdebc43a07692440f882e1, type: 3}

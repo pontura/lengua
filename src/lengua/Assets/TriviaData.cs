@@ -81,7 +81,7 @@ public class TriviaData : MonoBehaviour {
 			if (dones == triviasDone.Length) {
 				completed = true;
 				state = TriviaState.complete;
-				Events.NormativaDone (true);
+				Events.NormativaDone (0);
 			} else if (1f * dones / triviasDone.Length >= Data.Instance.triviaData.normativaMinimum) {
 				state = TriviaState.done;
 			}
