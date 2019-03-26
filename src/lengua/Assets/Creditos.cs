@@ -46,13 +46,17 @@ public class Creditos : MonoBehaviour {
 				//rt.position = new Vector3 (p.x, 0, p.z);
 				run = false;
 				//Events.ShowLevelMenu (true);
-				if (SceneManager.GetActiveScene ().name == "0_Splash") {
-					container.SetActive (false);
-				} else {
-					Events.StopMusic ();
-					SceneManager.LoadScene ("0_Splash");
-				}
+				Back();
 			}
+		}
+	}
+
+	public void Back(){
+		if (SceneManager.GetActiveScene ().name == "0_Splash") {
+			container.SetActive (false);
+		} else {
+			Events.StopMusic ();
+			SceneManager.LoadScene ("0_Splash");
 		}
 	}
 }
