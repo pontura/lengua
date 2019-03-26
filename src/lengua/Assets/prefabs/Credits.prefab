@@ -613,8 +613,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e02a3c797ed0744296ad2cecff2c87c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  container: {fileID: 4432932186807702321}
   pausaInicial: 1
   speed: 1.5
+  originalPos: {x: 0, y: 0, z: 0}
+  run: 0
+  yLimit: 3200
 --- !u!1 &4432932186078090105
 GameObject:
   m_ObjectHideFlags: 0
@@ -1029,8 +1033,8 @@ MonoBehaviour:
     \r\nLeandro Vecino\r\nPaola Gioseffi\n\n\n\nCOORDINACI\xD3N UBATIC\r\n\nPaola
     Arga\xF1ar\xE1s\r\nPatricia Lorenzen\n\n\n\nEQUIPO DE DESARROLLO\n\nAgust\xEDn
     Pontura\n(Game design,\nprogramaci\xF3n)\r\n\nJuan Pablo Amato\n(Programaci\xF3n,\ndise\xF1o
-    sonoro)\r\n\nDar\xEDo Georges\n(Direcci\xF3n de arte,\nproducci\xF3n)\n\nPatricio
-    Oliver\n(Ilustraci\xF3n)\r\n\n\n"
+    sonoro)\r\n\nDar\xEDo Georges\n(Direcci\xF3n de arte,\nproducci\xF3n)\n\nAlejandra
+    Bruno\n(Gui\xF3n)\n\nPatricio Oliver\n(Ilustraci\xF3n)\r\n\n\n"
 --- !u!114 &4432932186910790569
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -371,5 +371,6 @@ public class Cutscenes : MonoBehaviour
     void SetOffFinalScene()
     {
         room.roomsManager.cutscenesUI.SetOff();
+		Events.ShowCredits (true);
     }
 }

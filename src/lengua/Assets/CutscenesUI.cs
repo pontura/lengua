@@ -5,11 +5,18 @@ using UnityEngine;
 public class CutscenesUI : MonoBehaviour {
 
 	public GameObject panel;
+	public GameObject credits;
 	Animation anim;
 
 	void Start () {
 		Reset ();
 		anim = panel.GetComponent<Animation> ();
+
+		Events.ShowCredits += ShowCredits;
+	}
+
+	void OnDestroy(){
+		Events.ShowCredits -= ShowCredits;
 	}
 
 	public void SetOn() {
@@ -24,5 +31,9 @@ public class CutscenesUI : MonoBehaviour {
 	void Reset()
 	{
 		panel.SetActive (false);
+	}
+
+	void ShowCredits(bool enable){
+		credits.SetActive (enable);
 	}
 }

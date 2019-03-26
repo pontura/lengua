@@ -21,6 +21,7 @@ public class MusicManager : MonoBehaviour
 		Events.NextMusicTrack += NextMusicTrack;
 		Events.CutsceneMusic += Cutscene;
 		Events.PhoneMusic += Phono;
+		Events.StopMusic += StopAll;
 
 		nextEventTime = tracks [0].GetLength ()*0.5f;
 
@@ -31,6 +32,7 @@ public class MusicManager : MonoBehaviour
 		Events.NextMusicTrack -= NextMusicTrack;
 		Events.CutsceneMusic -= Cutscene;
 		Events.PhoneMusic -= Phono;
+		Events.StopMusic -= StopAll;
 	}
 
     // Update is called once per frame
@@ -43,6 +45,13 @@ public class MusicManager : MonoBehaviour
 
 		}*/
     }
+
+	void StopAll(){
+		foreach (MusicTrack mt  in tracks)
+			mt.Stop ();
+		cutscene.Stop ();
+		phono.Stop ();
+	}
 
 	void Cutscene(bool enable){
 		Debug.Log ("Cutscene "+enable);

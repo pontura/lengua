@@ -9,6 +9,7 @@ public class Splash : MonoBehaviour
 	public GameObject login;
 	public Button loginButton;
 	public InputField name, id;
+	public GameObject credits;
 
     // Start is called before the first frame update
     void Start()
@@ -41,4 +42,8 @@ public class Splash : MonoBehaviour
 		login.SetActive (false);
 	}
 
+
+	public void ShowCredits(bool enable){
+		credits.SetActive (enable);
+	}
 }

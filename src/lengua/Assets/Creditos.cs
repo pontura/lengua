@@ -2,16 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Creditos : MonoBehaviour {
 
+	public GameObject container;
 	public float pausaInicial;
 	public float speed;
 	RectTransform rt;
 
-	Vector3 originalPos;
-	bool run;
-	float yLimit = 3600;
+	public Vector3 originalPos;
+	public bool run;
+	public float yLimit = 3600;
 
 	// Use this for initialization
 	void Start () {
@@ -22,11 +24,11 @@ public class Creditos : MonoBehaviour {
 	void OnEnable(){
 		if (rt == null) {
 			rt = GetComponent<RectTransform> ();
-			originalPos = rt.localPosition;
+			originalPos = rt.position;
 		}
 		run = false;
 
-		rt.localPosition = originalPos;
+		rt.position = originalPos;
 		Invoke ("Run", pausaInicial);
 	}
 
@@ -41,9 +43,15 @@ public class Creditos : MonoBehaviour {
 
 			rt.localPosition = new Vector3 (p.x, p.y + speed, p.z);
 			if (p.y >= yLimit) {
-				rt.position = new Vector3 (p.x, 0, p.z);
+				//rt.position = new Vector3 (p.x, 0, p.z);
 				run = false;
 				//Events.ShowLevelMenu (true);
+				if (SceneManager.GetActiveScene ().name == "0_Splash") {
+					container.SetActive (false);
+				} else {
+					Events.StopMusic ();
+					SceneManager.LoadScene ("0_Splash");
+				}
 			}
 		}
 	}
