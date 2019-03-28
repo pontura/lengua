@@ -12,6 +12,7 @@ public class Splash : MonoBehaviour
 	public InputField name, id;
 	public GameObject credits;
 	public LoadingBar loadingBar;
+	public GameObject noLogin;
 
 	public bool loadDone;
 
@@ -43,9 +44,16 @@ public class Splash : MonoBehaviour
 	}
 
 	public void Register(){
-		Data.Instance.users.IsUser (id.text);
+		bool val = Data.Instance.users.IsUser (id.text);
 		ShowLogin ();
 		login.SetActive (false);
+		if (!val)
+			noLogin.SetActive (true);		
+		Invoke ("HideMessage", 3);
+	}
+
+	void HideMessage(){
+		noLogin.SetActive (false);
 	}
 
 

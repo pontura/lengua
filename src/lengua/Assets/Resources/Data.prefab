@@ -60,6 +60,7 @@ MonoBehaviour:
   triviaData: {fileID: 0}
   dialoguesData: {fileID: 0}
   phoneConversationsData: {fileID: 0}
+  users: {fileID: 0}
   esAlumno: 0
   currentLevel: 
   currentLevelIndex: 0
@@ -1341,7 +1342,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   users: []
-  url: https://docs.google.com/spreadsheets/d/1g8csS8zxK1Nj93MxPoxLMOJPwOQErYrzScykFW_LyuA/gviz/tq?tqx=out:csv
+  urls:
+  - ListadoAlumnosasEscobar.csv
+  isWeb: 0
 --- !u!1 &21115964421618717
 GameObject:
   m_ObjectHideFlags: 0
