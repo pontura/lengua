@@ -71,7 +71,6 @@ public class Users : MonoBehaviour{
 				string[] ss = line [i].Split (',');
 				User u = new User ();
 				u.apellido = ss [0].Replace ("\"", "");
-				Debug.Log (i);
 				u.nombre = ss [1].Replace ("\"", "");
 				ss [2] = ss [2].Replace ("\"", "");
 				u.id = ss [2].Replace ("\r", "");
