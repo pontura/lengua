@@ -23,7 +23,7 @@ public class Trivia : MonoBehaviour
         Events.OpenTrivia -= OpenTrivia;
         Events.OnBookComplete -= Win;
         Events.OnTriviaWrong -= Close;
-        Events.TriviaClose += Close;
+        Events.TriviaClose -= Close;
     }
     void OpenTrivia(string gameProgressKey)
     {

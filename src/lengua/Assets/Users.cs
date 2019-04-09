@@ -10,7 +10,6 @@ public class Users : MonoBehaviour{
 	//string urls = "https://docs.google.com/spreadsheets/d/1g8csS8zxK1Nj93MxPoxLMOJPwOQErYrzScykFW_LyuA/gviz/tq?tqx=out:csv";
 	public List<string> urls;
 	public bool isWeb;
-	string csvText;
 
 	[Serializable]
 	public class User{
@@ -20,13 +19,7 @@ public class Users : MonoBehaviour{
 	}
 
     // Start is called before the first frame update
-    void Start(){
-
-		int val = PlayerPrefs.GetInt ("user");
-		Debug.Log (val);
-
-		if (val > 0)
-			Data.Instance.esAlumno = true;
+    void Start(){		
 
 		foreach(string url in urls)
 			StartCoroutine (LoadCSV(url));
@@ -39,6 +32,7 @@ public class Users : MonoBehaviour{
     }
 
 	IEnumerator LoadCSV(string url){
+		string csvText="";
 		if (isWeb) {
 			WWW www = new WWW (url);
 			yield return www;
@@ -73,17 +67,20 @@ public class Users : MonoBehaviour{
 				u.apellido = ss [0].Replace ("\"", "");
 				u.nombre = ss [1].Replace ("\"", "");
 				ss [2] = ss [2].Replace ("\"", "");
+				ss [2] = ss [2].Replace (".", "");
 				u.id = ss [2].Replace ("\r", "");
 				users.Add (u);
 			}
 		}
 	}
 
-	public bool IsUser(string id){
-		int val = users.FindIndex (x => x.id == id);
-		Data.Instance.esAlumno = val > -1;
-		if(Data.Instance.esAlumno)
-			PlayerPrefs.SetInt ("user", 1);
+    public bool IsUser(string id) {
+        int val = users.FindIndex(x => x.id == id);
+        Data.Instance.esAlumno = val > -1;
+        if (Data.Instance.esAlumno) { 
+            PlayerPrefs.SetInt("user", 1);
+            Data.Instance.FBase_Login(true);
+        }
 		return Data.Instance.esAlumno;
 	}
 }

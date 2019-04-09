@@ -19,9 +19,7 @@ public class TriviaManager : MonoBehaviour {
 
 	public GameObject correcto,incorrecto;
 	public AudioClip correctoSfx,incorrectoSfx,winTrivia,openSfx,closeSfx;
-
-	public GoogleAnalyticsV3 ga;
-
+    
 	AudioSource asource;
 
 	TriviaData.Antologia antologia;
@@ -35,7 +33,6 @@ public class TriviaManager : MonoBehaviour {
 	void Start () {
 		paginator = GetComponent<TMPro.Examples.TriviaPaginator> ();
 		asource = GetComponent<AudioSource> ();
-		ga.StartSession ();
 		Events.SetTrivia += SetTrivia;
 		Events.NormativaDone += SetAnswer;
 		Events.CorrectoSfx += CorrectoSfx;
@@ -122,9 +119,10 @@ public class TriviaManager : MonoBehaviour {
 	}
 
 	public void SetAnswer(int option){
-		string val = option == 0 ? "BIEN" : "MAL";
-		if (tProgress.type == TriviaData.TriviaType.literatura) 
-			LogEvent (tProgress.type.ToString (), "ID_Trivia:"+tProgress.id, "EjercicioNro:"+tProgress.triviasIndex+"_Opción:"+option+"_"+val, option);
+		string val = option == 0 ? "CORRECTO" : "INCORRECTO";
+        long score = option == 0 ? 1 : 0;
+        if (tProgress.type == TriviaData.TriviaType.literatura) 
+			LogEvent ("TIPO:"+tProgress.type.ToString ()+"&ID_Trivia:"+tProgress.id+"&EjercicioNro:"+tProgress.triviasIndex+"&Opción:"+option+"&"+val, score);
 		
 			if (option==0) {				
 				tProgress.triviasDone [tProgress.triviasIndex] = true;
@@ -177,10 +175,17 @@ public class TriviaManager : MonoBehaviour {
 		Events.OnBookComplete ();
 	}
 
-	public void LogEvent(string eventCategory,string eventAction,string eventLabel,long value){
+	public void LogEvent(string respuesta,long value){
+        Data.Instance.triviaData.triviaCount++;
+        PlayerPrefs.SetInt("triviaCount", Data.Instance.triviaData.triviaCount);
 		if (Data.Instance.esAlumno) {
-			ga.LogEvent (eventCategory, eventAction, eventLabel, value);
-			ga.DispatchHits ();
-		}
+            Firebase.Analytics.Parameter[] scoreParameters = {
+                 new Firebase.Analytics.Parameter("Respuesta",respuesta),
+                 new Firebase.Analytics.Parameter(Firebase.Analytics.FirebaseAnalytics.ParameterScore,value)
+             };
+
+            Firebase.Analytics.FirebaseAnalytics.LogEvent(Firebase.Analytics.FirebaseAnalytics.EventPostScore, scoreParameters);
+
+        }
 	}
 }

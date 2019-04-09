@@ -1343,7 +1343,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   users: []
   urls:
-  - ListadoAlumnosasEscobar.csv
+  - ListadoAlumnosEscobar.csv
+  - ListadoAlumnosPelle.csv
+  - ListadoAlumnosCNBA.csv
   isWeb: 0
 --- !u!1 &21115964421618717
 GameObject:

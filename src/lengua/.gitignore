@@ -1,4 +1,10 @@
 # =============== #
+# FIREBASE #
+# =============== #
+*google-services*.*
+GoogleService-Info.plist
+
+# =============== #
 # Unity generated #
 # =============== #
 Temp/
@@ -7,6 +13,8 @@ UnityGenerated/
 Library/
 web/
 Assets/AssetStoreTools*
+.vs/
+.gradle/
 
 # ===================================== #
 # Visual Studio / MonoDevelop generated #

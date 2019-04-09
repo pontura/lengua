@@ -38,6 +38,18 @@ public class GameProgress : MonoBehaviour {
 		item.value = value;
 		PlayerPrefs.SetInt (item.name, value);
 
+        if(itemName == "cutscenes" && Data.Instance.esAlumno){
+            Firebase.Analytics.Parameter[] LevelUpParameters = {
+            new Firebase.Analytics.Parameter(
+                Firebase.Analytics.FirebaseAnalytics.ParameterLevel, value),
+            new Firebase.Analytics.Parameter(
+                Firebase.Analytics.FirebaseAnalytics.ParameterCharacter,"nivel:"+value+"&preguntas:"+Data.Instance.triviaData.triviaCount)
+            };
+            Firebase.Analytics.FirebaseAnalytics.LogEvent(
+              Firebase.Analytics.FirebaseAnalytics.EventLevelUp,
+              LevelUpParameters);
+        }
+
 		Events.OnRefreshInventary ();
 	}
 	public Item GetData(string name)

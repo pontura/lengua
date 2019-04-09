@@ -13,8 +13,9 @@ public class TriviaData : MonoBehaviour {
 	public float blockedTime;
 	public float resetTime;
 	public float normativaMinimum = 0.7f;
+    public int triviaCount;
 
-	char propSep = '&';
+    char propSep = '&';
 	char elementSep = '#';
 	char doneSep = '@';
 
@@ -96,9 +97,11 @@ public class TriviaData : MonoBehaviour {
 	}
 
 	void Start () {
-		/*if (!Data.Instance.reloadJson)
+        /*if (!Data.Instance.reloadJson)
 			return;*/
-		
+
+        triviaCount = PlayerPrefs.GetInt("triviaCount");
+
 		string filePath = Path.Combine (Application.streamingAssetsPath + "/", filename);
 		StartCoroutine(LoadFile(filePath));
 	}

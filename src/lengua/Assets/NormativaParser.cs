@@ -111,10 +111,10 @@ namespace TMPro.Examples
 				AnswerData ad = answers.Find(x => x.id == answerID);
 				ad.selected = ad.answers[selected];
 				if (ad.selected == ad.ok) {
-					Events.LogEvent (tp.type.ToString (), "ID_Trivia:"+tp.id, "EjercicioNro:"+linkID+"_"+linkText+"_BIEN", 1);
+					Events.LogEvent ("TIPO:"+tp.type.ToString ()+"&ID_Trivia:"+tp.id+"&EjercicioNro:"+linkID+"&Opcion:"+linkText+"&CORRECTO", 1);
 					Events.CorrectoSfx ();
 				} else {
-					Events.LogEvent (tp.type.ToString (), "ID_Trivia:"+tp.id, "EjercicioNro:"+linkID+"_"+linkText+"_MAL", 0);
+					Events.LogEvent ("TIPO:"+tp.type.ToString ()+"&ID_Trivia:"+tp.id+"&EjercicioNro:"+linkID+"&Opcion:"+linkText+"&INCORRECTO", 0);
 					Events.IncorrectoSfx ();
 				}
 			}
