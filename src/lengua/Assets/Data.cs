@@ -29,7 +29,7 @@ public class Data : MonoBehaviour
 
 	public bool esAlumno;
 
-    bool firebaseInitialized;
+    public bool firebaseInitialized;
 
     public static Data Instance
     {

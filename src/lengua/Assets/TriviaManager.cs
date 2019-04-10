@@ -178,7 +178,7 @@ public class TriviaManager : MonoBehaviour {
 	public void LogEvent(string respuesta,long value){
         Data.Instance.triviaData.triviaCount++;
         PlayerPrefs.SetInt("triviaCount", Data.Instance.triviaData.triviaCount);
-		if (Data.Instance.esAlumno) {
+		if (Data.Instance.esAlumno && Data.Instance.firebaseInitialized) {
             Firebase.Analytics.Parameter[] scoreParameters = {
                  new Firebase.Analytics.Parameter("Respuesta",respuesta),
                  new Firebase.Analytics.Parameter(Firebase.Analytics.FirebaseAnalytics.ParameterScore,value)

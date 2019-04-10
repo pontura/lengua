@@ -38,7 +38,8 @@ public class GameProgress : MonoBehaviour {
 		item.value = value;
 		PlayerPrefs.SetInt (item.name, value);
 
-        if(itemName == "cutscenes" && Data.Instance.esAlumno){
+        if(itemName == "cutscenes" && Data.Instance.esAlumno && Data.Instance.firebaseInitialized)
+        {
             Firebase.Analytics.Parameter[] LevelUpParameters = {
             new Firebase.Analytics.Parameter(
                 Firebase.Analytics.FirebaseAnalytics.ParameterLevel, value),
