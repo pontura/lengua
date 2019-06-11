@@ -1680,7 +1680,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1238338164
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3191,17 +3191,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1008889356428718}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 224951065174339144}
-  m_RootOrder: 6
+  m_Father: {fileID: 1743354481520031114}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -180, y: 228}
-  m_SizeDelta: {x: 370.9, y: 71.2}
+  m_AnchoredPosition: {x: -186, y: 26}
+  m_SizeDelta: {x: 317, y: 213.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &222458526237430410
 CanvasRenderer:
@@ -3237,8 +3237,8 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 20
-    m_MaxSize: 40
-    m_Alignment: 1
+    m_MaxSize: 44
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -3357,7 +3357,7 @@ RectTransform:
   - {fileID: 224351314567488952}
   - {fileID: 224981411455779988}
   m_Father: {fileID: 224951065174339144}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3587,7 +3587,7 @@ RectTransform:
   - {fileID: 224081673602668190}
   - {fileID: 224011911860877516}
   m_Father: {fileID: 224951065174339144}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3721,8 +3721,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -22, y: -12}
+  m_AnchoredPosition: {x: 1.1000061, y: 0}
+  m_SizeDelta: {x: -19.800001, y: -12}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &222001053446676112
 CanvasRenderer:
@@ -3758,13 +3758,13 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 20
-    m_MaxSize: 33
-    m_Alignment: 3
+    m_MaxSize: 35
+    m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_LineSpacing: 1.1
   m_Text: Manchaba de tinta todas las hojas del libro.
 --- !u!1 &1273990566401246
 GameObject:
@@ -3879,8 +3879,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -22, y: -12}
+  m_AnchoredPosition: {x: 1.1000061, y: 0}
+  m_SizeDelta: {x: -19.800001, y: -12}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &222972454597254184
 CanvasRenderer:
@@ -3916,13 +3916,13 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 20
-    m_MaxSize: 33
-    m_Alignment: 3
+    m_MaxSize: 35
+    m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_LineSpacing: 1.1
   m_Text: "Se quedaba quieta en el \xFAltimo rengl\xF3n."
 --- !u!1 &1363951987252954
 GameObject:
@@ -4238,8 +4238,9 @@ RectTransform:
   m_LocalScale: {x: 1.0000055, y: 1.0000055, z: 1.0000055}
   m_Children:
   - {fileID: 224747330872183262}
+  - {fileID: 1743354481520031114}
   m_Father: {fileID: 224951065174339144}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4346,8 +4347,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 49}
-  m_SizeDelta: {x: -20, y: -239.99994}
+  m_AnchoredPosition: {x: 3.75, y: 49}
+  m_SizeDelta: {x: 0.3000003, y: -239.99994}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &114316348096351992
 MonoBehaviour:
@@ -4367,7 +4368,7 @@ MonoBehaviour:
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 2
-  m_Spacing: 12.2
+  m_Spacing: 2.8
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 0
   m_ChildControlWidth: 1
@@ -4408,7 +4409,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 10, y: -9}
+  m_AnchoredPosition: {x: 10, y: 33}
   m_SizeDelta: {x: 300, y: 100}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &222327850894591708
@@ -4441,17 +4442,17 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: a1f629c9f11acfc4da1895ad5ed29117, type: 3}
-    m_FontSize: 22
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 2
-    m_MaxSize: 25
+    m_MaxSize: 35
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_LineSpacing: 1.09
   m_Text: "\xBFQu\xE9 hac\xEDa la Plapla por las p\xE1ginas del libro?"
 --- !u!1 &1418016127079734
 GameObject:
@@ -4665,7 +4666,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &224951065174339144
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4683,7 +4684,6 @@ RectTransform:
   - {fileID: 1747498405148798679}
   - {fileID: 5628775743306773708}
   - {fileID: 224545642213735208}
-  - {fileID: 224513463417416362}
   - {fileID: 224424607884580412}
   - {fileID: 224579932191680498}
   - {fileID: 224993904736275754}
@@ -4813,10 +4813,10 @@ RectTransform:
   m_Father: {fileID: 224835400068702676}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 165, y: 0}
-  m_SizeDelta: {x: 330, y: 97.76}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 110.8}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!222 &222495452337498306
 CanvasRenderer:
@@ -4945,10 +4945,10 @@ RectTransform:
   m_Father: {fileID: 224835400068702676}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 165, y: -317.68}
-  m_SizeDelta: {x: 330, y: 97.76}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 110.8}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &222800468146704650
 CanvasRenderer:
@@ -5077,8 +5077,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -22, y: -12}
+  m_AnchoredPosition: {x: 1.1000061, y: 0}
+  m_SizeDelta: {x: -19.800001, y: -12}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &222859136046103404
 CanvasRenderer:
@@ -5114,13 +5114,13 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 20
-    m_MaxSize: 33
-    m_Alignment: 3
+    m_MaxSize: 35
+    m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_LineSpacing: 1.1
   m_Text: Caminaba, bailaba y patinaba muy contenta.
 --- !u!1 &1713855622833056
 GameObject:
@@ -5152,12 +5152,12 @@ RectTransform:
   m_LocalScale: {x: 1.0000055, y: 1.0000055, z: 1.0000055}
   m_Children: []
   m_Father: {fileID: 224951065174339144}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 190, y: 25.000015}
-  m_SizeDelta: {x: 300, y: 400}
+  m_AnchoredPosition: {x: 190, y: 37}
+  m_SizeDelta: {x: 338, y: 423.26}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &222742962951072010
 CanvasRenderer:
@@ -5189,17 +5189,17 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: a1f629c9f11acfc4da1895ad5ed29117, type: 3}
-    m_FontSize: 26
+    m_FontSize: 35
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
-    m_MaxSize: 26
+    m_MaxSize: 45
     m_Alignment: 0
     m_AlignByGeometry: 1
     m_RichText: 0
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_LineSpacing: 1.12
   m_Text: "A veces, la vida se comporta como un viento: desordena y arrasa. Algo susurra
     pero no se le entiende. A su paso todo peligra; hasta lo que tiene ra\xEDces.
     Los edificios, por ejemplo. O las costumbres cotidianas. \r\nCuando la vida se
@@ -5257,10 +5257,10 @@ RectTransform:
   m_Father: {fileID: 224835400068702676}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 165, y: -158.84}
-  m_SizeDelta: {x: 330, y: 97.76}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 110.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &222189522801139658
 CanvasRenderer:
@@ -5842,7 +5842,7 @@ RectTransform:
   - {fileID: 224491403804197012}
   - {fileID: 224743752082589678}
   m_Father: {fileID: 224951065174339144}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -5974,7 +5974,7 @@ RectTransform:
   m_Children:
   - {fileID: 224709731480160890}
   m_Father: {fileID: 224951065174339144}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6090,7 +6090,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &224747330872183262
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6154,7 +6154,7 @@ RectTransform:
   - {fileID: 224009517928337428}
   - {fileID: 224971701363169098}
   m_Father: {fileID: 224951065174339144}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -7274,7 +7274,7 @@ RectTransform:
   - {fileID: 1385775627588272788}
   - {fileID: 7902699953582731343}
   m_Father: {fileID: 224951065174339144}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -7637,6 +7637,42 @@ MonoBehaviour:
     en el horizonte. \r\n- Se van a entender bien - dijo mam\xE1 -. Juanjo tiene tu
     edad.\r\nLa gata, \xFAnico ser que entend\xEDa mi desolaci\xF3n, salto sobre mis
     rodillas. Gracias, gatita buena. \r\n"
+--- !u!1 &7645160051539043252
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1743354481520031114}
+  m_Layer: 5
+  m_Name: "T\xEDtulo"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1743354481520031114
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7645160051539043252}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 224513463417416362}
+  m_Father: {fileID: 224424607884580412}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 179.99902, y: -1}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &8576527948521502091
 GameObject:
   m_ObjectHideFlags: 0
