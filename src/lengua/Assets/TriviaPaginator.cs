@@ -18,6 +18,8 @@ namespace TMPro.Examples
 		public float normativaFont_size;
 		public TMP_FontAsset literaturaFont;
 		public float literaturaFont_size;
+        public float literaturaLineHeight,normativaLineHeight;
+        public Color literaturaColor,normativaColor;
 		public GameObject triviaUI;
 		public AudioClip nextSfx;
 		AudioSource source;
@@ -33,8 +35,9 @@ namespace TMPro.Examples
 		public int charCount, lineCount;
 
 		public GameObject backBtn, nextBtn;
+        public GameObject title;
 
-		int bookIndex;
+        int bookIndex;
 
 		TriviaData.TriviaType type;
 
@@ -63,23 +66,33 @@ namespace TMPro.Examples
 
 			if (type == TriviaData.TriviaType.literatura) {
 				pageLeft.font = literaturaFont;
-				pageLeft.fontStyle = FontStyles.Normal;
+				pageLeft.fontStyle = FontStyles.Bold;
 				pageLeft.fontSize = literaturaFont_size;
 				pageRight.font = literaturaFont;
-				pageRight.fontStyle = FontStyles.Normal;
+				pageRight.fontStyle = FontStyles.Bold;
 				pageRight.fontSize = literaturaFont_size;
-				charsPL = charsPerLine;
-				lPP = linesPerPage;
+                pageLeft.lineSpacing = literaturaLineHeight;
+                pageRight.lineSpacing = literaturaLineHeight;
+                pageRight.color = literaturaColor;
+                pageLeft.color = literaturaColor;
+                charsPL = charsPerLine;
+                lPP = linesPerPage;
+                title.SetActive(true);
 			} else if (type == TriviaData.TriviaType.normativa) {
 				pageLeft.font = normativaFont;
-				pageLeft.fontStyle = FontStyles.Italic;
+				pageLeft.fontStyle = FontStyles.Normal;
 				pageLeft.fontSize = normativaFont_size;
 				pageRight.font = normativaFont;
-				pageRight.fontStyle = FontStyles.Italic;
+				pageRight.fontStyle = FontStyles.Normal;
 				pageRight.fontSize = normativaFont_size;
-				charsPL = charsPerLine_norma;
+                pageLeft.lineSpacing = normativaLineHeight;
+                pageRight.lineSpacing = normativaLineHeight;
+                pageRight.color = normativaColor;
+                pageLeft.color = normativaColor;
+                charsPL = charsPerLine_norma;
 				lPP = linesPerPage_norma;
-			}
+                title.SetActive(false);
+            }
 			
 
 			tp = tpro;
@@ -141,10 +154,10 @@ namespace TMPro.Examples
 		void DrawPages ()
 		{
 			triviaUI.SetActive (false);
-			if (bookIndex > 0)
-				backBtn.SetActive (true);
-			else
-				backBtn.SetActive (false);
+            if (bookIndex > 0)
+                backBtn.SetActive(true);
+            else
+                backBtn.SetActive(false);
 		
 			int pageIndex = bookIndex * 2;
 			if (pageIndex < pages.Count) {
@@ -153,14 +166,16 @@ namespace TMPro.Examples
 					nextBtn.SetActive (true);
 				}else {					
 					leftParser.Parse (pages [pageIndex],tp);
-					nextBtn.SetActive (false);
+                    if (!title.activeSelf)
+                        nextBtn.SetActive (false);
 				}
 			} else {
 				pageLeft.text = "";
 				pageRight.text = "";
 				if (type == TriviaData.TriviaType.literatura)
 				SetTrivia (true);
-				nextBtn.SetActive (false);
+                if (!title.activeSelf)
+                    nextBtn.SetActive (false);
 				return;
 			}
 
@@ -172,20 +187,20 @@ namespace TMPro.Examples
 					rightParser.Parse (pages [pageIndex + 1],tp);
 					if(pages.Count>pageIndex + 2)  
 						nextBtn.SetActive (true);
-					else
-						nextBtn.SetActive (false);
+					else if (!title.activeSelf)
+                        nextBtn.SetActive (false);
 				}
 			} else {
 				pageRight.text = "";
 				if (type == TriviaData.TriviaType.literatura)
 				SetTrivia (false);
-				nextBtn.SetActive (false);
+                if (!title.activeSelf)
+                    nextBtn.SetActive (false);
 				return;
 			}
+                       
 
-
-		
-		}
+        }
 
 		void SetTrivia (bool left)
 		{
@@ -202,6 +217,12 @@ namespace TMPro.Examples
 
 		public void ChangePage (int val)
 		{
+            if (title.activeSelf) {
+                title.SetActive(false);
+                DrawPages();
+                return;
+            }
+
 			if (val < 0) {			
 				if (bookIndex == 0)
 					return;

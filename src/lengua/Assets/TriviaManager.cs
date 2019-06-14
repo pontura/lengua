@@ -6,9 +6,10 @@ using UnityEngine.UI;
 public class TriviaManager : MonoBehaviour {
 
 	public bool test;
-	int showIndex = 28;
+    int showIndex = 28;
 	public Text title;
-	public Image backgroundLibro;
+    public Text author;
+    public Image backgroundLibro;
 	public GameObject libro;
 	public Image backgroundCuaderno;
 	public GameObject cuaderno;
@@ -75,7 +76,8 @@ public class TriviaManager : MonoBehaviour {
 			backgroundLibro.color = color;
 			backgroundCuaderno.color = color;
 			title.text = antologia.title;
-			paginator.SetPages (antologia.texts [tProgress.triviasIndex].textlines, antologia.type, tProgress);
+            author.text = antologia.author;
+            paginator.SetPages (antologia.texts [tProgress.triviasIndex].textlines, antologia.type, tProgress);
 			if (antologia.type == TriviaData.TriviaType.literatura) {
 				libro.SetActive (true);
 				cuaderno.SetActive (false);
