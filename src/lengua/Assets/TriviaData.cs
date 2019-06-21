@@ -6,6 +6,7 @@ using System.IO;
 
 public class TriviaData : MonoBehaviour {
 
+    public bool reloadJson;
 	public string filename="Antologia.json";
 
 	public List<TriviaProgress> triviaProgress;
@@ -102,8 +103,10 @@ public class TriviaData : MonoBehaviour {
 
         triviaCount = PlayerPrefs.GetInt("triviaCount");
 
-		string filePath = Path.Combine (Application.streamingAssetsPath + "/", filename);
-		StartCoroutine(LoadFile(filePath));
+        if (reloadJson) {
+            string filePath = Path.Combine(Application.streamingAssetsPath + "/", filename);
+            StartCoroutine(LoadFile(filePath));
+        }
 	}
 
 	public void SaveProgress(){

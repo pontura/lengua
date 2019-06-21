@@ -53,7 +53,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4abd52d2147a7bc4f844b1ffbcaa81f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  reloadJson: 1
+  reloadJson: 0
   interactiveObjectsTexts: {fileID: 0}
   gameProgress: {fileID: 0}
   inventary: {fileID: 0}
@@ -272,151 +272,173 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   content:
-    compuerta_no: 
-    alas: 
-    alas_no: 
-    manivela_done: 
-    no_hay_escalera: 
-    bustoColocaTrenza: 
-    busto: 
-    manivela: 
-    telescopio_done: 
-    telescopio_1: 
-    telescopio_2: 
-    telescopio_sin_manivela: 
-    claraboyaPoneEstrella: 
-    claraboyaPoneEscalera: 
-    trenza1: 
-    trenza2: 
-    claraboya: 
-    estrella: 
-    telar_sin_ovillo: 
-    plumasNegras: 
-    ovillo: 
+    compuerta_no: "Mejor termino ac\xE1. Si me voy ahora, puede que nunca sepa la
+      verdad."
+    alas: "Alas que vuelan solas... No entres en p\xE1nico/Hab\xEDa un cuaderno ah\xED
+      entre las alas"
+    alas_no: "Por el tama\xF1o podr\xEDan ser las de un \xE1ngel... \xA1\xBFDije \xC1NGEL?!"
+    manivela_done: "\xA1Claro! La manivela me puede servir para hacer girar este viejo
+      telescopio"
+    no_hay_escalera: "Colocar\xEDa la estrella ah\xED... pero no llego"
+    bustoColocaTrenza: Va queriendo...
+    busto: "Pueblo Quom. \u2018Maxatchaxa qome qataq maiche qanchoxonni\u1EF9a\u2019t\u2019
+      (Cu\xEDdense y \xE1mense entre ustedes)... algo le falta..."
+    manivela: Una manivela... como para hacer girar algo...
+    telescopio_done: "Ahora se ve mejor... \xA1Hermoso!"
+    telescopio_1: Veo pocas estrellas en ese cielo...
+    telescopio_2: Algo veo ahora... pero algo falta...
+    telescopio_sin_manivela: Un telescopio... Mmh, le falta algo
+    claraboyaPoneEstrella: "Veo pocas estrellas en ese cielo... Ojal\xE1 pudiera ver
+      ese cielo de cerca"
+    claraboyaPoneEscalera: Con esta escalera puedo llegar hasta las estrellas
+    trenza1: Una trenza dura como una piedra
+    trenza2: "Me llevo esta trenza... \xA1Ahora esta constelaci\xF3n qued\xF3 derecha!
+      Me gusta"
+    claraboya: "\xBFEstrellas? Est\xE1 muy alto, no llego..."
+    estrella: "Una estrella... \xA1ya s\xE9 donde puede ir!"
+    telar_sin_ovillo: Un telar sin hilo
+    plumasNegras: Un par de espantosas plumas negras
+    ovillo: "Gracias por este ovillo, ara\xF1a. Ni notaste el terror que te tengo,
+      \xBFno?"
     ovillo2: 
-    rosa: 
-    escalera_altillo: 
-    cuadernoAltillo1: 
-    cuadernoAltillo2: 
-    cuadernoAltillo3: 
-    libro_altillo_1: 
-    libro_altillo_2: 
-    usarG: 
-    vaso2: 
+    rosa: "\xA1Termin\xE9! \xA1Es hora de ir a casa!"
+    escalera_altillo: una escalera... me la llevo
+    cuadernoAltillo1: un cuaderno
+    cuadernoAltillo2: "\xA1Un compartimento secreto!/Hay un cuaderno, me lo llevo"
+    cuadernoAltillo3: otro cuaderno
+    libro_altillo_1: "Los ejercicios ahora vienen... \xBFtejidos?/Es Aracne, de Ovidio"
+    libro_altillo_2: "Un libro m\xE1s.../'Un se\xF1or muy viejo con unas alas enormes'
+      de G. M\xE1rquez"
+    usarG: Creo que si estiro esta G puedo hacer un gancho y llegar a la entrada del
+      techo
+    vaso2: Bien... ahora tengo un vaso lleno, espero no volcarlo...
     veneno: 
-    letra2_inserted: 
-    h_inserted: 
-    llave02_used: 
-    h: 
-    g: 
-    libro_lab_1: 
-    libro_lab_2: 
-    cuadernoLab1: 
-    cuadernoLab2: 
-    cuadernoLab3: 
-    catDone: 
+    letra2_inserted: "Queda mejor as\xED"
+    h_inserted: "Queda mejor as\xED"
+    llave02_used: A ver.. si esta llave sirve para este armario
+    h: Una letra 'H'
+    g: "Una letra 'G'. Podr\xEDa usarla para hacer un gancho y alcanzar aquella escalera
+      en el altillo..."
+    libro_lab_1: El crimen casi perfecto, de Arlt.
+    libro_lab_2: "El libro es Las tres noches de Isa\xEDas Bloom, de Walsh"
+    cuadernoLab1: un cuaderno nuevo
+    cuadernoLab2: "otro cuaderno m\xE1s"
+    cuadernoLab3: otro cuaderno
+    catDone: "\xA1S\xED! \xA1Ya puedo visitar el laboratorio!"
     picaporte_1: Esto no se ve bien. Mejor le aviso a Marian
     picaporte_2: "Tengo que encontrar una forma de salir\u2026 Con dignidad"
     picaporte_3: Con este destornillador tengo que poder arregar esta puerta...
     picaporte_4: "\xA1S\xED\xED\xED\xED! \xA1In your face, puerta!"
-    escritorio: El escritorio de la directora, o del director. Ya tocarlo me hace
-      sentir importante
+    escritorio: El escritorio de la rectora, o del rector. Y al tocarlo me hace sentir
+      importante
     libroIngreso: "\xA1Encontraste un LIBRO del ingreso!/Lee y responde la trivia
       para avanzar en la historia./Es necesario leer todos los libros para avanzar."
     escritorioDoor1: "No huyas, cobarde. Esto no puede ser taaan dif\xEDcil."
     fichero_1: "\xA1Entrega tus secretos! Owww\u2026 Cerrado"
     fichero_con_llave: "Voy a probar esta llave en el fichero/\xA1Funcion\xF3!"
-    fichero_con_llave2: "\xA1Encontraste un CUADERNO del ingreso!/Lee y responde la
-      trivia para avanzar en la historia."
+    fichero_con_llave2: "\xA1Encontraste un CUADERNO del ingreso!/Le\xE9 y respond\xE9
+      la trivia para avanzar en la historia."
     fichero_done: Ya no hay nada en este viejo fichero
     cuadro1: "Mar\xEDa Remedios del Valle (1766 - 1847)/Valiente capitana de la Patria\u201D/\xA1Vamos
       las pibas!"
-    libroCuadro: 'Un libro... se llama: Amigos por el viento, de Liliana Bodoc.'
+    libroCuadro: "Un libro... se llama: \xA8Amigos por el viento\xA8, de Liliana Bodoc."
     libroCuadro2: "\xA1\xBFEh?! Me pareci\xF3 que algo se mov\xEDa..."
     libroBloqueado: Me siento un poco bloqueda... voy a esperar un minuto
     libroCompletado: "\xA1Por suerte este libro ya lo termin\xE9!"
-    cuerno1: 
-    cuerno2: 
-    minotauro_0: 
-    minotauro_1: 
-    minotauro_2: 
-    alfonsina: 
-    puerta_biblioteca_patio: 
-    escalera_1: 
-    escalera_2: 
-    cuadernoBiblioteca1: 
-    cuadernoBiblioteca2: 
-    cuadernoBiblioteca3: 
-    libro_biblioteca_1: 
-    libro_biblioteca_2: 
-    libros_dibujos: 
-    rueda: 
-    puertaMapoteca: 
-    minimap_1: 
-    minimap_2: 
-    minimap_3: 
-    minimap_1_inserted: 
-    minimap_2_inserted: 
-    caldero_inserted: 
-    minimap_3_inserted: 
-    cola_inserted: 
-    montura_inserted: 
-    cajoneraVacia: 
-    cuadernoMapoteca1: 
-    cuadernoMapoteca2: 
-    libro_mapoteca_1: 
-    libro_mapoteca_2: 
-    libro_mapoteca_3: 
-    lobo: 
-    lobos: 
-    map: 
-    mapReady: 
-    palanca: 
-    ladder_1: 
-    globo_1: 
-    globo_2: 
-    tarjeta: 
-    mapasDesconocidos: 
-    mapaConstelacion: 
-    mapasMedicion: 
-    cuadernoPatio1: 
-    cuadernoPatio2: 
-    cuadernoPatio3: 
-    libro_patio_1: 
-    libro_patio_2: 
-    libro_patio_3: 
-    cola: 
-    montura: 
-    pala: 
-    piedra: 
-    tijeras: 
-    cuadernoArbol: 
-    pozo: 
-    ligustrina: 
-    estatuaIncompleta: 
-    origami: 
-    catSinOrigami: 
-    banco: 
-    vaso: 
-    balon: 
-    gato1: 
-    gato2: 
-    cuadroOrigamis1: 
-    cuadroOrigamis2: 
-    pileta1: 
-    pileta2: 
-    armarioLab: 
-    letra2: 
-    pizarron: 
-    balones1: 
-    balones2: 
-    caldero1: 
-    caldero2: 
-    caldero3: 
-    llave02: 
+    cuerno1: "Un cuerno... \xBFen el p\xEDso? \xBFqu\xE9 har\xE1 este cuerno en el
+      piso?..."
+    cuerno2: "\xA1Otro cuerno!"
+    minotauro_0: "A este animal le falta algo\u2026"
+    minotauro_1: "Mejor pero\u2026 \xBFa que extra\xF1\xE1s el otro cuerno?"
+    minotauro_2: "Ahora s\xED, \xA1un monstruo hecho y derecho!"
+    alfonsina: "'\xBFQu\xE9 mundos tengo dentro del alma\u2026/que hace tiempo vengo
+      pidiendo medios para volar?' -Alfonsina Storni"
+    puerta_biblioteca_patio: "Parece tener un lector de tarjeta. \xA1Cu\xE1nta seguridad!"
+    escalera_1: "Me encantar\xEDa deslizarme pero le falta una ruedita\u2026 \xA1Y
+      un escal\xF3n!"
+    escalera_2: "\xA1Ahora si que sirve para algo!"
+    cuadernoBiblioteca1: Encontraste un nuevo cuaderno
+    cuadernoBiblioteca2: Encontraste un nuevo cuaderno
+    cuadernoBiblioteca3: Encontraste un nuevo cuaderno
+    libro_biblioteca_1: "\xA1Epa! encontr\xE9 un libro debajo de esta armadura/'La
+      casa de Asteri\xF3n'.../a ver..."
+    libro_biblioteca_2: "\xBFDe donde habr\xE1 salido este libro?.../'Teseo y el minotauro'.../a
+      ver..."
+    libros_dibujos: "\xA1Cu\xE1ntos libros! \xBFUno con dibujitos no habr\xE1?"
+    rueda: "Ok, encontr\xE9 una rueda.."
+    puertaMapoteca: "Ah\xED debe estar la famosa mapoteca\u2026"
+    minimap_1: Un nuevo cuaderno
+    minimap_2: Esto me suena a zona del mapa
+    minimap_3: Parece ser una zona de mapa
+    minimap_1_inserted: "El mapa parece m\xE1s completo ahora"
+    minimap_2_inserted: "Me parec\xEDa que faltaba algo..."
+    caldero_inserted: Un poco de esto...
+    minimap_3_inserted: Definitivamente... algo le faltaba a este mapa...
+    cola_inserted: "\xA1Esta estatua con cola queda m\xE1s completa!"
+    montura_inserted: Con montura es otra cosa
+    cajoneraVacia: "Nada por aqu\xED..."
+    cuadernoMapoteca1: "\xA1Un cuaderno!"
+    cuadernoMapoteca2: "\xA1Otro cuaderno!"
+    libro_mapoteca_1: "Ah... hab\xEDa un  libro en el piso/El hombre lobo... a ver
+      de qu\xE9 va..."
+    libro_mapoteca_2: "La inmolaci\xF3n por la belleza... A ver de qu\xE9 se trata..."
+    libro_mapoteca_3: El anillo encantado
+    lobo: "Un lobo, no sab\xEDa que lo pod\xEDa agarrar..."
+    lobos: '''Lobos salvajes'' se lee en la placa de esta fea estatuita.'
+    map: Parece que perdiste un par de regiones, amigo
+    mapReady: "Espero que seas m\xE1s feliz ahora, aunque hayas quedado torcido. Mejor
+      dejo de hablar con el mapa, no siento que sea una relaci\xF3n correspondida"
+    palanca: "Una palanca... \xBFpara que servir\xE1?"
+    ladder_1: "Una puertita en el techo. \xBFA d\xF3nde llevar\xE1 eso?..."
+    globo_1: "El abuelo de Joaco ten\xEDa uno as\xED. Lo abr\xEDas y adentro hab\xEDa
+      bebidas. \xBFEste ser\xE1 de esos?"
+    globo_2: "\xA1\xBFEh?! \xBFEscucho risas? Tanta literatura, \xBFno estar\xE1 afectando
+      mi cerebro?"
+    tarjeta: "\xA1Una tarjeta! Me suena d\xF3nde podr\xEDa usarla..."
+    mapasDesconocidos: "Raro\u2026 No es ning\xFAn lugar que conozca"
+    mapaConstelacion: "\xBFExistir\xE1n organismos inteligentes en otro planeta?  \xBFEs
+      inteligente que yo, como organismo, me haga esta pregunta?"
+    mapasMedicion: "Mapas e instrumentos de medici\xF3n del a\xF1o de la escarapela"
+    cuadernoPatio1: "\xA1Un cuaderno!... esto fu\xE9 f\xE1cil..."
+    cuadernoPatio2: "A ver si pruebo tir\xE1ndole la piedra.../S\xED, \xA1Lo logr\xE9!"
+    cuadernoPatio3: "Ese tesoro es una prueba a mi honestidad/\xA1Seguro hay una c\xE1mara
+      en alguna parte, mejor lo dejo!"
+    libro_patio_1: "A ver.../ Si, se abre.../\xA1Y hay un libro!/'Corrientes 1499.
+      Los entierros'"
+    libro_patio_2: "'Los sue\xF1os del sapo, de Javier Villafa\xF1e'"
+    libro_patio_3: "\xA1Un libro nuevo!: 'Mil grullas, de Bornemann'"
+    cola: "Parece una cola de caballo... \xA1pero dura como la piedra!"
+    montura: "\xBFQui\xE9n usa esto? Es muy grande para una persona..."
+    pala: Una pala...
+    piedra: Una piedra...
+    tijeras: Ok, unas tijeras
+    cuadernoArbol: "Veo algo ah\xED, pero est\xE1 muy alto..."
+    pozo: "Una monta\xF1ita de tierra..."
+    ligustrina: " \xA1Ouch! \xA1Esos espinos pinchan!"
+    estatuaIncompleta: "Te sent\xEDs incompleto, \xBFno, caballo?"
+    origami: "\xA1Ups!, Hab\xEDa una simp\xE1tica grulla de papel adentro"
+    catSinOrigami: " \xA1Qu\xE9 car\xE1cter, Pizarnik!"
+    banco: "Ya habr\xE1 tiempo de descansar"
+    vaso: "Un vaso vac\xEDo..."
+    balon: "bal\xF3n para destilaci\xF3n"
+    gato1: Le saco el origami... Pizarnik no dice nada...
+    gato2: "Los gatos son lo mejor del mundo,  despu\xE9s del helado"
+    cuadroOrigamis1: "\xBFUna bandada de\u2026 origamis?"
+    cuadroOrigamis2: " \xA1Tengo que contarle esto a Joaco!"
+    pileta1: "Agua que no has de beber\u2026 Pero si tuviera un vaso\u2026"
+    pileta2: ' Los indecisos vemos el vaso medio medio'
+    armarioLab: "Cerrado\u2026 \xA1Por ahora!"
+    letra2: "\xA1\xBFUn esqueleto de drag\xF3n?!/Adentro encontr\xE9 un n\xFAmero..."
+    pizarron: "Una f\xF3rmula incompleta"
+    balones1: "El l\xEDquido deber\xEDa llegar a la copa..."
+    balones2: "\xA1Copa llena!"
+    caldero1: Parece una receta...
+    caldero2: "\xA1Espero no ser yo el ingrediente que falta!"
+    caldero3: "\xBFSopa de letras venenosas? Paso, gracias"
+    llave02: "Una llave peque\xF1a"
     vaso2_inserted: 
     balon_inserted: 
-    copa: 
+    copa: Una copa llena de... algo
 --- !u!114 &114434947018505516
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -632,6 +654,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e745d22d8b9309949a65cc47e8676243, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  reloadJson: 0
   filename: Antologia.json
   triviaProgress:
   - id: 0
@@ -654,26 +677,242 @@ MonoBehaviour:
     state: 0
   - id: 2
     gameprogress_name: cuaderno_ingreso
-    type: 0
+    type: 1
     area: 0
+    triviasIndex: 0
+    triviasDone: 0000000000000000
+    completed: 0
+    lastBadAnswerTime: 0
+    state: 0
+  - id: 3
+    gameprogress_name: libro_biblioteca_1
+    type: 0
+    area: 1
     triviasIndex: 0
     triviasDone: 000000
     completed: 0
     lastBadAnswerTime: 0
     state: 0
   - id: 4
-    gameprogress_name: libro_biblioteca_1
+    gameprogress_name: libro_biblioteca_2
     type: 0
-    area: 0
+    area: 1
     triviasIndex: 0
     triviasDone: 000000
     completed: 0
     lastBadAnswerTime: 0
     state: 0
   - id: 5
-    gameprogress_name: libro_biblioteca_2
+    gameprogress_name: cuadernoBiblioteca1
+    type: 1
+    area: 1
+    triviasIndex: 0
+    triviasDone: 0000000000000000
+    completed: 0
+    lastBadAnswerTime: 0
+    state: 0
+  - id: 6
+    gameprogress_name: cuadernoBiblioteca2
+    type: 1
+    area: 1
+    triviasIndex: 0
+    triviasDone: 0000000000000000
+    completed: 0
+    lastBadAnswerTime: 0
+    state: 0
+  - id: 7
+    gameprogress_name: cuadernoBiblioteca3
+    type: 1
+    area: 1
+    triviasIndex: 0
+    triviasDone: 000000000000000000
+    completed: 0
+    lastBadAnswerTime: 0
+    state: 0
+  - id: 8
+    gameprogress_name: cuadernoMapoteca1
+    type: 1
+    area: 2
+    triviasIndex: 0
+    triviasDone: 0000000000000000
+    completed: 0
+    lastBadAnswerTime: 0
+    state: 0
+  - id: 9
+    gameprogress_name: libro_mapoteca_2
     type: 0
-    area: 0
+    area: 2
+    triviasIndex: 0
+    triviasDone: 000000
+    completed: 0
+    lastBadAnswerTime: 0
+    state: 0
+  - id: 10
+    gameprogress_name: libro_mapoteca_1
+    type: 0
+    area: 2
+    triviasIndex: 0
+    triviasDone: 000000
+    completed: 0
+    lastBadAnswerTime: 0
+    state: 0
+  - id: 11
+    gameprogress_name: cuadernoMapoteca2
+    type: 1
+    area: 2
+    triviasIndex: 0
+    triviasDone: 00000000000000
+    completed: 0
+    lastBadAnswerTime: 0
+    state: 0
+  - id: 12
+    gameprogress_name: libro_mapoteca_3
+    type: 0
+    area: 2
+    triviasIndex: 0
+    triviasDone: 000000
+    completed: 0
+    lastBadAnswerTime: 0
+    state: 0
+  - id: 13
+    gameprogress_name: cuadernoPatio1
+    type: 1
+    area: 3
+    triviasIndex: 0
+    triviasDone: 0000000000000000
+    completed: 0
+    lastBadAnswerTime: 0
+    state: 0
+  - id: 14
+    gameprogress_name: cuadernoPatio2
+    type: 1
+    area: 3
+    triviasIndex: 0
+    triviasDone: 0000000000000000
+    completed: 0
+    lastBadAnswerTime: 0
+    state: 0
+  - id: 15
+    gameprogress_name: cuadernoPatio3
+    type: 1
+    area: 3
+    triviasIndex: 0
+    triviasDone: 000000000000
+    completed: 0
+    lastBadAnswerTime: 0
+    state: 0
+  - id: 16
+    gameprogress_name: libro_patio_1
+    type: 0
+    area: 3
+    triviasIndex: 0
+    triviasDone: 000000
+    completed: 0
+    lastBadAnswerTime: 0
+    state: 0
+  - id: 17
+    gameprogress_name: libro_patio_2
+    type: 0
+    area: 3
+    triviasIndex: 0
+    triviasDone: 000000
+    completed: 0
+    lastBadAnswerTime: 0
+    state: 0
+  - id: 18
+    gameprogress_name: libro_patio_3
+    type: 0
+    area: 3
+    triviasIndex: 0
+    triviasDone: 000000
+    completed: 0
+    lastBadAnswerTime: 0
+    state: 0
+  - id: 19
+    gameprogress_name: libro_lab_1
+    type: 0
+    area: 4
+    triviasIndex: 0
+    triviasDone: 000000
+    completed: 0
+    lastBadAnswerTime: 0
+    state: 0
+  - id: 20
+    gameprogress_name: libro_lab_2
+    type: 0
+    area: 4
+    triviasIndex: 0
+    triviasDone: 000000
+    completed: 0
+    lastBadAnswerTime: 0
+    state: 0
+  - id: 21
+    gameprogress_name: cuadernoLab1
+    type: 1
+    area: 4
+    triviasIndex: 0
+    triviasDone: 0000000000000000
+    completed: 0
+    lastBadAnswerTime: 0
+    state: 0
+  - id: 22
+    gameprogress_name: cuadernoLab2
+    type: 1
+    area: 4
+    triviasIndex: 0
+    triviasDone: 00000000000000
+    completed: 0
+    lastBadAnswerTime: 0
+    state: 0
+  - id: 23
+    gameprogress_name: cuadernoLab3
+    type: 1
+    area: 4
+    triviasIndex: 0
+    triviasDone: 00000000000000
+    completed: 0
+    lastBadAnswerTime: 0
+    state: 0
+  - id: 24
+    gameprogress_name: cuadernoAltillo1
+    type: 1
+    area: 5
+    triviasIndex: 0
+    triviasDone: 00000000000000
+    completed: 0
+    lastBadAnswerTime: 0
+    state: 0
+  - id: 25
+    gameprogress_name: cuadernoAltillo2
+    type: 1
+    area: 5
+    triviasIndex: 0
+    triviasDone: 00000000000000
+    completed: 0
+    lastBadAnswerTime: 0
+    state: 0
+  - id: 26
+    gameprogress_name: cuadernoAltillo3
+    type: 1
+    area: 5
+    triviasIndex: 0
+    triviasDone: 00000000000000
+    completed: 0
+    lastBadAnswerTime: 0
+    state: 0
+  - id: 27
+    gameprogress_name: libro_altillo_1
+    type: 0
+    area: 5
+    triviasIndex: 0
+    triviasDone: 000000
+    completed: 0
+    lastBadAnswerTime: 0
+    state: 0
+  - id: 28
+    gameprogress_name: libro_altillo_2
+    type: 0
+    area: 5
     triviasIndex: 0
     triviasDone: 000000
     completed: 0
@@ -684,7 +923,7 @@ MonoBehaviour:
     gameprogress_name: libroIngreso
     title: La plapla
     author: "Mar\xEDa Elena Walsh"
-    color: 
+    color: '#4A7D6B'
     type: 0
     area: 0
     texts:
@@ -693,8 +932,8 @@ MonoBehaviour:
         y sacando un poquito la lengua, escrib\xEDa enruladas emes, orejudas eles
         y elegant\xEDsimas zetas."
       - De pronto, vio algo muy raro sobre el papel.
-      - "\x96\xBFQu\xE9 es esto?\x96 se pregunt\xF3 Felipito, que era un poco miope,
-        y se puso un par de anteojos."
+      - "\xBFQu\xE9 es esto? se pregunt\xF3 Felipito, que era un poco miope, y se
+        puso un par de anteojos."
       - "Una de las letras que hab\xEDa escrito se despatarraba toda y se pon\xEDa
         a caminar muy oronda por el cuaderno."
       - "Felipito no lo pod\xEDa creer, y sin embargo era cierto: la letra, como una
@@ -703,27 +942,26 @@ MonoBehaviour:
       - Felipito se puso otro par de anteojos para mirarla mejor.
       - "Cuando la hubo mirado bien, cerr\xF3 el cuaderno asustado y oy\xF3 una vocecita
         que dec\xEDa:"
-      - "\x96\xA1Ay!"
+      - "\xA1Ay!"
       - "Volvi\xF3 a abrir el cuaderno valientemente y se puso otro par de anteojos,
         y ya van tres. Pegando la nariz al papel pregunt\xF3:"
-      - "\x96\xBFQui\xE9n es usted, se\xF1orita?"
-      - "Y la letra caminadora contest\xF3:"
-      - "\x96Soy una Plapla."
-      - "\x96\xBFUna Plapla? \x96 pregunt\xF3 Felipito asustad\xEDsimo \x96\xBFQu\xE9
-        es eso?"
-      - "\x96\xBFNo acabo de decirte? Una Plapla soy yo."
-      - "\x96Pero la maestra nunca me dijo que existiera una letra llamada Plapla,
-        y mucho menos que caminara por el cuaderno."
-      - "\x96Ahora ya lo sabes. Has escrito una Plapla."
-      - "\x96\xBFY qu\xE9 hago con la Plapla?"
-      - "\x96Mirarla."
-      - "\x96S\xED, la estoy mirando pero \xBFy despu\xE9s?"
-      - "\x96Despu\xE9s, nada."
+      - "\xBFQui\xE9n es usted, se\xF1orita?"
+      - "Y la letra caminadora#contest\xF3: "
+      - Soy una Plapla.
+      - "\xBFUna Plapla?  pregunt\xF3 Felipito asustad\xEDsimo \xBFQu\xE9 es eso?"
+      - "\xBFNo acabo de decirte? Una Plapla soy yo."
+      - Pero la maestra nunca me dijo que existiera una letra llamada Plapla, y mucho
+        menos que caminara por el cuaderno.
+      - Ahora ya lo sabes. Has escrito una Plapla.
+      - "\xBFY qu\xE9 hago con la Plapla?"
+      - Mirarla.
+      - "S\xED, la estoy mirando pero \xBFy despu\xE9s?"
+      - "Despu\xE9s, nada."
       - "Y la Plapla sigui\xF3 patinando sobre el cuaderno mientras cantaba un vals
         con su voz chiquita y de tinta."
       - "Al d\xEDa siguiente, Felipito corri\xF3 a mostrarle el cuaderno a su maestra,
-        gritando entusiasmado:"
-      - "\x96\xA1Se\xF1orita, mire la Plapla, mire la Plapla!"
+        gritando entusiasmado:#"
+      - "\xA1Se\xF1orita, mire la Plapla, mire la Plapla!"
       - "La maestra crey\xF3 que Felipito se hab\xEDa vuelto loco. Pero no."
       - "Abri\xF3 el cuaderno, y all\xED estaba la Plapla bailando y patinando por
         la p\xE1gina y jugando a la rayuela con los renglones."
@@ -743,25 +981,24 @@ MonoBehaviour:
     trivias:
     - quest: "\xBFQu\xE9 hac\xEDa la Plapla por las p\xE1ginas del libro?"
       answers:
-      - La Plapla caminaba, bailaba y patinaba muy contenta.
-      - La Plapla manchaba de tinta todas las hojas del libro.
-      - "La Plapla se quedaba quieta en el \xFAltimo rengl\xF3n."
+      - Caminaba, bailaba y patinaba muy contenta.
+      - Manchaba de tinta todas las hojas del libro.
+      - "Se quedaba quieta en el \xFAltimo rengl\xF3n."
     - quest: "\xBFQu\xE9 pens\xF3 la maestra sobre Felipito?"
       answers:
-      - "La maestra pens\xF3 que Felipito se hab\xEDa vuelto loco."
-      - "La maestra pens\xF3 que Felipito se hab\xEDa equivocado."
-      - "La maestra pens\xF3 que Felipito estaba mintiendo."
+      - "Pens\xF3 que Felipito se hab\xEDa vuelto loco."
+      - "Pens\xF3 que Felipito se hab\xEDa equivocado."
+      - "Pens\xF3 que Felipito estaba mintiendo."
     - quest: "\xBFPor qu\xE9 la Plapla no figura en el abecedario?"
       answers:
-      - "La Plapla no figura en el abecedario porque gener\xF3 mucho bochinche y falta
-        de estudio en el colegio."
-      - La Plapla no figura en el abecedario porque no se quedaba quieta en su lugar.
-      - "La Plapla no figura en el abecedario porque ya hab\xEDa letras suficientes."
+      - "Porque gener\xF3 mucho bochinche y falta de estudio en el colegio."
+      - Porque no se quedaba quieta en su lugar.
+      - "Porque ya hab\xEDa letras suficientes."
   - id: 1
     gameprogress_name: libroCuadro
     title: Amigos por el viento
     author: Liliana Bodoc
-    color: 
+    color: '#8F7C05'
     type: 0
     area: 0
     texts:
@@ -791,7 +1028,7 @@ MonoBehaviour:
       - "Que mam\xE1 tuviera novio era casi insoportable. Pero que ese novio tuviera
         un hijo era una verdadera amenaza. Otra vez, un peligro rondaba mi vida. Otra
         vez hab\xEDa viento en el horizonte."
-      - "- Se van a entender bien - dijo mam\xE1 -. Juanjo tiene tu edad."
+      - "- Se van a entender bien - dijo mam\xE1 - Juanjo tiene tu edad."
       - "La gata, \xFAnico ser que entend\xEDa mi desolaci\xF3n, salto sobre mis rodillas.
         Gracias, gatita buena."
     - textlines:
@@ -823,7 +1060,7 @@ MonoBehaviour:
         tratando de anticipar la manera de quedarse con mi dormitorio. Pero, a\xFAn
         m\xE1s que ninguna otra cosa, me aterr\xF3 la certeza de que ser\xEDa uno
         de esos chicos que en vez de hablar, hacen ruidos: frenadas de autos, golpes
-        en el est\xF3mago, sirenas de bomberos, ametralladoras y explosiones."
+        en el est\xF3mago, sirenas de bomberos,#ametralladoras y explosiones.\n"
       - "- \xA1Mam\xE1! - grit\xE9 pegada a la puerta del ba\xF1o."
       - "- \xBFQu\xE9 pasa? - me respondi\xF3 desde la ducha."
       - "- \xBFC\xF3mo se llaman esas palabras que parecen ruidos?"
@@ -860,7 +1097,7 @@ MonoBehaviour:
       - "Yo esperaba o\xEDr cualquier respuesta, menos la que lleg\xF3 desde su voz
         cortada."
       - '- Fue... fue como un viento - dijo.'
-      - "Agach\xE9 la cabeza, y dej\xE9 salir el aire que ten\xEDa guardado. Juanjo
+      - "Agach\xE9 la cabeza, y dej\xE9 salir el aire que ten\xEDa#guardado. Juanjo
         estaba hablando del viento, \xBFser\xEDa el mismo que pas\xF3 por mi vida?"
       - "- \xBFEs un viento que llega de repente y se mete en todos lados? - pregunt\xE9."
       - "- S\xED, es ese."
@@ -890,183 +1127,1922 @@ MonoBehaviour:
     - quest: "\xBFPor qu\xE9 dice la protagonista que la vida se transform\xF3 en
         viento?"
       answers:
-      - "La protagonista dice que la vida se transform\xF3 en viento porque la ausencia
-        de su padre moviliz\xF3 sus sentimientos y modific\xF3 su entorno."
-      - "La protagonista dice  que la vida se transform\xF3 en viento porque empezaron
-        a derrumbarse los edificios."
-      - "La protagonista dice que la vida se transform\xF3 en viento porque se le
-        ensucian los ojos."
+      - "Porque la ausencia de su padre moviliz\xF3 sus sentimientos y modific\xF3
+        su entorno."
+      - Porque empezaron a derrumbarse los edificios.
+      - Porque se le ensucian los ojos.
     - quest: "La protagonista imagina lo que le espera con la llegada de los invitados
         \xBFqu\xE9 ocurrencias tiene acerca de este encuentro?"
       answers:
-      - "La protagonista imagina que Juanjo es un chico desagradable, que hace ruido
-        al hablar y le quitar\xE1 sus espacios."
-      - La protagonista imagina y desea que el hijo de Ricardo sea como un hermano
-        para ella.
-      - "La protagonista imagina que finalmente llegar\xE1 a su vida alguien con quien
-        compartir su vida."
+      - "Imagina que Juanjo es un chico desagradable, que hace ruido al hablar y le
+        quitar\xE1 sus espacios."
+      - Imagina y desea que el hijo de Ricardo sea como un hermano para ella.
+      - "Imagina que finalmente llegar\xE1 a su vida alguien con quien compartir su
+        vida."
     - quest: "\xBFQu\xE9 resulta del encuentro de la protagonista con Juanjo?"
       answers:
-      - La protagonista y Juanjo comparten los mismos sentimientos sobre la ausencia
-        de sus padres y lo imaginan como un viento que todo lo arrasa.
+      - Ambos comparten los mismos sentimientos sobre la ausencia de sus padres y
+        lo imaginan como un viento que todo lo arrasa.
       - Juanjo resulta ser un chico parecido al viento como todo lo arrasa.
       - "Los chicos permanecen escuchando m\xFAsica en silencio y se muestran poco
         comunicativos."
   - id: 2
     gameprogress_name: cuaderno_ingreso
-    title: Amigos por el viento
-    author: Liliana Bodoc
-    color: 
-    type: 0
+    title: Grafemas J/G
+    author: 
+    color: '#3953A1'
+    type: 1
     area: 0
     texts:
     - textlines:
-      - "A veces, la vida se comporta como un viento: desordena y arrasa. Algo susurra
-        pero no se le entiende. A su paso todo peligra; hasta lo que tiene ra\xEDces.
-        Los edificios, por ejemplo. O las costumbres cotidianas."
-      - "Cuando la vida se comporta de ese modo, se nos ensucian los ojos con los
-        que vemos. Es decir, los verdaderos ojos. A nuestro lado, pasan papeles escritos
-        con una letra que creemos reconocer. El cielo se mueve m\xE1s r\xE1pido que
-        las horas. Y lo peor es que nadie sabe si, alguna vez, regresara la calma."
-      - "As\xED ocurri\xF3 el d\xEDa que su pap\xE1 se fue de casa. La vida se nos
-        transform\xF3 en viento casi sin dar aviso. Yo recuerdo la puerta que se cerr\xF3
-        detr\xE1s de su sombra y sus valijas. Tambi\xE9n puedo recordar la ropa reseca
-        sacudi\xE9ndose al sol mientras mam\xE1 cerraba las ventanas para que, adentro
-        y adentro, algo quedara en su sitio."
-      - "- Le dije a Ricardo que viniera con su hijo. \xBFQu\xE9 te parece?"
-      - "- Me parece bien - ment\xED."
-      - "Mam\xE1 dej\xF3 de pulir la bandeja, y me mir\xF3:"
-      - "- No me lo est\xE1s diciendo muy convencida..."
-      - '- Yo no tengo que estar convencida.'
-      - "- \xBFY eso que significa? - pregunt\xF3 la mujer que m\xE1s preguntas me
-        hizo en mi vida."
-      - 'Me vi obligada a levantar los ojos del libro:'
-      - "- Significa que es tu cumplea\xF1os, y no el m\xED\xF3 - respond\xED."
-      - "La gata sali\xF3 de su canasto, y fue a enredarse entre las piernas de mam\xE1."
-      - "Que mam\xE1 tuviera novio era casi insoportable. Pero que ese novio tuviera
-        un hijo era una verdadera amenaza. Otra vez, un peligro rondaba mi vida. Otra
-        vez hab\xEDa viento en el horizonte."
-      - "- Se van a entender bien - dijo mam\xE1 -. Juanjo tiene tu edad."
-      - "La gata, \xFAnico ser que entend\xEDa mi desolaci\xF3n, salto sobre mis rodillas.
-        Gracias, gatita buena."
+      - "{0}1) Aprobamos el primer parcial de [geograf\xEDa,jeograf\xEDa]."
+      - "{1}2) Colocaron una placa en el [trig\xE9simo,trij\xE9simo] aniversario de
+        su fundaci\xF3n."
+      - "{2}3) Compr\xF3 un papel [higi\xE9nico,hiji\xE9nico] muy suave."
+      - "{3}4) Con un show de [magia,majia] cautiv\xF3 a los invitados."
+      - '{4}5) [Dedujeron,Dedugeron] el acertijo.'
+      - "{5}6) El [cajero,cagero] permanece abierto despu\xE9s del mediod\xEDa."
+      - "{6}7) El [regente,rejente] ya abri\xF3 la puerta del colegio."
+      - "{7}8) El tren [regional,rejional] se acerca a la estaci\xF3n."
+    trivias: []
+  - id: 3
+    gameprogress_name: libro_biblioteca_1
+    title: "La Casa de Asteri\xF3n"
+    author: J. L. Borges
+    color: '#DE8E18'
+    type: 0
+    area: 1
+    texts:
     - textlines:
-      - "Hab\xEDan pasado varios a\xF1os desde aquel viento que se llev\xF3 a pap\xE1.
-        En casa ya estaban reparados los da\xF1os. Los huecos de la biblioteca fueron
-        ocupados con nuevos libros. Y hac\xEDa mucho que yo no encontraba gotas de
-        llanto escondidas en los jarrones, disimuladas como estalactitas en el congelador,
-        disfrazadas de pedacitos de cristal. \xA8Se me acaba de romper una copa\xA8,
-        inventaba mam\xE1, que, contal de ocultarme su tristeza, era capaz de esas
-        y otras asombrosas hechicer\xEDas."
-      - "Ya no hab\xEDa huellas de viento ni de llantos. Y justo cuando empez\xE1bamos
-        a re\xEDrnos con ganas y a pasear juntas en bicicleta, apareci\xF3 un tal
-        Ricardo y todo volv\xEDa a peligrar."
-      - "Mam\xE1 sac\xF3 las cocadas del horno. Antes del viento, ella las hac\xEDa
-        cada domingo. Despu\xE9s pareci\xF3 tomarle rencor a la receta, porque se
-        molestaba con la sola menci\xF3n del asunto. Ahora, el tal Ricardo y su Juanjo
-        hab\xEDan conseguido que volviera a hacerlas. Algo que yo no pude conseguir."
-      - "- Me voy a arreglar un poco - dijo mam\xE1 mir\xE1ndose las manos. - Lo \xFAnico
-        que falta es que lleguen y me encuentren hecha un desastre."
-      - "- \xBFQu\xE9 te vas a poner? - le pregunt\xE9 en un supremo esfuerzo de amor."
-      - '- El vestido azul.'
-      - "Mam\xE1 sali\xF3 de la cocina, la gata regres\xF3 a su canasto. Y yo me qued\xE9
-        sola para imaginar lo que me esperaba."
-      - "Seguramente, ese horrible Juanjo iba a devorar las cocadas. Y los pedacitos
-        de merengue quedar\xEDan pegados en los costados de su boca. Tambi\xE9n era
-        seguro que iba a dejar sucio el jab\xF3n cuando se lavara las manos. Iba a
-        hablar de su perro con tal de desmerecer a mi gata."
-      - "Pude verlo por mi casa transitando con los cordones de las zapatillas desatados,
-        tratando de anticipar la manera de quedarse con mi dormitorio. Pero, a\xFAn
-        m\xE1s que ninguna otra cosa, me aterr\xF3 la certeza de que ser\xEDa uno
-        de esos chicos que en vez de hablar, hacen ruidos: frenadas de autos, golpes
-        en el est\xF3mago, sirenas de bomberos, ametralladoras y explosiones."
-      - "- \xA1Mam\xE1! - grit\xE9 pegada a la puerta del ba\xF1o."
-      - "- \xBFQu\xE9 pasa? - me respondi\xF3 desde la ducha."
-      - "- \xBFC\xF3mo se llaman esas palabras que parecen ruidos?"
-      - "El agua ca\xEDa apenas tibia, mam\xE1 intentaba comprender mi pregunta, la
-        gata dorm\xEDa y yo esperaba."
-      - "- \xBFPalabras que parecen ruidos? - repiti\xF3."
-      - "- S\xED. - Y aclar\xE9 -: Plum, Plaf, Ugg... \xA1Ring!"
-      - "- Por favor - dijo mam\xE1 -, est\xE1n llamando."
-      - "No tuve m\xE1s remedio que abrir la puerta."
-      - "- \xA1Hola! - dijeron las rosas que tra\xEDa Ricardo."
-      - "- \xA1Hola! - dijo Ricardo asomado detr\xE1s de las rosas."
-      - "Yo mira a su hijo sin piedad. Como lo hab\xEDa imaginado, tra\xEDa puesta
-        una remera rid\xEDcula y un pantal\xF3n que le quedaba corto."
-      - "Enseguida, apareci\xF3 mam\xE1. Estaba tan linda como si no se hubiese arreglado.
-        As\xED le pasaba a ella. Y el azul les quedaba muy bien a sus cejas espesas. "
-      - "- Podr\xEDan ir a escuchar m\xFAsica a tu habitaci\xF3n - sugiri\xF3 la mujer
-        que cumpl\xEDa a\xF1os, desesperada por la falta de aire. Y es que yo me lo
-        hab\xEDa tragado todo para matar por asfixia a los invitados."
-      - "Cumpl\xED sin quejarme. El horrible chico me sigui\xF3 en silencio. Me sent\xE9
-        en una cama. \xC9l se sent\xF3 en la otra. Sin dudas, ya estar\xEDa decidiendo
-        que el dormitorio pronto ser\xEDa de su propiedad. Y yo dormir\xEDa en el
-        canasto, junto a la gata."
+      - "Y la reina dio a luz un hijo que se llam\xF3 Asteri\xF3n."
+      - 'Apolodoro: Biblioteca, iii, I.'
+      - 
+      - "S\xE9 que me acusan de soberbia, y tal vez de misantrop\xEDa, y tal vez de
+        locura. Tales acusaciones (que yo castigar\xE9 a su debido tiempo) son irrisorias.
+        Es verdad que no salgo de mi casa, pero tambi\xE9n es verdad que sus puertas#(cuyo
+        n\xFAmero es infinito)[1] est\xE1n abiertas d\xEDa y noche a los hombres y
+        tambi\xE9n a los animales. Que entre el que quiera. No hallar\xE1 pompas mujeriles
+        aqu\xED ni el bizarro aparato de los palacios pero s\xED la quietud y la soledad.
+        Asimismo hallar\xE1 una casa como no hay otra en la faz de la tierra. (Mienten
+        los que declaran que en egipto hay una parecida). Hasta mis detractores admiten
+        que no hay un solo mueble en la casa. Otra especie rid\xEDcula es que yo,
+        Asteri\xF3n, soy un prisionero. \xBFRepetir\xE9 que no hay una puerta cerrada,
+        a\xF1adir\xE9 que no hay una cerradura? Por lo dem\xE1s, alg\xFAn atardecer
+        he pisado la calle; si antes de la noche volv\xED, lo hice#por el temor que
+        me infundieron las caras de la plebe, caras descoloridas y aplanadas, como
+        la mano abierta. Ya se hab\xEDa puesto el sol, pero el desvalido llanto de
+        un ni\xF1o y las toscas plegarias de la grey dijeron que me hab\xEDan reconocido.
+        La gente oraba, hu\xEDa, se prosternaba; unos se encaramaban al estil\xF3bato
+        del templo de#las Hachas, otros juntaban piedras. Alguno, creo, se ocult\xF3
+        en el mar. No en vano fue una reina mi madre; no puedo confundirme con el
+        vulgo, aunque mi modestia lo quiera."
+      - 
+      - "[1] El original dice catorce, pero sobran motivos para creer inferir que,
+        en boca de asteri\xF3n, el n\xFAmero catorce vale por infinitos."
     - textlines:
-      - "No puse m\xFAsica porque no ten\xEDa nada que festejar. Aquel era un d\xEDa
-        triste para m\xED. No me pareci\xF3 justo, y decid\xED que tambi\xE9n \xE9l
-        deb\xEDa sufrir. Entonces, busqu\xE9 una espina y la puse entre signos de
-        preguntas:"
-      - "- \xBFCu\xE1nto hace que se muri\xF3 tu mam\xE1?"
-      - "Juanjo abri\xF3 grandes los ojos para disimular algo. "
-      - "- Cuatro a\xF1os - contest\xF3."
-      - "Pero mi rabia no se conform\xF3 con eso:"
-      - "- \xBFY c\xF3mo fue? - volv\xED a preguntar."
-      - "Esta vez, entrecerr\xF3 los ojos."
-      - "Yo esperaba o\xEDr cualquier respuesta, menos la que lleg\xF3 desde su voz
-        cortada."
-      - '- Fue... fue como un viento - dijo.'
-      - "Agach\xE9 la cabeza, y dej\xE9 salir el aire que ten\xEDa guardado. Juanjo
-        estaba hablando del viento, \xBFser\xEDa el mismo que pas\xF3 por mi vida?"
-      - "- \xBFEs un viento que llega de repente y se mete en todos lados? - pregunt\xE9."
-      - "- S\xED, es ese."
-      - "- \xBFY tambi\xE9n susurra...?"
-      - "- Mi viento susurraba - dijo Juanjo -. Pero no entend\xED lo que dec\xEDa."
-      - "- Yo tampoco entend\xED. - Los dos vientos se mezclaron en mi cabeza."
-      - "Pas\xF3 un silencio."
-      - "- Un viento tan fuerte que movi\xF3 los edificios - dijo \xE9l -. Y eso que
-        los edificios tienen ra\xEDces..."
-      - "Pas\xF3 una respiraci\xF3n."
-      - "- A m\xED se me ensuciaron los ojos - dije."
-      - Pasaron dos.
-      - "- A m\xED tambi\xE9n."
-      - "- \xBFTu pap\xE1 cerr\xF3 las ventanas? - pregunt\xE9."
-      - "- S\xED."
-      - "- Mi mam\xE1 tambi\xE9n."
-      - "- \xBFPor qu\xE9 lo habr\xE1n hecho?"
-      - "Juanjo parec\xEDa asustado."
-      - '- Debe de haber sido para que algo quedara en su sitio.'
-      - "A veces, la vida se comporta como el viento: desordena y arrasa. Algo susurra,
-        pero no se le entiende. A su paso todo peligra; hasta aquello que tiene ra\xEDces.
-        Los edificios, por ejemplo. O las costumbres cotidianas."
-      - "- Si quer\xE9s vamos a comer cocadas - le dije."
-      - "Porque Juanjo y yo ten\xEDamos un viento en com\xFAn. Y quiz\xE1s ya era
-        tiempo de abrir las ventanas."
+      - "El hecho es que soy \xFAnico. No me interesa lo que un hombre pueda trasmitir
+        a otros hombres; como el fil\xF3sofo, pienso que nada es comunicable por el
+        arte de la escritura. Las enojosas y triviales minucias no tienen cabida en
+        mi esp\xEDritu, que est\xE1 capacitado para lo grande; jam\xE1s he retenido
+        la diferencia entre una letra y otra. Cierta impaciencia generosa no ha consentido
+        que yo aprendiera a leer. A veces lo deploro, porque las noches y los d\xEDas
+        son largos."
+      - "Claro que no me faltan distracciones. Semejante al carnero que va a embestir,
+        corro por las galer\xEDas de piedra hasta rodar al suelo, mareado. Me agazapo
+        a la sombra de un aljibe o a la vuelta de un corredor y juego a que me buscan.
+        Hay azoteas desde las que me dejo caer, hasta ensangrentarme. A cualquier
+        hora puedo jugar a estar dormido, con los ojos cerrados y la respiraci\xF3n
+        poderosa. (A veces me duermo realmente, a veces ha cambiado el color del d\xEDa
+        cuando he abierto los ojos). Pero de tantos juegos el que prefiero es el de
+        otro Asteri\xF3n. Finjo que viene a visitarme y que yo le muestro la casa.
+        Con grandes reverencias le digo: Ahora volvemos a la encrucijada anterior
+        o Ahora desembocaremos en otro patio o bien dec\xEDa yo que te gustar\xEDa
+        la canaleta o Ahora ver\xE1s una cisterna que se llen\xF3 de arena o Ya ver\xE1s
+        como el s\xF3tano se bifurca. A veces me equivoco y nos re\xEDmos buenamente
+        los dos."
+      - "No s\xF3lo he imaginado esos juegos; tambi\xE9n he meditado sobre la casa.
+        todas las partes de la casa est\xE1n muchas veces, cualquier lugar es otro
+        lugar. No hay un aljibe, un patio, un abrevadero, un pesebre; son catorce
+        [son infinitos] los pesebres, abrevaderos, patios, aljibes. La casa es del
+        tama\xF1o del mundo; mejor dicho, es el mundo. Sin embargo, a fuerza de fatigar
+        patios con un aljibe y polvorientas galer\xEDas de piedra gris he alcanzado
+        la calle y he visto el templo de las Hachas y el mar. Eso no lo entend\xED
+        hasta que una visi\xF3n de la noche me revel\xF3 que tambi\xE9n son catorce
+        [son infinitos] los mares y los templos. Todo est\xE1 muchas veces, catorce
+        veces, pero dos cosas hay en el mundo que parecen estar una sola vez: arriba,
+        el intrincado sol; abajo, asteri\xF3n. quiz\xE1 yo he creado las estrellas
+        y el sol la enorme casa, pero ya no me acuerdo. "
+      - "Cada nueve a\xF1os entran en la casa nueve hombres para que yo los libere
+        de todo mal. Oigo sus pasos o su voz en el fondo de las galer\xEDas de piedra
+        y corro alegremente a buscarlos. La ceremonia dura pocos minutos. Uno tras
+        otro caen sin que yo me ensangrinte las manos. Donde cayeron, quedan, y los
+        cad\xE1veres ayudan a distinguir una galer\xEDa de las otras. Ignoro qui\xE9nes
+        son, pero s\xE9 que uno de ellos profetiz\xF3, en la hora de su muerte, que
+        alguna vez llegar\xEDa mi redentor. Desde entonces no me duele la soledad,
+        porque s\xE9 que vive mi redentor y al fin se levantar\xE1 sobre el polvo.
+        Si mi o\xEDdo alcanza todos los rumores del mundo, yo percibir\xEDa sus pasos.
+        Ojal\xE1 me lleve a un lugar con menos galer\xEDas y menos puertas. \xBFC\xF3mo
+        ser\xE1 mi redentor?, me pregunto. \xBFSer\xE1 un toro o un hombre? \xBFSer\xE1
+        tal vez un toro con cara de hombre? \xBFO ser\xE1 como yo?"
+    - textlines:
+      - "El sol de la ma\xF1ana reverber\xF3 en la espada de bronce. Ya no quedaba
+        ni un vestigio de sangre."
+      - "-\xBFLo creer\xE1s, Ariadna? -dijo Teseo-. El minotauro apenas se defendi\xF3."
+      - A Marta Mosquera Eastman
     trivias:
-    - quest: "\xBFPor qu\xE9 dice la protagonista que la vida se transform\xF3 en
-        viento?"
+    - quest: "\xBFPor qu\xE9 acusan al protagonista de soberbia, misantrop\xEDa y
+        locura?"
       answers:
-      - "La protagonista dice que la vida se transform\xF3 en viento porque la ausencia
-        de su padre moviliz\xF3 sus sentimientos y modific\xF3 su entorno."
-      - "La protagonista dice  que la vida se transform\xF3 en viento porque empezaron
-        a derrumbarse los edificios."
-      - "La protagonista dice que la vida se transform\xF3 en viento porque se le
-        ensucian los ojos."
-    - quest: "La protagonista imagina lo que le espera con la llegada de los invitados
-        \xBFqu\xE9 ocurrencias tiene acerca de este encuentro?"
+      - Porque no sale de su casa, no comparte con ninguna persona su lugar y llega
+        a admitir que ya que su madre fue una reina no puede confundirse con el pueblo
+      - Porque no tiene muebles en su casa.
+      - Porque su madre fue una  reina no puede confundirse con el pueblo.
+    - quest: "\xBFPor qu\xE9 el protagonista espera \xA8un redentor\xA8?"
       answers:
-      - "La protagonista imagina que Juanjo es un chico desagradable, que hace ruido
-        al hablar y le quitar\xE1 sus espacios."
-      - La protagonista imagina y desea que el hijo de Ricardo sea como un hermano
-        para ella.
-      - "La protagonista imagina que finalmente llegar\xE1 a su vida alguien con quien
-        compartir su vida."
-    - quest: "\xBFQu\xE9 resulta del encuentro de la protagonista con Juanjo?"
+      - Porque necesita que lo libere de la muerte y de su soledad.
+      - "Porque necesita compa\xF1\xEDa"
+      - Porque necesita poder salir del laberinto.
+    - quest: "\xBFCu\xE1l es el giro que se le da a la historia?"
       answers:
-      - La protagonista y Juanjo comparten los mismos sentimientos sobre la ausencia
-        de sus padres y lo imaginan como un viento que todo lo arrasa.
-      - Juanjo resulta ser un chico parecido al viento como todo lo arrasa.
-      - "Los chicos permanecen escuchando m\xFAsica en silencio y se muestran poco
-        comunicativos."
+      - "Teseo mata al minotauro quien apenas se defendi\xF3."
+      - Teseo libera del laberinto al minotauro.
+      - "Teseo defendi\xF3 al minotauro de su hermana Ariadna."
+  - id: 4
+    gameprogress_name: libro_biblioteca_2
+    title: Teseo y el Minotauro
+    author: 
+    color: '#70CAB8'
+    type: 0
+    area: 1
+    texts:
+    - textlines:
+      - "El Rey Minos, de Creta, ten\xEDa varios hijos: Ariadna, Fedra, Glauco, Catreo,
+        pero su predilecto era Androgeo, joven fuerte y vencedor en el gimnasio."
+      - "Cuando en Atenas se organizaron los juegos en honor de Palas Atenea, se reunieron
+        los mejores atletas griegos, y all\xED parti\xF3 Androgeo, para medirse con
+        los m\xE1s fuertes paladines de la#H\xE9lade, con el benepl\xE1cito de Minos,
+        quien esperaba a su hijo regresar con la corona del triunfo. "
+      - "El joven pr\xEDncipe logr\xF3 vencer en todas las pruebas a sus rivales,
+        los mejores campeones de la ciudad, pero los atenienses, en lugar de victorearlo,
+        hicieron recaer su furia sobre \xE9l, por haber derrotado a sus luchadores,
+        y esa misma noche le dieron muerte."
+      - "Al recibir la noticia, el Rey Minos sinti\xF3 un inmenso dolor, pero inmediatamente
+        se despert\xF3 en \xE9l un irrefrenable deseo de venganza, y march\xF3 con
+        un numeroso ej\xE9rcito a sitiar a Atenas, hasta que logr\xF3 que se rindieran
+        incondicionalmente, e impuso condiciones y penas terribles."
+      - "Entre sus condiciones, estableci\xF3 que durante nueve a\xF1os, los atenienses
+        deb\xEDan enviar a la isla de Creta a siete robustos j\xF3venes y a siete
+        doncellas, quienes ser\xEDan las v\xEDctimas que se ofrecer\xEDan para ser
+        devorados por el minotauro."
+    - textlines:
+      - "El minotauro, mitad hombre y mitad toro, viv\xEDa en un laberinto, inventado
+        por D\xE9dalo, cercano a Cnosos, capital de Creta. Estaba encerrado en dicho
+        laberinto y se alimentaba de carne humana, de esclavos y prisioneros de guerra,
+        as\xED como los j\xF3venes atenienses, que enviaba el rey Minos."
+      - "A\xF1o a a\xF1o, llegaban los mensajeros de Creta a elegir a sus v\xEDctimas."
+      - "Al tercer a\xF1o, un joven y gallardo joven hijo del rey ateniense Egeo,
+        llamado Teseo, se ofreci\xF3 voluntariamente, pues se consideraba capaz de
+        enfrentar y dar muerte al minotauro."
+      - "Al enterarse el Rey Minos, expres\xF3:#"
+      - "- Como miembro de la familia real est\xE1s eximido de ir como v\xEDctima.
+        Pero si insistes, te dir\xE9 que, aunque mates al minotauro, jam\xE1s encontrar\xE1s
+        la salida del laberinto."
+      - "-No me importa- respondi\xF3 el joven Teseo, me basta con matar al monstruo
+        y ser \xFAtil a Atenas."
+    - textlines:
+      - "Ariadna, quien escuch\xF3 el di\xE1logo, secretamente, por la noche se acerc\xF3
+        al joven y le entreg\xF3 un pu\xF1al y un ovillo de hilo, diciendo:"
+      - "-Con este pu\xF1al m\xE1gico, podr\xE1s atravesar el coraz\xF3n del minotauro,
+        y si sigues el hilo de este ovillo podr\xE1s hallar la salida."
+      - "Agradecido qued\xF3 el joven Teseo, y penetr\xF3 en#el laberinto, desenvolviendo
+        el ovillo de hilo. Durante horas recorri\xF3 el laberinto hasta enfrentarse
+        con la bestia. Despu\xE9s de ardua lucha, logr\xF3 atravesar el coraz\xF3n
+        del monstruo con el pu\xF1al que le entregara la bella Ariadna. El minotauro
+        muri\xF3 y Teseo rescat\xF3 a sus compa\xF1eros, con los que emprendi\xF3
+        el camino de regreso siguiendo el hilo."
+      - "Fue aclamado por la gente de Cnosos por haberlos liberado del monstruo y
+        del salvaje castigo que a\xF1o a a\xF1o deb\xEDan tributar al minotauro."
+      - "Teseo, victorioso, regres\xF3 a Atenas en su nave con las velas desplegadas."
+    trivias:
+    - quest: "\xBFPor qu\xE9 establece el rey Minos la pena a los atenienses?"
+      answers:
+      - "Porque le hab\xEDan dado muerte a su hijo predilecto, Androgeo."
+      - "Porque los hab\xEDa dominado con su ej\xE9rcito."
+      - Porque necesitaba alimentar al minotauro.
+    - quest: "\xBFQu\xE9 mueve a Teseo a ofrecerse como v\xEDctima, a pesar de estar
+        eximido por ser parte de la familia real?"
+      answers:
+      - "Su deseo de matar al monstruo y ser \xFAtil a su ciudad, Atenas."
+      - "Su deseo de cumplir con la obligaci\xF3n que le impusiera su padre."
+      - Su deseo de gobernar Creta.
+    - quest: "\xBFC\xF3mo logra Teseo salir del laberinto y liberar a sus compa\xF1eros?"
+      answers:
+      - "Siguiendo el ovillo de hilo que le hab\xEDa entregado Ariadna."
+      - "Porque pudo matar al minotauro con el pu\xF1al  que le hab\xEDa entregado
+        Ariadna."
+      - "Porque ten\xEDa el plano del laberinto."
+  - id: 5
+    gameprogress_name: cuadernoBiblioteca1
+    title: Grafemas B/V
+    author: 
+    color: '#D07221'
+    type: 1
+    area: 1
+    texts:
+    - textlines:
+      - "{0}1) [Hab\xEDa,Hav\xEDa] una vez un gran pez..."
+      - "{1}2) [Sab\xEDamos,Sav\xEDamos] la verdad."
+      - "{2}3) [Advirtieron,Adbirtieron] que se hab\xEDa retirado."
+      - '{3}4) [Tuve,Tube] que ir de compras.'
+      - '{4}5) Ana se destaca por su [amabilidad,amavilidad].'
+      - '{5}6) Con Ana [estuvimos,estubimos] en el Aula Magna.'
+      - "{6}7) Cuando \xE9ramos chicos, [jug\xE1bamos,jug\xE1vamos] en el patio con
+        una pelota de papel."
+      - "{7}8) Dej\xF3 sobre las mesa todos los [bloques,vloques]."
+    trivias: []
+  - id: 6
+    gameprogress_name: cuadernoBiblioteca2
+    title: Grafemas S/C/Z
+    author: 
+    color: '#6A3CB3'
+    type: 1
+    area: 1
+    texts:
+    - textlines:
+      - "{0}1) [Percibi\xF3,Persibi\xF3,Perzibi\xF3] atinadamente la diferencia."
+      - '{1}2) [Anunciaron,Anunsiaron,Anunziaron] el estreno de la nueva temporada.'
+      - '{2}3) [Encendieron,Ensendieron,Enzendieron] el farol de la esquina.'
+      - "{3}4) [Alcanc\xE9,Alcans\xE9,Alcanz\xE9] mis objetivos."
+      - "{4}5) Compr\xF3 varios libros para su clase [especial,espesial,espezial]."
+      - "{5}6) Con un [martillazo,martillaco,martillaso] logr\xF3 clavar la imagen."
+      - "{6}7) Cruz\xF3 el puente [ingl\xE9s,ingl\xE9c,ingl\xE9z] con gran esfuerzo."
+      - '{7}8) Durante su [noviazgo,noviacgo,noviasgo], se conocieron.'
+    trivias: []
+  - id: 7
+    gameprogress_name: cuadernoBiblioteca3
+    title: Odin
+    author: "\xBFSon o no son hiatos? Revisemos si son correctas las tildes"
+    color: '#51A151'
+    type: 1
+    area: 1
+    texts:
+    - textlines:
+      - "{0}Se refiere que a la corte de Olaf Tryggvason, que se [hab\xEDa,habia]
+        convertido a la nueva fe,"
+      - "{1}lleg\xF3 una noche un hombre [viejo,v\xEDejo], envuelto en una#capa oscura
+        y con el ala del sombrero sobre los ojos. "
+      - "{2}El rey le pregunt\xF3 si [sab\xEDa,sabia] hacer algo;"
+      - "{3}el forastero contest\xF3 que [sab\xEDa,sabia] tocar el harpa y#"
+      - "{4}contar [cuentos,c\xFAentos]. Toc\xF3 en el harpa aires antiguos, habl\xF3
+        de Gudrun y de Gunnar y, finalmente, refiri\xF3 el nacimiento de Odin."
+      - "{5}Dijo que tres parcas vinieron, que las dos primeras le [prometieron,promet\xEDeron]
+        grandes felicidades y que la tercera dijo, col\xE9rica:#\xA8El ni\xF1o no
+        vivir\xE1 m\xE1s que la vela que est\xE1 ardiendo,ard\xEDendo a su lado\xA8"
+      - "{6}Olaf Tryggvason descrey\xF3 de la [historia,histor\xEDa];#el forastero
+        repiti\xF3 que era cierta, sac\xF3 la vela y la encendi\xF3. "
+      - "{7}Mientras la miraban arder, el hombre dijo que era tarde y que [ten\xEDa,tenia]
+        que irse. Cuando la vela se hubo consumido, lo buscaron."
+      - "{8}A unos pasos de la casa del rey, Odin [hab\xEDa,habia] muerto."
+    trivias: []
+  - id: 8
+    gameprogress_name: cuadernoMapoteca1
+    title: Grafemas H
+    author: 
+    color: '#439CB5'
+    type: 1
+    area: 2
+    texts:
+    - textlines:
+      - "{0}1) [hect\xF3metro,ect\xF3metro] es igual a 100 metros."
+      - "{1}2) [all\xE1,hall\xE1] est\xE1 mi lapicera."
+      - '{2}3) Amo el [helado,elado] de chocolate.'
+      - "{3}4) Aprobamos los ex\xE1menes de [historia,istoria]."
+      - '{4}5) El golpe le produjo un [hematoma,ematoma].'
+      - '{5}6) El [iato,hiato] es la secuencia de dos vocales que se separan.'
+      - "{6}7) El [hipop\xF3tamo,ipop\xF3tamo] es un gran mam\xEDfero."
+      - "{7}8) El le\xF3n [habita,abita] en la selva."
+    trivias: []
+  - id: 9
+    gameprogress_name: libro_mapoteca_2
+    title: "La inmolaci\xF3n por la belleza"
+    author: Marco Denevi
+    color: '#682710'
+    type: 0
+    area: 2
+    texts:
+    - textlines:
+      - "El erizo era feo y lo sab\xEDa. Por eso viv\xEDa en sitios apartados, en
+        matorrales sombr\xEDos, sin hablar con nadie, siempre solitario y taciturno,
+        siempre triste, \xE9l, que en realidad ten\xEDa un car\xE1cter alegre y gustaba
+        de la compa\xF1\xEDa de los dem\xE1s. S\xF3lo se atrev\xEDa a salir a altas
+        horas de la noche y, si entonces o\xEDa pasos, r\xE1pidamente erizaba sus#p\xFAas
+        y se convert\xEDa en una bola para ocultar su rubor."
+    - textlines:
+      - "Una vez alguien encontr\xF3 una esfera h\xEDspida, ese tremendo alfiletero.
+        En lugar de rociarlo con agua o arrojarle humo -como aconsejan los libros
+        de zoolog\xEDa-, tom\xF3 una sarta de perlas, un racimo de uvas de cristal,
+        piedras preciosas, o quiz\xE1 falsas, cascabeles, dos o tres lentejuelas,
+        varias luci\xE9rnagas, un dije de oro, flores de n\xE1car y de terciopelo,
+        mariposas#artificiales, un coral, una pluma y un bot\xF3n, y los fue enhebrando
+        en cada una de las agujas del erizo, hasta transformar a aquella criatura
+        desagradable en un animal fabuloso."
+    - textlines:
+      - "Todos acudieron a contemplarlo. Seg\xFAn qui\xE9n lo mirase, semejaba la
+        corona de un emperador bizantino, un fragmento de la cola del P\xE1jaro Roc
+        o, si las luci\xE9rnagas se encend\xEDan, el fanal de una g\xF3ndola empavesada
+        para la fiesta del Bucentauro, o, si lo miraba alg\xFAn envidioso, un buf\xF3n."
+      - "El erizo escuchaba las voces, las exclamaciones, los aplausos, y lloraba
+        de felicidad. Pero no se atrev\xEDa a moverse por temor de que se le desprendiera
+        aquel ropaje miliunanochesco. As\xED permaneci\xF3 durante todo el verano.
+        Cuando llegaron los primeros fr\xEDos, hab\xEDa muerto de hambre y de sed.
+        Pero segu\xEDa hermoso."
+    trivias:
+    - quest: "\xBFPor qu\xE9 el erizo se atreve a salir s\xF3lo de noche?"
+      answers:
+      - "Porque necesita ocultarse de la mirada de los dem\xE1s."
+      - Porque le hace mal la luz del sol.
+      - "Porque necesita el agua del roc\xEDo en su cuerpo."
+    - quest: "Alguien lo confunde y lo transforma en un animal fabuloso. \xBFPor qu\xE9?"
+      answers:
+      - Porque lo confunde con un alfiletero y lo cubre con perlas y lentejuelas.
+      - Porque lo ven muy feo.
+      - Porque lo quiere ayudar.
+    - quest: "\xBFQu\xE9 le pasa al erizo cuando llegan los primeros fr\xEDos?"
+      answers:
+      - El erizo muere.
+      - El erizo decide sacarse las lentejuelas y las perlas y cubrirse con ropa de
+        lana
+      - "El erizo prefiere convertirse en buf\xF3n."
+  - id: 10
+    gameprogress_name: libro_mapoteca_1
+    title: El hombre lobo
+    author: Petronio
+    color: '#FDE673'
+    type: 0
+    area: 2
+    texts:
+    - textlines:
+      - "Trimalci\xF3n comenz\xF3 el siguiente relato:"
+      - "Cuando todav\xEDa era yo esclavo, viv\xEDamos en una callejuela angosta;
+        ahora est\xE1 all\xED la casa de Gavila. En esa casa me enamor\xE9, como a
+        veces lo quieren los dioses, de la mujer del tabernero Terencio: conoc\xE9is
+        a Melisa la tarentina, una hermos\xEDsima gordita de movedizas redondeces.
+        Pero yo, por H\xE9rcules, no la quer\xEDa por su cuerpo o para saciar mis
+        deseos, sino porque era de buen coraz\xF3n. Lo que le ped\xED, nunca me lo
+        neg\xF3; si ganaba un as, me daba la mitad; todo lo que tuve lo deposit\xE9
+        en su seno, y nunca me defraud\xF3, su compa\xF1ero muri\xF3 all\xED, en su
+        casa de campo. Entonces trat\xE9 por todos los medios de llegar hasta ella:
+        como sab\xE9is, en los apuros se ven los amigos."
+    - textlines:
+      - "Por casualidad mi due\xF1o hab\xEDa ido a Capua a vender un mont\xF3n de
+        cosas viejas. Aprovechando la ocasi\xF3n persuado a un hu\xE9sped nuestro
+        a que venga conmigo hasta el quinto miliario. Era un soldado, fuerte como
+        Orco. Nos hicimos humo al primer canto del gallo, la luna brillaba como si
+        fuera de d\xEDa. Llegamos a las tumbas: nuestro hombre se puso a defecar en
+        medio de las tumbas, mientras yo me apart\xE9 tarareando un cantito y contando
+        las l\xE1pidas. Luego, cuando mir\xE9 a mi compa\xF1ero, vi que se desnudaba
+        y pon\xEDa toda su ropa junto al camino. A m\xED se me vino el alma a la nariz,
+        me qued\xE9 como muerto. Pero \xE9l me\xF3 alrededor de sus vestimentas y
+        de repente se transform\xF3 en un lobo. No pens\xE9is que bromeo; ning\xFAn
+        bien valdr\xEDa tanto como para que mintiera en este punto. Pero, como hab\xEDa
+        empezado a decir, despu\xE9s que se volvi\xF3 lobo, comenz\xF3 a aullar y
+        huy\xF3 hacia el bosque. Yo al comienzo no sab\xEDa d\xF3nde estaba, pero
+        luego me acerqu\xE9 para tomar sus vestimentas: se hab\xEDan transformado
+        en piedra. \xBFQui\xE9n ten\xEDa all\xED m\xE1s temor de morir que yo? Pero
+        saqu\xE9 la espada y golpe\xE9 las sombras, hasta que llegu\xE9 a la villa
+        de mi amiga. Y entr\xE9 como un muerto, casi exhal\xE9 el alma; el sudor me
+        chorreaba hasta el fondo#de la espalda, mis ojos parec\xEDan sin vida, me
+        repuse con gran dificultad."
+    - textlines:
+      - "Mi Melisa empez\xF3 a asombrarse de que yo anduviera por ah\xED tan tarde,
+        y me dijo: \xA8Si hubieras venido antes, al menos me habr\xEDas ayudado, pues
+        un lobo entr\xF3 en la villa y atac\xF3 a todo el ganado, hizo sangrar a los
+        animales como un carnicero. Pero si escap\xF3, no le fue como para re\xEDrse,
+        pues uno de nuestros esclavos le atraves\xF3 el cuello con una#lanza\xA8.
+        Cuando o\xED esto ya no pude cerrar los ojos, sino que, como ya era d\xEDa
+        claro, hui a la casa de nuestro Gayo como un tabernero zurrado, y luego que
+        llegu\xE9 al lugar donde las vestimentas se hab\xEDan transformado en piedra,
+        nada encontr\xE9 sino sangre. Y cuando llegu\xE9 a mi casa, mi soldado yac\xEDa
+        en su cama como un buey, y un m\xE9dico le curaba#el cuello. Me di cuenta
+        de que era un hombre-lobo, y despu\xE9s no pude gustar con \xE9l ni un trozo
+        de pan, ni aunque me azotaran. Que otros vean qu\xE9 piensan de esto; si miento,
+        que vuestros Genios tutelares me sean hostiles\xA8."
+    trivias:
+    - quest: "\xBFQui\xE9n relata la historia?"
+      answers:
+      - La historia es relatada por un esclavo.
+      - La historia es relatada por el tabernero Terencio.
+      - La historia es relatada por un narrador externo.
+    - quest: "\xBFPor qu\xE9 el soldado se desnud\xF3 y orin\xF3 sus ropas?"
+      answers:
+      - "El soldado se desnud\xF3 y orin\xF3 sus ropas para transformarse en hombre
+        lobo."
+      - "El soldado se desnud\xF3 y orin\xF3 sus ropas porque estaba loco y no sab\xEDa
+        lo que hac\xEDa."
+      - "El soldado se desnud\xF3 y orin\xF3 sus ropas ten\xEDa calor."
+    - quest: "\xBFCu\xE1l es la resoluci\xF3n del relato?"
+      answers:
+      - El esclavo comprueba que el soldado fue herido como lobo y yace en su cama.
+      - El hombre lobo muere a causa de su herida en el cuello.
+      - Descubren que el soldado es un hombre lobo y lo apresan.
+  - id: 11
+    gameprogress_name: cuadernoMapoteca2
+    title: Grafemas J/G
+    author: 
+    color: '#BBB97E'
+    type: 1
+    area: 2
+    texts:
+    - textlines:
+      - "{0}1) En la [cerrajer\xEDa,cerrager\xEDa] realiz\xF3 la copia de las llaves."
+      - "{1}2) Es muy [fotog\xE9nico,fotoj\xE9nico]."
+      - '{2}3) Es preciso [homenajear,homenagear] a los exalumnos.'
+      - "{3}4) Hizo su evaluaci\xF3n con mucho [coraje,corage]."
+      - "{4}5) Hizo un [gesto,jesto] simp\xE1tico."
+      - "{5}6) La [geolog\xEDa,jeolog\xEDa] es una ciencia que estudia la historia
+        del globo terrestre."
+      - "{6}7) Le\xEDmos una leyenda [ind\xEDgena,ind\xEDjena]."
+    trivias: []
+  - id: 12
+    gameprogress_name: libro_mapoteca_3
+    title: El anillo encantado
+    author: "Mar\xEDa Teresa Andruetto"
+    color: '#2F3042'
+    type: 0
+    area: 2
+    texts:
+    - textlines:
+      - "Ifigenia ten\xEDa el cabello rubio como el trigo y unos ojos m\xE1s azules
+        que el lago de Constanza."
+      - Caminaba descalza a la orilla del agua.
+      - "Era p\xE1lida y leve. Parec\xEDa hecha de aire."
+      - "El emperador Carlomagno la vio y se enamor\xF3 de ella."
+      - "\xC9l era ya un hombre viejo y ella, apenas una muchacha."
+      - "Pero el Emperador se enamor\xF3 perdidamente y olvid\xF3 pronto sus deberes
+        de soberano."
+      - Los nobles de la corte estaban muy preocupados porque nada interesaba ya a
+        Carlomagno.
+      - Ni dinero.
+      - Ni caza.
+      - Ni guerra.
+      - Ni batallas.
+      - "S\xF3lo la muchacha."
+    - textlines:
+      - "A pesar del amor, Ifigenia muri\xF3 una tarde de abril llena de p\xE1jaros."
+      - Los nobles de la corte respiraron aliviados.
+      - "Por fin el Emperador se ocupar\xEDa de su hacienda, de su guerra y de sus
+        batallas."
+      - "Pero nada de eso ocurri\xF3, porque el amor de Carlomagno no hab\xEDa muerto."
+      - "Hizo llevar a su habitaci\xF3n el cad\xE1ver embalsamado#de la muchacha."
+      - "No quer\xEDa separarse de \xE9l."
+      - "Asustado por esta macabra pasi\xF3n, el Arzobispo del imperio sospech\xF3
+        un encantamiento y fue a revisar el cad\xE1ver."
+      - Muerta, Ifigenia era tan hermosa como cuando caminaba descalza junto al lago
+        de Constanza.
+      - "La revis\xF3 de pies a cabeza."
+      - "Bajo la lengua dura y helada, encontr\xF3 un anillo con una piedra azul."
+      - El azul de aquella piedra le trajo recuerdos del lago y del mar distante.
+      - "El Arzobispo sac\xF3 el anillo que estaba escondido bajo la lengua."
+      - "Ni bien lo tom\xF3 en sus manos, Carlomagno enterr\xF3 el cad\xE1ver."
+      - "Y se enamor\xF3 del Arzobispo."
+      - "El Arzobispo, turbado y sin saber qu\xE9 hacer, entreg\xF3 el anillo a su
+        asistente."
+      - "Ni bien el asistente lo tom\xF3 en sus manos, Carlomagno abandon\xF3 al Arzobispo."
+      - "Y se enamor\xF3 del asistente.#"
+      - "El asistente, aturdido por esta situaci\xF3n embarazosa, entreg\xF3 el anillo
+        al primer hombre que pasaba."
+      - "Ni bien el hombre lo tom\xF3 en sus manos, Carlomagno abandon\xF3 al asistente."
+    - textlines:
+      - "Y se enamor\xF3 del hombre."
+      - "El hombre, asustado por este amor extra\xF1o, empez\xF3 a correr con el anillo
+        en la mano, y el Emperador tras \xE9l."
+      - "Hasta que se cruz\xF3 una gitana y el hombre le entreg\xF3 el anillo."
+      - "Ni bien la gitana lo tom\xF3 en sus manos, Carlomagno dej\xF3 de perseguir
+        al hombre."
+      - "Y se enamor\xF3 de la gitana."
+      - "Pero a la gitana se le cay\xF3 el anillo al agua."
+      - "Ni bien el agua recibi\xF3 el anillo en su lecho, Carlomagno abandon\xF3
+        a la gitana."
+      - "Y se enamor\xF3 del lago de Constanza junto al que lfigenia caminaba descalza."
+    trivias:
+    - quest: "\xBFC\xF3mo se llamaba la muchacha de la que se enamora Carlomagno?"
+      answers:
+      - La muchacha de la que se enamora Carlomagno se llamaba Ifigenia.
+      - La muchacha de la que se enamora Carlomagno se llamaba Constanza.
+      - "La muchacha de la que se enamora Carlomagno se llamaba Mar\xEDa Teresa."
+    - quest: "\xBFQu\xE9 es lo que encontr\xF3 el Arzobispo?"
+      answers:
+      - "El Arzobispo encontr\xF3 un anillo con una piedra azul, bajo la lengua."
+      - "El Arzobispo encontr\xF3 una espina, bajo los pies."
+      - "El Arzobispo encontr\xF3 un zapato encantado."
+    - quest: "\xBFQu\xE9 generaba el anillo en quienes lo percib\xEDan?"
+      answers:
+      - "Quienes percib\xEDan el anillo se enamoraban de su poseedor."
+      - "Quienes percib\xEDan el anillo se enamoraban de s\xED mismos."
+      - "Quienes percib\xEDan el anillo odiaban a su poseedor."
+  - id: 13
+    gameprogress_name: cuadernoPatio1
+    title: Grafemas B/V
+    author: 
+    color: '#BBB97E'
+    type: 1
+    area: 3
+    texts:
+    - textlines:
+      - "{0}1) El [vicedirector,bicedirector] convoc\xF3 a una reuni\xF3n de padres."
+      - "{1}2) El ba\xF1o se ha llenado de [burbujas,vurbujas]."
+      - '{2}3) El patio del Pelle es muy [agradable,agradavle].'
+      - "{3}4) En su [brazo,vrazo] ten\xEDa un extra\xF1o tatuaje."
+      - '{4}5) Es muy [suave,suabe] su voz.'
+      - "{5}6) Es muy [divertido,dibertido] el ejercicio de esta p\xE1gina."
+      - '{6}7) Fue imposible quitar el [clavo,clabo] de la pared.'
+      - '{7}8) Fueron al colegio en [subte,suvte].'
+    trivias: []
+  - id: 14
+    gameprogress_name: cuadernoPatio2
+    title: Grafemas S/C/Z
+    author: 
+    color: '#BBB97E'
+    type: 1
+    area: 3
+    texts:
+    - textlines:
+      - "{0}1) El chico [bonaerense,bonaerence,bonaerenze] lo logr\xF3."
+      - "{1}2) El extra\xF1o [acontecimiento,acontesimiento,acontezimiento]#llam\xF3
+        la atenci\xF3n de todos los turistas "
+      - "{2}3) El le\xF3n se pos\xF3 en esa bella [planicie,planisie,planizie]."
+      - "{3}4) En el [cobertizo,cobertiso,cobertico] escondieron el viejo ba\xFAl."
+      - "{4}5) Encontr\xE9 una carta en un [cajoncito,cajonsito,cajonzito]."
+      - "{5}6) Es [l\xEDcito,l\xEDsito,l\xEDzito] todo esfuerzo."
+      - '{6}7) Ese piso es muy [resbaladizo,resbaladiso,resbaladico].'
+      - "{7}8) La [docencia,dosensia,dozencia] es una maravillosa vocaci\xF3n."
+    trivias: []
+  - id: 15
+    gameprogress_name: cuadernoPatio3
+    title: La yerba mate
+    author: "\xBFLlevan o no llevan tilde?"
+    color: '#BBB97E'
+    type: 1
+    area: 3
+    texts:
+    - textlines:
+      - "{0}Se dice que antes de [que,qu\xE9] Yac\xED bajara a la tierra,"
+      - "{1}los hombres estaban tan ocupados en sus propios quehaceres que apenas
+        [se,s\xE9] miraban o conversaban un poco."
+      - "{2}Una ma\xF1ana, Yac\xED baj\xF3 a la tierra, acompa\xF1ada por la nube
+        Ara\xED. Eso es todo lo que conoc\xEDa [de,d\xE9] la selva: los enormes torrentes
+        y el colch\xF3n verde e ininterrumpido#del follaje, "
+      - "{3}[que,qu\xE9] casi no deja pasar la luz."
+      - "{4}Pero Yac\xED era curiosa y quer\xEDa ver por [si,s\xED] misma las maravillas
+        de las que le hab\xEDan hablado el sol y las#nubes: "
+      - "{5}el tornasol de los picaflores, [el,\xE9l] encaje de los helechos y los
+        picos brillantes de los tucanes."
+    trivias: []
+  - id: 16
+    gameprogress_name: libro_patio_1
+    title: Los entierros
+    author: CORRIENTES 1499
+    color: '#2F3042'
+    type: 0
+    area: 3
+    texts:
+    - textlines:
+      - "En toda la Provincia de Corrientes se conoce la leyenda de los entierros.
+        Los entierros son tesoros escondidos, casi siempre en botijuelos de barro,
+        que eran en los que la gente de la antig\xFCed\xE1 guardaban y escond\xEDan
+        su fortuna bajo tierra. Cuando los due\xF1os se mueren o han desaparecido
+        por alguna causa, estos tesoros quedan ocultos hasta que#alguno tenga la suerte,
+        por la volunta del due\xF1o muerto, de encontrarlo. Todos tienen cientos de
+        a\xF1os. Mientras los entierros permanecen escondidos, el alma del muerto
+        pena, pero el muerto no permite que cualquiera saque su fortuna, siempre lo
+        destina a personas que merezcan ese premio y que sean valientes. Por eso tanta
+        gente de mala \xEDndole y avara busca los entierros que por tradici\xF3n se
+        sabe que est\xE1n en algunas partes y no les encuentran. Cuando el entierro
+        est\xE1 destinado a la persona que lo saca, aparecen las prendas de oro, de
+        plata y las monedas y dinero de mucho valor. Si el finado no le quiere dar
+        al que lo encuentra, s\xF3lo salen bichos de todas clases. El finado entrega
+        su entierro a las personas que \xE9l elige, para poder descansar en paz, despu\xE9s
+        de tanto penar. Entonces hay que hacerle decir una misa y dar limosna a los
+        pobres en nombre de su alma."
+    - textlines:
+      - "Tambi\xE9n hay que saber sacar los entierros. Muchos se han muerto cuando
+        al abrir el lugar del entierro han respirado el tufo que se ha juntado con
+        los a\xF1os del oro y la plata en ese lugar misterioso. Pocos lo saben, pero
+        los viejos lo conocen. Cuando se abre el lugar, muy r\xE1pido hay que tapar
+        todo con un poncho, hay que ponerse en contra del viento,#romper de lejos
+        con una pedrada el botijuelo o lo que sea y disparar a una distancia prudente
+        hasta que se evapore el olor a cardenillo, que es el que mata a los que lo
+        respiran."
+      - Donde existe un entierro aparecen luces por la noche y generalmente cuando
+        hay mal tiempo. Si el entierro es de plata, las luces son blancas; si es de
+        oro, la luz es roja; si es cobre, la luz es verde.
+      - "Los entierros se buscan con un hierro de punta que se llama sondador. Se
+        introduce el sondador m\xE1s o menos a medio metro bajo tierra en distintas
+        partes donde se supone o se sabe que hay entierros. Cuando se toca un objeto
+        duro, sospechoso, se cava y seguramente se encuentra el entierro. No todas
+        las personas son capaces de encontrar un entierro y m\xE1s todav\xEDa de sacarlo.
+        Tiene que ser una persona valiente, de sangre fr\xEDa y saber todo lo que
+        se necesita para hacer bien las cosas."
+      - "Cuando un finado quiere dar a una persona su tesoro enterrado, le hace so\xF1ar
+        el lugar donde le tiene. Esta persona debe ir de noche. All\xED aparecen visiones
+        que le impiden en toda forma el trabajo de buscar el entierro. Esto es buena
+        se\xF1al porque asegura que hay tesoro donde se busca o que est\xE1 muy cerca.
+        A veces aparece una tropa de animales que le quiere atropellar. Si se asusta
+        el buscador y se hace un lado, pierde el entierro. Otras veces son otras visiones
+        como la de un hombre sin cabeza, o una mujer o un toro que quiere atropellar
+        al buscador. En todos los casos debe permanecer firme y afrontar con todo
+        valor el trabajo. Entonces se calma todo y se puede sacar el tesoro enterrado."
+    - textlines:
+      - "Las cosas y las monedas del entierro son todas antiguas porque son de muchos
+        a\xF1os atr\xE1s. Los que encuentran tesoros no deben decirlo porque las autoridades
+        se los quitan y se exponen a perderlo. Se sabe de varios hombres que han encontrado
+        entierros y que conservan las monedas y las cosas de oro y plata que sacaron."
+      - "Rosa Arzuaga de S\xE1nchez Negrete, 40 a\xF1os. Ciudad de Corrientes. 1952."
+      - La narradora es  maestra de escuela. Dice que la leyenda le ha sido referida
+        por hombres del pueblo de la ciudad de Corrientes y por campesinos de otras
+        partes de la Provincia
+    trivias:
+    - quest: Los entierros son...
+      answers:
+      - "Tesoros en botijas de barro, prendas de oro, plata y monedas de mucho valor
+        enterrados hace muchos a\xF1os"
+      - Personas muertas enterradas en el campo con sus tesoros.
+      - Bolsas de dinero enterradas en lugares ocultos por ladrones.
+    - quest: Los tesoros pueden ser desenterrados por...
+      answers:
+      - "S\xF3lo las personas elegidas por el difunto."
+      - Cualquier persona que tenga la suerte de encontrarlo y que cave con una pala
+        hasta sacarlo.
+      - "Personas valientes que sepan d\xF3nde hay tesoros enterrados y que est\xE9n
+        dispuestos a buscarlos."
+    - quest: Quienes encuentran los tesoros deben...
+      answers:
+      - "No avisar a las autoridades, porque no les permitir\xEDan qued\xE1rselos."
+      - Avisar a las autoridades del hallazgo para poder venderlo y disfrutar de la
+        riqueza.
+      - "Repartir una parte del tesoro a los necesitados y s\xF3lo guardarse el resto."
+  - id: 17
+    gameprogress_name: libro_patio_2
+    title: "Los sue\xF1os del sapo"
+    author: "Javier Villafa\xF1e"
+    color: '#2F3042'
+    type: 0
+    area: 3
+    texts:
+    - textlines:
+      - "Una tarde un sapo dijo: -Esta noche voy a so\xF1ar que soy \xE1rbol. Y dando
+        saltos, lleg\xF3 a la puerta de su cueva. Era feliz; iba a ser \xE1rbol esa
+        noche."
+      - "Todav\xEDa andaba el sol girando en la rueda del molino."
+      - "Estuvo un largo rato mirando el cielo. Despu\xE9s baj\xF3 a la cueva, cerr\xF3
+        los ojos y se qued\xF3 dormido."
+    - textlines:
+      - "Esa noche el sapo so\xF1\xF3 que era \xE1rbol. A la ma\xF1ana siguiente cont\xF3
+        su sue\xF1o. M\xE1s de cien sapos lo escuchaban."
+      - "-Anoche fui \xE1rbol -dijo-, un \xE1lamo. Estaba cerca de unos para\xEDsos.
+        Ten\xEDa nidos. Ten\xEDa ra\xEDces hondas y muchos brazos como alas, pero
+        no pod\xEDa volar. Era un tronco delgado y alto que sub\xEDa. Cre\xED que
+        caminaba, pero era el oto\xF1o llev\xE1ndome las hojas. Cre\xED que lloraba,
+        pero era la lluvia. Siempre estaba en el mismo sitio, subiendo, con las ra\xEDces
+        sedientas y profundas. No me gust\xF3 ser \xE1rbol. "
+      - "El sapo se fue, lleg\xF3 a la huerta y se qued\xF3 descansando debajo de
+        una hoja de acelga. Esa tarde el sapo dijo: "
+      - "-Esta noche voy a so\xF1ar que soy r\xEDo"
+    - textlines:
+      - "Al d\xEDa siguiente cont\xF3 su sue\xF1o. M\xE1s de doscientos sapos formaron
+        rueda para o\xEDrlo. -Fui r\xEDo anoche -dijo-. A ambos lados, lejos, ten\xEDa
+        las riberas. No pod\xEDa escucharme. Iba llevando barcos. Los llevaba y los
+        tra\xEDa. Eran siempre los mismos pa\xF1uelos en el puerto. La misma prisa
+        por partir, la misma prisa por llegar. Descubr\xED que los barcos llevan a
+        los que se quedan. Descubr\xED tambi\xE9n que el r\xEDo es agua que est\xE1
+        quieta, es la espuma que anda; y que el r\xEDo est\xE1 siempre callado, es
+        un largo silencio que busca las orillas, la tierra, para descansar. Su m\xFAsica
+        cabe en las manos de un ni\xF1o; sube y baja por las espirales de un caracol.
+        Fue una l\xE1stima. No vi una sola sirena; siempre vi peces, nada m\xE1s que
+        peces. No me gust\xF3 ser r\xEDo."
+      - "Y el sapo se fue. Volvi\xF3 a la huerta y descans\xF3 entre cuatro palitos
+        que se\xF1alaban los l\xEDmites del perejil. Esa tarde el sapo dijo:"
+      - "-Esta noche voy a so\xF1ar que soy caballo."
+      - "Y al d\xEDa siguiente cont\xF3 su sue\xF1o. M\xE1s de trescientos sapos lo
+        escucharon. Algunos vinieron desde muy lejos para o\xEDrlo."
+      - "-Fui caballo anoche -dijo-. Un hermoso caballo. Ten\xEDa riendas. Iba llevando
+        un hombre que hu\xEDa. Iba por un camino largo. Cruc\xE9 un puente, un pantano;
+        toda la pampa bajo el l\xE1tigo. O\xEDa latir el coraz\xF3n del hombre que
+        me castigaba. Beb\xED en un arroyo. Vi mis ojos de caballo en el agua. Me
+        ataron a un poste. Despu\xE9s vi una estrella grande en el cielo; despu\xE9s
+        el sol; despu\xE9s un p\xE1jaro se pos\xF3 sobre mi lomo. No me gust\xF3 ser
+        caballo."
+      - "Otra noche so\xF1\xF3 que era viento. Y al d\xEDa siguiente dijo:"
+      - "-No me gust\xF3 ser viento."
+      - "So\xF1\xF3 que era luci\xE9rnaga, y dijo al d\xEDa siguiente:"
+      - "-No me gust\xF3 ser luci\xE9rnaga."
+      - "Despu\xE9s so\xF1\xF3 que era nube, y dijo:"
+      - "-No me gust\xF3 ser nube."
+      - "Una ma\xF1ana los sapos lo vieron muy feliz a la orilla del agua.#"
+      - "-\xBFPor qu\xE9 est\xE1s tan contento? -le preguntaron."
+      - "Y el sapo respondi\xF3:"
+      - "-Anoche tuve un sue\xF1o maravilloso. So\xF1\xE9 que era sapo."
+    trivias:
+    - quest: "\xBFQu\xE9 quer\xEDa ser el sapo en su primer sue\xF1o?"
+      answers:
+      - "El sapo quer\xEDa ser un \xE1rbol."
+      - "El sapo quer\xEDa ser un sapo."
+      - "El sapo quer\xEDa ser el sol."
+    - quest: "\xBFCu\xE1ntos sapos se reunieron para escuchar la historia del sapo
+        so\xF1ando ser \xE1rbol?"
+      answers:
+      - "M\xE1s de cien sapos se reunieron para escuchar la historia del sapo so\xF1ando
+        ser r\xEDo."
+      - "M\xE1s de doscientos sapos se reunieron para escuchar la historia del sapo
+        so\xF1ando ser r\xEDo."
+      - "M\xE1s de trescientos sapos se reunieron para escuchar la historia del sapo
+        so\xF1ando ser r\xEDo"
+    - quest: "\xBFCu\xE1l de estos animales no fue so\xF1ado por el sapo?"
+      answers:
+      - "El sapo no so\xF1\xF3 con un gato."
+      - "El sapo no so\xF1\xF3 con un caballo."
+      - "El sapo no so\xF1\xF3 con una luci\xE9rnaga."
+  - id: 18
+    gameprogress_name: libro_patio_3
+    title: Mil Grullas
+    author: Elsa Bornemann
+    color: '#2F3042'
+    type: 0
+    area: 3
+    texts:
+    - textlines:
+      - "Naomi Watanabe y Toshiro Ueda cre\xEDan que el mundo era nuevo. Como todos
+        los chicos. Porque ellos eran nuevos en el mundo. Tambi\xE9n, como todos los
+        chicos."
+      - "Pero el mundo era ya muy viejo entonces, en el a\xF1o 1945, y otra vez estaba
+        en guerra. Naomi y Toshiro no entend\xEDan muy bien qu\xE9 era lo que estaba
+        pasando. Desde que ambos recordaban, sus peque\xF1as vidas en la ciudad japonesa
+        de Hiroshima se hab\xEDan desarrollado del mismo modo: en un clima de sobresaltos,
+        entre adultos callados y tristes, compartiendo con ellos los escasos granos
+        de arroz que flotaban en la sopa diaria y el miedo que apretaba las reuniones
+        familiares de cada anochecer en torno a las#noticias de la radio, que hablaban
+        de luchas y muerte por todas partes. "
+      - "Sin embargo, cre\xEDan que el mundo era nuevo y esperaban ansiosos cada d\xEDa
+        para descubrirlo."
+      - "\xA1Ah... y tambi\xE9n se estaban descubriendo uno al otro!"
+      - "Se contemplaban de reojo durante la caminata hacia la escuela, cuando supon\xEDan
+        que sus miradas levantaban murallas y#nadie m\xE1s que ellos pod\xEDan transitar
+        ese imaginario senderito de ojos a ojos."
+      - "Apenas si hab\xEDan intercambiado algunas frases. El afecto de los dos no
+        buscaba las palabras. Estaban tan acostumbrados al silencio..."
+      - "Pero Naomi sab\xEDa que quer\xEDa a ese muchachito delgado que m\xE1s de
+        una vez se quedaba sin almorzar por darle a ella#la raci\xF3n de batatas que
+        hab\xEDa tra\xEDdo de su casa."
+      - "-No tengo hambre -le ment\xEDa Toshiro, cuando ve\xEDa que la ni\xF1a apenas
+        si ten\xEDa dos o tres galletitas para pasar el mediod\xEDa. -Te dejo mi vianda-
+        y se iba a corretear con sus compa\xF1eros hasta la hora de regreso a las
+        aulas, para que Naomi no tuviera verg\xFCenza de devorar la raci\xF3n."
+      - "Naomi... Poblaba el coraz\xF3n de Toshiro. Se le anudaba en los sue\xF1os
+        con sus largas trenzas negras. Le hac\xEDa tener ganas de crecer de golpe
+        para poder casarse con ella. Pero ese futuro quedaba tan lejos a\xFAn..."
+      - "El futuro inmediato de aquella primavera de 1945 fue el verano, que lleg\xF3
+        puntualmente el 21 de junio y anunci\xF3 las vacaciones escolares."
+      - "Y con la misma intensidad con que otras veces hab\xEDa esperado sus soleadas
+        ma\xF1anas, ese a\xF1o los ensombreci\xF3 a los dos: ni Naomi ni Toshiro deseaban
+        que empezara."
+      - "Su comienzo significaba que tendr\xEDan que dejar de verse durante un mes
+        y medio inacabable."
+      - "A pesar de que sus casas no quedaban demasiado lejos una de la otra, sus
+        familias no se conoc\xEDan. Ni siquiera ten\xEDan entonces la posibilidad
+        de encontrarse en alguna visita. Hab\xEDa que esperar pacientemente la reanudaci\xF3n
+        de las clases."
+    - textlines:
+      - "Acab\xF3 junio y Toshiro arranc\xF3 contento la hoja del almanaque..."
+      - "Se fue julio y Naomi arranc\xF3 contenta la hoja del almanaque..."
+      - "Y aunque no lo supieran: \xA1Por fin lleg\xF3 agosto! -pensaron los dos al
+        mismo tiempo."
+      - "Fue justamente el primero de ese mes cuando Toshiro viaj\xF3, junto con sus
+        padres,#hacia la aldea de Miyashima. Iban a pasar una semana. All\xED viv\xEDan
+        los abuelos, dos ceramistas que ve\xEDan apilarse vasijas en todos los rincones
+        de su local."
+      - "Ya no vend\xEDan nada. No obstante, sus manos viejas segu\xEDan modelando
+        la arcilla con la misma dedicaci\xF3n de otras \xE9pocas. -Para cuando termine
+        la guerra -dec\xEDa el abuelo."
+      - "-Todo acaba alg\xFAn d\xEDa...- comentaba la abuela por lo bajo. Y Toshiro
+        sent\xEDa que la paz deb\xEDa de ser algo muy hermoso, porque los ojos de
+        su madre parec\xEDan aclararse fugazmente cada vez que se refer\xEDan al fin
+        de la guerra, tal como a \xE9l se le aclaraban los suyos cuando recordaba
+        a Naomi."
+      - "\xBFY Naomi?"
+      - "El primero de agosto despert\xF3 inquieta; acababa de so\xF1ar que caminaba
+        sobre la nieve. Sola. Descalza. Ni casas ni \xE1rboles a su alrededor. Un
+        desierto helado y ella atraves\xE1ndolo."
+      - "Abandon\xF3 el tatami, se desliz\xF3 de puntillas entre sus dormidos hermanos
+        y abri\xF3 la ventana de la habitaci\xF3n. \xA1Qu\xE9 alivio! Una c\xE1lida
+        madrugada le roz\xF3 las mejillas. Ella le devolvi\xF3 un suspiro."
+      - "El dos y el tres de agosto escribi\xF3, trabajosamente, sus primeros haikus."
+      - Lento se apaga
+      - El verano.
+      - Enciendo
+      - "L\xE1mpara y sonrisas."
+      - Pronto
+      - "Florecer\xE1n los crisantemos.#"
+      - Espera,
+      - "Coraz\xF3n."
+      - "Despu\xE9s achic\xF3 en rollitos ambos papeles y los guard\xF3 dentro de
+        una cajita de laca en la que escond\xEDa sus peque\xF1os tesoros de la curiosidad
+        de sus hermanos."
+      - "El cuatro y el cinco de agosto se los pas\xF3 ayudando a su madre y a las
+        t\xEDas. \xA1Era tanta la ropa para remendar!#"
+      - "Sin embargo, esa tarea no le disgustaba. Naomi siempre sab\xEDa hallar el
+        modo de convertir en un juego entretenido lo que acaso resultaba aburrid\xEDsimo
+        para otras chicas."
+      - "Cuando cos\xEDa, por ejemplo, imaginaba que cada doscientas veintid\xF3s
+        puntadas pod\xEDa sujetar un deseo para que se compliese."
+      - "La aguja iba y ven\xEDa, laboriosa. As\xED, qued\xF3 en el pantal\xF3n de
+        su hermano menor el ruego de que finalizara enseguida esa espantosa guerra,
+        y en los pu\xF1os de la camisa de su pap\xE1, el pedido de que Toshiro no
+        la olvidara..."
+      - Y los dos deseos se cumplieron.
+      - "Pero el mundo ten\xEDa sus propios planes."
+      - "Ocho de la ma\xF1ana del seis de agosto en el cielo de Hiroshima."
+      - "Naomi se ajusta el obi  de su kimono  y recuerda a su amigo: -\xBFQu\xE9
+        estar\xE1 haciendo ahora?"
+      - "\xA8Ahora\xA8, Toshiro pesca en la isla mientras se pregunta: -\xA1Qu\xE9
+        estar\xE1 haciendo Naomi?"
+      - "En el mismo momento, un avi\xF3n enemigo sobrevuela el cielo de Hiroshima."
+      - "En el avi\xF3n, hombres blancos que pulsan botones y la bomba at\xF3mica
+        surca por primera vez un cielo. El cielo de Hiroshima."
+      - "Un repentino resplandor ilumina extra\xF1amente la ciudad."
+      - "En ella, una mam\xE1 amamanta a su hijo por \xFAltima vez."
+      - "Dos viejas trenzas bamb\xFAes por \xFAltima vez."
+      - "Una docena de chicos canturrea: \xA8Donguri Koro Koro -Donguri Ko...\xA8
+        \ por \xFAltima vez."
+      - "Miles de hombres piensan en ma\xF1ana por \xFAltima vez."
+      - Naomi sale para hacer unos mandados.
+      - "Silenciosa explota la bomba. Hierven, de repente, las aguas del r\xEDo."
+      - "Y medio mill\xF3n de#japoneses, medio mill\xF3n de seres humanos, se desintegran
+        esa ma\xF1ana."
+      - "Y con ellos desaparecen edificios, \xE1rboles, calles, animales, puentes
+        y el pasado de Hiroshima."
+      - "Ya ninguno de los sobrevivientes podr\xE1 volver a reflejarse en el mismo
+        espejo, ni abrir nuevamente la puerta de su casa, ni retomar ning\xFAn camino
+        querido."
+      - "Nadie ser\xE1 ya quien era."
+      - "Hiroshima arrasada por un hongo at\xF3mico."
+      - Hiroshima es el sol, ese seis de agosto de 1945. Un sol estallando.
+      - "Reci\xE9n en diciembre logr\xF3 Toshiro averiguar d\xF3nde estaba Naomi.
+        \xA1Y que a\xFAn estaba viva, Dios!"
+      - "Ella y su familia, internados en el hospital ubicado en una localidad pr\xF3xima
+        a Hiroshima. Como tantos otros cientos de miles que tambi\xE9n hab\xEDan sobrevivido
+        al horror, aunque el horror estuviera ahora instalado dentro de ellos, en
+        su misma sangre."
+      - "Y hacia ese hospital march\xF3 Toshiro una ma\xF1ana."
+      - "El invierno se insinuaba ya en el aire y el muchacho no sab\xEDa si era el
+        fr\xEDo exterior o se pensamiento lo que le#hac\xEDa tiritar."
+      - Naomi se hallaba en una cama situada junto a la ventana.
+      - "De cara al techo. Con los ojos abiertos y la mirada inm\xF3vil. Ya no ten\xEDa
+        sus trenzas. Apenas una tenue pelusita oscura."
+      - Sobre su mesa de luz, unas cuantas grullas de papel desparramadas.
+      - "-Voy a morirme, Toshiro\u2026 -susurr\xF3, no bien su amigo se par\xF3, en
+        silencio, al lado de su#cama. -Nunca llegar\xE9 a plegar las mil grullas que
+        me hacen falta..."
+      - "Mil grullas... o Semba-Tsuru,  como se dice en japon\xE9s."
+      - "Con el coraz\xF3n encogido, Toshiro cont\xF3 las que se hallaban dispersas
+        sobre la mesita. S\xF3lo veinte. Despu\xE9s, las junt\xF3 cuidadosamente antes
+        de guardarlas en un bolsillo de su chaqueta."
+      - "-Te vas a curar, Naomi -le dijo entonces, pero su amiga no le o\xEDa ya:
+        se hab\xEDa quedado dormida."
+      - "El muchachito sali\xF3 del hospital, bebi\xE9ndose las l\xE1grimas."
+      - "Ni la madre, ni el padre, ni los t\xEDos de Toshiro (en cuya casa se encontraban
+        temporalmente alojados) entendieron aquella noche el por qu\xE9 de la misteriosa
+        desaparici\xF3n#de casi todos los papeles que, hasta ese d\xEDa, hab\xEDa
+        habido all\xED."
+      - "Hojas de diario, pedazos de papel para envolver, viejos cuadernos y hasta
+        algunos libros parec\xEDan haberse esfumado m\xE1gicamente. Pero ya era tarde
+        para preguntar. Todos los mayores se durmieron, sorprendidos."
+      - "En la habitaci\xF3n que compart\xEDa con sus primos, Toshiro velaba entre
+        las sombras. Esper\xF3 hasta que tuvo la certeza de que nadie m\xE1s que \xE9l
+        continuaba despierto."
+      - "Entonces, se incorpor\xF3 con sigilo y abri\xF3 el armario donde se sol\xEDan
+        acomodar las mantas."
+      - "Mordi\xE9ndose la punta de la lengua, extrajo la pila de papeles que hab\xEDa#recolectado
+        en secreto y volvi\xF3 a su lecho."
+      - La tijera la llevaba oculta entre sus ropas.
+      - "Y as\xED, en el silencio y la oscuridad de aquellas horas, Toshiro recort\xF3
+        primero novecientos ochenta cuadraditos y luego los pleg\xF3, uno por uno,
+        hasta completar las mil grullas que ansiaba Naomi, tras sumarles las que ella
+        misma hab\xEDa hecho. Ya amanec\xEDa."
+    - textlines:
+      - "El muchacho se encontraba pasando hilos a trav\xE9s de las siluetas de papel.
+        Separ\xF3 en grupos de diez las fr\xE1giles grullas del milagro y las aprest\xF3
+        para que imitaran el vuelo, suspendidas como estaban de un leve hilo de coser,
+        una encima de la otra."
+      - "Con los dedos paspados y el coraz\xF3n temblando, Toshiro coloc\xF3 las cien
+        tiras de su furoshiki y#parti\xF3 rumbo al hospital antes de que su familia
+        se despertara. "
+      - "Por esa \xFAnica vez, tom\xF3 sin pedir permiso la bicicleta de sus primos."
+      - "No hab\xEDa tiempo que perder. Imposible recorrer a pie, como el d\xEDa anterior,
+        los kil\xF3metros que lo separaban del hospital. La vida de Naomi depend\xEDa
+        de esas grullas."
+      - "-Prohibidas las visitas a esta hora -le dijo una enfermera, impidi\xE9ndole
+        el acceso a la enorme sala en uno de cuyos extremos estaba la cama de su querida
+        amiga. "
+      - "Toshiro insisti\xF3: -S\xF3lo quiero colgar estas grullas sobre su lecho.
+        Por favor..."
+      - "Ning\xFAn gesto denunci\xF3 la emoci\xF3n de la enfermera cuando el chico
+        le mostr\xF3 las avecitas de papel. Con la misma aparente impasibilidad con
+        que momentos antes le hab\xEDa cerrado el paso, se hizo a un lado y le permiti\xF3
+        que entrara: -Pero cinco minutos, \xBFeh? "
+      - "Naomi dorm\xEDa."
+      - "Tratando de no hacer el m\xEDnimo ruidito, Toshiro puso una silla sobre la
+        mesa de luz y luego se subi\xF3."
+      - "Tuvo que estirarse a m\xE1s no poder para alcanzar el cielo raso. Pero lo
+        alcanz\xF3. Y en un rato estaban las mil grullas pendiendo del techo; los
+        cien hilos entrelazados, firmemente sujetos con alfileres. "
+      - "Fue al bajarse de su improvisada escalera cuando advirti\xF3 que Naomi lo
+        estaba observando. Ten\xEDa la cabecita echada hacia un lado y una sonrisa
+        en los ojos."
+      - -Son hermosas, Toshi-chan... Gracias...
+      - "-Hay un millar. Son tuyas, Naomi. Tuyas- y el muchacho abandon\xF3 la sala
+        sin darse vuelta."
+      - "En la luminosidad del mediod\xEDa que ahora ocupaba todo el recinto, mil
+        grullas empezaron a balancearse impulsadas#por el viento que la enfermera
+        tambi\xE9n dej\xF3 colar, al entreabrir por unos instantes la ventana."
+      - "Los ojos de Naomi segu\xEDan sonriendo."
+      - "La ni\xF1a muri\xF3 al d\xEDa siguiente. Un \xE1ngel a la intemperie frente
+        a la impiedad de los adultos. \xBFC\xF3mo pod\xEDan mil fr\xE1giles avecitas
+        de papel vencer el horror instalado en su sangre?"
+      - Febrero de 1976.
+      - "Toshiro Ueda cumpli\xF3 cuarenta y dos a\xF1os y vive en Inglaterra. Se cas\xF3,
+        tiene tres hijos y es gerente de sucursal de un banco establecido en Londres."
+      - "Serio y poco comunicativo como es, ninguno de sus empleados se atreve a preguntarle
+        por qu\xE9, entre el aluvi\xF3n de papeles con importantes informes y mensajes
+        telegr\xE1ficos que#habitualmente se juntan sobre su escritorio, siempre se
+        encuentran algunas grullas de origami dispersas al azar."
+      - "Grullas seguramente hechas por \xE9l, pero en alg\xFAn momento en que nadie
+        consigue sorprenderlo."
+      - "Grullas desplegando alas en las que se descubren las cifras de la m\xE1quina
+        de calcular."
+      - "Grullas surgidas de servilletitas con impresos de los m\xE1s sofisticados
+        restaurantes..."
+      - "Grullas y m\xE1s grullas."
+      - "Y los empleados comentan, divertidos, que el gerente debe de creer en aquella
+        superstici\xF3n japonesa."
+      - "-Alg\xFAn d\xEDa completar\xE1 las mil... -cuchichean entre risas-. \xBFSe
+        animar\xE1 entonces a colgarlas sobre su escritorio?"
+      - "Ninguno sospecha, siquiera, la entra\xF1able relaci\xF3n que esas grullas
+        tienen con la perdida Hiroshima de su ni\xF1ez. Con su perdido amor primero."
+    trivias:
+    - quest: "\xBFPor qu\xE9 Naomi y Toshiro no quer\xEDan que empezaran las vacaciones
+        escolares?"
+      answers:
+      - "Naomi y Toshiro no quer\xEDan que empezaran las vacaciones escolares porque
+        no iban a poder verse."
+      - "Naomi y Toshiro no quer\xEDan que empezaran las vacaciones escolares porque
+        eran muy estudiosos."
+      - "Naomi y Toshiro no quer\xEDan que empezaran las vacaciones escolares porque
+        iban a tener que trabajar."
+    - quest: "\xBFPara qu\xE9 junta Toshiro todos los papeles que puede?"
+      answers:
+      - "Toshiro junta  todos los papeles que puede para completar mil grullas de
+        papel y llev\xE1rselas a Naomi."
+      - Toshiro junta  todos los papeles que puede para calmar la ansiedad mientras
+        esperaba que Naomi regresara.
+      - Toshiro junta  todos los papeles que puede para escribir cartas que pidieran
+        el fin de la guerra.
+    - quest: "\xBFC\xF3mo se sobrepuso Toshiro a la muerte de Naomi?"
+      answers:
+      - "Toshiro se sobrepuso formando su propia familia. Se fue a vivir a Londres
+        y hac\xEDa grullas de papel para tenerla presente de alguna manera."
+      - "Toshiro se sobrepuso formando su propia familia. Se fue a vivir a Londres
+        y la olvid\xF3 por completo."
+      - "Toshiro se sobrepuso formando su propia familia. Se fue a vivir a Londres.
+        hac\xEDa grullas de papel que regala a sus amigos."
+  - id: 19
+    gameprogress_name: libro_lab_1
+    title: El crimen casi perfecto
+    author: Roberto Arlt
+    color: '#2F3042'
+    type: 0
+    area: 4
+    texts:
+    - textlines:
+      - "La coartada de los tres hermanos de la suicida fue verificada.  Ellos no
+        hab\xEDan mentido. El mayor, Juan, permaneci\xF3 desde las cinco de la tarde
+        hasta las doce de la noche (la se\xF1ora Stevens se suicid\xF3 entre siete
+        y diez de la noche) detenido en una comisar\xEDa por su participaci\xF3n imprudente
+        en una accidente de tr\xE1nsito. El segundo hermano, Esteban, se encontraba
+        en el pueblo de Lister desde las seis de la tarde de aquel d\xEDa hasta las
+        nueve del siguiente, y, en cuanto al tercero, el doctor Pablo, no se hab\xEDa
+        apartado ni un momento del laboratorio de an\xE1lisis de leche de la Erpa
+        C\xEDa, donde estaba adjunto a la secci\xF3n de dosificaci\xF3n de mantecas
+        en las cremas."
+      - "Lo m\xE1s curioso de caso es que aquel d\xEDa los tres hermanos almorzaron
+        con la suicida para festejar su cumplea\xF1os, y ella, a su vez, en ning\xFAn
+        momento dej\xF3 de traslucir su intenci\xF3n funesta. Comieron todos alegremente;
+        luego, a las dos de la tarde, los hombres se retiraron."
+    - textlines:
+      - "Sus declaraciones coincid\xEDan en un todo con las de la antigua dom\xE9stica
+        que serv\xEDa hac\xEDa muchos a\xF1os a la se\xF1ora Stevens. Esta mujer,
+        que dorm\xEDa afuera del departamento, a las siete de la tarde se retir\xF3
+        a su casa. La \xFAltima orden que recibi\xF3 de la se\xF1ora Stevens fue que
+        le enviara por el portero un diario de la tarde. La criada se march\xF3; a
+        las siete y diez el portero le entreg\xF3 a la se\xF1ora Stevens el diario
+        pedido y el proceso de acci\xF3n que \xE9sta sigui\xF3 antes de matarse se
+        presume l\xF3gicamente as\xED: la propietaria revis\xF3 las adiciones en las
+        libretas donde llevaba anotadas las entradas y salidas de su contabilidad
+        dom\xE9stica, porque las#libretas se encontraban sobre la mesa del comedor
+        con algunos gastos del d\xEDa subrayados; luego se sirvi\xF3 un vaso de agua
+        con whisky, y en esta mezcla arroj\xF3 aproximadamente medio gramo de cianuro
+        de potasio. A continuaci\xF3n se puso a leer el diario, bebi\xF3 el veneno,
+        y al sentirse morir trat\xF3 de ponerse de pie y cay\xF3#sobre la alfombra.
+        El peri\xF3dico fue hallado entre sus dedos tremendamente contra\xEDdos."
+      - "Tal era la primera hip\xF3tesis que se desprend\xEDa del conjunto de cosas
+        ordenadas pac\xEDficamente en el interior del departamento pero, como se puede
+        apreciar, este proceso de suicidio est\xE1 cargado de absurdos psicol\xF3gicos.
+        Ninguno de los funcionarios que intervinimos en la investigaci\xF3n  pod\xEDamos
+        aceptar congruentemente que la se\xF1ora Stevens se hubiese suicidado. Sin
+        embargo, \xFAnicamente la Stevens pod\xEDa haber echado el cianuro en el vaso.
+        El whisky no conten\xEDa veneno. El agua que se agreg\xF3 al whisky tambi\xE9n
+        era pura. Pod\xEDa presumirse que el veneno hab\xEDa sido depositado en el
+        fondo o las paredes de la copa, pero el vaso utilizado  por la suicida hab\xEDa
+        sido retirado de un anaquel donde se hallaba una docena de vasos del mismo
+        estilo; de manera que el presunto asesino no pod\xEDa saber se la Stevens
+        iba a utilizar \xE9ste o aqu\xE9l. La oficina policial de qu\xEDmica nos inform\xF3
+        que ninguno de los vasos conten\xEDa veneno adherido a sus paredes."
+      - "El asunto no era f\xE1cil. Las primeras pruebas, pruebas mec\xE1nicas como
+        las llamaba yo, nos inclinaban a aceptar que la viuda se hab\xEDa quitado
+        la vida por su propia mano, pero la evidencia de que ella estaba#distra\xEDda
+        leyendo un peri\xF3dico cuando la sorprendi\xF3 la muerte transformaba en
+        disparatada la prueba mec\xE1nica del suicidio. "
+      - "Tal era la situaci\xF3n t\xE9cnica del caso cuando yo fui designado por mis
+        superiores para continuar ocup\xE1ndome de \xE9l. En cuanto a los informes
+        de nuestro gabinete de an\xE1lisis, no cab\xEDa dudas. \xDAnicamente en el
+        vaso, donde la se\xF1ora Stevens hab\xEDa bebido, se encontraba veneno. El
+        agua y el whisky de las botellas eran completamente inofensivos. Por otra
+        parte, la declaraci\xF3n del portero era terminante; nadie hab\xEDa visitado
+        a la se\xF1ora Stevens despu\xE9s que \xE9l le alcanz\xF3 el peri\xF3dico;
+        de manera que#si yo, despu\xE9s de algunas investigaciones superficiales,
+        hubiera cerrado el sumario informando de un suicidio comprobado, mis superiores
+        no hubiesen podido objetar palabra. Sin embargo, para m\xED cerrar el sumario
+        significaba confesarme fracasado. La se\xF1ora Stevens hab\xEDa sido asesinada,
+        y hab\xEDa un indicio que lo#comprobaba: \xBFd\xF3nde se hallaba el envase
+        que conten\xEDa el veneno antes de que ella lo arrojara en su bebida? "
+      - "Por m\xE1s que nosotros revis\xE1ramos el departamento, no nos fue posible
+        descubrir la caja, el sobre o el frasco que contuvo el t\xF3xico. Aquel indicio
+        resultaba extraordinariamente sugestivo. Adem\xE1s hab\xEDa otro: los hermanos
+        de la muerta eran tres bribones."
+      - "Los tres, en menos de diez a\xF1os, hab\xEDan despilfarrado los bienes que
+        heredaron de sus padres. Actualmente sus medios de vida no eran del todo satisfactorios."
+      - "Juan trabajaba como ayudante de un procurador especializado en divorcios.
+        Su conducta result\xF3 m\xE1s de una vez sospechosa y lindante con la presunci\xF3n
+        de un chantaje. Esteban era corredor de seguros y hab\xEDa asegurado a su
+        hermana en una gruesa suma a su favor,; en cuanto a Pablo, trabajaba de veterinario
+        , pero estaba descalificado por la Justicia e inhabilitado para ejercer su
+        profesi\xF3n, convicto de haber dopado#caballos. Para no morirse de hambre
+        ingres\xF3 en la industria lechera, se ocupaba de los an\xE1lisis."
+      - "Tales eran los hermanos de la se\xF1ora Stevens. En cuanto a \xE9sta, hab\xEDa
+        enviudado tres veces. El d\xEDa del \xA8suicidio\xA8 cumpli\xF3 68 a\xF1os;
+        pero era una mujer extraordinariamente conservada, gruesa, robusta, en\xE9rgica,
+        con el#cabello totalmente renegrido. Pod\xEDa aspirar a casarse una cuarta
+        vez y manejaba su casa alegremente y con pu\xF1o duro. Aficionada a los placeres
+        de la mesa, su despensa estaba provista de vinos y comestibles, y no cabe
+        duda de que sin aquel \xA8accidente\xA8 la viuda hubiera vivido cien a\xF1os.
+        Suponer que una mujer de ese car\xE1cter era capaz de suicidarse, es desconocer
+        la naturaleza humana. Su muerte beneficiaba a cada uno de los tres hermanos
+        con doscientos treinta mil pesos."
+      - "La criada de la muerta era una mujer casi est\xFApida, y utilizada por aqu\xE9lla
+        en las labores groseras de la casa. Ahora estaba pr\xE1cticamente aterrorizada
+        al verse engranada en un procedimiento judicial."
+      - "El cad\xE1ver fue descubierto por el portero y la sirvienta a las siete de
+        \ la ma\xF1ana, hora en que \xE9sta, no pudiendo abrir la puerta porque las
+        hojas estaban aseguradas por dentro con cadenas de acero, llam\xF3 en su auxilio
+        al encargado de la casa. A las once de la ma\xF1ana, como creo haber dicho
+        anteriormente, estaban en nuestro poder los informes del laboratorio de an\xE1lisis,
+        a las tres de la tarde abandonaba yo la habitaci\xF3n que quedaba detenida
+        la sirvienta, con una idea brincando en el mag\xEDn: \xBFy si alguien hab\xEDa
+        entrado en el departamento de la viuda rompiendo un vidrio de la ventana y
+        colocando otro#despu\xE9s  que volc\xF3 el veneno en el vaso? Era una fantas\xEDa
+        de novela policial, pero conven\xEDa verificar la hip\xF3tesis."
+    - textlines:
+      - "Sal\xED decepcionado del departamento. Mi conjetura era absolutamente disparatada:
+        la masilla solidificada no revelaba mudanza alguna."
+      - "Ech\xE9 a caminar sin prisa. El \xA8suicidio\xA8 de la se\xF1ora Stevens
+        me preocupaba (dir\xE9 una enormidad) no policialmente, sino deportivamente.
+        Yo estaba en presencia de un asesino sagac\xEDsimo, posiblemente uno de los
+        tres hermanos que hab\xEDa utilizado un recurso simple y complicado, pero
+        imposible de presumir en la nitidez de aquel vac\xEDo."
+      - "Absorbido en mis cavilaciones, entr\xE9 en un caf\xE9, y tan identificado
+        estaba en mis conjeturas, que yo. que nunca bebo bebidas alcoh\xF3licas, autom\xE1ticamente
+        ped\xED un whisky. \xBFCu\xE1nto tiempo permaneci\xF3 el "
+      - "whisky servido frente a mis ojos? No lo s\xE9; pero de pronto mis ojos vieron
+        el vaso de whisky, la garrafa de agua y un plato con trozos de hielo. At\xF3nito
+        qued\xE9 mirando el conjunto aquel. De pronto una idea alumbr\xF3 mi curiosidad,
+        llam\xE9 al camarero, le pagu\xE9 la bebida que no hab\xEDa tomado, sub\xED
+        apresuradamente a un autom\xF3vil y me dirig\xED a la casa de la sirvienta.
+        Una hip\xF3tesis daba grandes saltos en mi cerebro. Entr\xE9 en la habitaci\xF3n
+        donde estaba detenida, me sent\xE9 frente a ella y le dije:#"
+      - "- M\xEDreme bien y f\xEDjese en lo que me va a contestar: la se\xF1ora Stevens,
+        \xBFtomaba el whisky con hielo o sin hielo? "
+      - "-Con hielo, se\xF1or."
+      - "-\xBFD\xF3nde compraba el hielo?"
+      - "- No lo compraba, se\xF1or. En casa hab\xEDa una heladera peque\xF1a que
+        lo fabricaba en pancitos. - Y la criada casi iluminada prosigui\xF3, a pesar
+        de su estupidez.-"
+      - "-Ahora que me acuerdo, la heladera, hasta ayer, que vino el se\xF1or Pablo,
+        estaba descompuesta. \xC9l se encarg\xF3 de arreglarla en un momento."
+      - "Una hora despu\xE9s nos encontr\xE1bamos en el departamento de la suicida
+        el qu\xEDmico de nuestra oficina de an\xE1lisis, el t\xE9cnico  retir\xF3
+        el agua que se encontraba en el dep\xF3sito congelador de la heladera y varios#pancitos
+        de hielo. El qu\xEDmico inici\xF3 la operaci\xF3n destinada a revelar la presencia
+        del t\xF3xico, y a los pocos minutos pudo manifestarnos: "
+      - "- El agua est\xE1 envenenada y los panes de este hielo est\xE1n fabricados
+        con agua envenenada."
+      - "Nos miramos jubilosamente. El misterio estaba desentra\xF1ado."
+      - "Ahora era un juego reconstruir el crimen. El doctor Pablo, al reparar el
+        fusible de la heladera (defecto que localiz\xF3 el t\xE9cnico) arroj\xF3 en
+        el dep\xF3sito congelador una cantidad de cianuro disuelto. Despu\xE9s, ignorante
+        de lo que aguardaba, la se\xF1ora Stevens prepar\xF3 un whisky; del dep\xF3sito
+        retir\xF3 un pancito de hielo#(lo cual explicaba que el vaso con hielo disuelto
+        se encontrara sobre la mesa), el cual, al derretirse en el alcohol, lo envenen\xF3
+        poderosamente debido a su alta concentraci\xF3n. Sin imaginarse que la muerte
+        la aguardaba en su vicio, la se\xF1ora Stevens se puso a leer el peri\xF3dico,
+        hasta que juzgando el whisky suficientemente enfriado, bebi\xF3 un sorbo.
+        Los efectos no se hicieron esperar."
+      - "No quedaba sino ir en busca del veterinario. In\xFAtilmente lo aguardamos
+        \ en su casa. Ignoraban d\xF3nde se encontraba. Del laboratorio donde trabajaba
+        \ nos informaron que llegar\xEDa a las diez de la noche."
+      - "A las once, yo, mi superior y el juez nos presentamos en el laboratorio de
+        la Erpa. El doctor Pablo, en cuanto nos vio comparecer en grupo, levant\xF3
+        el brazo como si quisiera anatemizar nuestras investigaciones, abri\xF3 la
+        boca y se desplom\xF3 inerte junto a la mesa de m\xE1rmol. Lo hab\xEDa muerto
+        de un s\xEDncope. En su armario se encontraba un frasco de veneno. Fue el
+        asesino m\xE1s ingenioso que conoc\xED."
+    trivias:
+    - quest: "\xBFEn qu\xE9 horarios estuvo detenido Juan en una comisar\xEDa?"
+      answers:
+      - "Juan estuvo detenido en una comisar\xEDa entre las cinco y las doce."
+      - "Juan estuvo detenido en una comisar\xEDa entre las seis y las nueve."
+      - "Juan estuvo detenido en una comisar\xEDa entre las siete y las ocho."
+    - quest: "\xBFA qu\xE9 hora fue descubierto el cuerpo por la sirvienta y el portero?"
+      answers:
+      - "La sirvienta y el portero descubrieron el cuerpo a las siete de la ma\xF1ana."
+      - "La sirvienta y el portero descubrieron el cuerpo a las once de la ma\xF1ana."
+      - La sirvienta y el portero descubrieron el cuerpo a las tres de la tarde.
+    - quest: "\xBFEn qu\xE9 lugar coloc\xF3 Pablo el cianuro que envenen\xF3 y mat\xF3
+        a la se\xF1ora Stevens?"
+      answers:
+      - "Pablo coloc\xF3 el cianuro que envenen\xF3 y mat\xF3 a la se\xF1ora Stevens
+        en el dep\xF3sito congelador de la heladera."
+      - "Pablo coloc\xF3 el cianuro que envenen\xF3 y mat\xF3 a la se\xF1ora Stevens
+        en el vaso de whisky."
+      - "Pablo coloc\xF3 el cianuro que envenen\xF3 y mat\xF3 a la se\xF1ora Stevens
+        en el whisky."
+  - id: 20
+    gameprogress_name: libro_lab_2
+    title: "Las tres noches de Isa\xEDas Bloom"
+    author: Rodolfo Walsh
+    color: '#2F3042'
+    type: 0
+    area: 4
+    texts:
+    - textlines:
+      - "No hab\xEDa terremotos ni inundaciones. No hab\xEDa partidos ni carreras,
+        porque era mi\xE9rcoles. No hab\xEDa golpe militar. El d\xF3lar no sub\xEDa
+        ni bajaba."
+      - "-\xBFQu\xE9 quiere que haga? -dijo Su\xE1rez-. Yo mando la historia al diario,
+        pero ellos van a poner los t\xEDtulos. Y como no pasa nada, le tienen que
+        sacar el jugo."
+      - "El comisario segu\xEDa rabioso y Su\xE1rez se ech\xF3 a re\xEDr. Era alto,
+        flaco y hecho a las patadas. Con el sombrerito echado sobre la nuca y las
+        manos en los bolsillos del sobretodo, ten\xEDa una pinta de reo de pel\xEDcula."
+      - "-\xBFQu\xE9 va a pasar? -pregunt\xF3."
+      - "-Nada. Que esta tarde nos cae encima el gabinete, y ma\xF1ana el juez."
+      - "Eran las ocho de la ma\xF1ana. El comisario hab\xEDa ordenado que nadie saliera
+        de su pieza. Salieron todos. Se los encontraba en los pasillos, en la escalera,
+        en la cocina. El ambiente era casi de jarana."
+      - -Para colmo, este elemento.
+      - "-\xBFQu\xE9 son, estudiantes?- pregunt\xF3 Su\xE1rez."
+      - "-Seis o siete. Un yiro. Un pasador de quinielas -se interrumpi\xF3 al ver
+        el tumulto-. A ver, Funes, dos minutos para despejarme la entrada y la calle."
+      - "Los periodistas hab\xEDan entrado en una masa s\xF3lida, usando la t\xE9cnica
+        romana del ariete. Un fot\xF3grafo lo fusilaba al comisario a mansalva."
+      - "-Sac\xE1s una m\xE1s, y te la escracho toda -dijo sobriamente el comisario."
+      - "Vinieron a avisarle que ya estaba la ambulancia. Tom\xF3 a Su\xE1rez del
+        brazo y fueron a la pieza del muerto. Su\xE1rez alcanz\xF3 a escuchar hip\xF3tesis
+        perversas sobre su ascendencia, que formulaban sus colegas. Despu\xE9s trat\xF3
+        de recordar todas las piezas de pensi\xF3n, iguales a \xE9sta, en que hab\xEDa
+        vivido. Eran demasiadas. El ropero, las sillas y las camas gemelas, compradas
+        en un remate. Un escritorio con libros de medicina y de qu\xEDmica. Una alfombrita
+        verde entre las dos camas, recortes de revistas pegados en las paredes."
+      - "Hasta la muerte era ordinaria en esa pieza. Un tipo tendido en una de las
+        camas, con un cuchillo de ferreter\xEDa clavado en la espalda."
+    - textlines:
+      - "-\xBFC\xF3mo te llam\xE1s? -pregunt\xF3 el comisario a la sombra desplomada
+        en una silla en un rinc\xF3n."
+      - "El otro alz\xF3 la cara. Una cara joven, preocupada y sin afeitar."
+      - "-Ya le dije, Isa\xEDas Bloom."
+      - "-Ah, no te hac\xEDa aqu\xED."
+      - -Es mi pieza.
+      - "-Bueno, \xBFy qu\xE9 pas\xF3?"
+      - -Ya ve. Lo mataron a Olmedo.
+      - "-\xBFVos lo encontraste?"
+      - "-S\xED. Hace un rato, cuando volv\xED de la guardia en el hospital."
+      - "-\xBFSe te ocurre algo?"
+      - -No.
+      - "-Pens\xE1lo -dijo el comisario."
+      - Entraron los camilleros y ellos salieron.
+      - "Fueron a ver al yiro. Era rubia, gorda y jovial. Estaba arregl\xE1ndose las
+        cejas, sentada en una gran cama de matrimonio."
+      - "-Hola -dijo el comisario-. As\xED que est\xE1s enojada con nosotros."
+      - "-\xBFLe parece que son horas para despertarla a una?"
+      - "-No, lo que digo es que ya no ven\xEDs a visitarnos."
+      - "Ella se ri\xF3."
+      - -Ahora soy seria. Dentro de unos meses me caso.
+      - "-Si supieras c\xF3mo te creo."
+      - "-And\xE1, dec\xED que no me conoc\xE9s -se oy\xF3 la voz de#Su\xE1rez detr\xE1s
+        del comisario."
+      - "Ella se levant\xF3 de un salto y corri\xF3 a abrazarlo."
+      - "-\xA1Querido! \xBFQu\xE9 hac\xE9s aqu\xED? No me dig\xE1s -lo mir\xF3 con
+        repentina desconfianza."
+      - "-El comisario y yo somos viejos amigos -se apresur\xF3 a explicarle Su\xE1rez."
+      - "-\xBFPor qu\xE9 lo mataron al tipo? -pregunt\xF3 el#comisario. "
+      - -No se entiende -dijo ella-. Era un pan de Dios.
+      - "-\xBFHay juego en la casa?"
+      - -Los muchachos suelen jugar a la generala -dijo ella.
+      - El comisario dio media vuelta.
+      - "-Ya veo que me vas a dejar la comisar\xEDa llena de puchos otra vez."
+      - "Ella le cerr\xF3 el paso."
+      - "-Valent\xEDn, a lo mejor. Pero no me queme, comisario."
+      - "-\xBFMujeres? Aparte de vos, quiero decir."
+      - -No me quiere creer. Yo ando derecha.
+      - "-\xBFNieve? -ella puso los ojos en blanco-. Papelitos, drogas."
+      - "-Ah, no, comisario. En eso, todav\xEDa soy una virgen."
+      - "Fueron a ver a Valent\xEDn. Estaba haciendo una valija."
+      - "-Vos s\xED que sos un optimista -dijo el comisario."
+      - "El otro sonri\xF3. Era un flaco picado de viruelas."
+      - "-Apenas saque el cana de la puerta, me las pico. \xA1Uia! -exclam\xF3 al
+        ver a Su\xE1rez-. \xBFQu\xE9 hac\xE9s vos aqu\xED?"
+      - -Vengo a pasar un numerito.
+      - "-\xBFIl morto que parla? -pregunt\xF3 Valent\xEDn y se#ech\xF3 a re\xEDr
+        hasta que sinti\xF3 encima la mirada del comisario-. And\xE1, Batilana, decile
+        que no tengo nada que ver y que me puedo ir."
+      - "-No tiene nada que ver. Se puede ir -le dijo Su\xE1rez al comisario."
+      - "-\xBFQu\xE9 hiciste con las anotaciones?"
+      - "Valent\xEDn se\xF1al\xF3 dos o tres ceniceros llenos de papelitos quemados."
+      - "-Me ganaron de mano con el ba\xF1o -coment\xF3-. Hay mucha corrida esta ma\xF1ana."
+      - "-Qu\xE9 risa -dijo el comisario- \xBFVos sab\xE9s la alegr\xEDa que me da
+        verte? "
+      - El otro hizo un gesto dubitativo.
+      - "-Y a vos tambi\xE9n -prosigui\xF3 el comisario-. Se te nota en la cara. Vamos
+        a arreglar para vernos m\xE1s seguido."
+      - "Valent\xEDn cerr\xF3 la puerta."
+      - "-\xBFNo me vende? -pregunt\xF3 en voz baja-. Busque por el lado de Alcira.
+        Pero ojo, que es mi amiga."
+      - "-S\xED -coment\xF3 el polic\xEDa-. Ya me di cuenta de los amigos que son."
+      - "Cruzaron a tomar un caf\xE9. Eran las diez."
+      - "-Pinta feo -admiti\xF3 Su\xE1rez-. \xBFQu\xE9 sabe del muerto?#"
+      - "-Lo mismo que nada. Estudiante boliviano. Daba un examen cada dos a\xF1os.
+        Anoche lo vieron entrar borracho, a eso de las cuatro."
+      - "En ese momento descubrieron a Isa\xEDas Bloom parado en la puerta del caf\xE9,
+        busc\xE1ndolos con mirada de mochuelo. Le hicieron se\xF1as. "
+      - "-Estuve reconstruyendo#-explic\xF3 mientras se sentaba-. Olmedo estaba asustado.
+        Hace cuatro d\xEDas me dijo que ten\xEDa algo serio que contarme, y que a
+        lo mejor iba a ver a la polic\xEDa -a ustedes."
+      - "-\xBFQu\xE9 le pasaba?"
+      - "-No quiso decir. Era muy herm\xE9tico y estaba nervioso. Pero adem\xE1s,
+        es cierto que estaban ocurriendo cosas raras. El domingo a la noche, por ejemplo,
+        creo que alguien entr\xF3 en la pieza. Yo estaba dormido y so\xF1\xE9 algo.
+        So\xF1\xE9 con un bosque y una mariposa de luz que revoloteaba entre los \xE1rboles
+        y yo trataba de alcanzarla."
+      - "-Aj\xE1 -dijo el comisario, tamborileando sobre la mesa."
+      - "-Entonces me despert\xE9 y me pareci\xF3 o\xEDr un ruidito met\xE1lico. Me
+        qued\xE9 mirando la esfera luminosa del despertador que estaba sobre el escritorio.
+        De golpe no la vi m\xE1s, y enseguida volv\xED a verla."
+      - "-\xBFY eso qu\xE9 quiere decir?"
+      - "-A lo mejor quiere decir que alguien pas\xF3 frente al reloj cuando yo lo
+        estaba mirando. "
+      - "-Ser\xEDa el mismo Olmedo."
+      - "-No, porque prend\xED la luz y estaba dormido. Al d\xEDa siguiente se quej\xF3
+        de que le hab\xEDan estado revisando las cosas."
+      - "-\xBFQu\xE9 cosas?"
+      - "-Papeles, algo que estaba escribiendo, no s\xE9. No le hice caso, porque
+        parec\xEDa tan nervioso. Pero entonces pas\xF3 algo m\xE1s raro. Yo tuve un
+        sue\xF1o que se cumpli\xF3."
+      - "-Aj\xE1 -volvi\xF3 a decir el comisario."
+      - "-Yo me analizo -explic\xF3 Isa\xEDas Bloom."
+      - "-\xBFUsted qu\xE9?"
+      - "-Voy a un psicoanalista, porque pienso seguir la especialidad, y anoto lo
+        que sue\xF1o."
+      - "El comisario se ech\xF3 a re\xEDr."
+      - "-Yo lo \xFAnico que sue\xF1o es que subo y bajo escaleras.#"
+      - "-No lo comente -aconsej\xF3 Isa\xEDas Bloom."
+      - "-\xBFQuiere decir algo? -pregunt\xF3 el comisario, irritado."
+      - "-Nada malo. Pero esc\xFAcheme. Anteanoche tuve un sue\xF1o curioso. Iba por
+        una calle oscura y de golpe vi caer una copa que se rompi\xF3 con un ruido
+        cristalino y desapareci\xF3. En el pavimento qued\xF3 un#charquito de agua
+        verde, como una estrella. Aqu\xED viene una gran parte que no recuerdo, pero
+        despu\xE9s yo compraba un diario y vi un titular que dec\xEDa: \xA8Se ha extraviado
+        una copa que responde a la nota sol\xA8, o algo as\xED."
+      - "-Interesante -bostez\xF3 el comisario."
+      - "-Y ahora viene lo raro. A la ma\xF1ana siguiente la copa hab\xEDa desaparecido."
+      - El comisario dio un brinco.
+      - "-\xBFQu\xE9 copa?"
+      - "-Una que ten\xEDa Olmedo sobre la mesa de luz. Una copa verde como la del
+        sue\xF1o. Tomaba mucha agua de noche."
+      - "El comisario respir\xF3 hondo y cerr\xF3 los ojos. Cuando los abri\xF3, Isa\xEDas
+        Bloom cruzaba la calle."
+      - "-Hay cada colifa -coment\xF3 el comisario."
+      - "En la primera pieza (los mismos muebles, la misma alfombra entre las camas,
+        aunque \xE9sta era roja) hab\xEDa dos futuros abogados, petisos y cordobeses,
+        en mangas de camisa. El comisario los encontr\xF3 insolentes y \xE1vidos de
+        divertirse. \xA8Me dan ganas de sopapearlos\xA8, coment\xF3 m\xE1s tarde.
+        \xA8Pero si usted los mira fijo, le dicen torturador\xA8."
+      - "No hab\xEDan visto nada, no hab\xEDan o\xEDdo nada y, en consecuencia, no
+        iban a decir nada."
+      - "-Un boliviano menos -fue lo \xFAnico que coment\xF3 el que hablara por los
+        dos-. Ahora falta el otro."
+      - "Fueron a ver al otro. Aqu\xED hab\xEDa una sola cama, otra alfombrita verde
+        y un indio adusto, incomprensible, vestido de punta en blanco."
+      - "-Vos tampoco sab\xE9s -anticip\xF3 el comisario."
+      - "-Se\xF1or Velarde -dijo el otro."
+      - "-\xBFQu\xE9 te pasa?"
+      - -Que no me tutee.
+      - "-Ten\xE9s raz\xF3n -admiti\xF3 el comisario-. Sos un tipo importante. \xBFAlquil\xE1s
+        la pieza para vos solo?"
+      - "-Voy a llamar al c\xF3nsul -dijo Velarde."
+      - "Cuando entraron en la \xFAltima pieza, el comisario se trepaba por las paredes.
+        Aqu\xED dominaba el litoral. Un correntino y un misionero interrumpieron un
+        d\xFAo de guitarra para preguntarle c\xF3mo andaba eso. El comisario intent\xF3
+        in\xFAtilmente hacerles decir que odiaban a los bolivianos en general y que
+        una muerte a cuchillo era admirable. Su\xE1rez, modestamente, cont\xF3 la
+        cuarta alfombrita rectangular. Era roja. Cuando se fueron, las guitarras y
+        las voces nasales arremetieron con las estrofas burlonas del \xA8Sargento
+        Zeta\xA8."
+      - "Se hab\xEDa hecho la una. Salieron a almorzar. Mientras esperaban los tallarines,
+        la radio del restaurant transmit\xEDa una versi\xF3n uruguaya del crimen.
+        Los cronistas, que se hab\xEDan reagrupado en la calle, entraron en formaci\xF3n
+        correcta. Un gordito pecoso abri\xF3 el fuego."
+      - "-\xBFPodemos participar de su conferencia de prensa, comisario?"
+      - "-Raj\xE1, pibe."
+      - "-\xBFPongo que la polic\xEDa est\xE1 desconcertada?"
+      - "-Pon\xE9 que hay optimismo -dijo el comisario."
+      - "-Y este individuo -pregunt\xF3 el pecoso se\xF1alando a Su\xE1rez con el
+        l\xE1piz-. \xBFParticipa en la investigaci\xF3n o es un sospechoso?#"
+      - "-A \xE9ste le lustr\xE1s los zapatos -sugiri\xF3 Su\xE1rez."
+      - "-Aj\xE1. Sos un genio vos."
+      - -Chau, Belmondo -dijo otro.
+      - "-No te olvid\xE9s de llamar -se despidi\xF3 el tercero- cuando necesit\xE9s
+        una mortaja."
+      - "Rumbearon en fila hacia el tel\xE9fono."
+      - "-\xBFVe? -se quej\xF3 Su\xE1rez, ofendido-. Se la agarran conmigo. \xBFQu\xE9
+        le costaba largarles algo?"
+      - "-\xBFQu\xE9, por ejemplo?"
+      - "-Que ya tiene todo aclarado -dijo Su\xE1rez."
+      - 
+      - "Isa\xEDas Bloom parpadeaba incesantemente bajo el tiroteo de preguntas."
+      - "-Usted sue\xF1a con una mariposa iluminada. \xBFPuede ser una linterna?"
+      - -Puede ser.
+      - "-Una linterna que le est\xE1 alumbrando los ojos."
+      - "-S\xED. Eso es muy conocido. Uno oye un portazo y sue\xF1a con una explosi\xF3n.
+        Siente olor a quemado y sue\xF1a con un incendio."
+      - "-Eso ocurre la noche del domingo -terci\xF3 el comisario-. Usted se despierta,
+        ve desaparecer la esfera del reloj, enciende la luz y no hay nadie."
+      - "-Es el asesino que se ha ido -murmur\xF3 Isa\xEDas."
+      - "-Llev\xE1ndose unos papeles que lo acusaban de algo -prosigui\xF3 Su\xE1rez-.
+        Pero la segunda noche usted sue\xF1a que la copa de Olmedo se rompe y por
+        la ma\xF1ana ha desaparecido. \xBFPuede ser que usted haya so\xF1ado eso justamente
+        porque la copa se rompi\xF3 y usted oy\xF3 el ruido en sue\xF1os?"
+      - "-Claro que puede ser. Pero no se rompi\xF3, porque no estaba."
+      - -No estaba porque se la llevaron.
+      - "-\xBFRota? -dijo Isa\xEDas Bloom, incr\xE9dulo."
+      - -Rota, con alfombra y todo. Con la alfombra mojada llena de pedazos de vidrio.
+      - "-Pero si a la ma\xF1ana siguiente la alfombra estaba, y estaba seca..."
+      - "El comisario mir\xF3 a Su\xE1rez con inquietud."
+      - "-No era la misma -dijo Su\xE1rez-. En dos piezas no hab\xEDa alfombras, en
+        otras dos hab\xEDa alfombras rojas, y en otras dos, alfombras verdes. El \xFAnico
+        que ten\xEDa otra alfombra verde es el asesino."
+    - textlines:
+      - "Pero el comisario corr\xEDa ya hacia la pieza de Velarde, donde s\xF3lo encontr\xF3
+        el h\xE1lito de una fuga que no lo iba a llevar m\xE1s lejos que el Aeroparque."
+      - "Los hombres del gabinete hab\xEDan llegado por fin y envolv\xEDan con cuidado
+        una alfombrita verde que todav\xEDa conservaba rastros de humedad y, si ten\xEDan
+        suerte, de veneno,#y algunas esquirlas de vidrio."
+      - "-Le temblaron las manos al envenenarle el agua a Olmedo -explicaba ahora
+        el comisario a los periodistas-. Se le rompi\xF3 la copa y no tuvo m\xE1s
+        remedio que llev\xE1rsela para no dejar huellas. A la noche siguiente se decidi\xF3
+        por el cuchillo. Parece que estaba desesperado por lo que iba a contarnos
+        Olmedo, si le daba tiempo. Andaban los dos en el tr\xE1fico de drogas y Olmedo
+        quiso abrirse. Eso es todo. Los detalles los inventan ustedes. "
+      - "A la salida se encontraron con Isa\xEDas Bloom."
+      - "-Segu\xED so\xF1ando, pibe -dijo el comisario."
+    trivias:
+    - quest: "\xBFQui\xE9n es Su\xE1rez?"
+      answers:
+      - "Su\xE1rez es un periodista."
+      - "Su\xE1rez es el comisario."
+      - "Su\xE1rez es fot\xF3grafo."
+    - quest: "\xBFCu\xE1l fue el sue\xF1o de Isa\xEDas Bloom que se cumpli\xF3?"
+      answers:
+      - "El sue\xF1o de Isa\xEDas Bloom que se cumpli\xF3 fue que una copa oscura
+        se rompi\xF3 con un ruido cristalino y desapareci\xF3."
+      - "El sue\xF1o de Isa\xEDas Bloom que se cumpli\xF3 fue que una mariposa de
+        luz revoloteaba en un bosque."
+      - "El sue\xF1o de Isa\xEDas Bloom que se cumpli\xF3 fue que sub\xEDa y bajaba
+        escaleras."
+    - quest: "El asesino se descubri\xF3 porque..."
+      answers:
+      - "El comisario y Ju\xE1rez interpretaron los sue\xF1os Isa\xEDas y resolvieron
+        el caso a partir de esas interpretaciones."
+      - "Velarde confes\xF3, acorralado por las evidencias."
+      - "Isa\xEDas Bloom atestigu\xF3 y cont\xF3 qui\xE9n fue el asesino de Olmedo."
+  - id: 21
+    gameprogress_name: cuadernoLab1
+    title: Grafemas H
+    author: 
+    color: '#BBB97E'
+    type: 1
+    area: 4
+    texts:
+    - textlines:
+      - "{0}1) El poema [emanaba,hemanaba] mucha alegr\xEDa."
+      - "{1}2) En la [huida,uida] perdi\xF3 su calzado."
+      - '{2}3) Es un departamento de pocos [ambientes,hambientes].'
+      - '{3}4) Es una camisa muy [holgada,olgada].'
+      - '{4}5) [Hablemos,Ablemos] de otro tema.'
+      - '{5}6) [Hallamos,Allamos] la respuesta correcta.'
+      - "{6}7) La energ\xEDa [hidr\xE1ulica,idr\xE1ulica] es una fuente \xFAnica para
+        el planeta."
+      - "{7}8) La [ida,hida] del Mart\xEDn Fierro llam\xF3 la atenci\xF3n de los lectores."
+    trivias: []
+  - id: 22
+    gameprogress_name: cuadernoLab2
+    title: Grafemas J/G
+    author: 
+    color: '#BBB97E'
+    type: 1
+    area: 4
+    texts:
+    - textlines:
+      - "{0}1) Padeci\xF3 una fuerte [neuralgia,neuraljia]."
+      - "{1}2) Su [angelical,anjelical] mirada la cautiv\xF3."
+      - "{2}3) Su producci\xF3n es muy [original,orijinal]."
+      - '{3}4) Su risa es muy [contagiosa,contajiosa].'
+      - "{4}5) [Trabaj\xE9,Trabag\xE9] muy duro para obtener buenos resultados."
+      - '{5}6) Ya te [traje,trage] tus apuntes.'
+      - '{6}7) Yo te [dije,dige] mi secreto.'
+    trivias: []
+  - id: 23
+    gameprogress_name: cuadernoLab3
+    title: Grafemas B/V
+    author: 
+    color: '#BBB97E'
+    type: 1
+    area: 4
+    texts:
+    - textlines:
+      - '{0}1) Ha sido [privilegio,pribilegio] un  conocerte. '
+      - "{1}2) Juli\xE1n est\xE1 [meditabundo,meditavundo]."
+      - "{2}3) La [biblioteca,viblioteca] es magn\xEDfica."
+      - '{3}4) Los chicos [buscan,vuscan] un nuevo videojuego.'
+      - "{4}5) Los estudiantes [deb\xEDan,dev\xEDan] ingresar en horario al colegio."
+      - "{5}6) Mart\xEDn y Florencia [iban,ivan] al club todos los s\xE1bados."
+      - "{6}7) Mi mascota es [herb\xEDvora,herb\xEDbora]."
+    trivias: []
+  - id: 24
+    gameprogress_name: cuadernoAltillo1
+    title: Grafemas S/C/Z
+    author: 
+    color: '#BBB97E'
+    type: 1
+    area: 5
+    texts:
+    - textlines:
+      - "{0}1) La [palidez,palides,palidec] de su rostro me llam\xF3 la atenci\xF3n."
+      - "{1}2) Ma\xF1ana es la \xFAltima [funci\xF3n,funsi\xF3n,funzi\xF3n] del grupo
+        de teatro."
+      - '{2}3) No seas [ofensivo,ofencivo,ofenzivo]'
+      - "{3}4) Nos gusta esa [canci\xF3n,cansi\xF3n,canzi\xF3n].#"
+      - '{4}5) Podremos [movilizar,movilisar,movilicar] nuestros ideales.'
+      - "{5}6) Por fin lleg\xF3 su [d\xE9cimo,d\xE9simo,d\xE9zimo] cumplea\xF1os."
+      - '{6}7) Pronto leeremos literatura [gauchesca,gauchecca,gauchezca].'
+    trivias: []
+  - id: 25
+    gameprogress_name: cuadernoAltillo2
+    title: "D\xE9dalo e \xCDcaro"
+    author: "normas de tildaci\xF3n"
+    color: '#BBB97E'
+    type: 1
+    area: 5
+    texts:
+    - textlines:
+      - "{0}Hubo en un tiempo un admirable arquitecto, [inventor,inv\xE9ntor,invent\xF3r]
+        y artesano llamado D\xE9dalo."
+      - "{1}La diosa Atenea en persona le [transmiti\xF3,transmitio,transmit\xEDo]
+        esas artes.#"
+      - "{2}Pero ocurri\xF3 que su sobrino, Perdix, a quien supo [ense\xF1ar,\xE9nse\xF1ar,ense\xF1\xE1r]
+        su oficio, se convirti\xF3 en un aprendiz ejemplar:#"
+      - "{3}con s\xF3lo doce a\xF1os, [invent\xF3,invento,\xEDnvent\xF3] la sierra
+        inspirado en la espina de los peces."
+      - "{4}D\xE9dalo [empez\xF3,empezo,\xE9mpezo] a tener celos de \xE9l, ya que
+        lo igualaba en inventiva. Un d\xEDa, envidioso de sus logros, llev\xF3 al
+        joven a lo alto del#"
+      - "{5}templo de Atenea en la Acr\xF3polis y, con la excusa de se\xF1alarle unas
+        vistas lejanas, lo [empuj\xF3,empujo,emp\xFAjo] y lo hizo caer a tierra."
+      - "{6}Pero la diosa Atenea salv\xF3 el alma del joven transform\xE1ndolo en
+        un ave de vuelo bajo, la [perdiz,perd\xEDz,p\xE9rdiz]"
+    trivias: []
+  - id: 26
+    gameprogress_name: cuadernoAltillo3
+    title: Grafemas H
+    author: 
+    color: '#BBB97E'
+    type: 1
+    area: 5
+    texts:
+    - textlines:
+      - "{0}1) La teor\xEDa [helioc\xE9ntrica,elioc\xE9ntrica] cambi\xF3 el pensamiento
+        humanidad.#"
+      - "{1}2) Las palabras [hom\xF3fonas,om\xF3fonas] suenan igual."
+      - "{2}3) Logr\xE9 realizar el [hept\xE1gono,ept\xE1gono] en geometr\xEDa."
+      - '{3}4) Los seres [humanos,umanos] somos maravillosos.'
+      - "{4}5) Me asust\xF3 la [hiena,iena]."
+      - '{5}6) Mi [hermano,ermano] no es mi clon.'
+      - "{6}7) No se quebr\xF3 el [om\xF3plato,hom\xF3plato]."
+    trivias: []
+  - id: 27
+    gameprogress_name: libro_altillo_1
+    title: Aracne
+    author: Ovidio
+    color: '#2F3042'
+    type: 0
+    area: 5
+    texts:
+    - textlines:
+      - "La Tritonia hab\xEDa prestado sus o\xEDdos a tales relatos y a las canciones
+        de las A\xF3nides y hab\xEDa aprobado  su justa ira. Ella record\xF3 entonces
+        la vanidad de Aracne, que en cierta  ocasi\xF3n hab\xEDa dicho que la aventajaba
+        en el arte de trabajar la lana. Esta doncella no era ilustre por su nacimiento
+        ni por la categor\xEDa de sus padres sino por su arte. Idm\xF3n, su padre,
+        era un simple tintorero de lanas en la ciudad de Colof\xF3n, y su madre, que
+        ya hab\xEDa muerto, hab\xEDa sido de tan humilde familia como su marido. Sin
+        embargo, su hija hab\xEDa adquirido una gran reputaci\xF3n por la destreza
+        con que ejecutaba sus labores. Viv\xEDa en la peque\xF1a ciudad de Hipepo.
+        Atra\xEDa hasta all\xED la curiosidad de las ninfas de Mole y del Pactolo,
+        que a menudo abandonaban sus encantadoras vi\xF1as y las aguas de su r\xEDo
+        para admirar la belleza de las obras de Aracne."
+    - textlines:
+      - "No constitu\xEDa solamente un placer infinito ver esas obras maestras cuando
+        estaban acabadas, sino el encanto de v\xE9rselas ejecutar con tan significada
+        gracia, ya sea si aglomeraba la ruda lana en los primeros c\xEDrculos o ya
+        sea si con los dedos hac\xEDa subir la obra y, buscados largo trecho, ablandaba
+        unos vellones que igualaban a las nubes, o si con ligero#pulgar giraba el
+        pulido huso. Se podr\xEDa haber dicho que Minerva en persona las hab\xEDa
+        ejecutado. Con la misma presteza y gracia que hilaba, trabajaba con la aguja.
+        Ella, sabedora de su habilidad no reconoc\xEDa a la diosa superioridad en
+        su arte: \xA8Puede venir - dec\xEDa ella - y disputar conmigo cu\xE1l de las
+        dos es m\xE1s h\xE1bil; no rechazo#el combate. Y si soy vencida quiero someterme
+        a toda suerte de castigos\xA8. Picada por el discurso de la insolente, Minerva,
+        tomando la figura de una viejecita de blanca cabellera y apoy\xE1ndose sobre
+        un bast\xF3n, le comenz\xF3 a hablarle as\xED a Aracne: \xA8No se debe despreciar
+        la vejez. Los a\xF1os dan la experiencia, y no debes dejar de escuchar los
+        consejos que te voy a dar. Cont\xE9ntate con la reputaci\xF3n con que por
+        tu habilidad has sobrepasado a todas las mujeres del mundo; pero no trates
+        jam\xE1s de igualarte a una diosa. Debes satisfacer con alguna explicaci\xF3n
+        las#palabras ofensivas que acabas de proferir: ella est\xE1 presta a perdonarte
+        si demuestras arrepentimiento\xA8. Aracne contempl\xF3 a la anciana y, con
+        el semblante torvo, dej\xF3 su tejido, sin ocultar su ira en el semblante,
+        le habl\xF3 as\xED: \xA8Vieja insensata, parece en verdad que los a\xF1os
+        te han dotado de gran juicio y que el peso de los a\xF1os te es de gran utilidad.
+        Ve, ve a dar estos sanos consejos a tu  hija, si es que la tienes: yo, desde
+        luego, te aseguro que no los necesito de nadie, y que estas manifestaciones
+        no me har\xE1n cambiar de sentimiento \xBFPor qu\xE9 Minerva no se presenta
+        tal como es? \xBFPor qu\xE9 rehuye el desprecio que le he hecho?\xA8 \xA8Lo
+        acepta\xA8, dijo la diosa quien se despoj\xF3 de la figura de la#anciana y
+        dej\xF3 notar la  verdadera imagen de Minerva. Las ninfas y mujeres que por
+        all\xED andaban le rindieron sus honores; Aracne se conserv\xF3 imperturbable:
+        solamente un lev\xEDsimo rubor cubri\xF3 sus mejillas. Le dur\xF3 poco tiempo.
+        Pronto le volvi\xF3 su blanco color de antes. Ambas se preparaban para la
+        obra. El  instrumento rodaba con una agilidad incre\xEDble y cada vez que
+        el hilo pasa a trav\xE9s del mismo ten\xEDan el cuidado de separarlo con un
+        peine especial, necesario en esta clase de trabajo. Tanto la una como la otra
+        trabajan con una destreza y ligereza admirables, poniendo#ambas un gran celo
+        en quererse sobrepasar. La uni\xF3n de los m\xE1s bellos colores formaba sobre
+        sus telas una mezcla tan agradable de claros y oscuros, y las nubes eran tan
+        delicadas y diluidas, que se hubiera podido compararlas a los colores del
+        Arco Iris. Imaginen los rayos del Sol a trav\xE9s de suav\xEDsima lluvia,
+        descomponi\xE9ndose en los#siete maravillosos colores. Hasta tal punto los
+        colores que se tocaban eran los mismos, sin embargo hab\xEDa grandes diferencias
+        entre ellas. Por all\xED tambi\xE9n d\xFActil en los hilos se entremete el
+        oro, y un viejo argumento a las telas se lleva.  Cada una de ellas traz\xF3
+        sobre su tejido antiguas historias."
+    - textlines:
+      - "Minerva represent\xF3 en el suyo el pleito que Atenea tuvo con Neptuno sobre
+        el nombre que se deb\xEDa de dar a esta ciudad. Se observaba all\xED a los
+        doce grandes dioses sentados sobre sus tronos con su majestad caracter\xEDstica
+        y J\xFApiter en el centro. Cada uno de estos dioses estaba all\xED representado
+        al natural, pero J\xFApiter con un aire de grandeza tal que anunciaba ser
+        el#maestro del mundo. Neptuno, golpeando la tierra con estridencia, hizo salir
+        un caballo; esto parec\xEDa que le autorizaba a dar un nombre a la ciudad.
+        Minerva estaba representada con su casco, su lanza y su escudo, sobre el cual
+        estaba la vencida cabeza de Medusa. La Tritonia daba un golpe a la tierra
+        con su lanza, vi\xE9ndose salir un olivo repleto de hojas y fruto. Perplejos
+        de admiraci\xF3n los dioses por este prodigio, decidieron en su favor la victoria.
+        Con esto la diosa hab\xEDa terminado su obra.  Sin embargo, para hacer comprender
+        mejor a su rival el castigo que la esperaba por su temeridad, traz\xF3 en
+        peque\xF1o en las cuatro esquinas del lienzo la historia de cuatro combates.
+        En uno se ve\xEDa la aventura de Hemo, rey de Tracia, y de R\xF3dope, su esposa,
+        que fueron convertidos en rocas por haber tenido la audacia de llevar los
+        nombres de J\xFApiter y Juno. En el otro \xE1ngulo estaba la historia de Piga,
+        reina de los Pigmeos, a quien Juno, para castigarla por su presunci\xF3n,
+        transform\xF3 en grulla con el fin de que#ella misma estuviera en guerra continua
+        con su pueblo. En el tercer \xE1ngulo se ve\xEDa a Ant\xEDgona, que hab\xEDa
+        tenido la audacia de compararse con la esposa de J\xFApiter. Esta diosa la
+        metamorfose\xF3 en cig\xFCe\xF1a -ni la ciudad de Ili\xF3n, ni Laomed\xF3n,
+        su padre, lograron impedir que la revistiera de blancas#plumas, de las cuales
+        tuvo la vanidad de celebrarlo-. Finalmente, en la cuarta esquina, se ve\xEDa
+        a la infortunada Cinara abrazando con l\xE1grimas en los ojos las gradas de
+        un templo. Eran sus propias hijas, a quienes los dioses as\xED las hab\xEDan
+        metamorfoseado. Minerva rode\xF3 el borde de su trabajo con ramos de olivo
+        entrelazados. Tal era el dibujo que en su obra maestra traz\xF3 la diosa,
+        empleando en ella el \xE1rbol que le era consagrado."
+      - "Aracne, por su lado, represent\xF3 a dioses cometiendo varios cr\xEDmenes
+        (...) Hojas de hiedra entrelazadas, con mucho arte dispuestas, bordeaban esta
+        bella obra de tapicer\xEDa. Estaba tan bien ejecutada, que Minerva no pudo
+        encontrar en ella ning\xFAn defecto."
+      - "La diosa, dolida por el \xE9xito de Aracne,  rompi\xF3 las pintadas -celestiales
+        delitos-, y tal como el radio del citor\xEDaco monte sosten\xEDa, golpe\xF3
+        la frente de la Idmonia Aracne. Con la lanzadera rasg\xF3 de arriba abajo
+        el tapiz y#golpe\xF3 fuertemente la cabeza de Aracne, quien, pose\xEDda de
+        gran desesperaci\xF3n, huy\xF3 de la gente. Minerva, con un resto de piedad,
+        la sostuvo en el aire y le habl\xF3 as\xED: \xA8Vive pues, pero cuelga, aun
+        as\xED, malvada y esta ley misma de tu castigo, para que no est\xE9s libre
+        de inquietud en el#futuro, sea declarada para tu descendencia y tus tard\xEDos
+        nietos\xA8. Al marcharse Minerva, le arroj\xF3 el jugo de una hierba envenenada.
+        Se derramaron sus pelos, su nariz y sus orejas por la triste droga tocados;
+        su cabeza y su cuerpo se hicieron peque\xF1os. Las piernas y los brazos en
+        tornaron en patas sutil\xEDsimas. El resto lo ocupaba el vientre."
+      - "De esta manera, en ara\xF1a transformada, sigui\xF3 tejiendo con sus hilos
+        la tarea a que ella estaba acostumbrada."
+    trivias:
+    - quest: "\xBFQui\xE9n es Aracne?"
+      answers:
+      - Una heroica y soberbia doncella
+      - Una diosa
+      - Una criatura fabulosa
+    - quest: "\xBFQu\xE9 error comete Aracne?"
+      answers:
+      - Aracne comete el error de desafiar a los dioses en el arte de tejer.
+      - Aracne comete el error de golpear en la frente de la diosa.
+      - "Aracne comete el error de montar en c\xF3lera y rasgar el lienzo de su rival."
+    - quest: "\xBFCu\xE1ntas metamorfosis se producen en el mito de Aracne?"
+      answers:
+      - En este mito se producen dos metamorfosis.
+      - En este mito se producen una metamorfosis.
+      - En este mito se producen tres metamorfosis.
+  - id: 28
+    gameprogress_name: libro_altillo_2
+    title: "Un se\xF1or muy viejo con unas alas enormes"
+    author: "Gabriel Garc\xEDa M\xE1rquez"
+    color: '#2F3042'
+    type: 0
+    area: 5
+    texts:
+    - textlines:
+      - "Al tercer d\xEDa de lluvia hab\xEDan matado tantos cangrejos dentro de la
+        casa, que Pelayo tuvo que atravesar su patio anegado para tirarlos al mar,
+        pues el ni\xF1o reci\xE9n nacido hab\xEDa pasado la noche con calenturas y
+        se pensaba que era causa de la pestilencia. El mundo estaba triste desde el
+        martes. El cielo y el mar eran una misma cosa de ceniza, y las arenas de la
+        playa, que en marzo fulguraban como polvo de lumbre, se hab\xEDan convertido
+        en un caldo de lodo y mariscos podridos. La luz era tan mansa al mediod\xEDa,
+        que cuando Pelayo regresaba a la casa despu\xE9s de haber tirado los cangrejos,
+        le cost\xF3 trabajo#ver qu\xE9 era lo que se mov\xEDa y se quejaba en el fondo
+        del patio. Tuvo que acercarse mucho para descubrir que era un hombre viejo,
+        que estaba tumbado boca abajo en el lodazal, y a pesar de sus grandes esfuerzos
+        no pod\xEDa levantarse, porque se lo imped\xEDan sus enormes alas. "
+      - "Asustado por aquella pesadilla, Pelayo corri\xF3 en busca de Elisenda, su
+        mujer, que estaba poni\xE9ndole compresas al ni\xF1o enfermo, y la llev\xF3
+        hasta el fondo del patio. Ambos observaron el cuerpo ca\xEDdo con un callado
+        estupor. Estaba vestido como un trapero. Le quedaban apenas unas hilachas
+        descoloridas en#el cr\xE1neo pelado y muy pocos dientes en la boca, y su lastimosa
+        condici\xF3n de bisabuelo ensopado lo hab\xEDa desprovisto de toda grandeza.
+        Sus alas de gallinazo grande, sucias y medio desplumadas, estaban encalladas
+        para siempre en el lodazal. Tanto lo observaron, y con tanta atenci\xF3n,
+        que Pelayo y Elisenda se sobrepusieron muy#pronto del asombro y acabaron por
+        encontrarlo familiar. Entonces se atrevieron a hablarle, y \xE9l les contest\xF3
+        en un dialecto incomprensible pero con una buena voz de navegante. Fue as\xED
+        como pasaron por alto el inconveniente de las alas, y concluyeron con muy
+        buen juicio que era un n\xE1ufrago solitario de alguna nave extranjera abatida
+        por el temporal. Sin embargo, llamaron para que lo viera a una vecina que
+        sab\xEDa todas las cosas de la vida y la muerte, y a ella le bast\xF3 con
+        una mirada para sacarlos del error."
+      - "- Es un \xE1ngel -les dijo-. Seguro que ven\xEDa por el ni\xF1o, pero el
+        pobre est\xE1 tan viejo que lo ha tumbado la lluvia."
+      - "Al d\xEDa siguiente todo el mundo sab\xEDa que en casa de Pelayo ten\xEDan
+        cautivo un \xE1ngel de carne y hueso. Contra el criterio de la vecina sabia,
+        para quien los \xE1ngeles de estos tiempos eran sobrevivientes fugitivos de
+        una conspiraci\xF3n celestial, no#hab\xEDan tenido coraz\xF3n para matarlo
+        a palos. Pelayo estuvo vigil\xE1ndolo toda la tarde desde la cocina, armado
+        con un garrote de alguacil, y antes de acostarse lo sac\xF3 a rastras del
+        lodazal y lo encerr\xF3 con las gallinas en el gallinero alumbrado. A media
+        noche, cuando termin\xF3 la lluvia, Pelayo y Elisenda segu\xEDan matando cangrejos.
+        Poco despu\xE9s el ni\xF1o despert\xF3 sin fiebre y con deseos de comer. Entonces
+        se sintieron magn\xE1nimos y decidieron poner al \xE1ngel en una balsa con
+        agua dulce y provisiones para tres d\xEDas, y abandonarlo a su suerte en altamar.
+        Pero cuando salieron al patio con las primeras luces, encontraron a todo el
+        vecindario frente al gallinero, retozando con#el \xE1ngel sin la menor devoci\xF3n
+        y ech\xE1ndole cosas de comer por los huecos de las alambradas, como si no
+        fuera una criatura sobrenatural sino un animal de circo."
+    - textlines:
+      - "El padre Gonzaga lleg\xF3 antes de las siete alarmado por la desproporci\xF3n
+        de la noticia. A esa hora ya hab\xEDan acudido curiosos menos fr\xEDvolos
+        que los del amanecer, y hab\xEDan hecho toda clase de conjeturas sobre el
+        porvenir del cautivo. Los m\xE1s simples pensaban que ser\xEDa nombrado alcalde
+        del mundo. Otros, de esp\xEDritu m\xE1s \xE1spero, supon\xEDan que ser\xEDa
+        ascendido a general de cinco estrellas para que ganara todas las guerras.
+        Algunos visionarios esperaban que fuera conservado como semental para implantar
+        en la tierra una estirpe de hombres alados y sabios que se hicieran cargo
+        del Universo. Pero el padre Gonzaga, antes de ser cura, hab\xEDa sido le\xF1ador
+        macizo. Asomado a las alambradas repas\xF3 un instante su catecismo, y todav\xEDa
+        pidi\xF3 que le abrieran la puerta para examinar de cerca de aquel var\xF3n
+        de l\xE1stima que m\xE1s parec\xEDa una enorme gallina decr\xE9pita entre
+        las gallinas absortas. Estaba echado en un rinc\xF3n, sec\xE1ndose al sol
+        las alas extendidas, entre las c\xE1scaras de fruta y las sobras de desayunos
+        que le hab\xEDan tirado los madrugadores. Ajeno a las impertinencias del mundo,
+        apenas si levant\xF3 sus ojos de anticuario y murmur\xF3 algo en su dialecto
+        cuando el padre Gonzaga entr\xF3 en el gallinero y le dio los#buenos d\xEDas
+        en lat\xEDn. El p\xE1rroco tuvo la primera sospecha de impostura al comprobar
+        que no entend\xEDa la lengua de Dios ni sab\xEDa saludar a sus ministros.
+        Luego observ\xF3 que visto de cerca resultaba demasiado humano: ten\xEDa un
+        insoportable olor de intemperie, el rev\xE9s de las alas sembrado de algas
+        parasitarias y las plumas mayores maltratadas por#vientos terrestres, y nada
+        de su naturaleza miserable estaba de acuerdo con la egregia dignidad de los
+        \xE1ngeles. Entonces abandon\xF3 el gallinero, y con un breve serm\xF3n previno
+        a los curiosos contra los riesgos de la ingenuidad. Les record\xF3 que el
+        demonio ten\xEDa la mala costumbre de recurrir a artificios de carnaval para
+        confundir a los incautos. Argument\xF3 que si las alas no eran el elemento
+        esencial para determinar las diferencias entre un gavil\xE1n y un aeroplano,
+        mucho menos pod\xEDan serlo para reconocer a los \xE1ngeles. Sin embargo,
+        prometi\xF3 escribir una carta a su obispo, para que \xE9ste escribiera otra
+        al Sumo Pont\xEDfice, de modo que el veredicto final#viniera de los tribunales
+        m\xE1s altos."
+      - "Su prudencia cay\xF3 en corazones est\xE9riles. La noticia del \xE1ngel cautivo
+        se divulg\xF3 con tanta rapidez, que al cabo de pocas horas hab\xEDa en el
+        patio un alboroto de mercado, y tuvieron que llevar la tropa con bayonetas
+        para espantar el tumulto que ya estaba a punto de tumbar la casa. Elisenda,
+        con el espinazo torcido de tanto barrer basura de feria, tuvo entonces la
+        buena idea de tapiar el patio y cobrar cinco centavos por la entrada para
+        ver al \xE1ngel."
+      - "Vinieron curiosos hasta de la Martinica. Vino una feria ambulante con un
+        acr\xF3bata volador, que pas\xF3 zumbando varias veces por encima de la muchedumbre,
+        pero nadie le hizo caso porque sus alas no eran de \xE1ngel#sino de murci\xE9lago
+        sideral. Vinieron en busca de salud los enfermos m\xE1s desdichados del Caribe:
+        una pobre mujer que desde ni\xF1a estaba contando los latidos de su coraz\xF3n
+        y ya no le alcanzaban los n\xFAmeros, un jamaicano que no pod\xEDa dormir
+        porque lo atormentaba el ruido de las estrellas, un son\xE1mbulo que se levantaba
+        de noche a#deshacer dormido las cosas que hab\xEDa hecho despierto, y muchos
+        otros de menor gravedad. En medio de aquel desorden de naufragio que hac\xEDa
+        temblar la tierra, Pelayo y Elisenda estaban felices de cansancio, porque
+        en menos de una semana atiborraron de plata los dormitorios, y todav\xEDa
+        la fila de peregrinos que esperaban su turno para entrar llegaba hasta el
+        otro lado del horizonte."
+      - "El \xE1ngel era el \xFAnico que no participaba de su propio acontecimiento.
+        El tiempo se le iba buscando acomodo en su nido prestado, aturdido por el
+        calor de infierno de las l\xE1mparas de aceite y las velas de sacrificio que
+        le arrimaban a las alambradas. Al principio trataron de que comiera cristales
+        de alcanfor, que, de acuerdo con la sabidur\xEDa de la vecina sabia, era el
+        alimento#espec\xEDfico de los \xE1ngeles. Pero \xE9l los despreciaba, como
+        despreci\xF3 sin probarlos los almuerzos papales que le llevaban los penitentes,
+        y nunca se supo si fue por \xE1ngel o por viejo que termin\xF3 comiendo nada
+        m\xE1s que papillas de berenjena. Su \xFAnica virtud sobrenatural parec\xEDa
+        ser la paciencia. Sobre todo en los primeros tiempos, cuando le picoteaban
+        las gallinas en busca de los par\xE1sitos estelares que proliferaban en sus
+        alas, y los baldados le arrancaban plumas para tocarse con ellas sus defectos,
+        y hasta los m\xE1s piadosos le tiraban piedras tratando de que se levantara
+        para verlo de cuerpo entero. La \xFAnica vez que consiguieron alterarlo fue
+        cuando le abrasaron el costado con un hierro de marcar novillos, porque llevaba
+        tantas horas de estar inm\xF3vil que lo creyeron muerto. Despert\xF3 sobresaltado,
+        despotricando en lengua herm\xE9tica y con los ojos en l\xE1grimas, y dio
+        un par de aletazos que provocaron un remolino de esti\xE9rcol de gallinero
+        y#polvo lunar, y un ventarr\xF3n de p\xE1nico que no parec\xEDa de este mundo.
+        Aunque muchos creyeron que su reacci\xF3n no hab\xEDa sido de rabia sino de
+        dolor, desde entonces se cuidaron de no molestarlo, porque la mayor\xEDa entendi\xF3
+        que su pasividad no era la de un h\xE9roe en uso de buen retiro sino la de
+        un cataclismo en reposo."
+    - textlines:
+      - "El padre Gonzaga se enfrent\xF3 a la frivolidad de la muchedumbre con f\xF3rmulas
+        de inspiraci\xF3n dom\xE9stica, mientras le llegaba un juicio terminante sobre
+        la naturaleza del cautivo. Pero el correo de Roma hab\xEDa perdido la noci\xF3n
+        de la urgencia. El tiempo se les iba en averiguar si el convicto ten\xEDa
+        ombligo, si su dialecto ten\xEDa algo#que ver con el arameo, si pod\xEDa caber
+        muchas veces en la punta de un alfiler, o si no ser\xEDa simplemente un noruego
+        con alas. Aquellas cartas de parsimonia habr\xEDan ido y venido hasta el fin
+        de los siglos, si un acontecimiento providencial no hubiera puesto t\xE9rmino
+        a las tribulaciones del p\xE1rroco. "
+      - "Sucedi\xF3 que por esos d\xEDas, entre muchas otras atracciones de las ferias
+        errantes del Caribe, llevaron al pueblo el espect\xE1culo triste de la mujer
+        que se hab\xEDa convertido en ara\xF1a por desobedecer a sus padres. La entrada
+        para verla no s\xF3lo costaba menos que la entrada para ver al \xE1ngel, sino
+        que permit\xEDan hacerle toda clase de preguntas sobre#su absurda condici\xF3n,
+        y examinarla al derecho y al rev\xE9s, de modo que nadie pusiera en duda la
+        verdad del horror. Era una tar\xE1ntula espantosa del tama\xF1o de un carnero
+        y con la cabeza de una doncella triste. Pero lo m\xE1s desgarrador no era
+        su figura de disparate, sino la sincera aflicci\xF3n con que contaba los pormenores
+        de su desgracia: siendo casi una#ni\xF1a se hab\xEDa escapado de la casa de
+        sus padres para ir a un baile, y cuando regresaba por el bosque despu\xE9s
+        de haber bailado toda la noche sin permiso, un trueno pavoroso abri\xF3 el
+        cielo en dos mitades, y por aquella grieta sali\xF3 el rel\xE1mpago de azufre
+        que la convirti\xF3 en ara\xF1a. Su \xFAnico alimento eran las bolitas de
+        carne molida que las almas caritativas quisieran echarle en la boca. Semejante
+        espect\xE1culo, cargado de tanta verdad humana y de tan temible escarmiento,
+        ten\xEDa que derrotar sin propon\xE9rselo al de un \xE1ngel despectivo#que
+        apenas si se dignaba mirar a los mortales. Adem\xE1s los escasos milagros
+        que se le atribu\xEDan al \xE1ngel revelaban un cierto desorden mental, como
+        el del ciego que no recobr\xF3 la visi\xF3n pero le salieron tres dientes
+        nuevos, y el del paral\xEDtico que no pudo andar pero estuvo a punto de ganarse
+        la loter\xEDa, y el del leproso a quien le nacieron girasoles en las#heridas.
+        Aquellos milagros de consolaci\xF3n que m\xE1s bien parec\xEDan entretenimientos
+        de burla, hab\xEDan quebrantado ya la reputaci\xF3n del \xE1ngel cuando la
+        mujer convertida en ara\xF1a termin\xF3 de aniquilarla. Fue as\xED como el
+        padre Gonzaga se cur\xF3 para siempre del insomnio, y el patio de Pelayo volvi\xF3
+        a#quedar tan solitario como en los tiempos en que llovi\xF3 tres d\xEDas y
+        los cangrejos caminaban por los dormitorios. "
+      - "Los due\xF1os de la casa no tuvieron nada que lamentar. Con el dinero recaudado
+        construyeron una mansi\xF3n de dos plantas, con balcones y jardines, y con
+        sardineles muy altos para que no se metieran los cangrejos del invierno, y
+        con barras#de hierro en las ventanas para que no se metieran los \xE1ngeles.
+        Pelayo estableci\xF3 adem\xE1s un criadero de conejos muy cerca del pueblo
+        y renunci\xF3 para siempre a su mal empleo de alguacil, y Elisenda se compr\xF3
+        unas zapatillas satinadas de tacones altos y muchos vestidos de seda tornasol,
+        de los que usaban las se\xF1oras m\xE1s codiciadas en los#domingos de aquellos
+        tiempos. El gallinero fue lo \xFAnico que no mereci\xF3 atenci\xF3n. Si alguna
+        vez lo lavaron con creolina y quemaron las l\xE1grimas de mirra en su interior,
+        no fue por hacerle honor al \xE1ngel, sino por conjurar la pestilencia de
+        muladar que ya andaba como un fantasma por todas partes y estaba volviendo
+        vieja la casa nueva. Al principio, cuando el ni\xF1o aprendi\xF3 a caminar,
+        se cuidaron de que no estuviera cerca del gallinero. Pero luego se fueron
+        olvidando del temor y acostumbr\xE1ndose a la peste, y antes de que el ni\xF1o
+        mudara los dientes se hab\xEDa metido a jugar dentro del gallinero, cuyas
+        alambradas podridas se ca\xEDan a pedazos. El \xE1ngel no fue menos displicente
+        con \xE9l que con el resto de los mortales, pero soportaba las infamias m\xE1s
+        ingeniosas con una mansedumbre de perro sin ilusiones. Ambos contrajeron la
+        varicela al mismo tiempo. El m\xE9dico que atendi\xF3 al ni\xF1o no resisti\xF3
+        la tentaci\xF3n de auscultar al \xE1ngel, y encontr\xF3 tantos soplos en el
+        coraz\xF3n y tantos ruidos#en los ri\xF1ones, que no le pareci\xF3 posible
+        que estuviera vivo. Lo que m\xE1s le asombr\xF3, sin embargo, fue la l\xF3gica
+        de sus alas. Resultaban tan naturales en aquel organismo completamente humano,
+        que no pod\xEDa entender por qu\xE9 no las ten\xEDan tambi\xE9n los otros
+        hombres."
+      - "Cuando el ni\xF1o fue a la escuela, hac\xEDa mucho tiempo que el sol y#la
+        lluvia hab\xEDan desbaratado el gallinero. El \xE1ngel andaba arrastr\xE1ndose
+        por ac\xE1 y por all\xE1 como un moribundo sin due\xF1o. Lo sacaban a escobazos
+        de un dormitorio y un momento despu\xE9s lo encontraban en la cocina. Parec\xEDa
+        estar en tantos lugares al mismo tiempo, que llegaron a pensar que se desdoblaba,
+        que se repet\xEDa a s\xED mismo por#toda la casa, y la exasperada Elisenda
+        gritaba fuera de quicio que era una desgracia vivir en aquel infierno lleno
+        de \xE1ngeles. Apenas si pod\xEDa comer, sus ojos de anticuario se le hab\xEDan
+        vuelto tan turbios que andaba tropezando con los horcones, y ya no le quedaban
+        sino las c\xE1nulas peladas de las \xFAltimas plumas. Pelayo le ech\xF3 encima
+        una manta y le hizo la caridad de dejarlo dormir en el cobertizo, y s\xF3lo
+        entonces advirtieron que pasaba la noche con calenturas delirantes en trabalenguas
+        de noruego viejo. Fue esa una de las pocas veces en que se alarmaron, porque
+        pensaban que se iba a morir, y ni siquiera la vecina sabia hab\xEDa podido
+        decirles qu\xE9 se hac\xEDa con los \xE1ngeles muertos."
+      - "Sin embargo, no s\xF3lo sobrevivi\xF3 a su peor invierno, sino que pareci\xF3
+        mejor con los primeros soles. Se qued\xF3 inm\xF3vil muchos d\xEDas en el
+        rinc\xF3n m\xE1s apartado del patio, donde nadie lo viera, y a principios
+        de diciembre empezaron a nacerle en las alas unas plumas grandes y duras,
+        plumas de pajarraco viejo, que m\xE1s bien parec\xEDan un nuevo percance de
+        la#decrepitud. Pero \xE9l deb\xEDa conocer la raz\xF3n de estos cambios, porque
+        se cuidaba muy bien de que nadie los notara, y de que nadie oyera las canciones
+        de navegantes que a veces cantaba bajo las estrellas. Una ma\xF1ana, Elisenda
+        estaba cortando rebanadas de cebolla para el almuerzo, cuando un viento que
+        parec\xEDa de alta mar se meti\xF3 en la cocina. Entonces se asom\xF3 por
+        la ventana, y sorprendi\xF3 al \xE1ngel en las primeras tentativas del vuelo.
+        Eran tan torpes, que abri\xF3 con las u\xF1as un surco de arado en las hortalizas
+        y estuvo a punto de desbaratar el cobertizo con aquellos aletazos indignos
+        que resbalaban en la luz y no encontraban asidero en el aire. Pero logr\xF3
+        ganar altura. Elisenda exhal\xF3 un suspiro de descanso, por ella y por \xE9l,
+        cuando lo vio pasar por encima de las \xFAltimas casas, sustent\xE1ndose de
+        cualquier modo con un azaroso aleteo de buitre senil. Sigui\xF3 vi\xE9ndolo
+        hasta cuando acab\xF3 de cortar la cebolla, y sigui\xF3 vi\xE9ndolo hasta
+        cuando ya no era posible que lo#pudiera ver, porque entonces ya no era un
+        estorbo en su vida, sino un punto imaginario en el horizonte del mar."
+    trivias:
+    - quest: "\xBFQu\xE9 reacciones genera en el vecindario el hallazgo de Pelayo?"
+      answers:
+      - Los vecinos sienten curiosidad y se acercan al gallinero.
+      - No genera ninguna porque los vecinos no le dan importancia.
+      - Los vecinos se sienten ofendidos y van a la casa de Pelayo a pedir explicaciones.
+    - quest: "\xBFEst\xE1n todos convencidos en el pueblo de que se trata de un \xE1ngel?"
+      answers:
+      - "No est\xE1n todos convencidos porque si bien piensan que es un \xE1ngel,
+        el padre Gonzaga no est\xE1 convencido."
+      - "No est\xE1n todos convencidos. Piensan que es un impostor."
+      - "S\xED,  est\xE1n todos convencidos de que se trata de un \xE1ngel. "
+    - quest: "\xBFCu\xE1l es la reacci\xF3n del pueblo ante la partida del se\xF1or
+        muy viejo con unas alas enormes?"
+      answers:
+      - El pueblo reacciona con indiferencia.
+      - El pueblo reacciona con mucha tristeza.
+      - "El pueblo reacciona con alegr\xEDa y entusiasmo."
   blockedTime: 0
   resetTime: 1800
   normativaMinimum: 0.7
@@ -1089,23 +3065,23 @@ MonoBehaviour:
       state: contento
       text: "\xA1Ya est\xE1s ac\xE1, muy bien!"
     - character: avatar
-      state: reflexivo
+      state: preocupado
       text: "S\xED. Geniaaaaal"
     - character: marian
-      state: reflexivo
+      state: neutro
       text: "\xBFDetecto iron\xEDa? \xBFUn falso entusiasmo?"
     - character: avatar
-      state: fastidio
+      state: neutro
       text: "\xA1Es s\xE1bado, Marian! \xBFMe quer\xE9s decir qu\xE9 hacemos en este
         colegio?"
     - character: marian
-      state: fastidio
-      text: "Punto uno: quer\xEDa que lo conozcas. "
-    - character: marian
       state: neutro
-      text: "Punto dos: Puede que este sea tu pr\xF3ximo colegio\u2026"
+      text: "Punto uno: quer\xEDa que lo conocieras. "
+    - character: marian
+      state: contento
+      text: "Punto dos: puede que este sea tu pr\xF3ximo colegio\u2026"
     - character: avatar
-      state: preocupado
+      state: reflexivo
       text: "Si es que paso el examen de ingreso\u2026"
     - character: marian
       state: neutro
@@ -1115,22 +3091,460 @@ MonoBehaviour:
       state: preocupado
       text: "\xA1\xBFHoy trabaj\xE1s?!"
     - character: marian
-      state: reflexivo
+      state: neutro
       text: "Algo as\xED..."
     - character: marian
-      state: neutro
-      text: "Busc\xE1 el material de ingreso por ac\xE1 y encontrame en la biblioteca
+      state: contento
+      text: "Busc\xE1 el material del ingreso por ac\xE1 y encontrame en la biblioteca
         cuando termines. Cualquier cosa me mand\xE1s un mensaje, \xBFs\xED?"
     - character: avatar
       state: contento
       text: "\xA1Ooookey! Vaya, nom\xE1s"
-    biblioteca: []
-    patio: []
-    escalera: []
-    mapoteca: []
-    mapoteca2: []
-    final: []
-    final2: []
+    biblioteca:
+    - character: marian
+      state: neutro
+      text: "\xBFTe hab\xEDas quedado encerrada? \xA1Reci\xE9n ahora veo tu mensaje!"
+    - character: avatar
+      state: fastidio
+      text: "Podr\xEDa haber muerto en esa oficina\u2026 De aburrimiento"
+    - character: marian
+      state: neutro
+      text: "Dale, \xBFfue para tanto?"
+    - character: avatar
+      state: reflexivo
+      text: "Vos porque sos bibliotecaria y te encanta leer, como a mam\xE1. O como
+        a cualquiera en nuestra la familia, \xA1menos yo!"
+    - character: marian
+      state: contento
+      text: "\xA1Si te lo pas\xE1s leyendo mangas! \xA1Eso es leer! Adem\xE1s, nunca
+        es tarde para encontrarle el gusto a la lectura"
+    - character: avatar
+      state: neutro
+      text: "Si vos dec\xEDs\u2026 \xBFY qu\xE9 hacemos ahora?"
+    - character: marian
+      state: neutro
+      text: "Yo tengo que ir a hablar con Zina, la preceptora \xBFYa la viste... por
+        casualidad?"
+    - character: avatar
+      state: neutro
+      text: 'Nop. '
+    - character: marian
+      state: neutro
+      text: "Espero que puedas verla. Ella es\u2026 especial"
+    - character: marian
+      state: reflexivo
+      text: "De hecho, todo el colegio es un poco\u2026 \xBFC\xF3mo decirlo?"
+    - character: marian
+      state: contento
+      text: "...En fin, \xA1no me hagas caso! Vos segu\xED buscando todo el material
+        que puedas, \xA1Y ejercitate!"
+    - character: avatar
+      state: fastidio
+      text: "Oww, pens\xE9 que ibas a olvidarte de eso"
+    - character: marian
+      state: contento
+      text: "\xA1Jam\xE1s! Quiero que entres a este colegio. \xBFNo es fabulosa esta
+        biblioteca?"
+    - character: avatar
+      state: contento
+      text: "La verdad es que est\xE1 bastante bien"
+    - character: marian
+      state: neutro
+      text: "Y eso que no viste la mapoteca que est\xE1 arriba. And\xE1 en cuanto
+        puedas. \xA1Nos vemos m\xE1s tarde!"
+    patio:
+    - character: marian
+      state: contento
+      text: "\xA1Ac\xE1 est\xE1 mi valiente!"
+    - character: avatar
+      state: reflexivo
+      text: "\xBFValiente, yo?"
+    - character: marian
+      state: contento
+      text: "\xA1Claro! Si llegaste hasta ac\xE1 es porque ejercitaste un mont\xF3n"
+    - character: marian
+      state: contento
+      text: "\xA1Y tambi\xE9n le\xEDste mucho, sobri! \xBFQu\xE9 opin\xE1s de los
+        cuentos?"
+    - character: avatar
+      state: reflexivo
+      text: "\xBFLa verdad?..."
+    - character: avatar
+      state: contento
+      text: "Algunos no est\xE1n nada mal, \xBFeh?"
+    - character: marian
+      state: contento
+      text: "Sab\xEDa que ibas a aflojar"
+    - character: marian
+      state: contento
+      text: "Despu\xE9s de quejarte primero, claro"
+    - character: avatar
+      state: sorpresa
+      text: '...'
+    - character: avatar
+      state: fastidio
+      text: '...'
+    - character: avatar
+      state: fastidio
+      text: "\xA1Eso me recuerda que tengo una queja!"
+    - character: avatar
+      state: fastidio
+      text: "\xA1\xBFSos vos las que esconde los ejercicios en lugares tan raros?!"
+    - character: marian
+      state: neutro
+      text: "\xBFYoooo? Bueno, solo dir\xE9 que algunos los orden\xE9 yo"
+    - character: marian
+      state: neutro
+      text: "Mientras que otros\u2026 Aparecen donde aparecen"
+    - character: avatar
+      state: reflexivo
+      text: "\xBFC\xF3mo que 'aparecen'?"
+    - character: avatar
+      state: reflexivo
+      text: "T\xEDa, no me asustes que ya empec\xE9 a escuchar 'cosas'"
+    - character: avatar
+      state: reflexivo
+      text: "Aullidos, risas, qu\xE9 se yo qu\xE9 m\xE1s"
+    - character: marian
+      state: reflexivo
+      text: "\xBFY eso?"
+    - character: avatar
+      state: preocupado
+      text: "En la mapoteca, despu\xE9s de que Zina se fue"
+    - character: marian
+      state: reflexivo
+      text: "\xA1\xA1\xBFLa viste a Zina?!!"
+    - character: marian
+      state: contento
+      text: "\xA1Eso es maravilloso! M\xE1s que maravilloso, \xA1es fant\xE1stico!"
+    - character: avatar
+      state: neutro
+      text: Bueno, veo que te llena de entusiasmo que haya conocido a la preceptora
+    - character: marian
+      state: contento
+      text: "No sab\xE9s cu\xE1nto, Zina no habla con cualquiera"
+    - character: marian
+      state: contento
+      text: Y es alguien de quien se aprende mucho
+    - character: avatar
+      state: neutro
+      text: "Hablando de eso\u2026 \xBFCu\xE1nto me queda por aprender?"
+    - character: marian
+      state: contento
+      text: "\xC1nimo que ya est\xE1s a mitad de camino"
+    - character: marian
+      state: contento
+      text: "El patio es un lugar muy interesante, \xA1y el laboratorio todav\xEDa
+        lo es m\xE1s!"
+    - character: marian
+      state: neutro
+      text: "Si es que convenc\xE9s a Pizarnik de que te deje entrar\u2026"
+    - character: marian
+      state: neutro
+      text: "Nos vemos en un rato, que tengo que llamar a tu mam\xE1, \xA1hasta luego!"
+    escalera:
+    - character: avatar
+      state: neutro
+      text: "\xBFQu\xE9 es ese chillido en el suelo?..."
+    - character: avatar
+      state: reflexivo
+      text: "\xA1Ah! Ok, la escalera se mueve sola..."
+    mapoteca:
+    - character: avatar
+      state: neutro
+      text: "\xBFHo\u2026 Hola?"
+    - character: zina
+      state: contento
+      text: "Criatura\u2026 Estaba esper\xE1ndote."
+    - character: avatar
+      state: neutro
+      text: "\xBFY usted es...?"
+    - character: zina
+      state: reflexivo
+      text: "Me dicen Zina. Mi nombre completo quiere decir 'La que est\xE1 dispuesta
+        a todo' \xBFSabes el significado de tu nombre?"
+    - character: avatar
+      state: neutro
+      text: "Nop. Ni se me hab\xEDa ocurrido que pueda tener uno."
+    - character: zina
+      state: neutro
+      text: "Todas las palabras significan algo. Y los silencios tambi\xE9n."
+    - character: avatar
+      state: reflexivo
+      text: '...'
+    - character: zina
+      state: reflexivo
+      text: '...'
+    - character: avatar
+      state: fastidio
+      text: "Esteeeemmm. Okey\u2026 \xBFUsted no estaba con mi t\xEDa? Marian me dijo
+        que estaba con usted."
+    - character: zina
+      state: fastidio
+      text: "Ah, s\xED, en alg\xFAn momento. Nos vemos, nos dejamos de ver... Una
+        persona muy particular tu t\xEDa. Todos la apreciamos mucho ac\xE1 \xBFEntiendo
+        que ten\xE9s dudas sobre entrar a este colegio?"
+    - character: avatar
+      state: neutro
+      text: "\xA1Qu\xE9 chusma es Marian? \xBFYa le cont\xF3 eso de m\xED?"
+    - character: zina
+      state: neutro
+      text: "No, no. No me dijo nada pero tengo un o\xEDdo muy fino. Algo o\xED de
+        lo que le comentaste en la oficina de la rectora."
+    - character: avatar
+      state: reflexivo
+      text: "\xBFEn la oficina? \xA1\xBFPero si est\xE1bamos ella y yo, nom\xE1s?!"
+    - character: zina
+      state: contento
+      text: "Ah, estas paredes son de papel, se oye todo si est\xE1s en el lugar indicado."
+    - character: zina
+      state: contento
+      text: "Tomalo con calma, es normal tener dudas sobre lo que puede cambiarte
+        la vida. Y este colegio te la puede cambiar si quer\xE9s..."
+    - character: avatar
+      state: neutro
+      text: "Eso es lo que todav\xEDa no s\xE9."
+    - character: zina
+      state: contento
+      text: "Por lo pronto hay un mont\xF3n de cosas interesantes para descubrir en
+        este lugar. \xA1Yo misma soy una de ellas y me descubriste! Ja, ja"
+    - character: avatar
+      state: contento
+      text: '...'
+    - character: zina
+      state: contento
+      text: "Bueno, te dejo hacer lo tuyo \xA1Espero verte despu\xE9s, criatura!"
+    - character: avatar
+      state: preocupado
+      text: "\xBF'Criatura'? Nadie me llama as\xED desde\u2026 \xA1Nunca! En fin,
+        vamos a 'lo nuestro'."
+    mapoteca2:
+    - character: zina
+      state: reflexivo
+      text: "\xA1Qu\xE9 grata sorpresa que est\xE9s aqu\xED de nuevo."
+    - character: zina
+      state: neutro
+      text: Veo que la perseverancia es otro don de tu familia
+    - character: avatar
+      state: reflexivo
+      text: "\xBFPerseverancia?"
+    - character: zina
+      state: neutro
+      text: Constancia, firmeza cuando hacen algo
+    - character: avatar
+      state: contento
+      text: "\xBFEs una forma elegante de decir que somos cabeza duras?"
+    - character: zina
+      state: contento
+      text: "Algo as\xED\u2026 \xA1Pero ser cabeza dura puede llevarte lejos!"
+    - character: zina
+      state: contento
+      text: "Supongo que yo tambi\xE9n lo soy y por eso sigo aqu\xED"
+    - character: zina
+      state: contento
+      text: "\xA1Hay tanto por ver, por disfrutar, por entender!"
+    - character: avatar
+      state: reflexivo
+      text: "Hablando de entender, Zina\u2026 \xBFQu\xE9 pasa en este lugar?"
+    - character: avatar
+      state: neutro
+      text: "Cada parte nueva del colegio que visito es m\xE1s rara que la anterior"
+    - character: zina
+      state: neutro
+      text: A veces es menos importante entender que experimentar, criatura
+    - character: zina
+      state: neutro
+      text: "Falta poco, solo queda el altillo para que concluya este magn\xEDfico
+        paseo"
+    - character: zina
+      state: neutro
+      text: "Puede que cuando est\xE9s all\xED no puedas comunicarte con nadie..."
+    - character: avatar
+      state: neutro
+      text: "\xBFEl altillo es el \xFAltimo lugar?"
+    - character: zina
+      state: neutro
+      text: "Por hoy, s\xED. \xA1Pero el colegio est\xE1 lleno de sitios para cuando
+        vuelvas!"
+    - character: avatar
+      state: reflexivo
+      text: "Todav\xEDa no s\xE9 si voy a volver\u2026"
+    - character: zina
+      state: contento
+      text: "Algo me dice que s\xED..."
+    - character: zina
+      state: contento
+      text: "Es como lo tuyo con Joaco, \xA1algo me dec\xEDa que ustedes dos se iban
+        a arreglar!"
+    - character: avatar
+      state: reflexivo
+      text: "\xA1Pero\u2026!"
+    - character: avatar
+      state: reflexivo
+      text: "\xBFC\xF3mo sab\xE9s que me hab\xEDa enojado con \xE9l?"
+    - character: avatar
+      state: reflexivo
+      text: "\xBFHay c\xE1maras o micr\xF3fonos ocultos? \xA1\xBFSoy parte de un reality?!"
+    - character: zina
+      state: contento
+      text: "No s\xE9 qu\xE9 ser\xE1 un reality pero ya te dije que mi o\xEDdo es
+        fino\u2026"
+    - character: zina
+      state: neutro
+      text: "Es hora de tu \xFAltima prueba..."
+    - character: zina
+      state: neutro
+      text: "Nos veremos una vez m\xE1s antes de que te vayas, \xA1adi\xF3s!"
+    - character: avatar
+      state: reflexivo
+      text: "Mi \xFAltima prueba\u2026 A ver c\xF3mo subo al altillo..."
+    final:
+    - character: zina
+      state: reflexivo
+      text: "Oh, \xA1amo las rosas! \xBFEsa es para m\xED?"
+    - character: avatar
+      state: neutro
+      text: "\xBFPor qu\xE9 no? \xA1Claro que es para vos!"
+    - character: zina
+      state: contento
+      text: "\xA1Gracias! \xA1Me encanta! He escrito mucho sobre rosas"
+    - character: avatar
+      state: neutro
+      text: "No sab\xEDa que escrib\xEDas, adem\xE1s de ser preceptora"
+    - character: zina
+      state: reflexivo
+      text: "\xBFPreceptora, yo? (neutro) No, yo fui maestra, y hace mucho ya"
+    - character: avatar
+      state: preocupado
+      text: "Mi t\xEDa dijo que eras preceptora\u2026 \xBFPero entonces qu\xE9 hac\xE9s
+        en el colegio?"
+    - character: zina
+      state: neutro
+      text: "\xA1Yo vivo en el colegio, parte del tiempo! Pens\xE9 que lo sab\xEDas
+        a esta altura"
+    - character: zina
+      state: neutro
+      text: "Pero claro, tu t\xEDa quiere contarte todo de a poco, y hace bien"
+    - character: avatar
+      state: neutro
+      text: "\xBFQu\xE9 es lo que quiere contarme de a poco?"
+    - character: avatar
+      state: neutro
+      text: "\xA1\xBFQue el colegio est\xE1 embrujado?! \xA1Creo que de eso ya me
+        di cuenta!"
+    - character: zina
+      state: contento
+      text: "Ja, ja, bueno, tanto como embrujado no s\xE9"
+    - character: zina
+      state: neutro
+      text: "Pero es cierto que aqu\xED hay lugar para mucha magia"
+    - character: avatar
+      state: neutro
+      text: "\xBFPod\xE9s contarme m\xE1s, entonces? \xA1En el altillo pasaron cosas
+        rar\xEDsimas!"
+    - character: zina
+      state: neutro
+      text: "Lo s\xE9, lo s\xE9 y tu t\xEDa te espera en la biblioteca para explicarte
+        todo"
+    - character: zina
+      state: neutro
+      text: "Me encant\xF3 conocerte y espero que volvamos a encontrarnos"
+    - character: zina
+      state: neutro
+      text: Pero si eso no llegara a suceder, no te preocupes
+    - character: zina
+      state: neutro
+      text: "Tu vida estar\xE1 llena de magia adonde quiera que vayas"
+    - character: avatar
+      state: contento
+      text: "Gracias, Zina. Tambi\xE9n a m\xED me gust\xF3 conocerte. \xA1Chau!"
+    final2:
+    - character: marian
+      state: reflexivo
+      text: "\xA1Qu\xE9 nervios! \xBFQu\xE9 pas\xF3 en el altillo?"
+    - character: avatar
+      state: reflexivo
+      text: "\xA1Pas\xF3 de todo! \xA1Y me extra\xF1\xF3 que no me llegara ni un mensaje!"
+    - character: marian
+      state: reflexivo
+      text: Quise comunicarme pero los mensajes no llegan al altillo
+    - character: marian
+      state: reflexivo
+      text: "Es el sector m\xE1s... intervenido del colegio"
+    - character: avatar
+      state: neutro
+      text: "T\xEDa, no puedo m\xE1s de la intriga, y un poco del susto tambi\xE9n"
+    - character: avatar
+      state: neutro
+      text: "\xBFC\xF3mo \u201Cintervenido\u201D? \xBFVas a contarme de una vez qu\xE9
+        pasa ac\xE1?"
+    - character: avatar
+      state: neutro
+      text: Vi cosas imposibles, de otros mundos, como salidas de libros
+    - character: marian
+      state: contento
+      text: "\xA1Exacto! \xA1Ya dec\xEDa yo que vos tambi\xE9n podr\xEDas verlas!"
+    - character: avatar
+      state: reflexivo
+      text: "\xBFQuer\xE9s decir que no todo el mundo las ve? "
+    - character: marian
+      state: reflexivo
+      text: "Hasta ahora, solo vos y yo. Bueno, sospecho que algunos alumnos tambi\xE9n..."
+    - character: marian
+      state: reflexivo
+      text: "A m\xED me pas\xF3 al poco tiempo de trabajar ac\xE1"
+    - character: avatar
+      state: reflexivo
+      text: "\xA1Pero yo no soy tan fan de la lectura!"
+    - character: marian
+      state: reflexivo
+      text: "Pero est\xE1 en nuestra familia. "
+    - character: marian
+      state: reflexivo
+      text: "La abuela, tu madre y yo te le\xEDmos muchos cuentos desde que eras chica"
+    - character: marian
+      state: reflexivo
+      text: "Pero no es solo eso, adem\xE1s es algo que sucede en este colegio"
+    - character: avatar
+      state: reflexivo
+      text: "Como mundos que se cruzan, \xBFno? \xA1Guau!"
+    - character: marian
+      state: reflexivo
+      text: "Guau, s\xED, \xA1ten\xE9s raz\xF3n en ladrar! Ja, ja"
+    - character: marian
+      state: reflexivo
+      text: "\xA1Ten\xEDa mucha curiosidad por saber si podr\xEDas percibirlo!"
+    - character: avatar
+      state: reflexivo
+      text: "Ya veo, \xA1por eso repartiste el material de ingreso por todo el colegio!"
+    - character: marian
+      state: reflexivo
+      text: Claro, por eso y para que ejercitaras
+    - character: marian
+      state: reflexivo
+      text: "Porque ya sab\xE9s que tambi\xE9n me gustar\xEDa que entres ac\xE1"
+    - character: marian
+      state: reflexivo
+      text: "Quisiera tenerte m\xE1s cerca, a vos y a tu mam\xE1"
+    - character: avatar
+      state: reflexivo
+      text: "T\xEDa, yo te agradezco un mont\xF3n, pero sigo sin saber si quiero rendir
+        el ingreso..."
+    - character: avatar
+      state: reflexivo
+      text: "O si puedo\u2026 \xA1Espero que no te enojes conmigo!"
+    - character: marian
+      state: contento
+      text: "Claro que no, sobri, ya s\xE9 que son muchos cambios para vos"
+    - character: marian
+      state: contento
+      text: "Por lo pronto me gustar\xEDa que te animes a dar el ingreso"
+    - character: marian
+      state: reflexivo
+      text: "Ya habr\xE1 tiempo para pensar en lo dem\xE1s, \xBFs\xED?"
+    - character: avatar
+      state: contento
+      text: "\xA1S\xED!"
 --- !u!114 &114132969967853722
 MonoBehaviour:
   m_ObjectHideFlags: 0

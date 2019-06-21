@@ -29,7 +29,7 @@ public class DialoguesData : MonoBehaviour {
 	public Content content;
 
 	void Start () {
-		//if(Data.Instance.reloadJson)
+		if(Data.Instance.reloadJson)
 		StartCoroutine(LoadJson ());
 	}
 	IEnumerator LoadJson()
