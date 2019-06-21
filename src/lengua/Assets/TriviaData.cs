@@ -188,7 +188,7 @@ public class TriviaData : MonoBehaviour {
 		} else
 			text = System.IO.File.ReadAllText(filePath);
 
-		//Debug.Log (text);
+		Debug.Log (text);
 		antologia = JsonHelper.FromJson<Antologia> (text);
 
 		triviaProgress.Clear ();

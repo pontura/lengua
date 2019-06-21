@@ -26,7 +26,10 @@ public class InventaryUI : MonoBehaviour {
 		Events.AddToInventary += AddToInventary;
 		Events.UseItem += UseItem;
 		Events.OnFloorClicked += OnFloorClicked;
-	}
+
+        if (Data.Instance.inventary.GetTotalLibros() > 0)
+            inventaryButton.gameObject.SetActive(true);
+    }
 	void OnDestroy()
 	{
 		Events.InventoryButtonClicked -= InventoryButtonClicked;
