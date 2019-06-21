@@ -526,7 +526,7 @@ MonoBehaviour:
   - image: {fileID: 21300000, guid: 79117b0333d001d48bfe306536307de6, type: 3}
     gameProgressKey: tijeras
     isLibro: 0
-  - image: {fileID: 21300000, guid: 9019909596de16f42ad0ae074b1a73b7, type: 3}
+  - image: {fileID: 21300000, guid: 73916aa5c713b2b4e8f02a7126e744c9, type: 3}
     gameProgressKey: cuadernoPatio3
     isLibro: 1
   - image: {fileID: 21300000, guid: 33fa1c9c06872fe4b91d5bebe078f1ba, type: 3}
