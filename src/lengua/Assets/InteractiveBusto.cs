@@ -68,6 +68,7 @@ public class InteractiveBusto : InteractiveObject
             {
                 state_complete.SetActive(true);
                 Events.OnSaveNewData(gameProgressKey, 1);
+                Events.OnSaveNewData("cuadernoAltillo2", 1);
                 Events.OnTexts(content.cuadernoAltillo2, "inventary/cuadernoAltillo2", OnDone);
             }
             else
