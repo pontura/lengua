@@ -53984,7 +53984,7 @@ MonoBehaviour:
   cameraSize: 1.61
   type: 4
   limitsX: {x: -2.96, y: 2.35}
-  limitsZ: {x: 2.61, y: -7.35}
+  limitsZ: {x: 2.61, y: 0.7}
 --- !u!1 &3153128874536561659
 GameObject:
   m_ObjectHideFlags: 0

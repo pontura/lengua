@@ -63,10 +63,16 @@ public class InteractiveCat : InteractiveObject
 		} else {
 			Events.OnTip (Data.Instance.interactiveObjectsTexts.content.GetValue("catSinOrigami"));
 			SetState (angry);
+            Invoke("ResetCat", 2);
 		}
 		OnSetProgress (gameProgressValue);
 	}
-	void SetState(GameObject go)
+    void ResetCat()
+    {
+        SetState(normal);
+    }
+
+    void SetState(GameObject go)
 	{
 		normal.SetActive (false);
 		angry.SetActive (false);

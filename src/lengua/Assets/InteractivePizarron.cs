@@ -30,7 +30,7 @@ public class InteractivePizarron : InteractiveObject
 			state1.SetActive (false);
 			state2.SetActive (false);
 			complete.SetActive (true);
-			Events.OnTip (content.mapReady);
+			//Events.OnTip (content.mapReady);
 		}
 	}
 	int partsReady;
