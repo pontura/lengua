@@ -92,7 +92,6 @@ public class Data : MonoBehaviour
         if (esAlumno)
             FBase_Login(false);
 
-        PlayerPrefs.DeleteAll();
     }
 
     public void FBase_Login(bool firstLogin)
