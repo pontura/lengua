@@ -106,6 +106,9 @@ public class TriviaData : MonoBehaviour {
         if (reloadJson) {
             string filePath = Path.Combine(Application.streamingAssetsPath + "/", filename);
             StartCoroutine(LoadFile(filePath));
+        } else {
+            //Invoke("SetTriviaProgress",1);
+            SetTriviaProgress();
         }
 	}
 
@@ -130,14 +133,15 @@ public class TriviaData : MonoBehaviour {
 			if (j < triviaProgress.Count - 1)
 				data += "" + elementSep;
 			
-		}		
+		}
+        Debug.Log("save: " + data);
 		PlayerPrefs.SetString ("TriviaProgress", data);
 	}
 
 	bool LoadProgress(){
 		string d = PlayerPrefs.GetString ("TriviaProgress");
 
-		//Debug.Log (d);
+		//Debug.Log ("load: "+d);
 
 		if (d == "")
 			return false;
@@ -154,7 +158,8 @@ public class TriviaData : MonoBehaviour {
 				tp.area = int.Parse(ss[3]);
 
 				string[] done = ss [5].Split (doneSep);
-				tp.triviasDone = new bool[done.Length];
+                //Debug.Log(done);
+                tp.triviasDone = new bool[done.Length];
 				if (tp.type == TriviaType.normativa) {
 					tp.triviasIndex = int.Parse(ss[4]);
 					for (int i = 0; i < done.Length; i++) {
@@ -175,47 +180,50 @@ public class TriviaData : MonoBehaviour {
 
 	}
 
-	IEnumerator LoadFile(string filePath) {
-		string text = "";
-		if (filePath.Contains("://")) {
-			using (WWW www = new WWW(filePath))
-			{
-				yield return www;
+    IEnumerator LoadFile(string filePath) {
+        string text = "";
+        if (filePath.Contains("://")) {
+            using (WWW www = new WWW(filePath)) {
+                yield return www;
 
-				if (string.IsNullOrEmpty (www.error)) {
-					text = System.Text.Encoding.UTF8.GetString (www.bytes, 3, www.bytes.Length - 3);  // Skip thr first 3 bytes (i.e. the UTF8 BOM)
-				} else {
-					text = www.text;
-				}
-			}
-		} else
-			text = System.IO.File.ReadAllText(filePath);
+                if (string.IsNullOrEmpty(www.error)) {
+                    text = System.Text.Encoding.UTF8.GetString(www.bytes, 3, www.bytes.Length - 3);  // Skip thr first 3 bytes (i.e. the UTF8 BOM)
+                } else {
+                    text = www.text;
+                }
+            }
+        } else
+            text = System.IO.File.ReadAllText(filePath);
 
-		Debug.Log (text);
-		antologia = JsonHelper.FromJson<Antologia> (text);
+        Debug.Log(text);
+        antologia = JsonHelper.FromJson<Antologia>(text);
 
-		triviaProgress.Clear ();
+        SetTriviaProgress();
+    }
 
-		if (!LoadProgress ()) {
+    void SetTriviaProgress() {
+        triviaProgress.Clear();
 
-			for (int i = 0; i < antologia.Length; i++) {
-				TriviaProgress tp = new TriviaProgress ();
-				tp.id = antologia [i].id;
-				tp.gameprogress_name = antologia [i].gameprogress_name;
-				tp.type = antologia [i].type;
-				if (antologia [i].type == TriviaType.literatura)
-					tp.triviasDone = new bool[antologia [i].trivias.Length];
-				else {
-					tp.triviasDone = new bool[antologia [i].texts [0].textlines.Length];
-					for (int j = 0; j < antologia [i].texts [0].textlines.Length; j++)
-						antologia [i].texts [0].textlines [j] = "{" + j + "}" + antologia [i].texts [0].textlines [j];
-				}
-				tp.area = antologia [i].area;
-				tp.state = TriviaState.idle;
-				triviaProgress.Add (tp);
-			}
-		}
-	}
+        if (!LoadProgress()) {
+
+            for (int i = 0; i < antologia.Length; i++) {
+                TriviaProgress tp = new TriviaProgress();
+                tp.id = antologia[i].id;
+                tp.gameprogress_name = antologia[i].gameprogress_name;
+                tp.type = antologia[i].type;
+                if (antologia[i].type == TriviaType.literatura)
+                    tp.triviasDone = new bool[antologia[i].trivias.Length];
+                else {
+                    tp.triviasDone = new bool[antologia[i].texts[0].textlines.Length];
+                    for (int j = 0; j < antologia[i].texts[0].textlines.Length; j++)
+                        antologia[i].texts[0].textlines[j] = "{" + j + "}" + antologia[i].texts[0].textlines[j];
+                }
+                tp.area = antologia[i].area;
+                tp.state = TriviaState.idle;
+                triviaProgress.Add(tp);
+            }
+        }
+    }
 
 	public Antologia GetAntologiaByGProgress(string gameprogress_name){
 		Antologia a = Array.Find (antologia, x => x.gameprogress_name == gameprogress_name);

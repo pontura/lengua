@@ -133,7 +133,8 @@ public class TriviaManager : MonoBehaviour {
 				if (tProgress.type == TriviaData.TriviaType.normativa) {
 					asource.pitch = 1f;
 					asource.PlayOneShot (winTrivia);
-					Events.OnBookComplete ();
+                    Data.Instance.triviaData.SaveProgress();
+                    Events.OnBookComplete ();
 					return;
 				}
 				
@@ -142,14 +143,15 @@ public class TriviaManager : MonoBehaviour {
 					tProgress.state = TriviaData.TriviaState.complete;
 					asource.pitch = 1f;
 					asource.PlayOneShot (winTrivia);
-					Events.OnBookComplete ();
+                    Data.Instance.triviaData.SaveProgress();
+                    Events.OnBookComplete ();
 					return;
 				} else {
 					asource.pitch = 1f;
 					asource.PlayOneShot (correctoSfx);
-				}			
-
-				Data.Instance.triviaData.SaveProgress ();
+                    Data.Instance.triviaData.SaveProgress();
+                }
+				
 				correcto.SetActive (true);
 			} else {
 				asource.pitch = 1f;
