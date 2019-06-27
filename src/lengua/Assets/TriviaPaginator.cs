@@ -103,7 +103,7 @@ namespace TMPro.Examples
 			pages.Clear ();
 
 			string page = "";
-			Debug.Log (textlines.Length);
+			//Debug.Log (textlines.Length);
 
 			bool nextpage = false;
 			bool changePage = false;

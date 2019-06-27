@@ -29,7 +29,7 @@ public class Trivia : MonoBehaviour
     {
         this.gameProgressKey = gameProgressKey;
         TriviaData.TriviaState ts = Data.Instance.triviaData.GetStateByGProgress(gameProgressKey);
-        Debug.Log("gameProgressKey: " + gameProgressKey + " state: " + ts);
+        //Debug.Log("gameProgressKey: " + gameProgressKey + " state: " + ts);
         if (ts == TriviaData.TriviaState.idle || ts == TriviaData.TriviaState.done)
         {
             Events.SetTrivia(gameProgressKey);

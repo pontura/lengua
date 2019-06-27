@@ -134,7 +134,7 @@ public class TriviaData : MonoBehaviour {
 				data += "" + elementSep;
 			
 		}
-        Debug.Log("save: " + data);
+        //Debug.Log("save: " + data);
 		PlayerPrefs.SetString ("TriviaProgress", data);
 	}
 
@@ -239,7 +239,7 @@ public class TriviaData : MonoBehaviour {
 		TriviaProgress a = triviaProgress.Find(x => x.gameprogress_name == gameprogress_name);
 
 	//	Debug.Log (Time.realtimeSinceStartup - a.lastBadAnswerTime + " state: " + a.state);
-		Debug.Log("gameprogress_name " + gameprogress_name);
+	//	Debug.Log("gameprogress_name " + gameprogress_name);
 
 		if (a.state == TriviaState.complete)
 			return a.state;
