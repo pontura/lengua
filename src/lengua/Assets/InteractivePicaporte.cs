@@ -10,8 +10,19 @@ public class InteractivePicaporte : InteractiveObject {
 	public GameObject state_ganar;
 	public GameObject state_abrir;
 	public GameObject state_abierta;
+    public GameObject state_cerrada;
 
-	public override void OnClicked() 
+    void Awake() {
+        if (Data.Instance.gameProgress.GetData("cutscenes").value > 0) {
+            state_romper.SetActive(false);
+            state_ganar.SetActive(false);
+            state_abrir.SetActive(false);
+            state_abierta.SetActive(false);
+            state_cerrada.SetActive(true);
+        }
+    }
+
+    public override void OnClicked() 
 	{ 
 		
 	}
@@ -44,22 +55,27 @@ public class InteractivePicaporte : InteractiveObject {
 	public override void OnSetProgress(int value) 
 	{	
 		state_abierta.SetActive (false);
-		if (value == 2) {
+        
+        
+        if (value == 2) {
 			state_romper.SetActive (false);
 			state_ganar.SetActive (true);
 			state_abrir.SetActive (false);
 			state_abierta.SetActive (false);
-		} else if (value == 3) {
+            state_cerrada.SetActive(false);
+        } else if (value == 3) {
 			state_abrir.SetActive (true);
 			state_ganar.SetActive (false);
 			state_romper.SetActive (false);
 			state_abierta.SetActive (false);
-		} else if (value == 4) {
+            state_cerrada.SetActive(false);
+        } else if (value == 4) {
 			state_abrir.SetActive (false);
 			state_ganar.SetActive (false);
 			state_romper.SetActive (false);
 			state_abierta.SetActive (true);
-		}
+            state_cerrada.SetActive(false);
+        }
 	}
 	void OnRepaired()
 	{

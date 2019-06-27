@@ -38,11 +38,13 @@ public class Inventary : MonoBehaviour {
 	void OnRefreshInventary()
 	{
 		foreach (Item item in allItems) {
-			if (Data.Instance.gameProgress.GetData (item.gameProgressKey).value == 1 || (Data.Instance.gameProgress.GetData(item.gameProgressKey).value == 2 && item.isLibro)) {
-				//print (item.gameProgressKey + "__" + Data.Instance.gameProgress.GetData (item.gameProgressKey).value);                
+			if (Data.Instance.gameProgress.GetData (item.gameProgressKey).value == 1 
+                || (Data.Instance.gameProgress.GetData(item.gameProgressKey).value == 2 && item.isLibro)) {
+				print (item.gameProgressKey + "__" + Data.Instance.gameProgress.GetData (item.gameProgressKey).value);                
 				AddToInventary (item.gameProgressKey);
 			}
 		}
+        //Debug.LogError("ACA");
 	}
 	void AddToInventary (string gameProgressKey) {
 		foreach (Item item in allItems)

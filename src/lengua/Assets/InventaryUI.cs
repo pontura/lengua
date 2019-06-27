@@ -29,6 +29,11 @@ public class InventaryUI : MonoBehaviour {
 
         if (Data.Instance.inventary.GetTotalLibros() > 0)
             inventaryButton.gameObject.SetActive(true);
+
+        foreach (Inventary.Item item in Data.Instance.inventary.allItems) {
+            if(Data.Instance.gameProgress.GetData(item.gameProgressKey).value==1)
+                AddToInventary(item);
+        }
     }
 	void OnDestroy()
 	{

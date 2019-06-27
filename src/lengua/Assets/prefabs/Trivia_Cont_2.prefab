@@ -3500,7 +3500,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0.75
-  m_Text: "Ten\xE9 volver a intentarlo."
+  m_Text: "Volv\xE9 a intentarlo nuevamente."
 --- !u!1 &6768032780322086391
 GameObject:
   m_ObjectHideFlags: 0

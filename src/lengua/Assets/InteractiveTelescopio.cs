@@ -112,5 +112,6 @@ public class InteractiveTelescopio : InteractiveObject
     void OnDone()
     {
         Events.OpenTrivia("libro_altillo_2");
+        Events.OnSaveNewData("libro_altillo_2", 1);
     }
 }

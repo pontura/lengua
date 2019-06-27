@@ -489,7 +489,172 @@
 		{
 			"character":"Joaco",
 			"emoji":"",
-			"text": "Dialogo 1 lab con Joaco"
+			"text": "¿Holaaaaa? ¿Hay vida en ese planeta?"
+		},
+		{
+			"character":"Joaco",
+			"emoji":"",
+			"text": "¿Estás bien?"
+		},
+		{
+			"character":"Joaco",
+			"emoji":"",
+			"text": "¿Se te pasó la mala onda?"
+		},
+		{
+			"character":"Yo",
+			"emoji":"",
+			"text": "..."
+		},
+		{
+			"character":"Yo",
+			"emoji":"",
+			"text": "La mala onda la tenés vos, que te da igual si me mudo y no nos vemos más"
+		},
+		{
+			"character":"Joaco",
+			"emoji":"icons03",
+			"text": ""
+		},
+		{
+			"character":"Joaco",
+			"emoji":"",
+			"text": "¿Estás loki? ¿De dónde sacaste eso?"
+		},
+		{
+			"character":"Yo",
+			"emoji":"",
+			"text": "¡Si te pareció re bien que pueda entrar a este colegio!"
+		},
+		{
+			"character":"Joaco",
+			"emoji":"",
+			"text": "Pará, pará, pará. ¡Yo nunca dije eso!"
+		},
+		{
+			"character":"Yo",
+			"emoji":"",
+			"text": "¿Cómo que no?"
+		},
+		{
+			"character":"Joaco",
+			"emoji":"",
+			"text": "Te dije que ese lugar parecía bueno y que podía estar bien que entres"
+		},
+		{
+			"character":"Joaco",
+			"emoji":"",
+			"text": "Pero eso no quiere decir que no me importes..."
+		},
+		{
+			"character":"Yo",
+			"emoji":"icons04",
+			"text": ""
+		},
+		{
+			"character":"Yo",
+			"emoji":"",
+			"text": "Ah, ¿no?"
+		},
+		{
+			"character":"Joaco",
+			"emoji":"icons02",
+			"text": ""
+		},
+		{
+			"character":"Joaco",
+			"emoji":"",
+			"text": "¡Sos mi mejor amige pero a veces sos muy tarade!"
+		},
+		{
+			"character":"Joaco",
+			"emoji":"",
+			"text": "¡Más vale que me importás! "
+		},
+		{
+			"character":"Yo",
+			"emoji":"",
+			"text": "Bueno, es que pensé que..."
+		},
+		{
+			"character":"Yo",
+			"emoji":"",
+			"text": "Es que vos a mí también me importás!"
+		},
+		{
+			"character":"Yo",
+			"emoji":"",
+			"text": "¡Sos mi amigo del alma, salame!"
+		},
+		{
+			"character":"Joaco",
+			"emoji":"",
+			"text": "¡Más vale! Por eso mismo es que quiero que te vaya bien, bobi"
+		},
+		{
+			"character":"Joaco",
+			"emoji":"",
+			"text": "Aunque nos veamos menos y eso sea un bajón"
+		},
+		{
+			"character":"Joaco",
+			"emoji":"icons08",
+			"text": ""
+		},
+		{
+			"character":"Joaco",
+			"emoji":"icons09",
+			"text": "¡Qué manera de tirarnos flores, ¿eh?!"
+		},
+		{
+			"character":"Yo",
+			"emoji":"",
+			"text": "icons01"
+		},
+		{
+			"character":"Yo",
+			"emoji":"",
+			"text": "icons08"
+		},
+		{
+			"character":"Joaco",
+			"emoji":"icons08",
+			"text": ""
+		},
+		{
+			"character":"Joaco",
+			"emoji":"",
+			"text": "Me estoy por quedar sin batería"
+		},
+		{
+			"character":"Joaco",
+			"emoji":"",
+			"text": "¡Menos mal porque un poco más y nos pedimos casamiento ya!"
+		},
+		{
+			"character":"Joaco",
+			"emoji":"icons11",
+			"text": ""
+		},
+		{
+			"character":"Yo",
+			"emoji":"",
+			"text": "icons06"
+		},
+		{
+			"character":"Yo",
+			"emoji":"¡Después hablamos y te cuento TODO!",
+			"text": ""
+		},
+		{
+			"character":"Joaco",
+			"emoji":"icons06",
+			"text": ""
+		},
+		{
+			"character":"Joaco",
+			"emoji":"icons10",
+			"text": ""
 		}
 	],
 	"lab2":
@@ -497,7 +662,82 @@
 		{
 			"character":"marian",
 			"emoji":"",
-			"text": "Dialogo 2 lab con marian"
+			"text": "¿Cómo vas?..."
+		},
+		{
+			"character":"Yo",
+			"emoji":"icons03",
+			"text": "¡Tía, el laboratorio es rarísimo!"
+		},
+		{
+			"character":"Yo",
+			"emoji":"",
+			"text": "¿Puede ser que los químicos de acá hayan afectado mi inocente cerebro?"
+		},
+		{
+			"character":"marian",
+			"emoji":"icons11",
+			"text": ""
+		},
+		{
+			"character":"marian",
+			"emoji":"",
+			"text": "¡Te dije que el colegio es especial!"
+		},
+		{
+			"character":"Yo",
+			"emoji":"",
+			"text": "Pero una cosa es “especial” y otra cosa es “LA LOCURA”"
+		},
+		{
+			"character":"Yo",
+			"emoji":"",
+			"text": "Los pajaritos de origami vuelan, hay huesos de dragón..."
+		},
+		{
+			"character":"Yo",
+			"emoji":"",
+			"text": "¡¿Y el caldero que parece salido de un cuento de brujas?!"
+		},
+		{
+			"character":"Yo",
+			"emoji":"",
+			"text": "¿Qué ondaaaaaaaa?"
+		},
+		{
+			"character":"marian",
+			"emoji":"icons04",
+			"text": ""
+		},
+		{
+			"character":"marian",
+			"emoji":"",
+			"text": "Falta muy poco para saber la verdad..."
+		},
+		{
+			"character":"marian",
+			"emoji":"",
+			"text": "Para que el misterio se revele"
+		},
+		{
+			"character":"Yo",
+			"emoji":"icons03",
+			"text": ""
+		},
+		{
+			"character":"marian",
+			"emoji":"icons11",
+			"text": ""
+		},
+		{
+			"character":"marian",
+			"emoji":"",
+			"text": "Solo queda el laboratorio y el altillo de la mapoteca"
+		},
+		{
+			"character":"marian",
+			"emoji":"",
+			"text": "¡Suerte y paciencia que ya casi estás!"
 		}
 	]
 }
