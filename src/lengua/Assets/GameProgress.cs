@@ -15,7 +15,7 @@ public class GameProgress : MonoBehaviour {
 	}
 	public Item[] items;
 
-	void Start () {
+	void Awake () {
 		if (ResetProgress)
 			PlayerPrefs.DeleteAll ();
 		Events.OnSaveNewData += OnSaveNewData;
@@ -23,8 +23,9 @@ public class GameProgress : MonoBehaviour {
 	}
 	void SetValues()
 	{
-		foreach(Item item in items)
-			item.value = PlayerPrefs.GetInt (item.name, 0);
+        foreach (Item item in items)
+            item.value = PlayerPrefs.GetInt(item.name, 0);
+        Events.OnGameProgressLoaded();
 	}
 	void OnSaveNewData(string itemName, int value)
 	{

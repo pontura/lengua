@@ -47,6 +47,8 @@ public static class Events {
 	public static System.Action<bool> PhoneMusic = delegate {};
 
 	public static System.Action<string,long> LogEvent = delegate {};
-	public static System.Action<bool> ShowCredits = delegate {};
+    public static System.Action<bool> ShowCredits = delegate { };
+
+    public static System.Action OnGameProgressLoaded = delegate { };
 }
 

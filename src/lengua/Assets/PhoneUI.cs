@@ -25,8 +25,8 @@ public class PhoneUI : MonoBehaviour {
 		asource = GetComponent<AudioSource> ();
 		Events.OnCuadernoWin += OnCuadernoWin;
 		Reset ();
-		if (gameProgress.GetData ("celular").value == 0)
-			panel.SetActive (false);
+		/*if (gameProgress.GetData ("celular").value == 0)
+			panel.SetActive (false);*/
 	}
 	void Update()
 	{

@@ -13,6 +13,19 @@ public class InteractivePicaporte : InteractiveObject {
     public GameObject state_cerrada;
 
     void Awake() {
+        Events.OnGameProgressLoaded += SetDoorState;
+        CloseDoor();
+    }
+
+    private void OnDestroy() {
+        Events.OnGameProgressLoaded -= SetDoorState;
+    }
+
+    void SetDoorState() {
+        CloseDoor();
+    }
+
+    void CloseDoor() {
         if (Data.Instance.gameProgress.GetData("cutscenes").value > 0) {
             state_romper.SetActive(false);
             state_ganar.SetActive(false);

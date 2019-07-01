@@ -30,7 +30,7 @@ public class InteractiveEscaleraMapoteca : InteractiveObject
 				Events.OnTexts (content.usarG, "inventary/" + itemToBeUsed, OnUsed);
 				return;
 			} else {
-				Events.OnTip (content.puertaMapoteca);
+				Events.OnTip (content.ladder_1);
 			}
 		} 
 		OnSetProgress (gameProgressValue);
