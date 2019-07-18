@@ -36,6 +36,8 @@ public class InteractiveObjectsTexts : MonoBehaviour
                     return libro_mapoteca_3;
                 case "lobo":
                     return lobo;
+                case "lobos":
+                    return lobos;
                 case "minimap_2":
                     return minimap_2;
                 case "tarjeta":
