@@ -25,7 +25,7 @@ RectTransform:
   m_GameObject: {fileID: 111938042321850842}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.85, y: 0.85, z: 0.85}
   m_Children:
   - {fileID: 724653201368352548}
   - {fileID: 5367350663016055334}
@@ -142,7 +142,7 @@ RectTransform:
   m_GameObject: {fileID: 1623262354950871416}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.85, y: 0.85, z: 0.85}
   m_Children:
   - {fileID: 6841637359810760223}
   - {fileID: 367874556998732020}
@@ -406,7 +406,7 @@ RectTransform:
   m_GameObject: {fileID: 6230283995135150170}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.9, y: 0.9, z: 0.9}
   m_Children:
   - {fileID: 8023540570322099585}
   - {fileID: 3532757590658888282}
@@ -1189,7 +1189,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 405, y: -0.000030517578}
+  m_AnchoredPosition: {x: 350, y: -0.000030517578}
   m_SizeDelta: {x: 80, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6843808695129694573
@@ -1746,10 +1746,10 @@ RectTransform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &6663625108954066273
 MonoBehaviour:
@@ -2379,7 +2379,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 113.405396, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &6767509783740167577
 GameObject:
@@ -2418,7 +2418,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -395, y: 0}
+  m_AnchoredPosition: {x: -350, y: 0}
   m_SizeDelta: {x: 80, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6843360797967658279
@@ -2538,15 +2538,15 @@ RectTransform:
   m_GameObject: {fileID: 6767525212089954963}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 10, y: 10, z: 10}
   m_Children: []
   m_Father: {fileID: 6841068635037292049}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 15.099609, y: 1.3999939}
-  m_SizeDelta: {x: 888.6, y: 541.2}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6843771854975578383
 CanvasRenderer:
@@ -2941,7 +2941,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 327, y: -253}
+  m_AnchoredPosition: {x: 300, y: -239}
   m_SizeDelta: {x: 69, y: 58}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6843369999366956009
@@ -3609,7 +3609,7 @@ RectTransform:
   m_GameObject: {fileID: 6768756723990437339}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.0000055, y: 1.0000055, z: 1.0000055}
+  m_LocalScale: {x: 0.85, y: 0.85, z: 0.85}
   m_Children:
   - {fileID: 6768756724817349114}
   - {fileID: 6841252476157669767}
@@ -3618,7 +3618,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -180, y: 25}
+  m_AnchoredPosition: {x: -160, y: 25}
   m_SizeDelta: {x: 330, y: 400}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6768756723990437337
@@ -3649,29 +3649,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: "A veces, la vida se comporta como un viento: desordena y arrasa. Algo susurra
-    pero no se le entiende. A su paso todo peligra; hasta lo que tiene ra\xEDces.
-    Los edificios, por ejemplo. O las costumbres cotidianas. \r\nCuando la vida se
-    comporta de ese modo, se nos ensucian los ojos con los que vemos. Es decir, los
-    verdaderos ojos. A nuestro lado, pasan papeles escritos con una letra que creemos
-    reconocer. El cielo se mueve m\xE1s r\xE1pido que las horas. Y lo peor es que
-    nadie sabe si, alguna vez, regresara la calma. \r\nAs\xED ocurri\xF3 el d\xEDa
-    que su pap\xE1 se fue de casa. La vida se nos transform\xF3 en viento casi sin
-    dar aviso. Yo recuerdo la puerta que se cerr\xF3 detr\xE1s de su sombra y sus
-    valijas. Tambi\xE9n puedo recordar la ropa reseca sacudi\xE9ndose al sol mientras
-    mam\xE1 cerraba las ventanas para que, adentro y adentro, algo quedara en su sitio.
-    \r\n- Le dije a Ricardo que viniera con su hijo. \xBFQu\xE9 te parece?\r\n- Me
-    parece bien - ment\xED. \r\nMam\xE1 dej\xF3 de pulir la bandeja, y me mir\xF3:
-    \r\n- No me lo est\xE1s diciendo muy convencida... \r\n- Yo no tengo que estar
-    convencida. \r\n- \xBFY eso que significa? - pregunt\xF3 la mujer que m\xE1s preguntas
-    me hizo en mi vida. \r\nMe vi obligada a levantar los ojos del libro: \r\n- Significa
-    que es tu cumplea\xF1os, y no el m\xED\xF3 - respond\xED. \r\nLa gata sali\xF3
-    de su canasto, y fue a enredarse entre las piernas de mam\xE1. \r\nQue mam\xE1
-    tuviera novio era casi insoportable. Pero que ese novio tuviera un hijo era una
-    verdadera amenaza. Otra vez, un peligro rondaba mi vida. Otra vez hab\xEDa viento
-    en el horizonte. \r\n- Se van a entender bien - dijo mam\xE1 -. Juanjo tiene tu
-    edad.\r\nLa gata, \xFAnico ser que entend\xEDa mi desolaci\xF3n, salto sobre mis
-    rodillas. Gracias, gatita buena. \r\n"
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4d06d848b863cd44a869adb9e364cd72, type: 2}
   m_sharedMaterial: {fileID: 21416227167422598, guid: 4d06d848b863cd44a869adb9e364cd72,
@@ -3718,7 +3696,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 246
+  m_firstOverflowCharacterIndex: -1
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -3741,14 +3719,14 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 6768756723990437336}
-    characterCount: 1670
+    characterCount: 0
     spriteCount: 0
-    spaceCount: 323
-    wordCount: 310
+    spaceCount: 0
+    wordCount: 0
     linkCount: 0
-    lineCount: 85
-    pageCount: 1
-    materialCount: 2
+    lineCount: 0
+    pageCount: 0
+    materialCount: 1
   m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
@@ -3847,7 +3825,7 @@ RectTransform:
   m_GameObject: {fileID: 6768756724058306558}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.0000055, y: 1.0000055, z: 1.0000055}
+  m_LocalScale: {x: 0.85, y: 0.85, z: 0.85}
   m_Children:
   - {fileID: 6768756724189144536}
   m_Father: {fileID: 6841068635037292049}
@@ -3855,7 +3833,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 190, y: 25.000015}
+  m_AnchoredPosition: {x: 175, y: 25.000015}
   m_SizeDelta: {x: 330, y: 400}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6768756724058306556
@@ -3886,29 +3864,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: "A veces, la vida se comporta como un viento: desordena y arrasa. Algo susurra
-    pero no se le entiende. A su paso todo peligra; hasta lo que tiene ra\xEDces.
-    Los edificios, por ejemplo. O las costumbres cotidianas. \r\nCuando la vida se
-    comporta de ese modo, se nos ensucian los ojos con los que vemos. Es decir, los
-    verdaderos ojos. A nuestro lado, pasan papeles escritos con una letra que creemos
-    reconocer. El cielo se mueve m\xE1s r\xE1pido que las horas. Y lo peor es que
-    nadie sabe si, alguna vez, regresara la calma. \r\nAs\xED ocurri\xF3 el d\xEDa
-    que su pap\xE1 se fue de casa. La vida se nos transform\xF3 en viento casi sin
-    dar aviso. Yo recuerdo la puerta que se cerr\xF3 detr\xE1s de su sombra y sus
-    valijas. Tambi\xE9n puedo recordar la ropa reseca sacudi\xE9ndose al sol mientras
-    mam\xE1 cerraba las ventanas para que, adentro y adentro, algo quedara en su sitio.
-    \r\n- Le dije a Ricardo que viniera con su hijo. \xBFQu\xE9 te parece?\r\n- Me
-    parece bien - ment\xED. \r\nMam\xE1 dej\xF3 de pulir la bandeja, y me mir\xF3:
-    \r\n- No me lo est\xE1s diciendo muy convencida... \r\n- Yo no tengo que estar
-    convencida. \r\n- \xBFY eso que significa? - pregunt\xF3 la mujer que m\xE1s preguntas
-    me hizo en mi vida. \r\nMe vi obligada a levantar los ojos del libro: \r\n- Significa
-    que es tu cumplea\xF1os, y no el m\xED\xF3 - respond\xED. \r\nLa gata sali\xF3
-    de su canasto, y fue a enredarse entre las piernas de mam\xE1. \r\nQue mam\xE1
-    tuviera novio era casi insoportable. Pero que ese novio tuviera un hijo era una
-    verdadera amenaza. Otra vez, un peligro rondaba mi vida. Otra vez hab\xEDa viento
-    en el horizonte. \r\n- Se van a entender bien - dijo mam\xE1 -. Juanjo tiene tu
-    edad.\r\nLa gata, \xFAnico ser que entend\xEDa mi desolaci\xF3n, salto sobre mis
-    rodillas. Gracias, gatita buena. \r\n"
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4d06d848b863cd44a869adb9e364cd72, type: 2}
   m_sharedMaterial: {fileID: 21416227167422598, guid: 4d06d848b863cd44a869adb9e364cd72,
@@ -3955,7 +3911,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 246
+  m_firstOverflowCharacterIndex: -1
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -3978,14 +3934,14 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 6768756724058306559}
-    characterCount: 1670
+    characterCount: 0
     spriteCount: 0
-    spaceCount: 323
-    wordCount: 310
+    spaceCount: 0
+    wordCount: 0
     linkCount: 0
-    lineCount: 85
-    pageCount: 1
-    materialCount: 2
+    lineCount: 0
+    pageCount: 0
+    materialCount: 1
   m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
