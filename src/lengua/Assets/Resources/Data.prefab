@@ -77,7 +77,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b5519ce9a2bc034f8f8d9d38f594a7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ResetProgress: 1
+  ResetProgress: 0
   items:
   - name: picaporte
     value: 0
